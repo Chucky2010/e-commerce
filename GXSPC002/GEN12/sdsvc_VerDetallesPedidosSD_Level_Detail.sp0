@@ -1,0 +1,340 @@
+spec_i([ sdsvc,0,sdsvc_VerDetallesPedidosSD_Level_Detail,sdsvc_VerDetallesPedidosSD_Level_Detail,[],spa,'17_0_11-163677' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,maingen(12)).
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,parm([],[])).
+rule_i(0,parmio([])).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+ 
+a_i(1,0,d,t('Tipopagoid',23),[],[ 9,71,[ [ [ 9,9 ],[ 9,71 ] ],n,[ [ 9,many ] ],[],[],[ 71 ],[],[],[] ],noempty,'' ]).
+ 
+v_i(d,i,1,[]).
+v_i(d,o,1,'Tipopagoid').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(297,[ 'TipoPagoDato',char,40,0,'',0,l('Tipo Pago Dato'),'',0 ]).
+attri_i(71,[ 'TipoPagoNombre',char,80,0,'',0,l('Tipo Pago Nombre'),'',0 ]).
+attri_i(9,[ 'TipoPagoId',int,11,0,'ZZZZZZZZZZ9',0,l('Tipo Pago Id'),'',0 ]).
+attri_i('Pedidoscomprobanteobs',[ 'PedidosComprobanteObs',svchar,512,0,'',0,l('Pedidos Comprobante Obs'),'',16 ]).
+attri_i('Pedidosimagencomprobante',[ 'PedidosImagenComprobante',bits,1024,0,'',0,l('Pedidos Imagen Comprobante'),'',15 ]).
+attri_i('Tipopagoid',[ 'TipoPagoId',int,11,0,'ZZZZZZZZZZ9',0,l('Tipo Pago Id'),'',14 ]).
+attri_i('Pedidosfecha',[ 'PedidosFecha',date,8,0,'99/99/99',0,l('Pedidos Fecha'),'',13 ]).
+attri_i('Pedidosdetallecantidad',[ 'PedidosDetalleCantidad',int,5,0,'ZZZZ9',0,l('Pedidos Detalle Cantidad'),'',12 ]).
+attri_i('Pedidosdetalletallaid',[ 'PedidosDetalleTallaID',int,11,0,'ZZZZZZZZZZ9',0,l('Pedidos Detalle Talla ID'),'',11 ]).
+attri_i('Articulonombre',[ 'ArticuloNombre',char,80,0,'',0,l('Articulo Nombre'),'',10 ]).
+attri_i('Articuloid',[ 'ArticuloId',int,11,0,'ZZZZZZZZZZ9',0,l('Articulo Id'),'',9 ]).
+attri_i('Pedidosid',[ 'PedidosID',int,11,0,'ZZZZZZZZZZ9',0,l('Pedidos ID'),'',8 ]).
+attri_i('Pedidosdetalleid',[ 'PedidosDetalleID',int,11,0,'ZZZZZZZZZZ9',0,l('Pedidos Detalle ID'),'',7 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,l('Security Functionality Keys'),'',6 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,l('Is Authorized'),'',5 ]).
+ 
+table_i(9,[ 'TipoPago',[ 9,71,297 ],l('Tipo Pago'),'TipoPago' ]).
+ 
+index_i(9,[ 'ITIPOPAGO',u,[ 9 ],'ITipoPago' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_comp_i(17,'Controlname','Grid',v,[ str ]).
+html_comp_i(17,'Sflrender',sdsmartgrid,v,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(1,0,window,[ ctlname('Form') ]).
+lit_i(2,0,appbar,[ ctlname('Applicationbar') ]).
+lit_i(3,0,table(3),[ ctlname('Maintable') ]).
+lit_i(4,0,tabcontrol,[ ctlname('Tabspanel_informationtabs') ]).
+lit_i(5,0,tabpage,[ ctlname('Section1tab') ]).
+lit_i(6,0,tabpage,[ ctlname('Section2tab') ]).
+lit_i(7,0,table(7),[ ctlname('Section1tabtable') ]).
+lit_i(8,0,table(8),[ ctlname('Section1table') ]).
+lit_i(9,0,t('Pedidosid',23),[ ctrltype(edit,9),ctlname('&Pedidosid') ]).
+lit_i(10,0,t('Pedidosfecha',23),[ ctrltype(edit,10),ctlname('&Pedidosfecha') ]).
+lit_i(11,0,t('Tipopagoid',23),[ ctrltype(dyncombo,11),ctlname('&Tipopagoid') ]).
+lit_i(12,0,t('Pedidosimagencomprobante',23),[ ctrltype(bitmap,12),ctlname('&Pedidosimagencomprobante') ]).
+lit_i(13,0,t('Pedidoscomprobanteobs',23),[ ctrltype(edit,13),ctlname('&Pedidoscomprobanteobs') ]).
+lit_i(14,0,button(''''),[ ctlname('Btnuseraction1') ]).
+lit_i(15,0,table(15),[ ctlname('Section2tabtable') ]).
+lit_i(16,0,table(16),[ ctlname('Table') ]).
+lit_i(17,0,s(17),[ ctrltype(sdsmartgrid),ctlname('Grid') ]).
+lit_i(18,0,table(18),[ ctlname('Gridlayouttable') ]).
+lit_i(19,0,table(19),[ ctlname('Cardbox') ]).
+lit_i(20,0,table(20),[ ctlname('Cardinfocontainer') ]).
+lit_i(21,0,s(t('Pedidosdetalleid',23),17),[ ctrltype(edit,21),ctlname('&Pedidosdetalleid') ]).
+lit_i(22,0,s(t('Articuloid',23),17),[ ctrltype(edit,22),ctlname('&Articuloid') ]).
+lit_i(23,0,s(t('Articulonombre',23),17),[ ctrltype(edit,23),ctlname('&Articulonombre') ]).
+lit_i(24,0,s(t('Pedidosdetalletallaid',23),17),[ ctrltype(edit,24),ctlname('&Pedidosdetalletallaid') ]).
+lit_i(25,0,s(t('Pedidosdetallecantidad',23),17),[ ctrltype(edit,25),ctlname('&Pedidosdetallecantidad') ]).
+lit_i(26,0,reserved,[ ctlname('Slide') ]).
+lit_i(27,0,reserved,[ ctlname('Split') ]).
+lit_i(28,0,reserved,[ ctlname('Flip') ]).
+lit_i(29,0,reserved,[ ctlname('Cascade') ]).
+lit_i(30,0,reserved,[ ctlname('Tabs') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ctrl_info_i(1,9,[ [ 51,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(1,10,[ [ 246,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(1,13,[ [ 295,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(1,21,[ [ 52,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(1,22,[ [ 13,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(1,23,[ [ 76,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(1,24,[ [ 293,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(1,25,[ [ 245,0,sort,[],[],0,0,5,0,0 ] ]).
+ 
+ 
+calling_main_i(37,4).
+calling_main_i(37,4).
+ 
+att_prop_i(2,9,'ExternalName','TipoPagoId',d).
+att_prop_i(2,9,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,9,'EmptyAsNull','Yes',d).
+att_prop_i(2,9,idBasedOn,90,v).
+att_prop_i(2,9,'AUTONUMBER','0',d).
+att_prop_i(2,9,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,9,'AttRegEx','',d).
+att_prop_i(2,9,'AttValidationFailedMsg','',d).
+att_prop_i(2,9,'DownloadOffline','0',d).
+att_prop_i(2,9,'VarServiceExtName','',d).
+att_prop_i(2,9,'FullName','TipoPagoId',v).
+att_prop_i(2,71,'ExternalName','TipoPagoNombre',d).
+att_prop_i(2,71,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,71,'EmptyAsNull','Yes',d).
+att_prop_i(2,71,idBasedOn,192,v).
+att_prop_i(2,71,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,71,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,71,'AttRegEx','',d).
+att_prop_i(2,71,'AttValidationFailedMsg','',d).
+att_prop_i(2,71,'DownloadOffline','0',d).
+att_prop_i(2,71,'VarServiceExtName','',d).
+att_prop_i(2,71,'FullName','TipoPagoNombre',v).
+att_prop_i(2,297,'ExternalName','TipoPagoDato',d).
+att_prop_i(2,297,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,297,'EmptyAsNull','Yes',d).
+att_prop_i(2,297,idBasedOn,'',d).
+att_prop_i(2,297,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,297,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,297,'AttRegEx','',d).
+att_prop_i(2,297,'AttValidationFailedMsg','',d).
+att_prop_i(2,297,'DownloadOffline','0',d).
+att_prop_i(2,297,'VarServiceExtName','',d).
+att_prop_i(2,297,'FullName','TipoPagoDato',v).
+ 
+tbl_prop_i(2,9,'DirSubor',[ [ 16,[ 9 ] ],[ 47,[ 9 ] ] ],v).
+ 
+tbl_att_prop_i(2,9,9,'AllowNulls',n).
+tbl_att_prop_i(2,9,71,'AllowNulls',n).
+tbl_att_prop_i(2,9,297,'AllowNulls',n).
+ 
+var_prop_i(2,'Securityfunctionalitykeys',idBasedOn,88,v).
+var_prop_i(2,'Pedidosdetalleid',idBasedOn,'',v).
+var_prop_i(2,'Pedidosid',idBasedOn,'',v).
+var_prop_i(2,'Articuloid',idBasedOn,'',v).
+var_prop_i(2,'Articulonombre',idBasedOn,'',v).
+var_prop_i(2,'Pedidosdetalletallaid',idBasedOn,'',v).
+var_prop_i(2,'Pedidosdetallecantidad',idBasedOn,'',v).
+var_prop_i(2,'Pedidosfecha',idBasedOn,'',v).
+var_prop_i(2,'Tipopagoid',idBasedOn,'',v).
+var_prop_i(2,'Pedidosimagencomprobante',idBasedOn,'',v).
+var_prop_i(2,'Pedidoscomprobanteobs',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+security_permission_i(verdetallespedidossd_Execute,execute,service).
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(sdsvc,0,'SDSVC_VERDETALLESPEDIDOSSD_LEVEL_DETAIL','INTERNAL','').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

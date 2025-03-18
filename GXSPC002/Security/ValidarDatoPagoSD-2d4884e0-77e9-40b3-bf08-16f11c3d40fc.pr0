@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "validardatopagosd_Services_Execute",
+    "Description": "Validar Dato Pago SD Services",
+    "ProgramName": "validardatopagosd",
+    "IsGXAutomatic": true
+  }
+]

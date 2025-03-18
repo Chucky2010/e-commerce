@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "perfilcliente_FullControl",
+    "Description": "Perfil Cliente FullControl",
+    "ProgramName": "perfilcliente",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "perfilcliente_Execute",
+    "Description": "Perfil Cliente",
+    "ProgramName": "perfilcliente",
+    "IsGXAutomatic": true,
+    "Parent": "perfilcliente_FullControl"
+  },
+  {
+    "Name": "perfilcliente_Insert",
+    "Description": "Perfil Cliente Insert",
+    "ProgramName": "perfilcliente",
+    "IsGXAutomatic": true,
+    "Parent": "perfilcliente_FullControl"
+  },
+  {
+    "Name": "perfilcliente_Delete",
+    "Description": "Perfil Cliente Delete",
+    "ProgramName": "perfilcliente",
+    "IsGXAutomatic": true,
+    "Parent": "perfilcliente_FullControl"
+  },
+  {
+    "Name": "perfilcliente_Update",
+    "Description": "Perfil Cliente Update",
+    "ProgramName": "perfilcliente",
+    "IsGXAutomatic": true,
+    "Parent": "perfilcliente_FullControl"
+  }
+]

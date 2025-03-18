@@ -1,0 +1,943 @@
+spec_i([ web,60,l('Visualize one notification'),'WWPBaseObjects\Notifications\Common\WWP_VisualizeNotification',0,spa,'17_0_11-163677' ]).
+ 
+struct_i(2,1,[ 'Wwpnotificationmetadatasdt','Websession' ],[]).
+struct_i(3,1,[],[]).
+ 
+level_i(2,[ 37,[ [ 37,many ] ],[],[],[ [ [ 37 ],[ 37,203,200,40,199 ] ] ],[ [ [ 37 ],[] ] ],[ 37 ],'IWWP_NOTIFICATION',[ 37,[ [ [],'Wwpnotificationid',37 ] ] ],[] ]).
+level_i(3,[ 37,[ [ 37,many ] ],[],[],[ [ [ 37 ],[ 37,32,201,182 ] ] ],[ [ [ 37 ],[] ] ],[ 37 ],'IWWP_NOTIFICATION',[ 37,[ [ [],'Wwpnotificationid',37 ] ] ],[] ]).
+ 
+tw_i(2,[]).
+tw_i(3,[]).
+ 
+lwi_i(2,[ [] ]).
+lwi_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 37,37 ],[ 37,203 ],[ 37,200 ],[ 37,40 ],[ 37,199 ] ] ]).
+ta_i(3,[ [ [ 37,37 ],[ 37,32 ],[ 37,201 ],[ 37,182 ] ] ]).
+ 
+las_i(2,[ [ 'Wwpnotificationid',37,203,200,40,199 ] ]).
+las_i(3,[ [ 'Wwpnotificationid',37,32,201,182 ] ]).
+ 
+lac_i(2,[ [] ]).
+lac_i(3,[ [] ]).
+ 
+ 
+lits_i(l('<i class=''fas fa-pencil-alt NotificationFontIconSuccess''></i>'),5,10).
+lits_i(l('<i class="fas fa-envelope-open DiscussionsSendIcon"></i>'),5,10).
+ 
+cls_i([ 0,0 ],[ 5,199 ]).
+ 
+pos_i(199,[ 0,0,0 ]).
+pos_i(40,[ 0,0,0 ]).
+pos_i(200,[ 0,0,0 ]).
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','WWPBaseObjects.Notifications.Common.WWP_VisualizeNotification')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WebApplication',idDefault)).
+rule_i(0,prop('IntegratedSecurityPermissionPrefix','WWPVisualizeNotification')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'WWPBaseObjects.WorkWithPlusMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop('Folder',o(8,'WWPBaseObjects\Notifications\Common\UserInterface'))).
+rule_i(0,prop('ObjDesc','Visualize one notification')).
+rule_i(0,prop('ObjName','WWP_VisualizeNotification')).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Wwpnotificationid' ],[])).
+rule_i(0,parmio([ [ 'Wwpnotificationid',inout ] ])).
+rule_i(0,rule([ a(22,[ '''DoMarkAsRead''',[ t('getmessagetext(',1),t('"DoMarkAsRead"',3),t(')',4) ],'' ]) ],[],[],[])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,3,t,37,[],[ [ [ [],'Wwpnotificationid',37 ] ],'IWWP_NOTIFICATION',[] ]).
+a_i(3,2,t,37,[],[ [ [ [],'Wwpnotificationid',37 ] ],'IWWP_NOTIFICATION',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,'Wwpnotificationid').
+v_i(t,o,2,37).
+v_i(t,o,2,32).
+v_i(t,o,2,201).
+v_i(t,o,2,182).
+v_i(t,i,3,'Wwpnotificationid').
+v_i(t,o,3,37).
+v_i(t,o,3,203).
+v_i(t,o,3,200).
+v_i(t,o,3,40).
+v_i(t,o,3,199).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(203,[ 'WWPNotificationIsRead',boolean,4,0,'',0,l('Notification Is Read'),'',0 ]).
+attri_i(200,[ 'WWPNotificationShortDescriptio',svchar,200,0,'',0,l('Notification Short Description'),'',0 ]).
+attri_i(40,[ 'WWPNotificationCreated',dtime,10,12,'99/99/9999 99:99:99.999',0,l('Notification Created Date'),'',0 ]).
+attri_i(199,[ 'WWPNotificationTitle',svchar,200,0,'',0,l('Notification Title'),'',0 ]).
+attri_i(32,[ 'WWPUserExtendedId',char,40,0,'',0,l('User Id'),'',0 ]).
+attri_i(37,[ 'WWPNotificationId',int,10,0,'ZZZZZZZZZ9',0,l('Notification Id'),'',0 ]).
+attri_i(201,[ 'WWPNotificationLink',svchar,1000,0,'',0,l('Notification Link'),'',0 ]).
+attri_i(182,[ 'WWPNotificationMetadata',vchar,2097152,0,'',0,l('WWPNotification Metadata'),'',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',11 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',10 ]).
+attri_i('Wwpnotificationmetadatasdt',[ 'WWPNotificationMetadataSDT',o('WWPBaseObjects\Notifications\Common\WWP_SDTNotificationMetadata'),0,0,'',0,l('WWPNotification Metadata SDT'),'',9 ]).
+attri_i('Websession',[ 'WebSession',o(websession),4,0,'',0,l('Web Session'),'',8 ]).
+attri_i('Wwpnotificationid',[ 'WWPNotificationId',int,10,0,'ZZZZZZZZZ9',0,l('WWPNotification Id'),'',7 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,l('Security Functionality Keys'),'',6 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,l('Is Authorized'),'',5 ]).
+ 
+table_i(37,[ 'WWP_Notification',[ 37,40,199,200,201,203,32,182 ],l('WWP_Notification'),'WWP_Notification' ]).
+ 
+index_i(37,[ 'IWWP_NOTIFICATION',u,[ 37 ],'IWWP_Notification' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,40000,140,'WWPUserExtendedPhoto_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 37,23,'Wwpnotificationid',= ] ],one ]).
+start_i(3,0,0,[ [ [ 37,23,'Wwpnotificationid',= ] ],one ]).
+ 
+end_i(2,0,0,[ [ [ t(37,2),t(=,10),t('Wwpnotificationid',23) ] ] ]).
+end_i(3,0,0,[ [ [ t(37,2),t(=,10),t('Wwpnotificationid',23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(32,[ 'GeneXus\Url' ]).
+dom_info_i(92,[ 'WWPBaseObjects\WWP_Id' ]).
+dom_info_i(91,[ 'WWPBaseObjects\WWP_GAMGUID' ]).
+dom_info_i(93,[ 'WWPBaseObjects\WWP_DateTimeMillis' ]).
+dom_info_i(88,[ 'SecGAMFunctionalityKey' ]).
+ 
+ 
+break_i(3,nvg,1,[],[ [ 182,201,37,32 ],[ 37 ],[] ]).
+break_i(2,nvg,1,[],[ [ 199,40,200,203 ],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,2).
+b_group_i(2,3,nvg,3,10,10).
+b_group_i(3,1,lit,0,11,11).
+b_group_i(2,4,lit,0,27,30).
+b_group_i(2,5,lit,0,31,43).
+b_group_i(2,6,lit,0,44,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(6,2,2,cmd,2,[ t('',107,6,0),t([ t('Tablemain',3,2,0),t('Width',3,2,0) ],29,2,0),t(=,10,2,0),t('700',3,2,0) ]).
+b_line_i(10,3,1,cmd,11,[ t('',121,10,0),t(table,3,10,11),t(37,3,10,11) ]).
+b_line_i(14,3,1,cmd,11,[ t('',109,14,0),t(32,2,11,6),t(<>,10,11,24),t('udp(',1,11,46),t(o(1,'WWPBaseObjects\WWP_GetLoggedUserId'),28,11,27),t(')',4,11,47) ]).
+b_line_i(15,3,1,cmd,11,[ t('',104,15,0),t(o(13,'GAMExampleNotAuthorized'),28,11,4) ]).
+b_line_i(16,3,1,cmd,11,[ t('',111,16,0) ]).
+b_line_i(18,3,1,cmd,11,[ t('',200,18,0),t('pmth(',1,11,32),t([ o(1,'WWPBaseObjects\Notifications\Common\WWP_ChangeNotificationStatus'),setnotificationreadbyid ],1002,11,3),t(',',7,11,0),t(37,2,11,57),t(')',4,11,74) ]).
+b_line_i(19,3,1,cmd,11,[ t('',109,19,0),t('.NOT.',8,11,6),t('null(',1,19,32),t(201,2,11,12),t(')',4,11,41) ]).
+b_line_i(20,3,1,cmd,11,[ t('',109,20,0),t('.NOT.',8,11,7),t('null(',1,20,37),t(182,2,11,13),t(')',4,11,46) ]).
+b_line_i(21,3,1,cmd,11,[ t('',107,21,0),t([ t('Wwpnotificationmetadatasdt',23,21,5),t('fromjson(',1,21,33) ],31,21,5),t(182,2,11,43),t(')',4,11,66) ]).
+b_line_i(22,3,1,cmd,11,[ t('',107,22,0),t([ t('Websession',23,22,5),t('set(',1,22,17) ],31,22,5),t([ t('Wwpnotificationmetadatasdt',23,22,22),t('Sessionkey',3,22,50) ],29,22,50),t(',',7,11,60),t([ t('Wwpnotificationmetadatasdt',23,22,62),t('Sessionvalue',3,22,90) ],29,22,90),t(')',4,11,102) ]).
+b_line_i(23,3,1,cmd,11,[ t('',111,23,0) ]).
+b_line_i(24,3,1,cmd,11,[ t('',171,24,0),t(201,2,11,9) ]).
+b_line_i(25,3,1,cmd,11,[ t('',111,25,0) ]).
+b_line_i(26,3,1,cmd,11,[ t('',128,26,0) ]).
+b_line_i(28,2,4,cmd,20,[ t('',147,28,0) ]).
+b_line_i(30,2,4,cmd,20,[ t('',146,30,0),t('''DoMarkAsRead''',3,30,7) ]).
+b_line_i(32,2,5,cmd,20,[ t('',200,32,0),t('pmth(',1,20,31),t([ o(1,'WWPBaseObjects\Notifications\Common\WWP_ChangeNotificationStatus'),setnotificationreadunreadbyid ],1002,20,2),t(',',7,20,0),t('Wwpnotificationid',23,20,62),t(')',4,20,80) ]).
+b_line_i(33,2,5,cmd,20,[ t('',148,33,0) ]).
+b_line_i(41,2,5,cmd,20,[ t('',147,41,0) ]).
+b_line_i(43,2,5,cmd,20,[ t('',146,43,0),t('Load',3,43,7) ]).
+b_line_i(45,2,6,cmd,20,[ t('',109,45,0),t(203,2,20,5) ]).
+b_line_i(46,2,6,cmd,20,[ t('',107,46,0),t([ t('Markasread',3,20,0),t('Caption',3,20,0) ],29,20,0),t(=,10,20,0),t('''<i class="fas fa-envelope DiscussionsSendIcon"></i>''',3,20,0) ]).
+b_line_i(47,2,6,cmd,20,[ t('',107,47,0),t([ t('Markasread',3,20,0),t('Tooltiptext',3,20,0) ],29,20,0),t(=,10,20,0),t('getmessagetext(',1,20,0),t('"Mark as unread"',3,20,0),t(')',4,20,0) ]).
+b_line_i(48,2,6,cmd,20,[ t('',110,48,0) ]).
+b_line_i(49,2,6,cmd,20,[ t('',107,49,0),t([ t('Markasread',3,20,0),t('Caption',3,20,0) ],29,20,0),t(=,10,20,0),t('''<i class="fas fa-envelope-open DiscussionsSendIcon"></i>''',3,20,0) ]).
+b_line_i(50,2,6,cmd,20,[ t('',107,50,0),t([ t('Markasread',3,20,0),t('Tooltiptext',3,20,0) ],29,20,0),t(=,10,20,0),t('getmessagetext(',1,20,0),t('"Mark as read"',3,20,0),t(')',4,20,0) ]).
+b_line_i(51,2,6,cmd,20,[ t('',111,51,0) ]).
+b_line_i(53,2,6,cmd,20,[ t('',155,53,0) ]).
+b_line_i(53,2,6,cmd,20,[ t('',147,53,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,div(2)).
+ 
+html_sub_i(2,3,html_i(0,div(3))).
+html_sub_i(3,4,html_i(0,div(4))).
+html_sub_i(4,5,html_i(0,div(5))).
+html_sub_i(5,6,html_i(0,div(6))).
+html_sub_i(6,7,html_i(0,div(7))).
+html_sub_i(7,8,html_i(0,div(8))).
+html_sub_i(8,9,html_i(0,div(9))).
+html_sub_i(9,10,html_i(0,div(10))).
+html_sub_i(10,11,html_i(0,div(11))).
+html_sub_i(11,12,html_i(0,div(12))).
+html_sub_i(12,13,html_i(0,div(13))).
+html_sub_i(13,14,html_i(0,t(l('<i class=''fas fa-pencil-alt NotificationFontIconSuccess''></i>'),3))).
+html_sub_i(12,15,html_i(1,div(15))).
+html_sub_i(15,16,html_i(0,div(16))).
+html_sub_i(16,17,html_i(0,div(17))).
+html_sub_i(17,18,html_i(0,div(18))).
+html_sub_i(18,19,html_i(0,div(19))).
+html_sub_i(19,20,html_i(0,div(20))).
+html_sub_i(20,21,html_i(0,div(21))).
+html_sub_i(21,22,html_i(0,t(199,2))).
+html_sub_i(19,23,html_i(1,div(23))).
+html_sub_i(23,24,html_i(0,div(24))).
+html_sub_i(24,25,html_i(0,t(40,2))).
+html_sub_i(19,26,html_i(2,div(26))).
+html_sub_i(26,27,html_i(0,t(l('<i class="fas fa-envelope-open DiscussionsSendIcon"></i>'),3))).
+html_sub_i(16,28,html_i(1,div(28))).
+html_sub_i(28,29,html_i(0,div(29))).
+html_sub_i(29,30,html_i(0,div(30))).
+html_sub_i(30,31,html_i(0,t(200,2))).
+ 
+html_tags_i(1,'Class','form-horizontal Form').
+html_tags_i(2,'data-gx-base-lib',bootstrapv3).
+html_tags_i(2,'data-abstract-form','').
+html_tags_i(12,'data-gx-flex','').
+html_tags_i(14,'ControlType','').
+html_tags_i(15,style,'flex-grow:1;').
+html_tags_i(19,'data-gx-flex','').
+html_tags_i(22,'data-gx-att','att:199').
+html_tags_i(23,style,'flex-grow:1;').
+html_tags_i(25,'data-gx-att','att:40').
+html_tags_i(27,'ControlType','').
+html_tags_i(31,'data-gx-att','att:200').
+ 
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Class','Section',d,[ str ]).
+html_comp_i(2,'Id','',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Semanticcontent',div,d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Valign',top,d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Class','Table',v,[ str ]).
+html_comp_i(3,'Id','Layoutmaintable',v,[ str ]).
+html_comp_i(3,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Semanticcontent',div,d,[ str ]).
+html_comp_i(3,'Align',left,d,[ str ]).
+html_comp_i(3,'Valign',top,d,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Class',row,v,[ str ]).
+html_comp_i(4,'Id','',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Semanticcontent',div,d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Valign',top,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Class','col-xs-12',v,[ str ]).
+html_comp_i(5,'Id','',d,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Semanticcontent',div,d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Valign',top,d,[ str ]).
+html_comp_i(6,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(6,'Class','TableMain',v,[ str ]).
+html_comp_i(6,'Id','Tablemain',v,[ str ]).
+html_comp_i(6,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Semanticcontent',div,d,[ str ]).
+html_comp_i(6,'Align',left,d,[ str ]).
+html_comp_i(6,'Valign',top,d,[ str ]).
+html_comp_i(7,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(7,'Class',row,v,[ str ]).
+html_comp_i(7,'Id','',d,[ str ]).
+html_comp_i(7,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Semanticcontent',div,d,[ str ]).
+html_comp_i(7,'Align',left,d,[ str ]).
+html_comp_i(7,'Valign',top,d,[ str ]).
+html_comp_i(8,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(8,'Class','col-xs-12 CellMarginTop',v,[ str ]).
+html_comp_i(8,'Id','',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Semanticcontent',div,d,[ str ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Valign',top,d,[ str ]).
+html_comp_i(9,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(9,'Class','NotificationCardTable',v,[ str ]).
+html_comp_i(9,'Id','Tablefscard',v,[ str ]).
+html_comp_i(9,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Semanticcontent',div,d,[ str ]).
+html_comp_i(9,'Align',left,d,[ str ]).
+html_comp_i(9,'Valign',top,d,[ str ]).
+html_comp_i(10,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(10,'Class',row,v,[ str ]).
+html_comp_i(10,'Id','',d,[ str ]).
+html_comp_i(10,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Semanticcontent',div,d,[ str ]).
+html_comp_i(10,'Align',left,d,[ str ]).
+html_comp_i(10,'Valign',top,d,[ str ]).
+html_comp_i(11,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(11,'Class','col-xs-12',v,[ str ]).
+html_comp_i(11,'Id','',d,[ str ]).
+html_comp_i(11,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Semanticcontent',div,d,[ str ]).
+html_comp_i(11,'Align',left,d,[ str ]).
+html_comp_i(11,'Valign',top,d,[ str ]).
+html_comp_i(12,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(12,'Class','Flex',v,[ str ]).
+html_comp_i(12,'Id','Unnamedtable1',v,[ str ]).
+html_comp_i(12,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Semanticcontent',div,d,[ str ]).
+html_comp_i(12,'Align',left,d,[ str ]).
+html_comp_i(12,'Valign',top,d,[ str ]).
+html_comp_i(13,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(13,'Class','CellPaddingTop5',v,[ str ]).
+html_comp_i(13,'Id','',d,[ str ]).
+html_comp_i(13,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Semanticcontent',div,d,[ str ]).
+html_comp_i(13,'Align',left,d,[ str ]).
+html_comp_i(13,'Valign',top,d,[ str ]).
+html_comp_i(14,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(14,'Caption',l('<i class=''fas fa-pencil-alt NotificationFontIconSuccess''></i>'),d,[ str ]).
+html_comp_i(14,'Id','Notificationitemicon',v,[ str ]).
+html_comp_i(14,'Class','TextBlock',v,[ str ]).
+html_comp_i(14,'Event','',d,[ str ]).
+html_comp_i(14,'Returnonclick',0,d,[ bool ]).
+html_comp_i(14,'Gxformat',2,v,[ num ]).
+html_comp_i(14,'Title','',d,[ str ]).
+html_comp_i(14,'Fill',-1,d,[ bool ]).
+html_comp_i(14,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(14,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(14,'Font','',d,[ str ]).
+html_comp_i(15,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(15,'Class','',v,[ str ]).
+html_comp_i(15,'Id','',d,[ str ]).
+html_comp_i(15,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Semanticcontent',div,d,[ str ]).
+html_comp_i(15,'Align',left,d,[ str ]).
+html_comp_i(15,'Valign',top,d,[ str ]).
+html_comp_i(16,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(16,'Class','',v,[ str ]).
+html_comp_i(16,'Id','Tablecontent',v,[ str ]).
+html_comp_i(16,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Semanticcontent',div,d,[ str ]).
+html_comp_i(16,'Align',left,d,[ str ]).
+html_comp_i(16,'Valign',top,d,[ str ]).
+html_comp_i(17,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(17,'Class',row,v,[ str ]).
+html_comp_i(17,'Id','',d,[ str ]).
+html_comp_i(17,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(17,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(17,'Semanticcontent',div,d,[ str ]).
+html_comp_i(17,'Align',left,d,[ str ]).
+html_comp_i(17,'Valign',top,d,[ str ]).
+html_comp_i(18,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(18,'Class','col-xs-12',v,[ str ]).
+html_comp_i(18,'Id','',d,[ str ]).
+html_comp_i(18,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Semanticcontent',div,d,[ str ]).
+html_comp_i(18,'Align',left,d,[ str ]).
+html_comp_i(18,'Valign',top,d,[ str ]).
+html_comp_i(19,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(19,'Class','Flex',v,[ str ]).
+html_comp_i(19,'Id','Unnamedtable2',v,[ str ]).
+html_comp_i(19,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Semanticcontent',div,d,[ str ]).
+html_comp_i(19,'Align',left,d,[ str ]).
+html_comp_i(19,'Valign',top,d,[ str ]).
+html_comp_i(20,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(20,'Class','',v,[ str ]).
+html_comp_i(20,'Id','',d,[ str ]).
+html_comp_i(20,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Semanticcontent',div,d,[ str ]).
+html_comp_i(20,'Align',left,d,[ str ]).
+html_comp_i(20,'Valign',top,d,[ str ]).
+html_comp_i(21,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(21,'Class',' gx-attribute',v,[ str ]).
+html_comp_i(21,'Id','',d,[ str ]).
+html_comp_i(21,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Semanticcontent',div,d,[ str ]).
+html_comp_i(21,'Align',left,d,[ str ]).
+html_comp_i(21,'Valign',top,d,[ str ]).
+html_comp_i(22,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(22,'Colcount',80,d,[ num ]).
+html_comp_i(22,'Attid',199,v,[ num ]).
+html_comp_i(22,'Class','SimpleCardAttributeTitle',v,[ str ]).
+html_comp_i(22,'Controlname','Wwpnotificationtitle',d,[ str ]).
+html_comp_i(22,'Returnonclick',0,v,[ bool ]).
+html_comp_i(22,'Eventgx','',d,[ str ]).
+html_comp_i(22,'Captionclass','gx-form-item SimpleCardAttributeTitleLabel',v,[ str ]).
+html_comp_i(22,'Captionstyle','width: 25%;',v,[ str ]).
+html_comp_i(22,'Captionposition','None',v,[ str ]).
+html_comp_i(22,'Captionvalue',l('Notification Title'),d,[ str ]).
+html_comp_i(22,'Layoutclass','',v,[ str ]).
+html_comp_i(22,'Controltype',2,d,[ num ]).
+html_comp_i(22,'Inputtype',0,d,[ num ]).
+html_comp_i(22,'Editautocomplete',0,d,[ num ]).
+html_comp_i(22,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(22,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(22,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(22,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(22,'Readonly',-1,v,[ bool ]).
+html_comp_i(22,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(22,'Ispassword',0,d,[ bool ]).
+html_comp_i(22,'Autoresize',-1,d,[ bool ]).
+html_comp_i(22,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(22,'Gxheight',measure(3,row),d,[ measure ]).
+html_comp_i(22,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(22,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(22,'Fill',-1,d,[ bool ]).
+html_comp_i(22,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(22,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(22,'Font',font('Verdana',12,[]),d,[ font ]).
+html_comp_i(22,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(22,'Gxformat',0,d,[ num ]).
+html_comp_i(22,'Title','',d,[ str ]).
+html_comp_i(22,'Invitemsg','',v,[ str ]).
+html_comp_i(23,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(23,'Class','CellMarginLeft CellPaddingTop5',v,[ str ]).
+html_comp_i(23,'Id','',d,[ str ]).
+html_comp_i(23,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Semanticcontent',div,d,[ str ]).
+html_comp_i(23,'Align',left,d,[ str ]).
+html_comp_i(23,'Valign',top,d,[ str ]).
+html_comp_i(24,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(24,'Class',' gx-attribute',v,[ str ]).
+html_comp_i(24,'Id','',d,[ str ]).
+html_comp_i(24,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Semanticcontent',div,d,[ str ]).
+html_comp_i(24,'Align',left,d,[ str ]).
+html_comp_i(24,'Valign',top,d,[ str ]).
+html_comp_i(25,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(25,'Colcount',23,d,[ num ]).
+html_comp_i(25,'Attid',40,v,[ num ]).
+html_comp_i(25,'Class','NotificationItemDatetime',v,[ str ]).
+html_comp_i(25,'Controlname','Wwpnotificationcreated',d,[ str ]).
+html_comp_i(25,'Returnonclick',0,v,[ bool ]).
+html_comp_i(25,'Eventgx','',d,[ str ]).
+html_comp_i(25,'Captionclass','gx-form-item NotificationItemDatetimeLabel',v,[ str ]).
+html_comp_i(25,'Captionstyle','width: 25%;',v,[ str ]).
+html_comp_i(25,'Captionposition','None',v,[ str ]).
+html_comp_i(25,'Captionvalue',l('Notification Created Date'),d,[ str ]).
+html_comp_i(25,'Layoutclass','',v,[ str ]).
+html_comp_i(25,'Controltype',2,d,[ num ]).
+html_comp_i(25,'Inputtype',0,d,[ num ]).
+html_comp_i(25,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(25,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(25,'Readonly',-1,v,[ bool ]).
+html_comp_i(25,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(25,'Ispassword',0,d,[ bool ]).
+html_comp_i(25,'Autoresize',-1,d,[ bool ]).
+html_comp_i(25,'Gxwidth',measure(23,chr),d,[ measure ]).
+html_comp_i(25,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(25,'Ismultiline',0,d,[ bool ]).
+html_comp_i(25,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(25,'Fill',-1,d,[ bool ]).
+html_comp_i(25,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(25,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(25,'Font',font('Verdana',12,[]),d,[ font ]).
+html_comp_i(25,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(25,'Gxformat',0,d,[ num ]).
+html_comp_i(25,'Title','',d,[ str ]).
+html_comp_i(25,'Invitemsg','',v,[ str ]).
+html_comp_i(25,'Use_datepicker',-1,d,[ bool ]).
+html_comp_i(25,'Flat_datepicker',0,d,[ bool ]).
+html_comp_i(26,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(26,'Class','CellMarginLeft',v,[ str ]).
+html_comp_i(26,'Id','',d,[ str ]).
+html_comp_i(26,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Semanticcontent',div,d,[ str ]).
+html_comp_i(26,'Align',left,d,[ str ]).
+html_comp_i(26,'Valign',top,d,[ str ]).
+html_comp_i(27,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(27,'Caption',l('<i class="fas fa-envelope-open DiscussionsSendIcon"></i>'),d,[ str ]).
+html_comp_i(27,'Id','Markasread',v,[ str ]).
+html_comp_i(27,'Class','TextBlock',v,[ str ]).
+html_comp_i(27,'Event','''DoMarkAsRead''',v,[ str ]).
+html_comp_i(27,'Returnonclick',0,d,[ bool ]).
+html_comp_i(27,'Gxformat',1,v,[ num ]).
+html_comp_i(27,'Title','',d,[ str ]).
+html_comp_i(27,'Fill',-1,d,[ bool ]).
+html_comp_i(27,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(27,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(27,'Font','',d,[ str ]).
+html_comp_i(28,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(28,'Class',row,v,[ str ]).
+html_comp_i(28,'Id','',d,[ str ]).
+html_comp_i(28,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(28,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(28,'Semanticcontent',div,d,[ str ]).
+html_comp_i(28,'Align',left,d,[ str ]).
+html_comp_i(28,'Valign',top,d,[ str ]).
+html_comp_i(29,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(29,'Class','col-xs-12',v,[ str ]).
+html_comp_i(29,'Id','',d,[ str ]).
+html_comp_i(29,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(29,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(29,'Semanticcontent',div,d,[ str ]).
+html_comp_i(29,'Align',left,d,[ str ]).
+html_comp_i(29,'Valign',top,d,[ str ]).
+html_comp_i(30,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(30,'Class',' gx-attribute',v,[ str ]).
+html_comp_i(30,'Id','',d,[ str ]).
+html_comp_i(30,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(30,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(30,'Semanticcontent',div,d,[ str ]).
+html_comp_i(30,'Align',left,d,[ str ]).
+html_comp_i(30,'Valign',top,d,[ str ]).
+html_comp_i(31,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(31,'Colcount',80,d,[ num ]).
+html_comp_i(31,'Attid',200,v,[ num ]).
+html_comp_i(31,'Class','CardNotificationAttributeDescription',v,[ str ]).
+html_comp_i(31,'Controlname','Wwpnotificationshortdescription',d,[ str ]).
+html_comp_i(31,'Returnonclick',0,v,[ bool ]).
+html_comp_i(31,'Eventgx','',d,[ str ]).
+html_comp_i(31,'Captionclass','col-sm-3 CardNotificationAttributeDescriptionLabel',v,[ str ]).
+html_comp_i(31,'Captionstyle','',v,[ str ]).
+html_comp_i(31,'Captionposition','None',v,[ str ]).
+html_comp_i(31,'Captionvalue',l('Notification Short Description'),d,[ str ]).
+html_comp_i(31,'Layoutclass','',v,[ str ]).
+html_comp_i(31,'Controltype',2,d,[ num ]).
+html_comp_i(31,'Inputtype',0,d,[ num ]).
+html_comp_i(31,'Editautocomplete',0,d,[ num ]).
+html_comp_i(31,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(31,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(31,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(31,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(31,'Readonly',-1,v,[ bool ]).
+html_comp_i(31,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(31,'Ispassword',0,d,[ bool ]).
+html_comp_i(31,'Autoresize',-1,d,[ bool ]).
+html_comp_i(31,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(31,'Gxheight',measure(3,row),d,[ measure ]).
+html_comp_i(31,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(31,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(31,'Fill',-1,d,[ bool ]).
+html_comp_i(31,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(31,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(31,'Font',font('Verdana',12,[]),d,[ font ]).
+html_comp_i(31,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(31,'Gxformat',0,d,[ num ]).
+html_comp_i(31,'Title','',d,[ str ]).
+html_comp_i(31,'Invitemsg','',v,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(14,1,t(l('<i class=''fas fa-pencil-alt NotificationFontIconSuccess''></i>'),3),[ ctlname('Notificationitemicon') ]).
+lit_i(13,1,div(13),[ ctlname('') ]).
+lit_i(22,1,t(199,2),[ ctlname(199),ctrltype(edit,22),pos(22),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(21,1,div(21),[ ctlname('') ]).
+lit_i(20,1,div(20),[ ctlname('') ]).
+lit_i(25,1,t(40,2),[ ctlname(40),ctrltype(edit,25),pos(25),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(24,1,div(24),[ ctlname('') ]).
+lit_i(23,1,div(23),[ ctlname('') ]).
+lit_i(27,1,t(l('<i class="fas fa-envelope-open DiscussionsSendIcon"></i>'),3),[ ctlname('Markasread') ]).
+lit_i(26,1,div(26),[ ctlname('') ]).
+lit_i(19,1,div(19),[ ctlname('Unnamedtable2') ]).
+lit_i(18,1,div(18),[ ctlname('') ]).
+lit_i(17,1,div(17),[ ctlname('') ]).
+lit_i(31,1,t(200,2),[ ctlname(200),ctrltype(edit,31),pos(31),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(30,1,div(30),[ ctlname('') ]).
+lit_i(29,1,div(29),[ ctlname('') ]).
+lit_i(28,1,div(28),[ ctlname('') ]).
+lit_i(16,1,div(16),[ ctlname('Tablecontent') ]).
+lit_i(15,1,div(15),[ ctlname('') ]).
+lit_i(12,1,div(12),[ ctlname('Unnamedtable1') ]).
+lit_i(11,1,div(11),[ ctlname('') ]).
+lit_i(10,1,div(10),[ ctlname('') ]).
+lit_i(9,1,div(9),[ ctlname('Tablefscard') ]).
+lit_i(8,1,div(8),[ ctlname('') ]).
+lit_i(7,1,div(7),[ ctlname('') ]).
+lit_i(6,1,div(6),[ ctlname('Tablemain') ]).
+lit_i(5,1,div(5),[ ctlname('') ]).
+lit_i(4,1,div(4),[ ctlname('') ]).
+lit_i(3,1,div(3),[ ctlname('Layoutmaintable') ]).
+lit_i(2,1,div(2),[ ctlname('') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,182,'ExternalName','WWPNotificationMetadata',d).
+att_prop_i(2,182,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,182,'EmptyAsNull','Yes',d).
+att_prop_i(2,182,idBasedOn,'',d).
+att_prop_i(2,182,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,182,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,182,'AttRegEx','',d).
+att_prop_i(2,182,'AttValidationFailedMsg','',d).
+att_prop_i(2,182,'DownloadOffline','0',d).
+att_prop_i(2,182,'VarServiceExtName','',d).
+att_prop_i(2,182,'FullName','WWPNotificationMetadata',v).
+att_prop_i(2,201,'ExternalName','WWPNotificationLink',d).
+att_prop_i(2,201,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,201,'EmptyAsNull','Yes',d).
+att_prop_i(2,201,idBasedOn,32,v).
+att_prop_i(2,201,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,201,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,201,'AttRegEx','^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$',d).
+att_prop_i(2,201,'AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+att_prop_i(2,201,'DownloadOffline','0',d).
+att_prop_i(2,201,'VarServiceExtName','',d).
+att_prop_i(2,201,'FullName','WWPNotificationLink',v).
+att_prop_i(2,37,'ExternalName','WWPNotificationId',d).
+att_prop_i(2,37,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,37,'EmptyAsNull','Yes',d).
+att_prop_i(2,37,idBasedOn,92,v).
+att_prop_i(2,37,'AUTONUMBER','-1',d).
+att_prop_i(2,37,'AUTONUMBER_START','1',d).
+att_prop_i(2,37,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,37,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,37,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,37,'AttRegEx','',d).
+att_prop_i(2,37,'AttValidationFailedMsg','',d).
+att_prop_i(2,37,'DownloadOffline','0',d).
+att_prop_i(2,37,'VarServiceExtName','',d).
+att_prop_i(2,37,'FullName','WWPNotificationId',v).
+att_prop_i(2,32,'ExternalName','WWPUserExtendedId',d).
+att_prop_i(2,32,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,32,'EmptyAsNull','Yes',d).
+att_prop_i(2,32,idBasedOn,91,v).
+att_prop_i(2,32,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,32,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,32,'AttRegEx','',d).
+att_prop_i(2,32,'AttValidationFailedMsg','',d).
+att_prop_i(2,32,'DownloadOffline','0',d).
+att_prop_i(2,32,'VarServiceExtName','',d).
+att_prop_i(2,32,'FullName','WWPUserExtendedId',v).
+att_prop_i(2,199,'ExternalName','WWPNotificationTitle',d).
+att_prop_i(2,199,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,199,'EmptyAsNull','Yes',v).
+att_prop_i(2,199,idBasedOn,'',d).
+att_prop_i(2,199,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,199,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,199,'AttRegEx','',d).
+att_prop_i(2,199,'AttValidationFailedMsg','',d).
+att_prop_i(2,199,'DownloadOffline','0',d).
+att_prop_i(2,199,'VarServiceExtName','',d).
+att_prop_i(2,199,'FullName','WWPNotificationTitle',v).
+att_prop_i(2,40,'ExternalName','WWPNotificationCreated',d).
+att_prop_i(2,40,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,40,'EmptyAsNull','Yes',d).
+att_prop_i(2,40,idBasedOn,93,v).
+att_prop_i(2,40,idDATEPRECISION,idDATEPRECISION_MILLISECONDS,d).
+att_prop_i(2,40,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40,'AttRegEx','',d).
+att_prop_i(2,40,'AttValidationFailedMsg','',d).
+att_prop_i(2,40,idDATEFORMAT,idDATEFORMAT_LONG,d).
+att_prop_i(2,40,idHOURFORMAT,idHOURFORMAT_HOURMINSECMIL,d).
+att_prop_i(2,40,'DownloadOffline','0',d).
+att_prop_i(2,40,'VarServiceExtName','',d).
+att_prop_i(2,40,'FullName','WWPNotificationCreated',v).
+att_prop_i(2,200,'ExternalName','WWPNotificationShortDescription',d).
+att_prop_i(2,200,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,200,'EmptyAsNull','Yes',v).
+att_prop_i(2,200,idBasedOn,'',d).
+att_prop_i(2,200,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,200,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,200,'AttRegEx','',d).
+att_prop_i(2,200,'AttValidationFailedMsg','',d).
+att_prop_i(2,200,'DownloadOffline','0',d).
+att_prop_i(2,200,'VarServiceExtName','',d).
+att_prop_i(2,200,'FullName','WWPNotificationShortDescription',v).
+att_prop_i(2,203,'ExternalName','WWPNotificationIsRead',d).
+att_prop_i(2,203,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,203,'EmptyAsNull','Yes',d).
+att_prop_i(2,203,'ExternalStorage','-1',d).
+att_prop_i(2,203,idBasedOn,'',d).
+att_prop_i(2,203,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,203,'AttRegEx','',d).
+att_prop_i(2,203,'AttValidationFailedMsg','',d).
+att_prop_i(2,203,'DownloadOffline','0',d).
+att_prop_i(2,203,'VarServiceExtName','',d).
+att_prop_i(2,203,'FullName','WWPNotificationIsRead',v).
+ 
+ 
+tbl_att_prop_i(2,37,37,'AllowNulls',n).
+tbl_att_prop_i(2,37,37,'AUTONUMBER',y).
+tbl_att_prop_i(2,37,40,'AllowNulls',n).
+tbl_att_prop_i(2,37,199,'AllowNulls',n).
+tbl_att_prop_i(2,37,200,'AllowNulls',n).
+tbl_att_prop_i(2,37,201,'AllowNulls',n).
+tbl_att_prop_i(2,37,203,'AllowNulls',n).
+ 
+var_prop_i(2,'Securityfunctionalitykeys',idBasedOn,88,v).
+var_prop_i(2,'Wwpnotificationid',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,92,0 ],name,'WWPBaseObjects\Notifications\Common\WWP_SDTNotificationMetadata').
+struct_dt_i([ 26,92,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,92,0 ],'ObjName','WWP_SDTNotificationMetadata').
+struct_dt_i([ 26,92,0 ],'ObjDesc','SDT Notification Metadata').
+struct_dt_i([ 26,92,0 ],'ExternalName','WWP_SDTNotificationMetadata').
+struct_dt_i([ 26,92,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,92,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,92,0 ],fullname,'WWPBaseObjects\Notifications\Common\WWP_SDTNotificationMetadata').
+ 
+struct_dt_elem_i([ 26,92,0 ],1,name,'Timeout').
+struct_dt_elem_i([ 26,92,0 ],1,camelname,'Timeout').
+struct_dt_elem_i([ 26,92,0 ],1,length,8).
+struct_dt_elem_i([ 26,92,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,92,0 ],1,sign,0).
+struct_dt_elem_i([ 26,92,0 ],1,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 26,92,0 ],1,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,92,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,92,0 ],1,'ExternalName','Timeout').
+struct_dt_elem_i([ 26,92,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,92,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,92,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,92,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,92,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,92,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,92,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,92,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,92,0 ],2,name,'Sessionkey').
+struct_dt_elem_i([ 26,92,0 ],2,camelname,'SessionKey').
+struct_dt_elem_i([ 26,92,0 ],2,length,40).
+struct_dt_elem_i([ 26,92,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,92,0 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,92,0 ],2,pic,'').
+struct_dt_elem_i([ 26,92,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,92,0 ],2,'ExternalName','SessionKey').
+struct_dt_elem_i([ 26,92,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,92,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,92,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,92,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,92,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,92,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,92,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,92,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,92,0 ],3,name,'Sessionvalue').
+struct_dt_elem_i([ 26,92,0 ],3,camelname,'SessionValue').
+struct_dt_elem_i([ 26,92,0 ],3,length,100).
+struct_dt_elem_i([ 26,92,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,92,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,92,0 ],3,pic,'').
+struct_dt_elem_i([ 26,92,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,92,0 ],3,'ExternalName','SessionValue').
+struct_dt_elem_i([ 26,92,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,92,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,92,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,92,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,92,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,92,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,92,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,92,0 ],3,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+security_permission_i(wwpvisualizenotification_Execute,execute,'').
+ 
+ 
+sub_info_i(146,'Start',2,28,[ [ 37,'Wwpnotificationid',32,201,182 ],[ [ t('Tablemain',3),t('Width',3) ] ] ]).
+sub_info_i(146,'''DoMarkAsRead''',30,41,[ [ 'Wwpnotificationid' ],[] ]).
+sub_info_i(146,'Load',43,53,[ [ 203 ],[ [ t('Markasread',3),t('Caption',3) ],[ t('Markasread',3),t('Tooltiptext',3) ] ] ]).
+ 
+pgm_parm_i(web,8,'GAMEXAMPLENOTAUTHORIZED',[],[]).
+pgm_parm_i(proc,50,'WWPBASEOBJECTS\WWP_GETLOGGEDUSERID',[ [ char,40,0,0 ] ],[ [ 'WWPUserExtendedId',out,[] ] ]).
+ 
+pgm_callprotocol_i(web,60,'WWPBASEOBJECTS\NOTIFICATIONS\COMMON\WWP_VISUALIZENOTIFICATION','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,8,'GAMEXAMPLENOTAUTHORIZED','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,50,'WWPBASEOBJECTS\WWP_GETLOGGEDUSERID','INTERNAL','Unsecure').
+ 
+ 
+ 
+pgm_sub_parm_i(proc,126,'WWPBASEOBJECTS\NOTIFICATIONS\COMMON\WWP_CHANGENOTIFICATIONSTATUS',setnotificationreadbyid,[ [ int,10,0,0 ] ],[ [ 'WWPNotificationId',inout,[] ] ]).
+pgm_sub_parm_i(proc,126,'WWPBASEOBJECTS\NOTIFICATIONS\COMMON\WWP_CHANGENOTIFICATIONSTATUS',setnotificationreadunreadbyid,[ [ int,10,0,0 ] ],[ [ 'WWPNotificationId',inout,[] ] ]).
+ 
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

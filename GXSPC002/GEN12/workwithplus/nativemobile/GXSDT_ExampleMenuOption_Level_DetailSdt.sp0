@@ -1,0 +1,24 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'WorkWithPlus\NativeMobile\ExampleMenuOption_Level_DetailSdt','WorkWithPlus\NativeMobile\ExampleMenuOption_Level_DetailSdt',0,spa,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'WorkWithPlus\NativeMobile\ExampleMenuOption_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'WorkWithPlus\NativeMobile\ExampleMenuOption_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'WorkWithPlus\NativeMobile\ExampleMenuOption_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,1000000,0 ],1,name,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],1,camelname,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],1,type,[ 5,2,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],1,length,2).
+struct_dt_elem_i([ 26,1000000,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],1,islevel,'False').
+ 
+ 
+ 
+ 
+ 
+ 

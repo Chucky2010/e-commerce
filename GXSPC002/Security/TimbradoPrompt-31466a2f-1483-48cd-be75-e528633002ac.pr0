@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "timbradoprompt_Execute",
+    "Description": "Selecciona Timbrado",
+    "ProgramName": "timbradoprompt",
+    "IsGXAutomatic": true
+  }
+]

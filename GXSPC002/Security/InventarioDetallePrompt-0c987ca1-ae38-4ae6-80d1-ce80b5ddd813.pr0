@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "inventariodetalleprompt_Execute",
+    "Description": "Selecciona Detalle",
+    "ProgramName": "inventariodetalleprompt",
+    "IsGXAutomatic": true
+  }
+]

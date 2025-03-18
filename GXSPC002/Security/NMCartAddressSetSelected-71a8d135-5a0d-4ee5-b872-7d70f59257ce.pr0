@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "nmcartaddresssetselected_Services_Execute",
+    "Description": "NMCart Address Set Selected Services",
+    "ProgramName": "nmcartaddresssetselected",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "roles_FullControl",
+    "Description": "Roles FullControl",
+    "ProgramName": "roles",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "roles_Execute",
+    "Description": "Roles",
+    "ProgramName": "roles",
+    "IsGXAutomatic": true,
+    "Parent": "roles_FullControl"
+  },
+  {
+    "Name": "roles_Insert",
+    "Description": "Roles Insert",
+    "ProgramName": "roles",
+    "IsGXAutomatic": true,
+    "Parent": "roles_FullControl"
+  },
+  {
+    "Name": "roles_Delete",
+    "Description": "Roles Delete",
+    "ProgramName": "roles",
+    "IsGXAutomatic": true,
+    "Parent": "roles_FullControl"
+  },
+  {
+    "Name": "roles_Update",
+    "Description": "Roles Update",
+    "ProgramName": "roles",
+    "IsGXAutomatic": true,
+    "Parent": "roles_FullControl"
+  }
+]

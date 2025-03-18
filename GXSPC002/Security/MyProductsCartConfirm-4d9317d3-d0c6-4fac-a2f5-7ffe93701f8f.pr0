@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "myproductscartconfirm_Execute",
+    "Description": "Revise su orden",
+    "ProgramName": "myproductscartconfirm",
+    "IsGXAutomatic": true
+  }
+]

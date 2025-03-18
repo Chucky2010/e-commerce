@@ -1,0 +1,108 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>185</ObjId>
+<ObjName>PRCAsignarCaja</ObjName>
+<ObjDesc>PRCAsignar Caja</ObjDesc>
+<ObjPgmName>PRCAsignarCaja</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0060</MsgCode>
+<Message>
+<Token>The program may be called by another program and the Commit on Exit property is set to YES</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Cajaid</VarId>
+<VarName>&amp;CajaId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>4</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>23</TableId>
+<TableName>Caja</TableName>
+<Description>Caja</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>CajaId</AttriName>
+<Description>Caja Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ICAJA</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>CajaId</AttriName>
+<Description>Caja Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cajaid</VarId>
+<VarName>&amp;CajaId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>CajaId</AttriName>
+<Description>Caja Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Cajaid</VarId>
+<VarName>&amp;CajaId</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>23</TableId>
+<TableName>Caja</TableName>
+<Description>Caja</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>CajaId</AttriName>
+<Description>Caja Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>23</TableId>
+<TableName>Caja</TableName>
+<Description>Caja</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>253</AttriId>
+<AttriName>CajaEstado</AttriName>
+<Description>Caja Estado</Description></Attribute>
+<Attribute>
+<AttriId>255</AttriId>
+<AttriName>CajaAsiganacion</AttriName>
+<Description>Caja Asiganacion</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

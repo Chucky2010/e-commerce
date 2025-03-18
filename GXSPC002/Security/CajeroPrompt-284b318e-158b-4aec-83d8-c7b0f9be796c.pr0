@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "cajeroprompt_Execute",
+    "Description": "Selecciona Cajero",
+    "ProgramName": "cajeroprompt",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "compras_FullControl",
+    "Description": "Compras FullControl",
+    "ProgramName": "compras",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "compras_Execute",
+    "Description": "Compras",
+    "ProgramName": "compras",
+    "IsGXAutomatic": true,
+    "Parent": "compras_FullControl"
+  },
+  {
+    "Name": "compras_Insert",
+    "Description": "Compras Insert",
+    "ProgramName": "compras",
+    "IsGXAutomatic": true,
+    "Parent": "compras_FullControl"
+  },
+  {
+    "Name": "compras_Delete",
+    "Description": "Compras Delete",
+    "ProgramName": "compras",
+    "IsGXAutomatic": true,
+    "Parent": "compras_FullControl"
+  },
+  {
+    "Name": "compras_Update",
+    "Description": "Compras Update",
+    "ProgramName": "compras",
+    "IsGXAutomatic": true,
+    "Parent": "compras_FullControl"
+  }
+]

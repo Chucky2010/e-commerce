@@ -1,0 +1,108 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'MyProductsProductDetail_Level_DetailSdt','MyProductsProductDetail_Level_DetailSdt',0,spa,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'MyProductsProductDetail_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'MyProductsProductDetail_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'MyProductsProductDetail_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,1000000,0 ],1,name,'Productdataimages').
+struct_dt_elem_i([ 26,1000000,0 ],1,camelname,'Productdataimages').
+struct_dt_elem_i([ 26,1000000,0 ],1,type,[ [ 26,110,0 ],0,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],1,length,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,collection,'True').
+struct_dt_elem_i([ 26,1000000,0 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,name,'Productdata').
+struct_dt_elem_i([ 26,1000000,0 ],2,camelname,'Productdata').
+struct_dt_elem_i([ 26,1000000,0 ],2,type,[ [ 26,109,0 ],0,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],2,length,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,name,'Rating').
+struct_dt_elem_i([ 26,1000000,0 ],3,camelname,'Rating').
+struct_dt_elem_i([ 26,1000000,0 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],3,length,4).
+struct_dt_elem_i([ 26,1000000,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],4,name,'Cantidad').
+struct_dt_elem_i([ 26,1000000,0 ],4,camelname,'Cantidad').
+struct_dt_elem_i([ 26,1000000,0 ],4,type,[ 4,6,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],4,length,6).
+struct_dt_elem_i([ 26,1000000,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],4,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],4,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],5,name,'Talle').
+struct_dt_elem_i([ 26,1000000,0 ],5,camelname,'Talle').
+struct_dt_elem_i([ 26,1000000,0 ],5,type,[ 4,6,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],5,length,6).
+struct_dt_elem_i([ 26,1000000,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],5,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],5,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],6,name,'Productdispon').
+struct_dt_elem_i([ 26,1000000,0 ],6,camelname,'Productdispon').
+struct_dt_elem_i([ 26,1000000,0 ],6,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],6,length,4).
+struct_dt_elem_i([ 26,1000000,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],6,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],6,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],7,name,'Productid').
+struct_dt_elem_i([ 26,1000000,0 ],7,camelname,'Productid').
+struct_dt_elem_i([ 26,1000000,0 ],7,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],7,length,40).
+struct_dt_elem_i([ 26,1000000,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],7,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],7,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],8,name,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],8,camelname,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],8,type,[ 5,2,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],8,length,2).
+struct_dt_elem_i([ 26,1000000,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],8,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],8,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],9,name,'Gxdesc_talle').
+struct_dt_elem_i([ 26,1000000,0 ],9,camelname,'Gxdesc_talle').
+struct_dt_elem_i([ 26,1000000,0 ],9,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],9,length,1000).
+struct_dt_elem_i([ 26,1000000,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],9,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],9,islevel,'False').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,110,0 ],name,'WorkWithPlus\NativeMobile\WWPProductDataImages').
+struct_dt_i([ 26,110,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,110,0 ],'ObjName','WWPProductDataImages').
+struct_dt_i([ 26,110,0 ],'ObjDesc','WWPProduct Data Images').
+struct_dt_i([ 26,110,0 ],'ExternalName','WWPProductDataImages').
+struct_dt_i([ 26,110,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,110,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,110,0 ],fullname,'WorkWithPlus\NativeMobile\WWPProductDataImages').
+struct_dt_i([ 26,110,0 ],modified,yes).
+ 
+struct_dt_i([ 26,109,0 ],name,'WorkWithPlus\NativeMobile\WWPProductData').
+struct_dt_i([ 26,109,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,109,0 ],'ObjName','WWPProductData').
+struct_dt_i([ 26,109,0 ],'ObjDesc','WWPProduct Data').
+struct_dt_i([ 26,109,0 ],'ExternalName','WWPProductData').
+struct_dt_i([ 26,109,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,109,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,109,0 ],fullname,'WorkWithPlus\NativeMobile\WWPProductData').
+struct_dt_i([ 26,109,0 ],modified,yes).

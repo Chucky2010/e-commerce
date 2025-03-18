@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "localidadprompt_Execute",
+    "Description": "Selecciona Localidad",
+    "ProgramName": "localidadprompt",
+    "IsGXAutomatic": true
+  }
+]

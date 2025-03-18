@@ -1,0 +1,60 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'MyProductsCartCheckout_Level_DetailSdt','MyProductsCartCheckout_Level_DetailSdt',0,spa,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'MyProductsCartCheckout_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'MyProductsCartCheckout_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'MyProductsCartCheckout_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,1000000,0 ],1,name,'Cartsubtotaltxt').
+struct_dt_elem_i([ 26,1000000,0 ],1,camelname,'Cartsubtotaltxt').
+struct_dt_elem_i([ 26,1000000,0 ],1,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],1,length,40).
+struct_dt_elem_i([ 26,1000000,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,name,'Cartproductcollection').
+struct_dt_elem_i([ 26,1000000,0 ],2,camelname,'Cartproductcollection').
+struct_dt_elem_i([ 26,1000000,0 ],2,type,[ [ 26,112,0 ],0,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],2,length,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,collection,'True').
+struct_dt_elem_i([ 26,1000000,0 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,name,'Isauthorized_continue').
+struct_dt_elem_i([ 26,1000000,0 ],3,camelname,'Isauthorized_continue').
+struct_dt_elem_i([ 26,1000000,0 ],3,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],3,length,4).
+struct_dt_elem_i([ 26,1000000,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],4,name,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],4,camelname,'Gxdynprop').
+struct_dt_elem_i([ 26,1000000,0 ],4,type,[ 5,2,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],4,length,2).
+struct_dt_elem_i([ 26,1000000,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],4,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],4,islevel,'False').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\SD','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\SD','PackageName','GeneXus.jar').
+ 
+struct_dt_i([ 26,112,0 ],name,'NMCartProduct').
+struct_dt_i([ 26,112,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,112,0 ],'ObjName','NMCartProduct').
+struct_dt_i([ 26,112,0 ],'ObjDesc','NMCart Product').
+struct_dt_i([ 26,112,0 ],'ExternalName','NMCartProduct').
+struct_dt_i([ 26,112,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,112,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,112,0 ],fullname,'NMCartProduct').
+struct_dt_i([ 26,112,0 ],modified,yes).

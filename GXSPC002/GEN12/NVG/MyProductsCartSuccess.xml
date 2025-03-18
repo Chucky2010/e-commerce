@@ -1,0 +1,39 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>d82625fd-5892-40b0-99c9-5c8559c197fc</ObjClsGuid>
+<ObjCls>37</ObjCls>
+<ObjId>20</ObjId>
+<ObjName>MyProductsCartSuccess</ObjName>
+<ObjDesc>My Products Cart Success</ObjDesc>
+<ObjPgmName>MyProductsCartSuccess</ObjPgmName>
+<ObjClsName>SD Panel</ObjClsName>
+<Objects>
+<Object>
+<ObjName>MyProductsCartSuccess_Level_Detail</ObjName>
+<ObjNavig>GXSPC002\GEN12\NVG\MyProductsCartSuccess_Level_Detail.xml</ObjNavig>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid></Object></Objects></Object>
+<Result>nogenreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0024</MsgCode>
+<Location>
+<Type>Events</Type>
+<Line>14</Line>
+<ObjCls>37</ObjCls>
+<ObjId>20</ObjId>
+<Data>s;Level.Detail</Data></Location>
+<Message>
+<Token>[</Token>
+<Token>Level.Detail</Token>
+<Token>] </Token>
+<Token>Not enough parameters </Token>
+<Token>calling</Token>
+<Sp></Sp>
+<Token>PrcInsertarCalificacionSD</Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator></ObjectSpec>

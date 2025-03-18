@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "usuarioprompt_Execute",
+    "Description": "Selecciona Usuario",
+    "ProgramName": "usuarioprompt",
+    "IsGXAutomatic": true
+  }
+]

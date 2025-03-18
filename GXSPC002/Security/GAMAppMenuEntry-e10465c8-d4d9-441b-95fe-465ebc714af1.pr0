@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamappmenuentry_Execute",
+    "Description": "WWP_GAM_AppMenuEntry",
+    "ProgramName": "gamappmenuentry",
+    "IsGXAutomatic": true
+  }
+]

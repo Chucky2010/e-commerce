@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpgetrangedradialgauge_Services_Execute",
+    "Description": "Get Ranged Radial Gauge Services",
+    "ProgramName": "workwithplus.nativemobile.wwpgetrangedradialgauge",
+    "IsGXAutomatic": true
+  }
+]

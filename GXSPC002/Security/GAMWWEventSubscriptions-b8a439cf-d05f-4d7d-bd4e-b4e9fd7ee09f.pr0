@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamwweventsubscriptions_Execute",
+    "Description": "WWP_GAM_EventSubscriptions",
+    "ProgramName": "gamwweventsubscriptions",
+    "IsGXAutomatic": true
+  }
+]

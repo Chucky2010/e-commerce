@@ -1,0 +1,270 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>37</ObjId>
+<ObjName>WWPBaseObjects.Mail.WWP_Mail_BC</ObjName>
+<ObjDesc>Mail</ObjDesc>
+<ObjPgmName>WWPBaseObjects.Mail.WWP_Mail_BC</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>39</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>39</TableId>
+<TableName>WWP_Mail</TableName>
+<Description>WWP_Mail</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>39</TableId>
+<TableName>WWP_Mail</TableName>
+<Description>WWP_Mail</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>WWPMailId</AttriName>
+<Description>Mail Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>37</TableId>
+<TableName>WWP_Notification</TableName>
+<Description>WWP_Notification</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>WWPNotificationId</AttriName>
+<Description>Notification Id</Description></Attribute></KeyAttributes>
+<JoinType>Outer</JoinType>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>39</TableId>
+<TableName>WWP_Mail</TableName>
+<Description>WWP_Mail</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>191</AttriId>
+<AttriName>WWPMailSubject</AttriName>
+<Description>Mail Subject</Description></Attribute>
+<Attribute>
+<AttriId>183</AttriId>
+<AttriName>WWPMailBody</AttriName>
+<Description>Mail Body</Description></Attribute>
+<Attribute>
+<AttriId>192</AttriId>
+<AttriName>WWPMailTo</AttriName>
+<Description>Mail To</Description></Attribute>
+<Attribute>
+<AttriId>204</AttriId>
+<AttriName>WWPMailCC</AttriName>
+<Description>Mail CC</Description></Attribute>
+<Attribute>
+<AttriId>205</AttriId>
+<AttriName>WWPMailBCC</AttriName>
+<Description>Mail BCC</Description></Attribute>
+<Attribute>
+<AttriId>193</AttriId>
+<AttriName>WWPMailSenderAddress</AttriName>
+<Description>Mail Sender Address</Description></Attribute>
+<Attribute>
+<AttriId>194</AttriId>
+<AttriName>WWPMailSenderName</AttriName>
+<Description>Mail Sender Name</Description></Attribute>
+<Attribute>
+<AttriId>202</AttriId>
+<AttriName>WWPMailStatus</AttriName>
+<Description>Mail Status</Description></Attribute>
+<Attribute>
+<AttriId>211</AttriId>
+<AttriName>WWPMailCreated</AttriName>
+<Description>Mail Created</Description></Attribute>
+<Attribute>
+<AttriId>212</AttriId>
+<AttriName>WWPMailScheduled</AttriName>
+<Description>Mail Scheduled</Description></Attribute>
+<Attribute>
+<AttriId>207</AttriId>
+<AttriName>WWPMailProcessed</AttriName>
+<Description>Mail Processed</Description></Attribute>
+<Attribute>
+<AttriId>208</AttriId>
+<AttriName>WWPMailDetail</AttriName>
+<Description>Mail Detail</Description></Attribute>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>WWPNotificationId</AttriName>
+<Description>Notification Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>39</TableId>
+<TableName>WWP_Mail</TableName>
+<Description>WWP_Mail</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>191</AttriId>
+<AttriName>WWPMailSubject</AttriName>
+<Description>Mail Subject</Description></Attribute>
+<Attribute>
+<AttriId>183</AttriId>
+<AttriName>WWPMailBody</AttriName>
+<Description>Mail Body</Description></Attribute>
+<Attribute>
+<AttriId>192</AttriId>
+<AttriName>WWPMailTo</AttriName>
+<Description>Mail To</Description></Attribute>
+<Attribute>
+<AttriId>204</AttriId>
+<AttriName>WWPMailCC</AttriName>
+<Description>Mail CC</Description></Attribute>
+<Attribute>
+<AttriId>205</AttriId>
+<AttriName>WWPMailBCC</AttriName>
+<Description>Mail BCC</Description></Attribute>
+<Attribute>
+<AttriId>193</AttriId>
+<AttriName>WWPMailSenderAddress</AttriName>
+<Description>Mail Sender Address</Description></Attribute>
+<Attribute>
+<AttriId>194</AttriId>
+<AttriName>WWPMailSenderName</AttriName>
+<Description>Mail Sender Name</Description></Attribute>
+<Attribute>
+<AttriId>202</AttriId>
+<AttriName>WWPMailStatus</AttriName>
+<Description>Mail Status</Description></Attribute>
+<Attribute>
+<AttriId>211</AttriId>
+<AttriName>WWPMailCreated</AttriName>
+<Description>Mail Created</Description></Attribute>
+<Attribute>
+<AttriId>212</AttriId>
+<AttriName>WWPMailScheduled</AttriName>
+<Description>Mail Scheduled</Description></Attribute>
+<Attribute>
+<AttriId>207</AttriId>
+<AttriName>WWPMailProcessed</AttriName>
+<Description>Mail Processed</Description></Attribute>
+<Attribute>
+<AttriId>208</AttriId>
+<AttriName>WWPMailDetail</AttriName>
+<Description>Mail Detail</Description></Attribute>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>WWPNotificationId</AttriName>
+<Description>Notification Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>39</TableId>
+<TableName>WWP_Mail</TableName>
+<Description>WWP_Mail</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>40</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>40</TableId>
+<TableName>WWP_MailAttachments</TableName>
+<Description>WWP_MailAttachments</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>40</TableId>
+<TableName>WWP_MailAttachments</TableName>
+<Description>WWP_MailAttachments</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>WWPMailId</AttriName>
+<Description>Mail Id</Description></Attribute>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>WWPMailAttachmentName</AttriName>
+<Description>Mail Attachment Name</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>40</TableId>
+<TableName>WWP_MailAttachments</TableName>
+<Description>WWP_MailAttachments</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>42</AttriId>
+<AttriName>WWPMailId</AttriName>
+<Description>Mail Id</Description></Attribute>
+<Attribute>
+<AttriId>43</AttriId>
+<AttriName>WWPMailAttachmentName</AttriName>
+<Description>Mail Attachment Name</Description></Attribute>
+<Attribute>
+<AttriId>206</AttriId>
+<AttriName>WWPMailAttachmentFile</AttriName>
+<Description>Mail Attachment File</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>40</TableId>
+<TableName>WWP_MailAttachments</TableName>
+<Description>WWP_MailAttachments</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>206</AttriId>
+<AttriName>WWPMailAttachmentFile</AttriName>
+<Description>Mail Attachment File</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>40</TableId>
+<TableName>WWP_MailAttachments</TableName>
+<Description>WWP_MailAttachments</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

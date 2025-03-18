@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "ventas_FullControl",
+    "Description": "Ventas FullControl",
+    "ProgramName": "ventas",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "ventas_Execute",
+    "Description": "Ventas",
+    "ProgramName": "ventas",
+    "IsGXAutomatic": true,
+    "Parent": "ventas_FullControl"
+  },
+  {
+    "Name": "ventas_Insert",
+    "Description": "Ventas Insert",
+    "ProgramName": "ventas",
+    "IsGXAutomatic": true,
+    "Parent": "ventas_FullControl"
+  },
+  {
+    "Name": "ventas_Delete",
+    "Description": "Ventas Delete",
+    "ProgramName": "ventas",
+    "IsGXAutomatic": true,
+    "Parent": "ventas_FullControl"
+  },
+  {
+    "Name": "ventas_Update",
+    "Description": "Ventas Update",
+    "ProgramName": "ventas",
+    "IsGXAutomatic": true,
+    "Parent": "ventas_FullControl"
+  }
+]

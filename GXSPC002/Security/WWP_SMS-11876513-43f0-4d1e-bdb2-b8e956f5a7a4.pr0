@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "sms_FullControl",
+    "Description": "WWP_SMS FullControl",
+    "ProgramName": "wwpbaseobjects.sms.wwp_sms",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "sms_Execute",
+    "Description": "WWP_SMS",
+    "ProgramName": "wwpbaseobjects.sms.wwp_sms",
+    "IsGXAutomatic": true,
+    "Parent": "sms_FullControl"
+  },
+  {
+    "Name": "sms_Insert",
+    "Description": "WWP_SMS Insert",
+    "ProgramName": "wwpbaseobjects.sms.wwp_sms",
+    "IsGXAutomatic": true,
+    "Parent": "sms_FullControl"
+  },
+  {
+    "Name": "sms_Delete",
+    "Description": "WWP_SMS Delete",
+    "ProgramName": "wwpbaseobjects.sms.wwp_sms",
+    "IsGXAutomatic": true,
+    "Parent": "sms_FullControl"
+  },
+  {
+    "Name": "sms_Update",
+    "Description": "WWP_SMS Update",
+    "ProgramName": "wwpbaseobjects.sms.wwp_sms",
+    "IsGXAutomatic": true,
+    "Parent": "sms_FullControl"
+  }
+]

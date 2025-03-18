@@ -1,0 +1,12 @@
+generatorNumber=28
+modelNumber=2
+statePath=..\..\..\state\
+modelPath=..\..\..\..\
+compilePath=..\..\..\compile\
+destPath=
+staticPath=
+threeTierWeb=no
+threeTier=no
+webStaticFiles=
+additionalClasses=GXcfg
+additionalFiles=com\mujermorena\messages.spa.txt;com\mujermorena\messages.eng.txt

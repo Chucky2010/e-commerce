@@ -1,0 +1,837 @@
+spec_i([ proc,159,l('Generar Factura'),'GenerarFactura',78,spa,'17_0_11-163677' ]).
+ 
+struct_i(4,1,[ 19 ],[]).
+struct_i(5,4,[ 4 ],[]).
+struct_i(2,1,[ 19 ],[]).
+struct_i(3,2,[ 19 ],[]).
+ 
+level_i(4,[ 3,[ [ 3,many ],[ 1,one ] ],[],[],[ [ [ 3,1 ],[ 4,1,56,55,59 ] ] ],[ [ [ 3,1 ],[] ] ],[ 4,1 ],'',[ 3,[ [ [],'Clienteid',4 ] ] ],[] ]).
+level_i(5,[ 3,[ [ 3,many ],[ 1,one ] ],[],[],[ [ [ 3,1 ],[ 4,1,56,55,59 ] ] ],[ [ [ 3,1 ],[] ] ],[ 4,1 ],'',[ 3,[ [ [],4,4 ] ] ],[] ]).
+level_i(2,[ 16,[ [ 16,many ],[ 27,one ],[ 2000,one ] ],[],[],[ [ [ 16,27,2000 ],[ 19,4,29,125,311,91,235,237,238,236,239,240 ] ] ],[ [ [ 16,27,2000 ],[] ] ],[ 19 ],'IVENTAS',[ 16,[ [ [],19,19 ] ] ],[] ]).
+level_i(3,[ 17,[ [ 17,many ],[ 14,one ] ],[],[],[ [ [ 17,14 ],[ 19,76,13,20,78,92,252 ] ] ],[ [ [ 17,14 ],[] ] ],[ 19,20 ],'IVENTASDETALLE',[ 17,[ [ [],19,19 ] ] ],[] ]).
+ 
+tw_i(4,[ [ 1,[ [ 3,1,1 ] ] ] ]).
+tw_i(5,[ [ 1,[ [ 3,1,1 ] ] ] ]).
+tw_i(2,[ [ 27,[ [ 16,29,29 ] ] ],[ 2000,[ [ 16,oe([ t(19,2) ]),19 ] ] ] ]).
+tw_i(3,[ [ 14,[ [ 17,13,13 ] ] ] ]).
+ 
+lwi_i(5,[ [ c([ t(1,2),t(=,10),t('Personaid',23) ],[]) ] ]).
+lwi_i(4,[ [] ]).
+lwi_i(2,[ [] ]).
+lwi_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(4,[ [ [ 3,4 ],[ 3,1 ],[ 1,56 ],[ 1,55 ] ] ]).
+ta_i(5,[ [ [ 3,4 ],[ 3,1 ],[ 1,56 ],[ 1,55 ] ] ]).
+ta_i(2,[ [ [ 16,19 ],[ 16,4 ],[ 16,29 ],[ 27,125 ],[ 16,311 ],[ 16,91 ],[ 2000,se(238,[ [ 2000,238 ] ],[ t('coalesce(',1),t(238,2),t(',',7),t('0',3),t(')',4) ]) ],[ 2000,se(236,[ [ 2000,236 ] ],[ t('coalesce(',1),t(236,2),t(',',7),t('0',3),t(')',4) ]) ],[ 2000,se(239,[ [ 2000,239 ] ],[ t('coalesce(',1),t(239,2),t(',',7),t('0',3),t(')',4) ]) ] ] ]).
+ta_i(3,[ [ [ 17,19 ],[ 14,76 ],[ 17,13 ],[ 17,20 ],[ 14,78 ],[ 17,92 ] ] ]).
+ 
+las_i(4,[ [ 4,1,56,55,59 ] ]).
+las_i(5,[ [ 4,1,56,55,59 ] ]).
+las_i(2,[ [ 19,4,29,125,311,91,235,237,238,236,239,240 ] ]).
+las_i(3,[ [ 19,76,13,20,78,92,252 ] ]).
+ 
+lac_i(4,[ [] ]).
+lac_i(5,[ [] ]).
+lac_i(2,[ [] ]).
+lac_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','GenerarFactura')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','HTTP')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'Procedimientos'))).
+rule_i(0,prop('ObjDesc','Generar Factura')).
+rule_i(0,prop('ObjName','GenerarFactura')).
+rule_i(0,maingen(12)).
+rule_i(0,output_file(t('FacturaVenta',3),t(pdf,3))).
+rule_i(0,parm([ 19 ],[ 19 ])).
+rule_i(0,parmio([ [ 19,inout ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Line',[],[ [],[ t(0,3) ] ]).
+a_i(2,3,f,252,[],[ [],[ t(92,2),t(*,6),t(78,2),t(';',18) ] ]).
+a_i(3,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(4,3,t,17,[],[ [ [ [],19,19 ] ],'IVENTASDETALLE',[] ]).
+a_i(5,3,r,14,[],[ [ [ 17,13,13 ] ],'IARTICULO',[] ]).
+a_i(6,2,f,235,[],[ [],[ t('round(',1),t(236,2),t(/,6),t('21',3),t(',',7),t('0',3),t(')',4),t(';',18) ] ]).
+a_i(7,2,f,237,[],[ [],[ t('round(',1),t(238,2),t(/,6),t('11',3),t(',',7),t('0',3),t(')',4),t(';',18) ] ]).
+a_i(8,2,f,240,[],[ [],[ t(239,2),t(+,5),t(236,2),t(+,5),t(238,2),t(';',18) ] ]).
+a_i(9,2,t,16,[],[ [ [ [],19,19 ] ],'IVENTAS',[] ]).
+a_i(10,2,r,27,[],[ [ [ 16,29,29 ] ],'ITIMBRADO',[] ]).
+a_i(11,2,r,2000,[],[ [ [ 16,oe([ t(19,2) ]),19 ] ],'IVENTAS',[] ]).
+a_i(12,5,f,59,[],[ [],[ t('trim(',1),t(55,2),t(')',4),t(+,5),t(''' ''',3),t(+,5),t('trim(',1),t(56,2),t(')',4) ] ]).
+a_i(13,5,t,3,[],[ [ [ [],4,4 ] ],'',[] ]).
+a_i(14,5,r,1,[],[ [ [ 3,1,1 ] ],'IPERSONA',[] ]).
+a_i(15,4,f,59,[],[ [],[ t('trim(',1),t(55,2),t(')',4),t(+,5),t(''' ''',3),t(+,5),t('trim(',1),t(56,2),t(')',4) ] ]).
+a_i(16,4,t,3,[],[ [ [ [],'Clienteid',4 ] ],'',[] ]).
+a_i(17,4,r,1,[],[ [ [ 3,1,1 ] ],'IPERSONA',[] ]).
+a_i(18,5,c,0,[],[ c([ t(1,2),t(=,10),t('Personaid',23) ],[]) ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Line').
+v_i(f,i,2,92).
+v_i(f,i,2,78).
+v_i(f,o,2,252).
+v_i(f,i,3,[]).
+v_i(f,o,3,'Err').
+v_i(t,i,4,19).
+v_i(t,o,4,13).
+v_i(t,o,4,20).
+v_i(t,o,4,92).
+v_i(r,i,5,13).
+v_i(r,o,5,76).
+v_i(r,o,5,78).
+v_i(f,i,6,236).
+v_i(f,o,6,235).
+v_i(f,i,7,238).
+v_i(f,o,7,237).
+v_i(f,i,8,239).
+v_i(f,i,8,236).
+v_i(f,i,8,238).
+v_i(f,o,8,240).
+v_i(t,i,9,19).
+v_i(t,o,9,4).
+v_i(t,o,9,29).
+v_i(t,o,9,311).
+v_i(t,o,9,91).
+v_i(r,i,10,29).
+v_i(r,o,10,125).
+v_i(r,i,11,19).
+v_i(r,o,11,238).
+v_i(r,o,11,236).
+v_i(r,o,11,239).
+v_i(f,i,12,55).
+v_i(f,i,12,56).
+v_i(f,o,12,59).
+v_i(t,i,13,4).
+v_i(t,o,13,1).
+v_i(r,i,14,1).
+v_i(r,o,14,56).
+v_i(r,o,14,55).
+v_i(f,i,15,55).
+v_i(f,i,15,56).
+v_i(f,o,15,59).
+v_i(t,i,16,'Clienteid').
+v_i(t,o,16,4).
+v_i(t,o,16,1).
+v_i(r,i,17,1).
+v_i(r,o,17,56).
+v_i(r,o,17,55).
+v_i(c,i,18,[]).
+v_i(c,o,18,[]).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',20 ]).
+attri_i(55,[ 'PersonaNombre',char,80,0,'',0,l('Persona Nombre'),'',0 ]).
+attri_i(56,[ 'PersonaApellido',char,80,0,'',0,l('Persona Apellido'),'',0 ]).
+attri_i(83,[ 'ImpuestoPorcentaje',int,9,2,'ZZZZZ9.99',0,l('Impuesto Porcentaje'),'',0 ]).
+attri_i(238,[ 'VentasTotal10',int,17,2,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99',0,l('Ventas Total10'),'',0 ]).
+attri_i(236,[ 'VentasTotal5',int,17,2,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99',0,l('Ventas Total5'),'',0 ]).
+attri_i(239,[ 'VentasTotalExento',int,17,2,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99',0,l('Ventas Total Exento'),'',0 ]).
+attri_i(18,[ 'ImpuestoId',int,11,0,'ZZZZZZZZZZ9',0,l('Impuesto Id'),'',0 ]).
+attri_i('Page',[ 'Gx_page',int,6,0,'ZZZZZ9',0,l('Page number'),'',19 ]).
+attri_i('Line',[ 'Gx_line',int,6,0,'ZZZZZ9',0,l('Line number'),'',18 ]).
+attri_i(59,[ 'PersonaNombreCompleto',char,80,0,'',0,l('Persona Nombre Completo'),'',0 ]).
+attri_i(1,[ 'PersonaId',int,11,0,'ZZZZZZZZZZ9',0,l('Persona Id'),'',0 ]).
+attri_i(4,[ 'ClienteId',int,11,0,'ZZZZZZZZZZ9',0,l('Cliente Id'),'',0 ]).
+attri_i(29,[ 'TimbradoId',int,11,0,'ZZZZZZZZZZ9',0,l('Timbrado Id'),'',0 ]).
+attri_i(125,[ 'TimbradoNumero',int,10,0,'ZZZZZZZZZ9',0,l('Timbrado Numero'),'',0 ]).
+attri_i(311,[ 'VentasNroFactura',int,15,0,'ZZZZZZZZZZZZZZ9',0,l('Ventas Nro Factura'),'',0 ]).
+attri_i(91,[ 'VentasFecha',date,8,0,'99/99/99',0,l('Ventas Fecha'),'',0 ]).
+attri_i(240,[ 'VentasTotal',int,17,2,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99',0,l('Ventas Total'),'',0 ]).
+attri_i(237,[ 'VentasTotalIva10',int,17,2,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99',0,l('Ventas Total Iva10'),'',0 ]).
+attri_i(235,[ 'VentasTotalIva5',int,17,2,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99',0,l('Ventas Total Iva5'),'',0 ]).
+attri_i(19,[ 'VentasId',int,11,0,'ZZZZZZZZZZ9',0,l('Ventas Id'),'',0 ]).
+attri_i(252,[ 'VentasDetalleSubTotal',int,17,2,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99',0,l('Ventas Detalle Sub Total'),'',0 ]).
+attri_i(92,[ 'VentasDetalleCantidad',int,5,0,'ZZZZ9',0,l('Ventas Detalle Cantidad'),'',0 ]).
+attri_i(78,[ 'ArticuloPrecioVenta',int,17,2,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99',0,l('Articulo Precio Venta'),'',0 ]).
+attri_i(76,[ 'ArticuloNombre',char,80,0,'',0,l('Articulo Nombre'),'',0 ]).
+attri_i(13,[ 'ArticuloId',int,11,0,'ZZZZZZZZZZ9',0,l('Articulo Id'),'',0 ]).
+attri_i(20,[ 'VentasDetalleId',int,11,0,'ZZZZZZZZZZ9',0,l('Ventas Detalle Id'),'',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',13 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',12 ]).
+attri_i('Timbradoid',[ 'TimbradoId',int,11,0,'ZZZZZZZZZZ9',0,l('Timbrado Id'),'',11 ]).
+attri_i('Personaid',[ 'PersonaId',int,11,0,'ZZZZZZZZZZ9',0,l('Persona Id'),'',10 ]).
+attri_i('Clienteid',[ 'ClienteId',int,11,0,'ZZZZZZZZZZ9',0,l('Cliente Id'),'',9 ]).
+attri_i('Nombrecliente',[ 'NombreCliente',char,80,0,'',0,l('Nombre Cliente'),'',8 ]).
+ 
+table_i(44,[ 'Impuesto',[ 18,83 ],l('Impuesto'),'Impuesto' ]).
+table_i(14,[ 'Articulo',[ 13,76,78,18 ],l('Articulo'),'Articulo' ]).
+table_i(17,[ 'VentasDetalle',[ 19,20,13,92 ],l('Detalle'),'VentasDetalle' ]).
+table_i(2000,[ 'Ventas',[ 19 ],l('Ventas'),'Ventas' ]).
+table_i(27,[ 'Timbrado',[ 29,125 ],l('Timbrado'),'Timbrado' ]).
+table_i(16,[ 'Ventas',[ 19,91,4,29,311 ],l('Ventas'),'Ventas' ]).
+table_i(1,[ 'Persona',[ 1,55,56 ],l('Persona'),'Persona' ]).
+table_i(3,[ 'Cliente',[ 4,1 ],l('Cliente'),'Cliente' ]).
+ 
+index_i(17,[ 'IVENTASDETALLE',u,[ 19,20 ],'IVentasDetalle' ]).
+index_i(14,[ 'IARTICULO',u,[ 13 ],'IArticulo' ]).
+index_i(44,[ 'IIMPUESTO',u,[ 18 ],'IImpuesto' ]).
+index_i(16,[ 'IVENTAS',u,[ 19 ],'IVentas' ]).
+index_i(27,[ 'ITIMBRADO',u,[ 29 ],'ITimbrado' ]).
+index_i(2000,[ 'IVENTAS',u,[ 19 ],'IVentas' ]).
+index_i(3,[ '',a,[ 4,1 ],'' ]).
+index_i(3,[ 'ICLIENTE',u,[ 4 ],'ICliente' ]).
+index_i(1,[ 'IPERSONA',u,[ 1 ],'IPersona' ]).
+ 
+lv_i(2,2000,16).
+ 
+ 
+ 
+ 
+nav_view_i(2000,[ 239,238,236 ],[ 19 ],[ 19 ],[ [ 2000,[ [ 16,oe([ t(19,2) ]),19 ] ] ] ],[ [ [ 17,[ 'sum(',se(94,[ [ 17,92 ],[ 14,78 ],[ 44,83 ] ],[ t(92,2),t(*,6),t(78,2),t('IF',17),t(83,2),t(=,10),t('0',3) ]) ] ],[ 17,19 ],[ 17,[ 'sum(',se(95,[ [ 17,92 ],[ 14,78 ],[ 44,83 ] ],[ t(92,2),t(*,6),t(78,2),t('IF',17),t(83,2),t(=,10),t('10',3) ]) ] ],[ 17,[ 'sum(',se(96,[ [ 17,92 ],[ 14,78 ],[ 44,83 ] ],[ t(92,2),t(*,6),t(78,2),t('IF',17),t(83,2),t(=,10),t('5',3) ]) ] ] ],n,[ [ 17,many ],[ 14,one ],[ 44,one ] ],[ [ 14,[ [ 17,13,13 ] ] ],[ 44,[ [ 14,18,18 ] ] ] ],[],[ none ],[],[ 19 ],[] ]).
+ 
+ 
+agg_def_i(239,[ t('0',3) ]).
+agg_def_i(236,[ t('0',3) ]).
+agg_def_i(238,[ t('0',3) ]).
+ 
+ 
+ 
+ 
+sql_no_eval_hor_i(3,252).
+sql_no_eval_hor_i(2,240).
+sql_no_eval_hor_i(2,237).
+sql_no_eval_hor_i(2,235).
+sql_no_eval_hor_i(5,59).
+sql_no_eval_hor_i(4,59).
+ 
+add_att_i(bits,2,40000,231,'ArticuloImagen_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+start_i(4,0,0,[ [ [ 4,23,'Clienteid',= ] ],many ]).
+start_i(2,0,0,[ [ [ 19,2,19,= ] ],one ]).
+start_i(3,0,0,[ [ [ 19,2,19,= ] ],many ]).
+ 
+end_i(4,0,0,[ [ [ t(4,2),t(=,10),t('Clienteid',23) ] ] ]).
+end_i(2,0,0,[ [ [ t(19,2),t(=,10),t(19,23) ] ] ]).
+end_i(3,0,0,[ [ [ t(19,2),t(=,10),t(19,23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(90,[ 'IDN11' ]).
+dom_info_i(192,[ 'Nombre' ]).
+dom_info_i(204,[ 'Monto' ]).
+dom_info_i(203,[ 'Cantidad' ]).
+dom_info_i(217,[ 'Factura' ]).
+dom_info_i(207,[ 'Numero' ]).
+dom_info_i(205,[ 'Stock' ]).
+dom_info_i(252,[ 'Serial' ]).
+dom_info_i(249,[ 'Porcentaje' ]).
+dom_info_i(220,[ 'Descripcion' ]).
+dom_info_i(250,[ 'Divisor' ]).
+dom_info_i(260,[ 'SerieFac' ]).
+dom_info_i(215,[ 'Inicio' ]).
+dom_info_i(216,[ 'Fin' ]).
+dom_info_i(193,[ 'Apellido' ]).
+dom_info_i(194,[ 'Direccion' ]).
+dom_info_i(195,[ 'NroCI' ]).
+dom_info_i(198,[ 'Barrio' ]).
+dom_info_i(199,[ 'Telefono' ]).
+dom_info_i(200,[ 'Telefono1' ]).
+dom_info_i(201,[ 'Telefono2' ]).
+dom_info_i(45,[ 'GeneXus\Email' ]).
+ 
+ 
+break_i(3,nvg,2,[ 20 ],[ [ 20,13,76,78,92,252 ],[],[] ]).
+break_i(2,nvg,1,[ 19 ],[ [ 19,235,237,240,91,311,125,29,4 ],[],[] ]).
+break_i(5,nvg,4,[ 1 ],[ [ 1,59 ],[ 1 ],[] ]).
+break_i(4,nvg,1,[ 4 ],[ [ 4,1 ],[ 4 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,8).
+b_group_i(1,2,nvg,2,4,4).
+b_group_i(2,1,lit,0,12,22).
+b_group_i(2,2,nvg,3,12,12).
+b_group_i(3,1,lit,0,28,30).
+b_group_i(2,3,lit,0,31,32).
+b_group_i(1,3,lit,0,39,20).
+b_group_i(1,4,lit,0,42,36).
+b_group_i(1,5,nvg,4,22,22).
+b_group_i(4,1,lit,0,44,44).
+b_group_i(4,2,nvg,5,25,25).
+b_group_i(5,1,lit,0,47,47).
+b_group_i(4,3,lit,0,50,48).
+b_group_i(1,6,lit,0,52,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,pb,0,[ t('Cabecera',29,0,7) ]).
+b_line_i([ 2,0 ],1,1,line,0,[ t(' ',3,0,0) ]).
+b_line_i([ 2,1 ],1,1,line,1,[ t(l('Mujer Morena'),3,1,34) ]).
+b_line_i([ 2,7 ],1,1,line,7,[ t(' ',3,7,0) ]).
+b_line_i(3,1,1,cmd,8,[]).
+b_line_i(4,2,1,cmd,12,[ t('',121,4,0),t('ORDER',39,4,10),t(19,2,4,16) ]).
+b_line_i(5,2,1,cmd,12,[]).
+b_line_i(6,2,1,cmd,12,[ t('',107,6,0),t('Clienteid',23,12,0),t(=,10,12,0),t(4,2,12,0) ]).
+b_line_i(7,2,1,cmd,12,[ t('',107,7,0),t('Timbradoid',23,12,0),t(=,10,12,0),t(29,2,12,0) ]).
+b_line_i(8,2,1,cmd,12,[ t('',145,8,0),t('''DATOSCLIENTE''',3,8,5) ]).
+b_line_i(9,2,1,pb,12,[ t('Datosclientes',29,12,8) ]).
+b_line_i([ 9,0 ],2,1,line,12,[ t(' ',3,0,0) ]).
+b_line_i([ 9,1 ],2,1,line,13,[ t(l('Fecha	'),3,1,1),t(91,2,1,22),t(l('Timbrado'),3,1,34),t(125,2,1,50),t(l('Nro Factura'),3,1,60),t(311,2,1,79) ]).
+b_line_i([ 9,4 ],2,1,line,16,[ t(l('Cliente'),3,4,1),t(4,2,4,22),t('Nombrecliente',23,4,35) ]).
+b_line_i([ 9,7 ],2,1,line,19,[ t(' ',3,7,0) ]).
+b_line_i(10,2,1,pb,20,[ t('Detallecabecera',29,20,8) ]).
+b_line_i([ 10,0 ],2,1,line,20,[ t(l('Codigo'),3,0,2),t(l('Nombre'),3,0,21),t(l('Cantidad'),3,0,41),t(l('PrecioVenta'),3,0,60),t(l('Total'),3,0,81) ]).
+b_line_i([ 10,1 ],2,1,line,21,[ t(' ',3,1,0) ]).
+b_line_i(11,2,1,cmd,22,[]).
+b_line_i(12,3,1,cmd,28,[ t('',121,12,0),t('ORDER',39,12,11),t(20,2,12,17) ]).
+b_line_i(13,3,1,pb,28,[ t('Detalleproductos',29,28,9) ]).
+b_line_i([ 13,0 ],3,1,line,28,[ t(13,2,0,2),t(76,2,0,21),t(92,2,0,41),t(78,2,0,60),t(252,2,0,81) ]).
+b_line_i([ 13,1 ],3,1,line,29,[ t(' ',3,1,0) ]).
+b_line_i(14,3,1,cmd,30,[ t('',128,14,0) ]).
+b_line_i(15,2,3,pb,26,[ t('Totales',29,26,8) ]).
+b_line_i([ 15,0 ],2,3,line,26,[ t(l('Total 5	'),3,0,3) ]).
+b_line_i([ 15,1 ],2,3,line,27,[ t(235,2,1,20) ]).
+b_line_i([ 15,2 ],2,3,line,28,[ t(l('Total10
+'),3,2,3) ]).
+b_line_i([ 15,3 ],2,3,line,29,[ t(237,2,3,19) ]).
+b_line_i([ 15,5 ],2,3,line,31,[ t(l('Ventas Total	'),3,5,3),t(240,2,5,20) ]).
+b_line_i(16,2,3,cmd,32,[]).
+b_line_i(17,2,3,cmd,32,[ t('',128,17,0) ]).
+b_line_i(18,1,3,cmd,36,[]).
+b_line_i(19,1,3,cmd,36,[]).
+b_line_i(20,1,3,cmd,36,[ t('',143,20,0),t('''DATOSCLIENTE''',3,20,5) ]).
+b_line_i(21,1,4,cmd,36,[]).
+b_line_i(22,4,1,cmd,44,[ t('',121,22,0),t('ORDER',39,22,11),t(4,2,22,17) ]).
+b_line_i(24,4,1,cmd,44,[ t('',107,24,0),t('Personaid',23,44,0),t(=,10,44,0),t(1,2,44,0) ]).
+b_line_i(25,5,1,cmd,47,[ t('',121,25,0),t('ORDER',39,25,12),t(1,2,25,18) ]).
+b_line_i(27,5,1,cmd,47,[ t('',107,27,0),t('Nombrecliente',23,47,0),t(=,10,47,0),t(59,2,47,0) ]).
+b_line_i(28,5,1,cmd,47,[ t('',128,28,0) ]).
+b_line_i(29,4,3,cmd,48,[]).
+b_line_i(30,4,3,cmd,48,[ t('',128,30,0) ]).
+b_line_i(31,1,6,cmd,45,[]).
+b_line_i(32,1,6,cmd,45,[ t('',144,32,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',9936,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0038,[ 'There is no index for order ',[ att(2,4),', ',att(2,1) ],'; poor performance may be noticed',[ ' in group starting at line ','25','' ],'.' ])).
+ 
+ 
+ 
+lit_i(2,2,t(l('Mujer Morena'),3),[ font('Microsoft Sans Serif',8,[]),rect(244,22,627,44),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Text'),gxcolor([]) ]).
+lit_i(1,2,window,[ title(l('Text')),rect(0,0,690,119),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Cabecera'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(3,9,t(l('Cliente'),3),[ font('Microsoft Sans Serif',8,[]),rect(8,67,136,89),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel1'),gxcolor([]) ]).
+lit_i(4,9,t(4,2),[ font('Microsoft Sans Serif',8,[]),rect(158,67,228,82),outstyle(none),align(right),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('4'),ctrltype(edit,4),ispwd(0),gxcolor([]) ]).
+lit_i(21,9,t('Nombrecliente',23),[ font('Microsoft Sans Serif',8,[]),rect(250,67,668,82),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('&nombrecliente'),ctrltype(edit,21),ispwd(0),gxcolor([]) ]).
+lit_i(22,9,t(91,2),[ font('Microsoft Sans Serif',8,[]),rect(158,17,207,32),outstyle(none),align(right),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('91'),ctrltype(edit,22),ispwd(0),gxcolor([]) ]).
+lit_i(23,9,t(l('Fecha	'),3),[ font('Microsoft Sans Serif',8,[]),rect(8,17,136,39),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel10'),gxcolor([]) ]).
+lit_i(27,9,t(l('Fecha	'),3),[ font('Microsoft Sans Serif',8,[]),rect(8,17,136,39),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel12'),gxcolor([]) ]).
+lit_i(25,9,t(l('Timbrado'),3),[ font('Microsoft Sans Serif',8,[]),rect(242,17,342,39),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel11'),gxcolor([]) ]).
+lit_i(28,9,t(311,2),[ font('Microsoft Sans Serif',8,[]),rect(558,17,653,32),outstyle(none),align(right),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('311'),ctrltype(edit,28),ispwd(0),gxcolor([]) ]).
+lit_i(29,9,t(125,2),[ font('Microsoft Sans Serif',8,[]),rect(350,17,414,32),outstyle(none),align(right),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('125'),ctrltype(edit,29),ispwd(0),gxcolor([]) ]).
+lit_i(30,9,t(l('Nro Factura'),3),[ font('Microsoft Sans Serif',8,[]),rect(425,17,525,39),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel12'),gxcolor([]) ]).
+lit_i(3,9,window,[ title(l('Text')),rect(0,0,690,130),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Datosclientes'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(2,10,t(l('Codigo'),3),[ font('Microsoft Sans Serif',8,[]),rect(17,0,134,22),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel2'),gxcolor([]) ]).
+lit_i(5,10,t(l('Nombre'),3),[ font('Microsoft Sans Serif',8,[]),rect(150,0,267,22),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel3'),gxcolor([]) ]).
+lit_i(6,10,t(l('Cantidad'),3),[ font('Microsoft Sans Serif',8,[]),rect(289,0,406,22),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel4'),gxcolor([]) ]).
+lit_i(7,10,t(l('PrecioVenta'),3),[ font('Microsoft Sans Serif',8,[]),rect(422,0,539,22),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel5'),gxcolor([]) ]).
+lit_i(8,10,t(l('Total'),3),[ font('Microsoft Sans Serif',8,[]),rect(567,0,684,22),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel6'),gxcolor([]) ]).
+lit_i(1,10,window,[ title(l('Text')),rect(0,0,690,42),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Detallecabecera'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(1,13,t(13,2),[ font('Microsoft Sans Serif',8,[]),rect(17,0,87,15),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('13'),ctrltype(edit,1),ispwd(0),gxcolor([]) ]).
+lit_i(10,13,t(76,2),[ font('Microsoft Sans Serif',8,[]),rect(150,0,283,15),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('76'),ctrltype(edit,10),ispwd(0),gxcolor([]) ]).
+lit_i(11,13,t(78,2),[ font('Microsoft Sans Serif',8,[]),rect(422,0,554,15),outstyle(none),align(right),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('78'),ctrltype(edit,11),ispwd(0),gxcolor([]) ]).
+lit_i(12,13,t(92,2),[ font('Microsoft Sans Serif',8,[]),rect(289,0,321,15),outstyle(none),align(right),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('92'),ctrltype(edit,12),ispwd(0),gxcolor([]) ]).
+lit_i(13,13,t(252,2),[ font('Microsoft Sans Serif',8,[]),rect(567,0,699,15),outstyle(none),align(right),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('252'),ctrltype(edit,13),ispwd(0),gxcolor([]) ]).
+lit_i(9,13,window,[ title(l('Text')),rect(0,0,690,34),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Detalleproductos'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(15,15,t(l('Total 5	'),3),[ font('Microsoft Sans Serif',8,[]),rect(22,11,139,33),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel7'),gxcolor([]) ]).
+lit_i(16,15,t(235,2),[ font('Microsoft Sans Serif',8,[]),rect(144,18,276,33),outstyle(none),align(right),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('235'),ctrltype(edit,16),ispwd(0),gxcolor([]) ]).
+lit_i(17,15,t(l('Total10
+'),3),[ font('Microsoft Sans Serif',8,[]),rect(22,44,139,66),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel8'),gxcolor([]) ]).
+lit_i(18,15,t(237,2),[ font('Microsoft Sans Serif',8,[]),rect(139,51,271,66),outstyle(none),align(right),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('237'),ctrltype(edit,18),ispwd(0),gxcolor([]) ]).
+lit_i(19,15,t(l('Ventas Total	'),3),[ font('Microsoft Sans Serif',8,[]),rect(22,78,139,100),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel9'),gxcolor([]) ]).
+lit_i(20,15,t(240,2),[ font('Microsoft Sans Serif',8,[]),rect(144,85,276,100),outstyle(none),align(right),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('240'),ctrltype(edit,20),ispwd(0),gxcolor([]) ]).
+lit_i(14,15,window,[ title(l('Text')),rect(0,0,690,100),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Totales'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ctrl_info_i(9,21,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ 
+ 
+ 
+att_prop_i(2,20,'ExternalName','VentasDetalleId',d).
+att_prop_i(2,20,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,20,'EmptyAsNull','Yes',d).
+att_prop_i(2,20,idBasedOn,90,v).
+att_prop_i(2,20,'AUTONUMBER','0',d).
+att_prop_i(2,20,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,20,'AttRegEx','',d).
+att_prop_i(2,20,'AttValidationFailedMsg','',d).
+att_prop_i(2,20,'DownloadOffline','0',d).
+att_prop_i(2,20,'VarServiceExtName','',d).
+att_prop_i(2,20,'FullName','VentasDetalleId',v).
+att_prop_i(2,13,'ExternalName','ArticuloId',d).
+att_prop_i(2,13,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,13,'EmptyAsNull','Yes',d).
+att_prop_i(2,13,idBasedOn,90,v).
+att_prop_i(2,13,'AUTONUMBER','0',d).
+att_prop_i(2,13,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,13,'AttRegEx','',d).
+att_prop_i(2,13,'AttValidationFailedMsg','',d).
+att_prop_i(2,13,'DownloadOffline','0',d).
+att_prop_i(2,13,'VarServiceExtName','',d).
+att_prop_i(2,13,'FullName','ArticuloId',v).
+att_prop_i(2,76,'ExternalName','ArticuloNombre',d).
+att_prop_i(2,76,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,76,'EmptyAsNull','Yes',d).
+att_prop_i(2,76,idBasedOn,192,v).
+att_prop_i(2,76,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,76,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,76,'AttRegEx','',d).
+att_prop_i(2,76,'AttValidationFailedMsg','',d).
+att_prop_i(2,76,'DownloadOffline','0',d).
+att_prop_i(2,76,'VarServiceExtName','',d).
+att_prop_i(2,76,'FullName','ArticuloNombre',v).
+att_prop_i(2,78,'ExternalName','ArticuloPrecioVenta',d).
+att_prop_i(2,78,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,78,'EmptyAsNull','Yes',d).
+att_prop_i(2,78,idBasedOn,204,v).
+att_prop_i(2,78,'AUTONUMBER','0',d).
+att_prop_i(2,78,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,78,'AttRegEx','',d).
+att_prop_i(2,78,'AttValidationFailedMsg','',d).
+att_prop_i(2,78,'DownloadOffline','0',d).
+att_prop_i(2,78,'VarServiceExtName','',d).
+att_prop_i(2,78,'FullName','ArticuloPrecioVenta',v).
+att_prop_i(2,92,'ExternalName','VentasDetalleCantidad',d).
+att_prop_i(2,92,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,92,'EmptyAsNull','Yes',d).
+att_prop_i(2,92,idBasedOn,203,v).
+att_prop_i(2,92,'AUTONUMBER','0',d).
+att_prop_i(2,92,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,92,'AttRegEx','',d).
+att_prop_i(2,92,'AttValidationFailedMsg','',d).
+att_prop_i(2,92,'DownloadOffline','0',d).
+att_prop_i(2,92,'VarServiceExtName','',d).
+att_prop_i(2,92,'FullName','VentasDetalleCantidad',v).
+att_prop_i(2,252,'ExternalName','VentasDetalleSubTotal',d).
+att_prop_i(2,252,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,252,idBasedOn,204,v).
+att_prop_i(2,252,'DownloadOffline','0',d).
+att_prop_i(2,252,'VarServiceExtName','',d).
+att_prop_i(2,252,'FullName','VentasDetalleSubTotal',v).
+att_prop_i(2,19,'ExternalName','VentasId',d).
+att_prop_i(2,19,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,19,'EmptyAsNull','Yes',d).
+att_prop_i(2,19,idBasedOn,90,v).
+att_prop_i(2,19,'AUTONUMBER','0',d).
+att_prop_i(2,19,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,19,'AttRegEx','',d).
+att_prop_i(2,19,'AttValidationFailedMsg','',d).
+att_prop_i(2,19,'DownloadOffline','0',d).
+att_prop_i(2,19,'VarServiceExtName','',d).
+att_prop_i(2,19,'FullName','VentasId',v).
+att_prop_i(2,235,'ExternalName','VentasTotalIva5',d).
+att_prop_i(2,235,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,235,idBasedOn,204,v).
+att_prop_i(2,235,'DownloadOffline','0',d).
+att_prop_i(2,235,'VarServiceExtName','',d).
+att_prop_i(2,235,'FullName','VentasTotalIva5',v).
+att_prop_i(2,237,'ExternalName','VentasTotalIva10',d).
+att_prop_i(2,237,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,237,idBasedOn,204,v).
+att_prop_i(2,237,'DownloadOffline','0',d).
+att_prop_i(2,237,'VarServiceExtName','',d).
+att_prop_i(2,237,'FullName','VentasTotalIva10',v).
+att_prop_i(2,240,'ExternalName','VentasTotal',d).
+att_prop_i(2,240,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,240,idBasedOn,204,v).
+att_prop_i(2,240,'DownloadOffline','0',d).
+att_prop_i(2,240,'VarServiceExtName','',d).
+att_prop_i(2,240,'FullName','VentasTotal',v).
+att_prop_i(2,91,'ExternalName','VentasFecha',d).
+att_prop_i(2,91,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,91,'EmptyAsNull','Yes',d).
+att_prop_i(2,91,idBasedOn,'',d).
+att_prop_i(2,91,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,91,'AttRegEx','',d).
+att_prop_i(2,91,'AttValidationFailedMsg','',d).
+att_prop_i(2,91,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,91,'DownloadOffline','0',d).
+att_prop_i(2,91,'VarServiceExtName','',d).
+att_prop_i(2,91,'FullName','VentasFecha',v).
+att_prop_i(2,311,'ExternalName','VentasNroFactura',d).
+att_prop_i(2,311,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,311,'EmptyAsNull','Yes',d).
+att_prop_i(2,311,idBasedOn,217,v).
+att_prop_i(2,311,'AUTONUMBER','0',d).
+att_prop_i(2,311,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,311,'AttRegEx','',d).
+att_prop_i(2,311,'AttValidationFailedMsg','',d).
+att_prop_i(2,311,'DownloadOffline','0',d).
+att_prop_i(2,311,'VarServiceExtName','',d).
+att_prop_i(2,311,'FullName','VentasNroFactura',v).
+att_prop_i(2,125,'ExternalName','TimbradoNumero',d).
+att_prop_i(2,125,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,125,'EmptyAsNull','Yes',d).
+att_prop_i(2,125,idBasedOn,207,v).
+att_prop_i(2,125,'AUTONUMBER','0',d).
+att_prop_i(2,125,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,125,'AttRegEx','',d).
+att_prop_i(2,125,'AttValidationFailedMsg','',d).
+att_prop_i(2,125,'DownloadOffline','0',d).
+att_prop_i(2,125,'VarServiceExtName','',d).
+att_prop_i(2,125,'FullName','TimbradoNumero',v).
+att_prop_i(2,29,'ExternalName','TimbradoId',d).
+att_prop_i(2,29,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,29,'EmptyAsNull','Yes',d).
+att_prop_i(2,29,idBasedOn,90,v).
+att_prop_i(2,29,'AUTONUMBER','0',d).
+att_prop_i(2,29,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,29,'AttRegEx','',d).
+att_prop_i(2,29,'AttValidationFailedMsg','',d).
+att_prop_i(2,29,'DownloadOffline','0',d).
+att_prop_i(2,29,'VarServiceExtName','',d).
+att_prop_i(2,29,'FullName','TimbradoId',v).
+att_prop_i(2,4,'ExternalName','ClienteId',d).
+att_prop_i(2,4,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,4,'EmptyAsNull','Yes',d).
+att_prop_i(2,4,idBasedOn,90,v).
+att_prop_i(2,4,'AUTONUMBER','0',d).
+att_prop_i(2,4,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,4,'AttRegEx','',d).
+att_prop_i(2,4,'AttValidationFailedMsg','',d).
+att_prop_i(2,4,'DownloadOffline','0',d).
+att_prop_i(2,4,'VarServiceExtName','',d).
+att_prop_i(2,4,'FullName','ClienteId',v).
+att_prop_i(2,1,'ExternalName','PersonaId',d).
+att_prop_i(2,1,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,1,'EmptyAsNull','Yes',d).
+att_prop_i(2,1,idBasedOn,90,v).
+att_prop_i(2,1,'AUTONUMBER','0',d).
+att_prop_i(2,1,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,1,'AttRegEx','',d).
+att_prop_i(2,1,'AttValidationFailedMsg','',d).
+att_prop_i(2,1,'DownloadOffline','0',d).
+att_prop_i(2,1,'VarServiceExtName','',d).
+att_prop_i(2,1,'FullName','PersonaId',v).
+att_prop_i(2,59,'ExternalName','PersonaNombreCompleto',d).
+att_prop_i(2,59,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,59,idBasedOn,192,v).
+att_prop_i(2,59,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,59,'DownloadOffline','0',d).
+att_prop_i(2,59,'VarServiceExtName','',d).
+att_prop_i(2,59,'FullName','PersonaNombreCompleto',v).
+att_prop_i(2,18,'ExternalName','ImpuestoId',d).
+att_prop_i(2,18,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,18,'EmptyAsNull','Yes',d).
+att_prop_i(2,18,idBasedOn,90,v).
+att_prop_i(2,18,'AUTONUMBER','0',d).
+att_prop_i(2,18,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,18,'AttRegEx','',d).
+att_prop_i(2,18,'AttValidationFailedMsg','',d).
+att_prop_i(2,18,'DownloadOffline','0',d).
+att_prop_i(2,18,'VarServiceExtName','',d).
+att_prop_i(2,18,'FullName','ImpuestoId',v).
+att_prop_i(2,239,'ExternalName','VentasTotalExento',d).
+att_prop_i(2,239,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,239,idBasedOn,204,v).
+att_prop_i(2,239,'DownloadOffline','0',d).
+att_prop_i(2,239,'VarServiceExtName','',d).
+att_prop_i(2,239,'FullName','VentasTotalExento',v).
+att_prop_i(2,236,'ExternalName','VentasTotal5',d).
+att_prop_i(2,236,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,236,idBasedOn,204,v).
+att_prop_i(2,236,'DownloadOffline','0',d).
+att_prop_i(2,236,'VarServiceExtName','',d).
+att_prop_i(2,236,'FullName','VentasTotal5',v).
+att_prop_i(2,238,'ExternalName','VentasTotal10',d).
+att_prop_i(2,238,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,238,idBasedOn,204,v).
+att_prop_i(2,238,'DownloadOffline','0',d).
+att_prop_i(2,238,'VarServiceExtName','',d).
+att_prop_i(2,238,'FullName','VentasTotal10',v).
+att_prop_i(2,83,'ExternalName','ImpuestoPorcentaje',d).
+att_prop_i(2,83,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,83,'EmptyAsNull','Yes',d).
+att_prop_i(2,83,idBasedOn,249,v).
+att_prop_i(2,83,'AUTONUMBER','0',d).
+att_prop_i(2,83,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,83,'AttRegEx','',d).
+att_prop_i(2,83,'AttValidationFailedMsg','',d).
+att_prop_i(2,83,'DownloadOffline','0',d).
+att_prop_i(2,83,'VarServiceExtName','',d).
+att_prop_i(2,83,'FullName','ImpuestoPorcentaje',v).
+att_prop_i(2,56,'ExternalName','PersonaApellido',d).
+att_prop_i(2,56,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,56,'EmptyAsNull','Yes',d).
+att_prop_i(2,56,idBasedOn,193,v).
+att_prop_i(2,56,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,56,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,56,'AttRegEx','',d).
+att_prop_i(2,56,'AttValidationFailedMsg','',d).
+att_prop_i(2,56,'DownloadOffline','0',d).
+att_prop_i(2,56,'VarServiceExtName','',d).
+att_prop_i(2,56,'FullName','PersonaApellido',v).
+att_prop_i(2,55,'ExternalName','PersonaNombre',d).
+att_prop_i(2,55,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,55,'EmptyAsNull','Yes',d).
+att_prop_i(2,55,idBasedOn,192,v).
+att_prop_i(2,55,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,55,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,55,'AttRegEx','',d).
+att_prop_i(2,55,'AttValidationFailedMsg','',d).
+att_prop_i(2,55,'DownloadOffline','0',d).
+att_prop_i(2,55,'VarServiceExtName','',d).
+att_prop_i(2,55,'FullName','PersonaNombre',v).
+ 
+tbl_prop_i(2,14,'AllDirSuper',[ [ 44,[ 18 ] ] ],v).
+tbl_prop_i(2,17,'AllDirSuper',[ [ 14,[ 13 ] ],[ 16,[ 19 ] ] ],v).
+tbl_prop_i(2,16,'AllDirSuper',[ [ 27,[ 29 ] ],[ 3,[ 4 ] ] ],v).
+tbl_prop_i(2,3,'AllDirSuper',[ [ 1,[ 1 ] ] ],v).
+tbl_prop_i(2,1,'DirSubor',[ [ 3,[ 1 ] ] ],v).
+tbl_prop_i(2,2000,'DirSubor',[ [ 17,[ 19 ] ] ],v).
+tbl_prop_i(2,27,'DirSubor',[ [ 16,[ 29 ] ] ],v).
+tbl_prop_i(2,44,'DirSubor',[ [ 14,[ 18 ] ] ],v).
+tbl_prop_i(2,14,'DirSubor',[ [ 17,[ 13 ] ] ],v).
+tbl_prop_i(2,16,'DirSubor',[ [ 17,[ 19 ] ] ],v).
+tbl_prop_i(2,3,'DirSubor',[ [ 16,[ 4 ] ] ],v).
+tbl_prop_i(2,2000,'DirSuper',[ [ 27,[ 29 ] ],[ 3,[ 4 ] ] ],v).
+tbl_prop_i(2,14,'DirSuper',[ [ 44,[ 18 ] ] ],v).
+tbl_prop_i(2,17,'DirSuper',[ [ 14,[ 13 ] ],[ 16,[ 19 ] ] ],v).
+tbl_prop_i(2,16,'DirSuper',[ [ 27,[ 29 ] ],[ 3,[ 4 ] ] ],v).
+tbl_prop_i(2,3,'DirSuper',[ [ 1,[ 1 ] ] ],v).
+ 
+tbl_att_prop_i(2,17,19,'AllowNulls',n).
+tbl_att_prop_i(2,17,20,'AllowNulls',n).
+tbl_att_prop_i(2,17,13,'AllowNulls',n).
+tbl_att_prop_i(2,17,92,'AllowNulls',n).
+tbl_att_prop_i(2,14,13,'AllowNulls',n).
+tbl_att_prop_i(2,14,76,'AllowNulls',n).
+tbl_att_prop_i(2,14,78,'AllowNulls',n).
+tbl_att_prop_i(2,14,18,'AllowNulls',n).
+tbl_att_prop_i(2,44,83,'AllowNulls',n).
+tbl_att_prop_i(2,44,18,'AllowNulls',n).
+tbl_att_prop_i(2,16,19,'AllowNulls',n).
+tbl_att_prop_i(2,16,91,'AllowNulls',n).
+tbl_att_prop_i(2,16,4,'AllowNulls',n).
+tbl_att_prop_i(2,16,29,'AllowNulls',n).
+tbl_att_prop_i(2,16,311,'AllowNulls',n).
+tbl_att_prop_i(2,27,29,'AllowNulls',n).
+tbl_att_prop_i(2,27,125,'AllowNulls',n).
+tbl_att_prop_i(2,2000,19,'AllowNulls',n).
+tbl_att_prop_i(2,3,4,'AllowNulls',n).
+tbl_att_prop_i(2,3,1,'AllowNulls',n).
+tbl_att_prop_i(2,1,1,'AllowNulls',n).
+tbl_att_prop_i(2,1,55,'AllowNulls',n).
+tbl_att_prop_i(2,1,56,'AllowNulls',n).
+ 
+var_prop_i(2,'Nombrecliente',idBasedOn,192,v).
+var_prop_i(2,'Clienteid',idBasedOn,'',v).
+var_prop_i(2,'Personaid',idBasedOn,'',v).
+var_prop_i(2,'Timbradoid',idBasedOn,'',v).
+ 
+ 
+ 
+a_alias_i([ 'sum(',se(94,[ [ 17,92 ],[ 14,78 ],[ 44,83 ] ],[ t(92,2),t(*,6),t(78,2),t('IF',17),t(83,2),t(=,10),t('0',3) ]) ],'VentasTotalExento').
+a_alias_i(se(239,[ [ 2000,239 ] ],[ t('coalesce(',1),t(239,2),t(',',7),t('0',3),t(')',4) ]),'VentasTotalExento').
+a_alias_i([ 'sum(',se(96,[ [ 17,92 ],[ 14,78 ],[ 44,83 ] ],[ t(92,2),t(*,6),t(78,2),t('IF',17),t(83,2),t(=,10),t('5',3) ]) ],'VentasTotal5').
+a_alias_i(se(236,[ [ 2000,236 ] ],[ t('coalesce(',1),t(236,2),t(',',7),t('0',3),t(')',4) ]),'VentasTotal5').
+a_alias_i([ 'sum(',se(95,[ [ 17,92 ],[ 14,78 ],[ 44,83 ] ],[ t(92,2),t(*,6),t(78,2),t('IF',17),t(83,2),t(=,10),t('10',3) ]) ],'VentasTotal10').
+a_alias_i(se(238,[ [ 2000,238 ] ],[ t('coalesce(',1),t(238,2),t(',',7),t('0',3),t(')',4) ]),'VentasTotal10').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,159,'GENERARFACTURA','HTTP','Unsecure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

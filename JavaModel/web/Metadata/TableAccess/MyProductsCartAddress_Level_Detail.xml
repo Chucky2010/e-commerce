@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="name" name="MyProductsCartAddress_Level_Detail">
+  <Table name="Persona" />
+  <Table name="Cliente" />
+  <Table name="Departamento" />
+  <Table name="Ciudad" />
+  <Table name="Localidad" />
+</Dependencies>

@@ -1,0 +1,72 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>d82625fd-5892-40b0-99c9-5c8559c197fc</ObjClsGuid>
+<ObjCls>37</ObjCls>
+<ObjId>19</ObjId>
+<ObjName>MyProductsCartConfirm</ObjName>
+<ObjDesc>Revise su orden</ObjDesc>
+<ObjPgmName>MyProductsCartConfirm</ObjPgmName>
+<ObjClsName>SD Panel</ObjClsName>
+<Objects>
+<Object>
+<ObjName>MyProductsCartConfirm_Level_Detail</ObjName>
+<ObjNavig>GXSPC002\GEN12\NVG\MyProductsCartConfirm_Level_Detail.xml</ObjNavig>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid></Object></Objects></Object>
+<Result>nogenreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<StandAloneRules>
+<Action>
+<ActionType>DynamicLoad</ActionType>
+<DynamicLoad>
+<ControlName>
+<Variable>
+<VarId>Tipopagoid</VarId>
+<VarName>&amp;Tipopagoid</VarName></Variable></ControlName>
+<CodeAttributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>TipoPagoId</AttriName>
+<Description>Tipo Pago Id</Description></Attribute></CodeAttributes>
+<DescriptionAttributes>
+<Attribute>
+<AttriId>71</AttriId>
+<AttriName>TipoPagoNombre</AttriName>
+<Description>Tipo Pago Nombre</Description></Attribute></DescriptionAttributes>
+<Navigation>
+<NavigationTree>
+<Table>
+<TableId>9</TableId>
+<TableName>TipoPago</TableName>
+<Description>Tipo Pago</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>TipoPagoId</AttriName>
+<Description>Tipo Pago Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>TipoPagoId</AttriName>
+<Description>Tipo Pago Id</Description></Attribute>
+<Attribute>
+<AttriId>71</AttriId>
+<AttriName>TipoPagoNombre</AttriName>
+<Description>Tipo Pago Nombre</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<NavigationConditions></NavigationConditions>
+<NavigationOrder>
+<Order>
+<Attribute>
+<AttriId>71</AttriId>
+<AttriName>TipoPagoNombre</AttriName>
+<Description>Tipo Pago Nombre</Description></Attribute></Order>
+<Condition></Condition></NavigationOrder></Navigation></DynamicLoad></Action></StandAloneRules>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,636 @@
+ 
+spec_i([ sdt,[ 14,169,0 ],'WWPBaseObjects\WWPActions','WWPBaseObjects\WWPActions',0,spa,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 14,169,0 ],name,'WWPBaseObjects\WWPActions').
+struct_dt_i([ 14,169,0 ],'ObjName','WWPActions').
+struct_dt_i([ 14,169,0 ],'ObjDesc','WWPActions').
+struct_dt_i([ 14,169,0 ],'ExoType','0').
+struct_dt_i([ 14,169,0 ],'ObjNamespace','').
+struct_dt_i([ 14,169,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,169,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,169,0 ],'AssemblyName','').
+struct_dt_i([ 14,169,0 ],'ExoNameNETCORE','').
+struct_dt_i([ 14,169,0 ],'NetCoreAssemblyName','').
+struct_dt_i([ 14,169,0 ],'ExoConstructorParametersNETCORE','').
+struct_dt_i([ 14,169,0 ],'ExoNameJAVA','').
+struct_dt_i([ 14,169,0 ],'PackageName','').
+struct_dt_i([ 14,169,0 ],'ExoConstructorParametersJAVA','').
+struct_dt_i([ 14,169,0 ],'RequireName','').
+struct_dt_i([ 14,169,0 ],'ExoNameJS','WWPActions').
+struct_dt_i([ 14,169,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,169,0 ],'Folder',o(120,'WWPBaseObjects')).
+struct_dt_i([ 14,169,0 ],'FullyQualifiedName','WWPBaseObjects.WWPActions').
+struct_dt_i([ 14,169,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,169,0 ],fullname,'WWPBaseObjects\WWPActions').
+struct_dt_i([ 14,169,0 ],modified,yes).
+ 
+ 
+struct_dt_method_i([ 14,169,0 ],1,name,wcpopup_close).
+struct_dt_method_i([ 14,169,0 ],1,camelname,'WCPopup_Close').
+struct_dt_method_i([ 14,169,0 ],1,externalType,'').
+struct_dt_method_i([ 14,169,0 ],1,length,8).
+struct_dt_method_i([ 14,169,0 ],1,decimals,0).
+struct_dt_method_i([ 14,169,0 ],1,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,169,0 ],1,'IntName','WCPopup_Close').
+struct_dt_method_i([ 14,169,0 ],1,'ExoItemDesc','Close the current Web Component Pop-up.').
+struct_dt_method_i([ 14,169,0 ],1,'ExoItemType','None').
+struct_dt_method_i([ 14,169,0 ],1,basedon,'').
+struct_dt_method_i([ 14,169,0 ],1,'XmlName','').
+struct_dt_method_i([ 14,169,0 ],1,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,169,0 ],1,'ExoExternalMember',idExoExternalMemberStatic).
+struct_dt_method_i([ 14,169,0 ],1,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,169,0 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,169,0 ],1,'ExoNameJAVA','').
+struct_dt_method_i([ 14,169,0 ],1,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,169,0 ],1,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,169,0 ],1,'ExoNameJS','WCPopup_Close').
+struct_dt_method_i([ 14,169,0 ],2,name,wcpopup_updatetitle).
+struct_dt_method_i([ 14,169,0 ],2,camelname,'WCPopup_UpdateTitle').
+struct_dt_method_i([ 14,169,0 ],2,externalType,'').
+struct_dt_method_i([ 14,169,0 ],2,length,8).
+struct_dt_method_i([ 14,169,0 ],2,decimals,0).
+struct_dt_method_i([ 14,169,0 ],2,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,169,0 ],2,'IntName','WCPopup_UpdateTitle').
+struct_dt_method_i([ 14,169,0 ],2,'ExoItemDesc','Update the current Web Component Pop-up title').
+struct_dt_method_i([ 14,169,0 ],2,'ExoItemType','None').
+struct_dt_method_i([ 14,169,0 ],2,basedon,'').
+struct_dt_method_i([ 14,169,0 ],2,'XmlName','').
+struct_dt_method_i([ 14,169,0 ],2,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,169,0 ],2,'ExoExternalMember',idExoExternalMemberStatic).
+struct_dt_method_i([ 14,169,0 ],2,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,169,0 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,169,0 ],2,'ExoNameJAVA','').
+struct_dt_method_i([ 14,169,0 ],2,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,169,0 ],2,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,169,0 ],2,'ExoNameJS','WCPopup_UpdateTitle').
+struct_dt_method_i([ 14,169,0 ],3,name,dropdowncomponent_close).
+struct_dt_method_i([ 14,169,0 ],3,camelname,'DropDownComponent_Close').
+struct_dt_method_i([ 14,169,0 ],3,externalType,'').
+struct_dt_method_i([ 14,169,0 ],3,length,8).
+struct_dt_method_i([ 14,169,0 ],3,decimals,0).
+struct_dt_method_i([ 14,169,0 ],3,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,169,0 ],3,'IntName','DropDownComponent_Close').
+struct_dt_method_i([ 14,169,0 ],3,'ExoItemDesc','Close the current Drop Down Component from an Event of the Web Component.').
+struct_dt_method_i([ 14,169,0 ],3,'ExoItemType','None').
+struct_dt_method_i([ 14,169,0 ],3,basedon,'').
+struct_dt_method_i([ 14,169,0 ],3,'XmlName','').
+struct_dt_method_i([ 14,169,0 ],3,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,169,0 ],3,'ExoExternalMember',idExoExternalMemberStatic).
+struct_dt_method_i([ 14,169,0 ],3,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,169,0 ],3,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,169,0 ],3,'ExoNameJAVA','').
+struct_dt_method_i([ 14,169,0 ],3,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,169,0 ],3,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,169,0 ],3,'ExoNameJS','DropDownComponent_Close').
+struct_dt_method_i([ 14,169,0 ],4,name,datetimepicker_setoptions).
+struct_dt_method_i([ 14,169,0 ],4,camelname,'DateTimePicker_SetOptions').
+struct_dt_method_i([ 14,169,0 ],4,externalType,'').
+struct_dt_method_i([ 14,169,0 ],4,length,8).
+struct_dt_method_i([ 14,169,0 ],4,decimals,0).
+struct_dt_method_i([ 14,169,0 ],4,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,169,0 ],4,'IntName','DateTimePicker_SetOptions').
+struct_dt_method_i([ 14,169,0 ],4,'ExoItemDesc','Update the options of a particular DateTime picker.').
+struct_dt_method_i([ 14,169,0 ],4,'ExoItemType','None').
+struct_dt_method_i([ 14,169,0 ],4,basedon,'').
+struct_dt_method_i([ 14,169,0 ],4,'XmlName','').
+struct_dt_method_i([ 14,169,0 ],4,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,169,0 ],4,'ExoExternalMember',idExoExternalMemberStatic).
+struct_dt_method_i([ 14,169,0 ],4,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,169,0 ],4,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,169,0 ],4,'ExoNameJAVA','').
+struct_dt_method_i([ 14,169,0 ],4,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,169,0 ],4,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,169,0 ],4,'ExoNameJS','DateTimePicker_SetOptions').
+struct_dt_method_i([ 14,169,0 ],5,name,textarea_enterbehaviourtoaction).
+struct_dt_method_i([ 14,169,0 ],5,camelname,'Textarea_EnterBehaviourToAction').
+struct_dt_method_i([ 14,169,0 ],5,externalType,'').
+struct_dt_method_i([ 14,169,0 ],5,length,8).
+struct_dt_method_i([ 14,169,0 ],5,decimals,0).
+struct_dt_method_i([ 14,169,0 ],5,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,169,0 ],5,'IntName','Textarea_EnterBehaviourToAction').
+struct_dt_method_i([ 14,169,0 ],5,'ExoItemDesc','Simulates the Button Click when the Enter key is pressed on the Textarea (without pressing Shift or Alt key).').
+struct_dt_method_i([ 14,169,0 ],5,'ExoItemType','None').
+struct_dt_method_i([ 14,169,0 ],5,basedon,'').
+struct_dt_method_i([ 14,169,0 ],5,'XmlName','').
+struct_dt_method_i([ 14,169,0 ],5,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,169,0 ],5,'ExoExternalMember',idExoExternalMemberStatic).
+struct_dt_method_i([ 14,169,0 ],5,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,169,0 ],5,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,169,0 ],5,'ExoNameJAVA','').
+struct_dt_method_i([ 14,169,0 ],5,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,169,0 ],5,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,169,0 ],5,'ExoNameJS','Textarea_EnterBehaviourToAction').
+struct_dt_method_i([ 14,169,0 ],6,name,griddetailwebcomponent_close).
+struct_dt_method_i([ 14,169,0 ],6,camelname,'GridDetailWebComponent_Close').
+struct_dt_method_i([ 14,169,0 ],6,externalType,'').
+struct_dt_method_i([ 14,169,0 ],6,length,8).
+struct_dt_method_i([ 14,169,0 ],6,decimals,0).
+struct_dt_method_i([ 14,169,0 ],6,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,169,0 ],6,'IntName','GridDetailWebComponent_Close').
+struct_dt_method_i([ 14,169,0 ],6,'ExoItemDesc','Closes the Detail Web Component from an action inside the Web Component').
+struct_dt_method_i([ 14,169,0 ],6,'ExoItemType','None').
+struct_dt_method_i([ 14,169,0 ],6,basedon,'').
+struct_dt_method_i([ 14,169,0 ],6,'XmlName','').
+struct_dt_method_i([ 14,169,0 ],6,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,169,0 ],6,'ExoExternalMember',idExoExternalMemberStatic).
+struct_dt_method_i([ 14,169,0 ],6,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,169,0 ],6,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,169,0 ],6,'ExoNameJAVA','').
+struct_dt_method_i([ 14,169,0 ],6,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,169,0 ],6,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,169,0 ],6,'ExoNameJS','GridDetailWebComponent_Close').
+struct_dt_method_i([ 14,169,0 ],7,name,popover_close).
+struct_dt_method_i([ 14,169,0 ],7,camelname,'Popover_Close').
+struct_dt_method_i([ 14,169,0 ],7,externalType,'').
+struct_dt_method_i([ 14,169,0 ],7,length,8).
+struct_dt_method_i([ 14,169,0 ],7,decimals,0).
+struct_dt_method_i([ 14,169,0 ],7,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,169,0 ],7,'IntName','Popover_Close').
+struct_dt_method_i([ 14,169,0 ],7,'ExoItemDesc','Closes the Popover from an action inside the Web Component').
+struct_dt_method_i([ 14,169,0 ],7,'ExoItemType','None').
+struct_dt_method_i([ 14,169,0 ],7,basedon,'').
+struct_dt_method_i([ 14,169,0 ],7,'XmlName','').
+struct_dt_method_i([ 14,169,0 ],7,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,169,0 ],7,'ExoExternalMember',idExoExternalMemberStatic).
+struct_dt_method_i([ 14,169,0 ],7,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,169,0 ],7,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,169,0 ],7,'ExoNameJAVA','').
+struct_dt_method_i([ 14,169,0 ],7,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,169,0 ],7,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,169,0 ],7,'ExoNameJS','Popover_Close').
+struct_dt_method_i([ 14,169,0 ],8,name,tabs_editcaption).
+struct_dt_method_i([ 14,169,0 ],8,camelname,'Tabs_EditCaption').
+struct_dt_method_i([ 14,169,0 ],8,externalType,'').
+struct_dt_method_i([ 14,169,0 ],8,length,8).
+struct_dt_method_i([ 14,169,0 ],8,decimals,0).
+struct_dt_method_i([ 14,169,0 ],8,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,169,0 ],8,'IntName','Tabs_EditCaption').
+struct_dt_method_i([ 14,169,0 ],8,'ExoItemDesc','Edit the caption of a tab').
+struct_dt_method_i([ 14,169,0 ],8,'ExoItemType','None').
+struct_dt_method_i([ 14,169,0 ],8,basedon,'').
+struct_dt_method_i([ 14,169,0 ],8,'XmlName','').
+struct_dt_method_i([ 14,169,0 ],8,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,169,0 ],8,'ExoExternalMember',idExoExternalMemberStatic).
+struct_dt_method_i([ 14,169,0 ],8,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,169,0 ],8,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,169,0 ],8,'ExoNameJAVA','').
+struct_dt_method_i([ 14,169,0 ],8,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,169,0 ],8,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,169,0 ],8,'ExoNameJS','Tabs_EditCaption').
+struct_dt_method_i([ 14,169,0 ],9,name,mask_apply).
+struct_dt_method_i([ 14,169,0 ],9,camelname,'Mask_Apply').
+struct_dt_method_i([ 14,169,0 ],9,externalType,'').
+struct_dt_method_i([ 14,169,0 ],9,length,8).
+struct_dt_method_i([ 14,169,0 ],9,decimals,0).
+struct_dt_method_i([ 14,169,0 ],9,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,169,0 ],9,'IntName','Mask_Apply').
+struct_dt_method_i([ 14,169,0 ],9,'ExoItemDesc','Applies a mask to a specific control.').
+struct_dt_method_i([ 14,169,0 ],9,'ExoItemType','None').
+struct_dt_method_i([ 14,169,0 ],9,basedon,'').
+struct_dt_method_i([ 14,169,0 ],9,'XmlName','').
+struct_dt_method_i([ 14,169,0 ],9,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,169,0 ],9,'ExoExternalMember',idExoExternalMemberStatic).
+struct_dt_method_i([ 14,169,0 ],9,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,169,0 ],9,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,169,0 ],9,'ExoNameJAVA','').
+struct_dt_method_i([ 14,169,0 ],9,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,169,0 ],9,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,169,0 ],9,'ExoNameJS','Mask_Apply').
+struct_dt_method_i([ 14,169,0 ],10,name,mask_applymultiplemasks).
+struct_dt_method_i([ 14,169,0 ],10,camelname,'Mask_ApplyMultipleMasks').
+struct_dt_method_i([ 14,169,0 ],10,externalType,'').
+struct_dt_method_i([ 14,169,0 ],10,length,8).
+struct_dt_method_i([ 14,169,0 ],10,decimals,0).
+struct_dt_method_i([ 14,169,0 ],10,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,169,0 ],10,'IntName','Mask_ApplyMultipleMasks').
+struct_dt_method_i([ 14,169,0 ],10,'ExoItemDesc','Applies one of the specified masks (depending on the length) to a specific control.').
+struct_dt_method_i([ 14,169,0 ],10,'ExoItemType','None').
+struct_dt_method_i([ 14,169,0 ],10,basedon,'').
+struct_dt_method_i([ 14,169,0 ],10,'XmlName','').
+struct_dt_method_i([ 14,169,0 ],10,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,169,0 ],10,'ExoExternalMember',idExoExternalMemberStatic).
+struct_dt_method_i([ 14,169,0 ],10,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,169,0 ],10,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,169,0 ],10,'ExoNameJAVA','').
+struct_dt_method_i([ 14,169,0 ],10,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,169,0 ],10,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,169,0 ],10,'ExoNameJS','Mask_ApplyMultipleMasks').
+struct_dt_method_i([ 14,169,0 ],11,name,empoweredgrids_refresh).
+struct_dt_method_i([ 14,169,0 ],11,camelname,'EmpoweredGrids_Refresh').
+struct_dt_method_i([ 14,169,0 ],11,externalType,'').
+struct_dt_method_i([ 14,169,0 ],11,length,8).
+struct_dt_method_i([ 14,169,0 ],11,decimals,0).
+struct_dt_method_i([ 14,169,0 ],11,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,169,0 ],11,'IntName','EmpoweredGrids_Refresh').
+struct_dt_method_i([ 14,169,0 ],11,'ExoItemDesc','Refresh all empowered grids so that they are empowered again taking into account the current CSS classes.').
+struct_dt_method_i([ 14,169,0 ],11,'ExoItemType','None').
+struct_dt_method_i([ 14,169,0 ],11,basedon,'').
+struct_dt_method_i([ 14,169,0 ],11,'XmlName','').
+struct_dt_method_i([ 14,169,0 ],11,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,169,0 ],11,'ExoExternalMember',idExoExternalMemberStatic).
+struct_dt_method_i([ 14,169,0 ],11,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,169,0 ],11,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,169,0 ],11,'ExoNameJAVA','').
+struct_dt_method_i([ 14,169,0 ],11,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,169,0 ],11,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,169,0 ],11,'ExoNameJS','EmpoweredGrids_Refresh').
+struct_dt_method_i([ 14,169,0 ],12,name,messages_removecontrolmessage).
+struct_dt_method_i([ 14,169,0 ],12,camelname,'Messages_RemoveControlMessage').
+struct_dt_method_i([ 14,169,0 ],12,externalType,'').
+struct_dt_method_i([ 14,169,0 ],12,length,8).
+struct_dt_method_i([ 14,169,0 ],12,decimals,0).
+struct_dt_method_i([ 14,169,0 ],12,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,169,0 ],12,'IntName','Messages_RemoveControlMessage').
+struct_dt_method_i([ 14,169,0 ],12,'ExoItemDesc','Removes the GeneXus message shown over a specific control.').
+struct_dt_method_i([ 14,169,0 ],12,'ExoItemType','None').
+struct_dt_method_i([ 14,169,0 ],12,basedon,'').
+struct_dt_method_i([ 14,169,0 ],12,'XmlName','').
+struct_dt_method_i([ 14,169,0 ],12,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,169,0 ],12,'ExoExternalMember',idExoExternalMemberStatic).
+struct_dt_method_i([ 14,169,0 ],12,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,169,0 ],12,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,169,0 ],12,'ExoNameJAVA','').
+struct_dt_method_i([ 14,169,0 ],12,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,169,0 ],12,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,169,0 ],12,'ExoNameJS','Messages_RemoveControlMessage').
+ 
+struct_dt_param_i([ 14,169,1 ],1,name,result).
+struct_dt_param_i([ 14,169,1 ],1,camelname,'Result').
+struct_dt_param_i([ 14,169,1 ],1,externalType,'').
+struct_dt_param_i([ 14,169,1 ],1,length,40).
+struct_dt_param_i([ 14,169,1 ],1,decimals,0).
+struct_dt_param_i([ 14,169,1 ],1,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,1 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,1 ],1,'IntName','Result').
+struct_dt_param_i([ 14,169,1 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,169,1 ],1,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,1 ],1,basedon,'').
+struct_dt_param_i([ 14,169,1 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,1 ],1,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,2 ],1,name,title).
+struct_dt_param_i([ 14,169,2 ],1,camelname,'Title').
+struct_dt_param_i([ 14,169,2 ],1,externalType,'').
+struct_dt_param_i([ 14,169,2 ],1,length,40).
+struct_dt_param_i([ 14,169,2 ],1,decimals,0).
+struct_dt_param_i([ 14,169,2 ],1,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,2 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,2 ],1,'IntName','Title').
+struct_dt_param_i([ 14,169,2 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,169,2 ],1,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,2 ],1,basedon,'').
+struct_dt_param_i([ 14,169,2 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,2 ],1,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,3 ],1,name,anycontrolid).
+struct_dt_param_i([ 14,169,3 ],1,camelname,'AnyControlId').
+struct_dt_param_i([ 14,169,3 ],1,externalType,'').
+struct_dt_param_i([ 14,169,3 ],1,length,40).
+struct_dt_param_i([ 14,169,3 ],1,decimals,0).
+struct_dt_param_i([ 14,169,3 ],1,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,3 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,3 ],1,'IntName','AnyControlId').
+struct_dt_param_i([ 14,169,3 ],1,'ExoItemDesc','The internal name (<Control>.InternalName) of any control of the Web Component. This control is used to identify the Drop Down Component.').
+struct_dt_param_i([ 14,169,3 ],1,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,3 ],1,basedon,'').
+struct_dt_param_i([ 14,169,3 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,3 ],1,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,4 ],1,name,datetimecontrolid).
+struct_dt_param_i([ 14,169,4 ],1,camelname,'DateTimeControlId').
+struct_dt_param_i([ 14,169,4 ],1,externalType,'').
+struct_dt_param_i([ 14,169,4 ],1,length,40).
+struct_dt_param_i([ 14,169,4 ],1,decimals,0).
+struct_dt_param_i([ 14,169,4 ],1,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,4 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,4 ],1,'IntName','DateTimeControlId').
+struct_dt_param_i([ 14,169,4 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,169,4 ],1,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,4 ],1,basedon,'').
+struct_dt_param_i([ 14,169,4 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,4 ],1,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,4 ],2,name,optionsjson).
+struct_dt_param_i([ 14,169,4 ],2,camelname,'OptionsJSON').
+struct_dt_param_i([ 14,169,4 ],2,externalType,'').
+struct_dt_param_i([ 14,169,4 ],2,length,40).
+struct_dt_param_i([ 14,169,4 ],2,decimals,0).
+struct_dt_param_i([ 14,169,4 ],2,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,4 ],2,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,4 ],2,'IntName','OptionsJSON').
+struct_dt_param_i([ 14,169,4 ],2,'ExoItemDesc','The serialized Json of an instance of the options SDT WWPBaseObjects.WWPDateRangePickerOptions (&Options.ToJson()).').
+struct_dt_param_i([ 14,169,4 ],2,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,4 ],2,basedon,'').
+struct_dt_param_i([ 14,169,4 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,4 ],2,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,5 ],1,name,textareainternalname).
+struct_dt_param_i([ 14,169,5 ],1,camelname,'TextareaInternalName').
+struct_dt_param_i([ 14,169,5 ],1,externalType,'').
+struct_dt_param_i([ 14,169,5 ],1,length,40).
+struct_dt_param_i([ 14,169,5 ],1,decimals,0).
+struct_dt_param_i([ 14,169,5 ],1,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,5 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,5 ],1,'IntName','TextareaInternalName').
+struct_dt_param_i([ 14,169,5 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,169,5 ],1,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,5 ],1,basedon,'').
+struct_dt_param_i([ 14,169,5 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,5 ],1,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,5 ],2,name,buttoninternalname).
+struct_dt_param_i([ 14,169,5 ],2,camelname,'ButtonInternalName').
+struct_dt_param_i([ 14,169,5 ],2,externalType,'').
+struct_dt_param_i([ 14,169,5 ],2,length,40).
+struct_dt_param_i([ 14,169,5 ],2,decimals,0).
+struct_dt_param_i([ 14,169,5 ],2,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,5 ],2,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,5 ],2,'IntName','ButtonInternalName').
+struct_dt_param_i([ 14,169,5 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,169,5 ],2,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,5 ],2,basedon,'').
+struct_dt_param_i([ 14,169,5 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,5 ],2,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,6 ],1,name,anycontrolid).
+struct_dt_param_i([ 14,169,6 ],1,camelname,'AnyControlId').
+struct_dt_param_i([ 14,169,6 ],1,externalType,'').
+struct_dt_param_i([ 14,169,6 ],1,length,40).
+struct_dt_param_i([ 14,169,6 ],1,decimals,0).
+struct_dt_param_i([ 14,169,6 ],1,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,6 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,6 ],1,'IntName','AnyControlId').
+struct_dt_param_i([ 14,169,6 ],1,'ExoItemDesc','The internal name (<Control>.InternalName) of any control of the Web Component. This control is used to identify the Detail Web Component.').
+struct_dt_param_i([ 14,169,6 ],1,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,6 ],1,basedon,'').
+struct_dt_param_i([ 14,169,6 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,6 ],1,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,6 ],2,name,dorefresh).
+struct_dt_param_i([ 14,169,6 ],2,camelname,doRefresh).
+struct_dt_param_i([ 14,169,6 ],2,externalType,'').
+struct_dt_param_i([ 14,169,6 ],2,length,8).
+struct_dt_param_i([ 14,169,6 ],2,decimals,0).
+struct_dt_param_i([ 14,169,6 ],2,type,[ 15,8,0 ]).
+struct_dt_param_i([ 14,169,6 ],2,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,6 ],2,'IntName',doRefresh).
+struct_dt_param_i([ 14,169,6 ],2,'ExoItemDesc','Refresh the Grid after closing the Detail Web Component').
+struct_dt_param_i([ 14,169,6 ],2,'ExoItemType','Boolean').
+struct_dt_param_i([ 14,169,6 ],2,basedon,'').
+struct_dt_param_i([ 14,169,6 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,6 ],2,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,7 ],1,name,anycontrolid).
+struct_dt_param_i([ 14,169,7 ],1,camelname,'AnyControlId').
+struct_dt_param_i([ 14,169,7 ],1,externalType,'').
+struct_dt_param_i([ 14,169,7 ],1,length,40).
+struct_dt_param_i([ 14,169,7 ],1,decimals,0).
+struct_dt_param_i([ 14,169,7 ],1,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,7 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,7 ],1,'IntName','AnyControlId').
+struct_dt_param_i([ 14,169,7 ],1,'ExoItemDesc','The internal name (<Control>.InternalName) of any control of the Web Component. This control is used to identify the Popover.').
+struct_dt_param_i([ 14,169,7 ],1,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,7 ],1,basedon,'').
+struct_dt_param_i([ 14,169,7 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,7 ],1,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,7 ],2,name,dorefresh).
+struct_dt_param_i([ 14,169,7 ],2,camelname,doRefresh).
+struct_dt_param_i([ 14,169,7 ],2,externalType,'').
+struct_dt_param_i([ 14,169,7 ],2,length,8).
+struct_dt_param_i([ 14,169,7 ],2,decimals,0).
+struct_dt_param_i([ 14,169,7 ],2,type,[ 15,8,0 ]).
+struct_dt_param_i([ 14,169,7 ],2,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,7 ],2,'IntName',doRefresh).
+struct_dt_param_i([ 14,169,7 ],2,'ExoItemDesc','Refresh the Web Panel after closing the Popover').
+struct_dt_param_i([ 14,169,7 ],2,'ExoItemType','Boolean').
+struct_dt_param_i([ 14,169,7 ],2,basedon,'').
+struct_dt_param_i([ 14,169,7 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,7 ],2,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,8 ],1,name,anycontrolid).
+struct_dt_param_i([ 14,169,8 ],1,camelname,'AnyControlId').
+struct_dt_param_i([ 14,169,8 ],1,externalType,'').
+struct_dt_param_i([ 14,169,8 ],1,length,40).
+struct_dt_param_i([ 14,169,8 ],1,decimals,0).
+struct_dt_param_i([ 14,169,8 ],1,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,8 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,8 ],1,'IntName','AnyControlId').
+struct_dt_param_i([ 14,169,8 ],1,'ExoItemDesc','The internal name (<Control>.InternalName) of any control of the Web Panel/Web Component. This control is used to identify Web Panel or Web Component in which the Tabs control is placed.').
+struct_dt_param_i([ 14,169,8 ],1,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,8 ],1,basedon,'').
+struct_dt_param_i([ 14,169,8 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,8 ],1,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,8 ],2,name,tabscontrolname).
+struct_dt_param_i([ 14,169,8 ],2,camelname,'TabsControlName').
+struct_dt_param_i([ 14,169,8 ],2,externalType,'').
+struct_dt_param_i([ 14,169,8 ],2,length,40).
+struct_dt_param_i([ 14,169,8 ],2,decimals,0).
+struct_dt_param_i([ 14,169,8 ],2,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,8 ],2,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,8 ],2,'IntName','TabsControlName').
+struct_dt_param_i([ 14,169,8 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,169,8 ],2,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,8 ],2,basedon,'').
+struct_dt_param_i([ 14,169,8 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,8 ],2,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,8 ],3,name,tabid).
+struct_dt_param_i([ 14,169,8 ],3,camelname,'TabId').
+struct_dt_param_i([ 14,169,8 ],3,externalType,'').
+struct_dt_param_i([ 14,169,8 ],3,length,40).
+struct_dt_param_i([ 14,169,8 ],3,decimals,0).
+struct_dt_param_i([ 14,169,8 ],3,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,8 ],3,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,8 ],3,'IntName','TabId').
+struct_dt_param_i([ 14,169,8 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,169,8 ],3,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,8 ],3,basedon,'').
+struct_dt_param_i([ 14,169,8 ],3,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,8 ],3,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,8 ],4,name,caption).
+struct_dt_param_i([ 14,169,8 ],4,camelname,caption).
+struct_dt_param_i([ 14,169,8 ],4,externalType,'').
+struct_dt_param_i([ 14,169,8 ],4,length,40).
+struct_dt_param_i([ 14,169,8 ],4,decimals,0).
+struct_dt_param_i([ 14,169,8 ],4,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,8 ],4,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,8 ],4,'IntName',caption).
+struct_dt_param_i([ 14,169,8 ],4,'ExoItemDesc','').
+struct_dt_param_i([ 14,169,8 ],4,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,8 ],4,basedon,'').
+struct_dt_param_i([ 14,169,8 ],4,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,8 ],4,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,8 ],5,name,ishtml).
+struct_dt_param_i([ 14,169,8 ],5,camelname,isHTML).
+struct_dt_param_i([ 14,169,8 ],5,externalType,'').
+struct_dt_param_i([ 14,169,8 ],5,length,8).
+struct_dt_param_i([ 14,169,8 ],5,decimals,0).
+struct_dt_param_i([ 14,169,8 ],5,type,[ 15,8,0 ]).
+struct_dt_param_i([ 14,169,8 ],5,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,8 ],5,'IntName',isHTML).
+struct_dt_param_i([ 14,169,8 ],5,'ExoItemDesc','Whether the caption is HTML or simple text').
+struct_dt_param_i([ 14,169,8 ],5,'ExoItemType','Boolean').
+struct_dt_param_i([ 14,169,8 ],5,basedon,'').
+struct_dt_param_i([ 14,169,8 ],5,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,8 ],5,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,8 ],6,name,tabclass).
+struct_dt_param_i([ 14,169,8 ],6,camelname,tabClass).
+struct_dt_param_i([ 14,169,8 ],6,externalType,'').
+struct_dt_param_i([ 14,169,8 ],6,length,40).
+struct_dt_param_i([ 14,169,8 ],6,decimals,0).
+struct_dt_param_i([ 14,169,8 ],6,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,8 ],6,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,8 ],6,'IntName',tabClass).
+struct_dt_param_i([ 14,169,8 ],6,'ExoItemDesc','').
+struct_dt_param_i([ 14,169,8 ],6,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,8 ],6,basedon,'').
+struct_dt_param_i([ 14,169,8 ],6,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,8 ],6,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,9 ],1,name,controlinternalname).
+struct_dt_param_i([ 14,169,9 ],1,camelname,'ControlInternalName').
+struct_dt_param_i([ 14,169,9 ],1,externalType,'').
+struct_dt_param_i([ 14,169,9 ],1,length,40).
+struct_dt_param_i([ 14,169,9 ],1,decimals,0).
+struct_dt_param_i([ 14,169,9 ],1,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,9 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,9 ],1,'IntName','ControlInternalName').
+struct_dt_param_i([ 14,169,9 ],1,'ExoItemDesc','The internal name (<Control>.InternalName) of the control to apply the mask.').
+struct_dt_param_i([ 14,169,9 ],1,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,9 ],1,basedon,'').
+struct_dt_param_i([ 14,169,9 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,9 ],1,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,9 ],2,name,mask).
+struct_dt_param_i([ 14,169,9 ],2,camelname,'Mask').
+struct_dt_param_i([ 14,169,9 ],2,externalType,'').
+struct_dt_param_i([ 14,169,9 ],2,length,40).
+struct_dt_param_i([ 14,169,9 ],2,decimals,0).
+struct_dt_param_i([ 14,169,9 ],2,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,9 ],2,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,9 ],2,'IntName','Mask').
+struct_dt_param_i([ 14,169,9 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,169,9 ],2,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,9 ],2,basedon,'').
+struct_dt_param_i([ 14,169,9 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,9 ],2,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,9 ],3,name,ingrid).
+struct_dt_param_i([ 14,169,9 ],3,camelname,'InGrid').
+struct_dt_param_i([ 14,169,9 ],3,externalType,'').
+struct_dt_param_i([ 14,169,9 ],3,length,8).
+struct_dt_param_i([ 14,169,9 ],3,decimals,0).
+struct_dt_param_i([ 14,169,9 ],3,type,[ 15,8,0 ]).
+struct_dt_param_i([ 14,169,9 ],3,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,9 ],3,'IntName','InGrid').
+struct_dt_param_i([ 14,169,9 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,169,9 ],3,'ExoItemType','Boolean').
+struct_dt_param_i([ 14,169,9 ],3,basedon,'').
+struct_dt_param_i([ 14,169,9 ],3,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,9 ],3,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,9 ],4,name,isreverse).
+struct_dt_param_i([ 14,169,9 ],4,camelname,'IsReverse').
+struct_dt_param_i([ 14,169,9 ],4,externalType,'').
+struct_dt_param_i([ 14,169,9 ],4,length,8).
+struct_dt_param_i([ 14,169,9 ],4,decimals,0).
+struct_dt_param_i([ 14,169,9 ],4,type,[ 15,8,0 ]).
+struct_dt_param_i([ 14,169,9 ],4,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,9 ],4,'IntName','IsReverse').
+struct_dt_param_i([ 14,169,9 ],4,'ExoItemDesc','If True, the mask will be applied from right to left').
+struct_dt_param_i([ 14,169,9 ],4,'ExoItemType','Boolean').
+struct_dt_param_i([ 14,169,9 ],4,basedon,'').
+struct_dt_param_i([ 14,169,9 ],4,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,9 ],4,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,10 ],1,name,controlinternalname).
+struct_dt_param_i([ 14,169,10 ],1,camelname,'ControlInternalName').
+struct_dt_param_i([ 14,169,10 ],1,externalType,'').
+struct_dt_param_i([ 14,169,10 ],1,length,40).
+struct_dt_param_i([ 14,169,10 ],1,decimals,0).
+struct_dt_param_i([ 14,169,10 ],1,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,10 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,10 ],1,'IntName','ControlInternalName').
+struct_dt_param_i([ 14,169,10 ],1,'ExoItemDesc','The internal name (<Control>.InternalName) of the control to apply the mask.').
+struct_dt_param_i([ 14,169,10 ],1,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,10 ],1,basedon,'').
+struct_dt_param_i([ 14,169,10 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,10 ],1,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,10 ],2,name,mask1).
+struct_dt_param_i([ 14,169,10 ],2,camelname,'Mask1').
+struct_dt_param_i([ 14,169,10 ],2,externalType,'').
+struct_dt_param_i([ 14,169,10 ],2,length,40).
+struct_dt_param_i([ 14,169,10 ],2,decimals,0).
+struct_dt_param_i([ 14,169,10 ],2,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,10 ],2,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,10 ],2,'IntName','Mask1').
+struct_dt_param_i([ 14,169,10 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,169,10 ],2,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,10 ],2,basedon,'').
+struct_dt_param_i([ 14,169,10 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,10 ],2,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,10 ],3,name,mask2).
+struct_dt_param_i([ 14,169,10 ],3,camelname,'Mask2').
+struct_dt_param_i([ 14,169,10 ],3,externalType,'').
+struct_dt_param_i([ 14,169,10 ],3,length,40).
+struct_dt_param_i([ 14,169,10 ],3,decimals,0).
+struct_dt_param_i([ 14,169,10 ],3,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,10 ],3,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,10 ],3,'IntName','Mask2').
+struct_dt_param_i([ 14,169,10 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,169,10 ],3,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,10 ],3,basedon,'').
+struct_dt_param_i([ 14,169,10 ],3,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,10 ],3,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,10 ],4,name,mask3).
+struct_dt_param_i([ 14,169,10 ],4,camelname,'Mask3').
+struct_dt_param_i([ 14,169,10 ],4,externalType,'').
+struct_dt_param_i([ 14,169,10 ],4,length,40).
+struct_dt_param_i([ 14,169,10 ],4,decimals,0).
+struct_dt_param_i([ 14,169,10 ],4,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,10 ],4,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,10 ],4,'IntName','Mask3').
+struct_dt_param_i([ 14,169,10 ],4,'ExoItemDesc','').
+struct_dt_param_i([ 14,169,10 ],4,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,10 ],4,basedon,'').
+struct_dt_param_i([ 14,169,10 ],4,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,10 ],4,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,10 ],5,name,ingrid).
+struct_dt_param_i([ 14,169,10 ],5,camelname,'InGrid').
+struct_dt_param_i([ 14,169,10 ],5,externalType,'').
+struct_dt_param_i([ 14,169,10 ],5,length,8).
+struct_dt_param_i([ 14,169,10 ],5,decimals,0).
+struct_dt_param_i([ 14,169,10 ],5,type,[ 15,8,0 ]).
+struct_dt_param_i([ 14,169,10 ],5,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,10 ],5,'IntName','InGrid').
+struct_dt_param_i([ 14,169,10 ],5,'ExoItemDesc','').
+struct_dt_param_i([ 14,169,10 ],5,'ExoItemType','Boolean').
+struct_dt_param_i([ 14,169,10 ],5,basedon,'').
+struct_dt_param_i([ 14,169,10 ],5,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,10 ],5,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,10 ],6,name,isreverse).
+struct_dt_param_i([ 14,169,10 ],6,camelname,'IsReverse').
+struct_dt_param_i([ 14,169,10 ],6,externalType,'').
+struct_dt_param_i([ 14,169,10 ],6,length,8).
+struct_dt_param_i([ 14,169,10 ],6,decimals,0).
+struct_dt_param_i([ 14,169,10 ],6,type,[ 15,8,0 ]).
+struct_dt_param_i([ 14,169,10 ],6,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,10 ],6,'IntName','IsReverse').
+struct_dt_param_i([ 14,169,10 ],6,'ExoItemDesc','If True, the mask will be applied from right to left').
+struct_dt_param_i([ 14,169,10 ],6,'ExoItemType','Boolean').
+struct_dt_param_i([ 14,169,10 ],6,basedon,'').
+struct_dt_param_i([ 14,169,10 ],6,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,10 ],6,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,169,12 ],1,name,controlinternalname).
+struct_dt_param_i([ 14,169,12 ],1,camelname,'ControlInternalName').
+struct_dt_param_i([ 14,169,12 ],1,externalType,'').
+struct_dt_param_i([ 14,169,12 ],1,length,40).
+struct_dt_param_i([ 14,169,12 ],1,decimals,0).
+struct_dt_param_i([ 14,169,12 ],1,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,169,12 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,169,12 ],1,'IntName','ControlInternalName').
+struct_dt_param_i([ 14,169,12 ],1,'ExoItemDesc','The internal name (<Control>.InternalName) of the control to remove its message.').
+struct_dt_param_i([ 14,169,12 ],1,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,169,12 ],1,basedon,'').
+struct_dt_param_i([ 14,169,12 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,169,12 ],1,'ExoItemExtTypeJAVA','').
+ 
+ 
+ 
+ 
+module_info_i('GeneXusSecurity','PACKAGE','genexus.security.api').
+module_info_i('GeneXusSecurity','PackageName','GeneXusSecurity.jar').
+module_info_i('GeneXus\Server','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Server','PackageName','GeneXus.jar').
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').
+module_info_i('GeneXus\Common\UI','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common\UI','PackageName','GeneXus.jar').
+module_info_i('GeneXus\Client','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Client','PackageName','GeneXus.jar').
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').

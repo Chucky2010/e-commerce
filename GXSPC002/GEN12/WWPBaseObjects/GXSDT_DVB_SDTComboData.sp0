@@ -1,0 +1,82 @@
+ 
+spec_i([ sdt,[ 26,81,0 ],'WWPBaseObjects\DVB_SDTComboData','WWPBaseObjects\DVB_SDTComboData',0,spa,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 26,81,0 ],name,'WWPBaseObjects\DVB_SDTComboData').
+struct_dt_i([ 26,81,0 ],namespace,'').
+struct_dt_i([ 26,81,0 ],'ObjName','DVB_SDTComboData').
+struct_dt_i([ 26,81,0 ],'ObjDesc','DVB_SDTCombo Data').
+struct_dt_i([ 26,81,0 ],'ExternalName','Data').
+struct_dt_i([ 26,81,0 ],'ExternalNamespace','').
+struct_dt_i([ 26,81,0 ],collection,'True').
+struct_dt_i([ 26,81,0 ],datatype,[ 26,81,138 ]).
+struct_dt_i([ 26,81,0 ],'CollectionItemName','Item').
+struct_dt_i([ 26,81,0 ],'XmlName','').
+struct_dt_i([ 26,81,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,81,0 ],'XmlNamespace','').
+struct_dt_i([ 26,81,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,81,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,81,0 ],'JsonName','').
+struct_dt_i([ 26,81,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,81,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,81,138 ],name,'Item').
+struct_dt_i([ 26,81,138 ],namespace,'.DVB_SDTComboData').
+struct_dt_i([ 26,81,0 ],fullname,'WWPBaseObjects\DVB_SDTComboData').
+struct_dt_i([ 26,81,138 ],fullname,'WWPBaseObjects\DVB_SDTComboData.Item').
+struct_dt_i([ 26,81,0 ],modified,yes).
+struct_dt_i([ 26,81,138 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,81,138 ],1,name,'Id').
+struct_dt_elem_i([ 26,81,138 ],1,camelname,'ID').
+struct_dt_elem_i([ 26,81,138 ],1,length,40).
+struct_dt_elem_i([ 26,81,138 ],1,decimals,0).
+struct_dt_elem_i([ 26,81,138 ],1,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,81,138 ],1,pic,'').
+struct_dt_elem_i([ 26,81,138 ],1,collection,'False').
+struct_dt_elem_i([ 26,81,138 ],1,'ExternalName','ID').
+struct_dt_elem_i([ 26,81,138 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,81,138 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,81,138 ],1,'XmlName','').
+struct_dt_elem_i([ 26,81,138 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,81,138 ],1,soaptype,'').
+struct_dt_elem_i([ 26,81,138 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,81,138 ],1,'JsonName','').
+struct_dt_elem_i([ 26,81,138 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,81,138 ],2,name,'Title').
+struct_dt_elem_i([ 26,81,138 ],2,camelname,'Title').
+struct_dt_elem_i([ 26,81,138 ],2,length,40).
+struct_dt_elem_i([ 26,81,138 ],2,decimals,0).
+struct_dt_elem_i([ 26,81,138 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,81,138 ],2,pic,'').
+struct_dt_elem_i([ 26,81,138 ],2,collection,'False').
+struct_dt_elem_i([ 26,81,138 ],2,'ExternalName','Title').
+struct_dt_elem_i([ 26,81,138 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,81,138 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,81,138 ],2,'XmlName','').
+struct_dt_elem_i([ 26,81,138 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,81,138 ],2,soaptype,'').
+struct_dt_elem_i([ 26,81,138 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,81,138 ],2,'JsonName','T').
+struct_dt_elem_i([ 26,81,138 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,81,138 ],3,name,'Children').
+struct_dt_elem_i([ 26,81,138 ],3,camelname,'Children').
+struct_dt_elem_i([ 26,81,138 ],3,length,20).
+struct_dt_elem_i([ 26,81,138 ],3,decimals,0).
+struct_dt_elem_i([ 26,81,138 ],3,type,[ [ 26,81,0 ],20,0 ]).
+struct_dt_elem_i([ 26,81,138 ],3,pic,'').
+struct_dt_elem_i([ 26,81,138 ],3,collection,'False').
+struct_dt_elem_i([ 26,81,138 ],3,'ExternalName','Children').
+struct_dt_elem_i([ 26,81,138 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,81,138 ],3,'XmlName','').
+struct_dt_elem_i([ 26,81,138 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,81,138 ],3,soaptype,'').
+struct_dt_elem_i([ 26,81,138 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,81,138 ],3,'JsonName','C').
+struct_dt_elem_i([ 26,81,138 ],3,'JsonInclude',idJsonNoProperty).
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXusSecurity','PACKAGE','genexus.security.api').
+module_info_i('GeneXusSecurity','PackageName','GeneXusSecurity.jar').

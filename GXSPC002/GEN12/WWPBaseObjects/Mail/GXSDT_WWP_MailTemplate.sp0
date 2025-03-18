@@ -1,0 +1,88 @@
+ 
+spec_i([ sdt,[ 0,36,0 ],'WWPBaseObjects\Mail\WWP_MailTemplate','WWPBaseObjects\Mail\WWP_MailTemplate',0,spa,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 0,36,0 ],name,'WWPBaseObjects\Mail\WWP_MailTemplate').
+struct_dt_i([ 0,36,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 0,36,0 ],significantName,'WWPBaseObjects\Mail\WWP_MailTemplate').
+struct_dt_i([ 0,36,0 ],'ObjName','WWP_MailTemplate').
+struct_dt_i([ 0,36,0 ],'ObjDesc','Mail Template').
+struct_dt_i([ 0,36,0 ],'ExternalName','WWP_MailTemplate').
+struct_dt_i([ 0,36,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 0,36,0 ],key,[ 41 ]).
+struct_dt_i([ 0,36,0 ],lvl,38).
+struct_dt_i([ 0,36,0 ],fullname,'WWPBaseObjects\Mail\WWP_MailTemplate').
+ 
+struct_dt_elem_i([ 0,36,0 ],1,name,'Wwpmailtemplatename').
+struct_dt_elem_i([ 0,36,0 ],1,camelname,'WWPMailTemplateName').
+struct_dt_elem_i([ 0,36,0 ],1,length,40).
+struct_dt_elem_i([ 0,36,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,36,0 ],1,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,36,0 ],1,pic,'').
+struct_dt_elem_i([ 0,36,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,36,0 ],1,attributeid,'41').
+struct_dt_elem_i([ 0,36,0 ],1,'ExternalName','WWPMailTemplateName').
+struct_dt_elem_i([ 0,36,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,36,0 ],2,name,'Wwpmailtemplatedescription').
+struct_dt_elem_i([ 0,36,0 ],2,camelname,'WWPMailTemplateDescription').
+struct_dt_elem_i([ 0,36,0 ],2,basedon,239).
+struct_dt_elem_i([ 0,36,0 ],2,length,100).
+struct_dt_elem_i([ 0,36,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,36,0 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,36,0 ],2,pic,'').
+struct_dt_elem_i([ 0,36,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,36,0 ],2,attributeid,'209').
+struct_dt_elem_i([ 0,36,0 ],2,'ExternalName','WWPMailTemplateDescription').
+struct_dt_elem_i([ 0,36,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,36,0 ],3,name,'Wwpmailtemplatesubject').
+struct_dt_elem_i([ 0,36,0 ],3,camelname,'WWPMailTemplateSubject').
+struct_dt_elem_i([ 0,36,0 ],3,length,80).
+struct_dt_elem_i([ 0,36,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,36,0 ],3,type,[ 13,80,0 ]).
+struct_dt_elem_i([ 0,36,0 ],3,pic,'').
+struct_dt_elem_i([ 0,36,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,36,0 ],3,attributeid,'210').
+struct_dt_elem_i([ 0,36,0 ],3,'ExternalName','WWPMailTemplateSubject').
+struct_dt_elem_i([ 0,36,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,36,0 ],4,name,'Wwpmailtemplatebody').
+struct_dt_elem_i([ 0,36,0 ],4,camelname,'WWPMailTemplateBody').
+struct_dt_elem_i([ 0,36,0 ],4,basedon,47).
+struct_dt_elem_i([ 0,36,0 ],4,length,2097152).
+struct_dt_elem_i([ 0,36,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,36,0 ],4,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,36,0 ],4,pic,'').
+struct_dt_elem_i([ 0,36,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,36,0 ],4,attributeid,'195').
+struct_dt_elem_i([ 0,36,0 ],4,'ExternalName','WWPMailTemplateBody').
+struct_dt_elem_i([ 0,36,0 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,36,0 ],5,name,'Wwpmailtemplatesenderaddress').
+struct_dt_elem_i([ 0,36,0 ],5,camelname,'WWPMailTemplateSenderAddress').
+struct_dt_elem_i([ 0,36,0 ],5,length,2097152).
+struct_dt_elem_i([ 0,36,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,36,0 ],5,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,36,0 ],5,pic,'').
+struct_dt_elem_i([ 0,36,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,36,0 ],5,attributeid,'196').
+struct_dt_elem_i([ 0,36,0 ],5,'ExternalName','WWPMailTemplateSenderAddress').
+struct_dt_elem_i([ 0,36,0 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,36,0 ],6,name,'Wwpmailtemplatesendername').
+struct_dt_elem_i([ 0,36,0 ],6,camelname,'WWPMailTemplateSenderName').
+struct_dt_elem_i([ 0,36,0 ],6,length,2097152).
+struct_dt_elem_i([ 0,36,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,36,0 ],6,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,36,0 ],6,pic,'').
+struct_dt_elem_i([ 0,36,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,36,0 ],6,attributeid,'197').
+struct_dt_elem_i([ 0,36,0 ],6,'ExternalName','WWPMailTemplateSenderName').
+struct_dt_elem_i([ 0,36,0 ],6,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,36,0 ],2,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+struct_dt_elem_i([ 0,36,0 ],4,pic,'ZZZZZZZZZZ9').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').

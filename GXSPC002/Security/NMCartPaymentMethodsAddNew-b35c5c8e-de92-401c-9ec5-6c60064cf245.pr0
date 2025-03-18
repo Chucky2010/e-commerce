@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "nmcartpaymentmethodsaddnew_Services_Execute",
+    "Description": "NMCart Payment Methods Add New Services",
+    "ProgramName": "nmcartpaymentmethodsaddnew",
+    "IsGXAutomatic": true
+  }
+]

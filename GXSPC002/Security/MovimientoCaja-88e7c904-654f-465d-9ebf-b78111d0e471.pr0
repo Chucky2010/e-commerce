@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "movimientocaja_FullControl",
+    "Description": "Movimiento Caja FullControl",
+    "ProgramName": "movimientocaja",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "movimientocaja_Execute",
+    "Description": "Movimiento Caja",
+    "ProgramName": "movimientocaja",
+    "IsGXAutomatic": true,
+    "Parent": "movimientocaja_FullControl"
+  },
+  {
+    "Name": "movimientocaja_Insert",
+    "Description": "Movimiento Caja Insert",
+    "ProgramName": "movimientocaja",
+    "IsGXAutomatic": true,
+    "Parent": "movimientocaja_FullControl"
+  },
+  {
+    "Name": "movimientocaja_Delete",
+    "Description": "Movimiento Caja Delete",
+    "ProgramName": "movimientocaja",
+    "IsGXAutomatic": true,
+    "Parent": "movimientocaja_FullControl"
+  },
+  {
+    "Name": "movimientocaja_Update",
+    "Description": "Movimiento Caja Update",
+    "ProgramName": "movimientocaja",
+    "IsGXAutomatic": true,
+    "Parent": "movimientocaja_FullControl"
+  }
+]

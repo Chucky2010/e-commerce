@@ -1,0 +1,1005 @@
+spec_i([ proc,140,l('Ciudad WWExport'),'CiudadWWExport',78,spa,'17_0_11-163677' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 6,[ [ 6,many ],[ 5,one ],[ 4,one ] ],[],[],[ [ [ 6,5,4 ],[ 6,7,60,61,62,5 ] ] ],[ [ [ 6,5,4 ],[] ] ],[ 7 ],'ICIUDAD',[],[] ]).
+ 
+tw_i(2,[ [ 5,[ [ 6,6,6 ] ] ],[ 4,[ [ 5,5,5 ] ] ] ]).
+ 
+lwi_i(2,[ [] ]).
+ 
+cond_constraint_i(2,[ [ t('(',0),t('str(',1),t(7,2),t(',',7),t(11,3),t(',',7),t(0,3),t(')',4),t('.LIKE.',10),t('''%''',3),t(+,5),t('Ciudadwwds_1_filterfulltext',23),t(')',4),t('.OR.',9),t('(',0),t(62,2),t('.LIKE.',10),t('''%''',3),t(+,5),t('Ciudadwwds_1_filterfulltext',23),t(')',4),t('.OR.',9),t('(',0),t('str(',1),t(6,2),t(',',7),t(11,3),t(',',7),t(0,3),t(')',4),t('.LIKE.',10),t('''%''',3),t(+,5),t('Ciudadwwds_1_filterfulltext',23),t(')',4),t('.OR.',9),t('(',0),t(61,2),t('.LIKE.',10),t('''%''',3),t(+,5),t('Ciudadwwds_1_filterfulltext',23),t(')',4),t('.OR.',9),t('(',0),t(60,2),t('.LIKE.',10),t('''%''',3),t(+,5),t('Ciudadwwds_1_filterfulltext',23),t(')',4) ],[ 7,62,6,61,60 ],[ t('.NOT.',8),t('null(',1),t('Ciudadwwds_1_filterfulltext',23),t(')',4) ],[] ]).
+ 
+cond_order_i(2,[ 62 ],[ t('Orderedby',23),t(=,10),t('1',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -62 ],[ t('Orderedby',23),t(=,10),t('1',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 7 ],[ t('Orderedby',23),t(=,10),t('2',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -7 ],[ t('Orderedby',23),t(=,10),t('2',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 6 ],[ t('Orderedby',23),t(=,10),t('3',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -6 ],[ t('Orderedby',23),t(=,10),t('3',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 61 ],[ t('Orderedby',23),t(=,10),t('4',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -61 ],[ t('Orderedby',23),t(=,10),t('4',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 60 ],[ t('Orderedby',23),t(=,10),t('5',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -60 ],[ t('Orderedby',23),t(=,10),t('5',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+ 
+ 
+ta_i(2,[ [ [ 5,5 ],[ 6,6 ],[ 6,7 ],[ 4,60 ],[ 5,61 ],[ 6,62 ] ] ]).
+ 
+las_i(2,[ [ 6,7,60,61,62,5 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','CiudadWWExport')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('ObjDesc','Ciudad WWExport')).
+rule_i(0,prop('ObjName','CiudadWWExport')).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Filename','Errormessage' ],[])).
+rule_i(0,parmio([ [ 'Filename',out ],[ 'Errormessage',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(3,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(4,2,t,6,[],[ [],'ICIUDAD',[] ]).
+a_i(5,2,r,5,[],[ [ [ 6,6,6 ] ],'IDEPARTAMENTO',[] ]).
+a_i(6,2,r,4,[],[ [ [ 5,5,5 ] ],'IPAIS',[] ]).
+ 
+v_i(f,i,3,[]).
+v_i(f,o,3,'Err').
+v_i(t,i,4,[]).
+v_i(t,o,4,6).
+v_i(t,o,4,7).
+v_i(t,o,4,62).
+v_i(r,i,5,6).
+v_i(r,o,5,5).
+v_i(r,o,5,61).
+v_i(r,i,6,5).
+v_i(r,o,6,60).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',29 ]).
+attri_i(5,[ 'PaisId',int,11,0,'ZZZZZZZZZZ9',0,l('Pais Id'),'',0 ]).
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'','',28 ]).
+attri_i(60,[ 'PaisNombre',char,80,0,'',0,l('Pais Nombre'),'',0 ]).
+attri_i(61,[ 'DepartamentoNombre',char,80,0,'',0,l('Departamento Nombre'),'',0 ]).
+attri_i(6,[ 'DepartamentoId',int,11,0,'ZZZZZZZZZZ9',0,l('Departamento Id'),'',0 ]).
+attri_i(7,[ 'CiudadId',int,11,0,'ZZZZZZZZZZ9',0,l('Ciudad Id'),'',0 ]).
+attri_i(62,[ 'CiudadNombre',char,80,0,'',0,l('Ciudad Nombre'),'',0 ]).
+attri_i('Ciudadwwds_1_filterfulltext',[ 'Ciudadwwds_1_filterfulltext',svchar,100,0,'',0,l('Filterfulltext'),'',27 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',25 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',24 ]).
+attri_i('Gridstatefiltervalue',[ 'GridStateFilterValue',o('WWPBaseObjects\WWPGridState.FilterValue'),0,0,'',0,l('Grid State Filter Value'),'',23 ]).
+attri_i('Gridstate',[ 'GridState',o('WWPBaseObjects\WWPGridState'),0,0,'',0,l('Grid State'),'',22 ]).
+attri_i('Gridstatexml',[ 'GridStateXML',vchar,2097152,0,'',0,l('Grid State XML'),'',21 ]).
+attri_i('Session',[ 'Session',o(websession),4,0,'',0,l('Session'),'',20 ]).
+attri_i('Filterfulltext',[ 'FilterFullText',svchar,100,0,'',0,l('Filter Full Text'),'',19 ]).
+attri_i('Ordereddsc',[ 'OrderedDsc',boolean,4,0,'',0,l('Ordered Dsc'),'',18 ]).
+attri_i('Orderedby',[ 'OrderedBy',int,4,0,'ZZZ9',0,l('Ordered By'),'',17 ]).
+attri_i('Random',[ 'Random',int,8,0,'ZZZZZZZ9',0,l('Random'),'',16 ]).
+attri_i('Firstcolumn',[ 'FirstColumn',int,8,0,'ZZZZZZZ9',0,l('First Column'),'',15 ]).
+attri_i('Cellrow',[ 'CellRow',int,8,0,'ZZZZZZZ9',0,l('Cell Row'),'',14 ]).
+attri_i('Errormessage',[ 'ErrorMessage',svchar,512,0,'',0,l('Error Message'),'',13 ]).
+attri_i('Filename',[ 'Filename',svchar,1000,0,'',0,l('Filename'),'',12 ]).
+attri_i('Exceldocument',[ 'ExcelDocument',o(exceldoc),4,0,'',0,l('Excel Document'),'',11 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,l('Security Functionality Keys'),'',10 ]).
+attri_i('Wwpcontext',[ 'WWPContext',o('WWPBaseObjects\WWPContext'),0,0,'',0,l('WWPContext'),'',9 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,l('Is Authorized'),'',8 ]).
+ 
+table_i(4,[ 'Pais',[ 5,60 ],l('Pais'),'Pais' ]).
+table_i(6,[ 'Ciudad',[ 7,62,6 ],l('Ciudad'),'Ciudad' ]).
+table_i(5,[ 'Departamento',[ 6,61,5 ],l('Departamento'),'Departamento' ]).
+ 
+index_i(6,[ 'ICIUDAD',u,[ 7 ],'ICiudad' ]).
+index_i(6,[ 'ICIUDAD1',d,[ 6 ],'ICiudad1' ]).
+index_i(5,[ 'IDEPARTAMENTO',u,[ 6 ],'IDepartamento' ]).
+index_i(4,[ 'IPAIS',u,[ 5 ],'IPais' ]).
+ 
+ 
+ 
+function_i(2,[ t('Exceldocument',23),[ t('cells(',1),t('Cellrow',23),t(',',7),t('Firstcolumn',23),t(+,5),t('4',3),t(')',4) ],t('Text',3) ],yes,udp,o(1,'WWPBaseObjects\WWP_Export_SecureText'),[ 60 ],104,[ t('Exceldocument',23),[ t('cells(',1),t('Cellrow',23),t(',',7),t('Firstcolumn',23),t(+,5),t('4',3),t(')',4) ],t('Text',3) ],[ [ t(60,2) ] ]).
+function_i(2,[ t('Exceldocument',23),[ t('cells(',1),t('Cellrow',23),t(',',7),t('Firstcolumn',23),t(+,5),t('3',3),t(')',4) ],t('Text',3) ],yes,udp,o(1,'WWPBaseObjects\WWP_Export_SecureText'),[ 61 ],103,[ t('Exceldocument',23),[ t('cells(',1),t('Cellrow',23),t(',',7),t('Firstcolumn',23),t(+,5),t('3',3),t(')',4) ],t('Text',3) ],[ [ t(61,2) ] ]).
+function_i(2,[ t('Exceldocument',23),[ t('cells(',1),t('Cellrow',23),t(',',7),t('Firstcolumn',23),t(+,5),t('1',3),t(')',4) ],t('Text',3) ],yes,udp,o(1,'WWPBaseObjects\WWP_Export_SecureText'),[ 62 ],101,[ t('Exceldocument',23),[ t('cells(',1),t('Cellrow',23),t(',',7),t('Firstcolumn',23),t(+,5),t('1',3),t(')',4) ],t('Text',3) ],[ [ t(62,2) ] ]).
+function_i(1,[ t('Exceldocument',23),[ t('cells(',1),t('Cellrow',23),t(',',7),t('Firstcolumn',23),t(+,5),t('1',3),t(')',4) ],t('Text',3) ],yes,udp,o(1,'WWPBaseObjects\WWP_Export_SecureText'),[],46,[ t('Exceldocument',23),[ t('cells(',1),t('Cellrow',23),t(',',7),t('Firstcolumn',23),t(+,5),t('1',3),t(')',4) ],t('Text',3) ],[ [ t('Filterfulltext',23) ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(192,[ 'Nombre' ]).
+dom_info_i(90,[ 'IDN11' ]).
+dom_info_i(88,[ 'SecGAMFunctionalityKey' ]).
+dom_info_i(32,[ 'GeneXus\Url' ]).
+dom_info_i(223,[ 'WWPFullTextFilter' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 62,7,6,61,60 ],[ 62,61,60,7,6 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,25).
+b_group_i(1,2,lit,0,26,40).
+b_group_i(1,3,lit,0,41,54).
+b_group_i(1,4,lit,0,55,78).
+b_group_i(1,5,lit,0,79,0).
+b_group_i(1,6,nvg,2,82,82).
+b_group_i(2,1,lit,0,83,83).
+b_group_i(1,7,lit,0,109,114).
+b_group_i(1,8,lit,0,115,126).
+b_group_i(1,9,lit,0,127,141).
+b_group_i(1,10,lit,0,142,166).
+b_group_i(1,11,lit,0,167,176).
+b_group_i(1,12,lit,0,177,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[]).
+b_line_i(3,1,1,cmd,0,[]).
+b_line_i(4,1,1,cmd,0,[]).
+b_line_i(5,1,1,cmd,0,[ t('',104,5,0),t(o(1,'WWPBaseObjects\LoadWWPContext'),28,0,1),t('Wwpcontext',23,0,22) ]).
+b_line_i(6,1,1,cmd,0,[]).
+b_line_i(7,1,1,cmd,0,[ t('',145,7,0),t('''OPENDOCUMENT''',3,7,4) ]).
+b_line_i(8,1,1,cmd,0,[]).
+b_line_i(9,1,1,cmd,0,[ t('',107,9,0),t('Cellrow',23,0,0),t(=,10,0,0),t('1',3,0,0) ]).
+b_line_i(10,1,1,cmd,0,[ t('',107,10,0),t('Firstcolumn',23,0,0),t(=,10,0,0),t('1',3,0,0) ]).
+b_line_i(11,1,1,cmd,0,[]).
+b_line_i(12,1,1,cmd,0,[ t('',145,12,0),t('''LOADGRIDSTATE''',3,12,4) ]).
+b_line_i(13,1,1,cmd,0,[]).
+b_line_i(14,1,1,cmd,0,[ t('',145,14,0),t('''WRITEFILTERS''',3,14,4) ]).
+b_line_i(15,1,1,cmd,0,[]).
+b_line_i(16,1,1,cmd,0,[ t('',145,16,0),t('''WRITECOLUMNTITLES''',3,16,4) ]).
+b_line_i(17,1,1,cmd,0,[]).
+b_line_i(18,1,1,cmd,0,[ t('',145,18,0),t('''WRITEDATA''',3,18,4) ]).
+b_line_i(19,1,1,cmd,0,[]).
+b_line_i(20,1,1,cmd,0,[ t('',145,20,0),t('''CLOSEDOCUMENT''',3,20,4) ]).
+b_line_i(21,1,1,cmd,0,[]).
+b_line_i(22,1,1,cmd,0,[]).
+b_line_i(23,1,1,cmd,0,[]).
+b_line_i(24,1,1,cmd,0,[]).
+b_line_i(25,1,1,cmd,0,[ t('',143,25,0),t('''OPENDOCUMENT''',3,25,5) ]).
+b_line_i(26,1,2,cmd,0,[]).
+b_line_i(27,1,2,cmd,0,[]).
+b_line_i(28,1,2,cmd,0,[]).
+b_line_i(29,1,2,cmd,0,[ t('',107,29,0),t('Random',23,0,0),t(=,10,0,0),t('random(',1,0,0),t(')',4,0,0),t(*,6,0,0),t('10000',3,0,0) ]).
+b_line_i(30,1,2,cmd,0,[ t('',107,30,0),t('Filename',23,0,0),t(=,10,0,0),t('"CiudadWWExport-"',3,0,0),t(+,5,0,0),t('trim(',1,0,0),t('str(',1,0,0),t('Random',23,0,0),t(',',7,0,0),t(8,3,0,0),t(',',7,0,0),t(0,3,0,0),t(')',4,0,0),t(')',4,0,0),t(+,5,0,0),t('".xlsx"',3,0,0) ]).
+b_line_i(31,1,2,cmd,0,[]).
+b_line_i(32,1,2,cmd,0,[ t('',107,32,0),t([ t('Exceldocument',23,32,2),t('open(',1,32,17) ],31,32,17),t('Filename',23,0,23),t(')',4,0,32) ]).
+b_line_i(33,1,2,cmd,0,[ t('',145,33,0),t('''CHECKSTATUS''',3,33,5) ]).
+b_line_i(34,1,2,cmd,0,[ t('',107,34,0),t([ t('Exceldocument',23,34,2),t('clear(',1,34,17) ],31,34,17),t(')',4,0,24) ]).
+b_line_i(35,1,2,cmd,0,[]).
+b_line_i(36,1,2,cmd,0,[]).
+b_line_i(37,1,2,cmd,0,[]).
+b_line_i(38,1,2,cmd,0,[ t('',144,38,0) ]).
+b_line_i(39,1,2,cmd,0,[]).
+b_line_i(40,1,2,cmd,0,[ t('',143,40,0),t('''WRITEFILTERS''',3,40,5) ]).
+b_line_i(41,1,3,cmd,0,[]).
+b_line_i(42,1,3,cmd,0,[]).
+b_line_i(43,1,3,cmd,0,[]).
+b_line_i(44,1,3,cmd,0,[ t('',109,44,0),t('.NOT.',8,0,5),t('(',0,0,11),t('null(',1,44,28),t('Filterfulltext',23,0,12),t(')',4,0,37),t(')',4,0,38) ]).
+b_line_i(45,1,3,cmd,0,[ t('',104,45,0),t(o(1,'WWPBaseObjects\WWP_ExportWriteFilter'),28,0,3),t('Exceldocument',23,0,25),t(',',7,0,0),t('TRUE',40,0,41),t(',',7,0,0),t('Cellrow',23,0,47),t(',',7,0,0),t('Firstcolumn',23,0,57),t(',',7,0,0),t('getmessagetext(',1,45,71),t('"WWP_FullTextFilterDescription"',3,45,71),t(')',4,45,71) ]).
+b_line_i(46,1,3,cmd,0,[ t('',107,46,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('1',3,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('udp(',1,0,0),t([ t('Exceldocument',23),[ t('cells(',1),t('Cellrow',23),t(',',7),t('Firstcolumn',23),t(+,5),t('1',3),t(')',4) ],t('Text',3) ],3,0,0),t(46,3,0,0),t('Filterfulltext',23,0,0),t(')',4,0,0) ]).
+b_line_i(47,1,3,cmd,0,[ t('',111,47,0) ]).
+b_line_i(48,1,3,cmd,0,[ t('',107,48,0),t('Cellrow',23,0,0),t(=,10,0,0),t('Cellrow',23,0,0),t(+,5,0,0),t('2',3,0,0) ]).
+b_line_i(49,1,3,cmd,0,[]).
+b_line_i(50,1,3,cmd,0,[]).
+b_line_i(51,1,3,cmd,0,[]).
+b_line_i(52,1,3,cmd,0,[ t('',144,52,0) ]).
+b_line_i(53,1,3,cmd,0,[]).
+b_line_i(54,1,3,cmd,0,[ t('',143,54,0),t('''WRITECOLUMNTITLES''',3,54,5) ]).
+b_line_i(55,1,4,cmd,0,[]).
+b_line_i(56,1,4,cmd,0,[]).
+b_line_i(57,1,4,cmd,0,[]).
+b_line_i(58,1,4,cmd,0,[ t('',107,58,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('0',3,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(59,1,4,cmd,0,[ t('',107,59,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('0',3,0,0),t(')',4,0,0) ],t('Color',3,0,0) ],29,0,0),t(=,10,0,0),t('11',3,0,0) ]).
+b_line_i(60,1,4,cmd,0,[ t('',107,60,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('0',3,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('getmessagetext(',1,0,0),t('"Id"',3,0,0),t(')',4,0,0) ]).
+b_line_i(61,1,4,cmd,0,[ t('',107,61,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('1',3,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(62,1,4,cmd,0,[ t('',107,62,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('1',3,0,0),t(')',4,0,0) ],t('Color',3,0,0) ],29,0,0),t(=,10,0,0),t('11',3,0,0) ]).
+b_line_i(63,1,4,cmd,0,[ t('',107,63,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('1',3,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('getmessagetext(',1,0,0),t('"Nombre"',3,0,0),t(')',4,0,0) ]).
+b_line_i(64,1,4,cmd,0,[ t('',107,64,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('2',3,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(65,1,4,cmd,0,[ t('',107,65,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('2',3,0,0),t(')',4,0,0) ],t('Color',3,0,0) ],29,0,0),t(=,10,0,0),t('11',3,0,0) ]).
+b_line_i(66,1,4,cmd,0,[ t('',107,66,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('2',3,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('getmessagetext(',1,0,0),t('"Id"',3,0,0),t(')',4,0,0) ]).
+b_line_i(67,1,4,cmd,0,[ t('',107,67,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('3',3,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(68,1,4,cmd,0,[ t('',107,68,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('3',3,0,0),t(')',4,0,0) ],t('Color',3,0,0) ],29,0,0),t(=,10,0,0),t('11',3,0,0) ]).
+b_line_i(69,1,4,cmd,0,[ t('',107,69,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('3',3,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('getmessagetext(',1,0,0),t('"Nombre"',3,0,0),t(')',4,0,0) ]).
+b_line_i(70,1,4,cmd,0,[ t('',107,70,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('4',3,0,0),t(')',4,0,0) ],t('Bold',3,0,0) ],29,0,0),t(=,10,0,0),t('TRUE',40,0,0) ]).
+b_line_i(71,1,4,cmd,0,[ t('',107,71,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('4',3,0,0),t(')',4,0,0) ],t('Color',3,0,0) ],29,0,0),t(=,10,0,0),t('11',3,0,0) ]).
+b_line_i(72,1,4,cmd,0,[ t('',107,72,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('Cellrow',23,0,0),t(',',7,0,0),t('Firstcolumn',23,0,0),t(+,5,0,0),t('4',3,0,0),t(')',4,0,0) ],t('Text',3,0,0) ],29,0,0),t(=,10,0,0),t('getmessagetext(',1,0,0),t('"Nombre"',3,0,0),t(')',4,0,0) ]).
+b_line_i(73,1,4,cmd,0,[]).
+b_line_i(74,1,4,cmd,0,[]).
+b_line_i(75,1,4,cmd,0,[]).
+b_line_i(76,1,4,cmd,0,[ t('',144,76,0) ]).
+b_line_i(77,1,4,cmd,0,[]).
+b_line_i(78,1,4,cmd,0,[ t('',143,78,0),t('''WRITEDATA''',3,78,5) ]).
+b_line_i(79,1,5,cmd,0,[]).
+b_line_i(80,1,5,cmd,0,[]).
+b_line_i(81,1,5,cmd,0,[]).
+b_line_i([ 81,1 ],1,5,cmd,83,[ t('',107,83,0),t('Ciudadwwds_1_filterfulltext',23,0,0),t(=,10,0,0),t('Filterfulltext',23,0,20) ]).
+b_line_i(82,2,1,cmd,83,[ t('',121,82,0),t(table,3,82,11),t(6,3,82,11),t('ORDER',39,82,21),t(62,2,82,27),t(when,35,82,41),t('Orderedby',23,82,46),t(=,10,82,57),t('1',3,82,59),t('.AND.',9,82,61),t('Ordereddsc',23,82,67),t(=,10,82,79),t('FALSE',41,82,81),t('ORDER',39,82,90),t('(',0,82,96),t(62,2,82,97),t(')',4,82,109),t(when,35,82,112),t('Orderedby',23,82,117),t(=,10,82,128),t('1',3,82,130),t('.AND.',9,82,132),t('Ordereddsc',23,82,138),t(=,10,82,150),t('TRUE',40,82,152),t('ORDER',39,82,160),t(7,2,82,166),t(when,35,82,176),t('Orderedby',23,82,181),t(=,10,82,192),t('2',3,82,194),t('.AND.',9,82,196),t('Ordereddsc',23,82,202),t(=,10,82,214),t('FALSE',41,82,216),t('ORDER',39,82,225),t('(',0,82,231),t(7,2,82,232),t(')',4,82,240),t(when,35,82,243),t('Orderedby',23,82,248),t(=,10,82,259),t('2',3,82,261),t('.AND.',9,82,263),t('Ordereddsc',23,82,269),t(=,10,82,281),t('TRUE',40,82,283),t('ORDER',39,82,291),t(6,2,82,297),t(when,35,82,313),t('Orderedby',23,82,318),t(=,10,82,329),t('3',3,82,331),t('.AND.',9,82,333),t('Ordereddsc',23,82,339),t(=,10,82,351),t('FALSE',41,82,353),t('ORDER',39,82,362),t('(',0,82,368),t(6,2,82,369),t(')',4,82,383),t(when,35,82,386),t('Orderedby',23,82,391),t(=,10,82,402),t('3',3,82,404),t('.AND.',9,82,406),t('Ordereddsc',23,82,412),t(=,10,82,424),t('TRUE',40,82,426),t('ORDER',39,82,434),t(61,2,82,440),t(when,35,82,460),t('Orderedby',23,82,465),t(=,10,82,476),t('4',3,82,478),t('.AND.',9,82,480),t('Ordereddsc',23,82,486),t(=,10,82,498),t('FALSE',41,82,500),t('ORDER',39,82,509),t('(',0,82,515),t(61,2,82,516),t(')',4,82,534),t(when,35,82,537),t('Orderedby',23,82,542),t(=,10,82,553),t('4',3,82,555),t('.AND.',9,82,557),t('Ordereddsc',23,82,563),t(=,10,82,575),t('TRUE',40,82,577),t('ORDER',39,82,585),t(60,2,82,591),t(when,35,82,603),t('Orderedby',23,82,608),t(=,10,82,619),t('5',3,82,621),t('.AND.',9,82,623),t('Ordereddsc',23,82,629),t(=,10,82,641),t('FALSE',41,82,643),t('ORDER',39,82,652),t('(',0,82,658),t(60,2,82,659),t(')',4,82,669),t(when,35,82,672),t('Orderedby',23,82,677),t(=,10,82,688),t('5',3,82,690),t('.AND.',9,82,692),t('Ordereddsc',23,82,698),t(=,10,82,710),t('TRUE',40,82,712) ]).
+b_line_i(83,2,1,cmd,83,[]).
+b_line_i(84,2,1,cmd,83,[]).
+b_line_i(85,2,1,cmd,83,[]).
+b_line_i(86,2,1,cmd,83,[]).
+b_line_i(87,2,1,cmd,83,[]).
+b_line_i(88,2,1,cmd,83,[]).
+b_line_i(89,2,1,cmd,83,[]).
+b_line_i(90,2,1,cmd,83,[]).
+b_line_i(91,2,1,cmd,83,[]).
+b_line_i(92,2,1,cmd,83,[]).
+b_line_i(93,2,1,cmd,83,[]).
+b_line_i(95,2,1,cmd,83,[]).
+b_line_i(96,2,1,cmd,83,[]).
+b_line_i(97,2,1,cmd,83,[ t('',107,97,0),t('Cellrow',23,83,0),t(=,10,83,0),t('Cellrow',23,83,0),t(+,5,83,0),t('1',3,83,0) ]).
+b_line_i(98,2,1,cmd,83,[]).
+b_line_i(99,2,1,cmd,83,[ t('',145,99,0),t('''BEFOREWRITELINE''',3,99,6) ]).
+b_line_i(100,2,1,cmd,83,[ t('',107,100,0),t([ t('Exceldocument',23,83,0),[ t('cells(',1,83,0),t('Cellrow',23,83,0),t(',',7,83,0),t('Firstcolumn',23,83,0),t(+,5,83,0),t('0',3,83,0),t(')',4,83,0) ],t('Number',3,83,0) ],29,83,0),t(=,10,83,0),t(7,2,83,0) ]).
+b_line_i(101,2,1,cmd,83,[ t('',107,101,0),t([ t('Exceldocument',23,83,0),[ t('cells(',1,83,0),t('Cellrow',23,83,0),t(',',7,83,0),t('Firstcolumn',23,83,0),t(+,5,83,0),t('1',3,83,0),t(')',4,83,0) ],t('Text',3,83,0) ],29,83,0),t(=,10,83,0),t('udp(',1,83,0),t([ t('Exceldocument',23),[ t('cells(',1),t('Cellrow',23),t(',',7),t('Firstcolumn',23),t(+,5),t('1',3),t(')',4) ],t('Text',3) ],3,83,0),t(101,3,83,0),t(62,2,83,0),t(')',4,83,0) ]).
+b_line_i(102,2,1,cmd,83,[ t('',107,102,0),t([ t('Exceldocument',23,83,0),[ t('cells(',1,83,0),t('Cellrow',23,83,0),t(',',7,83,0),t('Firstcolumn',23,83,0),t(+,5,83,0),t('2',3,83,0),t(')',4,83,0) ],t('Number',3,83,0) ],29,83,0),t(=,10,83,0),t(6,2,83,0) ]).
+b_line_i(103,2,1,cmd,83,[ t('',107,103,0),t([ t('Exceldocument',23,83,0),[ t('cells(',1,83,0),t('Cellrow',23,83,0),t(',',7,83,0),t('Firstcolumn',23,83,0),t(+,5,83,0),t('3',3,83,0),t(')',4,83,0) ],t('Text',3,83,0) ],29,83,0),t(=,10,83,0),t('udp(',1,83,0),t([ t('Exceldocument',23),[ t('cells(',1),t('Cellrow',23),t(',',7),t('Firstcolumn',23),t(+,5),t('3',3),t(')',4) ],t('Text',3) ],3,83,0),t(103,3,83,0),t(61,2,83,0),t(')',4,83,0) ]).
+b_line_i(104,2,1,cmd,83,[ t('',107,104,0),t([ t('Exceldocument',23,83,0),[ t('cells(',1,83,0),t('Cellrow',23,83,0),t(',',7,83,0),t('Firstcolumn',23,83,0),t(+,5,83,0),t('4',3,83,0),t(')',4,83,0) ],t('Text',3,83,0) ],29,83,0),t(=,10,83,0),t('udp(',1,83,0),t([ t('Exceldocument',23),[ t('cells(',1),t('Cellrow',23),t(',',7),t('Firstcolumn',23),t(+,5),t('4',3),t(')',4) ],t('Text',3) ],3,83,0),t(104,3,83,0),t(60,2,83,0),t(')',4,83,0) ]).
+b_line_i(105,2,1,cmd,83,[]).
+b_line_i(106,2,1,cmd,83,[ t('',145,106,0),t('''AFTERWRITELINE''',3,106,6) ]).
+b_line_i(107,2,1,cmd,83,[]).
+b_line_i(108,2,1,cmd,83,[ t('',128,108,0) ]).
+b_line_i(109,1,7,cmd,27,[]).
+b_line_i(110,1,7,cmd,27,[]).
+b_line_i(111,1,7,cmd,27,[]).
+b_line_i(112,1,7,cmd,27,[ t('',144,112,0) ]).
+b_line_i(113,1,7,cmd,27,[]).
+b_line_i(114,1,7,cmd,27,[ t('',143,114,0),t('''CLOSEDOCUMENT''',3,114,5) ]).
+b_line_i(115,1,8,cmd,27,[]).
+b_line_i(116,1,8,cmd,27,[]).
+b_line_i(117,1,8,cmd,27,[]).
+b_line_i(118,1,8,cmd,27,[ t('',107,118,0),t([ t('Exceldocument',23,118,2),t('save(',1,118,17) ],31,118,17),t(')',4,27,23) ]).
+b_line_i(119,1,8,cmd,27,[ t('',145,119,0),t('''CHECKSTATUS''',3,119,5) ]).
+b_line_i(120,1,8,cmd,27,[ t('',107,120,0),t([ t('Exceldocument',23,120,2),t('close(',1,120,17) ],31,120,17),t(')',4,27,24) ]).
+b_line_i(121,1,8,cmd,27,[]).
+b_line_i(122,1,8,cmd,27,[]).
+b_line_i(123,1,8,cmd,27,[]).
+b_line_i(124,1,8,cmd,27,[ t('',144,124,0) ]).
+b_line_i(125,1,8,cmd,27,[]).
+b_line_i(126,1,8,cmd,27,[ t('',143,126,0),t('''CHECKSTATUS''',3,126,5) ]).
+b_line_i(127,1,9,cmd,27,[]).
+b_line_i(128,1,9,cmd,27,[]).
+b_line_i(129,1,9,cmd,27,[]).
+b_line_i(130,1,9,cmd,27,[ t('',109,130,0),t('(',0,27,5),t([ t('Exceldocument',23,130,6),t('Errcode',3,130,21) ],29,130,21),t(<>,10,27,29),t('0',3,27,32),t(')',4,27,33) ]).
+b_line_i(131,1,9,cmd,27,[ t('',107,131,0),t('Filename',23,27,0),t(=,10,27,0),t('""',3,27,0) ]).
+b_line_i(132,1,9,cmd,27,[ t('',107,132,0),t('Errormessage',23,27,0),t(=,10,27,0),t([ t('Exceldocument',23,27,0),t('Errdescription',3,27,0) ],29,27,0) ]).
+b_line_i(133,1,9,cmd,27,[ t('',107,133,0),t([ t('Exceldocument',23,133,3),t('close(',1,133,18) ],31,133,18),t(')',4,27,25) ]).
+b_line_i(134,1,9,cmd,27,[ t('',118,134,0) ]).
+b_line_i(135,1,9,cmd,27,[ t('',111,135,0) ]).
+b_line_i(136,1,9,cmd,27,[]).
+b_line_i(137,1,9,cmd,27,[]).
+b_line_i(138,1,9,cmd,27,[]).
+b_line_i(139,1,9,cmd,27,[ t('',144,139,0) ]).
+b_line_i(140,1,9,cmd,27,[]).
+b_line_i(141,1,9,cmd,27,[ t('',143,141,0),t('''LOADGRIDSTATE''',3,141,5) ]).
+b_line_i(142,1,10,cmd,27,[]).
+b_line_i(143,1,10,cmd,27,[]).
+b_line_i(144,1,10,cmd,27,[]).
+b_line_i(145,1,10,cmd,27,[]).
+b_line_i(146,1,10,cmd,27,[ t('',109,146,0),t([ t('Session',23,27,5),t('get(',1,27,14) ],31,146,14),t('"CiudadWWGridState"',3,146,19),t(')',4,27,39),t(=,10,27,41),t('""',3,146,43) ]).
+b_line_i(147,1,10,cmd,27,[ t('',107,147,0),t([ t('Gridstate',23,147,3),t('fromxml(',1,147,14) ],31,147,3),t('udp(',1,147,37),t(o(1,'WWPBaseObjects\LoadGridState'),28,147,23),t(',',7,27,0),t('"CiudadWWGridState"',3,147,42),t(')',4,27,0),t(')',4,27,63) ]).
+b_line_i(148,1,10,cmd,27,[ t('',110,148,0) ]).
+b_line_i(149,1,10,cmd,27,[ t('',107,149,0),t([ t('Gridstate',23,149,3),t('fromxml(',1,149,14) ],31,149,3),t([ t('Session',23,27,23),t('get(',1,27,32) ],31,149,32),t('"CiudadWWGridState"',3,149,37),t(')',4,27,57),t(')',4,27,58) ]).
+b_line_i(150,1,10,cmd,27,[ t('',111,150,0) ]).
+b_line_i(151,1,10,cmd,27,[]).
+b_line_i(152,1,10,cmd,27,[ t('',107,152,0),t('Orderedby',23,27,0),t(=,10,27,0),t([ t('Gridstate',23,27,0),t('Orderedby',3,27,0) ],29,27,0) ]).
+b_line_i(153,1,10,cmd,27,[ t('',107,153,0),t('Ordereddsc',23,27,0),t(=,10,27,0),t([ t('Gridstate',23,27,0),t('Ordereddsc',3,27,0) ],29,27,0) ]).
+b_line_i(154,1,10,cmd,27,[]).
+b_line_i(155,1,10,cmd,27,[ t('',107,155,0),t('GXV1',23,27,0),t(=,10,27,0),t(1,3,27,0) ]).
+b_line_i([ 155,2 ],1,10,cmd,27,[ t('',114,155,0),t('GXV1',23,27,0),t(<=,10,27,0),t([ t('Gridstate',23,155,31),t('Filtervalues',3,155,42),t('Count',3,155,0) ],29,155,0) ]).
+b_line_i([ 155,3 ],1,10,cmd,27,[ t('',107,155,0),t('Gridstatefiltervalue',23,27,0),t(=,10,27,0),t([ t([ t('Gridstate',23,27,0),t('Filtervalues',3,27,0) ],29,27,0),t('item(',1,27,0) ],31,27,0),t('GXV1',23,27,0),t(')',4,27,0) ]).
+b_line_i(156,1,10,cmd,28,[ t('',152,156,0) ]).
+b_line_i(157,1,10,cmd,28,[ t('',153,157,0),t([ t('Gridstatefiltervalue',23,157,9),t('Name',3,157,31) ],29,157,31),t(=,10,28,36),t('"FILTERFULLTEXT"',3,157,38) ]).
+b_line_i(158,1,10,cmd,28,[ t('',107,158,0),t('Filterfulltext',23,158,5),t(=,10,158,5),t([ t('Gridstatefiltervalue',23,158,33),t('Value',3,158,55) ],29,158,55) ]).
+b_line_i(159,1,10,cmd,28,[ t('',154,159,0) ]).
+b_line_i([ 160,1 ],1,10,cmd,28,[ t('',107,160,0),t('GXV1',23,28,0),t(=,10,28,0),t('GXV1',23,28,0),t(+,5,28,0),t(1,3,28,0) ]).
+b_line_i([ 160,2 ],1,10,cmd,28,[ t('',115,160,0) ]).
+b_line_i(161,1,10,cmd,29,[]).
+b_line_i(162,1,10,cmd,29,[]).
+b_line_i(163,1,10,cmd,29,[]).
+b_line_i(164,1,10,cmd,29,[ t('',144,164,0) ]).
+b_line_i(165,1,10,cmd,29,[]).
+b_line_i(166,1,10,cmd,29,[ t('',143,166,0),t('''BEFOREWRITELINE''',3,166,5) ]).
+b_line_i(167,1,11,cmd,29,[]).
+b_line_i(168,1,11,cmd,29,[]).
+b_line_i(169,1,11,cmd,29,[]).
+b_line_i(170,1,11,cmd,29,[]).
+b_line_i(171,1,11,cmd,29,[]).
+b_line_i(172,1,11,cmd,29,[]).
+b_line_i(173,1,11,cmd,29,[]).
+b_line_i(174,1,11,cmd,29,[ t('',144,174,0) ]).
+b_line_i(175,1,11,cmd,29,[]).
+b_line_i(176,1,11,cmd,29,[ t('',143,176,0),t('''AFTERWRITELINE''',3,176,5) ]).
+b_line_i(177,1,12,cmd,29,[]).
+b_line_i(178,1,12,cmd,29,[]).
+b_line_i(179,1,12,cmd,29,[]).
+b_line_i(180,1,12,cmd,29,[]).
+b_line_i(181,1,12,cmd,29,[]).
+b_line_i(182,1,12,cmd,29,[]).
+b_line_i(183,1,12,cmd,29,[]).
+b_line_i(184,1,12,cmd,29,[ t('',144,184,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,62,'ExternalName','CiudadNombre',d).
+att_prop_i(2,62,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,62,'EmptyAsNull','Yes',d).
+att_prop_i(2,62,idBasedOn,192,v).
+att_prop_i(2,62,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,62,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,62,'AttRegEx','',d).
+att_prop_i(2,62,'AttValidationFailedMsg','',d).
+att_prop_i(2,62,'DownloadOffline','0',d).
+att_prop_i(2,62,'VarServiceExtName','',d).
+att_prop_i(2,62,'FullName','CiudadNombre',v).
+att_prop_i(2,7,'ExternalName','CiudadId',d).
+att_prop_i(2,7,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,7,'EmptyAsNull','Yes',d).
+att_prop_i(2,7,idBasedOn,90,v).
+att_prop_i(2,7,'AUTONUMBER','0',d).
+att_prop_i(2,7,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,7,'AttRegEx','',d).
+att_prop_i(2,7,'AttValidationFailedMsg','',d).
+att_prop_i(2,7,'DownloadOffline','0',d).
+att_prop_i(2,7,'VarServiceExtName','',d).
+att_prop_i(2,7,'FullName','CiudadId',v).
+att_prop_i(2,6,'ExternalName','DepartamentoId',d).
+att_prop_i(2,6,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,6,'EmptyAsNull','Yes',d).
+att_prop_i(2,6,idBasedOn,90,v).
+att_prop_i(2,6,'AUTONUMBER','0',d).
+att_prop_i(2,6,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,6,'AttRegEx','',d).
+att_prop_i(2,6,'AttValidationFailedMsg','',d).
+att_prop_i(2,6,'DownloadOffline','0',d).
+att_prop_i(2,6,'VarServiceExtName','',d).
+att_prop_i(2,6,'FullName','DepartamentoId',v).
+att_prop_i(2,61,'ExternalName','DepartamentoNombre',d).
+att_prop_i(2,61,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,61,'EmptyAsNull','Yes',d).
+att_prop_i(2,61,idBasedOn,192,v).
+att_prop_i(2,61,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,61,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,61,'AttRegEx','',d).
+att_prop_i(2,61,'AttValidationFailedMsg','',d).
+att_prop_i(2,61,'DownloadOffline','0',d).
+att_prop_i(2,61,'VarServiceExtName','',d).
+att_prop_i(2,61,'FullName','DepartamentoNombre',v).
+att_prop_i(2,60,'ExternalName','PaisNombre',d).
+att_prop_i(2,60,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,60,'EmptyAsNull','Yes',d).
+att_prop_i(2,60,idBasedOn,192,v).
+att_prop_i(2,60,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,60,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,60,'AttRegEx','',d).
+att_prop_i(2,60,'AttValidationFailedMsg','',d).
+att_prop_i(2,60,'DownloadOffline','0',d).
+att_prop_i(2,60,'VarServiceExtName','',d).
+att_prop_i(2,60,'FullName','PaisNombre',v).
+att_prop_i(2,5,'ExternalName','PaisId',d).
+att_prop_i(2,5,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,5,'EmptyAsNull','Yes',d).
+att_prop_i(2,5,idBasedOn,90,v).
+att_prop_i(2,5,'AUTONUMBER','0',d).
+att_prop_i(2,5,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,5,'AttRegEx','',d).
+att_prop_i(2,5,'AttValidationFailedMsg','',d).
+att_prop_i(2,5,'DownloadOffline','0',d).
+att_prop_i(2,5,'VarServiceExtName','',d).
+att_prop_i(2,5,'FullName','PaisId',v).
+ 
+tbl_prop_i(2,5,'AllDirSuper',[ [ 4,[ 5 ] ] ],v).
+tbl_prop_i(2,6,'AllDirSuper',[ [ 5,[ 6 ] ] ],v).
+tbl_prop_i(2,4,'DirSubor',[ [ 5,[ 5 ] ] ],v).
+tbl_prop_i(2,5,'DirSubor',[ [ 6,[ 6 ] ] ],v).
+tbl_prop_i(2,5,'DirSuper',[ [ 4,[ 5 ] ] ],v).
+tbl_prop_i(2,6,'DirSuper',[ [ 5,[ 6 ] ] ],v).
+ 
+tbl_att_prop_i(2,6,7,'AllowNulls',n).
+tbl_att_prop_i(2,6,62,'AllowNulls',n).
+tbl_att_prop_i(2,6,6,'AllowNulls',n).
+tbl_att_prop_i(2,5,6,'AllowNulls',n).
+tbl_att_prop_i(2,5,61,'AllowNulls',n).
+tbl_att_prop_i(2,5,5,'AllowNulls',n).
+tbl_att_prop_i(2,4,5,'AllowNulls',n).
+tbl_att_prop_i(2,4,60,'AllowNulls',n).
+ 
+var_prop_i(2,'Securityfunctionalitykeys',idBasedOn,88,v).
+var_prop_i(2,'Filename',idBasedOn,32,v).
+var_prop_i(2,'Filename','AttRegEx','^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$',d).
+var_prop_i(2,'Filename','AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+var_prop_i(2,'Filterfulltext',idBasedOn,223,v).
+var_prop_i(2,'Filterfulltext',idBasedOn,223,v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,56,0 ],name,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,56,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,56,0 ],'ObjName','WWPContext').
+struct_dt_i([ 26,56,0 ],'ObjDesc','WWPContext').
+struct_dt_i([ 26,56,0 ],'ExternalName','WWPContext').
+struct_dt_i([ 26,56,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,56,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,59,0 ],name,'WWPBaseObjects\WWPGridState').
+struct_dt_i([ 26,59,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,59,0 ],'ObjName','WWPGridState').
+struct_dt_i([ 26,59,0 ],'ObjDesc','Grid State').
+struct_dt_i([ 26,59,0 ],'ExternalName','WWPGridState').
+struct_dt_i([ 26,59,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,59,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,59,111 ],name,'FilterValue').
+struct_dt_i([ 26,59,111 ],namespace,'Mujer_Morena.WWPGridState').
+struct_dt_i([ 26,59,112 ],name,'DynamicFilter').
+struct_dt_i([ 26,59,112 ],namespace,'Mujer_Morena.WWPGridState').
+struct_dt_i([ 26,56,0 ],fullname,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,59,0 ],fullname,'WWPBaseObjects\WWPGridState').
+struct_dt_i([ 26,59,111 ],fullname,'WWPBaseObjects\WWPGridState.FilterValue').
+struct_dt_i([ 26,59,112 ],fullname,'WWPBaseObjects\WWPGridState.DynamicFilter').
+ 
+struct_dt_elem_i([ 26,56,0 ],1,name,'Userid').
+struct_dt_elem_i([ 26,56,0 ],1,camelname,'UserId').
+struct_dt_elem_i([ 26,56,0 ],1,length,4).
+struct_dt_elem_i([ 26,56,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,56,0 ],1,sign,0).
+struct_dt_elem_i([ 26,56,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,56,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,56,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,56,0 ],1,'ExternalName','UserId').
+struct_dt_elem_i([ 26,56,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,56,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,56,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,56,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,56,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,56,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,56,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,56,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,56,0 ],2,name,'Username').
+struct_dt_elem_i([ 26,56,0 ],2,camelname,'UserName').
+struct_dt_elem_i([ 26,56,0 ],2,length,100).
+struct_dt_elem_i([ 26,56,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,56,0 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,56,0 ],2,pic,'').
+struct_dt_elem_i([ 26,56,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,56,0 ],2,'ExternalName','UserName').
+struct_dt_elem_i([ 26,56,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,56,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,56,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,56,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,56,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,56,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,56,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,56,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],1,name,'Currentpage').
+struct_dt_elem_i([ 26,59,0 ],1,camelname,'CurrentPage').
+struct_dt_elem_i([ 26,59,0 ],1,length,4).
+struct_dt_elem_i([ 26,59,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],1,sign,0).
+struct_dt_elem_i([ 26,59,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,59,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,59,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],1,'ExternalName','CurrentPage').
+struct_dt_elem_i([ 26,59,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],2,name,'Orderedby').
+struct_dt_elem_i([ 26,59,0 ],2,camelname,'OrderedBy').
+struct_dt_elem_i([ 26,59,0 ],2,length,4).
+struct_dt_elem_i([ 26,59,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],2,sign,0).
+struct_dt_elem_i([ 26,59,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,59,0 ],2,pic,'ZZZ9').
+struct_dt_elem_i([ 26,59,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],2,'ExternalName','OrderedBy').
+struct_dt_elem_i([ 26,59,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],3,name,'Ordereddsc').
+struct_dt_elem_i([ 26,59,0 ],3,camelname,'OrderedDsc').
+struct_dt_elem_i([ 26,59,0 ],3,length,4).
+struct_dt_elem_i([ 26,59,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],3,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,59,0 ],3,pic,'').
+struct_dt_elem_i([ 26,59,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],3,'ExternalName','OrderedDsc').
+struct_dt_elem_i([ 26,59,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],4,name,'Hidingsearch').
+struct_dt_elem_i([ 26,59,0 ],4,camelname,'HidingSearch').
+struct_dt_elem_i([ 26,59,0 ],4,length,1).
+struct_dt_elem_i([ 26,59,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],4,sign,0).
+struct_dt_elem_i([ 26,59,0 ],4,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 26,59,0 ],4,pic,'9').
+struct_dt_elem_i([ 26,59,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],4,'ExternalName','HidingSearch').
+struct_dt_elem_i([ 26,59,0 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],5,name,'Pagesize').
+struct_dt_elem_i([ 26,59,0 ],5,camelname,'PageSize').
+struct_dt_elem_i([ 26,59,0 ],5,length,10).
+struct_dt_elem_i([ 26,59,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],5,type,[ 13,10,0 ]).
+struct_dt_elem_i([ 26,59,0 ],5,pic,'').
+struct_dt_elem_i([ 26,59,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],5,'ExternalName','PageSize').
+struct_dt_elem_i([ 26,59,0 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],6,name,'Collapsedrecords').
+struct_dt_elem_i([ 26,59,0 ],6,camelname,'CollapsedRecords').
+struct_dt_elem_i([ 26,59,0 ],6,length,2097152).
+struct_dt_elem_i([ 26,59,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],6,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 26,59,0 ],6,pic,'').
+struct_dt_elem_i([ 26,59,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],6,'ExternalName','CollapsedRecords').
+struct_dt_elem_i([ 26,59,0 ],6,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],6,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,59,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],7,name,'Groupby').
+struct_dt_elem_i([ 26,59,0 ],7,camelname,'GroupBy').
+struct_dt_elem_i([ 26,59,0 ],7,length,40).
+struct_dt_elem_i([ 26,59,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],7,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,59,0 ],7,pic,'').
+struct_dt_elem_i([ 26,59,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],7,'ExternalName','GroupBy').
+struct_dt_elem_i([ 26,59,0 ],7,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],7,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,59,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],7,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],8,name,'Filtervalues').
+struct_dt_elem_i([ 26,59,0 ],8,camelname,'FilterValues').
+struct_dt_elem_i([ 26,59,0 ],8,type,[ [ 26,59,111 ],0,0 ]).
+struct_dt_elem_i([ 26,59,0 ],8,pic,'').
+struct_dt_elem_i([ 26,59,0 ],8,collection,'True').
+struct_dt_elem_i([ 26,59,0 ],8,'ObjName','FilterValues').
+struct_dt_elem_i([ 26,59,0 ],8,'ObjDesc','Filter Values').
+struct_dt_elem_i([ 26,59,0 ],8,'CollectionItemName','FilterValue').
+struct_dt_elem_i([ 26,59,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],8,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,59,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],8,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,59,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],8,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],8,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,59,0 ],8,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,59,111 ],1,name,'Name').
+struct_dt_elem_i([ 26,59,111 ],1,camelname,'Name').
+struct_dt_elem_i([ 26,59,111 ],1,length,128).
+struct_dt_elem_i([ 26,59,111 ],1,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,59,111 ],1,pic,'').
+struct_dt_elem_i([ 26,59,111 ],1,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],1,'ExternalName','Name').
+struct_dt_elem_i([ 26,59,111 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],1,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],1,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,111 ],1,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,111 ],2,name,'Dsc').
+struct_dt_elem_i([ 26,59,111 ],2,camelname,'Dsc').
+struct_dt_elem_i([ 26,59,111 ],2,length,40).
+struct_dt_elem_i([ 26,59,111 ],2,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,59,111 ],2,pic,'').
+struct_dt_elem_i([ 26,59,111 ],2,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],2,'ExternalName','Dsc').
+struct_dt_elem_i([ 26,59,111 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],2,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],2,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],2,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,59,111 ],2,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,111 ],3,name,'Value').
+struct_dt_elem_i([ 26,59,111 ],3,camelname,'Value').
+struct_dt_elem_i([ 26,59,111 ],3,length,100).
+struct_dt_elem_i([ 26,59,111 ],3,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,59,111 ],3,pic,'').
+struct_dt_elem_i([ 26,59,111 ],3,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],3,'ExternalName','Value').
+struct_dt_elem_i([ 26,59,111 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],3,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],3,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,111 ],3,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,111 ],4,name,'Operator').
+struct_dt_elem_i([ 26,59,111 ],4,camelname,'Operator').
+struct_dt_elem_i([ 26,59,111 ],4,length,4).
+struct_dt_elem_i([ 26,59,111 ],4,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],4,sign,0).
+struct_dt_elem_i([ 26,59,111 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,59,111 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,59,111 ],4,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],4,'ExternalName','Operator').
+struct_dt_elem_i([ 26,59,111 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],4,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],4,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,111 ],4,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,111 ],5,name,'Valueto').
+struct_dt_elem_i([ 26,59,111 ],5,camelname,'ValueTo').
+struct_dt_elem_i([ 26,59,111 ],5,length,100).
+struct_dt_elem_i([ 26,59,111 ],5,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,59,111 ],5,pic,'').
+struct_dt_elem_i([ 26,59,111 ],5,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],5,'ExternalName','ValueTo').
+struct_dt_elem_i([ 26,59,111 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],5,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],5,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,111 ],5,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],9,name,'Dynamicfilters').
+struct_dt_elem_i([ 26,59,0 ],9,camelname,'DynamicFilters').
+struct_dt_elem_i([ 26,59,0 ],9,type,[ [ 26,59,112 ],0,0 ]).
+struct_dt_elem_i([ 26,59,0 ],9,pic,'').
+struct_dt_elem_i([ 26,59,0 ],9,collection,'True').
+struct_dt_elem_i([ 26,59,0 ],9,'ObjName','DynamicFilters').
+struct_dt_elem_i([ 26,59,0 ],9,'ObjDesc','Dynamic Filters').
+struct_dt_elem_i([ 26,59,0 ],9,'CollectionItemName','DynamicFilter').
+struct_dt_elem_i([ 26,59,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],9,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,59,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],9,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,59,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],9,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],9,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,59,0 ],9,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,59,112 ],1,name,'Selected').
+struct_dt_elem_i([ 26,59,112 ],1,camelname,'Selected').
+struct_dt_elem_i([ 26,59,112 ],1,length,128).
+struct_dt_elem_i([ 26,59,112 ],1,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,59,112 ],1,pic,'').
+struct_dt_elem_i([ 26,59,112 ],1,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],1,'ExternalName','Selected').
+struct_dt_elem_i([ 26,59,112 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],1,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],1,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,112 ],1,'JsonName','').
+struct_dt_elem_i([ 26,59,112 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,112 ],2,name,'Dsc').
+struct_dt_elem_i([ 26,59,112 ],2,camelname,'Dsc').
+struct_dt_elem_i([ 26,59,112 ],2,length,40).
+struct_dt_elem_i([ 26,59,112 ],2,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,59,112 ],2,pic,'').
+struct_dt_elem_i([ 26,59,112 ],2,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],2,'ExternalName','Dsc').
+struct_dt_elem_i([ 26,59,112 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],2,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],2,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],2,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,59,112 ],2,'JsonName',d).
+struct_dt_elem_i([ 26,59,112 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,112 ],3,name,'Value').
+struct_dt_elem_i([ 26,59,112 ],3,camelname,'Value').
+struct_dt_elem_i([ 26,59,112 ],3,length,100).
+struct_dt_elem_i([ 26,59,112 ],3,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,59,112 ],3,pic,'').
+struct_dt_elem_i([ 26,59,112 ],3,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],3,'ExternalName','Value').
+struct_dt_elem_i([ 26,59,112 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],3,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],3,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,112 ],3,'JsonName','').
+struct_dt_elem_i([ 26,59,112 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,112 ],4,name,'Operator').
+struct_dt_elem_i([ 26,59,112 ],4,camelname,'Operator').
+struct_dt_elem_i([ 26,59,112 ],4,length,4).
+struct_dt_elem_i([ 26,59,112 ],4,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],4,sign,0).
+struct_dt_elem_i([ 26,59,112 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,59,112 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,59,112 ],4,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],4,'ExternalName','Operator').
+struct_dt_elem_i([ 26,59,112 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],4,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],4,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,112 ],4,'JsonName','').
+struct_dt_elem_i([ 26,59,112 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,112 ],5,name,'Valueto').
+struct_dt_elem_i([ 26,59,112 ],5,camelname,'ValueTo').
+struct_dt_elem_i([ 26,59,112 ],5,length,100).
+struct_dt_elem_i([ 26,59,112 ],5,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,59,112 ],5,pic,'').
+struct_dt_elem_i([ 26,59,112 ],5,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],5,'ExternalName','ValueTo').
+struct_dt_elem_i([ 26,59,112 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],5,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],5,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,112 ],5,'JsonName','').
+struct_dt_elem_i([ 26,59,112 ],5,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,86,'WWPBASEOBJECTS\WWP_EXPORTWRITEFILTER',[ [ o(exceldoc),4,0,0 ],[ boolean,4,0,0 ],[ int,4,0,0 ],[ int,4,0,0 ],[ svchar,200,0,0 ] ],[ [ 'ExcelDocument',inout,[] ],[ 'AddRow',in,[] ],[ 'CellRow',inout,[] ],[ 'FirstColumn',in,[] ],[ 'FilterDsc',in,[] ] ]).
+pgm_parm_i(proc,18,'WWPBASEOBJECTS\LOADWWPCONTEXT',[ [ o('WWPBaseObjects\WWPContext'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+pgm_parm_i(proc,88,'WWPBASEOBJECTS\LOADGRIDSTATE',[ [ svchar,120,0,0 ],[ svchar,1000,0,0 ] ],[ [ 'UserCustomKey',in,[] ],[ 'UserCustomValue',out,[] ] ]).
+pgm_parm_i(proc,44,'WWPBASEOBJECTS\WWP_EXPORT_SECURETEXT',[ [ vchar,2097152,0,0 ],[ vchar,2097152,0,0 ] ],[ [ 'Text',in,[] ],[ 'SecureText',out,[] ] ]).
+ 
+pgm_callprotocol_i(proc,140,'CIUDADWWEXPORT','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,86,'WWPBASEOBJECTS\WWP_EXPORTWRITEFILTER','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,18,'WWPBASEOBJECTS\LOADWWPCONTEXT','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,88,'WWPBASEOBJECTS\LOADGRIDSTATE','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,44,'WWPBASEOBJECTS\WWP_EXPORT_SECURETEXT','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

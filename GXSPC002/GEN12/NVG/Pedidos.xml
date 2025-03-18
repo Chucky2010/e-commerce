@@ -1,0 +1,331 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>42</ObjId>
+<ObjName>Pedidos</ObjName>
+<ObjDesc>Pedidos</ObjDesc>
+<ObjPgmName>Pedidos</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>47</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>47</TableId>
+<TableName>Pedidos</TableName>
+<Description>Pedidos</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>47</TableId>
+<TableName>Pedidos</TableName>
+<Description>Pedidos</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>PedidosID</AttriName>
+<Description>Pedidos ID</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>3</TableId>
+<TableName>Cliente</TableName>
+<Description>Cliente</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>9</TableId>
+<TableName>TipoPago</TableName>
+<Description>Tipo Pago</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>TipoPagoId</AttriName>
+<Description>Tipo Pago Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>56</TableId>
+<TableName>OpcionEnvio</TableName>
+<Description>Opcion Envio</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>283</AttriId>
+<AttriName>OpcionEnvioId</AttriName>
+<Description>Opcion Envio Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>47</TableId>
+<TableName>PedidosSubTotal, PedidosTotal navigation</TableName>
+<Description>Pedidos</Description>
+<RecordsToRead>one</RecordsToRead>
+<JoinType>Outer</JoinType>
+<Tables>
+<Table>
+<TableId>48</TableId>
+<TableName>PedidosDetalle</TableName>
+<Description>Detalle</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>PedidosID</AttriName>
+<Description>Pedidos ID</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>47</TableId>
+<TableName>Pedidos</TableName>
+<Description>Pedidos</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>PedidosID</AttriName>
+<Description>Pedidos ID</Description></Attribute>
+<Attribute>
+<AttriId>246</AttriId>
+<AttriName>PedidosFecha</AttriName>
+<Description>Pedidos Fecha</Description></Attribute>
+<Attribute>
+<AttriId>247</AttriId>
+<AttriName>PedidosEstado</AttriName>
+<Description>Pedidos Estado</Description></Attribute>
+<Attribute>
+<AttriId>296</AttriId>
+<AttriName>PedidosImagenComprobante</AttriName>
+<Description>Pedidos Imagen Comprobante</Description></Attribute>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>PedidosImagenComprobante.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>295</AttriId>
+<AttriName>PedidosComprobanteObs</AttriName>
+<Description>Pedidos Comprobante Obs</Description></Attribute>
+<Attribute>
+<AttriId>312</AttriId>
+<AttriName>PedidosUbicacion</AttriName>
+<Description>Pedidos Ubicacion</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>TipoPagoId</AttriName>
+<Description>Tipo Pago Id</Description></Attribute>
+<Attribute>
+<AttriId>283</AttriId>
+<AttriName>OpcionEnvioId</AttriName>
+<Description>Opcion Envio Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>47</TableId>
+<TableName>Pedidos</TableName>
+<Description>Pedidos</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>246</AttriId>
+<AttriName>PedidosFecha</AttriName>
+<Description>Pedidos Fecha</Description></Attribute>
+<Attribute>
+<AttriId>247</AttriId>
+<AttriName>PedidosEstado</AttriName>
+<Description>Pedidos Estado</Description></Attribute>
+<Attribute>
+<AttriId>296</AttriId>
+<AttriName>PedidosImagenComprobante</AttriName>
+<Description>Pedidos Imagen Comprobante</Description></Attribute>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>PedidosImagenComprobante.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>295</AttriId>
+<AttriName>PedidosComprobanteObs</AttriName>
+<Description>Pedidos Comprobante Obs</Description></Attribute>
+<Attribute>
+<AttriId>312</AttriId>
+<AttriName>PedidosUbicacion</AttriName>
+<Description>Pedidos Ubicacion</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>TipoPagoId</AttriName>
+<Description>Tipo Pago Id</Description></Attribute>
+<Attribute>
+<AttriId>283</AttriId>
+<AttriName>OpcionEnvioId</AttriName>
+<Description>Opcion Envio Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>47</TableId>
+<TableName>Pedidos</TableName>
+<Description>Pedidos</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>48</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>48</TableId>
+<TableName>PedidosDetalle</TableName>
+<Description>Detalle</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>48</TableId>
+<TableName>PedidosDetalle</TableName>
+<Description>Detalle</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>PedidosID</AttriName>
+<Description>Pedidos ID</Description></Attribute>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>PedidosDetalleID</AttriName>
+<Description>Pedidos Detalle ID</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>44</TableId>
+<TableName>Impuesto</TableName>
+<Description>Impuesto</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>ImpuestoId</AttriName>
+<Description>Impuesto Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>48</TableId>
+<TableName>PedidosDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>PedidosID</AttriName>
+<Description>Pedidos ID</Description></Attribute>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>PedidosDetalleID</AttriName>
+<Description>Pedidos Detalle ID</Description></Attribute>
+<Attribute>
+<AttriId>293</AttriId>
+<AttriName>PedidosDetalleTallaID</AttriName>
+<Description>Pedidos Detalle Talla ID</Description></Attribute>
+<Attribute>
+<AttriId>245</AttriId>
+<AttriName>PedidosDetalleCantidad</AttriName>
+<Description>Pedidos Detalle Cantidad</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>48</TableId>
+<TableName>PedidosDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>293</AttriId>
+<AttriName>PedidosDetalleTallaID</AttriName>
+<Description>Pedidos Detalle Talla ID</Description></Attribute>
+<Attribute>
+<AttriId>245</AttriId>
+<AttriName>PedidosDetalleCantidad</AttriName>
+<Description>Pedidos Detalle Cantidad</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>48</TableId>
+<TableName>PedidosDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts></Prompts>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,32 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>194</ObjId>
+<ObjName>WorkWithPlus.NativeMobile.WWPWebServerSessionSetNum</ObjName>
+<ObjDesc>Web Server Session Set Num</ObjDesc>
+<ObjPgmName>WorkWithPlus.NativeMobile.WWPWebServerSessionSetNum</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Parameterkey</VarId>
+<VarName>&amp;ParameterKey</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Parametervalue</VarId>
+<VarName>&amp;ParameterValue</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

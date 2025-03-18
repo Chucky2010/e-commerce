@@ -1,0 +1,119 @@
+{ 
+    "Tokens" : [ { 
+        "Values" : { 
+            "colors_Primary" : "#D5303E",
+            "colors_Primary10" : "#D5303E1A",
+            "colors_Primary30" : "#D5303E4D",
+            "colors_Primary50" : "#D5303E80",
+            "colors_Primary80" : "#D5303ECC",
+            "colors_PrimaryTone" : "#C92432",
+            "colors_Secondary" : "#FFC2D0",
+            "colors_StatusBar" : "#D5303E",
+            "colors_ApplicationBar" : "#D5303E",
+            "colors_Primary" : "#414141",
+            "colors_Primary10" : "#4141411A",
+            "colors_Primary30" : "#4141414D",
+            "colors_Primary50" : "#41414180",
+            "colors_Primary80" : "#414141CC",
+            "colors_PrimaryTone" : "#353535",
+            "colors_Secondary" : "#D3D3D3",
+            "fonts_primary-font-family" : "Montserrat",
+            "fontSizes_body-xlarge" : "20dip",
+            "fontSizes_body-large" : "16dip",
+            "fontSizes_body-regular" : "14dip",
+            "fontSizes_body-small" : "12dip",
+            "fontSizes_body-xsmall" : "8dip",
+            "fontSizes_attribute-label" : "12dip"
+        }
+    } ],
+    "Imports" : [ { 
+        "Name" : "Mujer_MorenaSDDSAnyPlatform",
+        "Type" : "DSO",
+        "Part" : "all"
+    } ],
+    "Styles" : [ { 
+        "Name" : "MenuBannerTall",
+        "background_image" : "9fb193d9-64a4-4d30-b129-ff7c76830f7e-wwp_nm_menubanner_tall"
+    }, { 
+        "Name" : "CardUserBackgroundImageTable",
+        "background_image" : "9fb193d9-64a4-4d30-b129-ff7c76830f7e-wwp_nm_menubanner"
+    }, { 
+        "Name" : "TableBackgroundImageLogin",
+        "background_image" : "9fb193d9-64a4-4d30-b129-ff7c76830f7e-wwp_nm_login_background"
+    }, { 
+        "Name" : "TableBackgroundImageMenu",
+        "background_image" : "9fb193d9-64a4-4d30-b129-ff7c76830f7e-wwp_nm_menu_background"
+    }, { 
+        "Name" : "TableGrow100x100",
+        "ThemeTransformationReference" : "tablegrow100x100"
+    }, { 
+        "Name" : "TableShrink",
+        "ThemeTransformationReference" : "tableshrink"
+    }, { 
+        "Name" : "BottomActionSheet",
+        "ThemeTransformationReference" : "bottomactionsheet"
+    }, { 
+        "Name" : "BottomActionSheetHide",
+        "ThemeTransformationReference" : "bottomactionsheethide"
+    }, { 
+        "Name" : "SlidingMessageTable",
+        "ThemeTransformationReference" : "bottomactionsheet"
+    }, { 
+        "Name" : "SlidingMessageTableBottomHide",
+        "ThemeTransformationReference" : "bottomactionsheethide"
+    }, { 
+        "Name" : "SlidingMessageTableTopHide",
+        "ThemeTransformationReference" : "slidingmessagetabletophide"
+    }, { 
+        "Name" : "SlidingTransparentTable",
+        "ThemeTransformationReference" : "bottomactionsheet",
+        "elevation" : "0"
+    }, { 
+        "Name" : "SlidingTransparentTableRightHalfHide",
+        "ThemeTransformationReference" : "slidingtransparenttablerighthalfhide",
+        "elevation" : "0"
+    } ],
+    "Transformations" : [ { 
+        "Name" : "tablegrow100x100",
+        "gxtranslation_value_x" : "0dip",
+        "gxtranslation_value_y" : "0dip",
+        "gxtranslation_relative_to" : "form",
+        "gxscale_value_x" : "100%",
+        "gxscale_value_y" : "100%",
+        "gxscale_relative_to" : "form"
+    }, { 
+        "Name" : "tableshrink",
+        "gxscale_value_x" : "0dip",
+        "gxscale_value_y" : "0dip",
+        "gxscale_relative_to" : "form"
+    }, { 
+        "Name" : "bottomactionsheet",
+        "gxtransform_anchor_point_y" : "top",
+        "gxtranslation_value_x" : "0dip",
+        "gxtranslation_value_y" : "0dip",
+        "gxtranslation_relative_to" : "parent",
+        "gxtransform_translation_type" : "translate_by"
+    }, { 
+        "Name" : "bottomactionsheethide",
+        "gxtransform_anchor_point_y" : "top",
+        "gxtranslation_value_y" : "300dip",
+        "gxtranslation_relative_to" : "parent",
+        "gxtransform_translation_type" : "translate_by"
+    }, { 
+        "Name" : "slidingmessagetabletophide",
+        "gxtransform_anchor_point_y" : "top",
+        "gxtranslation_value_y" : "-1000dip",
+        "gxtranslation_relative_to" : "parent",
+        "gxtransform_translation_type" : "translate_by"
+    }, { 
+        "Name" : "slidingtransparenttablerighthalfhide",
+        "gxtranslation_value_x" : "260dip",
+        "gxtranslation_relative_to" : "parent",
+        "gxtransform_translation_type" : "translate_by"
+    } ],
+    "Fonts" : [ { 
+        "Name" : "Montserrat",
+        "InternalName" : "Montserrat-Regular",
+        "FileName" : "Montserrat.ttf"
+    } ]
+}

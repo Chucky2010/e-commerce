@@ -1,0 +1,56 @@
+ 
+spec_i([ sdt,[ 0,38,0 ],'WWPBaseObjects\UserCustomizations','WWPBaseObjects\UserCustomizations',0,spa,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 0,38,0 ],name,'WWPBaseObjects\UserCustomizations').
+struct_dt_i([ 0,38,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 0,38,0 ],significantName,'WWPBaseObjects\UserCustomizations').
+struct_dt_i([ 0,38,0 ],'ObjName','UserCustomizations').
+struct_dt_i([ 0,38,0 ],'ObjDesc','User Custom').
+struct_dt_i([ 0,38,0 ],'ExternalName','UserCustomizations').
+struct_dt_i([ 0,38,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 0,38,0 ],key,[ 44,45 ]).
+struct_dt_i([ 0,38,0 ],lvl,41).
+struct_dt_i([ 0,38,0 ],fullname,'WWPBaseObjects\UserCustomizations').
+ 
+struct_dt_elem_i([ 0,38,0 ],1,name,'Usercustomizationsid').
+struct_dt_elem_i([ 0,38,0 ],1,camelname,'UserCustomizationsId').
+struct_dt_elem_i([ 0,38,0 ],1,basedon,133).
+struct_dt_elem_i([ 0,38,0 ],1,length,40).
+struct_dt_elem_i([ 0,38,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,38,0 ],1,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 0,38,0 ],1,pic,'').
+struct_dt_elem_i([ 0,38,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,38,0 ],1,attributeid,'44').
+struct_dt_elem_i([ 0,38,0 ],1,'ExternalName','UserCustomizationsId').
+struct_dt_elem_i([ 0,38,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,38,0 ],2,name,'Usercustomizationskey').
+struct_dt_elem_i([ 0,38,0 ],2,camelname,'UserCustomizationsKey').
+struct_dt_elem_i([ 0,38,0 ],2,length,200).
+struct_dt_elem_i([ 0,38,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,38,0 ],2,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,38,0 ],2,pic,'').
+struct_dt_elem_i([ 0,38,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,38,0 ],2,attributeid,'45').
+struct_dt_elem_i([ 0,38,0 ],2,'ExternalName','UserCustomizationsKey').
+struct_dt_elem_i([ 0,38,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,38,0 ],3,name,'Usercustomizationsvalue').
+struct_dt_elem_i([ 0,38,0 ],3,camelname,'UserCustomizationsValue').
+struct_dt_elem_i([ 0,38,0 ],3,length,2097152).
+struct_dt_elem_i([ 0,38,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,38,0 ],3,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,38,0 ],3,pic,'').
+struct_dt_elem_i([ 0,38,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,38,0 ],3,attributeid,'213').
+struct_dt_elem_i([ 0,38,0 ],3,'ExternalName','UserCustomizationsValue').
+struct_dt_elem_i([ 0,38,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,38,0 ],1,pic,'ZZZZ9').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').
+module_info_i('GeneXusSecurityCommon','PACKAGE','genexus.security.api').
+module_info_i('GeneXusSecurityCommon','PackageName','GeneXusSecurityCommon.jar').

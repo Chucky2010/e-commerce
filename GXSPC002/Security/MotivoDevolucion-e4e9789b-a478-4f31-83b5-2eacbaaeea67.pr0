@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "motivodevolucion_FullControl",
+    "Description": "Motivo Devolucion FullControl",
+    "ProgramName": "motivodevolucion",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "motivodevolucion_Execute",
+    "Description": "Motivo Devolucion",
+    "ProgramName": "motivodevolucion",
+    "IsGXAutomatic": true,
+    "Parent": "motivodevolucion_FullControl"
+  },
+  {
+    "Name": "motivodevolucion_Insert",
+    "Description": "Motivo Devolucion Insert",
+    "ProgramName": "motivodevolucion",
+    "IsGXAutomatic": true,
+    "Parent": "motivodevolucion_FullControl"
+  },
+  {
+    "Name": "motivodevolucion_Delete",
+    "Description": "Motivo Devolucion Delete",
+    "ProgramName": "motivodevolucion",
+    "IsGXAutomatic": true,
+    "Parent": "motivodevolucion_FullControl"
+  },
+  {
+    "Name": "motivodevolucion_Update",
+    "Description": "Motivo Devolucion Update",
+    "ProgramName": "motivodevolucion",
+    "IsGXAutomatic": true,
+    "Parent": "motivodevolucion_FullControl"
+  }
+]

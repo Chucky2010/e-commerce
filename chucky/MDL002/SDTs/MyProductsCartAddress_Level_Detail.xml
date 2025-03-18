@@ -1,0 +1,64 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>MyProductsCartAddress_Level_DetailSdt</name>
+<camelname>MyProductsCartAddress_Level_DetailSdt</camelname>
+<camelnameex>MyProductsCartAddress_Level_DetailSdt</camelnameex>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<modified>yes</modified>
+<fullname>MyProductsCartAddress_Level_DetailSdt</fullname>
+<members>
+<member>
+<name>Gxprops_cartuseraddresscollection</name>
+<camelname>Gxprops_cartuseraddresscollection</camelname>
+<type>[ 5,20,0 ]</type>
+<length>20</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Cartuseraddresscollection</name>
+<camelname>Cartuseraddresscollection</camelname>
+<type>[ [ 26,113,0 ],0,0 ]</type>
+<length>0</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>True</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Selectedid</name>
+<camelname>Selectedid</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Gxdynprop</name>
+<camelname>Gxdynprop</camelname>
+<type>[ 5,2,0 ]</type>
+<length>2</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member></members></Level>
+<Prompts></Prompts>
+<TableAccess></TableAccess>
+<XRef>
+<Object>
+<Class>1</Class>
+<Id>227</Id>
+<Guid>71a8d135-5a0d-4ee5-b872-7d70f59257ce</Guid></Object>
+<Object>
+<Class>1</Class>
+<Id>225</Id>
+<Guid>eb9a0632-670f-4ad8-9e31-64addb3853a0</Guid></Object>
+<Object>
+<Class>1</Class>
+<Id>190</Id>
+<Guid>89eac7d9-a0c4-433a-9b9c-4448db3833f6</Guid></Object></XRef></SdtSpec>

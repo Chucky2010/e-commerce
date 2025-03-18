@@ -1,0 +1,1538 @@
+spec_i([ web,86,l('WWP_PromptGeolocationSelect'),'WWPBaseObjects\PromptGeolocation',0,spa,'17_0_11-163677' ]).
+ 
+struct_i(2,1,[ 'Splittedgeolocation',[ t('Gxmappoint',23),t('Pointlat',3) ],'Gxmappoint',[ t('Gxmappoint',23),t('Pointlong',3) ],'Gxmapdata' ],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Geolocation','Gxmapdata' ] ]).
+ 
+lac_i(2,[ [ 'Gxmapdata' ] ]).
+ 
+ 
+ 
+cls_i([ 0,0 ],[ 0,0 ]).
+ 
+pos_i('Gxmapdata',[ 0,0,0 ]).
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','WWPBaseObjects.PromptGeolocation')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WebApplication',idDefault)).
+rule_i(0,prop('IntegratedSecurityPermissionPrefix','PromptGeolocation')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop('Folder',o(8,'WWPBaseObjects\SemanticDomains'))).
+rule_i(0,prop('ObjDesc','WWP_PromptGeolocationSelect')).
+rule_i(0,prop('ObjName','PromptGeolocation')).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Geolocation' ],[])).
+rule_i(0,parmio([ [ 'Geolocation',inout ] ])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',17 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',16 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,l('Security Functionality Keys'),'',15 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,l('Is Authorized'),'',14 ]).
+attri_i('Str',[ str,char,100,0,'',0,l(str),'',13 ]).
+attri_i('Splittedgeolocation',[ 'SplittedGeolocation',o(objectcollection(char)),100,0,'',0,l('Splitted Geolocation'),'',12 ]).
+attri_i('Longitude',[ 'Longitude',svchar,9,0,'',0,l('Longitude'),'',11 ]).
+attri_i('Latitude',[ 'Latitude',svchar,9,0,'',0,l('Latitude'),'',10 ]).
+attri_i('Gxmappoint',[ 'GxMapPoint',o('GxMap.Point'),0,0,'',0,'Gx Map Point','',9 ]).
+attri_i('Gxmapdata',[ 'GxMapData',o('GxMap'),0,0,'',0,'Gx Map Data','',8 ]).
+attri_i('Geolocation',[ 'Geolocation',svchar,200,0,'',0,l('Geolocation'),'',7 ]).
+attri_i('Actionsdataitem',[ 'ActionsDataItem',o('WWPBaseObjects\DVB_SDTDropDownOptionsData.Item'),0,0,'',0,l('Actions Data Item'),'',6 ]).
+attri_i('Actionsdata',[ 'ActionsData',o(objectcollection('WWPBaseObjects\DVB_SDTDropDownOptionsData.Item')),0,0,'',0,l('Actions Data'),'',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(88,[ 'SecGAMFunctionalityKey' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,22).
+b_group_i(2,3,lit,0,23,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(4,2,2,cmd,2,[ t('',107,4,0),t('Splittedgeolocation',23,2,0),t(=,10,2,0),t([ t('Geolocation',23,2,0),t('splitregex(',1,2,0) ],31,2,0),t(''',''',3,2,0),t(')',4,2,0) ]).
+b_line_i(6,2,2,cmd,2,[ t('',109,6,0),t([ t('Splittedgeolocation',23,6,5),t('Count',3,6,26) ],29,6,26),t(=,10,2,32),t('2',3,2,34) ]).
+b_line_i(7,2,2,cmd,2,[ t('',107,7,0),t([ t('Gxmappoint',23,2,0),t('Pointlat',3,2,0) ],29,2,0),t(=,10,2,0),t('trim(',1,2,0),t([ t('Splittedgeolocation',23,2,0),t('item(',1,2,0) ],31,2,0),t('1',3,2,0),t(')',4,2,0),t(')',4,2,0) ]).
+b_line_i(8,2,2,cmd,2,[ t('',107,8,0),t([ t('Gxmappoint',23,2,0),t('Pointlong',3,2,0) ],29,2,0),t(=,10,2,0),t('trim(',1,2,0),t([ t('Splittedgeolocation',23,2,0),t('item(',1,2,0) ],31,2,0),t('2',3,2,0),t(')',4,2,0),t(')',4,2,0) ]).
+b_line_i(9,2,2,cmd,2,[ t('',107,9,0),t([ t('Gxmapdata',23,9,13),t('Points',3,9,24),t('add(',1,9,31) ],31,9,13),t('Gxmappoint',23,2,36),t(')',4,2,47) ]).
+b_line_i(10,2,2,cmd,2,[ t('',107,10,0),t([ t('Googlemapcontrol1',3,2,0),t('Latitude',3,2,0) ],29,2,0),t(=,10,2,0),t('trim(',1,2,0),t([ t('Splittedgeolocation',23,2,0),t('item(',1,2,0) ],31,2,0),t('1',3,2,0),t(')',4,2,0),t(')',4,2,0) ]).
+b_line_i(11,2,2,cmd,2,[ t('',107,11,0),t([ t('Googlemapcontrol1',3,2,0),t('Longitude',3,2,0) ],29,2,0),t(=,10,2,0),t('trim(',1,2,0),t([ t('Splittedgeolocation',23,2,0),t('item(',1,2,0) ],31,2,0),t('2',3,2,0),t(')',4,2,0),t(')',4,2,0) ]).
+b_line_i(12,2,2,cmd,2,[ t('',111,12,0) ]).
+b_line_i(20,2,2,cmd,2,[ t('',147,20,0) ]).
+b_line_i(22,2,2,cmd,2,[ t('',146,22,0),t('Enter',3,22,7) ]).
+b_line_i(24,2,3,cmd,2,[ t('',109,24,0),t('.NOT.',8,2,5),t('null(',1,24,21),t('Latitude',23,2,11),t(')',4,2,30),t('.OR.',9,2,32),t('.NOT.',8,2,37),t('null(',1,24,64),t('trim(',1,2,56),t('Geolocation',23,2,43),t(')',4,2,62),t(')',4,2,73) ]).
+b_line_i(25,2,3,cmd,2,[ t('',109,25,0),t('.NOT.',8,2,6),t('null(',1,25,22),t('Latitude',23,2,12),t(')',4,2,31) ]).
+b_line_i(26,2,3,cmd,2,[ t('',107,26,0),t('Geolocation',23,2,0),t(=,10,2,0),t('Latitude',23,2,0),t(+,5,2,0),t(''',''',3,2,0),t(+,5,2,0),t('Longitude',23,2,0) ]).
+b_line_i(27,2,3,cmd,2,[ t('',111,27,0) ]).
+b_line_i(28,2,3,cmd,2,[ t('',118,28,0) ]).
+b_line_i(29,2,3,cmd,2,[ t('',111,29,0) ]).
+b_line_i(31,2,3,cmd,2,[ t('',147,31,0) ]).
+b_line_i(1000,2,3,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,3,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,3,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,table(2)).
+ 
+html_sub_i(2,0,html_i(0,html('<tbody>'))).
+html_sub_i(2,3,html_i(1,row(3))).
+html_sub_i(3,4,html_i(0,cell(4))).
+html_sub_i(4,5,html_i(0,comp(errview))).
+html_sub_i(2,6,html_i(2,row(6))).
+html_sub_i(6,7,html_i(0,cell(7))).
+html_sub_i(7,8,html_i(0,table(8))).
+html_sub_i(8,0,html_i(0,html('<tbody>'))).
+html_sub_i(8,9,html_i(1,row(9))).
+html_sub_i(9,10,html_i(0,cell(10))).
+html_sub_i(10,11,html_i(0,usercontrol(11))).
+html_sub_i(8,0,html_i(2,html('</tbody>'))).
+html_sub_i(2,12,html_i(3,row(12))).
+html_sub_i(12,13,html_i(0,cell(13))).
+html_sub_i(13,14,html_i(0,div(14))).
+html_sub_i(14,15,html_i(0,button('Enter'))).
+html_sub_i(14,16,html_i(1,button('Cancel'))).
+html_sub_i(2,0,html_i(4,html('</tbody>'))).
+ 
+html_tags_i(1,'Class','FormNoBackgroundColor').
+ 
+html_comp_i(5,'Backcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Id','Tablemain',v,[ str ]).
+html_comp_i(2,'Class','TableMain',v,[ str ]).
+html_comp_i(2,'Title','',d,[ str ]).
+html_comp_i(2,'Header','',d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Backgroundgx','',d,[ str ]).
+html_comp_i(2,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Border','0',d,[ str ]).
+html_comp_i(2,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Cellpadding','0',v,[ str ]).
+html_comp_i(2,'Cellspacing','0',v,[ str ]).
+html_comp_i(2,'Height',measure(420,px),v,[ measure ]).
+html_comp_i(2,'Width',measure(618,px),v,[ measure ]).
+html_comp_i(2,'Rules',none,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Controlname','Errorviewer',v,[ str ]).
+html_comp_i(5,'Class','ErrorViewer',v,[ str ]).
+html_comp_i(5,'Displaymode',1,d,[ num ]).
+html_comp_i(5,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(5,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(5,'Fill',-1,d,[ bool ]).
+html_comp_i(7,'Class','PopupContentCell',v,[ str ]).
+html_comp_i(8,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(8,'Id','Utgeolocation',v,[ str ]).
+html_comp_i(8,'Class','Table',v,[ str ]).
+html_comp_i(8,'Title','',d,[ str ]).
+html_comp_i(8,'Header','',d,[ str ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Backgroundgx','',d,[ str ]).
+html_comp_i(8,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(8,'Border','0',d,[ str ]).
+html_comp_i(8,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(8,'Cellpadding','1',d,[ str ]).
+html_comp_i(8,'Cellspacing','2',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Rules',none,d,[ str ]).
+html_comp_i(9,'Class','Table',v,[ str ]).
+html_comp_i(10,'Class','Table',v,[ str ]).
+html_comp_i(11,'Usercontroltype','GoogleMapControl',d,[ str ]).
+html_comp_i(11,'Constructorname',gxMap,d,[ str ]).
+html_comp_i(11,'Showmethodname',show,d,[ str ]).
+html_comp_i(11,'Controlname','GoogleMapControl1',v,[ str ]).
+html_comp_i(11,'Title',l('Map Title'),d,[ str ]).
+html_comp_i(11,'Width','500px',d,[ str ]).
+html_comp_i(11,'Height','350px',d,[ str ]).
+html_comp_i(11,'Provider','GOOGLE',v,[ str ]).
+html_comp_i(11,'Type','G_NORMAL_MAP',v,[ str ]).
+html_comp_i(11,'City','',v,[ str ]).
+html_comp_i(11,'Latitude','-34.906275829530244',v,[ str ]).
+html_comp_i(11,'Longitude','-56.199703216552734',v,[ str ]).
+html_comp_i(11,'Precision',15,v,[ num ]).
+html_comp_i(11,'Style','GStyle_Standard',d,[ str ]).
+html_comp_i(11,'Gsmall','GSmall_True',d,[ str ]).
+html_comp_i(11,'Gtype','GType_False',d,[ str ]).
+html_comp_i(11,'Scale','GScale_False',d,[ str ]).
+html_comp_i(11,'Overview','GOverviewMap_False',d,[ str ]).
+html_comp_i(11,'Smallzoom','GSmallZoom_False',d,[ str ]).
+html_comp_i(11,'Large','GLarge_False',d,[ str ]).
+html_comp_i(11,'Maptype_control_style','DEFAULT',d,[ str ]).
+html_comp_i(11,'Navigation_control_style','DEFAULT',d,[ str ]).
+html_comp_i(11,'Scrollwheel',-1,d,[ bool ]).
+html_comp_i(11,'Gxmap',[ t('Gxmapdata',23) ],v,[ params ]).
+html_comp_i(11,'Clicklatitude',[ t('Latitude',23) ],v,[ params ]).
+html_comp_i(11,'Clicklongitude',[ t('Longitude',23) ],v,[ params ]).
+html_comp_i(11,'Informationcontrol','ControlName',d,[ str ]).
+html_comp_i(11,'Icon','Default',d,[ str ]).
+html_comp_i(11,'Iconwidth',20,d,[ num ]).
+html_comp_i(11,'Iconheight',32,d,[ num ]).
+html_comp_i(11,'Anchorleft',10,d,[ num ]).
+html_comp_i(11,'Anchortop',32,d,[ num ]).
+html_comp_i(11,'Googleapikey','',d,[ str ]).
+html_comp_i(11,'Openlinksinnewwindow','OpenNew_True',d,[ str ]).
+html_comp_i(11,'Kml',0,d,[ bool ]).
+html_comp_i(11,'Kmlurl','',d,[ str ]).
+html_comp_i(11,'Geticon','Orange',d,[ str ]).
+html_comp_i(11,'Onclick',getvalue,v,[ str ]).
+html_comp_i(11,'Centerwhenclick',-1,d,[ bool ]).
+html_comp_i(11,'Clear_overlay',0,d,[ bool ]).
+html_comp_i(11,'Baidukey','41e051de8c41e0a4532e367c6b0e12fc',d,[ str ]).
+html_comp_i(11,'Travel_mode','1',d,[ str ]).
+html_comp_i(11,'Setgxmap','SetData',d,[ str ]).
+html_comp_i(11,'Getgxmap','GetData',d,[ str ]).
+html_comp_i(11,'Setclicklatitude','SetClickLatitude',d,[ str ]).
+html_comp_i(11,'Getclicklatitude','GetClickLatitude',d,[ str ]).
+html_comp_i(11,'Setclicklongitude','SetClickLongitude',d,[ str ]).
+html_comp_i(11,'Getclicklongitude','GetClickLongitude',d,[ str ]).
+html_comp_i(11,'Visible',-1,d,[ bool ]).
+html_comp_i(11,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(11,'Jssupportfiles',[ [ t('''GXGoogleVisualizationLibrary\MAP\mapsproviders.js''',3) ],[ t('''GXGoogleVisualizationLibrary\MAP/Gxmap.js''',3) ] ],d,[ params ]).
+html_comp_i(11,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(11,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(14,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(14,'Class','ActionGroupRight',v,[ str ]).
+html_comp_i(14,'Id','Actiongroup_actions',v,[ str ]).
+html_comp_i(14,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Semanticcontent',div,d,[ str ]).
+html_comp_i(14,'Align',left,d,[ str ]).
+html_comp_i(14,'Valign',top,d,[ str ]).
+html_comp_i(15,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(15,'Controlname','Btnenter',v,[ str ]).
+html_comp_i(15,'Class','ButtonMaterial',v,[ str ]).
+html_comp_i(15,'Event','Enter',v,[ str ]).
+html_comp_i(15,'Caption',l('WWP_PromptGeolocationSelect'),d,[ str ]).
+html_comp_i(15,'Title',l('GX_BtnEnter'),v,[ str ]).
+html_comp_i(15,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(15,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(15,'Backcolor',rgb(240,240,240),d,[ color ]).
+html_comp_i(15,'Border','2',d,[ str ]).
+html_comp_i(15,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(15,'Buttonborderstyle',standard,d,[ str ]).
+html_comp_i(16,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(16,'Controlname','Btncancel',v,[ str ]).
+html_comp_i(16,'Class','ButtonMaterialDefault',v,[ str ]).
+html_comp_i(16,'Event','Cancel',v,[ str ]).
+html_comp_i(16,'Caption',l('GX_BtnCancel'),d,[ str ]).
+html_comp_i(16,'Title',l('GX_BtnCancel'),v,[ str ]).
+html_comp_i(16,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(16,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(16,'Backcolor',rgb(240,240,240),d,[ color ]).
+html_comp_i(16,'Border','2',d,[ str ]).
+html_comp_i(16,'Bordercolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(16,'Buttonborderstyle',standard,d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(5,1,comp(errview),[ ctlname('Errorviewer'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(11,1,usercontrol(11),[ ctlname('Googlemapcontrol1'),ctrltype(googlemapcontrol),el([ t('Gxmapdata',23),t('Latitude',23),t('Longitude',23) ]),containers([]) ]).
+lit_i(8,1,table(8),[ ctlname('Utgeolocation') ]).
+lit_i(15,1,button('Enter'),[ ctlname('Btnenter'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(16,1,button('Cancel'),[ ctlname('Btncancel'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(14,1,div(14),[ ctlname('Actiongroup_actions') ]).
+lit_i(2,1,table(2),[ ctlname('Tablemain') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+var_prop_i(2,'Securityfunctionalitykeys',idBasedOn,88,v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,64,0 ],name,'WWPBaseObjects\DVB_SDTDropDownOptionsData').
+struct_dt_i([ 26,64,0 ],namespace,'').
+struct_dt_i([ 26,64,0 ],'ObjName','DVB_SDTDropDownOptionsData').
+struct_dt_i([ 26,64,0 ],'ObjDesc','DVB_SDTDrop Down Options Data').
+struct_dt_i([ 26,64,0 ],'ExternalName','Data').
+struct_dt_i([ 26,64,0 ],'ExternalNamespace','').
+struct_dt_i([ 26,64,0 ],collection,'True').
+struct_dt_i([ 26,64,0 ],datatype,[ 26,64,99 ]).
+struct_dt_i([ 26,64,0 ],'CollectionItemName','Item').
+struct_dt_i([ 26,64,0 ],'XmlName','').
+struct_dt_i([ 26,64,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,64,0 ],'XmlNamespace','').
+struct_dt_i([ 26,64,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,64,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,64,0 ],'JsonName','').
+struct_dt_i([ 26,64,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,64,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,64,99 ],name,'Item').
+struct_dt_i([ 26,64,99 ],namespace,'.DVB_SDTDropDownOptionsData').
+struct_dt_i([ 26,67,0 ],name,'GxMap').
+struct_dt_i([ 26,67,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,67,0 ],'ObjName','GxMap').
+struct_dt_i([ 26,67,0 ],'ObjDesc','Gx Map').
+struct_dt_i([ 26,67,0 ],'ExternalName','GxMap').
+struct_dt_i([ 26,67,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,67,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,67,103 ],name,'Circle').
+struct_dt_i([ 26,67,103 ],namespace,'Mujer_Morena.GxMap').
+struct_dt_i([ 26,67,104 ],name,'Point').
+struct_dt_i([ 26,67,104 ],namespace,'Mujer_Morena.GxMap').
+struct_dt_i([ 26,67,105 ],name,'Polygon').
+struct_dt_i([ 26,67,105 ],namespace,'Mujer_Morena.GxMap').
+struct_dt_i([ 26,67,106 ],name,'Path').
+struct_dt_i([ 26,67,106 ],namespace,'Mujer_Morena.GxMap.Polygon').
+struct_dt_i([ 26,67,107 ],name,'Line').
+struct_dt_i([ 26,67,107 ],namespace,'Mujer_Morena.GxMap').
+struct_dt_i([ 26,67,108 ],name,'Point').
+struct_dt_i([ 26,67,108 ],namespace,'Mujer_Morena.GxMap.Line').
+struct_dt_i([ 26,67,109 ],name,'RoutePoint').
+struct_dt_i([ 26,67,109 ],namespace,'Mujer_Morena.GxMap').
+struct_dt_i([ 26,64,0 ],fullname,'WWPBaseObjects\DVB_SDTDropDownOptionsData').
+struct_dt_i([ 26,64,99 ],fullname,'WWPBaseObjects\DVB_SDTDropDownOptionsData.Item').
+struct_dt_i([ 26,67,0 ],fullname,'GxMap').
+struct_dt_i([ 26,67,103 ],fullname,'GxMap.Circle').
+struct_dt_i([ 26,67,104 ],fullname,'GxMap.Point').
+struct_dt_i([ 26,67,105 ],fullname,'GxMap.Polygon').
+struct_dt_i([ 26,67,106 ],fullname,'GxMap.Polygon.Path').
+struct_dt_i([ 26,67,107 ],fullname,'GxMap.Line').
+struct_dt_i([ 26,67,108 ],fullname,'GxMap.Line.Point').
+struct_dt_i([ 26,67,109 ],fullname,'GxMap.RoutePoint').
+ 
+struct_dt_elem_i([ 26,64,99 ],1,name,'Icon').
+struct_dt_elem_i([ 26,64,99 ],1,camelname,'Icon').
+struct_dt_elem_i([ 26,64,99 ],1,length,4).
+struct_dt_elem_i([ 26,64,99 ],1,decimals,0).
+struct_dt_elem_i([ 26,64,99 ],1,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 26,64,99 ],1,pic,'').
+struct_dt_elem_i([ 26,64,99 ],1,collection,'False').
+struct_dt_elem_i([ 26,64,99 ],1,'ExternalName','Icon').
+struct_dt_elem_i([ 26,64,99 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,64,99 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,64,99 ],1,'XmlName','').
+struct_dt_elem_i([ 26,64,99 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,99 ],1,soaptype,'').
+struct_dt_elem_i([ 26,64,99 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,99 ],1,'JsonName','').
+struct_dt_elem_i([ 26,64,99 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,99 ],2,name,'Icon_gxi').
+struct_dt_elem_i([ 26,64,99 ],2,camelname,'Icon_GXI').
+struct_dt_elem_i([ 26,64,99 ],2,collection,'False').
+struct_dt_elem_i([ 26,64,99 ],2,isadd,'True').
+struct_dt_elem_i([ 26,64,99 ],2,length,2048).
+struct_dt_elem_i([ 26,64,99 ],2,decimals,0).
+struct_dt_elem_i([ 26,64,99 ],2,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,64,99 ],3,name,'Fonticon').
+struct_dt_elem_i([ 26,64,99 ],3,camelname,'FontIcon').
+struct_dt_elem_i([ 26,64,99 ],3,length,20).
+struct_dt_elem_i([ 26,64,99 ],3,decimals,0).
+struct_dt_elem_i([ 26,64,99 ],3,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 26,64,99 ],3,pic,'').
+struct_dt_elem_i([ 26,64,99 ],3,collection,'False').
+struct_dt_elem_i([ 26,64,99 ],3,'ExternalName','FontIcon').
+struct_dt_elem_i([ 26,64,99 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,64,99 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,64,99 ],3,'XmlName','').
+struct_dt_elem_i([ 26,64,99 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,99 ],3,soaptype,'').
+struct_dt_elem_i([ 26,64,99 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,99 ],3,'JsonName','').
+struct_dt_elem_i([ 26,64,99 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,99 ],4,name,'Title').
+struct_dt_elem_i([ 26,64,99 ],4,camelname,'Title').
+struct_dt_elem_i([ 26,64,99 ],4,length,30).
+struct_dt_elem_i([ 26,64,99 ],4,decimals,0).
+struct_dt_elem_i([ 26,64,99 ],4,type,[ 5,30,0 ]).
+struct_dt_elem_i([ 26,64,99 ],4,pic,'').
+struct_dt_elem_i([ 26,64,99 ],4,collection,'False').
+struct_dt_elem_i([ 26,64,99 ],4,'ExternalName','Title').
+struct_dt_elem_i([ 26,64,99 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,64,99 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,64,99 ],4,'XmlName','').
+struct_dt_elem_i([ 26,64,99 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,99 ],4,soaptype,'').
+struct_dt_elem_i([ 26,64,99 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,99 ],4,'JsonName','').
+struct_dt_elem_i([ 26,64,99 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,99 ],5,name,'Tooltip').
+struct_dt_elem_i([ 26,64,99 ],5,camelname,'Tooltip').
+struct_dt_elem_i([ 26,64,99 ],5,length,100).
+struct_dt_elem_i([ 26,64,99 ],5,decimals,0).
+struct_dt_elem_i([ 26,64,99 ],5,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 26,64,99 ],5,pic,'').
+struct_dt_elem_i([ 26,64,99 ],5,collection,'False').
+struct_dt_elem_i([ 26,64,99 ],5,'ExternalName','Tooltip').
+struct_dt_elem_i([ 26,64,99 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,64,99 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,64,99 ],5,'XmlName','').
+struct_dt_elem_i([ 26,64,99 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,99 ],5,soaptype,'').
+struct_dt_elem_i([ 26,64,99 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,99 ],5,'JsonName','').
+struct_dt_elem_i([ 26,64,99 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,99 ],6,name,'Link').
+struct_dt_elem_i([ 26,64,99 ],6,camelname,'Link').
+struct_dt_elem_i([ 26,64,99 ],6,length,250).
+struct_dt_elem_i([ 26,64,99 ],6,decimals,0).
+struct_dt_elem_i([ 26,64,99 ],6,type,[ 13,250,0 ]).
+struct_dt_elem_i([ 26,64,99 ],6,pic,'').
+struct_dt_elem_i([ 26,64,99 ],6,collection,'False').
+struct_dt_elem_i([ 26,64,99 ],6,'ExternalName','Link').
+struct_dt_elem_i([ 26,64,99 ],6,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,64,99 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,64,99 ],6,'XmlName','').
+struct_dt_elem_i([ 26,64,99 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,99 ],6,soaptype,'').
+struct_dt_elem_i([ 26,64,99 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,99 ],6,'JsonName','').
+struct_dt_elem_i([ 26,64,99 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,99 ],7,name,'Eventkey').
+struct_dt_elem_i([ 26,64,99 ],7,camelname,'EventKey').
+struct_dt_elem_i([ 26,64,99 ],7,length,100).
+struct_dt_elem_i([ 26,64,99 ],7,decimals,0).
+struct_dt_elem_i([ 26,64,99 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,64,99 ],7,pic,'').
+struct_dt_elem_i([ 26,64,99 ],7,collection,'False').
+struct_dt_elem_i([ 26,64,99 ],7,'ExternalName','EventKey').
+struct_dt_elem_i([ 26,64,99 ],7,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,64,99 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,64,99 ],7,'XmlName','').
+struct_dt_elem_i([ 26,64,99 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,99 ],7,soaptype,'').
+struct_dt_elem_i([ 26,64,99 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,99 ],7,'JsonName','').
+struct_dt_elem_i([ 26,64,99 ],7,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,99 ],8,name,'Isdivider').
+struct_dt_elem_i([ 26,64,99 ],8,camelname,'IsDivider').
+struct_dt_elem_i([ 26,64,99 ],8,length,4).
+struct_dt_elem_i([ 26,64,99 ],8,decimals,0).
+struct_dt_elem_i([ 26,64,99 ],8,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,64,99 ],8,pic,'').
+struct_dt_elem_i([ 26,64,99 ],8,collection,'False').
+struct_dt_elem_i([ 26,64,99 ],8,'ExternalName','IsDivider').
+struct_dt_elem_i([ 26,64,99 ],8,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,64,99 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,64,99 ],8,'XmlName','').
+struct_dt_elem_i([ 26,64,99 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,99 ],8,soaptype,'').
+struct_dt_elem_i([ 26,64,99 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,99 ],8,'JsonName','').
+struct_dt_elem_i([ 26,64,99 ],8,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,99 ],9,name,'Jsonclickevent').
+struct_dt_elem_i([ 26,64,99 ],9,camelname,'JSonclickEvent').
+struct_dt_elem_i([ 26,64,99 ],9,length,250).
+struct_dt_elem_i([ 26,64,99 ],9,decimals,0).
+struct_dt_elem_i([ 26,64,99 ],9,type,[ 13,250,0 ]).
+struct_dt_elem_i([ 26,64,99 ],9,pic,'').
+struct_dt_elem_i([ 26,64,99 ],9,collection,'False').
+struct_dt_elem_i([ 26,64,99 ],9,'ExternalName','JSonclickEvent').
+struct_dt_elem_i([ 26,64,99 ],9,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,64,99 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,64,99 ],9,'XmlName','').
+struct_dt_elem_i([ 26,64,99 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,99 ],9,soaptype,'').
+struct_dt_elem_i([ 26,64,99 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,99 ],9,'JsonName','').
+struct_dt_elem_i([ 26,64,99 ],9,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,64,99 ],10,name,'Themeclass').
+struct_dt_elem_i([ 26,64,99 ],10,camelname,'ThemeClass').
+struct_dt_elem_i([ 26,64,99 ],10,length,20).
+struct_dt_elem_i([ 26,64,99 ],10,decimals,0).
+struct_dt_elem_i([ 26,64,99 ],10,type,[ 13,20,0 ]).
+struct_dt_elem_i([ 26,64,99 ],10,pic,'').
+struct_dt_elem_i([ 26,64,99 ],10,collection,'False').
+struct_dt_elem_i([ 26,64,99 ],10,'ExternalName','ThemeClass').
+struct_dt_elem_i([ 26,64,99 ],10,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,64,99 ],10,'XmlType','Element').
+struct_dt_elem_i([ 26,64,99 ],10,'XmlName','').
+struct_dt_elem_i([ 26,64,99 ],10,'XmlNamespace','').
+struct_dt_elem_i([ 26,64,99 ],10,soaptype,'').
+struct_dt_elem_i([ 26,64,99 ],10,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,64,99 ],10,'JsonName','').
+struct_dt_elem_i([ 26,64,99 ],10,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,0 ],1,name,'Maptype').
+struct_dt_elem_i([ 26,67,0 ],1,camelname,'MapType').
+struct_dt_elem_i([ 26,67,0 ],1,length,40).
+struct_dt_elem_i([ 26,67,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,67,0 ],1,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,67,0 ],1,pic,'').
+struct_dt_elem_i([ 26,67,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,67,0 ],1,'ExternalName','MapType').
+struct_dt_elem_i([ 26,67,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,67,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,67,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,67,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,67,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,0 ],2,name,'Mapzoom').
+struct_dt_elem_i([ 26,67,0 ],2,camelname,'MapZoom').
+struct_dt_elem_i([ 26,67,0 ],2,length,4).
+struct_dt_elem_i([ 26,67,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,67,0 ],2,sign,0).
+struct_dt_elem_i([ 26,67,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,67,0 ],2,pic,'ZZZ9').
+struct_dt_elem_i([ 26,67,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,67,0 ],2,'ExternalName','MapZoom').
+struct_dt_elem_i([ 26,67,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,67,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,67,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,67,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,67,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,0 ],3,name,'Maplatitude').
+struct_dt_elem_i([ 26,67,0 ],3,camelname,'MapLatitude').
+struct_dt_elem_i([ 26,67,0 ],3,length,40).
+struct_dt_elem_i([ 26,67,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,67,0 ],3,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,67,0 ],3,pic,'').
+struct_dt_elem_i([ 26,67,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,67,0 ],3,'ExternalName','MapLatitude').
+struct_dt_elem_i([ 26,67,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,67,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,67,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,67,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,67,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,0 ],4,name,'Maplongitude').
+struct_dt_elem_i([ 26,67,0 ],4,camelname,'MapLongitude').
+struct_dt_elem_i([ 26,67,0 ],4,length,40).
+struct_dt_elem_i([ 26,67,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,67,0 ],4,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,67,0 ],4,pic,'').
+struct_dt_elem_i([ 26,67,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,67,0 ],4,'ExternalName','MapLongitude').
+struct_dt_elem_i([ 26,67,0 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,67,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,67,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,67,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,67,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,0 ],5,name,'Circles').
+struct_dt_elem_i([ 26,67,0 ],5,camelname,'Circles').
+struct_dt_elem_i([ 26,67,0 ],5,type,[ [ 26,67,103 ],0,0 ]).
+struct_dt_elem_i([ 26,67,0 ],5,pic,'').
+struct_dt_elem_i([ 26,67,0 ],5,collection,'True').
+struct_dt_elem_i([ 26,67,0 ],5,'ObjName','Circles').
+struct_dt_elem_i([ 26,67,0 ],5,'ObjDesc','Circles').
+struct_dt_elem_i([ 26,67,0 ],5,'CollectionItemName','Circle').
+struct_dt_elem_i([ 26,67,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,67,0 ],5,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,67,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,0 ],5,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,67,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,67,0 ],5,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,67,0 ],5,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,67,103 ],1,name,'Latitude').
+struct_dt_elem_i([ 26,67,103 ],1,camelname,'Latitude').
+struct_dt_elem_i([ 26,67,103 ],1,length,40).
+struct_dt_elem_i([ 26,67,103 ],1,decimals,0).
+struct_dt_elem_i([ 26,67,103 ],1,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,67,103 ],1,pic,'').
+struct_dt_elem_i([ 26,67,103 ],1,collection,'False').
+struct_dt_elem_i([ 26,67,103 ],1,'ExternalName','Latitude').
+struct_dt_elem_i([ 26,67,103 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,103 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,67,103 ],1,'XmlName','').
+struct_dt_elem_i([ 26,67,103 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,103 ],1,soaptype,'').
+struct_dt_elem_i([ 26,67,103 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,103 ],1,'JsonName','').
+struct_dt_elem_i([ 26,67,103 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,103 ],2,name,'Longitude').
+struct_dt_elem_i([ 26,67,103 ],2,camelname,'Longitude').
+struct_dt_elem_i([ 26,67,103 ],2,length,40).
+struct_dt_elem_i([ 26,67,103 ],2,decimals,0).
+struct_dt_elem_i([ 26,67,103 ],2,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,67,103 ],2,pic,'').
+struct_dt_elem_i([ 26,67,103 ],2,collection,'False').
+struct_dt_elem_i([ 26,67,103 ],2,'ExternalName','Longitude').
+struct_dt_elem_i([ 26,67,103 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,103 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,67,103 ],2,'XmlName','').
+struct_dt_elem_i([ 26,67,103 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,103 ],2,soaptype,'').
+struct_dt_elem_i([ 26,67,103 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,103 ],2,'JsonName','').
+struct_dt_elem_i([ 26,67,103 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,103 ],3,name,'Radius').
+struct_dt_elem_i([ 26,67,103 ],3,camelname,'Radius').
+struct_dt_elem_i([ 26,67,103 ],3,length,10).
+struct_dt_elem_i([ 26,67,103 ],3,decimals,0).
+struct_dt_elem_i([ 26,67,103 ],3,sign,0).
+struct_dt_elem_i([ 26,67,103 ],3,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 26,67,103 ],3,pic,'ZZZZZZZZZ9').
+struct_dt_elem_i([ 26,67,103 ],3,collection,'False').
+struct_dt_elem_i([ 26,67,103 ],3,'ExternalName','Radius').
+struct_dt_elem_i([ 26,67,103 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,103 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,67,103 ],3,'XmlName','').
+struct_dt_elem_i([ 26,67,103 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,103 ],3,soaptype,'').
+struct_dt_elem_i([ 26,67,103 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,103 ],3,'JsonName','').
+struct_dt_elem_i([ 26,67,103 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,103 ],4,name,'Circlefill').
+struct_dt_elem_i([ 26,67,103 ],4,camelname,'CircleFill').
+struct_dt_elem_i([ 26,67,103 ],4,length,20).
+struct_dt_elem_i([ 26,67,103 ],4,decimals,0).
+struct_dt_elem_i([ 26,67,103 ],4,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,67,103 ],4,pic,'').
+struct_dt_elem_i([ 26,67,103 ],4,collection,'False').
+struct_dt_elem_i([ 26,67,103 ],4,'ExternalName','CircleFill').
+struct_dt_elem_i([ 26,67,103 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,103 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,67,103 ],4,'XmlName','').
+struct_dt_elem_i([ 26,67,103 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,103 ],4,soaptype,'').
+struct_dt_elem_i([ 26,67,103 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,103 ],4,'JsonName','').
+struct_dt_elem_i([ 26,67,103 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,103 ],5,name,'Circlefillopacity').
+struct_dt_elem_i([ 26,67,103 ],5,camelname,'CircleFillOpacity').
+struct_dt_elem_i([ 26,67,103 ],5,length,3).
+struct_dt_elem_i([ 26,67,103 ],5,decimals,2).
+struct_dt_elem_i([ 26,67,103 ],5,sign,0).
+struct_dt_elem_i([ 26,67,103 ],5,type,[ 4,3,2 ]).
+struct_dt_elem_i([ 26,67,103 ],5,pic,'9.99').
+struct_dt_elem_i([ 26,67,103 ],5,collection,'False').
+struct_dt_elem_i([ 26,67,103 ],5,'ExternalName','CircleFillOpacity').
+struct_dt_elem_i([ 26,67,103 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,103 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,67,103 ],5,'XmlName','').
+struct_dt_elem_i([ 26,67,103 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,103 ],5,soaptype,'').
+struct_dt_elem_i([ 26,67,103 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,103 ],5,'JsonName','').
+struct_dt_elem_i([ 26,67,103 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,103 ],6,name,'Circlestroke').
+struct_dt_elem_i([ 26,67,103 ],6,camelname,'CircleStroke').
+struct_dt_elem_i([ 26,67,103 ],6,length,20).
+struct_dt_elem_i([ 26,67,103 ],6,decimals,0).
+struct_dt_elem_i([ 26,67,103 ],6,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,67,103 ],6,pic,'').
+struct_dt_elem_i([ 26,67,103 ],6,collection,'False').
+struct_dt_elem_i([ 26,67,103 ],6,'ExternalName','CircleStroke').
+struct_dt_elem_i([ 26,67,103 ],6,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,103 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,67,103 ],6,'XmlName','').
+struct_dt_elem_i([ 26,67,103 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,103 ],6,soaptype,'').
+struct_dt_elem_i([ 26,67,103 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,103 ],6,'JsonName','').
+struct_dt_elem_i([ 26,67,103 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,103 ],7,name,'Circlestrokeopacity').
+struct_dt_elem_i([ 26,67,103 ],7,camelname,'CircleStrokeOpacity').
+struct_dt_elem_i([ 26,67,103 ],7,length,3).
+struct_dt_elem_i([ 26,67,103 ],7,decimals,2).
+struct_dt_elem_i([ 26,67,103 ],7,sign,0).
+struct_dt_elem_i([ 26,67,103 ],7,type,[ 4,3,2 ]).
+struct_dt_elem_i([ 26,67,103 ],7,pic,'9.99').
+struct_dt_elem_i([ 26,67,103 ],7,collection,'False').
+struct_dt_elem_i([ 26,67,103 ],7,'ExternalName','CircleStrokeOpacity').
+struct_dt_elem_i([ 26,67,103 ],7,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,103 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,67,103 ],7,'XmlName','').
+struct_dt_elem_i([ 26,67,103 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,103 ],7,soaptype,'').
+struct_dt_elem_i([ 26,67,103 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,103 ],7,'JsonName','').
+struct_dt_elem_i([ 26,67,103 ],7,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,103 ],8,name,'Circlestrokeweight').
+struct_dt_elem_i([ 26,67,103 ],8,camelname,'CirclestrokeWeight').
+struct_dt_elem_i([ 26,67,103 ],8,length,3).
+struct_dt_elem_i([ 26,67,103 ],8,decimals,0).
+struct_dt_elem_i([ 26,67,103 ],8,sign,0).
+struct_dt_elem_i([ 26,67,103 ],8,type,[ 4,3,0 ]).
+struct_dt_elem_i([ 26,67,103 ],8,pic,'ZZ9').
+struct_dt_elem_i([ 26,67,103 ],8,collection,'False').
+struct_dt_elem_i([ 26,67,103 ],8,'ExternalName','CirclestrokeWeight').
+struct_dt_elem_i([ 26,67,103 ],8,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,103 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,67,103 ],8,'XmlName','').
+struct_dt_elem_i([ 26,67,103 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,103 ],8,soaptype,'').
+struct_dt_elem_i([ 26,67,103 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,103 ],8,'JsonName','').
+struct_dt_elem_i([ 26,67,103 ],8,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,0 ],6,name,'Points').
+struct_dt_elem_i([ 26,67,0 ],6,camelname,'Points').
+struct_dt_elem_i([ 26,67,0 ],6,type,[ [ 26,67,104 ],0,0 ]).
+struct_dt_elem_i([ 26,67,0 ],6,pic,'').
+struct_dt_elem_i([ 26,67,0 ],6,collection,'True').
+struct_dt_elem_i([ 26,67,0 ],6,'ObjName','Points').
+struct_dt_elem_i([ 26,67,0 ],6,'ObjDesc','Points').
+struct_dt_elem_i([ 26,67,0 ],6,'CollectionItemName','Point').
+struct_dt_elem_i([ 26,67,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,67,0 ],6,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,67,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,0 ],6,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,67,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,67,0 ],6,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,67,0 ],6,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,67,104 ],1,name,'Pointlat').
+struct_dt_elem_i([ 26,67,104 ],1,camelname,'PointLat').
+struct_dt_elem_i([ 26,67,104 ],1,length,40).
+struct_dt_elem_i([ 26,67,104 ],1,decimals,0).
+struct_dt_elem_i([ 26,67,104 ],1,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,67,104 ],1,pic,'').
+struct_dt_elem_i([ 26,67,104 ],1,collection,'False').
+struct_dt_elem_i([ 26,67,104 ],1,'ExternalName','PointLat').
+struct_dt_elem_i([ 26,67,104 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,104 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,67,104 ],1,'XmlName','').
+struct_dt_elem_i([ 26,67,104 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,104 ],1,soaptype,'').
+struct_dt_elem_i([ 26,67,104 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,104 ],1,'JsonName','').
+struct_dt_elem_i([ 26,67,104 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,104 ],2,name,'Pointlong').
+struct_dt_elem_i([ 26,67,104 ],2,camelname,'PointLong').
+struct_dt_elem_i([ 26,67,104 ],2,length,40).
+struct_dt_elem_i([ 26,67,104 ],2,decimals,0).
+struct_dt_elem_i([ 26,67,104 ],2,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,67,104 ],2,pic,'').
+struct_dt_elem_i([ 26,67,104 ],2,collection,'False').
+struct_dt_elem_i([ 26,67,104 ],2,'ExternalName','PointLong').
+struct_dt_elem_i([ 26,67,104 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,104 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,67,104 ],2,'XmlName','').
+struct_dt_elem_i([ 26,67,104 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,104 ],2,soaptype,'').
+struct_dt_elem_i([ 26,67,104 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,104 ],2,'JsonName','').
+struct_dt_elem_i([ 26,67,104 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,104 ],3,name,'Pointicon').
+struct_dt_elem_i([ 26,67,104 ],3,camelname,'PointIcon').
+struct_dt_elem_i([ 26,67,104 ],3,length,20).
+struct_dt_elem_i([ 26,67,104 ],3,decimals,0).
+struct_dt_elem_i([ 26,67,104 ],3,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,67,104 ],3,pic,'').
+struct_dt_elem_i([ 26,67,104 ],3,collection,'False').
+struct_dt_elem_i([ 26,67,104 ],3,'ExternalName','PointIcon').
+struct_dt_elem_i([ 26,67,104 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,104 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,67,104 ],3,'XmlName','').
+struct_dt_elem_i([ 26,67,104 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,104 ],3,soaptype,'').
+struct_dt_elem_i([ 26,67,104 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,104 ],3,'JsonName','').
+struct_dt_elem_i([ 26,67,104 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,104 ],4,name,'Pointdraggable').
+struct_dt_elem_i([ 26,67,104 ],4,camelname,'PointDraggable').
+struct_dt_elem_i([ 26,67,104 ],4,length,4).
+struct_dt_elem_i([ 26,67,104 ],4,decimals,0).
+struct_dt_elem_i([ 26,67,104 ],4,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,67,104 ],4,pic,'').
+struct_dt_elem_i([ 26,67,104 ],4,collection,'False').
+struct_dt_elem_i([ 26,67,104 ],4,'ExternalName','PointDraggable').
+struct_dt_elem_i([ 26,67,104 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,104 ],4,'ATT_INITIAL_VALUE',[ t('FALSE',41) ]).
+struct_dt_elem_i([ 26,67,104 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,67,104 ],4,'XmlName','').
+struct_dt_elem_i([ 26,67,104 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,104 ],4,soaptype,'').
+struct_dt_elem_i([ 26,67,104 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,104 ],4,'JsonName','').
+struct_dt_elem_i([ 26,67,104 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,104 ],5,name,'Pointflat').
+struct_dt_elem_i([ 26,67,104 ],5,camelname,'PointFlat').
+struct_dt_elem_i([ 26,67,104 ],5,length,4).
+struct_dt_elem_i([ 26,67,104 ],5,decimals,0).
+struct_dt_elem_i([ 26,67,104 ],5,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,67,104 ],5,pic,'').
+struct_dt_elem_i([ 26,67,104 ],5,collection,'False').
+struct_dt_elem_i([ 26,67,104 ],5,'ExternalName','PointFlat').
+struct_dt_elem_i([ 26,67,104 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,104 ],5,'ATT_INITIAL_VALUE',[ t('FALSE',41) ]).
+struct_dt_elem_i([ 26,67,104 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,67,104 ],5,'XmlName','').
+struct_dt_elem_i([ 26,67,104 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,104 ],5,soaptype,'').
+struct_dt_elem_i([ 26,67,104 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,104 ],5,'JsonName','').
+struct_dt_elem_i([ 26,67,104 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,104 ],6,name,'Pointclickeable').
+struct_dt_elem_i([ 26,67,104 ],6,camelname,'PointClickeable').
+struct_dt_elem_i([ 26,67,104 ],6,length,4).
+struct_dt_elem_i([ 26,67,104 ],6,decimals,0).
+struct_dt_elem_i([ 26,67,104 ],6,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,67,104 ],6,pic,'').
+struct_dt_elem_i([ 26,67,104 ],6,collection,'False').
+struct_dt_elem_i([ 26,67,104 ],6,'ExternalName','PointClickeable').
+struct_dt_elem_i([ 26,67,104 ],6,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,104 ],6,'ATT_INITIAL_VALUE',[ t('TRUE',40) ]).
+struct_dt_elem_i([ 26,67,104 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,67,104 ],6,'XmlName','').
+struct_dt_elem_i([ 26,67,104 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,104 ],6,soaptype,'').
+struct_dt_elem_i([ 26,67,104 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,104 ],6,'JsonName','').
+struct_dt_elem_i([ 26,67,104 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,104 ],7,name,'Pointdeletable').
+struct_dt_elem_i([ 26,67,104 ],7,camelname,'PointDeletable').
+struct_dt_elem_i([ 26,67,104 ],7,length,4).
+struct_dt_elem_i([ 26,67,104 ],7,decimals,0).
+struct_dt_elem_i([ 26,67,104 ],7,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,67,104 ],7,pic,'').
+struct_dt_elem_i([ 26,67,104 ],7,collection,'False').
+struct_dt_elem_i([ 26,67,104 ],7,'ExternalName','PointDeletable').
+struct_dt_elem_i([ 26,67,104 ],7,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,104 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,67,104 ],7,'XmlName','').
+struct_dt_elem_i([ 26,67,104 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,104 ],7,soaptype,'').
+struct_dt_elem_i([ 26,67,104 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,104 ],7,'JsonName','').
+struct_dt_elem_i([ 26,67,104 ],7,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,104 ],8,name,'Pointvisible').
+struct_dt_elem_i([ 26,67,104 ],8,camelname,'PointVisible').
+struct_dt_elem_i([ 26,67,104 ],8,length,4).
+struct_dt_elem_i([ 26,67,104 ],8,decimals,0).
+struct_dt_elem_i([ 26,67,104 ],8,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,67,104 ],8,pic,'').
+struct_dt_elem_i([ 26,67,104 ],8,collection,'False').
+struct_dt_elem_i([ 26,67,104 ],8,'ExternalName','PointVisible').
+struct_dt_elem_i([ 26,67,104 ],8,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,104 ],8,'ATT_INITIAL_VALUE',[ t('TRUE',40) ]).
+struct_dt_elem_i([ 26,67,104 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,67,104 ],8,'XmlName','').
+struct_dt_elem_i([ 26,67,104 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,104 ],8,soaptype,'').
+struct_dt_elem_i([ 26,67,104 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,104 ],8,'JsonName','').
+struct_dt_elem_i([ 26,67,104 ],8,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,104 ],9,name,'Pointinfowinhtml').
+struct_dt_elem_i([ 26,67,104 ],9,camelname,'PointInfowinHtml').
+struct_dt_elem_i([ 26,67,104 ],9,length,2097152).
+struct_dt_elem_i([ 26,67,104 ],9,decimals,0).
+struct_dt_elem_i([ 26,67,104 ],9,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 26,67,104 ],9,pic,'').
+struct_dt_elem_i([ 26,67,104 ],9,collection,'False').
+struct_dt_elem_i([ 26,67,104 ],9,'ExternalName','PointInfowinHtml').
+struct_dt_elem_i([ 26,67,104 ],9,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,104 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,67,104 ],9,'XmlName','').
+struct_dt_elem_i([ 26,67,104 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,104 ],9,soaptype,'').
+struct_dt_elem_i([ 26,67,104 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,104 ],9,'JsonName','').
+struct_dt_elem_i([ 26,67,104 ],9,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,104 ],10,name,'Pointstreet').
+struct_dt_elem_i([ 26,67,104 ],10,camelname,'PointStreet').
+struct_dt_elem_i([ 26,67,104 ],10,length,100).
+struct_dt_elem_i([ 26,67,104 ],10,decimals,0).
+struct_dt_elem_i([ 26,67,104 ],10,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 26,67,104 ],10,pic,'').
+struct_dt_elem_i([ 26,67,104 ],10,collection,'False').
+struct_dt_elem_i([ 26,67,104 ],10,'ExternalName','PointStreet').
+struct_dt_elem_i([ 26,67,104 ],10,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,104 ],10,'XmlType','Element').
+struct_dt_elem_i([ 26,67,104 ],10,'XmlName','').
+struct_dt_elem_i([ 26,67,104 ],10,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,104 ],10,soaptype,'').
+struct_dt_elem_i([ 26,67,104 ],10,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,104 ],10,'JsonName','').
+struct_dt_elem_i([ 26,67,104 ],10,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,104 ],11,name,'Pointstreetnumber').
+struct_dt_elem_i([ 26,67,104 ],11,camelname,'PointStreetNumber').
+struct_dt_elem_i([ 26,67,104 ],11,length,6).
+struct_dt_elem_i([ 26,67,104 ],11,decimals,0).
+struct_dt_elem_i([ 26,67,104 ],11,type,[ 5,6,0 ]).
+struct_dt_elem_i([ 26,67,104 ],11,pic,'').
+struct_dt_elem_i([ 26,67,104 ],11,collection,'False').
+struct_dt_elem_i([ 26,67,104 ],11,'ExternalName','PointStreetNumber').
+struct_dt_elem_i([ 26,67,104 ],11,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,104 ],11,'XmlType','Element').
+struct_dt_elem_i([ 26,67,104 ],11,'XmlName','').
+struct_dt_elem_i([ 26,67,104 ],11,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,104 ],11,soaptype,'').
+struct_dt_elem_i([ 26,67,104 ],11,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,104 ],11,'JsonName','').
+struct_dt_elem_i([ 26,67,104 ],11,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,104 ],12,name,'Pointcrossstreet').
+struct_dt_elem_i([ 26,67,104 ],12,camelname,'PointCrossStreet').
+struct_dt_elem_i([ 26,67,104 ],12,length,100).
+struct_dt_elem_i([ 26,67,104 ],12,decimals,0).
+struct_dt_elem_i([ 26,67,104 ],12,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 26,67,104 ],12,pic,'').
+struct_dt_elem_i([ 26,67,104 ],12,collection,'False').
+struct_dt_elem_i([ 26,67,104 ],12,'ExternalName','PointCrossStreet').
+struct_dt_elem_i([ 26,67,104 ],12,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,104 ],12,'XmlType','Element').
+struct_dt_elem_i([ 26,67,104 ],12,'XmlName','').
+struct_dt_elem_i([ 26,67,104 ],12,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,104 ],12,soaptype,'').
+struct_dt_elem_i([ 26,67,104 ],12,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,104 ],12,'JsonName','').
+struct_dt_elem_i([ 26,67,104 ],12,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,104 ],13,name,'Pointinfowintit').
+struct_dt_elem_i([ 26,67,104 ],13,camelname,'PointInfowinTit').
+struct_dt_elem_i([ 26,67,104 ],13,length,100).
+struct_dt_elem_i([ 26,67,104 ],13,decimals,0).
+struct_dt_elem_i([ 26,67,104 ],13,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 26,67,104 ],13,pic,'').
+struct_dt_elem_i([ 26,67,104 ],13,collection,'False').
+struct_dt_elem_i([ 26,67,104 ],13,'ExternalName','PointInfowinTit').
+struct_dt_elem_i([ 26,67,104 ],13,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,104 ],13,'XmlType','Element').
+struct_dt_elem_i([ 26,67,104 ],13,'XmlName','').
+struct_dt_elem_i([ 26,67,104 ],13,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,104 ],13,soaptype,'').
+struct_dt_elem_i([ 26,67,104 ],13,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,104 ],13,'JsonName','').
+struct_dt_elem_i([ 26,67,104 ],13,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,104 ],14,name,'Pointinfowindesc').
+struct_dt_elem_i([ 26,67,104 ],14,camelname,'PointInfowinDesc').
+struct_dt_elem_i([ 26,67,104 ],14,length,200).
+struct_dt_elem_i([ 26,67,104 ],14,decimals,0).
+struct_dt_elem_i([ 26,67,104 ],14,type,[ 5,200,0 ]).
+struct_dt_elem_i([ 26,67,104 ],14,pic,'').
+struct_dt_elem_i([ 26,67,104 ],14,collection,'False').
+struct_dt_elem_i([ 26,67,104 ],14,'ExternalName','PointInfowinDesc').
+struct_dt_elem_i([ 26,67,104 ],14,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,104 ],14,'XmlType','Element').
+struct_dt_elem_i([ 26,67,104 ],14,'XmlName','').
+struct_dt_elem_i([ 26,67,104 ],14,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,104 ],14,soaptype,'').
+struct_dt_elem_i([ 26,67,104 ],14,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,104 ],14,'JsonName','').
+struct_dt_elem_i([ 26,67,104 ],14,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,104 ],15,name,'Pointinfowinlink').
+struct_dt_elem_i([ 26,67,104 ],15,camelname,'PointInfowinLink').
+struct_dt_elem_i([ 26,67,104 ],15,length,200).
+struct_dt_elem_i([ 26,67,104 ],15,decimals,0).
+struct_dt_elem_i([ 26,67,104 ],15,type,[ 5,200,0 ]).
+struct_dt_elem_i([ 26,67,104 ],15,pic,'').
+struct_dt_elem_i([ 26,67,104 ],15,collection,'False').
+struct_dt_elem_i([ 26,67,104 ],15,'ExternalName','PointInfowinLink').
+struct_dt_elem_i([ 26,67,104 ],15,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,104 ],15,'XmlType','Element').
+struct_dt_elem_i([ 26,67,104 ],15,'XmlName','').
+struct_dt_elem_i([ 26,67,104 ],15,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,104 ],15,soaptype,'').
+struct_dt_elem_i([ 26,67,104 ],15,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,104 ],15,'JsonName','').
+struct_dt_elem_i([ 26,67,104 ],15,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,104 ],16,name,'Pointinfowinlinkdsc').
+struct_dt_elem_i([ 26,67,104 ],16,camelname,'PointInfowinLinkDsc').
+struct_dt_elem_i([ 26,67,104 ],16,length,200).
+struct_dt_elem_i([ 26,67,104 ],16,decimals,0).
+struct_dt_elem_i([ 26,67,104 ],16,type,[ 5,200,0 ]).
+struct_dt_elem_i([ 26,67,104 ],16,pic,'').
+struct_dt_elem_i([ 26,67,104 ],16,collection,'False').
+struct_dt_elem_i([ 26,67,104 ],16,'ExternalName','PointInfowinLinkDsc').
+struct_dt_elem_i([ 26,67,104 ],16,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,104 ],16,'XmlType','Element').
+struct_dt_elem_i([ 26,67,104 ],16,'XmlName','').
+struct_dt_elem_i([ 26,67,104 ],16,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,104 ],16,soaptype,'').
+struct_dt_elem_i([ 26,67,104 ],16,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,104 ],16,'JsonName','').
+struct_dt_elem_i([ 26,67,104 ],16,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,104 ],17,name,'Pointinfowinimg').
+struct_dt_elem_i([ 26,67,104 ],17,camelname,'PointInfowinImg').
+struct_dt_elem_i([ 26,67,104 ],17,length,200).
+struct_dt_elem_i([ 26,67,104 ],17,decimals,0).
+struct_dt_elem_i([ 26,67,104 ],17,type,[ 5,200,0 ]).
+struct_dt_elem_i([ 26,67,104 ],17,pic,'').
+struct_dt_elem_i([ 26,67,104 ],17,collection,'False').
+struct_dt_elem_i([ 26,67,104 ],17,'ExternalName','PointInfowinImg').
+struct_dt_elem_i([ 26,67,104 ],17,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,104 ],17,'XmlType','Element').
+struct_dt_elem_i([ 26,67,104 ],17,'XmlName','').
+struct_dt_elem_i([ 26,67,104 ],17,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,104 ],17,soaptype,'').
+struct_dt_elem_i([ 26,67,104 ],17,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,104 ],17,'JsonName','').
+struct_dt_elem_i([ 26,67,104 ],17,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,0 ],7,name,'Polygons').
+struct_dt_elem_i([ 26,67,0 ],7,camelname,'Polygons').
+struct_dt_elem_i([ 26,67,0 ],7,type,[ [ 26,67,105 ],0,0 ]).
+struct_dt_elem_i([ 26,67,0 ],7,pic,'').
+struct_dt_elem_i([ 26,67,0 ],7,collection,'True').
+struct_dt_elem_i([ 26,67,0 ],7,'ObjName','Polygons').
+struct_dt_elem_i([ 26,67,0 ],7,'ObjDesc','Polygons').
+struct_dt_elem_i([ 26,67,0 ],7,'CollectionItemName','Polygon').
+struct_dt_elem_i([ 26,67,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,67,0 ],7,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,67,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,0 ],7,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,67,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,67,0 ],7,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,67,0 ],7,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,67,105 ],1,name,'Polygonfill').
+struct_dt_elem_i([ 26,67,105 ],1,camelname,'PolygonFill').
+struct_dt_elem_i([ 26,67,105 ],1,length,20).
+struct_dt_elem_i([ 26,67,105 ],1,decimals,0).
+struct_dt_elem_i([ 26,67,105 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,67,105 ],1,pic,'').
+struct_dt_elem_i([ 26,67,105 ],1,collection,'False').
+struct_dt_elem_i([ 26,67,105 ],1,'ExternalName','PolygonFill').
+struct_dt_elem_i([ 26,67,105 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,105 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,67,105 ],1,'XmlName','').
+struct_dt_elem_i([ 26,67,105 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,105 ],1,soaptype,'').
+struct_dt_elem_i([ 26,67,105 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,105 ],1,'JsonName','').
+struct_dt_elem_i([ 26,67,105 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,105 ],2,name,'Polygonfillopacity').
+struct_dt_elem_i([ 26,67,105 ],2,camelname,'PolygonFillOpacity').
+struct_dt_elem_i([ 26,67,105 ],2,length,3).
+struct_dt_elem_i([ 26,67,105 ],2,decimals,2).
+struct_dt_elem_i([ 26,67,105 ],2,sign,0).
+struct_dt_elem_i([ 26,67,105 ],2,type,[ 4,3,2 ]).
+struct_dt_elem_i([ 26,67,105 ],2,pic,'9.99').
+struct_dt_elem_i([ 26,67,105 ],2,collection,'False').
+struct_dt_elem_i([ 26,67,105 ],2,'ExternalName','PolygonFillOpacity').
+struct_dt_elem_i([ 26,67,105 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,105 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,67,105 ],2,'XmlName','').
+struct_dt_elem_i([ 26,67,105 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,105 ],2,soaptype,'').
+struct_dt_elem_i([ 26,67,105 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,105 ],2,'JsonName','').
+struct_dt_elem_i([ 26,67,105 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,105 ],3,name,'Polygonstroke').
+struct_dt_elem_i([ 26,67,105 ],3,camelname,'PolygonStroke').
+struct_dt_elem_i([ 26,67,105 ],3,length,20).
+struct_dt_elem_i([ 26,67,105 ],3,decimals,0).
+struct_dt_elem_i([ 26,67,105 ],3,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,67,105 ],3,pic,'').
+struct_dt_elem_i([ 26,67,105 ],3,collection,'False').
+struct_dt_elem_i([ 26,67,105 ],3,'ExternalName','PolygonStroke').
+struct_dt_elem_i([ 26,67,105 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,105 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,67,105 ],3,'XmlName','').
+struct_dt_elem_i([ 26,67,105 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,105 ],3,soaptype,'').
+struct_dt_elem_i([ 26,67,105 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,105 ],3,'JsonName','').
+struct_dt_elem_i([ 26,67,105 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,105 ],4,name,'Polygonstrokeopacity').
+struct_dt_elem_i([ 26,67,105 ],4,camelname,'PolygonStrokeOpacity').
+struct_dt_elem_i([ 26,67,105 ],4,length,3).
+struct_dt_elem_i([ 26,67,105 ],4,decimals,2).
+struct_dt_elem_i([ 26,67,105 ],4,sign,0).
+struct_dt_elem_i([ 26,67,105 ],4,type,[ 4,3,2 ]).
+struct_dt_elem_i([ 26,67,105 ],4,pic,'9.99').
+struct_dt_elem_i([ 26,67,105 ],4,collection,'False').
+struct_dt_elem_i([ 26,67,105 ],4,'ExternalName','PolygonStrokeOpacity').
+struct_dt_elem_i([ 26,67,105 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,105 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,67,105 ],4,'XmlName','').
+struct_dt_elem_i([ 26,67,105 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,105 ],4,soaptype,'').
+struct_dt_elem_i([ 26,67,105 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,105 ],4,'JsonName','').
+struct_dt_elem_i([ 26,67,105 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,105 ],5,name,'Polygonstrokeweight').
+struct_dt_elem_i([ 26,67,105 ],5,camelname,'PolygonStrokeWeight').
+struct_dt_elem_i([ 26,67,105 ],5,length,3).
+struct_dt_elem_i([ 26,67,105 ],5,decimals,0).
+struct_dt_elem_i([ 26,67,105 ],5,sign,0).
+struct_dt_elem_i([ 26,67,105 ],5,type,[ 4,3,0 ]).
+struct_dt_elem_i([ 26,67,105 ],5,pic,'ZZ9').
+struct_dt_elem_i([ 26,67,105 ],5,collection,'False').
+struct_dt_elem_i([ 26,67,105 ],5,'ExternalName','PolygonStrokeWeight').
+struct_dt_elem_i([ 26,67,105 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,105 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,67,105 ],5,'XmlName','').
+struct_dt_elem_i([ 26,67,105 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,105 ],5,soaptype,'').
+struct_dt_elem_i([ 26,67,105 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,105 ],5,'JsonName','').
+struct_dt_elem_i([ 26,67,105 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,105 ],6,name,'Polygoninfowinhtml').
+struct_dt_elem_i([ 26,67,105 ],6,camelname,'PolygonInfowinHtml').
+struct_dt_elem_i([ 26,67,105 ],6,length,2097152).
+struct_dt_elem_i([ 26,67,105 ],6,decimals,0).
+struct_dt_elem_i([ 26,67,105 ],6,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 26,67,105 ],6,pic,'').
+struct_dt_elem_i([ 26,67,105 ],6,collection,'False').
+struct_dt_elem_i([ 26,67,105 ],6,'ExternalName','PolygonInfowinHtml').
+struct_dt_elem_i([ 26,67,105 ],6,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,105 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,67,105 ],6,'XmlName','').
+struct_dt_elem_i([ 26,67,105 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,105 ],6,soaptype,'').
+struct_dt_elem_i([ 26,67,105 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,105 ],6,'JsonName','').
+struct_dt_elem_i([ 26,67,105 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,105 ],7,name,'Paths').
+struct_dt_elem_i([ 26,67,105 ],7,camelname,'Paths').
+struct_dt_elem_i([ 26,67,105 ],7,type,[ [ 26,67,106 ],0,0 ]).
+struct_dt_elem_i([ 26,67,105 ],7,pic,'').
+struct_dt_elem_i([ 26,67,105 ],7,collection,'True').
+struct_dt_elem_i([ 26,67,105 ],7,'ObjName','Paths').
+struct_dt_elem_i([ 26,67,105 ],7,'ObjDesc','Paths').
+struct_dt_elem_i([ 26,67,105 ],7,'CollectionItemName','Path').
+struct_dt_elem_i([ 26,67,105 ],7,'XmlName','').
+struct_dt_elem_i([ 26,67,105 ],7,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,67,105 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,105 ],7,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,67,105 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,105 ],7,'JsonName','').
+struct_dt_elem_i([ 26,67,105 ],7,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,67,105 ],7,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,67,106 ],1,name,'Pathlat').
+struct_dt_elem_i([ 26,67,106 ],1,camelname,'PathLat').
+struct_dt_elem_i([ 26,67,106 ],1,length,40).
+struct_dt_elem_i([ 26,67,106 ],1,decimals,0).
+struct_dt_elem_i([ 26,67,106 ],1,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,67,106 ],1,pic,'').
+struct_dt_elem_i([ 26,67,106 ],1,collection,'False').
+struct_dt_elem_i([ 26,67,106 ],1,'ExternalName','PathLat').
+struct_dt_elem_i([ 26,67,106 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,106 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,67,106 ],1,'XmlName','').
+struct_dt_elem_i([ 26,67,106 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,106 ],1,soaptype,'').
+struct_dt_elem_i([ 26,67,106 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,106 ],1,'JsonName','').
+struct_dt_elem_i([ 26,67,106 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,106 ],2,name,'Pathlong').
+struct_dt_elem_i([ 26,67,106 ],2,camelname,'PathLong').
+struct_dt_elem_i([ 26,67,106 ],2,length,40).
+struct_dt_elem_i([ 26,67,106 ],2,decimals,0).
+struct_dt_elem_i([ 26,67,106 ],2,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,67,106 ],2,pic,'').
+struct_dt_elem_i([ 26,67,106 ],2,collection,'False').
+struct_dt_elem_i([ 26,67,106 ],2,'ExternalName','PathLong').
+struct_dt_elem_i([ 26,67,106 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,106 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,67,106 ],2,'XmlName','').
+struct_dt_elem_i([ 26,67,106 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,106 ],2,soaptype,'').
+struct_dt_elem_i([ 26,67,106 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,106 ],2,'JsonName','').
+struct_dt_elem_i([ 26,67,106 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,0 ],8,name,'Lines').
+struct_dt_elem_i([ 26,67,0 ],8,camelname,'Lines').
+struct_dt_elem_i([ 26,67,0 ],8,type,[ [ 26,67,107 ],0,0 ]).
+struct_dt_elem_i([ 26,67,0 ],8,pic,'').
+struct_dt_elem_i([ 26,67,0 ],8,collection,'True').
+struct_dt_elem_i([ 26,67,0 ],8,'ObjName','Lines').
+struct_dt_elem_i([ 26,67,0 ],8,'ObjDesc','Lines').
+struct_dt_elem_i([ 26,67,0 ],8,'CollectionItemName','Line').
+struct_dt_elem_i([ 26,67,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,67,0 ],8,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,67,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,0 ],8,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,67,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,0 ],8,'JsonName','').
+struct_dt_elem_i([ 26,67,0 ],8,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,67,0 ],8,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,67,107 ],1,name,'Linestrokecolor').
+struct_dt_elem_i([ 26,67,107 ],1,camelname,'LineStrokeColor').
+struct_dt_elem_i([ 26,67,107 ],1,length,20).
+struct_dt_elem_i([ 26,67,107 ],1,decimals,0).
+struct_dt_elem_i([ 26,67,107 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,67,107 ],1,pic,'').
+struct_dt_elem_i([ 26,67,107 ],1,collection,'False').
+struct_dt_elem_i([ 26,67,107 ],1,'ExternalName','LineStrokeColor').
+struct_dt_elem_i([ 26,67,107 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,107 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,67,107 ],1,'XmlName','').
+struct_dt_elem_i([ 26,67,107 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,107 ],1,soaptype,'').
+struct_dt_elem_i([ 26,67,107 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,107 ],1,'JsonName','').
+struct_dt_elem_i([ 26,67,107 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,107 ],2,name,'Linestrokeopacity').
+struct_dt_elem_i([ 26,67,107 ],2,camelname,'LineStrokeOpacity').
+struct_dt_elem_i([ 26,67,107 ],2,length,3).
+struct_dt_elem_i([ 26,67,107 ],2,decimals,2).
+struct_dt_elem_i([ 26,67,107 ],2,sign,0).
+struct_dt_elem_i([ 26,67,107 ],2,type,[ 4,3,2 ]).
+struct_dt_elem_i([ 26,67,107 ],2,pic,'9.99').
+struct_dt_elem_i([ 26,67,107 ],2,collection,'False').
+struct_dt_elem_i([ 26,67,107 ],2,'ExternalName','LineStrokeOpacity').
+struct_dt_elem_i([ 26,67,107 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,107 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,67,107 ],2,'XmlName','').
+struct_dt_elem_i([ 26,67,107 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,107 ],2,soaptype,'').
+struct_dt_elem_i([ 26,67,107 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,107 ],2,'JsonName','').
+struct_dt_elem_i([ 26,67,107 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,107 ],3,name,'Linestrokeweight').
+struct_dt_elem_i([ 26,67,107 ],3,camelname,'LineStrokeWeight').
+struct_dt_elem_i([ 26,67,107 ],3,length,3).
+struct_dt_elem_i([ 26,67,107 ],3,decimals,0).
+struct_dt_elem_i([ 26,67,107 ],3,sign,0).
+struct_dt_elem_i([ 26,67,107 ],3,type,[ 4,3,0 ]).
+struct_dt_elem_i([ 26,67,107 ],3,pic,'ZZ9').
+struct_dt_elem_i([ 26,67,107 ],3,collection,'False').
+struct_dt_elem_i([ 26,67,107 ],3,'ExternalName','LineStrokeWeight').
+struct_dt_elem_i([ 26,67,107 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,107 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,67,107 ],3,'XmlName','').
+struct_dt_elem_i([ 26,67,107 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,107 ],3,soaptype,'').
+struct_dt_elem_i([ 26,67,107 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,107 ],3,'JsonName','').
+struct_dt_elem_i([ 26,67,107 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,107 ],4,name,'Points').
+struct_dt_elem_i([ 26,67,107 ],4,camelname,'Points').
+struct_dt_elem_i([ 26,67,107 ],4,type,[ [ 26,67,108 ],0,0 ]).
+struct_dt_elem_i([ 26,67,107 ],4,pic,'').
+struct_dt_elem_i([ 26,67,107 ],4,collection,'True').
+struct_dt_elem_i([ 26,67,107 ],4,'ObjName','Points').
+struct_dt_elem_i([ 26,67,107 ],4,'ObjDesc','Points').
+struct_dt_elem_i([ 26,67,107 ],4,'CollectionItemName','Point').
+struct_dt_elem_i([ 26,67,107 ],4,'XmlName','').
+struct_dt_elem_i([ 26,67,107 ],4,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,67,107 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,107 ],4,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,67,107 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,107 ],4,'JsonName','').
+struct_dt_elem_i([ 26,67,107 ],4,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,67,107 ],4,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,67,108 ],1,name,'Pointlat').
+struct_dt_elem_i([ 26,67,108 ],1,camelname,'PointLat').
+struct_dt_elem_i([ 26,67,108 ],1,length,40).
+struct_dt_elem_i([ 26,67,108 ],1,decimals,0).
+struct_dt_elem_i([ 26,67,108 ],1,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,67,108 ],1,pic,'').
+struct_dt_elem_i([ 26,67,108 ],1,collection,'False').
+struct_dt_elem_i([ 26,67,108 ],1,'ExternalName','PointLat').
+struct_dt_elem_i([ 26,67,108 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,108 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,67,108 ],1,'XmlName','').
+struct_dt_elem_i([ 26,67,108 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,108 ],1,soaptype,'').
+struct_dt_elem_i([ 26,67,108 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,108 ],1,'JsonName','').
+struct_dt_elem_i([ 26,67,108 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,108 ],2,name,'Pointlong').
+struct_dt_elem_i([ 26,67,108 ],2,camelname,'PointLong').
+struct_dt_elem_i([ 26,67,108 ],2,length,40).
+struct_dt_elem_i([ 26,67,108 ],2,decimals,0).
+struct_dt_elem_i([ 26,67,108 ],2,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,67,108 ],2,pic,'').
+struct_dt_elem_i([ 26,67,108 ],2,collection,'False').
+struct_dt_elem_i([ 26,67,108 ],2,'ExternalName','PointLong').
+struct_dt_elem_i([ 26,67,108 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,108 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,67,108 ],2,'XmlName','').
+struct_dt_elem_i([ 26,67,108 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,108 ],2,soaptype,'').
+struct_dt_elem_i([ 26,67,108 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,108 ],2,'JsonName','').
+struct_dt_elem_i([ 26,67,108 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,0 ],9,name,'Routing').
+struct_dt_elem_i([ 26,67,0 ],9,camelname,'Routing').
+struct_dt_elem_i([ 26,67,0 ],9,type,[ [ 26,67,109 ],0,0 ]).
+struct_dt_elem_i([ 26,67,0 ],9,pic,'').
+struct_dt_elem_i([ 26,67,0 ],9,collection,'True').
+struct_dt_elem_i([ 26,67,0 ],9,'ObjName','Routing').
+struct_dt_elem_i([ 26,67,0 ],9,'ObjDesc','Routing').
+struct_dt_elem_i([ 26,67,0 ],9,'CollectionItemName','RoutePoint').
+struct_dt_elem_i([ 26,67,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,67,0 ],9,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,67,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,0 ],9,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,67,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,0 ],9,'JsonName','').
+struct_dt_elem_i([ 26,67,0 ],9,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,67,0 ],9,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,67,109 ],1,name,'Latitude').
+struct_dt_elem_i([ 26,67,109 ],1,camelname,'Latitude').
+struct_dt_elem_i([ 26,67,109 ],1,length,20).
+struct_dt_elem_i([ 26,67,109 ],1,decimals,0).
+struct_dt_elem_i([ 26,67,109 ],1,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,67,109 ],1,pic,'').
+struct_dt_elem_i([ 26,67,109 ],1,collection,'False').
+struct_dt_elem_i([ 26,67,109 ],1,'ExternalName','Latitude').
+struct_dt_elem_i([ 26,67,109 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,109 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,67,109 ],1,'XmlName','').
+struct_dt_elem_i([ 26,67,109 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,109 ],1,soaptype,'').
+struct_dt_elem_i([ 26,67,109 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,109 ],1,'JsonName','').
+struct_dt_elem_i([ 26,67,109 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,109 ],2,name,'Longitude').
+struct_dt_elem_i([ 26,67,109 ],2,camelname,'Longitude').
+struct_dt_elem_i([ 26,67,109 ],2,length,20).
+struct_dt_elem_i([ 26,67,109 ],2,decimals,0).
+struct_dt_elem_i([ 26,67,109 ],2,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,67,109 ],2,pic,'').
+struct_dt_elem_i([ 26,67,109 ],2,collection,'False').
+struct_dt_elem_i([ 26,67,109 ],2,'ExternalName','Longitude').
+struct_dt_elem_i([ 26,67,109 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,109 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,67,109 ],2,'XmlName','').
+struct_dt_elem_i([ 26,67,109 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,109 ],2,soaptype,'').
+struct_dt_elem_i([ 26,67,109 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,109 ],2,'JsonName','').
+struct_dt_elem_i([ 26,67,109 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,109 ],3,name,'Pin').
+struct_dt_elem_i([ 26,67,109 ],3,camelname,'Pin').
+struct_dt_elem_i([ 26,67,109 ],3,length,500).
+struct_dt_elem_i([ 26,67,109 ],3,decimals,0).
+struct_dt_elem_i([ 26,67,109 ],3,type,[ 5,500,0 ]).
+struct_dt_elem_i([ 26,67,109 ],3,pic,'').
+struct_dt_elem_i([ 26,67,109 ],3,collection,'False').
+struct_dt_elem_i([ 26,67,109 ],3,'ExternalName','Pin').
+struct_dt_elem_i([ 26,67,109 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,109 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,67,109 ],3,'XmlName','').
+struct_dt_elem_i([ 26,67,109 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,109 ],3,soaptype,'').
+struct_dt_elem_i([ 26,67,109 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,109 ],3,'JsonName','').
+struct_dt_elem_i([ 26,67,109 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,67,109 ],4,name,'Description').
+struct_dt_elem_i([ 26,67,109 ],4,camelname,'Description').
+struct_dt_elem_i([ 26,67,109 ],4,length,200).
+struct_dt_elem_i([ 26,67,109 ],4,decimals,0).
+struct_dt_elem_i([ 26,67,109 ],4,type,[ 5,200,0 ]).
+struct_dt_elem_i([ 26,67,109 ],4,pic,'').
+struct_dt_elem_i([ 26,67,109 ],4,collection,'False').
+struct_dt_elem_i([ 26,67,109 ],4,'ExternalName','Description').
+struct_dt_elem_i([ 26,67,109 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,67,109 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,67,109 ],4,'XmlName','').
+struct_dt_elem_i([ 26,67,109 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,67,109 ],4,soaptype,'').
+struct_dt_elem_i([ 26,67,109 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,67,109 ],4,'JsonName','').
+struct_dt_elem_i([ 26,67,109 ],4,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+security_permission_i(promptgeolocation_Execute,execute,'').
+ 
+ 
+sub_info_i(146,'Start',2,20,[ [ 'Geolocation','Gxmappoint','Gxmapdata' ],[ 'Gxmappoint','Gxmapdata',[ t('Googlemapcontrol1',3),t('Latitude',3) ],[ t('Googlemapcontrol1',3),t('Longitude',3) ] ] ]).
+sub_info_i(146,'Enter',22,31,[ [ 'Latitude','Geolocation','Longitude' ],[ 'Geolocation' ] ]).
+ 
+ 
+pgm_callprotocol_i(web,86,'WWPBASEOBJECTS\PROMPTGEOLOCATION','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

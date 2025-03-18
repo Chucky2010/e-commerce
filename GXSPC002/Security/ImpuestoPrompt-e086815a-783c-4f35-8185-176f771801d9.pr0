@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "impuestoprompt_Execute",
+    "Description": "Selecciona Impuesto",
+    "ProgramName": "impuestoprompt",
+    "IsGXAutomatic": true
+  }
+]

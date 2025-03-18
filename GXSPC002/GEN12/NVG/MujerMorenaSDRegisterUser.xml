@@ -1,0 +1,24 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>d82625fd-5892-40b0-99c9-5c8559c197fc</ObjClsGuid>
+<ObjCls>37</ObjCls>
+<ObjId>11</ObjId>
+<ObjName>MujerMorenaSDRegisterUser</ObjName>
+<ObjDesc>Login</ObjDesc>
+<ObjPgmName>MujerMorenaSDRegisterUser</ObjPgmName>
+<ObjClsName>SD Panel</ObjClsName>
+<Objects></Objects></Object>
+<Result>nogenspc</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0217</MsgCode>
+<Message>
+<Token>Object is unreachable.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters></ObjectSpec>

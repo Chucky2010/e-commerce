@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "wwpsubscription_FullControl",
+    "Description": "WWP_Subscription FullControl",
+    "ProgramName": "wwpbaseobjects.subscriptions.wwp_subscription",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "wwpsubscription_Execute",
+    "Description": "WWP_Subscription",
+    "ProgramName": "wwpbaseobjects.subscriptions.wwp_subscription",
+    "IsGXAutomatic": true,
+    "Parent": "wwpsubscription_FullControl"
+  },
+  {
+    "Name": "wwpsubscription_Insert",
+    "Description": "WWP_Subscription Insert",
+    "ProgramName": "wwpbaseobjects.subscriptions.wwp_subscription",
+    "IsGXAutomatic": true,
+    "Parent": "wwpsubscription_FullControl"
+  },
+  {
+    "Name": "wwpsubscription_Delete",
+    "Description": "WWP_Subscription Delete",
+    "ProgramName": "wwpbaseobjects.subscriptions.wwp_subscription",
+    "IsGXAutomatic": true,
+    "Parent": "wwpsubscription_FullControl"
+  },
+  {
+    "Name": "wwpsubscription_Update",
+    "Description": "WWP_Subscription Update",
+    "ProgramName": "wwpbaseobjects.subscriptions.wwp_subscription",
+    "IsGXAutomatic": true,
+    "Parent": "wwpsubscription_FullControl"
+  }
+]

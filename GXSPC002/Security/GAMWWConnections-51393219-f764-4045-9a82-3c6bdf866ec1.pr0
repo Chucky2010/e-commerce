@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamwwconnections_Execute",
+    "Description": "WWP_GAM_Connections",
+    "ProgramName": "gamwwconnections",
+    "IsGXAutomatic": true
+  }
+]

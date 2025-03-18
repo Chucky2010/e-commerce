@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "calificacion_FullControl",
+    "Description": "Calificacion FullControl",
+    "ProgramName": "calificacion",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "calificacion_Execute",
+    "Description": "Calificacion",
+    "ProgramName": "calificacion",
+    "IsGXAutomatic": true,
+    "Parent": "calificacion_FullControl"
+  },
+  {
+    "Name": "calificacion_Insert",
+    "Description": "Calificacion Insert",
+    "ProgramName": "calificacion",
+    "IsGXAutomatic": true,
+    "Parent": "calificacion_FullControl"
+  },
+  {
+    "Name": "calificacion_Delete",
+    "Description": "Calificacion Delete",
+    "ProgramName": "calificacion",
+    "IsGXAutomatic": true,
+    "Parent": "calificacion_FullControl"
+  },
+  {
+    "Name": "calificacion_Update",
+    "Description": "Calificacion Update",
+    "ProgramName": "calificacion",
+    "IsGXAutomatic": true,
+    "Parent": "calificacion_FullControl"
+  }
+]

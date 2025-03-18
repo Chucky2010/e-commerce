@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "wwpuserextended_FullControl",
+    "Description": "Extended User from GAMUser FullControl",
+    "ProgramName": "wwpbaseobjects.wwp_userextended",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "wwpuserextended_Execute",
+    "Description": "Extended User from GAMUser",
+    "ProgramName": "wwpbaseobjects.wwp_userextended",
+    "IsGXAutomatic": true,
+    "Parent": "wwpuserextended_FullControl"
+  },
+  {
+    "Name": "wwpuserextended_Insert",
+    "Description": "Extended User from GAMUser Insert",
+    "ProgramName": "wwpbaseobjects.wwp_userextended",
+    "IsGXAutomatic": true,
+    "Parent": "wwpuserextended_FullControl"
+  },
+  {
+    "Name": "wwpuserextended_Delete",
+    "Description": "Extended User from GAMUser Delete",
+    "ProgramName": "wwpbaseobjects.wwp_userextended",
+    "IsGXAutomatic": true,
+    "Parent": "wwpuserextended_FullControl"
+  },
+  {
+    "Name": "wwpuserextended_Update",
+    "Description": "Extended User from GAMUser Update",
+    "ProgramName": "wwpbaseobjects.wwp_userextended",
+    "IsGXAutomatic": true,
+    "Parent": "wwpuserextended_FullControl"
+  }
+]

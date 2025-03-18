@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamroleentry_Execute",
+    "Description": "WWP_GAM_Role",
+    "ProgramName": "gamroleentry",
+    "IsGXAutomatic": true
+  }
+]

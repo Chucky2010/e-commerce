@@ -1,0 +1,617 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>159</ObjId>
+<ObjName>GenerarFactura</ObjName>
+<ObjDesc>Generar Factura</ObjDesc>
+<ObjPgmName>GenerarFactura</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0038</MsgCode>
+<Message>
+<Token>There is no index for order </Token>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Token>, </Token>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>PersonaId</AttriName>
+<Description>Persona Id</Description></Attribute>
+<Token>; poor performance may be noticed</Token>
+<Token> in group starting at line </Token>
+<Token>25</Token>
+<Token></Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>File</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>11</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>16</TableId>
+<TableName>Ventas</TableName>
+<Description>Ventas</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IVENTAS</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>@VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>@VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>16</TableId>
+<TableName>Ventas</TableName>
+<Description>Ventas</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Attribute>
+<AttriId>29</AttriId>
+<AttriName>TimbradoId</AttriName>
+<Description>Timbrado Id</Description></Attribute>
+<Attribute>
+<AttriId>311</AttriId>
+<AttriName>VentasNroFactura</AttriName>
+<Description>Ventas Nro Factura</Description></Attribute>
+<Attribute>
+<AttriId>91</AttriId>
+<AttriName>VentasFecha</AttriName>
+<Description>Ventas Fecha</Description></Attribute></Into>
+<Tables>
+<Table>
+<TableId>27</TableId>
+<TableName>Timbrado</TableName>
+<Description>Timbrado</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>29</AttriId>
+<AttriName>TimbradoId</AttriName>
+<Description>Timbrado Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>125</AttriId>
+<AttriName>TimbradoNumero</AttriName>
+<Description>Timbrado Numero</Description></Attribute></Into>
+<Tables></Tables></Table>
+<Table>
+<TableId>16</TableId>
+<TableName>VentasTotalExento, VentasTotal10, VentasTotal5 navigation</TableName>
+<Description>Ventas</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></KeyAttributes></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas>
+<Formula>
+<FormulaAttri>
+<Attribute>
+<AttriId>238</AttriId>
+<AttriName>VentasTotal10</AttriName>
+<Description>Ventas Total10</Description></Attribute></FormulaAttri>
+<FormulaType>aggsel</FormulaType>
+<FormulaExpression>
+<Token>SUM</Token>
+<Token>(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>95</AttriId>
+<AttriName>VentasDetalleIva10</AttriName>
+<Description>Ventas Detalle Iva10</Description></Attribute>
+<Token>)</Token></FormulaExpression>
+<FormulaGivenAttris>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></FormulaGivenAttris>
+<FormulaGroupByAttris>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></FormulaGroupByAttris>
+<FormulaIndex>IVENTAS</FormulaIndex>
+<NavigationTree>
+<Table>
+<TableId>17</TableId>
+<TableName>VentasDetalle</TableName>
+<Description>Detalle</Description>
+<RecordsToRead>many</RecordsToRead>
+<Tables>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>44</TableId>
+<TableName>Impuesto</TableName>
+<Description>Impuesto</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>ImpuestoId</AttriName>
+<Description>Impuesto Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></Tables></Table></NavigationTree></Formula>
+<Formula>
+<FormulaAttri>
+<Attribute>
+<AttriId>236</AttriId>
+<AttriName>VentasTotal5</AttriName>
+<Description>Ventas Total5</Description></Attribute></FormulaAttri>
+<FormulaType>aggsel</FormulaType>
+<FormulaExpression>
+<Token>SUM</Token>
+<Token>(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>96</AttriId>
+<AttriName>VentasDetalleIva5</AttriName>
+<Description>Ventas Detalle Iva5</Description></Attribute>
+<Token>)</Token></FormulaExpression>
+<FormulaGivenAttris>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></FormulaGivenAttris>
+<FormulaGroupByAttris>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></FormulaGroupByAttris>
+<FormulaIndex>IVENTAS</FormulaIndex>
+<NavigationTree>
+<Table>
+<TableId>17</TableId>
+<TableName>VentasDetalle</TableName>
+<Description>Detalle</Description>
+<RecordsToRead>many</RecordsToRead>
+<Tables>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>44</TableId>
+<TableName>Impuesto</TableName>
+<Description>Impuesto</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>ImpuestoId</AttriName>
+<Description>Impuesto Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></Tables></Table></NavigationTree></Formula>
+<Formula>
+<FormulaAttri>
+<Attribute>
+<AttriId>239</AttriId>
+<AttriName>VentasTotalExento</AttriName>
+<Description>Ventas Total Exento</Description></Attribute></FormulaAttri>
+<FormulaType>aggsel</FormulaType>
+<FormulaExpression>
+<Token>SUM</Token>
+<Token>(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>94</AttriId>
+<AttriName>VentasDetalleExento</AttriName>
+<Description>Ventas Detalle Exento</Description></Attribute>
+<Token>)</Token></FormulaExpression>
+<FormulaGivenAttris>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></FormulaGivenAttris>
+<FormulaGroupByAttris>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></FormulaGroupByAttris>
+<FormulaIndex>IVENTAS</FormulaIndex>
+<NavigationTree>
+<Table>
+<TableId>17</TableId>
+<TableName>VentasDetalle</TableName>
+<Description>Detalle</Description>
+<RecordsToRead>many</RecordsToRead>
+<Tables>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>44</TableId>
+<TableName>Impuesto</TableName>
+<Description>Impuesto</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>ImpuestoId</AttriName>
+<Description>Impuesto Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></Tables></Table></NavigationTree></Formula></AggSelFormulas></Formulas>
+<Levels>
+<Level>
+<LevelNumber>3</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>27</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>17</TableId>
+<TableName>VentasDetalle</TableName>
+<Description>Detalle</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>VentasDetalleId</AttriName>
+<Description>Ventas Detalle Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IVENTASDETALLE</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>@VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>@VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>17</TableId>
+<TableName>VentasDetalle</TableName>
+<Description>Detalle</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>VentasDetalleId</AttriName>
+<Description>Ventas Detalle Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>VentasDetalleId</AttriName>
+<Description>Ventas Detalle Id</Description></Attribute>
+<Attribute>
+<AttriId>92</AttriId>
+<AttriName>VentasDetalleCantidad</AttriName>
+<Description>Ventas Detalle Cantidad</Description></Attribute></Into>
+<Tables>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>76</AttriId>
+<AttriName>ArticuloNombre</AttriName>
+<Description>Articulo Nombre</Description></Attribute>
+<Attribute>
+<AttriId>78</AttriId>
+<AttriName>ArticuloPrecioVenta</AttriName>
+<Description>Articulo Precio Venta</Description></Attribute></Into>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></Level>
+<Level>
+<LevelNumber>4</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>43</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>3</TableId>
+<TableName>Cliente</TableName>
+<Description>Cliente</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>PersonaId</AttriName>
+<Description>Persona Id</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Clienteid</VarId>
+<VarName>&amp;ClienteId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Clienteid</VarId>
+<VarName>&amp;ClienteId</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>3</TableId>
+<TableName>Cliente</TableName>
+<Description>Cliente</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>PersonaId</AttriName>
+<Description>Persona Id</Description></Attribute></Into>
+<Tables>
+<Table>
+<TableId>1</TableId>
+<TableName>Persona</TableName>
+<Description>Persona</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>PersonaId</AttriName>
+<Description>Persona Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>56</AttriId>
+<AttriName>PersonaApellido</AttriName>
+<Description>Persona Apellido</Description></Attribute>
+<Attribute>
+<AttriId>55</AttriId>
+<AttriName>PersonaNombre</AttriName>
+<Description>Persona Nombre</Description></Attribute></Into>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels>
+<Level>
+<LevelNumber>5</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>Break</LevelType>
+<LevelBeginRow>46</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>3</TableId>
+<TableName>Cliente</TableName>
+<Description>Cliente</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>PersonaId</AttriName>
+<Description>Persona Id</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>@ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>PersonaId</AttriName>
+<Description>Persona Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Personaid</VarId>
+<VarName>&amp;PersonaId</VarName></Variable>
+<Icon>client</Icon></Condition></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>3</TableId>
+<TableName>Cliente</TableName>
+<Description>Cliente</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>PersonaId</AttriName>
+<Description>Persona Id</Description></Attribute></Into>
+<Tables>
+<Table>
+<TableId>1</TableId>
+<TableName>Persona</TableName>
+<Description>Persona</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>PersonaId</AttriName>
+<Description>Persona Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>56</AttriId>
+<AttriName>PersonaApellido</AttriName>
+<Description>Persona Apellido</Description></Attribute>
+<Attribute>
+<AttriId>55</AttriId>
+<AttriName>PersonaNombre</AttriName>
+<Description>Persona Nombre</Description></Attribute></Into>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></Level></Levels></ObjectSpec>

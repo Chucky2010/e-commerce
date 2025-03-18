@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "cajaprompt_Execute",
+    "Description": "Selecciona Caja",
+    "ProgramName": "cajaprompt",
+    "IsGXAutomatic": true
+  }
+]

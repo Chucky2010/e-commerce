@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpwebserversessionget_Services_Execute",
+    "Description": "WWPWeb Server Session Get Services",
+    "ProgramName": "workwithplus.nativemobile.wwpwebserversessionget",
+    "IsGXAutomatic": true
+  }
+]

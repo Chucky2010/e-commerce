@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "nmcartproductsremove_Services_Execute",
+    "Description": "NMCart Products Remove Services",
+    "ProgramName": "nmcartproductsremove",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,255 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>77</ObjId>
+<ObjName>WWPBaseObjects.CartCheckoutPayment</ObjName>
+<ObjDesc>Cart Checkout Payment</ObjDesc>
+<ObjPgmName>WWPBaseObjects.CartCheckoutPayment</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0038</MsgCode>
+<Message>
+<Token>There is no index for order </Token>
+<Attribute>
+<AttriId>284</AttriId>
+<AttriName>OpcionEnvioDescripcion</AttriName>
+<Description>Opcion Envio Descripcion</Description></Attribute>
+<Token>; poor performance may be noticed</Token>
+<Token> in group starting at line </Token>
+<Token>129</Token>
+<Token></Token>
+<Token>.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0038</MsgCode>
+<Message>
+<Token>There is no index for order </Token>
+<Attribute>
+<AttriId>71</AttriId>
+<AttriName>TipoPagoNombre</AttriName>
+<Description>Tipo Pago Nombre</Description></Attribute>
+<Token>; poor performance may be noticed</Token>
+<Token> in group starting at line </Token>
+<Token>147</Token>
+<Token></Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Websessionkey</VarId>
+<VarName>&amp;WebSessionKey</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Previousstep</VarId>
+<VarName>&amp;PreviousStep</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Goingback</VarId>
+<VarName>&amp;GoingBack</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Enter</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>14</ObjId>
+<ObjName>WWPBaseObjects.CartCheckout</ObjName>
+<ObjPgmName>WWPBaseObjects.CartCheckout</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Expression>
+<Token>'Payment'</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>'PlaceOrder'</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>FALSE</Token></Expression>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>'WizardPrevious'</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>14</ObjId>
+<ObjName>WWPBaseObjects.CartCheckout</ObjName>
+<ObjPgmName>WWPBaseObjects.CartCheckout</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Expression>
+<Token>'Payment'</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>'Address'</Token>
+<Token>,</Token>
+<Sp></Sp>
+<Token>TRUE</Token></Expression>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Combo_paymentdata2.Onoptionclicked</EventName></Event>
+<Event>
+<EventName>Combo_paymentdata.Onoptionclicked</EventName>
+<Level>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>65</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>9</TableId>
+<TableName>TipoPago</TableName>
+<Description>Tipo Pago</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>TipoPagoId</AttriName>
+<Description>Tipo Pago Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ITIPOPAGO</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>71</AttriId>
+<AttriName>TipoPagoNombre</AttriName>
+<Description>Tipo Pago Nombre</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Paymentdata</VarId>
+<VarName>&amp;PaymentData</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>9</TableId>
+<TableName>TipoPago</TableName>
+<Description>Tipo Pago</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>TipoPagoId</AttriName>
+<Description>Tipo Pago Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></Level></Event>
+<Event>
+<EventName>'LOADVARIABLESFROMWIZARDDATA'</EventName>
+<EventType>Subrutine</EventType></Event>
+<Event>
+<EventName>'SAVEVARIABLESTOWIZARDDATA'</EventName>
+<EventType>Subrutine</EventType></Event>
+<Event>
+<EventName>'CHECKREQUIREDFIELDS'</EventName>
+<EventType>Subrutine</EventType></Event>
+<Event>
+<EventName>'LOADCOMBOPAYMENTDATA2'</EventName>
+<EventType>Subrutine</EventType>
+<Level>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>129</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>56</TableId>
+<TableName>OpcionEnvio</TableName>
+<Description>Opcion Envio</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>284</AttriId>
+<AttriName>OpcionEnvioDescripcion</AttriName>
+<Description>Opcion Envio Descripcion</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>56</TableId>
+<TableName>OpcionEnvio</TableName>
+<Description>Opcion Envio</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>283</AttriId>
+<AttriName>OpcionEnvioId</AttriName>
+<Description>Opcion Envio Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></Level></Event>
+<Event>
+<EventName>'LOADCOMBOPAYMENTDATA'</EventName>
+<EventType>Subrutine</EventType>
+<Level>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>147</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>9</TableId>
+<TableName>TipoPago</TableName>
+<Description>Tipo Pago</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>71</AttriId>
+<AttriName>TipoPagoNombre</AttriName>
+<Description>Tipo Pago Nombre</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>9</TableId>
+<TableName>TipoPago</TableName>
+<Description>Tipo Pago</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>TipoPagoId</AttriName>
+<Description>Tipo Pago Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></Level></Event>
+<Event>
+<EventName>Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "ciudad_FullControl",
+    "Description": "Ciudad FullControl",
+    "ProgramName": "ciudad",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "ciudad_Execute",
+    "Description": "Ciudad",
+    "ProgramName": "ciudad",
+    "IsGXAutomatic": true,
+    "Parent": "ciudad_FullControl"
+  },
+  {
+    "Name": "ciudad_Insert",
+    "Description": "Ciudad Insert",
+    "ProgramName": "ciudad",
+    "IsGXAutomatic": true,
+    "Parent": "ciudad_FullControl"
+  },
+  {
+    "Name": "ciudad_Delete",
+    "Description": "Ciudad Delete",
+    "ProgramName": "ciudad",
+    "IsGXAutomatic": true,
+    "Parent": "ciudad_FullControl"
+  },
+  {
+    "Name": "ciudad_Update",
+    "Description": "Ciudad Update",
+    "ProgramName": "ciudad",
+    "IsGXAutomatic": true,
+    "Parent": "ciudad_FullControl"
+  }
+]

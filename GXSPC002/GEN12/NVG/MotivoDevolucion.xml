@@ -1,0 +1,110 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>45</ObjId>
+<ObjName>MotivoDevolucion</ObjName>
+<ObjDesc>Motivo Devolucion</ObjDesc>
+<ObjPgmName>MotivoDevolucion</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Motivodevolucionid</VarId>
+<VarName>&amp;MotivoDevolucionID</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>54</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>54</TableId>
+<TableName>MotivoDevolucion</TableName>
+<Description>Motivo Devolucion</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>54</TableId>
+<TableName>MotivoDevolucion</TableName>
+<Description>Motivo Devolucion</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>273</AttriId>
+<AttriName>MotivoDevolucionID</AttriName>
+<Description>Motivo Devolucion ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>54</TableId>
+<TableName>MotivoDevolucion</TableName>
+<Description>Motivo Devolucion</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>273</AttriId>
+<AttriName>MotivoDevolucionID</AttriName>
+<Description>Motivo Devolucion ID</Description></Attribute>
+<Attribute>
+<AttriId>280</AttriId>
+<AttriName>MotivoDevolucionDescripcion</AttriName>
+<Description>Motivo Devolucion Descripcion</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>54</TableId>
+<TableName>MotivoDevolucion</TableName>
+<Description>Motivo Devolucion</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>280</AttriId>
+<AttriName>MotivoDevolucionDescripcion</AttriName>
+<Description>Motivo Devolucion Descripcion</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>54</TableId>
+<TableName>MotivoDevolucion</TableName>
+<Description>Motivo Devolucion</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>52</TableId>
+<TableName>Devoluciones</TableName>
+<Description>Devoluciones</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>273</AttriId>
+<AttriName>MotivoDevolucionID</AttriName>
+<Description>Motivo Devolucion ID</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

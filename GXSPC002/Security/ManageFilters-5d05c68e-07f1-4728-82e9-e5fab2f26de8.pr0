@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "managefilters_Execute",
+    "Description": "WWP_ManageFiltersDescription",
+    "ProgramName": "wwpbaseobjects.managefilters",
+    "IsGXAutomatic": true
+  }
+]

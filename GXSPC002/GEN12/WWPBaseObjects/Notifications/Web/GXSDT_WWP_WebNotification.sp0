@@ -1,0 +1,204 @@
+ 
+spec_i([ sdt,[ 0,32,0 ],'WWPBaseObjects\Notifications\Web\WWP_WebNotification','WWPBaseObjects\Notifications\Web\WWP_WebNotification',0,spa,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 0,32,0 ],name,'WWPBaseObjects\Notifications\Web\WWP_WebNotification').
+struct_dt_i([ 0,32,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 0,32,0 ],significantName,'WWPBaseObjects\Notifications\Web\WWP_WebNotification').
+struct_dt_i([ 0,32,0 ],'ObjName','WWP_WebNotification').
+struct_dt_i([ 0,32,0 ],'ObjDesc','WWP_Web Notification').
+struct_dt_i([ 0,32,0 ],'ExternalName','WWP_WebNotification').
+struct_dt_i([ 0,32,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 0,32,0 ],key,[ 38 ]).
+struct_dt_i([ 0,32,0 ],lvl,34).
+struct_dt_i([ 0,32,0 ],fullname,'WWPBaseObjects\Notifications\Web\WWP_WebNotification').
+ 
+struct_dt_elem_i([ 0,32,0 ],1,name,'Wwpwebnotificationid').
+struct_dt_elem_i([ 0,32,0 ],1,camelname,'WWPWebNotificationId').
+struct_dt_elem_i([ 0,32,0 ],1,basedon,92).
+struct_dt_elem_i([ 0,32,0 ],1,length,10).
+struct_dt_elem_i([ 0,32,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,32,0 ],1,sign,0).
+struct_dt_elem_i([ 0,32,0 ],1,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 0,32,0 ],1,pic,'ZZZZZZZZZ9').
+struct_dt_elem_i([ 0,32,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,32,0 ],1,attributeid,'38').
+struct_dt_elem_i([ 0,32,0 ],1,'ExternalName','WWPWebNotificationId').
+struct_dt_elem_i([ 0,32,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,32,0 ],2,name,'Wwpwebnotificationtitle').
+struct_dt_elem_i([ 0,32,0 ],2,camelname,'WWPWebNotificationTitle').
+struct_dt_elem_i([ 0,32,0 ],2,length,40).
+struct_dt_elem_i([ 0,32,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,32,0 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,32,0 ],2,pic,'').
+struct_dt_elem_i([ 0,32,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,32,0 ],2,attributeid,'166').
+struct_dt_elem_i([ 0,32,0 ],2,'ExternalName','WWPWebNotificationTitle').
+struct_dt_elem_i([ 0,32,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,32,0 ],3,name,'Wwpnotificationid').
+struct_dt_elem_i([ 0,32,0 ],3,camelname,'WWPNotificationId').
+struct_dt_elem_i([ 0,32,0 ],3,basedon,92).
+struct_dt_elem_i([ 0,32,0 ],3,length,10).
+struct_dt_elem_i([ 0,32,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,32,0 ],3,sign,0).
+struct_dt_elem_i([ 0,32,0 ],3,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 0,32,0 ],3,pic,'ZZZZZZZZZ9').
+struct_dt_elem_i([ 0,32,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,32,0 ],3,attributeid,'37').
+struct_dt_elem_i([ 0,32,0 ],3,'ExternalName','WWPNotificationId').
+struct_dt_elem_i([ 0,32,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,32,0 ],4,name,'Wwpnotificationcreated').
+struct_dt_elem_i([ 0,32,0 ],4,camelname,'WWPNotificationCreated').
+struct_dt_elem_i([ 0,32,0 ],4,basedon,93).
+struct_dt_elem_i([ 0,32,0 ],4,length,10).
+struct_dt_elem_i([ 0,32,0 ],4,decimals,12).
+struct_dt_elem_i([ 0,32,0 ],4,type,[ 12,10,12 ]).
+struct_dt_elem_i([ 0,32,0 ],4,pic,'99/99/9999 99:99:99.999').
+struct_dt_elem_i([ 0,32,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,32,0 ],4,attributeid,'40').
+struct_dt_elem_i([ 0,32,0 ],4,'ExternalName','WWPNotificationCreated').
+struct_dt_elem_i([ 0,32,0 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,32,0 ],5,name,'Wwpnotificationmetadata').
+struct_dt_elem_i([ 0,32,0 ],5,camelname,'WWPNotificationMetadata').
+struct_dt_elem_i([ 0,32,0 ],5,length,2097152).
+struct_dt_elem_i([ 0,32,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,32,0 ],5,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,32,0 ],5,pic,'').
+struct_dt_elem_i([ 0,32,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,32,0 ],5,attributeid,'182').
+struct_dt_elem_i([ 0,32,0 ],5,'ExternalName','WWPNotificationMetadata').
+struct_dt_elem_i([ 0,32,0 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,32,0 ],6,name,'Wwpnotificationdefinitionname').
+struct_dt_elem_i([ 0,32,0 ],6,camelname,'WWPNotificationDefinitionName').
+struct_dt_elem_i([ 0,32,0 ],6,basedon,239).
+struct_dt_elem_i([ 0,32,0 ],6,length,100).
+struct_dt_elem_i([ 0,32,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,32,0 ],6,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,32,0 ],6,pic,'').
+struct_dt_elem_i([ 0,32,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,32,0 ],6,attributeid,'181').
+struct_dt_elem_i([ 0,32,0 ],6,'ExternalName','WWPNotificationDefinitionName').
+struct_dt_elem_i([ 0,32,0 ],6,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,32,0 ],7,name,'Wwpwebnotificationtext').
+struct_dt_elem_i([ 0,32,0 ],7,camelname,'WWPWebNotificationText').
+struct_dt_elem_i([ 0,32,0 ],7,length,120).
+struct_dt_elem_i([ 0,32,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,32,0 ],7,type,[ 13,120,0 ]).
+struct_dt_elem_i([ 0,32,0 ],7,pic,'').
+struct_dt_elem_i([ 0,32,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,32,0 ],7,attributeid,'167').
+struct_dt_elem_i([ 0,32,0 ],7,'ExternalName','WWPWebNotificationText').
+struct_dt_elem_i([ 0,32,0 ],7,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,32,0 ],8,name,'Wwpwebnotificationicon').
+struct_dt_elem_i([ 0,32,0 ],8,camelname,'WWPWebNotificationIcon').
+struct_dt_elem_i([ 0,32,0 ],8,length,255).
+struct_dt_elem_i([ 0,32,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,32,0 ],8,type,[ 13,255,0 ]).
+struct_dt_elem_i([ 0,32,0 ],8,pic,'').
+struct_dt_elem_i([ 0,32,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,32,0 ],8,attributeid,'168').
+struct_dt_elem_i([ 0,32,0 ],8,'ExternalName','WWPWebNotificationIcon').
+struct_dt_elem_i([ 0,32,0 ],8,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,32,0 ],9,name,'Wwpwebnotificationclientid').
+struct_dt_elem_i([ 0,32,0 ],9,camelname,'WWPWebNotificationClientId').
+struct_dt_elem_i([ 0,32,0 ],9,length,2097152).
+struct_dt_elem_i([ 0,32,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,32,0 ],9,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,32,0 ],9,pic,'').
+struct_dt_elem_i([ 0,32,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,32,0 ],9,attributeid,'175').
+struct_dt_elem_i([ 0,32,0 ],9,'ExternalName','WWPWebNotificationClientId').
+struct_dt_elem_i([ 0,32,0 ],9,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,32,0 ],10,name,'Wwpwebnotificationstatus').
+struct_dt_elem_i([ 0,32,0 ],10,camelname,'WWPWebNotificationStatus').
+struct_dt_elem_i([ 0,32,0 ],10,basedon,247).
+struct_dt_elem_i([ 0,32,0 ],10,length,4).
+struct_dt_elem_i([ 0,32,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,32,0 ],10,sign,0).
+struct_dt_elem_i([ 0,32,0 ],10,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,32,0 ],10,pic,'ZZZ9').
+struct_dt_elem_i([ 0,32,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,32,0 ],10,attributeid,'176').
+struct_dt_elem_i([ 0,32,0 ],10,'ExternalName','WWPWebNotificationStatus').
+struct_dt_elem_i([ 0,32,0 ],10,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,32,0 ],11,name,'Wwpwebnotificationcreated').
+struct_dt_elem_i([ 0,32,0 ],11,camelname,'WWPWebNotificationCreated').
+struct_dt_elem_i([ 0,32,0 ],11,basedon,93).
+struct_dt_elem_i([ 0,32,0 ],11,length,10).
+struct_dt_elem_i([ 0,32,0 ],11,decimals,12).
+struct_dt_elem_i([ 0,32,0 ],11,type,[ 12,10,12 ]).
+struct_dt_elem_i([ 0,32,0 ],11,pic,'99/99/9999 99:99:99.999').
+struct_dt_elem_i([ 0,32,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,32,0 ],11,attributeid,'169').
+struct_dt_elem_i([ 0,32,0 ],11,'ExternalName','WWPWebNotificationCreated').
+struct_dt_elem_i([ 0,32,0 ],11,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,32,0 ],12,name,'Wwpwebnotificationscheduled').
+struct_dt_elem_i([ 0,32,0 ],12,camelname,'WWPWebNotificationScheduled').
+struct_dt_elem_i([ 0,32,0 ],12,basedon,93).
+struct_dt_elem_i([ 0,32,0 ],12,length,10).
+struct_dt_elem_i([ 0,32,0 ],12,decimals,12).
+struct_dt_elem_i([ 0,32,0 ],12,type,[ 12,10,12 ]).
+struct_dt_elem_i([ 0,32,0 ],12,pic,'99/99/9999 99:99:99.999').
+struct_dt_elem_i([ 0,32,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,32,0 ],12,attributeid,'180').
+struct_dt_elem_i([ 0,32,0 ],12,'ExternalName','WWPWebNotificationScheduled').
+struct_dt_elem_i([ 0,32,0 ],12,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,32,0 ],13,name,'Wwpwebnotificationprocessed').
+struct_dt_elem_i([ 0,32,0 ],13,camelname,'WWPWebNotificationProcessed').
+struct_dt_elem_i([ 0,32,0 ],13,basedon,93).
+struct_dt_elem_i([ 0,32,0 ],13,length,10).
+struct_dt_elem_i([ 0,32,0 ],13,decimals,12).
+struct_dt_elem_i([ 0,32,0 ],13,type,[ 12,10,12 ]).
+struct_dt_elem_i([ 0,32,0 ],13,pic,'99/99/9999 99:99:99.999').
+struct_dt_elem_i([ 0,32,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,32,0 ],13,attributeid,'177').
+struct_dt_elem_i([ 0,32,0 ],13,'ExternalName','WWPWebNotificationProcessed').
+struct_dt_elem_i([ 0,32,0 ],13,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,32,0 ],14,name,'Wwpwebnotificationread').
+struct_dt_elem_i([ 0,32,0 ],14,camelname,'WWPWebNotificationRead').
+struct_dt_elem_i([ 0,32,0 ],14,basedon,93).
+struct_dt_elem_i([ 0,32,0 ],14,length,10).
+struct_dt_elem_i([ 0,32,0 ],14,decimals,12).
+struct_dt_elem_i([ 0,32,0 ],14,type,[ 12,10,12 ]).
+struct_dt_elem_i([ 0,32,0 ],14,pic,'99/99/9999 99:99:99.999').
+struct_dt_elem_i([ 0,32,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,32,0 ],14,attributeid,'170').
+struct_dt_elem_i([ 0,32,0 ],14,'ExternalName','WWPWebNotificationRead').
+struct_dt_elem_i([ 0,32,0 ],14,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,32,0 ],15,name,'Wwpwebnotificationdetail').
+struct_dt_elem_i([ 0,32,0 ],15,camelname,'WWPWebNotificationDetail').
+struct_dt_elem_i([ 0,32,0 ],15,length,2097152).
+struct_dt_elem_i([ 0,32,0 ],15,decimals,0).
+struct_dt_elem_i([ 0,32,0 ],15,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,32,0 ],15,pic,'').
+struct_dt_elem_i([ 0,32,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,32,0 ],15,attributeid,'178').
+struct_dt_elem_i([ 0,32,0 ],15,'ExternalName','WWPWebNotificationDetail').
+struct_dt_elem_i([ 0,32,0 ],15,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,32,0 ],16,name,'Wwpwebnotificationreceived').
+struct_dt_elem_i([ 0,32,0 ],16,camelname,'WWPWebNotificationReceived').
+struct_dt_elem_i([ 0,32,0 ],16,length,4).
+struct_dt_elem_i([ 0,32,0 ],16,decimals,0).
+struct_dt_elem_i([ 0,32,0 ],16,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,32,0 ],16,pic,'').
+struct_dt_elem_i([ 0,32,0 ],16,collection,'False').
+struct_dt_elem_i([ 0,32,0 ],16,attributeid,'179').
+struct_dt_elem_i([ 0,32,0 ],16,'ExternalName','WWPWebNotificationReceived').
+struct_dt_elem_i([ 0,32,0 ],16,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,32,0 ],1,pic,'ZZZZ9').
+struct_dt_elem_i([ 0,32,0 ],3,pic,'ZZZZ9').
+struct_dt_elem_i([ 0,32,0 ],4,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+struct_dt_elem_i([ 0,32,0 ],6,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+struct_dt_elem_i([ 0,32,0 ],11,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+struct_dt_elem_i([ 0,32,0 ],12,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+struct_dt_elem_i([ 0,32,0 ],13,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+struct_dt_elem_i([ 0,32,0 ],14,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').

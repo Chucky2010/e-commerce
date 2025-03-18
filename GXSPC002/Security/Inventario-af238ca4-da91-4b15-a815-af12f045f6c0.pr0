@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "inventario_FullControl",
+    "Description": "Inventario FullControl",
+    "ProgramName": "inventario",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "inventario_Execute",
+    "Description": "Inventario",
+    "ProgramName": "inventario",
+    "IsGXAutomatic": true,
+    "Parent": "inventario_FullControl"
+  },
+  {
+    "Name": "inventario_Insert",
+    "Description": "Inventario Insert",
+    "ProgramName": "inventario",
+    "IsGXAutomatic": true,
+    "Parent": "inventario_FullControl"
+  },
+  {
+    "Name": "inventario_Delete",
+    "Description": "Inventario Delete",
+    "ProgramName": "inventario",
+    "IsGXAutomatic": true,
+    "Parent": "inventario_FullControl"
+  },
+  {
+    "Name": "inventario_Update",
+    "Description": "Inventario Update",
+    "ProgramName": "inventario",
+    "IsGXAutomatic": true,
+    "Parent": "inventario_FullControl"
+  }
+]

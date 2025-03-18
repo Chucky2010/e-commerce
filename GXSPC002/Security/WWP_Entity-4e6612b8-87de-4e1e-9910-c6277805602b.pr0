@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "wwpentity_FullControl",
+    "Description": "WWP_Entity FullControl",
+    "ProgramName": "wwpbaseobjects.wwp_entity",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "wwpentity_Execute",
+    "Description": "WWP_Entity",
+    "ProgramName": "wwpbaseobjects.wwp_entity",
+    "IsGXAutomatic": true,
+    "Parent": "wwpentity_FullControl"
+  },
+  {
+    "Name": "wwpentity_Insert",
+    "Description": "WWP_Entity Insert",
+    "ProgramName": "wwpbaseobjects.wwp_entity",
+    "IsGXAutomatic": true,
+    "Parent": "wwpentity_FullControl"
+  },
+  {
+    "Name": "wwpentity_Delete",
+    "Description": "WWP_Entity Delete",
+    "ProgramName": "wwpbaseobjects.wwp_entity",
+    "IsGXAutomatic": true,
+    "Parent": "wwpentity_FullControl"
+  },
+  {
+    "Name": "wwpentity_Update",
+    "Description": "WWP_Entity Update",
+    "ProgramName": "wwpbaseobjects.wwp_entity",
+    "IsGXAutomatic": true,
+    "Parent": "wwpentity_FullControl"
+  }
+]

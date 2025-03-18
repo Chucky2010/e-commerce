@@ -1,0 +1,65 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>135</ObjId>
+<ObjName>WWPBaseObjects.Notifications.Common.WWP_MasterPageNotificationsWC</ObjName>
+<ObjDesc>Master Page Notifications</ObjDesc>
+<ObjPgmName>WWPBaseObjects.Notifications.Common.WWP_MasterPageNotificationsWC</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Refresh</EventName></Event>
+<Event>
+<EventName>Gridsdtnotificationsdatas.Load</EventName>
+<Binding>
+<Variable>
+<VarId>Sdtnotificationsdata</VarId>
+<VarName>&amp;SDTNotificationsData</VarName></Variable></Binding></Event>
+<Event>
+<EventName>'DoCheckAllNotif'</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>59</ObjId>
+<ObjName>WWPBaseObjects.Notifications.Common.WWP_VisualizeAllNotifications</ObjName>
+<ObjPgmName>WWPBaseObjects.Notifications.Common.WWP_VisualizeAllNotifications</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Expression></Expression>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>'CHECKSECURITYFORACTIONS'</EventName>
+<EventType>Subrutine</EventType></Event>
+<Event>
+<EventName>Notificationitem.Click</EventName>
+<CALL>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>60</ObjId>
+<ObjName>WWPBaseObjects.Notifications.Common.WWP_VisualizeNotification</ObjName>
+<ObjPgmName>WWPBaseObjects.Notifications.Common.WWP_VisualizeNotification</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Expression>
+<Variable>
+<VarId>Sdtnotificationsdata</VarId>
+<VarName>&amp;SDTNotificationsData</VarName></Variable>
+<Token>.</Token>
+<Token>Currentitem</Token>
+<Token>.</Token>
+<Token>Notificationid</Token></Expression>
+<IF></IF></CALL></Event>
+<Suggests></Suggests></ObjectSpec>

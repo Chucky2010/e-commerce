@@ -1,0 +1,618 @@
+spec_i([ proc,215,l('Get Ranged Radial Gauge From Config'),'WorkWithPlus\NativeMobile\WWPGetRangedRadialGaugeFromConfig',78,spa,'17_0_11-163677' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','WorkWithPlus.NativeMobile.WWPGetRangedRadialGaugeFromConfig')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('IntegratedSecurityPermissionPrefix','WWPGetRangedRadialGaugeFromConfig')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('REST','-1')).
+rule_i(0,prop('ExposeUsingNativeSoapSupport','UMPV')).
+rule_i(0,prop('SOAP','-1')).
+rule_i(0,prop(idISPRCWEBSERVICE,'-1')).
+rule_i(0,prop(idENABLEMTOM,'0')).
+rule_i(0,prop('SOAP_NAMESPACE','Mujer_Morena')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'WorkWithPlus\NativeMobile\Gauges'))).
+rule_i(0,prop('ObjDesc','Get Ranged Radial Gauge From Config')).
+rule_i(0,prop('ObjName','WWPGetRangedRadialGaugeFromConfig')).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Gaugeconfig','Html' ],[])).
+rule_i(0,parmio([ [ 'Gaugeconfig',in ],[ 'Html',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',15 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',14 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',13 ]).
+attri_i('Valuenumeric',[ 'ValueNumeric',int,6,0,'ZZZZZ9',0,l('Value Numeric'),'',12 ]).
+attri_i('Propertyvalue',[ propertyValue,svchar,40,0,'',0,l('property Value'),'',11 ]).
+attri_i('Propertyname',[ propertyName,svchar,40,0,'',0,l('property Name'),'',10 ]).
+attri_i('Gaugeconfig',[ 'GaugeConfig',o('WorkWithPlus\NativeMobile\RangedRadialGaugeConfig'),0,0,'',0,l('Gauge Config'),'',9 ]).
+attri_i('Html',[ 'HTML',vchar,2097152,0,'',0,l('HTML'),'',8 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(47,[ 'GeneXus\Html' ]).
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,71).
+b_group_i(1,2,lit,0,72,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',107,1,0),t('Html',23,0,0),t(=,10,0,0),t('''<meta name="viewport" content= "width=device-width, user-scalable=no"><style>text{font-size:40px;font-family:Arial,Helvetica,sans-serif;fill:black}div{text-align:center}#valuePoint{stroke:white;fill:%valuecolor%;stroke-width:10px}g{stroke-width:15}</style>''',3,0,0) ]).
+b_line_i(2,1,1,cmd,0,[ t('',107,2,0),t('Html',23,0,0),t(=,10,0,0),t('Html',23,0,0),t(+,5,0,0),t('''<div><svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="%width%" height="%height%" viewBox="-20 -20 240 240"> <defs> <linearGradient id="firstSection" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="1" y2="1"> <stop offset="0%" stop-color="%firstColorStart%"/> <stop offset="100%" stop-color="%firstColorEnd%"/> </linearGradient> <linearGradient id="secondSection" gradientUnits="objectBoundingBox" x1="0" y1="0" x2="0" y2="1"> <stop offset="0%" stop-color="%secondColorStart%"/> <stop offset="100%" stop-color="%secondColorEnd%"/> </linearGradient> <linearGradient id="thirdSection" gradientUnits="objectBoundingBox" x1="1" y1="0" x2="0" y2="1"> <stop offset="0%" stop-color="%thirdColorStart%"/> <stop offset="100%" stop-color="%thirdColorEnd%"/> </linearGradient> <linearGradient id="fourthSection" gradientUnits="objectBoundingBox" x1="1" y1="1" x2="0" y2="0"> <stop offset="0%" stop-color="%fourthColorStart%"/> <stop offset="100%" stop-color="%fourthColorEnd%"/> </linearGradient> <linearGradient id="fiveSection" gradientUnits="objectBoundingBox" x1="0" y1="1" x2="0" y2="0"> <stop offset="0%" stop-color="%fiveColorStart%"/> <stop offset="100%" stop-color="%fiveColorEnd%"/> </linearGradient> </defs><g fill="none" transform="translate(100,100), rotate(210)"> <path d="M 0,-100 A 100,100 0 0,1 86.6,-50" stroke="url(#firstSection)" style="stroke-linecap: round;"/> <path d="M 86.6,-50 A 100,100 0 0,1 86.6,50" stroke="url(#secondSection)"/> <path d="M 86.6,50 A 100,100 0 0,1 0,100" stroke="url(#thirdSection)"/> <path d="M 0,100 A 100,100 0 0,1 -86.6,50" stroke="url(#fourthSection)"/> <path d="M -86.6,50 A 100,100 0 0,1 -86.6,-50" stroke="url(#fiveSection)" style="stroke-linecap: round;"/> </g> <circle id="valuePoint" cx="170" cy="170" r="20" /> <text x="100" y="100" dominant-baseline="middle" text-anchor="middle">%text%</text> </svg></div>''',3,0,0) ]).
+b_line_i(3,1,1,cmd,0,[ t('',107,3,0),t('Html',23,0,0),t(=,10,0,0),t('Html',23,0,0),t(+,5,0,0),t('''<script>var degrees=%degrees%+90;var radians=degrees_to_radians(degrees);var radius=100;var x=Math.cos(radians)*radius+100;var y=Math.sin(radians)*radius+100;setPosition("valuePoint",x,y);function setPosition(id,x,y){var ctrl=document.getElementById(id);ctrl.setAttribute("cx",x);ctrl.setAttribute("cy",y);} function degrees_to_radians(degrees) {var pi=Math.PI;return degrees*(pi/180);}</script>''',3,0,0) ]).
+b_line_i(4,1,1,cmd,0,[]).
+b_line_i(5,1,1,cmd,0,[ t('',107,5,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"height"',3,0,0) ]).
+b_line_i(6,1,1,cmd,0,[ t('',107,6,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t('str(',1,0,0),t([ t('Gaugeconfig',23,0,0),t('Height',3,0,0) ],29,0,0),t(',',7,0,0),t(4,3,0,0),t(',',7,0,0),t(0,3,0,0),t(')',4,0,0) ]).
+b_line_i(7,1,1,cmd,0,[ t('',145,7,0),t('''REPLACETEMPLATE''',3,7,4) ]).
+b_line_i(8,1,1,cmd,0,[]).
+b_line_i(9,1,1,cmd,0,[ t('',107,9,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"width"',3,0,0) ]).
+b_line_i(10,1,1,cmd,0,[ t('',107,10,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t('str(',1,0,0),t([ t('Gaugeconfig',23,0,0),t('Width',3,0,0) ],29,0,0),t(',',7,0,0),t(4,3,0,0),t(',',7,0,0),t(0,3,0,0),t(')',4,0,0) ]).
+b_line_i(11,1,1,cmd,0,[ t('',145,11,0),t('''REPLACETEMPLATE''',3,11,4) ]).
+b_line_i(12,1,1,cmd,0,[]).
+b_line_i(13,1,1,cmd,0,[ t('',107,13,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"degrees"',3,0,0) ]).
+b_line_i(14,1,1,cmd,0,[ t('',107,14,0),t('Valuenumeric',23,0,0),t(=,10,0,0),t([ t('Gaugeconfig',23,0,0),t('Value',3,0,0) ],29,0,0),t(*,6,0,0),t('3',3,0,0),t(+,5,0,0),t('30',3,0,0) ]).
+b_line_i(15,1,1,cmd,0,[ t('',107,15,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t('str(',1,0,0),t('Valuenumeric',23,0,0),t(',',7,0,0),t(6,3,0,0),t(',',7,0,0),t(0,3,0,0),t(')',4,0,0) ]).
+b_line_i(16,1,1,cmd,0,[ t('',145,16,0),t('''REPLACETEMPLATE''',3,16,4) ]).
+b_line_i(17,1,1,cmd,0,[]).
+b_line_i(18,1,1,cmd,0,[ t('',107,18,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"valuecolor"',3,0,0) ]).
+b_line_i(19,1,1,cmd,0,[ t('',107,19,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t('"blue"',3,0,0) ]).
+b_line_i(20,1,1,cmd,0,[ t('',109,20,0),t('.NOT.',8,0,4),t('null(',1,20,48),t('trim(',1,0,40),t([ t('Gaugeconfig',23,20,10),t('Valuemarkercolor',3,20,23) ],29,20,23),t(')',4,0,46),t(')',4,0,57) ]).
+b_line_i(21,1,1,cmd,0,[ t('',107,21,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t([ t('Gaugeconfig',23,0,0),t('Valuemarkercolor',3,0,0) ],29,0,0) ]).
+b_line_i(22,1,1,cmd,0,[ t('',111,22,0) ]).
+b_line_i(23,1,1,cmd,0,[ t('',145,23,0),t('''REPLACETEMPLATE''',3,23,4) ]).
+b_line_i(24,1,1,cmd,0,[]).
+b_line_i(25,1,1,cmd,0,[ t('',107,25,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"text"',3,0,0) ]).
+b_line_i(26,1,1,cmd,0,[ t('',107,26,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t([ t('Gaugeconfig',23,0,0),t('Text',3,0,0) ],29,0,0) ]).
+b_line_i(27,1,1,cmd,0,[ t('',145,27,0),t('''REPLACETEMPLATE''',3,27,4) ]).
+b_line_i(28,1,1,cmd,0,[]).
+b_line_i(29,1,1,cmd,0,[ t('',107,29,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"firstColorStart"',3,0,0) ]).
+b_line_i(30,1,1,cmd,0,[ t('',107,30,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t([ t('Gaugeconfig',23,0,0),t('Range1colorstart',3,0,0) ],29,0,0) ]).
+b_line_i(31,1,1,cmd,0,[ t('',145,31,0),t('''REPLACETEMPLATE''',3,31,4) ]).
+b_line_i(32,1,1,cmd,0,[]).
+b_line_i(33,1,1,cmd,0,[ t('',107,33,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"firstColorEnd"',3,0,0) ]).
+b_line_i(34,1,1,cmd,0,[ t('',107,34,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t([ t('Gaugeconfig',23,0,0),t('Range1colorend',3,0,0) ],29,0,0) ]).
+b_line_i(35,1,1,cmd,0,[ t('',145,35,0),t('''REPLACETEMPLATE''',3,35,4) ]).
+b_line_i(36,1,1,cmd,0,[]).
+b_line_i(37,1,1,cmd,0,[ t('',107,37,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"secondColorStart"',3,0,0) ]).
+b_line_i(38,1,1,cmd,0,[ t('',107,38,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t([ t('Gaugeconfig',23,0,0),t('Range2colorstart',3,0,0) ],29,0,0) ]).
+b_line_i(39,1,1,cmd,0,[ t('',145,39,0),t('''REPLACETEMPLATE''',3,39,4) ]).
+b_line_i(40,1,1,cmd,0,[]).
+b_line_i(41,1,1,cmd,0,[ t('',107,41,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"secondColorEnd"',3,0,0) ]).
+b_line_i(42,1,1,cmd,0,[ t('',107,42,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t([ t('Gaugeconfig',23,0,0),t('Range2colorend',3,0,0) ],29,0,0) ]).
+b_line_i(43,1,1,cmd,0,[ t('',145,43,0),t('''REPLACETEMPLATE''',3,43,4) ]).
+b_line_i(44,1,1,cmd,0,[]).
+b_line_i(45,1,1,cmd,0,[ t('',107,45,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"thirdColorStart"',3,0,0) ]).
+b_line_i(46,1,1,cmd,0,[ t('',107,46,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t([ t('Gaugeconfig',23,0,0),t('Range3colorstart',3,0,0) ],29,0,0) ]).
+b_line_i(47,1,1,cmd,0,[ t('',145,47,0),t('''REPLACETEMPLATE''',3,47,4) ]).
+b_line_i(48,1,1,cmd,0,[]).
+b_line_i(49,1,1,cmd,0,[ t('',107,49,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"thirdColorEnd"',3,0,0) ]).
+b_line_i(50,1,1,cmd,0,[ t('',107,50,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t([ t('Gaugeconfig',23,0,0),t('Range3colorend',3,0,0) ],29,0,0) ]).
+b_line_i(51,1,1,cmd,0,[ t('',145,51,0),t('''REPLACETEMPLATE''',3,51,4) ]).
+b_line_i(52,1,1,cmd,0,[]).
+b_line_i(53,1,1,cmd,0,[ t('',107,53,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"fourthColorStart"',3,0,0) ]).
+b_line_i(54,1,1,cmd,0,[ t('',107,54,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t([ t('Gaugeconfig',23,0,0),t('Range4colorstart',3,0,0) ],29,0,0) ]).
+b_line_i(55,1,1,cmd,0,[ t('',145,55,0),t('''REPLACETEMPLATE''',3,55,4) ]).
+b_line_i(56,1,1,cmd,0,[]).
+b_line_i(57,1,1,cmd,0,[ t('',107,57,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"fourthColorEnd"',3,0,0) ]).
+b_line_i(58,1,1,cmd,0,[ t('',107,58,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t([ t('Gaugeconfig',23,0,0),t('Range4colorend',3,0,0) ],29,0,0) ]).
+b_line_i(59,1,1,cmd,0,[ t('',145,59,0),t('''REPLACETEMPLATE''',3,59,4) ]).
+b_line_i(60,1,1,cmd,0,[]).
+b_line_i(61,1,1,cmd,0,[]).
+b_line_i(62,1,1,cmd,0,[ t('',107,62,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"fiveColorStart"',3,0,0) ]).
+b_line_i(63,1,1,cmd,0,[ t('',107,63,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t([ t('Gaugeconfig',23,0,0),t('Range5colorstart',3,0,0) ],29,0,0) ]).
+b_line_i(64,1,1,cmd,0,[ t('',145,64,0),t('''REPLACETEMPLATE''',3,64,4) ]).
+b_line_i(65,1,1,cmd,0,[]).
+b_line_i(66,1,1,cmd,0,[ t('',107,66,0),t('Propertyname',23,0,0),t(=,10,0,0),t('getmessagetext(',1,0,0),t('"fiveColorEnd"',3,0,0),t(')',4,0,0) ]).
+b_line_i(67,1,1,cmd,0,[ t('',107,67,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t([ t('Gaugeconfig',23,0,0),t('Range5colorend',3,0,0) ],29,0,0) ]).
+b_line_i(68,1,1,cmd,0,[ t('',145,68,0),t('''REPLACETEMPLATE''',3,68,4) ]).
+b_line_i(69,1,1,cmd,0,[]).
+b_line_i(70,1,1,cmd,0,[]).
+b_line_i(71,1,1,cmd,0,[ t('',143,71,0),t('''REPLACETEMPLATE''',3,71,5) ]).
+b_line_i(72,1,2,cmd,0,[ t('',107,72,0),t('Html',23,0,0),t(=,10,0,0),t('strreplace(',1,0,0),t('Html',23,0,0),t(',',7,0,0),t('"%"',3,0,0),t(+,5,0,0),t('trim(',1,0,0),t('Propertyname',23,0,0),t(')',4,0,0),t(+,5,0,0),t('"%"',3,0,0),t(',',7,0,0),t('trim(',1,0,0),t('Propertyvalue',23,0,0),t(')',4,0,0),t(')',4,0,0) ]).
+b_line_i(73,1,2,cmd,0,[ t('',144,73,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+var_prop_i(2,'Html',idBasedOn,47,v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,103,0 ],name,'WorkWithPlus\NativeMobile\RangedRadialGaugeConfig').
+struct_dt_i([ 26,103,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,103,0 ],'ObjName','RangedRadialGaugeConfig').
+struct_dt_i([ 26,103,0 ],'ObjDesc','Ranged Radial Gauge Config').
+struct_dt_i([ 26,103,0 ],'ExternalName','RangedRadialGaugeConfig').
+struct_dt_i([ 26,103,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,103,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,103,0 ],fullname,'WorkWithPlus\NativeMobile\RangedRadialGaugeConfig').
+ 
+struct_dt_elem_i([ 26,103,0 ],1,name,'Value').
+struct_dt_elem_i([ 26,103,0 ],1,camelname,'Value').
+struct_dt_elem_i([ 26,103,0 ],1,length,4).
+struct_dt_elem_i([ 26,103,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,103,0 ],1,sign,0).
+struct_dt_elem_i([ 26,103,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,103,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,103,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,103,0 ],1,'ExternalName','Value').
+struct_dt_elem_i([ 26,103,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,103,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,103,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,103,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,103,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,103,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,103,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,103,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,103,0 ],2,name,'Text').
+struct_dt_elem_i([ 26,103,0 ],2,camelname,'Text').
+struct_dt_elem_i([ 26,103,0 ],2,length,20).
+struct_dt_elem_i([ 26,103,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,103,0 ],2,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,103,0 ],2,pic,'').
+struct_dt_elem_i([ 26,103,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,103,0 ],2,'ExternalName','Text').
+struct_dt_elem_i([ 26,103,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,103,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,103,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,103,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,103,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,103,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,103,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,103,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,103,0 ],3,name,'Width').
+struct_dt_elem_i([ 26,103,0 ],3,camelname,'Width').
+struct_dt_elem_i([ 26,103,0 ],3,length,4).
+struct_dt_elem_i([ 26,103,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,103,0 ],3,sign,0).
+struct_dt_elem_i([ 26,103,0 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,103,0 ],3,pic,'ZZZ9').
+struct_dt_elem_i([ 26,103,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,103,0 ],3,'ExternalName','Width').
+struct_dt_elem_i([ 26,103,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,103,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,103,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,103,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,103,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,103,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,103,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,103,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,103,0 ],4,name,'Height').
+struct_dt_elem_i([ 26,103,0 ],4,camelname,'Height').
+struct_dt_elem_i([ 26,103,0 ],4,length,4).
+struct_dt_elem_i([ 26,103,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,103,0 ],4,sign,0).
+struct_dt_elem_i([ 26,103,0 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,103,0 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,103,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,103,0 ],4,'ExternalName','Height').
+struct_dt_elem_i([ 26,103,0 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,103,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,103,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,103,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,103,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,103,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,103,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,103,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,103,0 ],5,name,'Range1colorstart').
+struct_dt_elem_i([ 26,103,0 ],5,camelname,'Range1ColorStart').
+struct_dt_elem_i([ 26,103,0 ],5,length,20).
+struct_dt_elem_i([ 26,103,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,103,0 ],5,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,103,0 ],5,pic,'').
+struct_dt_elem_i([ 26,103,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,103,0 ],5,'ExternalName','Range1ColorStart').
+struct_dt_elem_i([ 26,103,0 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,103,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,103,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,103,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,103,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,103,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,103,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,103,0 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,103,0 ],6,name,'Range1colorend').
+struct_dt_elem_i([ 26,103,0 ],6,camelname,'Range1ColorEnd').
+struct_dt_elem_i([ 26,103,0 ],6,length,20).
+struct_dt_elem_i([ 26,103,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,103,0 ],6,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,103,0 ],6,pic,'').
+struct_dt_elem_i([ 26,103,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,103,0 ],6,'ExternalName','Range1ColorEnd').
+struct_dt_elem_i([ 26,103,0 ],6,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,103,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,103,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,103,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,103,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,103,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,103,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,103,0 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,103,0 ],7,name,'Range2colorstart').
+struct_dt_elem_i([ 26,103,0 ],7,camelname,'Range2ColorStart').
+struct_dt_elem_i([ 26,103,0 ],7,length,20).
+struct_dt_elem_i([ 26,103,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,103,0 ],7,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,103,0 ],7,pic,'').
+struct_dt_elem_i([ 26,103,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,103,0 ],7,'ExternalName','Range2ColorStart').
+struct_dt_elem_i([ 26,103,0 ],7,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,103,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,103,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,103,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,103,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,103,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,103,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,103,0 ],7,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,103,0 ],8,name,'Range2colorend').
+struct_dt_elem_i([ 26,103,0 ],8,camelname,'Range2ColorEnd').
+struct_dt_elem_i([ 26,103,0 ],8,length,20).
+struct_dt_elem_i([ 26,103,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,103,0 ],8,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,103,0 ],8,pic,'').
+struct_dt_elem_i([ 26,103,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,103,0 ],8,'ExternalName','Range2ColorEnd').
+struct_dt_elem_i([ 26,103,0 ],8,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,103,0 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,103,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,103,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,103,0 ],8,soaptype,'').
+struct_dt_elem_i([ 26,103,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,103,0 ],8,'JsonName','').
+struct_dt_elem_i([ 26,103,0 ],8,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,103,0 ],9,name,'Range3colorstart').
+struct_dt_elem_i([ 26,103,0 ],9,camelname,'Range3ColorStart').
+struct_dt_elem_i([ 26,103,0 ],9,length,20).
+struct_dt_elem_i([ 26,103,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,103,0 ],9,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,103,0 ],9,pic,'').
+struct_dt_elem_i([ 26,103,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,103,0 ],9,'ExternalName','Range3ColorStart').
+struct_dt_elem_i([ 26,103,0 ],9,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,103,0 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,103,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,103,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,103,0 ],9,soaptype,'').
+struct_dt_elem_i([ 26,103,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,103,0 ],9,'JsonName','').
+struct_dt_elem_i([ 26,103,0 ],9,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,103,0 ],10,name,'Range3colorend').
+struct_dt_elem_i([ 26,103,0 ],10,camelname,'Range3ColorEnd').
+struct_dt_elem_i([ 26,103,0 ],10,length,20).
+struct_dt_elem_i([ 26,103,0 ],10,decimals,0).
+struct_dt_elem_i([ 26,103,0 ],10,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,103,0 ],10,pic,'').
+struct_dt_elem_i([ 26,103,0 ],10,collection,'False').
+struct_dt_elem_i([ 26,103,0 ],10,'ExternalName','Range3ColorEnd').
+struct_dt_elem_i([ 26,103,0 ],10,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,103,0 ],10,'XmlType','Element').
+struct_dt_elem_i([ 26,103,0 ],10,'XmlName','').
+struct_dt_elem_i([ 26,103,0 ],10,'XmlNamespace','').
+struct_dt_elem_i([ 26,103,0 ],10,soaptype,'').
+struct_dt_elem_i([ 26,103,0 ],10,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,103,0 ],10,'JsonName','').
+struct_dt_elem_i([ 26,103,0 ],10,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,103,0 ],11,name,'Range4colorstart').
+struct_dt_elem_i([ 26,103,0 ],11,camelname,'Range4ColorStart').
+struct_dt_elem_i([ 26,103,0 ],11,length,20).
+struct_dt_elem_i([ 26,103,0 ],11,decimals,0).
+struct_dt_elem_i([ 26,103,0 ],11,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,103,0 ],11,pic,'').
+struct_dt_elem_i([ 26,103,0 ],11,collection,'False').
+struct_dt_elem_i([ 26,103,0 ],11,'ExternalName','Range4ColorStart').
+struct_dt_elem_i([ 26,103,0 ],11,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,103,0 ],11,'XmlType','Element').
+struct_dt_elem_i([ 26,103,0 ],11,'XmlName','').
+struct_dt_elem_i([ 26,103,0 ],11,'XmlNamespace','').
+struct_dt_elem_i([ 26,103,0 ],11,soaptype,'').
+struct_dt_elem_i([ 26,103,0 ],11,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,103,0 ],11,'JsonName','').
+struct_dt_elem_i([ 26,103,0 ],11,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,103,0 ],12,name,'Range4colorend').
+struct_dt_elem_i([ 26,103,0 ],12,camelname,'Range4ColorEnd').
+struct_dt_elem_i([ 26,103,0 ],12,length,20).
+struct_dt_elem_i([ 26,103,0 ],12,decimals,0).
+struct_dt_elem_i([ 26,103,0 ],12,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,103,0 ],12,pic,'').
+struct_dt_elem_i([ 26,103,0 ],12,collection,'False').
+struct_dt_elem_i([ 26,103,0 ],12,'ExternalName','Range4ColorEnd').
+struct_dt_elem_i([ 26,103,0 ],12,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,103,0 ],12,'XmlType','Element').
+struct_dt_elem_i([ 26,103,0 ],12,'XmlName','').
+struct_dt_elem_i([ 26,103,0 ],12,'XmlNamespace','').
+struct_dt_elem_i([ 26,103,0 ],12,soaptype,'').
+struct_dt_elem_i([ 26,103,0 ],12,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,103,0 ],12,'JsonName','').
+struct_dt_elem_i([ 26,103,0 ],12,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,103,0 ],13,name,'Range5colorstart').
+struct_dt_elem_i([ 26,103,0 ],13,camelname,'Range5ColorStart').
+struct_dt_elem_i([ 26,103,0 ],13,length,20).
+struct_dt_elem_i([ 26,103,0 ],13,decimals,0).
+struct_dt_elem_i([ 26,103,0 ],13,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,103,0 ],13,pic,'').
+struct_dt_elem_i([ 26,103,0 ],13,collection,'False').
+struct_dt_elem_i([ 26,103,0 ],13,'ExternalName','Range5ColorStart').
+struct_dt_elem_i([ 26,103,0 ],13,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,103,0 ],13,'XmlType','Element').
+struct_dt_elem_i([ 26,103,0 ],13,'XmlName','').
+struct_dt_elem_i([ 26,103,0 ],13,'XmlNamespace','').
+struct_dt_elem_i([ 26,103,0 ],13,soaptype,'').
+struct_dt_elem_i([ 26,103,0 ],13,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,103,0 ],13,'JsonName','').
+struct_dt_elem_i([ 26,103,0 ],13,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,103,0 ],14,name,'Range5colorend').
+struct_dt_elem_i([ 26,103,0 ],14,camelname,'Range5ColorEnd').
+struct_dt_elem_i([ 26,103,0 ],14,length,20).
+struct_dt_elem_i([ 26,103,0 ],14,decimals,0).
+struct_dt_elem_i([ 26,103,0 ],14,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,103,0 ],14,pic,'').
+struct_dt_elem_i([ 26,103,0 ],14,collection,'False').
+struct_dt_elem_i([ 26,103,0 ],14,'ExternalName','Range5ColorEnd').
+struct_dt_elem_i([ 26,103,0 ],14,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,103,0 ],14,'XmlType','Element').
+struct_dt_elem_i([ 26,103,0 ],14,'XmlName','').
+struct_dt_elem_i([ 26,103,0 ],14,'XmlNamespace','').
+struct_dt_elem_i([ 26,103,0 ],14,soaptype,'').
+struct_dt_elem_i([ 26,103,0 ],14,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,103,0 ],14,'JsonName','').
+struct_dt_elem_i([ 26,103,0 ],14,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,103,0 ],15,name,'Valuemarkercolor').
+struct_dt_elem_i([ 26,103,0 ],15,camelname,'ValueMarkerColor').
+struct_dt_elem_i([ 26,103,0 ],15,length,20).
+struct_dt_elem_i([ 26,103,0 ],15,decimals,0).
+struct_dt_elem_i([ 26,103,0 ],15,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 26,103,0 ],15,pic,'').
+struct_dt_elem_i([ 26,103,0 ],15,collection,'False').
+struct_dt_elem_i([ 26,103,0 ],15,'ExternalName','ValueMarkerColor').
+struct_dt_elem_i([ 26,103,0 ],15,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,103,0 ],15,'XmlType','Element').
+struct_dt_elem_i([ 26,103,0 ],15,'XmlName','').
+struct_dt_elem_i([ 26,103,0 ],15,'XmlNamespace','').
+struct_dt_elem_i([ 26,103,0 ],15,soaptype,'').
+struct_dt_elem_i([ 26,103,0 ],15,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,103,0 ],15,'JsonName','').
+struct_dt_elem_i([ 26,103,0 ],15,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+security_permission_i(wwpgetrangedradialgaugefromconfig_Services_Execute,execute,service).
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,215,'WORKWITHPLUS\NATIVEMOBILE\WWPGETRANGEDRADIALGAUGEFROMCONFIG','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

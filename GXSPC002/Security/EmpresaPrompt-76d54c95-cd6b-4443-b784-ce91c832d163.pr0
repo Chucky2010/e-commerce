@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "empresaprompt_Execute",
+    "Description": "Selecciona Empresa",
+    "ProgramName": "empresaprompt",
+    "IsGXAutomatic": true
+  }
+]

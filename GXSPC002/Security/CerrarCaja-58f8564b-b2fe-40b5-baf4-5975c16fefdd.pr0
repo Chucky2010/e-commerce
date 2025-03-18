@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "cerrarcaja_Execute",
+    "Description": "Cerrar Caja",
+    "ProgramName": "cerrarcaja",
+    "IsGXAutomatic": true
+  }
+]

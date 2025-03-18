@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamwwusers_Execute",
+    "Description": "WWP_GAM_Users",
+    "ProgramName": "gamwwusers",
+    "IsGXAutomatic": true
+  }
+]

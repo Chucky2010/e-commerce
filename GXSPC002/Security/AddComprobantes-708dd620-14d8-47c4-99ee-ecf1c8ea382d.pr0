@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "verdisponsd_Services_Execute",
+    "Description": "Add Comprobantes Services",
+    "ProgramName": "addcomprobantes",
+    "IsGXAutomatic": true
+  }
+]

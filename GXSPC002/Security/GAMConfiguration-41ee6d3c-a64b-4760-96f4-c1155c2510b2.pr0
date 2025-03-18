@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamconfiguration_Execute",
+    "Description": "GAM Configuration",
+    "ProgramName": "gamconfiguration",
+    "IsGXAutomatic": true
+  }
+]

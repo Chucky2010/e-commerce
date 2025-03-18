@@ -1,0 +1,77 @@
+:root
+{
+	--colors_HeaderForecolor : #FFF;
+	--colors_PDF : #ea4c3a;
+	--colors_ExcelColor : #08743b;
+	--colors_Danger : #f56a67;
+	--colors_Danger_CondForm : #dd4b39;
+	--colors_Danger_CondForm_Row_Background : #f2dede;
+	--colors_Danger_CondForm_Action : #e5cccc;
+	--colors_Danger_CondForm_Action_Hover : rgba(245,106,103,0.5);
+	--colors_Warning : #f39c12;
+	--colors_Warning_CondForm : #fb6e52;
+	--colors_Warning_CondForm_Row_Background : #faf2cc;
+	--colors_Warning_CondForm_Action : #fed6be;
+	--colors_Warning_CondForm_Action_Hover : rgba(251,110,82,0.5);
+	--colors_Success_CondForm : #00a65a;
+	--colors_Success_CondForm_Row_Background : #dff0d8;
+	--colors_Success_CondForm_Action : #b9ccb7;
+	--colors_Success_CondForm_Action_Hover : rgba(0,166,90,0.5);
+	--colors_Info_CondForm : #3c8dbc;
+	--colors_Info_CondForm_Row_Background : #e0f1ff;
+	--colors_Info_CondForm_Action : #bcdcf5;
+	--colors_Info_CondForm_Action_Hover : rgba(60,141,188,0.5);
+	--colors_InfoLight : #00c0ef;
+	--fonts_primary-regular : Montserrat,sans-serif;
+	--fontSizes_xs : 11px;
+	--fontSizes_s : 14px;
+	--fontSizes_m : 18px;
+	--fontSizes_l : 22px;
+	--fontSizes_xl : 28px;
+	--fontSizes_xxl : 34px;
+	--fontSizes_font-icon-xxs : 10px;
+	--fontSizes_font-icon-xs : 12px;
+	--fontSizes_font-icon-s : 16px;
+	--fontSizes_font-icon-m : 19px;
+	--fontSizes_font-icon-l : 24px;
+	--fontSizes_font-icon-xl : 36px;
+	--borders_xs : 1px;
+	--borders_s : 2px;
+	--radius_s : 2px;
+	--radius_m : 4px;
+	--radius_l : 6px;
+
+}
+
+[gx-data-base-color="Custom"]
+{
+	--colors_BaseColor : Olive;
+	--colors_BaseColorForecolor : Olive;
+	--colors_ActionBorder_and_FocusColor : #676700;
+	--colors_ActionHover : #767600;
+	--colors_ActionHoverBorder : #6C6C00;
+	--colors_BaseColorShadow : rgba(128, 128, 0, 0.7);
+	--colors_BaseForecolor80 : rgba(255,255,255,0.8);
+	--colors_BaseColor30 : rgba(128, 128, 0, 0.3);
+	--colors_BaseForecolor : white;
+
+}
+
+[gx-data-background-color="Light"]
+{
+	--colors_gray01 : #fbfbfb;
+	--colors_gray02 : #f7f7f7;
+	--colors_gray03 : #f5f4f4;
+	--colors_gray04 : #eee;
+	--colors_gray05 : #d9d9d9;
+	--colors_gray06 : #c8c8c8;
+	--colors_gray07 : #8c8d8e;
+	--colors_gray08 : #575b5d;
+	--colors_BackgroundColor : white;
+	--colors_DataBackgroundColor : #fff;
+	--colors_GridForecolor : #000;
+	--colors_GridActionIconColor : #fff;
+	--colors_HorizontalMenu_SubmenuForecolor : #575B5D;
+	--colors_GridTitleColor : #6C6C00;
+
+}

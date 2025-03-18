@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "devoluciones_FullControl",
+    "Description": "Devoluciones FullControl",
+    "ProgramName": "devoluciones",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "devoluciones_Execute",
+    "Description": "Devoluciones",
+    "ProgramName": "devoluciones",
+    "IsGXAutomatic": true,
+    "Parent": "devoluciones_FullControl"
+  },
+  {
+    "Name": "devoluciones_Insert",
+    "Description": "Devoluciones Insert",
+    "ProgramName": "devoluciones",
+    "IsGXAutomatic": true,
+    "Parent": "devoluciones_FullControl"
+  },
+  {
+    "Name": "devoluciones_Delete",
+    "Description": "Devoluciones Delete",
+    "ProgramName": "devoluciones",
+    "IsGXAutomatic": true,
+    "Parent": "devoluciones_FullControl"
+  },
+  {
+    "Name": "devoluciones_Update",
+    "Description": "Devoluciones Update",
+    "ProgramName": "devoluciones",
+    "IsGXAutomatic": true,
+    "Parent": "devoluciones_FullControl"
+  }
+]

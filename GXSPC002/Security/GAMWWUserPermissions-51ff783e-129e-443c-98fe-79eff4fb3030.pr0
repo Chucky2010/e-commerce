@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamwwuserpermissions_Execute",
+    "Description": "WWP_GAM_UserPermissions",
+    "ProgramName": "gamwwuserpermissions",
+    "IsGXAutomatic": true
+  }
+]

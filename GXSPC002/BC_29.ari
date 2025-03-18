@@ -1,0 +1,3 @@
+bc_dt_elem_i([ 0,29,0 ],'Wwpentityid',allownulls,no).
+bc_dt_elem_i([ 0,29,0 ],'Wwpentityname',allownulls,no).
+ 

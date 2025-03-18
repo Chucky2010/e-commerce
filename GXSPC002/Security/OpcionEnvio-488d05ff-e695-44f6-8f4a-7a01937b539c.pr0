@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "opcionenvio_FullControl",
+    "Description": "Opcion Envio FullControl",
+    "ProgramName": "opcionenvio",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "opcionenvio_Execute",
+    "Description": "Opcion Envio",
+    "ProgramName": "opcionenvio",
+    "IsGXAutomatic": true,
+    "Parent": "opcionenvio_FullControl"
+  },
+  {
+    "Name": "opcionenvio_Insert",
+    "Description": "Opcion Envio Insert",
+    "ProgramName": "opcionenvio",
+    "IsGXAutomatic": true,
+    "Parent": "opcionenvio_FullControl"
+  },
+  {
+    "Name": "opcionenvio_Delete",
+    "Description": "Opcion Envio Delete",
+    "ProgramName": "opcionenvio",
+    "IsGXAutomatic": true,
+    "Parent": "opcionenvio_FullControl"
+  },
+  {
+    "Name": "opcionenvio_Update",
+    "Description": "Opcion Envio Update",
+    "ProgramName": "opcionenvio",
+    "IsGXAutomatic": true,
+    "Parent": "opcionenvio_FullControl"
+  }
+]

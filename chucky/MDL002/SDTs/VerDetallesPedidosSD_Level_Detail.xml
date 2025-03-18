@@ -1,0 +1,107 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>VerDetallesPedidosSD_Level_DetailSdt</name>
+<camelname>VerDetallesPedidosSD_Level_DetailSdt</camelname>
+<camelnameex>VerDetallesPedidosSD_Level_DetailSdt</camelnameex>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<modified>yes</modified>
+<fullname>VerDetallesPedidosSD_Level_DetailSdt</fullname>
+<members>
+<member>
+<name>Pedidosid</name>
+<camelname>Pedidosid</camelname>
+<type>[ 4,11,0 ]</type>
+<length>11</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Pedidosfecha</name>
+<camelname>Pedidosfecha</camelname>
+<type>[ 6,8,0 ]</type>
+<length>8</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Tipopagoid</name>
+<camelname>Tipopagoid</camelname>
+<type>[ 4,11,0 ]</type>
+<length>11</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Pedidosimagencomprobante</name>
+<camelname>Pedidosimagencomprobante</camelname>
+<type>[ 7,1024,0 ]</type>
+<length>1024</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Pedidoscomprobanteobs</name>
+<camelname>Pedidoscomprobanteobs</camelname>
+<type>[ 13,512,0 ]</type>
+<length>512</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Gxdesc_tipopagoid</name>
+<camelname>Gxdesc_tipopagoid</camelname>
+<type>[ 13,1000,0 ]</type>
+<length>1000</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member></members></Level>
+<Services>
+<Dynload>
+<Control>
+<Variable>
+<VarId>Tipopagoid</VarId>
+<VarName>&amp;Tipopagoid</VarName></Variable></Control>
+<InputValues>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>TipoPagoId</AttriName>
+<Description>Tipo Pago Id</Description></Attribute></InputValues>
+<InputDescriptions>
+<Attribute>
+<AttriId>71</AttriId>
+<AttriName>TipoPagoNombre</AttriName>
+<Description>Tipo Pago Nombre</Description></Attribute></InputDescriptions>
+<Inputs></Inputs>
+<Outputs>
+<Variable>
+<VarId>Tipopagoid</VarId>
+<VarName>&amp;Tipopagoid</VarName></Variable></Outputs></Dynload></Services>
+<Prompts></Prompts>
+<TableAccess>
+<Table>
+<Id>9</Id>
+<Name>TipoPago</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>y</IsBase></Table>
+<Table>
+<Id>47</Id>
+<Name>Pedidos</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>y</IsBase></Table></TableAccess>
+<XRef></XRef></SdtSpec>

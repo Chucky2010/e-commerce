@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "nmcartproductscount_Services_Execute",
+    "Description": "NMCart Products Count Services",
+    "ProgramName": "nmcartproductscount",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,179 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>186</ObjId>
+<ObjName>PRCCerrarCaja</ObjName>
+<ObjDesc>PRCCerrar Caja</ObjDesc>
+<ObjPgmName>PRCCerrarCaja</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0060</MsgCode>
+<Message>
+<Token>The program may be called by another program and the Commit on Exit property is set to YES</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>4</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>23</TableId>
+<TableName>Caja</TableName>
+<Description>Caja</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>CajaId</AttriName>
+<Description>Caja Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ICAJA</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>255</AttriId>
+<AttriName>CajaAsiganacion</AttriName>
+<Description>Caja Asiganacion</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Username</VarId>
+<VarName>&amp;UserName</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>23</TableId>
+<TableName>Caja</TableName>
+<Description>Caja</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>CajaId</AttriName>
+<Description>Caja Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>23</TableId>
+<TableName>Caja</TableName>
+<Description>Caja</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>255</AttriId>
+<AttriName>CajaAsiganacion</AttriName>
+<Description>Caja Asiganacion</Description></Attribute>
+<Attribute>
+<AttriId>253</AttriId>
+<AttriName>CajaEstado</AttriName>
+<Description>Caja Estado</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>3</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>11</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>25</TableId>
+<TableName>MovimientoCaja</TableName>
+<Description>Movimiento Caja</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>27</AttriId>
+<AttriName>MovimientoCajaId</AttriName>
+<Description>Movimiento Caja Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IMOVIMIENTOCAJA</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>267</AttriId>
+<AttriName>MovimientoCajaEstado</AttriName>
+<Description>Movimiento Caja Estado</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>getmessagetext(</Token>
+<Sp></Sp>
+<Token>&quot;ACT&quot;</Token>
+<Token>)</Token>
+<Icon>client</Icon></Condition>
+<Condition>
+<Attribute>
+<AttriId>256</AttriId>
+<AttriName>MovimientoCajaAsignacion</AttriName>
+<Description>Movimiento Caja Asignacion</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Username</VarId>
+<VarName>&amp;UserName</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>25</TableId>
+<TableName>MovimientoCaja</TableName>
+<Description>Movimiento Caja</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>27</AttriId>
+<AttriName>MovimientoCajaId</AttriName>
+<Description>Movimiento Caja Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>25</TableId>
+<TableName>MovimientoCaja</TableName>
+<Description>Movimiento Caja</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>267</AttriId>
+<AttriName>MovimientoCajaEstado</AttriName>
+<Description>Movimiento Caja Estado</Description></Attribute>
+<Attribute>
+<AttriId>268</AttriId>
+<AttriName>MovimientoCajaFechaCierre</AttriName>
+<Description>Movimiento Caja Fecha Cierre</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

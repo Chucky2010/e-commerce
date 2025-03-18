@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "clasificacioncliente_FullControl",
+    "Description": "Clasificacion Cliente FullControl",
+    "ProgramName": "clasificacioncliente",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "clasificacioncliente_Execute",
+    "Description": "Clasificacion Cliente",
+    "ProgramName": "clasificacioncliente",
+    "IsGXAutomatic": true,
+    "Parent": "clasificacioncliente_FullControl"
+  },
+  {
+    "Name": "clasificacioncliente_Insert",
+    "Description": "Clasificacion Cliente Insert",
+    "ProgramName": "clasificacioncliente",
+    "IsGXAutomatic": true,
+    "Parent": "clasificacioncliente_FullControl"
+  },
+  {
+    "Name": "clasificacioncliente_Delete",
+    "Description": "Clasificacion Cliente Delete",
+    "ProgramName": "clasificacioncliente",
+    "IsGXAutomatic": true,
+    "Parent": "clasificacioncliente_FullControl"
+  },
+  {
+    "Name": "clasificacioncliente_Update",
+    "Description": "Clasificacion Cliente Update",
+    "ProgramName": "clasificacioncliente",
+    "IsGXAutomatic": true,
+    "Parent": "clasificacioncliente_FullControl"
+  }
+]

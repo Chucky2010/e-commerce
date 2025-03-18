@@ -1,0 +1,29 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>MujerMorenaSDHome_Level_DetailSdt</name>
+<camelname>MujerMorenaSDHome_Level_DetailSdt</camelname>
+<camelnameex>MujerMorenaSDHome_Level_DetailSdt</camelnameex>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<modified>yes</modified>
+<fullname>MujerMorenaSDHome_Level_DetailSdt</fullname>
+<members>
+<member>
+<name>Gxdynprop</name>
+<camelname>Gxdynprop</camelname>
+<type>[ 5,2,0 ]</type>
+<length>2</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member></members></Level>
+<Prompts></Prompts>
+<TableAccess></TableAccess>
+<XRef>
+<Object>
+<Class>1</Class>
+<Id>234</Id>
+<Guid>081b0825-2b4c-42f4-954d-fb58cf364686</Guid></Object></XRef></SdtSpec>

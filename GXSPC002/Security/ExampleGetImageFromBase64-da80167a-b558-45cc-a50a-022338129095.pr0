@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "examplegetimagefrombase64_Services_Execute",
+    "Description": "Get Image From Base64 Services",
+    "ProgramName": "workwithplus.nativemobile.examplegetimagefrombase64",
+    "IsGXAutomatic": true
+  }
+]

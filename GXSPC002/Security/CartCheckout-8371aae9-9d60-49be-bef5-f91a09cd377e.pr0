@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "cartcheckout_Execute",
+    "Description": "Cart Checkout",
+    "ProgramName": "wwpbaseobjects.cartcheckout",
+    "IsGXAutomatic": true
+  }
+]

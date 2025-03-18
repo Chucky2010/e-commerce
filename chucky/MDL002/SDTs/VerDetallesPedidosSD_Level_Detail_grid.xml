@@ -1,0 +1,98 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>VerDetallesPedidosSD_Level_Detail_gridSdt</name>
+<camelname>VerDetallesPedidosSD_Level_Detail_gridSdt</camelname>
+<camelnameex>VerDetallesPedidosSD_Level_Detail_gridSdt</camelnameex>
+<collection>True</collection>
+<datatype>[ 26,1000000,1 ]</datatype>
+<wwsd_sdt>True</wwsd_sdt>
+<modified>yes</modified>
+<fullname>VerDetallesPedidosSD_Level_Detail_gridSdt</fullname></Level>
+<Level>
+<id>[ 26,1000000,1 ]</id>
+<name>Item</name>
+<camelname>Item</camelname>
+<camelnameex>Item</camelnameex>
+<modified>yes</modified>
+<fullname>VerDetallesPedidosSD_Level_Detail_gridSdt.Item</fullname>
+<members>
+<member>
+<name>Pedidosdetalleid</name>
+<camelname>Pedidosdetalleid</camelname>
+<type>[ 4,11,0 ]</type>
+<length>11</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Articuloid</name>
+<camelname>Articuloid</camelname>
+<type>[ 4,11,0 ]</type>
+<length>11</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Articulonombre</name>
+<camelname>Articulonombre</camelname>
+<type>[ 5,80,0 ]</type>
+<length>80</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Pedidosdetalletallaid</name>
+<camelname>Pedidosdetalletallaid</camelname>
+<type>[ 4,11,0 ]</type>
+<length>11</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Pedidosdetallecantidad</name>
+<camelname>Pedidosdetallecantidad</camelname>
+<type>[ 4,5,0 ]</type>
+<length>5</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member></members></Level>
+<Prompts></Prompts>
+<TableAccess>
+<Table>
+<Id>14</Id>
+<Name>Articulo</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>n</IsBase></Table>
+<Table>
+<Id>47</Id>
+<Name>Pedidos</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>y</IsBase></Table>
+<Table>
+<Id>48</Id>
+<Name>PedidosDetalle</Name>
+<Read>y</Read>
+<Insert>n</Insert>
+<Update>n</Update>
+<Delete>n</Delete>
+<IsBase>y</IsBase></Table></TableAccess>
+<XRef></XRef>
+<Input>
+<Parm>
+<Variable>
+<VarId>Pedidosid</VarId>
+<VarName>&amp;Pedidosid</VarName></Variable></Parm></Input></SdtSpec>

@@ -1,0 +1,393 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>11</ObjId>
+<ObjName>Compras</ObjName>
+<ObjDesc>Compras</ObjDesc>
+<ObjPgmName>Compras</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Comprasid</VarId>
+<VarName>&amp;ComprasId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>11</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>11</TableId>
+<TableName>Compras</TableName>
+<Description>Compras</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>11</TableId>
+<TableName>Compras</TableName>
+<Description>Compras</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ComprasId</AttriName>
+<Description>Compras Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>10</TableId>
+<TableName>Proveedor</TableName>
+<Description>Proveedor</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>ProveedorId</AttriName>
+<Description>Proveedor Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>11</TableId>
+<TableName>ComprasTotalExento, ComprasTotalIva5, ComprasTotalIva10 navigation</TableName>
+<Description>Compras</Description>
+<RecordsToRead>one</RecordsToRead>
+<JoinType>Outer</JoinType>
+<Tables>
+<Table>
+<TableId>12</TableId>
+<TableName>ComprasDetalle</TableName>
+<Description>Detalle</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ComprasId</AttriName>
+<Description>Compras Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>44</TableId>
+<TableName>Impuesto</TableName>
+<Description>Impuesto</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>ImpuestoId</AttriName>
+<Description>Impuesto Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></Tables></Table></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads>
+<Action>
+<ActionType>DynamicLoad</ActionType>
+<DynamicLoad>
+<ControlName>
+<Attribute>
+<AttriId>291</AttriId>
+<AttriName>ComprasDetalleTallaID</AttriName>
+<Description>Compras Detalle Talla ID</Description></Attribute></ControlName>
+<CodeAttributes>
+<Attribute>
+<AttriId>286</AttriId>
+<AttriName>TallaID</AttriName>
+<Description>Talla ID</Description></Attribute></CodeAttributes>
+<DescriptionAttributes>
+<Attribute>
+<AttriId>288</AttriId>
+<AttriName>TallaNumero</AttriName>
+<Description>Talla Numero</Description></Attribute></DescriptionAttributes>
+<Navigation>
+<NavigationTree>
+<Table>
+<TableId>58</TableId>
+<TableName>Talla</TableName>
+<Description>Talla</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>286</AttriId>
+<AttriName>TallaID</AttriName>
+<Description>Talla ID</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>286</AttriId>
+<AttriName>TallaID</AttriName>
+<Description>Talla ID</Description></Attribute>
+<Attribute>
+<AttriId>288</AttriId>
+<AttriName>TallaNumero</AttriName>
+<Description>Talla Numero</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<NavigationConditions></NavigationConditions>
+<NavigationOrder>
+<Order>
+<Attribute>
+<AttriId>288</AttriId>
+<AttriName>TallaNumero</AttriName>
+<Description>Talla Numero</Description></Attribute></Order>
+<Condition></Condition></NavigationOrder></Navigation></DynamicLoad></Action></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>11</TableId>
+<TableName>Compras</TableName>
+<Description>Compras</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ComprasId</AttriName>
+<Description>Compras Id</Description></Attribute>
+<Attribute>
+<AttriId>74</AttriId>
+<AttriName>ComprasFecha</AttriName>
+<Description>Compras Fecha</Description></Attribute>
+<Attribute>
+<AttriId>226</AttriId>
+<AttriName>ComprasTimbrado</AttriName>
+<Description>Compras Timbrado</Description></Attribute>
+<Attribute>
+<AttriId>227</AttriId>
+<AttriName>ComprasNumeroFactura</AttriName>
+<Description>Compras Numero Factura</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>ProveedorId</AttriName>
+<Description>Proveedor Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>11</TableId>
+<TableName>Compras</TableName>
+<Description>Compras</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>74</AttriId>
+<AttriName>ComprasFecha</AttriName>
+<Description>Compras Fecha</Description></Attribute>
+<Attribute>
+<AttriId>226</AttriId>
+<AttriName>ComprasTimbrado</AttriName>
+<Description>Compras Timbrado</Description></Attribute>
+<Attribute>
+<AttriId>227</AttriId>
+<AttriName>ComprasNumeroFactura</AttriName>
+<Description>Compras Numero Factura</Description></Attribute>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>ProveedorId</AttriName>
+<Description>Proveedor Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>11</TableId>
+<TableName>Compras</TableName>
+<Description>Compras</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>12</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>12</TableId>
+<TableName>ComprasDetalle</TableName>
+<Description>Detalle</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>12</TableId>
+<TableName>ComprasDetalle</TableName>
+<Description>Detalle</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ComprasId</AttriName>
+<Description>Compras Id</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>ComprasDetalleId</AttriName>
+<Description>Compras Detalle Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>44</TableId>
+<TableName>Impuesto</TableName>
+<Description>Impuesto</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>ImpuestoId</AttriName>
+<Description>Impuesto Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>12</TableId>
+<TableName>ComprasDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ComprasId</AttriName>
+<Description>Compras Id</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>ComprasDetalleId</AttriName>
+<Description>Compras Detalle Id</Description></Attribute>
+<Attribute>
+<AttriId>75</AttriId>
+<AttriName>ComprasDetalleCantidad</AttriName>
+<Description>Compras Detalle Cantidad</Description></Attribute>
+<Attribute>
+<AttriId>82</AttriId>
+<AttriName>ComprasCantidad</AttriName>
+<Description>Compras Cantidad</Description></Attribute>
+<Attribute>
+<AttriId>80</AttriId>
+<AttriName>ComprasDetallePrecioCompra</AttriName>
+<Description>Compras Detalle Precio Compra</Description></Attribute>
+<Attribute>
+<AttriId>291</AttriId>
+<AttriName>ComprasDetalleTallaID</AttriName>
+<Description>Compras Detalle Talla ID</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>12</TableId>
+<TableName>ComprasDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>75</AttriId>
+<AttriName>ComprasDetalleCantidad</AttriName>
+<Description>Compras Detalle Cantidad</Description></Attribute>
+<Attribute>
+<AttriId>82</AttriId>
+<AttriName>ComprasCantidad</AttriName>
+<Description>Compras Cantidad</Description></Attribute>
+<Attribute>
+<AttriId>80</AttriId>
+<AttriName>ComprasDetallePrecioCompra</AttriName>
+<Description>Compras Detalle Precio Compra</Description></Attribute>
+<Attribute>
+<AttriId>291</AttriId>
+<AttriName>ComprasDetalleTallaID</AttriName>
+<Description>Compras Detalle Talla ID</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>12</TableId>
+<TableName>ComprasDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>29</ObjId>
+<ObjName>ArticuloPrompt</ObjName>
+<ObjPgmName>ArticuloPrompt</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>10</TableId>
+<TableName>Proveedor</TableName>
+<Description>Proveedor</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>30</ObjId>
+<ObjName>ProveedorPrompt</ObjName>
+<ObjPgmName>ProveedorPrompt</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>10</AttriId>
+<AttriName>ProveedorId</AttriName>
+<Description>Proveedor Id</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

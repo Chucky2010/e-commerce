@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="name" name="MyProductsCartConfirm_Level_Detail">
+  <Table name="TipoPago" />
+  <Table name="Persona" />
+  <Table name="Cliente" />
+  <Table name="Departamento" />
+  <Table name="Ciudad" />
+  <Table name="Localidad" />
+  <Table name="Articulo" />
+</Dependencies>

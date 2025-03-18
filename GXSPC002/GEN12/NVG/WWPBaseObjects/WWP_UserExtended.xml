@@ -1,0 +1,209 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>28</ObjId>
+<ObjName>WWPBaseObjects.WWP_UserExtended</ObjName>
+<ObjDesc>Extended User from GAMUser</ObjDesc>
+<ObjPgmName>WWPBaseObjects.WWP_UserExtended</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>30</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>30</TableId>
+<TableName>WWP_UserExtended</TableName>
+<Description>WWP_UserExtended</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>30</TableId>
+<TableName>WWP_UserExtended</TableName>
+<Description>WWP_UserExtended</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>WWPUserExtendedId</AttriName>
+<Description>User Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>30</TableId>
+<TableName>WWP_UserExtended</TableName>
+<Description>WWP_UserExtended</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>WWPUserExtendedId</AttriName>
+<Description>User Id</Description></Attribute>
+<Attribute>
+<AttriId>140</AttriId>
+<AttriName>WWPUserExtendedPhoto</AttriName>
+<Description>User Photo</Description></Attribute>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>WWPUserExtendedPhoto.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>146</AttriId>
+<AttriName>WWPUserExtendedName</AttriName>
+<Description>WWPUser Extended Name</Description></Attribute>
+<Attribute>
+<AttriId>138</AttriId>
+<AttriName>WWPUserExtendedFullName</AttriName>
+<Description>User Full Name</Description></Attribute>
+<Attribute>
+<AttriId>145</AttriId>
+<AttriName>WWPUserExtendedPhone</AttriName>
+<Description>User Phone</Description></Attribute>
+<Attribute>
+<AttriId>139</AttriId>
+<AttriName>WWPUserExtendedEmail</AttriName>
+<Description>User Email</Description></Attribute>
+<Attribute>
+<AttriId>141</AttriId>
+<AttriName>WWPUserExtendedEmaiNotif</AttriName>
+<Description>Receive Email Notifications</Description></Attribute>
+<Attribute>
+<AttriId>142</AttriId>
+<AttriName>WWPUserExtendedSMSNotif</AttriName>
+<Description>Receive SMS Notifications</Description></Attribute>
+<Attribute>
+<AttriId>143</AttriId>
+<AttriName>WWPUserExtendedMobileNotif</AttriName>
+<Description>Receive Mobile Notifications</Description></Attribute>
+<Attribute>
+<AttriId>144</AttriId>
+<AttriName>WWPUserExtendedDesktopNotif</AttriName>
+<Description>Receive Destkop Notifications</Description></Attribute>
+<Attribute>
+<AttriId>147</AttriId>
+<AttriName>WWPUserExtendedDeleted</AttriName>
+<Description>WWPUser Extended Deleted</Description></Attribute>
+<Attribute>
+<AttriId>148</AttriId>
+<AttriName>WWPUserExtendedDeletedIn</AttriName>
+<Description>WWPUser Extended Deleted In</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>30</TableId>
+<TableName>WWP_UserExtended</TableName>
+<Description>WWP_UserExtended</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>140</AttriId>
+<AttriName>WWPUserExtendedPhoto</AttriName>
+<Description>User Photo</Description></Attribute>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>WWPUserExtendedPhoto.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>146</AttriId>
+<AttriName>WWPUserExtendedName</AttriName>
+<Description>WWPUser Extended Name</Description></Attribute>
+<Attribute>
+<AttriId>138</AttriId>
+<AttriName>WWPUserExtendedFullName</AttriName>
+<Description>User Full Name</Description></Attribute>
+<Attribute>
+<AttriId>145</AttriId>
+<AttriName>WWPUserExtendedPhone</AttriName>
+<Description>User Phone</Description></Attribute>
+<Attribute>
+<AttriId>139</AttriId>
+<AttriName>WWPUserExtendedEmail</AttriName>
+<Description>User Email</Description></Attribute>
+<Attribute>
+<AttriId>141</AttriId>
+<AttriName>WWPUserExtendedEmaiNotif</AttriName>
+<Description>Receive Email Notifications</Description></Attribute>
+<Attribute>
+<AttriId>142</AttriId>
+<AttriName>WWPUserExtendedSMSNotif</AttriName>
+<Description>Receive SMS Notifications</Description></Attribute>
+<Attribute>
+<AttriId>143</AttriId>
+<AttriName>WWPUserExtendedMobileNotif</AttriName>
+<Description>Receive Mobile Notifications</Description></Attribute>
+<Attribute>
+<AttriId>144</AttriId>
+<AttriName>WWPUserExtendedDesktopNotif</AttriName>
+<Description>Receive Destkop Notifications</Description></Attribute>
+<Attribute>
+<AttriId>147</AttriId>
+<AttriName>WWPUserExtendedDeleted</AttriName>
+<Description>WWPUser Extended Deleted</Description></Attribute>
+<Attribute>
+<AttriId>148</AttriId>
+<AttriName>WWPUserExtendedDeletedIn</AttriName>
+<Description>WWPUser Extended Deleted In</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>30</TableId>
+<TableName>WWP_UserExtended</TableName>
+<Description>WWP_UserExtended</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>37</TableId>
+<TableName>WWP_Notification</TableName>
+<Description>WWP_Notification</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>WWPUserExtendedId</AttriName>
+<Description>User Id</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>35</TableId>
+<TableName>WWP_WebClient</TableName>
+<Description>WWP_WebClient</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>WWPUserExtendedId</AttriName>
+<Description>User Id</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>32</TableId>
+<TableName>WWP_Subscription</TableName>
+<Description>WWP_Subscription</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>WWPUserExtendedId</AttriName>
+<Description>User Id</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts></Prompts>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,99 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>20</ObjId>
+<ObjName>PerfilCliente</ObjName>
+<ObjDesc>Perfil Cliente</ObjDesc>
+<ObjPgmName>PerfilCliente</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>21</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>21</TableId>
+<TableName>PerfilCliente</TableName>
+<Description>Perfil Cliente</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>21</TableId>
+<TableName>PerfilCliente</TableName>
+<Description>Perfil Cliente</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>PerfilClienteId</AttriName>
+<Description>Perfil Cliente Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>21</TableId>
+<TableName>PerfilCliente</TableName>
+<Description>Perfil Cliente</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>23</AttriId>
+<AttriName>PerfilClienteId</AttriName>
+<Description>Perfil Cliente Id</Description></Attribute>
+<Attribute>
+<AttriId>114</AttriId>
+<AttriName>PerfilClienteMinorista</AttriName>
+<Description>Perfil Cliente Minorista</Description></Attribute>
+<Attribute>
+<AttriId>115</AttriId>
+<AttriName>PerfilClienteMayorista</AttriName>
+<Description>Perfil Cliente Mayorista</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>21</TableId>
+<TableName>PerfilCliente</TableName>
+<Description>Perfil Cliente</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>114</AttriId>
+<AttriName>PerfilClienteMinorista</AttriName>
+<Description>Perfil Cliente Minorista</Description></Attribute>
+<Attribute>
+<AttriId>115</AttriId>
+<AttriName>PerfilClienteMayorista</AttriName>
+<Description>Perfil Cliente Mayorista</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>21</TableId>
+<TableName>PerfilCliente</TableName>
+<Description>Perfil Cliente</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts></Prompts>
+<Suggests></Suggests></ObjectSpec>

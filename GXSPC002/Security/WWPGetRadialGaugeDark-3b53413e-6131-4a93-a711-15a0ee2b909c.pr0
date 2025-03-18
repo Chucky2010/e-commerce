@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpgetradialgaugedark_Services_Execute",
+    "Description": "Get Radial Gauge Dark Services",
+    "ProgramName": "workwithplus.nativemobile.wwpgetradialgaugedark",
+    "IsGXAutomatic": true
+  }
+]

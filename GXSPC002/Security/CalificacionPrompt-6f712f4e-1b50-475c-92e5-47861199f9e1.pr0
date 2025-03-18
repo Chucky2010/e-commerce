@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "calificacionprompt_Execute",
+    "Description": "Selecciona Calificacion",
+    "ProgramName": "calificacionprompt",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,31 @@
+# Archivos generados por GeneXus
+*.xpz
+*.arproj
+*.log
+*.tmp
+*.bak
+
+# Carpetas generadas por GeneXus
+bin/
+obj/
+web/
+model/
+output/
+
+# Archivos generados por Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Carpetas específicas de Java
+build/
+dist/
+
+# Configuraciones locales y otros archivos temporales
+*.user
+*.suo
+*.vscode/
+*.log
+*.tmp
+*.bak

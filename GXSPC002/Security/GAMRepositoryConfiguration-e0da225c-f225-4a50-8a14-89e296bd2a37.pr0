@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamrepositoryconfiguration_Execute",
+    "Description": "Repository configuration ",
+    "ProgramName": "gamrepositoryconfiguration",
+    "IsGXAutomatic": true
+  }
+]

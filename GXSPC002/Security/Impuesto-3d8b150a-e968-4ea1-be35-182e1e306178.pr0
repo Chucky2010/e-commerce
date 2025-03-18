@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "impuesto_FullControl",
+    "Description": "Impuesto FullControl",
+    "ProgramName": "impuesto",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "impuesto_Execute",
+    "Description": "Impuesto",
+    "ProgramName": "impuesto",
+    "IsGXAutomatic": true,
+    "Parent": "impuesto_FullControl"
+  },
+  {
+    "Name": "impuesto_Insert",
+    "Description": "Impuesto Insert",
+    "ProgramName": "impuesto",
+    "IsGXAutomatic": true,
+    "Parent": "impuesto_FullControl"
+  },
+  {
+    "Name": "impuesto_Delete",
+    "Description": "Impuesto Delete",
+    "ProgramName": "impuesto",
+    "IsGXAutomatic": true,
+    "Parent": "impuesto_FullControl"
+  },
+  {
+    "Name": "impuesto_Update",
+    "Description": "Impuesto Update",
+    "ProgramName": "impuesto",
+    "IsGXAutomatic": true,
+    "Parent": "impuesto_FullControl"
+  }
+]

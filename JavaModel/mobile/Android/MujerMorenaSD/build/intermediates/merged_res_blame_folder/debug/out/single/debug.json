@@ -1,0 +1,386 @@
+[
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_workwithplus_nativemobile_workwithpluspredefinedstyles_theme.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\workwithplus_nativemobile_workwithpluspredefinedstyles_theme"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_images_spanish_workwithplus_nativemobile_workwithpluspredefinedstyles.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\images_spanish_workwithplus_nativemobile_workwithpluspredefinedstyles"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_themes.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\themes"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_gamsdregister_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\gamsdregister_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_mujermorenasdob_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\mujermorenasdob_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_mujermorenasd_properties.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\mujermorenasd_properties"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_workwithplus_nativemobile_wwp_nm_user_avatar_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-xxhdpi\\workwithplus_nativemobile_wwp_nm_user_avatar_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_workwithplus_nativemobile_wwp_nm_settings_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-xhdpi\\workwithplus_nativemobile_wwp_nm_settings_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_images_english_mujer_morenasddsanyplatform.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\images_english_mujer_morenasddsanyplatform"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_mujer_morenasddsandroid_theme.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\mujer_morenasddsandroid_theme"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_myproductsproductdetail_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\myproductsproductdetail_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_workwithplus_nativemobile_wwp_nm_user_avatar_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\workwithplus_nativemobile_wwp_nm_user_avatar_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_workwithplus_nativemobile_wwp_nm_action_cart_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-xhdpi\\workwithplus_nativemobile_wwp_nm_action_cart_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_workwithplus_nativemobile_wwp_nm_action_share_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-xxhdpi\\workwithplus_nativemobile_wwp_nm_action_share_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_images_spanish_workwithplus_nativemobile_workwithplusdsfonticons.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\images_spanish_workwithplus_nativemobile_workwithplusdsfonticons"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_gamsdlogin_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\gamsdlogin_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_workwithplus_nativemobile_wwp_nm_sample_data_banner2_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\workwithplus_nativemobile_wwp_nm_sample_data_banner2_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_wwp_nm_menubanner_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\wwp_nm_menubanner_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_myproductscartconfirm_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\myproductscartconfirm_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_workwithplus_nativemobile_wwp_nm_action_insert_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-ldpi\\workwithplus_nativemobile_wwp_nm_action_insert_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_workwithplus_nativemobile_wwp_nm_action_share_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-xxxhdpi\\workwithplus_nativemobile_wwp_nm_action_share_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_mujermorenasdhome_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\mujermorenasdhome_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_english_language.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\english_language"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_workwithplus_nativemobile_wwp_nm_action_bookmarktrue_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-mdpi\\workwithplus_nativemobile_wwp_nm_action_bookmarktrue_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_mujermorenasdhometab1_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\mujermorenasdhometab1_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_images_english_workwithplus_nativemobile_workwithplusdsfonticons.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\images_english_workwithplus_nativemobile_workwithplusdsfonticons"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_images_spanish_mujer_morenasddsanyplatform.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\images_spanish_mujer_morenasddsanyplatform"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_images_english_workwithplus_nativemobile_workwithpluspredefinedstyles.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\images_english_workwithplus_nativemobile_workwithpluspredefinedstyles"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_workwithplus_nativemobile_wwp_nm_user_avatar_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-xxxhdpi\\workwithplus_nativemobile_wwp_nm_user_avatar_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_workwithplus_nativemobile_wwp_nm_settings_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-xxhdpi\\workwithplus_nativemobile_wwp_nm_settings_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_mujermorenasdhometab3_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\mujermorenasdhometab3_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_workwithplus_nativemobile_wwp_nm_action_share_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-mdpi\\workwithplus_nativemobile_wwp_nm_action_share_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_workwithplus_nativemobile_wwp_nm_action_insert_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-xxhdpi\\workwithplus_nativemobile_wwp_nm_action_insert_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_appicon.jpeg.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\appicon.jpeg"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_spanish_language.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\spanish_language"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_myproductscartaddress_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\myproductscartaddress_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_workwithplus_nativemobile_wwp_nm_logout_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\workwithplus_nativemobile_wwp_nm_logout_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-ldpi_workwithplus_nativemobile_wwp_nm_user_avatar_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-ldpi\\workwithplus_nativemobile_wwp_nm_user_avatar_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_appwelcomedefault.jpeg.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\appwelcomedefault.jpeg"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_workwithplus_nativemobile_wwp_nm_menu_background_jpg.jpg.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\workwithplus_nativemobile_wwp_nm_menu_background_jpg.jpg"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_workwithplus_nativemobile_wwp_nm_sample_data_banner4_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\workwithplus_nativemobile_wwp_nm_sample_data_banner4_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_workwithplus_nativemobile_wwp_nm_action_insert_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\workwithplus_nativemobile_wwp_nm_action_insert_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_mujermorenasd_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\mujermorenasd_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_settings.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\settings"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_mujermorenasd_settings.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\mujermorenasd_settings"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_verdetallespedidossd_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\verdetallespedidossd_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_myproductscartcheckout_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\myproductscartcheckout_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_workwithplus_nativemobile_wwp_nm_action_insert_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-xhdpi\\workwithplus_nativemobile_wwp_nm_action_insert_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_appid.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\appid"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_workwithplus_nativemobile_wwp_nm_action_insert_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-mdpi\\workwithplus_nativemobile_wwp_nm_action_insert_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_workwithplus_nativemobile_wwp_nm_user_avatar_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-mdpi\\workwithplus_nativemobile_wwp_nm_user_avatar_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_mujermorenasd_android.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\mujermorenasd_android"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_workwithplus_nativemobile_wwp_nm_sample_data_activity1_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\workwithplus_nativemobile_wwp_nm_sample_data_activity1_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_workwithplus_nativemobile_wwp_nm_action_cart_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-mdpi\\workwithplus_nativemobile_wwp_nm_action_cart_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_images_spanish_mujer_morenasddsandroid.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\images_spanish_mujer_morenasddsandroid"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_mujermorenasd_gxapp.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\mujermorenasd_gxapp"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_workwithplus_nativemobile_wwp_nm_action_share_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\workwithplus_nativemobile_wwp_nm_action_share_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_images_english_workwithplus_nativemobile_workwithplusdsnative.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\images_english_workwithplus_nativemobile_workwithplusdsnative"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_workwithplus_nativemobile_wwp_nm_action_bookmarktrue_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-xxhdpi\\workwithplus_nativemobile_wwp_nm_action_bookmarktrue_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_workwithplus_nativemobile_workwithplusdsnative_theme.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\workwithplus_nativemobile_workwithplusdsnative_theme"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_workwithplus_nativemobile_wwp_nm_action_insert_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-xxxhdpi\\workwithplus_nativemobile_wwp_nm_action_insert_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_languages.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\languages"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-xxhdpi_workwithplus_nativemobile_wwp_nm_action_cart_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-xxhdpi\\workwithplus_nativemobile_wwp_nm_action_cart_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-mdpi_workwithplus_nativemobile_wwp_nm_settings_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-mdpi\\workwithplus_nativemobile_wwp_nm_settings_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_workwithplus_nativemobile_wwp_nm_user_avatar_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-xhdpi\\workwithplus_nativemobile_wwp_nm_user_avatar_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_wwp_nm_login_background_jpg.jpg.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\wwp_nm_login_background_jpg.jpg"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_images_txt.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\images_txt"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_messages_spa_txt.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\messages_spa_txt"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_workwithplus_nativemobile_wwp_nm_action_bookmarktrue_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\workwithplus_nativemobile_wwp_nm_action_bookmarktrue_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_messages_eng_txt.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\messages_eng_txt"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_workwithplus_nativemobile_wwp_nm_action_cart_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\workwithplus_nativemobile_wwp_nm_action_cart_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_workwithplus_nativemobile_examplemenuoption_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\workwithplus_nativemobile_examplemenuoption_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_workwithplus_nativemobile_wwp_nm_action_bookmarktrue_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-xhdpi\\workwithplus_nativemobile_wwp_nm_action_bookmarktrue_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_superapp_json.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\superapp_json"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_gamsdchangepassword_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\gamsdchangepassword_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_images_english_mujer_morenasddsandroid.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\images_english_mujer_morenasddsandroid"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\xml_searchable.xml.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\xml\\searchable.xml"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_myproductscartsuccess_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\myproductscartsuccess_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_workwithplus_nativemobile_wwp_nm_menubanner_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\workwithplus_nativemobile_wwp_nm_menubanner_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_domains.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\domains"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_wwp_nm_menu_background_jpg.jpg.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\wwp_nm_menu_background_jpg.jpg"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_verpedidossd_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\verpedidossd_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_images_spanish_workwithplus_nativemobile_workwithplusdsnative.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\images_spanish_workwithplus_nativemobile_workwithplusdsnative"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_workwithplus_nativemobile_wwp_nm_sample_data_banner3_jpg.jpg.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\workwithplus_nativemobile_wwp_nm_sample_data_banner3_jpg.jpg"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_gximages.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\gximages"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_gamsdupdateuser_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\gamsdupdateuser_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_workwithplus_nativemobile_workwithplusdsfonticons_theme.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\workwithplus_nativemobile_workwithplusdsfonticons_theme"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_workwithplus_nativemobile_wwp_nm_menubanner_tall_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\workwithplus_nativemobile_wwp_nm_menubanner_tall_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_mujer_morenasddsanyplatform_theme.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\mujer_morenasddsanyplatform_theme"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_workwithplus_nativemobile_wwp_nm_action_bookmarktrue_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-xxxhdpi\\workwithplus_nativemobile_wwp_nm_action_bookmarktrue_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-xhdpi_workwithplus_nativemobile_wwp_nm_action_share_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-xhdpi\\workwithplus_nativemobile_wwp_nm_action_share_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\raw_gamsdnotauthorized_panel.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\raw\\gamsdnotauthorized_panel"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_wwp_nm_menubanner_tall_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\wwp_nm_menubanner_tall_png.png"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_workwithplus_nativemobile_wwp_nm_login_background_jpg.jpg.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\workwithplus_nativemobile_wwp_nm_login_background_jpg.jpg"
+    },
+    {
+        "merged": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\build\\intermediates\\merged_res\\debug\\drawable-hdpi_workwithplus_nativemobile_wwp_nm_sample_data_banner1_png.png.flat",
+        "source": "C:\\Models\\Mujer_Morena\\JavaModel\\mobile\\Android\\MujerMorenaSD\\src\\main\\res\\drawable-hdpi\\workwithplus_nativemobile_wwp_nm_sample_data_banner1_png.png"
+    }
+]

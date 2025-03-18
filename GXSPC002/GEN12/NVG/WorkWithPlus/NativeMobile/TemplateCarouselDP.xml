@@ -1,0 +1,23 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid>
+<ObjCls>33</ObjCls>
+<ObjId>15</ObjId>
+<ObjName>WorkWithPlus.NativeMobile.TemplateCarouselDP</ObjName>
+<ObjDesc>Template Carousel DP</ObjDesc>
+<ObjPgmName>WorkWithPlus.NativeMobile.TemplateCarouselDP</ObjPgmName>
+<ObjClsName>DataProvider</ObjClsName></Object>
+<Result>nogenspc</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0217</MsgCode>
+<Message>
+<Token>Object is unreachable.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters></ObjectSpec>

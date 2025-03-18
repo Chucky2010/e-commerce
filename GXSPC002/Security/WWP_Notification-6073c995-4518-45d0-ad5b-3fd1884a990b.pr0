@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "wwp_notification_FullControl",
+    "Description": "Notification FullControl",
+    "ProgramName": "wwpbaseobjects.notifications.common.wwp_notification",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "wwp_notification_Execute",
+    "Description": "Notification",
+    "ProgramName": "wwpbaseobjects.notifications.common.wwp_notification",
+    "IsGXAutomatic": true,
+    "Parent": "wwp_notification_FullControl"
+  },
+  {
+    "Name": "wwp_notification_Insert",
+    "Description": "Notification Insert",
+    "ProgramName": "wwpbaseobjects.notifications.common.wwp_notification",
+    "IsGXAutomatic": true,
+    "Parent": "wwp_notification_FullControl"
+  },
+  {
+    "Name": "wwp_notification_Delete",
+    "Description": "Notification Delete",
+    "ProgramName": "wwpbaseobjects.notifications.common.wwp_notification",
+    "IsGXAutomatic": true,
+    "Parent": "wwp_notification_FullControl"
+  },
+  {
+    "Name": "wwp_notification_Update",
+    "Description": "Notification Update",
+    "ProgramName": "wwpbaseobjects.notifications.common.wwp_notification",
+    "IsGXAutomatic": true,
+    "Parent": "wwp_notification_FullControl"
+  }
+]

@@ -1,0 +1,35 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>94</ObjId>
+<ObjName>WWPBaseObjects.WizardStepsProgressWC</ObjName>
+<ObjDesc>Wizard Steps Bullet WC.</ObjDesc>
+<ObjPgmName>WWPBaseObjects.WizardStepsProgressWC</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Wizardsteps</VarId>
+<VarName>&amp;WizardSteps</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Currentstep</VarId>
+<VarName>&amp;CurrentStep</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Gridwizardsteps.Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

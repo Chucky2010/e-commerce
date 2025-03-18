@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "savefilteras_Execute",
+    "Description": "WWP_SaveFilterAsDescription",
+    "ProgramName": "wwpbaseobjects.savefilteras",
+    "IsGXAutomatic": true
+  }
+]

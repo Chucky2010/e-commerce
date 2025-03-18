@@ -1,0 +1,416 @@
+spec_i([ proc,127,l('WWP_Has Subscriptions To Display'),'WWPBaseObjects\Subscriptions\WWP_HasSubscriptionsToDisplay',78,spa,'17_0_11-163677' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 36,[ [ 36,many ] ],[],[],[ [ [ 36 ],[ 33,155,156,189,190 ] ] ],[ [ [ 36 ],[] ] ],[ 33 ],'IWWP_NOTIFICATIONDEFINITION1',[ 36,[ [ [],'Wwpentityid',33 ] ] ],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [ c([ t(156,2),t(=,10),t('TRUE',40) ],[ 156 ]),c([ t(155,2),t(=,10),t('Wwpnotificationappliesto',23) ],[ 155 ]),c([ t(190,2),t(=,10),t('TRUE',40) ],[ 190 ]) ] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 36,33 ],[ 36,155 ],[ 36,156 ],[ 36,189 ] ] ]).
+ 
+las_i(2,[ [ 33,155,156,189,190 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','WWPBaseObjects.Subscriptions.WWP_HasSubscriptionsToDisplay')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'WWPBaseObjects\Subscriptions\UserInterface'))).
+rule_i(0,prop('ObjDesc','WWP_Has Subscriptions To Display')).
+rule_i(0,prop('ObjName','WWP_HasSubscriptionsToDisplay')).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Wwpentityname','Wwpnotificationappliesto','Hassubscriptions' ],[])).
+rule_i(0,parmio([ [ 'Wwpentityname',in ],[ 'Wwpnotificationappliesto',in ],[ 'Hassubscriptions',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,2,f,190,[],[ [],[ t('TRUE',40),t('IF',17),t('null(',1),t(189,2),t(')',4),t(';',18),t('udp(',1),t(190,3),t(0,3),t(189,2),t(')',4),t('OTHERWISE',19),t(';',18) ] ]).
+a_i(2,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(3,2,t,36,[],[ [ [ [],'Wwpentityid',33 ] ],'IWWP_NOTIFICATIONDEFINITION1',[] ]).
+a_i(4,2,c,0,[],[ c([ t(190,2),t(=,10),t('TRUE',40) ],[ 190 ]) ]).
+ 
+v_i(f,i,1,189).
+v_i(f,o,1,190).
+v_i(f,i,2,[]).
+v_i(f,o,2,'Err').
+v_i(t,i,3,'Wwpentityid').
+v_i(t,o,3,33).
+v_i(t,o,3,155).
+v_i(t,o,3,156).
+v_i(t,o,3,189).
+v_i(c,i,4,190).
+v_i(c,o,4,[]).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',15 ]).
+attri_i(35,[ 'WWPNotificationDefinitionId',int,10,0,'ZZZZZZZZZ9',0,l('Notification Definition Id'),'',0 ]).
+attri_i(189,[ 'WWPNotificationDefinitionSecFu',svchar,200,0,'',0,l('Notification Definition Security Funcionality Key'),'',0 ]).
+attri_i(156,[ 'WWPNotificationDefinitionAllow',boolean,4,0,'',0,l('Notification Definition Allow User Subscription'),'',0 ]).
+attri_i(155,[ 'WWPNotificationDefinitionAppli',int,1,0,'9',0,l('Notification Definition Applies To'),'',0 ]).
+attri_i(33,[ 'WWPEntityId',int,10,0,'ZZZZZZZZZ9',0,l('Entity Id'),'',0 ]).
+attri_i(190,[ 'WWPNotificationDefinitionIsAut',boolean,4,0,'',0,l('Notification Definition Is Logged User Authorized'),'',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',13 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',12 ]).
+attri_i('Wwpentityname',[ 'WWPEntityName',svchar,100,0,'',0,l('Entity Name'),'',11 ]).
+attri_i('Wwpnotificationappliesto',[ 'WWPNotificationAppliesTo',int,1,0,'9',0,l('WWPNotification Applies To'),'',10 ]).
+attri_i('Hassubscriptions',[ 'HasSubscriptions',boolean,4,0,'',0,l('Has Subscriptions'),'',9 ]).
+attri_i('Wwpentityid',[ 'WWPEntityId',int,10,0,'ZZZZZZZZZ9',0,l('Entity Id'),'',8 ]).
+ 
+table_i(36,[ 'WWP_NotificationDefinition',[ 35,155,156,33,189 ],l('WWP_NotificationDefinition'),'WWP_NotificationDefinition' ]).
+ 
+index_i(36,[ 'IWWP_NOTIFICATIONDEFINITION',u,[ 35 ],'IWWP_NotificationDefinition' ]).
+index_i(36,[ 'IWWP_NOTIFICATIONDEFINITION1',d,[ 33 ],'IWWP_NotificationDefinition1' ]).
+ 
+ 
+ 
+function_i(2,190,yes,udp,o(1,'WWPBaseObjects\SecGAMIsAuthByFunctionalityKey'),[ 189 ],0,190,[ [ t(189,2) ] ]).
+function_i(1,'Wwpentityid',yes,udp,o(1,'WWPBaseObjects\WWP_GetEntityByName'),[],1,'Wwpentityid',[ [ t('Wwpentityname',23) ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+sql_no_eval_i(190).
+ 
+sql_no_eval_hor_i(2,190).
+ 
+ 
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 33,23,'Wwpentityid',= ] ],many ]).
+ 
+end_i(2,0,0,[ [ [ t(33,2),t(=,10),t('Wwpentityid',23) ] ] ]).
+ 
+ 
+ 
+ 
+enumerated_i(2,'Wwpnotificationappliesto',245).
+enumerated_i(2,155,245).
+ 
+enum_value_i(2,245,'1','AnyRecord',l('Any record'),[ none ]).
+enum_value_i(2,245,'2','SpecificRecord',l('Specific record'),[ none ]).
+ 
+enum_value_info_i(2,245,'WWPBaseObjects\Notifications\WWP_NotificationAppliesTo').
+ 
+enum_type_i(2,245,int,1,0).
+ 
+dom_info_i(92,[ 'WWPBaseObjects\WWP_Id' ]).
+dom_info_i(245,[ 'WWPBaseObjects\Notifications\WWP_NotificationAppliesTo' ]).
+dom_info_i(239,[ 'WWPBaseObjects\WWP_Description' ]).
+dom_info_i(32,[ 'GeneXus\Url' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[ 156,155,33,190 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,3,3).
+b_group_i(2,1,lit,0,4,4).
+b_group_i(1,3,lit,0,11,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',107,1,0),t('Wwpentityid',23,0,0),t(=,10,0,0),t('udp(',1,0,0),t('Wwpentityid',3,0,0),t(1,3,0,0),t('Wwpentityname',23,0,0),t(')',4,0,0) ]).
+b_line_i(2,1,1,cmd,0,[ t('',107,2,0),t('Hassubscriptions',23,0,0),t(=,10,0,0),t('FALSE',41,0,0) ]).
+b_line_i(3,2,1,cmd,4,[ t('',121,3,0),t(table,3,3,10),t(36,3,3,10) ]).
+b_line_i(8,2,1,cmd,4,[ t('',107,8,0),t('Hassubscriptions',23,4,0),t(=,10,4,0),t('TRUE',40,4,0) ]).
+b_line_i(9,2,1,cmd,4,[ t('',139,9,0) ]).
+b_line_i(10,2,1,cmd,4,[ t('',128,10,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,190,'ExternalName','WWPNotificationDefinitionIsAuthorized',d).
+att_prop_i(2,190,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,190,idBasedOn,'',d).
+att_prop_i(2,190,'DownloadOffline','0',d).
+att_prop_i(2,190,'VarServiceExtName','',d).
+att_prop_i(2,190,'FullName','WWPNotificationDefinitionIsAuthorized',v).
+att_prop_i(2,33,'ExternalName','WWPEntityId',d).
+att_prop_i(2,33,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,33,'EmptyAsNull','Yes',d).
+att_prop_i(2,33,idBasedOn,92,v).
+att_prop_i(2,33,'AUTONUMBER','-1',d).
+att_prop_i(2,33,'AUTONUMBER_START','1',d).
+att_prop_i(2,33,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,33,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,33,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,33,'AttRegEx','',d).
+att_prop_i(2,33,'AttValidationFailedMsg','',d).
+att_prop_i(2,33,'DownloadOffline','0',d).
+att_prop_i(2,33,'VarServiceExtName','',d).
+att_prop_i(2,33,'FullName','WWPEntityId',v).
+att_prop_i(2,155,'ExternalName','WWPNotificationDefinitionAppliesTo',d).
+att_prop_i(2,155,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,155,'EmptyAsNull','Yes',d).
+att_prop_i(2,155,idBasedOn,245,v).
+att_prop_i(2,155,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,155,'AttRegEx','',d).
+att_prop_i(2,155,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(2,155,'DownloadOffline','0',d).
+att_prop_i(2,155,'VarServiceExtName','',d).
+att_prop_i(2,155,'FullName','WWPNotificationDefinitionAppliesTo',v).
+att_prop_i(2,156,'ExternalName','WWPNotificationDefinitionAllowUserSubscription',d).
+att_prop_i(2,156,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,156,'EmptyAsNull','Yes',d).
+att_prop_i(2,156,'ExternalStorage','-1',d).
+att_prop_i(2,156,idBasedOn,'',d).
+att_prop_i(2,156,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,156,'AttRegEx','',d).
+att_prop_i(2,156,'AttValidationFailedMsg','',d).
+att_prop_i(2,156,'DownloadOffline','0',d).
+att_prop_i(2,156,'VarServiceExtName','',d).
+att_prop_i(2,156,'FullName','WWPNotificationDefinitionAllowUserSubscription',v).
+att_prop_i(2,189,'ExternalName','WWPNotificationDefinitionSecFuncionality',d).
+att_prop_i(2,189,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,189,'EmptyAsNull','Yes',d).
+att_prop_i(2,189,idBasedOn,'',d).
+att_prop_i(2,189,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,189,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,189,'AttRegEx','',d).
+att_prop_i(2,189,'AttValidationFailedMsg','',d).
+att_prop_i(2,189,'DownloadOffline','0',d).
+att_prop_i(2,189,'VarServiceExtName','',d).
+att_prop_i(2,189,'FullName','WWPNotificationDefinitionSecFuncionality',v).
+att_prop_i(2,35,'ExternalName','WWPNotificationDefinitionId',d).
+att_prop_i(2,35,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,35,'EmptyAsNull','Yes',d).
+att_prop_i(2,35,idBasedOn,92,v).
+att_prop_i(2,35,'AUTONUMBER','-1',d).
+att_prop_i(2,35,'AUTONUMBER_START','1',d).
+att_prop_i(2,35,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,35,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,35,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,35,'AttRegEx','',d).
+att_prop_i(2,35,'AttValidationFailedMsg','',d).
+att_prop_i(2,35,'DownloadOffline','0',d).
+att_prop_i(2,35,'VarServiceExtName','',d).
+att_prop_i(2,35,'FullName','WWPNotificationDefinitionId',v).
+ 
+ 
+tbl_att_prop_i(2,36,35,'AllowNulls',n).
+tbl_att_prop_i(2,36,35,'AUTONUMBER',y).
+tbl_att_prop_i(2,36,155,'AllowNulls',n).
+tbl_att_prop_i(2,36,156,'AllowNulls',n).
+tbl_att_prop_i(2,36,33,'AllowNulls',n).
+tbl_att_prop_i(2,36,189,'AllowNulls',n).
+ 
+var_prop_i(2,'Wwpentityid',idBasedOn,'',v).
+var_prop_i(2,'Wwpnotificationappliesto',idBasedOn,'',v).
+var_prop_i(2,'Wwpnotificationappliesto','AttValidationFailedMsg','GXSPC_OutOfRange',d).
+var_prop_i(2,'Wwpentityname',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,22,'WWPBASEOBJECTS\SECGAMISAUTHBYFUNCTIONALITYKEY',[ [ svchar,100,0,0 ],[ boolean,4,0,0 ] ],[ [ 'SecGAMFunctionalityKey',in,[] ],[ 'IsAuthorized',out,[] ] ]).
+pgm_parm_i(proc,96,'WWPBASEOBJECTS\WWP_GETENTITYBYNAME',[ [ svchar,100,0,0 ],[ int,10,0,0 ] ],[ [ 'WWPEntityName',in,[] ],[ 'WWPEntityId',out,[] ] ]).
+ 
+pgm_callprotocol_i(proc,127,'WWPBASEOBJECTS\SUBSCRIPTIONS\WWP_HASSUBSCRIPTIONSTODISPLAY','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,22,'WWPBASEOBJECTS\SECGAMISAUTHBYFUNCTIONALITYKEY','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,96,'WWPBASEOBJECTS\WWP_GETENTITYBYNAME','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

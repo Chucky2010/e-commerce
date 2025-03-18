@@ -1,0 +1,7 @@
+
+<WWSDSpec>
+<Section>
+<Name>Level.Detail</Name>
+<DataProviders>
+<DataProvider>VerPedidosSD_Level_Detail_Grid</DataProvider>
+<DataProvider>VerPedidosSD_Level_Detail</DataProvider></DataProviders></Section></WWSDSpec>

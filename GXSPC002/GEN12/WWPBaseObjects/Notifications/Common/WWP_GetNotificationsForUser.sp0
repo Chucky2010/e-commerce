@@ -1,0 +1,533 @@
+spec_i([ mnproc,8,l('Get Notifications For User'),'WWPBaseObjects\Notifications\Common\WWP_GetNotificationsForUser',0,spa,'17_0_11-163677' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 37,[ [ 37,many ] ],[],[],[ [ [ 37 ],[ 203,32,37,198,199,200,201,40 ] ] ],[ [ [ 37 ],[] ] ],[ -40 ],'WWP_NOTIFICATIONCREATEDDATE',[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [ c([ t('.NOT.',8),t(203,2) ],[ 203 ]),c([ t(32,2),t(=,10),t('Udparg3',23) ],[ 32 ]) ] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 37,203 ],[ 37,32 ],[ 37,37 ],[ 37,198 ],[ 37,199 ],[ 37,200 ],[ 37,201 ],[ 37,40 ] ] ]).
+ 
+las_i(2,[ [ 203,32,37,198,199,200,201,40 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','WWPBaseObjects.Notifications.Common.WWP_GetNotificationsForUser')).
+rule_i(0,prop('Folder',o(8,'WWPBaseObjects\Notifications\Common\DataProviders'))).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OutputCollectionName','WWP_GetNotificationsForUser')).
+rule_i(0,prop('OutputCollection','0')).
+rule_i(0,prop('OutputSDT',o(26,'WWPBaseObjects\Notifications\Common\WWP_SDTNotificationsData'))).
+rule_i(0,prop(idINFER_SDT,idINFER_STRUCTURE_NO)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop(idISWEBSERVICE,'0')).
+rule_i(0,prop('ObjDesc','Get Notifications For User')).
+rule_i(0,prop('ObjName','WWP_GetNotificationsForUser')).
+rule_i(0,rule([ a(22,[ 'Rfr',[ t('getmessagetext(',1),t('"GX_BtnRefresh"',3),t(')',4) ],'5' ]) ],[],[],[])).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Gxm2rootcol' ],[])).
+rule_i(0,parmio([ [ 'Gxm2rootcol',out ] ])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,37,[],[ [],'WWP_NOTIFICATIONCREATEDDATE',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,[]).
+v_i(t,o,2,203).
+v_i(t,o,2,32).
+v_i(t,o,2,37).
+v_i(t,o,2,198).
+v_i(t,o,2,199).
+v_i(t,o,2,200).
+v_i(t,o,2,201).
+v_i(t,o,2,40).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(32,[ 'WWPUserExtendedId',char,40,0,'',0,l('User Id'),'',0 ]).
+attri_i(203,[ 'WWPNotificationIsRead',boolean,4,0,'',0,l('Notification Is Read'),'',0 ]).
+attri_i(37,[ 'WWPNotificationId',int,10,0,'ZZZZZZZZZ9',0,l('Notification Id'),'',0 ]).
+attri_i(198,[ 'WWPNotificationIcon',svchar,100,0,'',0,l('Notification Icon'),'',0 ]).
+attri_i(199,[ 'WWPNotificationTitle',svchar,200,0,'',0,l('Notification Title'),'',0 ]).
+attri_i(200,[ 'WWPNotificationShortDescriptio',svchar,200,0,'',0,l('Notification Short Description'),'',0 ]).
+attri_i(201,[ 'WWPNotificationLink',svchar,1000,0,'',0,l('Notification Link'),'',0 ]).
+attri_i(40,[ 'WWPNotificationCreated',dtime,10,12,'99/99/9999 99:99:99.999',0,l('Notification Created Date'),'',0 ]).
+attri_i('Udparg3',[ 'Udparg3',char,40,0,'',0,l('Udparg3'),'',11 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',9 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',8 ]).
+attri_i('Gxm1wwp_sdtnotificationsdata',[ 'Gxm1wwp_sdtnotificationsdata',o('WWPBaseObjects\Notifications\Common\WWP_SDTNotificationsData.WWP_SDTNotificationsDataItem'),0,0,'',0,'Gxm1wwp_sdtnotificationsdata','',7 ]).
+attri_i('Gxm2rootcol',[ 'Gxm2rootcol',o(objectcollection('WWPBaseObjects\Notifications\Common\WWP_SDTNotificationsData.WWP_SDTNotificationsDataItem')),0,0,'',0,'Gxm2rootcol','',6 ]).
+attri_i('Datetime',[ 'DateTime',dtime,8,5,'99/99/99 99:99',0,l('Date Time'),'',5 ]).
+ 
+table_i(37,[ 'WWP_Notification',[ 37,40,198,199,200,201,203,32 ],l('WWP_Notification'),'WWP_Notification' ]).
+ 
+index_i(37,[ 'IWWP_NOTIFICATION',u,[ 37 ],'IWWP_Notification' ]).
+index_i(37,[ 'WWP_NOTIFICATIONCREATEDDATE',d,[ -40 ],'WWP_NotificationCreatedDate' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,40000,140,'WWPUserExtendedPhoto_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(93,[ 'WWPBaseObjects\WWP_DateTimeMillis' ]).
+dom_info_i(32,[ 'GeneXus\Url' ]).
+dom_info_i(92,[ 'WWPBaseObjects\WWP_Id' ]).
+dom_info_i(91,[ 'WWPBaseObjects\WWP_GAMGUID' ]).
+ 
+ 
+break_i(2,nvg,1,[ -40 ],[ [ 40,201,200,199,198,37 ],[ 32,203 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,4).
+b_group_i(1,2,nvg,2,4,4).
+b_group_i(2,1,lit,0,5,8).
+b_group_i(1,3,lit,0,15,0).
+ 
+b_line_i([ 3,1 ],1,1,cmd,4,[ t('',107,4,0),t('Udparg3',23,0,0),t(=,10,0,0),t('udp(',1,0,47),t(o(1,'WWPBaseObjects\WWP_GetLoggedUserId'),28,0,28),t(')',4,0,48) ]).
+b_line_i(4,2,1,cmd,5,[ t('',121,4,0),t(table,3,4,36),t(37,3,4,36),t('ORDER',39,4,53),t('(',0,4,59),t(40,2,4,60),t(')',4,4,82) ]).
+b_line_i([ 4,3 ],2,1,cmd,4,[ t('',107,4,0),t('Gxm1wwp_sdtnotificationsdata',23,4,0),t(=,10,4,0),t([ 'WWPBaseObjects\Notifications\Common\WWP_SDTNotificationsData.WWP_SDTNotificationsDataItem',[ t('(',0,4,0),t(')',4,4,0) ],n ],46,4,0) ]).
+b_line_i([ 4,4 ],2,1,cmd,4,[ t('',107,4,0),t([ t('Gxm2rootcol',23,4,0),t('add(',1,4,0) ],31,4,0),t('Gxm1wwp_sdtnotificationsdata',23,4,0),t(')',4,4,0) ]).
+b_line_i(8,2,1,cmd,8,[ t('',107,8,0),t([ t('Gxm1wwp_sdtnotificationsdata',23,8,0),t('Notificationid',3,8,0) ],29,8,0),t(=,10,8,0),t(37,2,8,0) ]).
+b_line_i(9,2,1,cmd,8,[ t('',107,9,0),t([ t('Gxm1wwp_sdtnotificationsdata',23,8,0),t('Notificationiconclass',3,8,0) ],29,8,0),t(=,10,8,0),t('"NotificationFontIcon"',3,8,0),t(+,5,8,0),t('" "',3,8,0),t(+,5,8,0),t(198,2,8,0) ]).
+b_line_i(10,2,1,cmd,8,[ t('',107,10,0),t([ t('Gxm1wwp_sdtnotificationsdata',23,8,0),t('Notificationtitle',3,8,0) ],29,8,0),t(=,10,8,0),t(199,2,8,0) ]).
+b_line_i(11,2,1,cmd,8,[ t('',107,11,0),t([ t('Gxm1wwp_sdtnotificationsdata',23,8,0),t('Notificationdescription',3,8,0) ],29,8,0),t(=,10,8,0),t(200,2,8,0) ]).
+b_line_i(12,2,1,cmd,8,[ t('',107,12,0),t([ t('Gxm1wwp_sdtnotificationsdata',23,8,0),t('Notificationdatetime',3,8,0) ],29,8,0),t(=,10,8,0),t(40,2,8,0) ]).
+b_line_i(13,2,1,cmd,8,[ t('',107,13,0),t([ t('Gxm1wwp_sdtnotificationsdata',23,8,0),t('Notificationlink',3,8,0) ],29,8,0),t(=,10,8,0),t(201,2,8,0) ]).
+b_line_i(14,2,1,cmd,8,[ t('',128,14,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,40,'ExternalName','WWPNotificationCreated',d).
+att_prop_i(2,40,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,40,'EmptyAsNull','Yes',d).
+att_prop_i(2,40,idBasedOn,93,v).
+att_prop_i(2,40,idDATEPRECISION,idDATEPRECISION_MILLISECONDS,d).
+att_prop_i(2,40,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40,'AttRegEx','',d).
+att_prop_i(2,40,'AttValidationFailedMsg','',d).
+att_prop_i(2,40,idDATEFORMAT,idDATEFORMAT_LONG,d).
+att_prop_i(2,40,idHOURFORMAT,idHOURFORMAT_HOURMINSECMIL,d).
+att_prop_i(2,40,'DownloadOffline','0',d).
+att_prop_i(2,40,'VarServiceExtName','',d).
+att_prop_i(2,40,'FullName','WWPNotificationCreated',v).
+att_prop_i(2,201,'ExternalName','WWPNotificationLink',d).
+att_prop_i(2,201,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,201,'EmptyAsNull','Yes',d).
+att_prop_i(2,201,idBasedOn,32,v).
+att_prop_i(2,201,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,201,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,201,'AttRegEx','^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$',d).
+att_prop_i(2,201,'AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+att_prop_i(2,201,'DownloadOffline','0',d).
+att_prop_i(2,201,'VarServiceExtName','',d).
+att_prop_i(2,201,'FullName','WWPNotificationLink',v).
+att_prop_i(2,200,'ExternalName','WWPNotificationShortDescription',d).
+att_prop_i(2,200,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,200,'EmptyAsNull','Yes',v).
+att_prop_i(2,200,idBasedOn,'',d).
+att_prop_i(2,200,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,200,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,200,'AttRegEx','',d).
+att_prop_i(2,200,'AttValidationFailedMsg','',d).
+att_prop_i(2,200,'DownloadOffline','0',d).
+att_prop_i(2,200,'VarServiceExtName','',d).
+att_prop_i(2,200,'FullName','WWPNotificationShortDescription',v).
+att_prop_i(2,199,'ExternalName','WWPNotificationTitle',d).
+att_prop_i(2,199,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,199,'EmptyAsNull','Yes',v).
+att_prop_i(2,199,idBasedOn,'',d).
+att_prop_i(2,199,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,199,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,199,'AttRegEx','',d).
+att_prop_i(2,199,'AttValidationFailedMsg','',d).
+att_prop_i(2,199,'DownloadOffline','0',d).
+att_prop_i(2,199,'VarServiceExtName','',d).
+att_prop_i(2,199,'FullName','WWPNotificationTitle',v).
+att_prop_i(2,198,'ExternalName','WWPNotificationIcon',d).
+att_prop_i(2,198,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,198,'EmptyAsNull','Yes',d).
+att_prop_i(2,198,idBasedOn,'',d).
+att_prop_i(2,198,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,198,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,198,'AttRegEx','',d).
+att_prop_i(2,198,'AttValidationFailedMsg','',d).
+att_prop_i(2,198,'DownloadOffline','0',d).
+att_prop_i(2,198,'VarServiceExtName','',d).
+att_prop_i(2,198,'FullName','WWPNotificationIcon',v).
+att_prop_i(2,37,'ExternalName','WWPNotificationId',d).
+att_prop_i(2,37,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,37,'EmptyAsNull','Yes',d).
+att_prop_i(2,37,idBasedOn,92,v).
+att_prop_i(2,37,'AUTONUMBER','-1',d).
+att_prop_i(2,37,'AUTONUMBER_START','1',d).
+att_prop_i(2,37,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,37,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,37,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,37,'AttRegEx','',d).
+att_prop_i(2,37,'AttValidationFailedMsg','',d).
+att_prop_i(2,37,'DownloadOffline','0',d).
+att_prop_i(2,37,'VarServiceExtName','',d).
+att_prop_i(2,37,'FullName','WWPNotificationId',v).
+att_prop_i(2,203,'ExternalName','WWPNotificationIsRead',d).
+att_prop_i(2,203,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,203,'EmptyAsNull','Yes',d).
+att_prop_i(2,203,'ExternalStorage','-1',d).
+att_prop_i(2,203,idBasedOn,'',d).
+att_prop_i(2,203,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,203,'AttRegEx','',d).
+att_prop_i(2,203,'AttValidationFailedMsg','',d).
+att_prop_i(2,203,'DownloadOffline','0',d).
+att_prop_i(2,203,'VarServiceExtName','',d).
+att_prop_i(2,203,'FullName','WWPNotificationIsRead',v).
+att_prop_i(2,32,'ExternalName','WWPUserExtendedId',d).
+att_prop_i(2,32,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,32,'EmptyAsNull','Yes',d).
+att_prop_i(2,32,idBasedOn,91,v).
+att_prop_i(2,32,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,32,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,32,'AttRegEx','',d).
+att_prop_i(2,32,'AttValidationFailedMsg','',d).
+att_prop_i(2,32,'DownloadOffline','0',d).
+att_prop_i(2,32,'VarServiceExtName','',d).
+att_prop_i(2,32,'FullName','WWPUserExtendedId',v).
+ 
+ 
+tbl_att_prop_i(2,37,37,'AllowNulls',n).
+tbl_att_prop_i(2,37,37,'AUTONUMBER',y).
+tbl_att_prop_i(2,37,40,'AllowNulls',n).
+tbl_att_prop_i(2,37,198,'AllowNulls',n).
+tbl_att_prop_i(2,37,199,'AllowNulls',n).
+tbl_att_prop_i(2,37,200,'AllowNulls',n).
+tbl_att_prop_i(2,37,201,'AllowNulls',n).
+tbl_att_prop_i(2,37,203,'AllowNulls',n).
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,77,0 ],name,'WWPBaseObjects\Notifications\Common\WWP_SDTNotificationsData').
+struct_dt_i([ 26,77,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,77,0 ],'ObjName','WWP_SDTNotificationsData').
+struct_dt_i([ 26,77,0 ],'ObjDesc','SDT Notifications Data').
+struct_dt_i([ 26,77,0 ],'ExternalName','WWP_SDTNotificationsData').
+struct_dt_i([ 26,77,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,77,0 ],collection,'True').
+struct_dt_i([ 26,77,0 ],datatype,[ 26,77,130 ]).
+struct_dt_i([ 26,77,0 ],'CollectionItemName','WWP_SDTNotificationsDataItem').
+struct_dt_i([ 26,77,0 ],'XmlName','').
+struct_dt_i([ 26,77,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,77,0 ],'XmlNamespace','').
+struct_dt_i([ 26,77,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,77,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,77,0 ],'JsonName','').
+struct_dt_i([ 26,77,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,77,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,77,130 ],name,'WWP_SDTNotificationsDataItem').
+struct_dt_i([ 26,77,130 ],namespace,'Mujer_Morena.WWP_SDTNotificationsData').
+struct_dt_i([ 26,77,0 ],fullname,'WWPBaseObjects\Notifications\Common\WWP_SDTNotificationsData').
+struct_dt_i([ 26,77,130 ],fullname,'WWPBaseObjects\Notifications\Common\WWP_SDTNotificationsData.WWP_SDTNotificationsDataItem').
+struct_dt_i([ 26,77,0 ],camelname,'Wwpbaseobjects\notifications\common\wwp_sdtnotificationsdata').
+struct_dt_i([ 26,77,130 ],camelname,'Wwp_sdtnotificationsdataitem').
+ 
+struct_dt_elem_i([ 26,77,130 ],1,name,'Notificationid').
+struct_dt_elem_i([ 26,77,130 ],1,camelname,'NotificationId').
+struct_dt_elem_i([ 26,77,130 ],1,length,5).
+struct_dt_elem_i([ 26,77,130 ],1,decimals,0).
+struct_dt_elem_i([ 26,77,130 ],1,sign,0).
+struct_dt_elem_i([ 26,77,130 ],1,type,[ 4,5,0 ]).
+struct_dt_elem_i([ 26,77,130 ],1,pic,'ZZZZ9').
+struct_dt_elem_i([ 26,77,130 ],1,collection,'False').
+struct_dt_elem_i([ 26,77,130 ],1,'ExternalName','NotificationId').
+struct_dt_elem_i([ 26,77,130 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,77,130 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,77,130 ],1,'XmlName','').
+struct_dt_elem_i([ 26,77,130 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,77,130 ],1,soaptype,'').
+struct_dt_elem_i([ 26,77,130 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,77,130 ],1,'JsonName','').
+struct_dt_elem_i([ 26,77,130 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,77,130 ],2,name,'Notificationiconclass').
+struct_dt_elem_i([ 26,77,130 ],2,camelname,'NotificationIconClass').
+struct_dt_elem_i([ 26,77,130 ],2,length,40).
+struct_dt_elem_i([ 26,77,130 ],2,decimals,0).
+struct_dt_elem_i([ 26,77,130 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,77,130 ],2,pic,'').
+struct_dt_elem_i([ 26,77,130 ],2,collection,'False').
+struct_dt_elem_i([ 26,77,130 ],2,'ExternalName','NotificationIconClass').
+struct_dt_elem_i([ 26,77,130 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,77,130 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,77,130 ],2,'XmlName','').
+struct_dt_elem_i([ 26,77,130 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,77,130 ],2,soaptype,'').
+struct_dt_elem_i([ 26,77,130 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,77,130 ],2,'JsonName','').
+struct_dt_elem_i([ 26,77,130 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,77,130 ],3,name,'Notificationtitle').
+struct_dt_elem_i([ 26,77,130 ],3,camelname,'NotificationTitle').
+struct_dt_elem_i([ 26,77,130 ],3,length,200).
+struct_dt_elem_i([ 26,77,130 ],3,decimals,0).
+struct_dt_elem_i([ 26,77,130 ],3,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 26,77,130 ],3,pic,'').
+struct_dt_elem_i([ 26,77,130 ],3,collection,'False').
+struct_dt_elem_i([ 26,77,130 ],3,'ExternalName','NotificationTitle').
+struct_dt_elem_i([ 26,77,130 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,77,130 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,77,130 ],3,'XmlName','').
+struct_dt_elem_i([ 26,77,130 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,77,130 ],3,soaptype,'').
+struct_dt_elem_i([ 26,77,130 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,77,130 ],3,'JsonName','').
+struct_dt_elem_i([ 26,77,130 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,77,130 ],4,name,'Notificationdescription').
+struct_dt_elem_i([ 26,77,130 ],4,camelname,'NotificationDescription').
+struct_dt_elem_i([ 26,77,130 ],4,length,200).
+struct_dt_elem_i([ 26,77,130 ],4,decimals,0).
+struct_dt_elem_i([ 26,77,130 ],4,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 26,77,130 ],4,pic,'').
+struct_dt_elem_i([ 26,77,130 ],4,collection,'False').
+struct_dt_elem_i([ 26,77,130 ],4,'ExternalName','NotificationDescription').
+struct_dt_elem_i([ 26,77,130 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,77,130 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,77,130 ],4,'XmlName','').
+struct_dt_elem_i([ 26,77,130 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,77,130 ],4,soaptype,'').
+struct_dt_elem_i([ 26,77,130 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,77,130 ],4,'JsonName','').
+struct_dt_elem_i([ 26,77,130 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,77,130 ],5,name,'Notificationdatetime').
+struct_dt_elem_i([ 26,77,130 ],5,camelname,'NotificationDatetime').
+struct_dt_elem_i([ 26,77,130 ],5,length,8).
+struct_dt_elem_i([ 26,77,130 ],5,decimals,5).
+struct_dt_elem_i([ 26,77,130 ],5,type,[ 12,8,5 ]).
+struct_dt_elem_i([ 26,77,130 ],5,pic,'99/99/99 99:99').
+struct_dt_elem_i([ 26,77,130 ],5,collection,'False').
+struct_dt_elem_i([ 26,77,130 ],5,'ExternalName','NotificationDatetime').
+struct_dt_elem_i([ 26,77,130 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,77,130 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,77,130 ],5,'XmlName','').
+struct_dt_elem_i([ 26,77,130 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,77,130 ],5,soaptype,'').
+struct_dt_elem_i([ 26,77,130 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,77,130 ],5,'XmlDateSerialization',idXmlDateDefaultFormat).
+struct_dt_elem_i([ 26,77,130 ],5,'JsonName','').
+struct_dt_elem_i([ 26,77,130 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,77,130 ],6,name,'Notificationlink').
+struct_dt_elem_i([ 26,77,130 ],6,camelname,'NotificationLink').
+struct_dt_elem_i([ 26,77,130 ],6,basedon,32).
+struct_dt_elem_i([ 26,77,130 ],6,length,1000).
+struct_dt_elem_i([ 26,77,130 ],6,decimals,0).
+struct_dt_elem_i([ 26,77,130 ],6,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,77,130 ],6,pic,'').
+struct_dt_elem_i([ 26,77,130 ],6,collection,'False').
+struct_dt_elem_i([ 26,77,130 ],6,'ExternalName','NotificationLink').
+struct_dt_elem_i([ 26,77,130 ],6,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,77,130 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,77,130 ],6,'XmlName','').
+struct_dt_elem_i([ 26,77,130 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,77,130 ],6,soaptype,'').
+struct_dt_elem_i([ 26,77,130 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,77,130 ],6,'JsonName','').
+struct_dt_elem_i([ 26,77,130 ],6,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,50,'WWPBASEOBJECTS\WWP_GETLOGGEDUSERID',[ [ char,40,0,0 ] ],[ [ 'WWPUserExtendedId',out,[] ] ]).
+ 
+pgm_callprotocol_i(mnproc,8,'WWPBASEOBJECTS\NOTIFICATIONS\COMMON\WWP_GETNOTIFICATIONSFORUSER','INTERNAL','').
+pgm_callprotocol_i(proc,50,'WWPBASEOBJECTS\WWP_GETLOGGEDUSERID','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

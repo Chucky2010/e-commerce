@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "talla_FullControl",
+    "Description": "Talla FullControl",
+    "ProgramName": "talla",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "talla_Execute",
+    "Description": "Talla",
+    "ProgramName": "talla",
+    "IsGXAutomatic": true,
+    "Parent": "talla_FullControl"
+  },
+  {
+    "Name": "talla_Insert",
+    "Description": "Talla Insert",
+    "ProgramName": "talla",
+    "IsGXAutomatic": true,
+    "Parent": "talla_FullControl"
+  },
+  {
+    "Name": "talla_Delete",
+    "Description": "Talla Delete",
+    "ProgramName": "talla",
+    "IsGXAutomatic": true,
+    "Parent": "talla_FullControl"
+  },
+  {
+    "Name": "talla_Update",
+    "Description": "Talla Update",
+    "ProgramName": "talla",
+    "IsGXAutomatic": true,
+    "Parent": "talla_FullControl"
+  }
+]

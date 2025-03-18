@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "numeradorprompt_Execute",
+    "Description": "Selecciona Numerador",
+    "ProgramName": "numeradorprompt",
+    "IsGXAutomatic": true
+  }
+]

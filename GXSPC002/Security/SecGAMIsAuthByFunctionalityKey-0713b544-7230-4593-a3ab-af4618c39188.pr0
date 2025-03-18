@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "secisauthbyfunctionalitykey_Services_Execute",
+    "Description": "Is Authorized By Functionality Services",
+    "ProgramName": "wwpbaseobjects.secgamisauthbyfunctionalitykey",
+    "IsGXAutomatic": true
+  }
+]

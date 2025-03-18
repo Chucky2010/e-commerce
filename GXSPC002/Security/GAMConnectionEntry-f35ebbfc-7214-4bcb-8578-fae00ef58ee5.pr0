@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamconnectionentry_Execute",
+    "Description": "Connection",
+    "ProgramName": "gamconnectionentry",
+    "IsGXAutomatic": true
+  }
+]

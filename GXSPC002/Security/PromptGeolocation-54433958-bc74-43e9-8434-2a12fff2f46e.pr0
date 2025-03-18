@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "promptgeolocation_Execute",
+    "Description": "WWP_PromptGeolocationSelect",
+    "ProgramName": "wwpbaseobjects.promptgeolocation",
+    "IsGXAutomatic": true
+  }
+]

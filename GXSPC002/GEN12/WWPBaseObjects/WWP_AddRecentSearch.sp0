@@ -1,0 +1,550 @@
+spec_i([ proc,58,l('WWP_Add Recent Search'),'WWPBaseObjects\WWP_AddRecentSearch',78,spa,'17_0_11-163677' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','WWPBaseObjects.WWP_AddRecentSearch')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'WWPBaseObjects\Search'))).
+rule_i(0,prop('ObjDesc','WWP_Add Recent Search')).
+rule_i(0,prop('ObjName','WWP_AddRecentSearch')).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Wwp_searchresults','Url','Maxcategories','Maxitemspercategory' ],[])).
+rule_i(0,parmio([ [ 'Wwp_searchresults',in ],[ 'Url',in ],[ 'Maxcategories',in ],[ 'Maxitemspercategory',in ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(3,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,3,[]).
+v_i(f,o,3,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',28 ]).
+attri_i('GXV4',[ 'GXV4',int,8,0,'',0,'','',27 ]).
+attri_i('GXV3',[ 'GXV3',int,8,0,'',0,'','',26 ]).
+attri_i('GXV2',[ 'GXV2',int,8,0,'',0,'','',25 ]).
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'','',24 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',23 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',22 ]).
+attri_i('Wwp_searchresultsitem',[ 'WWP_SearchResultsItem',o('WWPBaseObjects\WWP_SearchResults.WWP_SearchResultsItem'),0,0,'',0,l('WWP_Search Results Item'),'',21 ]).
+attri_i('Wwp_searchresults',[ 'WWP_SearchResults',o(objectcollection('WWPBaseObjects\WWP_SearchResults.WWP_SearchResultsItem')),0,0,'',0,l('WWP_Search Results'),'',20 ]).
+attri_i('Wwp_searchresultitem',[ 'WWP_SearchResultItem',o('WWPBaseObjects\WWP_SearchResults.WWP_SearchResultsItem.ResultItem'),0,0,'',0,l('WWP_Search Result Item'),'',19 ]).
+attri_i('Url',[ 'Url',svchar,40,0,'',0,l('Url'),'',18 ]).
+attri_i('Recentsearchresultsjson',[ 'RecentSearchResultsJson',svchar,40,0,'',0,l('Recent Search Results Json'),'',17 ]).
+attri_i('Recentsearchresults',[ 'RecentSearchResults',o('WWPBaseObjects\WWP_SearchResults.WWP_SearchResultsItem'),0,0,'',0,l('Recent Search Results'),'',16 ]).
+attri_i('Recentsearchresultitem',[ 'RecentSearchResultItem',o('WWPBaseObjects\WWP_SearchResults.WWP_SearchResultsItem.ResultItem'),0,0,'',0,l('Recent Search Result Item'),'',15 ]).
+attri_i('Recentsearches',[ 'RecentSearches',o(objectcollection('WWPBaseObjects\WWP_SearchResults.WWP_SearchResultsItem')),0,0,'',0,l('Recent Searches'),'',14 ]).
+attri_i('Recentalreadyadded',[ 'RecentAlreadyAdded',boolean,4,0,'',0,l('Recent Already Added'),'',13 ]).
+attri_i('Maxitemspercategory',[ 'MaxItemsPerCategory',int,4,0,'ZZZ9',0,l('Max Items Per Category'),'',12 ]).
+attri_i('Maxcategories',[ 'MaxCategories',int,4,0,'ZZZ9',0,l('Max Categories'),'',11 ]).
+attri_i('Found',[ 'Found',boolean,4,0,'',0,l('Found'),'',10 ]).
+attri_i('Currentrecentsearchresults',[ 'CurrentRecentSearchResults',o('WWPBaseObjects\WWP_SearchResults.WWP_SearchResultsItem'),0,0,'',0,l('Current Recent Search Results'),'',9 ]).
+attri_i('Categoryfound',[ 'CategoryFound',boolean,4,0,'',0,l('Category Found'),'',8 ]).
+ 
+ 
+ 
+ 
+ 
+function_i(1,'Recentsearchresultsjson',yes,udp,o(1,'WWPBaseObjects\LoadUserKeyValue'),[],2,'Recentsearchresultsjson',[ [ t('''WWPRecentSearch''',3) ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[ t('',107,2,0),t('Recentsearchresultsjson',23,0,0),t(=,10,0,0),t('udp(',1,0,0),t('Recentsearchresultsjson',3,0,0),t(2,3,0,0),t('''WWPRecentSearch''',3,0,0),t(')',4,0,0) ]).
+b_line_i(3,1,1,cmd,0,[ t('',109,3,0),t('null(',1,3,29),t('Recentsearchresultsjson',23,0,4),t(')',4,0,38) ]).
+b_line_i(4,1,1,cmd,0,[ t('',107,4,0),t('Recentsearches',23,0,0),t(=,10,0,0),t([ 'WWPBaseObjects\WWP_SearchResults',[ t('(',0,4,23),t(')',4,4,24) ],n ],46,0,0) ]).
+b_line_i(5,1,1,cmd,0,[ t('',110,5,0) ]).
+b_line_i(6,1,1,cmd,0,[ t('',107,6,0),t([ t('Recentsearches',23,6,2),t('fromjson(',1,6,18) ],31,6,2),t('Recentsearchresultsjson',23,0,28),t(')',4,0,52) ]).
+b_line_i(7,1,1,cmd,0,[ t('',111,7,0) ]).
+b_line_i(8,1,1,cmd,0,[]).
+b_line_i(9,1,1,cmd,0,[ t('',107,9,0),t('Found',23,0,0),t(=,10,0,0),t('FALSE',41,0,0) ]).
+b_line_i(10,1,1,cmd,0,[ t('',107,10,0),t('GXV1',23,0,0),t(=,10,0,0),t(1,3,0,0) ]).
+b_line_i([ 10,2 ],1,1,cmd,0,[ t('',114,10,0),t('GXV1',23,0,0),t(<=,10,0,0),t([ t('Wwp_searchresults',23,10,31),t('Count',3,10,0) ],29,10,0) ]).
+b_line_i([ 10,3 ],1,1,cmd,0,[ t('',107,10,0),t('Wwp_searchresultsitem',23,0,0),t(=,10,0,0),t([ t('Wwp_searchresults',23,0,0),t('item(',1,0,0) ],31,0,0),t('GXV1',23,0,0),t(')',4,0,0) ]).
+b_line_i(11,1,1,cmd,1,[ t('',107,11,0),t('GXV2',23,1,0),t(=,10,1,0),t(1,3,1,0) ]).
+b_line_i([ 11,2 ],1,1,cmd,1,[ t('',114,11,0),t('GXV2',23,1,0),t(<=,10,1,0),t([ t('Wwp_searchresultsitem',23,11,31),t('Result',3,11,54),t('Count',3,11,0) ],29,11,0) ]).
+b_line_i([ 11,3 ],1,1,cmd,1,[ t('',107,11,0),t('Wwp_searchresultitem',23,1,0),t(=,10,1,0),t([ t([ t('Wwp_searchresultsitem',23,1,0),t('Result',3,1,0) ],29,1,0),t('item(',1,1,0) ],31,1,0),t('GXV2',23,1,0),t(')',4,1,0) ]).
+b_line_i(12,1,1,cmd,2,[ t('',109,12,0),t([ t('Wwp_searchresultitem',23,12,6),t('Url',3,12,28) ],29,12,28),t(=,10,2,32),t('Url',23,2,34) ]).
+b_line_i(13,1,1,cmd,2,[ t('',107,13,0),t('Categoryfound',23,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(14,1,1,cmd,2,[ t('',107,14,0),t('GXV3',23,2,0),t(=,10,2,0),t(1,3,2,0) ]).
+b_line_i([ 14,2 ],1,1,cmd,2,[ t('',114,14,0),t('GXV3',23,2,0),t(<=,10,2,0),t([ t('Recentsearches',23,14,32),t('Count',3,14,0) ],29,14,0) ]).
+b_line_i([ 14,3 ],1,1,cmd,2,[ t('',107,14,0),t('Recentsearchresults',23,2,0),t(=,10,2,0),t([ t('Recentsearches',23,2,0),t('item(',1,2,0) ],31,2,0),t('GXV3',23,2,0),t(')',4,2,0) ]).
+b_line_i(15,1,1,cmd,3,[ t('',109,15,0),t([ t('Recentsearchresults',23,15,8),t('Categoryname',3,15,29) ],29,15,29),t(=,10,3,42),t([ t('Wwp_searchresultsitem',23,15,44),t('Categoryname',3,15,67) ],29,15,67) ]).
+b_line_i(16,1,1,cmd,3,[ t('',107,16,0),t('Categoryfound',23,3,0),t(=,10,3,0),t('TRUE',40,3,0) ]).
+b_line_i(17,1,1,cmd,3,[ t('',107,17,0),t('Currentrecentsearchresults',23,3,0),t(=,10,3,0),t('Recentsearchresults',23,3,0) ]).
+b_line_i(18,1,1,cmd,3,[ t('',140,18,0) ]).
+b_line_i(19,1,1,cmd,3,[ t('',111,19,0) ]).
+b_line_i([ 20,1 ],1,1,cmd,3,[ t('',107,20,0),t('GXV3',23,3,0),t(=,10,3,0),t('GXV3',23,3,0),t(+,5,3,0),t(1,3,3,0) ]).
+b_line_i([ 20,2 ],1,1,cmd,3,[ t('',115,20,0) ]).
+b_line_i(21,1,1,cmd,4,[ t('',107,21,0),t('Recentalreadyadded',23,4,0),t(=,10,4,0),t('FALSE',41,4,0) ]).
+b_line_i(22,1,1,cmd,4,[ t('',109,22,0),t('.NOT.',8,4,7),t('Categoryfound',23,4,13) ]).
+b_line_i(23,1,1,cmd,4,[ t('',107,23,0),t('Currentrecentsearchresults',23,4,0),t(=,10,4,0),t([ 'WWPBaseObjects\WWP_SearchResults.WWP_SearchResultsItem',[ t('(',0,23,38),t(')',4,23,39) ],n ],46,4,0) ]).
+b_line_i(24,1,1,cmd,4,[ t('',107,24,0),t([ t('Currentrecentsearchresults',23,4,0),t('Categoryname',3,4,0) ],29,4,0),t(=,10,4,0),t([ t('Wwp_searchresultsitem',23,4,0),t('Categoryname',3,4,0) ],29,4,0) ]).
+b_line_i(25,1,1,cmd,4,[ t('',107,25,0),t([ t('Currentrecentsearchresults',23,4,0),t('Categoryicon',3,4,0) ],29,4,0),t(=,10,4,0),t([ t('Wwp_searchresultsitem',23,4,0),t('Categoryicon',3,4,0) ],29,4,0) ]).
+b_line_i(26,1,1,cmd,4,[ t('',107,26,0),t([ t('Currentrecentsearchresults',23,4,0),t('Orderindex',3,4,0) ],29,4,0),t(=,10,4,0),t([ t('Wwp_searchresultsitem',23,4,0),t('Orderindex',3,4,0) ],29,4,0) ]).
+b_line_i(27,1,1,cmd,4,[ t('',107,27,0),t([ t('Currentrecentsearchresults',23,4,0),t('Showingallresults',3,4,0) ],29,4,0),t(=,10,4,0),t('TRUE',40,4,0) ]).
+b_line_i(28,1,1,cmd,4,[ t('',107,28,0),t([ t('Recentsearches',23,28,5),t('add(',1,28,21) ],31,28,5),t('Currentrecentsearchresults',23,4,26),t(')',4,4,53) ]).
+b_line_i(29,1,1,cmd,4,[ t('',109,29,0),t([ t('Recentsearches',23,29,8),t('Count',3,29,24) ],29,29,24),t(>,10,4,30),t('Maxcategories',23,4,32) ]).
+b_line_i(30,1,1,cmd,4,[ t('',107,30,0),t([ t('Recentsearches',23,30,6),t('remove(',1,30,22) ],31,30,6),t('1',3,4,30),t(')',4,4,31) ]).
+b_line_i(31,1,1,cmd,4,[ t('',111,31,0) ]).
+b_line_i(32,1,1,cmd,4,[ t('',110,32,0) ]).
+b_line_i(33,1,1,cmd,4,[ t('',107,33,0),t('GXV4',23,4,0),t(=,10,4,0),t(1,3,4,0) ]).
+b_line_i([ 33,2 ],1,1,cmd,4,[ t('',114,33,0),t('GXV4',23,4,0),t(<=,10,4,0),t([ t('Currentrecentsearchresults',23,33,36),t('Result',3,33,64),t('Count',3,33,0) ],29,33,0) ]).
+b_line_i([ 33,3 ],1,1,cmd,4,[ t('',107,33,0),t('Recentsearchresultitem',23,4,0),t(=,10,4,0),t([ t([ t('Currentrecentsearchresults',23,4,0),t('Result',3,4,0) ],29,4,0),t('item(',1,4,0) ],31,4,0),t('GXV4',23,4,0),t(')',4,4,0) ]).
+b_line_i(34,1,1,cmd,5,[ t('',109,34,0),t([ t('Recentsearchresultitem',23,34,9),t('Url',3,34,33) ],29,34,33),t(=,10,5,37),t('Url',23,5,39) ]).
+b_line_i(35,1,1,cmd,5,[ t('',107,35,0),t('Recentalreadyadded',23,5,0),t(=,10,5,0),t('TRUE',40,5,0) ]).
+b_line_i(36,1,1,cmd,5,[ t('',140,36,0) ]).
+b_line_i(37,1,1,cmd,5,[ t('',111,37,0) ]).
+b_line_i([ 38,1 ],1,1,cmd,5,[ t('',107,38,0),t('GXV4',23,5,0),t(=,10,5,0),t('GXV4',23,5,0),t(+,5,5,0),t(1,3,5,0) ]).
+b_line_i([ 38,2 ],1,1,cmd,5,[ t('',115,38,0) ]).
+b_line_i(39,1,1,cmd,6,[ t('',111,39,0) ]).
+b_line_i(40,1,1,cmd,6,[ t('',109,40,0),t('.NOT.',8,6,7),t('Recentalreadyadded',23,6,13) ]).
+b_line_i(41,1,1,cmd,6,[ t('',107,41,0),t([ t('Currentrecentsearchresults',23,41,32),t('Result',3,41,60),t('add(',1,41,67) ],31,41,32),t([ t('Wwp_searchresultitem',23,6,72),t('clone(',1,6,94) ],31,41,94),t(')',4,6,101),t(',',7,6,102),t('1',3,6,104),t(')',4,6,105) ]).
+b_line_i(42,1,1,cmd,6,[ t('',109,42,0),t([ t('Currentrecentsearchresults',23,42,8),t('Result',3,42,36),t('Count',3,42,43) ],29,42,43),t(>,10,6,49),t('Maxitemspercategory',23,6,51) ]).
+b_line_i(43,1,1,cmd,6,[ t('',107,43,0),t([ t('Currentrecentsearchresults',23,43,33),t('Result',3,43,61),t('remove(',1,43,68) ],31,43,33),t([ t('Currentrecentsearchresults',23,43,76),t('Result',3,43,104),t('Count',3,43,111) ],29,43,111),t(')',4,6,116) ]).
+b_line_i(44,1,1,cmd,6,[ t('',111,44,0) ]).
+b_line_i(45,1,1,cmd,6,[ t('',104,45,0),t(o(1,'WWPBaseObjects\SaveUserKeyValue'),28,6,5),t('''WWPRecentSearch''',3,45,22),t(',',7,6,0),t([ t('Recentsearches',23,6,42),t('tojson(',1,6,58) ],31,45,58),t(')',4,6,66) ]).
+b_line_i(46,1,1,cmd,6,[ t('',111,46,0) ]).
+b_line_i(47,1,1,cmd,6,[ t('',107,47,0),t('Found',23,6,0),t(=,10,6,0),t('TRUE',40,6,0) ]).
+b_line_i(48,1,1,cmd,6,[ t('',140,48,0) ]).
+b_line_i(49,1,1,cmd,6,[ t('',111,49,0) ]).
+b_line_i([ 50,1 ],1,1,cmd,6,[ t('',107,50,0),t('GXV2',23,6,0),t(=,10,6,0),t('GXV2',23,6,0),t(+,5,6,0),t(1,3,6,0) ]).
+b_line_i([ 50,2 ],1,1,cmd,6,[ t('',115,50,0) ]).
+b_line_i(51,1,1,cmd,7,[ t('',109,51,0),t('Found',23,7,5) ]).
+b_line_i(52,1,1,cmd,7,[ t('',140,52,0) ]).
+b_line_i(53,1,1,cmd,7,[ t('',111,53,0) ]).
+b_line_i([ 54,1 ],1,1,cmd,7,[ t('',107,54,0),t('GXV1',23,7,0),t(=,10,7,0),t('GXV1',23,7,0),t(+,5,7,0),t(1,3,7,0) ]).
+b_line_i([ 54,2 ],1,1,cmd,7,[ t('',115,54,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,78,0 ],name,'WWPBaseObjects\WWP_SearchResults').
+struct_dt_i([ 26,78,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,78,0 ],'ObjName','WWP_SearchResults').
+struct_dt_i([ 26,78,0 ],'ObjDesc','WWP_Search Results').
+struct_dt_i([ 26,78,0 ],'ExternalName','WWP_SearchResults').
+struct_dt_i([ 26,78,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,78,0 ],collection,'True').
+struct_dt_i([ 26,78,0 ],datatype,[ 26,78,131 ]).
+struct_dt_i([ 26,78,0 ],'CollectionItemName','WWP_SearchResultsItem').
+struct_dt_i([ 26,78,0 ],'XmlName','').
+struct_dt_i([ 26,78,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,78,0 ],'XmlNamespace','').
+struct_dt_i([ 26,78,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,78,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,78,0 ],'JsonName','').
+struct_dt_i([ 26,78,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,78,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,78,131 ],name,'WWP_SearchResultsItem').
+struct_dt_i([ 26,78,131 ],namespace,'Mujer_Morena.WWP_SearchResults').
+struct_dt_i([ 26,78,132 ],name,'ResultItem').
+struct_dt_i([ 26,78,132 ],namespace,'Mujer_Morena.WWP_SearchResults.WWP_SearchResultsItem').
+struct_dt_i([ 26,78,0 ],fullname,'WWPBaseObjects\WWP_SearchResults').
+struct_dt_i([ 26,78,131 ],fullname,'WWPBaseObjects\WWP_SearchResults.WWP_SearchResultsItem').
+struct_dt_i([ 26,78,132 ],fullname,'WWPBaseObjects\WWP_SearchResults.WWP_SearchResultsItem.ResultItem').
+ 
+struct_dt_elem_i([ 26,78,131 ],1,name,'Categoryname').
+struct_dt_elem_i([ 26,78,131 ],1,camelname,'CategoryName').
+struct_dt_elem_i([ 26,78,131 ],1,length,40).
+struct_dt_elem_i([ 26,78,131 ],1,decimals,0).
+struct_dt_elem_i([ 26,78,131 ],1,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,78,131 ],1,pic,'').
+struct_dt_elem_i([ 26,78,131 ],1,collection,'False').
+struct_dt_elem_i([ 26,78,131 ],1,'ExternalName','CategoryName').
+struct_dt_elem_i([ 26,78,131 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,78,131 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,78,131 ],1,'XmlName','').
+struct_dt_elem_i([ 26,78,131 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,78,131 ],1,soaptype,'').
+struct_dt_elem_i([ 26,78,131 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,78,131 ],1,'JsonName','').
+struct_dt_elem_i([ 26,78,131 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,78,131 ],2,name,'Categoryicon').
+struct_dt_elem_i([ 26,78,131 ],2,camelname,'CategoryIcon').
+struct_dt_elem_i([ 26,78,131 ],2,length,40).
+struct_dt_elem_i([ 26,78,131 ],2,decimals,0).
+struct_dt_elem_i([ 26,78,131 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,78,131 ],2,pic,'').
+struct_dt_elem_i([ 26,78,131 ],2,collection,'False').
+struct_dt_elem_i([ 26,78,131 ],2,'ExternalName','CategoryIcon').
+struct_dt_elem_i([ 26,78,131 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,78,131 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,78,131 ],2,'XmlName','').
+struct_dt_elem_i([ 26,78,131 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,78,131 ],2,soaptype,'').
+struct_dt_elem_i([ 26,78,131 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,78,131 ],2,'JsonName','').
+struct_dt_elem_i([ 26,78,131 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,78,131 ],3,name,'Showingallresults').
+struct_dt_elem_i([ 26,78,131 ],3,camelname,'ShowingAllResults').
+struct_dt_elem_i([ 26,78,131 ],3,length,4).
+struct_dt_elem_i([ 26,78,131 ],3,decimals,0).
+struct_dt_elem_i([ 26,78,131 ],3,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,78,131 ],3,pic,'').
+struct_dt_elem_i([ 26,78,131 ],3,collection,'False').
+struct_dt_elem_i([ 26,78,131 ],3,'ExternalName','ShowingAllResults').
+struct_dt_elem_i([ 26,78,131 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,78,131 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,78,131 ],3,'XmlName','').
+struct_dt_elem_i([ 26,78,131 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,78,131 ],3,soaptype,'').
+struct_dt_elem_i([ 26,78,131 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,78,131 ],3,'JsonName','').
+struct_dt_elem_i([ 26,78,131 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,78,131 ],4,name,'Orderindex').
+struct_dt_elem_i([ 26,78,131 ],4,camelname,'OrderIndex').
+struct_dt_elem_i([ 26,78,131 ],4,length,4).
+struct_dt_elem_i([ 26,78,131 ],4,decimals,0).
+struct_dt_elem_i([ 26,78,131 ],4,sign,0).
+struct_dt_elem_i([ 26,78,131 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,78,131 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,78,131 ],4,collection,'False').
+struct_dt_elem_i([ 26,78,131 ],4,'ExternalName','OrderIndex').
+struct_dt_elem_i([ 26,78,131 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,78,131 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,78,131 ],4,'XmlName','').
+struct_dt_elem_i([ 26,78,131 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,78,131 ],4,soaptype,'').
+struct_dt_elem_i([ 26,78,131 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,78,131 ],4,'JsonName','').
+struct_dt_elem_i([ 26,78,131 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,78,131 ],5,name,'Result').
+struct_dt_elem_i([ 26,78,131 ],5,camelname,'Result').
+struct_dt_elem_i([ 26,78,131 ],5,type,[ [ 26,78,132 ],0,0 ]).
+struct_dt_elem_i([ 26,78,131 ],5,pic,'').
+struct_dt_elem_i([ 26,78,131 ],5,collection,'True').
+struct_dt_elem_i([ 26,78,131 ],5,'ObjName','Result').
+struct_dt_elem_i([ 26,78,131 ],5,'ObjDesc','Result').
+struct_dt_elem_i([ 26,78,131 ],5,'CollectionItemName','ResultItem').
+struct_dt_elem_i([ 26,78,131 ],5,'XmlName','').
+struct_dt_elem_i([ 26,78,131 ],5,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,78,131 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,78,131 ],5,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,78,131 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,78,131 ],5,'JsonName','').
+struct_dt_elem_i([ 26,78,131 ],5,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,78,131 ],5,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,78,132 ],1,name,'Displaytype').
+struct_dt_elem_i([ 26,78,132 ],1,camelname,'DisplayType').
+struct_dt_elem_i([ 26,78,132 ],1,length,40).
+struct_dt_elem_i([ 26,78,132 ],1,decimals,0).
+struct_dt_elem_i([ 26,78,132 ],1,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,78,132 ],1,pic,'').
+struct_dt_elem_i([ 26,78,132 ],1,collection,'False').
+struct_dt_elem_i([ 26,78,132 ],1,'ExternalName','DisplayType').
+struct_dt_elem_i([ 26,78,132 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,78,132 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,78,132 ],1,'XmlName','').
+struct_dt_elem_i([ 26,78,132 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,78,132 ],1,soaptype,'').
+struct_dt_elem_i([ 26,78,132 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,78,132 ],1,'JsonName','').
+struct_dt_elem_i([ 26,78,132 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,78,132 ],2,name,'Description').
+struct_dt_elem_i([ 26,78,132 ],2,camelname,'Description').
+struct_dt_elem_i([ 26,78,132 ],2,length,40).
+struct_dt_elem_i([ 26,78,132 ],2,decimals,0).
+struct_dt_elem_i([ 26,78,132 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,78,132 ],2,pic,'').
+struct_dt_elem_i([ 26,78,132 ],2,collection,'False').
+struct_dt_elem_i([ 26,78,132 ],2,'ExternalName','Description').
+struct_dt_elem_i([ 26,78,132 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,78,132 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,78,132 ],2,'XmlName','').
+struct_dt_elem_i([ 26,78,132 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,78,132 ],2,soaptype,'').
+struct_dt_elem_i([ 26,78,132 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,78,132 ],2,'JsonName','').
+struct_dt_elem_i([ 26,78,132 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,78,132 ],3,name,'Description2').
+struct_dt_elem_i([ 26,78,132 ],3,camelname,'Description2').
+struct_dt_elem_i([ 26,78,132 ],3,length,40).
+struct_dt_elem_i([ 26,78,132 ],3,decimals,0).
+struct_dt_elem_i([ 26,78,132 ],3,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,78,132 ],3,pic,'').
+struct_dt_elem_i([ 26,78,132 ],3,collection,'False').
+struct_dt_elem_i([ 26,78,132 ],3,'ExternalName','Description2').
+struct_dt_elem_i([ 26,78,132 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,78,132 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,78,132 ],3,'XmlName','').
+struct_dt_elem_i([ 26,78,132 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,78,132 ],3,soaptype,'').
+struct_dt_elem_i([ 26,78,132 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,78,132 ],3,'JsonName','').
+struct_dt_elem_i([ 26,78,132 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,78,132 ],4,name,'Description3').
+struct_dt_elem_i([ 26,78,132 ],4,camelname,'Description3').
+struct_dt_elem_i([ 26,78,132 ],4,length,40).
+struct_dt_elem_i([ 26,78,132 ],4,decimals,0).
+struct_dt_elem_i([ 26,78,132 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,78,132 ],4,pic,'').
+struct_dt_elem_i([ 26,78,132 ],4,collection,'False').
+struct_dt_elem_i([ 26,78,132 ],4,'ExternalName','Description3').
+struct_dt_elem_i([ 26,78,132 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,78,132 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,78,132 ],4,'XmlName','').
+struct_dt_elem_i([ 26,78,132 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,78,132 ],4,soaptype,'').
+struct_dt_elem_i([ 26,78,132 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,78,132 ],4,'JsonName','').
+struct_dt_elem_i([ 26,78,132 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,78,132 ],5,name,'Url').
+struct_dt_elem_i([ 26,78,132 ],5,camelname,'Url').
+struct_dt_elem_i([ 26,78,132 ],5,length,40).
+struct_dt_elem_i([ 26,78,132 ],5,decimals,0).
+struct_dt_elem_i([ 26,78,132 ],5,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,78,132 ],5,pic,'').
+struct_dt_elem_i([ 26,78,132 ],5,collection,'False').
+struct_dt_elem_i([ 26,78,132 ],5,'ExternalName','Url').
+struct_dt_elem_i([ 26,78,132 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,78,132 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,78,132 ],5,'XmlName','').
+struct_dt_elem_i([ 26,78,132 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,78,132 ],5,soaptype,'').
+struct_dt_elem_i([ 26,78,132 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,78,132 ],5,'JsonName','').
+struct_dt_elem_i([ 26,78,132 ],5,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,43,'WWPBASEOBJECTS\SAVEUSERKEYVALUE',[ [ svchar,120,0,0 ],[ vchar,2097152,0,0 ] ],[ [ 'UserCustomizationsKey',in,[] ],[ 'UserCustomizationsValue',in,[] ] ]).
+pgm_parm_i(proc,42,'WWPBASEOBJECTS\LOADUSERKEYVALUE',[ [ svchar,120,0,0 ],[ vchar,2097152,0,0 ] ],[ [ 'UserCustomizationsKey',in,[] ],[ 'UserCustomizationsValue',out,[] ] ]).
+ 
+pgm_callprotocol_i(proc,58,'WWPBASEOBJECTS\WWP_ADDRECENTSEARCH','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,43,'WWPBASEOBJECTS\SAVEUSERKEYVALUE','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,42,'WWPBASEOBJECTS\LOADUSERKEYVALUE','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

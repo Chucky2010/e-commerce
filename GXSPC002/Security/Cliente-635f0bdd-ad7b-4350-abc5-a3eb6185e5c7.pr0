@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "cliente_FullControl",
+    "Description": "Cliente FullControl",
+    "ProgramName": "cliente",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "cliente_Execute",
+    "Description": "Cliente",
+    "ProgramName": "cliente",
+    "IsGXAutomatic": true,
+    "Parent": "cliente_FullControl"
+  },
+  {
+    "Name": "cliente_Insert",
+    "Description": "Cliente Insert",
+    "ProgramName": "cliente",
+    "IsGXAutomatic": true,
+    "Parent": "cliente_FullControl"
+  },
+  {
+    "Name": "cliente_Delete",
+    "Description": "Cliente Delete",
+    "ProgramName": "cliente",
+    "IsGXAutomatic": true,
+    "Parent": "cliente_FullControl"
+  },
+  {
+    "Name": "cliente_Update",
+    "Description": "Cliente Update",
+    "ProgramName": "cliente",
+    "IsGXAutomatic": true,
+    "Parent": "cliente_FullControl"
+  }
+]

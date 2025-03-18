@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "addressdisplay_Execute",
+    "Description": "WWP_AddressDisplayMap",
+    "ProgramName": "wwpbaseobjects.addressdisplay",
+    "IsGXAutomatic": true
+  }
+]

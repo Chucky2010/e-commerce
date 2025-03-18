@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "opcionenvioprompt_Execute",
+    "Description": "Selecciona Opcion Envio",
+    "ProgramName": "opcionenvioprompt",
+    "IsGXAutomatic": true
+  }
+]

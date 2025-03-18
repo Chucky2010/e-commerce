@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "persona_FullControl",
+    "Description": "Persona FullControl",
+    "ProgramName": "persona",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "persona_Execute",
+    "Description": "Persona",
+    "ProgramName": "persona",
+    "IsGXAutomatic": true,
+    "Parent": "persona_FullControl"
+  },
+  {
+    "Name": "persona_Insert",
+    "Description": "Persona Insert",
+    "ProgramName": "persona",
+    "IsGXAutomatic": true,
+    "Parent": "persona_FullControl"
+  },
+  {
+    "Name": "persona_Delete",
+    "Description": "Persona Delete",
+    "ProgramName": "persona",
+    "IsGXAutomatic": true,
+    "Parent": "persona_FullControl"
+  },
+  {
+    "Name": "persona_Update",
+    "Description": "Persona Update",
+    "ProgramName": "persona",
+    "IsGXAutomatic": true,
+    "Parent": "persona_FullControl"
+  }
+]

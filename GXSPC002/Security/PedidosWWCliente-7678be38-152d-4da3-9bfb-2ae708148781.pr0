@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "pedidoswwcliente_Execute",
+    "Description": "Pedidos WWCliente",
+    "ProgramName": "pedidoswwcliente",
+    "IsGXAutomatic": true
+  }
+]

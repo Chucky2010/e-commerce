@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "galeriaarticulo_FullControl",
+    "Description": "Galeria Articulo FullControl",
+    "ProgramName": "galeriaarticulo",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "galeriaarticulo_Execute",
+    "Description": "Galeria Articulo",
+    "ProgramName": "galeriaarticulo",
+    "IsGXAutomatic": true,
+    "Parent": "galeriaarticulo_FullControl"
+  },
+  {
+    "Name": "galeriaarticulo_Insert",
+    "Description": "Galeria Articulo Insert",
+    "ProgramName": "galeriaarticulo",
+    "IsGXAutomatic": true,
+    "Parent": "galeriaarticulo_FullControl"
+  },
+  {
+    "Name": "galeriaarticulo_Delete",
+    "Description": "Galeria Articulo Delete",
+    "ProgramName": "galeriaarticulo",
+    "IsGXAutomatic": true,
+    "Parent": "galeriaarticulo_FullControl"
+  },
+  {
+    "Name": "galeriaarticulo_Update",
+    "Description": "Galeria Articulo Update",
+    "ProgramName": "galeriaarticulo",
+    "IsGXAutomatic": true,
+    "Parent": "galeriaarticulo_FullControl"
+  }
+]

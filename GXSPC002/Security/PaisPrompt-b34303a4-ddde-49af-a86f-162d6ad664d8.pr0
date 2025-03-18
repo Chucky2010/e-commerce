@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "paisprompt_Execute",
+    "Description": "Selecciona Pais",
+    "ProgramName": "paisprompt",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,10 @@
+bc_dt_elem_i([ 0,31,0 ],'Wwpsmsid',allownulls,no).
+bc_dt_elem_i([ 0,31,0 ],'Wwpsmsmessage',allownulls,no).
+bc_dt_elem_i([ 0,31,0 ],'Wwpsmssendernumber',allownulls,no).
+bc_dt_elem_i([ 0,31,0 ],'Wwpsmsrecipientnumbers',allownulls,no).
+bc_dt_elem_i([ 0,31,0 ],'Wwpsmsstatus',allownulls,no).
+bc_dt_elem_i([ 0,31,0 ],'Wwpsmscreated',allownulls,no).
+bc_dt_elem_i([ 0,31,0 ],'Wwpsmsscheduled',allownulls,no).
+bc_dt_elem_i([ 0,31,0 ],'Wwpnotificationcreated',readonly,yes).
+bc_dt_elem_i([ 0,31,0 ],'Wwpnotificationcreated',allownulls,no).
+ 

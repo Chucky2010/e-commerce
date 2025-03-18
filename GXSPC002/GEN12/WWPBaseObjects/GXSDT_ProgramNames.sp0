@@ -1,0 +1,86 @@
+ 
+spec_i([ sdt,[ 26,66,0 ],'WWPBaseObjects\ProgramNames','WWPBaseObjects\ProgramNames',0,spa,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 26,66,0 ],name,'WWPBaseObjects\ProgramNames').
+struct_dt_i([ 26,66,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,66,0 ],'ObjName','ProgramNames').
+struct_dt_i([ 26,66,0 ],'ObjDesc','Program Names').
+struct_dt_i([ 26,66,0 ],'ExternalName','ProgramNames').
+struct_dt_i([ 26,66,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,66,0 ],collection,'True').
+struct_dt_i([ 26,66,0 ],datatype,[ 26,66,101 ]).
+struct_dt_i([ 26,66,0 ],'CollectionItemName','ProgramName').
+struct_dt_i([ 26,66,0 ],'XmlName','').
+struct_dt_i([ 26,66,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,66,0 ],'XmlNamespace','').
+struct_dt_i([ 26,66,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,66,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,66,0 ],'JsonName','').
+struct_dt_i([ 26,66,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,66,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,66,101 ],name,'ProgramName').
+struct_dt_i([ 26,66,101 ],namespace,'Mujer_Morena.ProgramNames').
+struct_dt_i([ 26,66,0 ],fullname,'WWPBaseObjects\ProgramNames').
+struct_dt_i([ 26,66,101 ],fullname,'WWPBaseObjects\ProgramNames.ProgramName').
+struct_dt_i([ 26,66,0 ],modified,yes).
+struct_dt_i([ 26,66,101 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,66,101 ],1,name,'Name').
+struct_dt_elem_i([ 26,66,101 ],1,camelname,'Name').
+struct_dt_elem_i([ 26,66,101 ],1,basedon,53).
+struct_dt_elem_i([ 26,66,101 ],1,length,256).
+struct_dt_elem_i([ 26,66,101 ],1,decimals,0).
+struct_dt_elem_i([ 26,66,101 ],1,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,66,101 ],1,pic,'').
+struct_dt_elem_i([ 26,66,101 ],1,collection,'False').
+struct_dt_elem_i([ 26,66,101 ],1,'ExternalName','Name').
+struct_dt_elem_i([ 26,66,101 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,66,101 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,66,101 ],1,'XmlName','').
+struct_dt_elem_i([ 26,66,101 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,66,101 ],1,soaptype,'').
+struct_dt_elem_i([ 26,66,101 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,66,101 ],1,'JsonName','').
+struct_dt_elem_i([ 26,66,101 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,66,101 ],2,name,'Description').
+struct_dt_elem_i([ 26,66,101 ],2,camelname,'Description').
+struct_dt_elem_i([ 26,66,101 ],2,length,255).
+struct_dt_elem_i([ 26,66,101 ],2,decimals,0).
+struct_dt_elem_i([ 26,66,101 ],2,type,[ 13,255,0 ]).
+struct_dt_elem_i([ 26,66,101 ],2,pic,'').
+struct_dt_elem_i([ 26,66,101 ],2,collection,'False').
+struct_dt_elem_i([ 26,66,101 ],2,'ExternalName','Description').
+struct_dt_elem_i([ 26,66,101 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,66,101 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,66,101 ],2,'XmlName','').
+struct_dt_elem_i([ 26,66,101 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,66,101 ],2,soaptype,'').
+struct_dt_elem_i([ 26,66,101 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,66,101 ],2,'JsonName','').
+struct_dt_elem_i([ 26,66,101 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,66,101 ],3,name,'Link').
+struct_dt_elem_i([ 26,66,101 ],3,camelname,'Link').
+struct_dt_elem_i([ 26,66,101 ],3,basedon,32).
+struct_dt_elem_i([ 26,66,101 ],3,length,1000).
+struct_dt_elem_i([ 26,66,101 ],3,decimals,0).
+struct_dt_elem_i([ 26,66,101 ],3,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,66,101 ],3,pic,'').
+struct_dt_elem_i([ 26,66,101 ],3,collection,'False').
+struct_dt_elem_i([ 26,66,101 ],3,'ExternalName','Link').
+struct_dt_elem_i([ 26,66,101 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,66,101 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,66,101 ],3,'XmlName','').
+struct_dt_elem_i([ 26,66,101 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,66,101 ],3,soaptype,'').
+struct_dt_elem_i([ 26,66,101 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,66,101 ],3,'JsonName','').
+struct_dt_elem_i([ 26,66,101 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,66,101 ],1,pic,'ZZZZZZZZZZ9').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').

@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "empresa_FullControl",
+    "Description": "Empresa FullControl",
+    "ProgramName": "empresa",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "empresa_Execute",
+    "Description": "Empresa",
+    "ProgramName": "empresa",
+    "IsGXAutomatic": true,
+    "Parent": "empresa_FullControl"
+  },
+  {
+    "Name": "empresa_Insert",
+    "Description": "Empresa Insert",
+    "ProgramName": "empresa",
+    "IsGXAutomatic": true,
+    "Parent": "empresa_FullControl"
+  },
+  {
+    "Name": "empresa_Delete",
+    "Description": "Empresa Delete",
+    "ProgramName": "empresa",
+    "IsGXAutomatic": true,
+    "Parent": "empresa_FullControl"
+  },
+  {
+    "Name": "empresa_Update",
+    "Description": "Empresa Update",
+    "ProgramName": "empresa",
+    "IsGXAutomatic": true,
+    "Parent": "empresa_FullControl"
+  }
+]

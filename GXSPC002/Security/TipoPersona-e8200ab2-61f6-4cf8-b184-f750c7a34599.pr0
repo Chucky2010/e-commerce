@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "tipopersona_FullControl",
+    "Description": "Tipo Persona FullControl",
+    "ProgramName": "tipopersona",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "tipopersona_Execute",
+    "Description": "Tipo Persona",
+    "ProgramName": "tipopersona",
+    "IsGXAutomatic": true,
+    "Parent": "tipopersona_FullControl"
+  },
+  {
+    "Name": "tipopersona_Insert",
+    "Description": "Tipo Persona Insert",
+    "ProgramName": "tipopersona",
+    "IsGXAutomatic": true,
+    "Parent": "tipopersona_FullControl"
+  },
+  {
+    "Name": "tipopersona_Delete",
+    "Description": "Tipo Persona Delete",
+    "ProgramName": "tipopersona",
+    "IsGXAutomatic": true,
+    "Parent": "tipopersona_FullControl"
+  },
+  {
+    "Name": "tipopersona_Update",
+    "Description": "Tipo Persona Update",
+    "ProgramName": "tipopersona",
+    "IsGXAutomatic": true,
+    "Parent": "tipopersona_FullControl"
+  }
+]

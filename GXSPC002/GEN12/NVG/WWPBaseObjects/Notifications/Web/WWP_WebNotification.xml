@@ -1,0 +1,199 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>32</ObjId>
+<ObjName>WWPBaseObjects.Notifications.Web.WWP_WebNotification</ObjName>
+<ObjDesc>WWP_Web Notification</ObjDesc>
+<ObjPgmName>WWPBaseObjects.Notifications.Web.WWP_WebNotification</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>34</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>34</TableId>
+<TableName>WWP_WebNotification</TableName>
+<Description>WWP_WebNotification</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>34</TableId>
+<TableName>WWP_WebNotification</TableName>
+<Description>WWP_WebNotification</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>38</AttriId>
+<AttriName>WWPWebNotificationId</AttriName>
+<Description>Web Notification Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>37</TableId>
+<TableName>WWP_Notification</TableName>
+<Description>WWP_Notification</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>WWPNotificationId</AttriName>
+<Description>Notification Id</Description></Attribute></KeyAttributes>
+<JoinType>Outer</JoinType>
+<Tables>
+<Table>
+<TableId>36</TableId>
+<TableName>WWP_NotificationDefinition</TableName>
+<Description>WWP_NotificationDefinition</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>WWPNotificationDefinitionId</AttriName>
+<Description>Notification Definition Id</Description></Attribute></KeyAttributes>
+<JoinType>Outer</JoinType>
+<Tables></Tables></Table></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>34</TableId>
+<TableName>WWP_WebNotification</TableName>
+<Description>WWP_WebNotification</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>166</AttriId>
+<AttriName>WWPWebNotificationTitle</AttriName>
+<Description>Web Notification Title</Description></Attribute>
+<Attribute>
+<AttriId>167</AttriId>
+<AttriName>WWPWebNotificationText</AttriName>
+<Description>Web Notification Text</Description></Attribute>
+<Attribute>
+<AttriId>168</AttriId>
+<AttriName>WWPWebNotificationIcon</AttriName>
+<Description>Web Notification Icon</Description></Attribute>
+<Attribute>
+<AttriId>175</AttriId>
+<AttriName>WWPWebNotificationClientId</AttriName>
+<Description>Web Notification Client Id</Description></Attribute>
+<Attribute>
+<AttriId>176</AttriId>
+<AttriName>WWPWebNotificationStatus</AttriName>
+<Description>Web Notification Status</Description></Attribute>
+<Attribute>
+<AttriId>169</AttriId>
+<AttriName>WWPWebNotificationCreated</AttriName>
+<Description>Web Notification Created</Description></Attribute>
+<Attribute>
+<AttriId>180</AttriId>
+<AttriName>WWPWebNotificationScheduled</AttriName>
+<Description>Web Notification Scheduled</Description></Attribute>
+<Attribute>
+<AttriId>177</AttriId>
+<AttriName>WWPWebNotificationProcessed</AttriName>
+<Description>Web Notification Processed</Description></Attribute>
+<Attribute>
+<AttriId>170</AttriId>
+<AttriName>WWPWebNotificationRead</AttriName>
+<Description>Web Notification Read</Description></Attribute>
+<Attribute>
+<AttriId>178</AttriId>
+<AttriName>WWPWebNotificationDetail</AttriName>
+<Description>Web Notification Detail</Description></Attribute>
+<Attribute>
+<AttriId>179</AttriId>
+<AttriName>WWPWebNotificationReceived</AttriName>
+<Description>Web Notification Received</Description></Attribute>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>WWPNotificationId</AttriName>
+<Description>Notification Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>34</TableId>
+<TableName>WWP_WebNotification</TableName>
+<Description>WWP_WebNotification</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>166</AttriId>
+<AttriName>WWPWebNotificationTitle</AttriName>
+<Description>Web Notification Title</Description></Attribute>
+<Attribute>
+<AttriId>167</AttriId>
+<AttriName>WWPWebNotificationText</AttriName>
+<Description>Web Notification Text</Description></Attribute>
+<Attribute>
+<AttriId>168</AttriId>
+<AttriName>WWPWebNotificationIcon</AttriName>
+<Description>Web Notification Icon</Description></Attribute>
+<Attribute>
+<AttriId>175</AttriId>
+<AttriName>WWPWebNotificationClientId</AttriName>
+<Description>Web Notification Client Id</Description></Attribute>
+<Attribute>
+<AttriId>176</AttriId>
+<AttriName>WWPWebNotificationStatus</AttriName>
+<Description>Web Notification Status</Description></Attribute>
+<Attribute>
+<AttriId>169</AttriId>
+<AttriName>WWPWebNotificationCreated</AttriName>
+<Description>Web Notification Created</Description></Attribute>
+<Attribute>
+<AttriId>180</AttriId>
+<AttriName>WWPWebNotificationScheduled</AttriName>
+<Description>Web Notification Scheduled</Description></Attribute>
+<Attribute>
+<AttriId>177</AttriId>
+<AttriName>WWPWebNotificationProcessed</AttriName>
+<Description>Web Notification Processed</Description></Attribute>
+<Attribute>
+<AttriId>170</AttriId>
+<AttriName>WWPWebNotificationRead</AttriName>
+<Description>Web Notification Read</Description></Attribute>
+<Attribute>
+<AttriId>178</AttriId>
+<AttriName>WWPWebNotificationDetail</AttriName>
+<Description>Web Notification Detail</Description></Attribute>
+<Attribute>
+<AttriId>179</AttriId>
+<AttriName>WWPWebNotificationReceived</AttriName>
+<Description>Web Notification Received</Description></Attribute>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>WWPNotificationId</AttriName>
+<Description>Notification Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>34</TableId>
+<TableName>WWP_WebNotification</TableName>
+<Description>WWP_WebNotification</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts></Prompts>
+<Suggests></Suggests></ObjectSpec>

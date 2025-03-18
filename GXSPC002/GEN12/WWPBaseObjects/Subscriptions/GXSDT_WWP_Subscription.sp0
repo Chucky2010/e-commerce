@@ -1,0 +1,138 @@
+ 
+spec_i([ sdt,[ 0,30,0 ],'WWPBaseObjects\Subscriptions\WWP_Subscription','WWPBaseObjects\Subscriptions\WWP_Subscription',0,spa,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 0,30,0 ],name,'WWPBaseObjects\Subscriptions\WWP_Subscription').
+struct_dt_i([ 0,30,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 0,30,0 ],significantName,'WWPBaseObjects\Subscriptions\WWP_Subscription').
+struct_dt_i([ 0,30,0 ],'ObjName','WWP_Subscription').
+struct_dt_i([ 0,30,0 ],'ObjDesc','WWP_Subscription').
+struct_dt_i([ 0,30,0 ],'ExternalName','WWP_Subscription').
+struct_dt_i([ 0,30,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 0,30,0 ],key,[ 34 ]).
+struct_dt_i([ 0,30,0 ],lvl,32).
+struct_dt_i([ 0,30,0 ],fullname,'WWPBaseObjects\Subscriptions\WWP_Subscription').
+ 
+struct_dt_elem_i([ 0,30,0 ],1,name,'Wwpsubscriptionid').
+struct_dt_elem_i([ 0,30,0 ],1,camelname,'WWPSubscriptionId').
+struct_dt_elem_i([ 0,30,0 ],1,basedon,92).
+struct_dt_elem_i([ 0,30,0 ],1,length,10).
+struct_dt_elem_i([ 0,30,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,30,0 ],1,sign,0).
+struct_dt_elem_i([ 0,30,0 ],1,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 0,30,0 ],1,pic,'ZZZZZZZZZ9').
+struct_dt_elem_i([ 0,30,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,30,0 ],1,attributeid,'34').
+struct_dt_elem_i([ 0,30,0 ],1,'ExternalName','WWPSubscriptionId').
+struct_dt_elem_i([ 0,30,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,30,0 ],2,name,'Wwpnotificationdefinitionid').
+struct_dt_elem_i([ 0,30,0 ],2,camelname,'WWPNotificationDefinitionId').
+struct_dt_elem_i([ 0,30,0 ],2,basedon,92).
+struct_dt_elem_i([ 0,30,0 ],2,length,10).
+struct_dt_elem_i([ 0,30,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,30,0 ],2,sign,0).
+struct_dt_elem_i([ 0,30,0 ],2,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 0,30,0 ],2,pic,'ZZZZZZZZZ9').
+struct_dt_elem_i([ 0,30,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,30,0 ],2,attributeid,'35').
+struct_dt_elem_i([ 0,30,0 ],2,'ExternalName','WWPNotificationDefinitionId').
+struct_dt_elem_i([ 0,30,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,30,0 ],3,name,'Wwpnotificationdefinitiondescription').
+struct_dt_elem_i([ 0,30,0 ],3,camelname,'WWPNotificationDefinitionDescription').
+struct_dt_elem_i([ 0,30,0 ],3,length,200).
+struct_dt_elem_i([ 0,30,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,30,0 ],3,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,30,0 ],3,pic,'').
+struct_dt_elem_i([ 0,30,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,30,0 ],3,attributeid,'154').
+struct_dt_elem_i([ 0,30,0 ],3,'ExternalName','WWPNotificationDefinitionDescription').
+struct_dt_elem_i([ 0,30,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,30,0 ],4,name,'Wwpentityname').
+struct_dt_elem_i([ 0,30,0 ],4,camelname,'WWPEntityName').
+struct_dt_elem_i([ 0,30,0 ],4,basedon,239).
+struct_dt_elem_i([ 0,30,0 ],4,length,100).
+struct_dt_elem_i([ 0,30,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,30,0 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,30,0 ],4,pic,'').
+struct_dt_elem_i([ 0,30,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,30,0 ],4,attributeid,'150').
+struct_dt_elem_i([ 0,30,0 ],4,'ExternalName','WWPEntityName').
+struct_dt_elem_i([ 0,30,0 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,30,0 ],5,name,'Wwpuserextendedid').
+struct_dt_elem_i([ 0,30,0 ],5,camelname,'WWPUserExtendedId').
+struct_dt_elem_i([ 0,30,0 ],5,basedon,91).
+struct_dt_elem_i([ 0,30,0 ],5,length,40).
+struct_dt_elem_i([ 0,30,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,30,0 ],5,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 0,30,0 ],5,pic,'').
+struct_dt_elem_i([ 0,30,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,30,0 ],5,attributeid,'32').
+struct_dt_elem_i([ 0,30,0 ],5,'ExternalName','WWPUserExtendedId').
+struct_dt_elem_i([ 0,30,0 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,30,0 ],6,name,'Wwpuserextendedfullname').
+struct_dt_elem_i([ 0,30,0 ],6,camelname,'WWPUserExtendedFullName').
+struct_dt_elem_i([ 0,30,0 ],6,basedon,239).
+struct_dt_elem_i([ 0,30,0 ],6,length,100).
+struct_dt_elem_i([ 0,30,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,30,0 ],6,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,30,0 ],6,pic,'').
+struct_dt_elem_i([ 0,30,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,30,0 ],6,attributeid,'138').
+struct_dt_elem_i([ 0,30,0 ],6,'ExternalName','WWPUserExtendedFullName').
+struct_dt_elem_i([ 0,30,0 ],6,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,30,0 ],7,name,'Wwpsubscriptionentityrecordid').
+struct_dt_elem_i([ 0,30,0 ],7,camelname,'WWPSubscriptionEntityRecordId').
+struct_dt_elem_i([ 0,30,0 ],7,length,2000).
+struct_dt_elem_i([ 0,30,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,30,0 ],7,type,[ 13,2000,0 ]).
+struct_dt_elem_i([ 0,30,0 ],7,pic,'').
+struct_dt_elem_i([ 0,30,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,30,0 ],7,attributeid,'151').
+struct_dt_elem_i([ 0,30,0 ],7,'ExternalName','WWPSubscriptionEntityRecordId').
+struct_dt_elem_i([ 0,30,0 ],7,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,30,0 ],8,name,'Wwpsubscriptionentityrecorddescription').
+struct_dt_elem_i([ 0,30,0 ],8,camelname,'WWPSubscriptionEntityRecordDescription').
+struct_dt_elem_i([ 0,30,0 ],8,length,200).
+struct_dt_elem_i([ 0,30,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,30,0 ],8,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,30,0 ],8,pic,'').
+struct_dt_elem_i([ 0,30,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,30,0 ],8,attributeid,'153').
+struct_dt_elem_i([ 0,30,0 ],8,'ExternalName','WWPSubscriptionEntityRecordDescription').
+struct_dt_elem_i([ 0,30,0 ],8,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,30,0 ],9,name,'Wwpsubscriptionroleid').
+struct_dt_elem_i([ 0,30,0 ],9,camelname,'WWPSubscriptionRoleId').
+struct_dt_elem_i([ 0,30,0 ],9,basedon,91).
+struct_dt_elem_i([ 0,30,0 ],9,length,40).
+struct_dt_elem_i([ 0,30,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,30,0 ],9,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 0,30,0 ],9,pic,'').
+struct_dt_elem_i([ 0,30,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,30,0 ],9,attributeid,'149').
+struct_dt_elem_i([ 0,30,0 ],9,'ExternalName','WWPSubscriptionRoleId').
+struct_dt_elem_i([ 0,30,0 ],9,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,30,0 ],10,name,'Wwpsubscriptionsubscribed').
+struct_dt_elem_i([ 0,30,0 ],10,camelname,'WWPSubscriptionSubscribed').
+struct_dt_elem_i([ 0,30,0 ],10,length,4).
+struct_dt_elem_i([ 0,30,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,30,0 ],10,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,30,0 ],10,pic,'').
+struct_dt_elem_i([ 0,30,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,30,0 ],10,attributeid,'152').
+struct_dt_elem_i([ 0,30,0 ],10,'ExternalName','WWPSubscriptionSubscribed').
+struct_dt_elem_i([ 0,30,0 ],10,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,30,0 ],1,pic,'ZZZZ9').
+struct_dt_elem_i([ 0,30,0 ],2,pic,'ZZZZ9').
+struct_dt_elem_i([ 0,30,0 ],4,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+struct_dt_elem_i([ 0,30,0 ],5,pic,'99/99/99').
+struct_dt_elem_i([ 0,30,0 ],6,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+struct_dt_elem_i([ 0,30,0 ],9,pic,'99/99/99').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').

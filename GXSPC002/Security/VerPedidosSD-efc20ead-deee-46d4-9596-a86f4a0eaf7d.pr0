@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "verpedidossd_Execute",
+    "Description": "Ver Pedidos SD",
+    "ProgramName": "verpedidossd",
+    "IsGXAutomatic": true
+  }
+]

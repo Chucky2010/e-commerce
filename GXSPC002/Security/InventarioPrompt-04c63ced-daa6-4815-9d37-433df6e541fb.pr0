@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "inventarioprompt_Execute",
+    "Description": "Selecciona Inventario",
+    "ProgramName": "inventarioprompt",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,94 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>263</ObjId>
+<ObjName>SaldoActualCaja</ObjName>
+<ObjDesc>Saldo Actual Caja</ObjDesc>
+<ObjPgmName>SaldoActualCaja</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Movimientocajasaldo</VarId>
+<VarName>&amp;MovimientoCajaSaldo</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>4</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>25</TableId>
+<TableName>MovimientoCaja</TableName>
+<Description>Movimiento Caja</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>27</AttriId>
+<AttriName>MovimientoCajaId</AttriName>
+<Description>Movimiento Caja Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IMOVIMIENTOCAJA</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>267</AttriId>
+<AttriName>MovimientoCajaEstado</AttriName>
+<Description>Movimiento Caja Estado</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>getmessagetext(</Token>
+<Sp></Sp>
+<Token>&quot;ACT&quot;</Token>
+<Token>)</Token>
+<Icon>client</Icon></Condition>
+<Condition>
+<Attribute>
+<AttriId>256</AttriId>
+<AttriName>MovimientoCajaAsignacion</AttriName>
+<Description>Movimiento Caja Asignacion</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Username</VarId>
+<VarName>&amp;UserName</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>25</TableId>
+<TableName>MovimientoCaja</TableName>
+<Description>Movimiento Caja</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>27</AttriId>
+<AttriName>MovimientoCajaId</AttriName>
+<Description>Movimiento Caja Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

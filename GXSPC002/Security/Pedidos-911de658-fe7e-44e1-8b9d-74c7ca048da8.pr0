@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "pedidos_FullControl",
+    "Description": "Pedidos FullControl",
+    "ProgramName": "pedidos",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "pedidos_Execute",
+    "Description": "Pedidos",
+    "ProgramName": "pedidos",
+    "IsGXAutomatic": true,
+    "Parent": "pedidos_FullControl"
+  },
+  {
+    "Name": "pedidos_Insert",
+    "Description": "Pedidos Insert",
+    "ProgramName": "pedidos",
+    "IsGXAutomatic": true,
+    "Parent": "pedidos_FullControl"
+  },
+  {
+    "Name": "pedidos_Delete",
+    "Description": "Pedidos Delete",
+    "ProgramName": "pedidos",
+    "IsGXAutomatic": true,
+    "Parent": "pedidos_FullControl"
+  },
+  {
+    "Name": "pedidos_Update",
+    "Description": "Pedidos Update",
+    "ProgramName": "pedidos",
+    "IsGXAutomatic": true,
+    "Parent": "pedidos_FullControl"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamauthenticationtypeentry_Execute",
+    "Description": "WWP_GAM_AuthenticationType",
+    "ProgramName": "gamauthenticationtypeentry",
+    "IsGXAutomatic": true
+  }
+]

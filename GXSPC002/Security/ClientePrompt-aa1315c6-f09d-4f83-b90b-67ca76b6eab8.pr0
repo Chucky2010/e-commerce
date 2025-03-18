@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "clienteprompt_Execute",
+    "Description": "Selecciona Cliente",
+    "ProgramName": "clienteprompt",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,232 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>181</ObjId>
+<ObjName>CargarInventario</ObjName>
+<ObjDesc>Cargar Inventario</ObjDesc>
+<ObjPgmName>CargarInventario</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0060</MsgCode>
+<Message>
+<Token>The program may be called by another program and the Commit on Exit property is set to YES</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Main>Yes</Main>
+<CallProtocol>INTERNAL</CallProtocol>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Direccion</VarId>
+<VarName>&amp;Direccion</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Nombrearchivo</VarId>
+<VarName>&amp;NombreArchivo</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>27</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>49</TableId>
+<TableName>Inventario</TableName>
+<Description>Inventario</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IINVENTARIO</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Inventarioid</VarId>
+<VarName>&amp;InventarioID</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Inventarioid</VarId>
+<VarName>&amp;InventarioID</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>49</TableId>
+<TableName>Inventario</TableName>
+<Description>Inventario</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>49</TableId>
+<TableName>Inventario</TableName>
+<Description>Inventario</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>257</AttriId>
+<AttriName>InventarioFecha</AttriName>
+<Description>Inventario Fecha</Description></Attribute>
+<Attribute>
+<AttriId>258</AttriId>
+<AttriName>InventarioDetalle</AttriName>
+<Description>Inventario Detalle</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels>
+<Level>
+<LevelNumber>3</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>36</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>50</TableId>
+<TableName>InventarioDetalle</TableName>
+<Description>Detalle</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>54</AttriId>
+<AttriName>InventarioDetalleID</AttriName>
+<Description>Inventario Detalle ID</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IINVENTARIODETALLE</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>@InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>@InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Exceldocument</VarId>
+<VarName>&amp;ExcelDocument</VarName></Variable>
+<Token>.</Token>
+<Token>cells(</Token>
+<Variable>
+<VarId>Fila</VarId>
+<VarName>&amp;fila</VarName></Variable>
+<Token>,</Token>
+<Token>1</Token>
+<Token>)</Token>
+<Token>.</Token>
+<Token>Number</Token></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>50</TableId>
+<TableName>InventarioDetalle</TableName>
+<Description>Detalle</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute>
+<Attribute>
+<AttriId>54</AttriId>
+<AttriName>InventarioDetalleID</AttriName>
+<Description>Inventario Detalle ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>50</TableId>
+<TableName>InventarioDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>259</AttriId>
+<AttriName>InventarioDetalleStock</AttriName>
+<Description>Inventario Detalle Stock</Description></Attribute>
+<Attribute>
+<AttriId>262</AttriId>
+<AttriName>InventarioDetalleStock2</AttriName>
+<Description>Inventario Detalle Stock2</Description></Attribute>
+<Attribute>
+<AttriId>263</AttriId>
+<AttriName>InventarioDetalleStock3</AttriName>
+<Description>Inventario Detalle Stock3</Description></Attribute>
+<Attribute>
+<AttriId>264</AttriId>
+<AttriName>InventarioDetalleStock4</AttriName>
+<Description>Inventario Detalle Stock4</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></Level></Levels></ObjectSpec>

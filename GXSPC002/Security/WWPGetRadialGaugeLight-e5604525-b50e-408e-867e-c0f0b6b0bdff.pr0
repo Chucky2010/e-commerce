@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpgetradialgaugelight_Services_Execute",
+    "Description": "Get Radial Gauge Light Services",
+    "ProgramName": "workwithplus.nativemobile.wwpgetradialgaugelight",
+    "IsGXAutomatic": true
+  }
+]

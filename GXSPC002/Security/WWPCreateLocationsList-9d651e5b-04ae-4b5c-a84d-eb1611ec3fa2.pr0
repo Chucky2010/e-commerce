@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpcreatelocationslist_Services_Execute",
+    "Description": "Create Locations List Services",
+    "ProgramName": "workwithplus.nativemobile.wwpcreatelocationslist",
+    "IsGXAutomatic": true
+  }
+]

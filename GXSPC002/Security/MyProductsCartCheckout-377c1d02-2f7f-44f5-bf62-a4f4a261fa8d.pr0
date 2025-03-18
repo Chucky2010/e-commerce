@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "myproductscartcheckout_Execute",
+    "Description": "My Products Cart Checkout",
+    "ProgramName": "myproductscartcheckout",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "factura_FullControl",
+    "Description": "Factura FullControl",
+    "ProgramName": "factura",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "factura_Execute",
+    "Description": "Factura",
+    "ProgramName": "factura",
+    "IsGXAutomatic": true,
+    "Parent": "factura_FullControl"
+  },
+  {
+    "Name": "factura_Insert",
+    "Description": "Factura Insert",
+    "ProgramName": "factura",
+    "IsGXAutomatic": true,
+    "Parent": "factura_FullControl"
+  },
+  {
+    "Name": "factura_Delete",
+    "Description": "Factura Delete",
+    "ProgramName": "factura",
+    "IsGXAutomatic": true,
+    "Parent": "factura_FullControl"
+  },
+  {
+    "Name": "factura_Update",
+    "Description": "Factura Update",
+    "ProgramName": "factura",
+    "IsGXAutomatic": true,
+    "Parent": "factura_FullControl"
+  }
+]

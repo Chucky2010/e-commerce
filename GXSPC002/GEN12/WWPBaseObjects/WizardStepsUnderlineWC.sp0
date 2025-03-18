@@ -1,0 +1,828 @@
+spec_i([ web,92,l('Wizard Steps Underline WC'),'WWPBaseObjects\WizardStepsUnderlineWC',0,spa,'17_0_11-163677' ]).
+ 
+struct_i(2,1,[ 'Maxstepstoshow','Maxstepstoshowinxs','Selectedstepnumber','GXV1','Wizardstepsaux','Firstisdummy','Secondisdummy','Penultimateisdummy','Lastisdummy','Startindex',[ t('Wizardstepsaux',23),[ t('item(',1),t('2',3),t(')',4) ],t('Title',3) ],[ t('Wizardstepsaux',23),[ t('item(',1),t([ t('Wizardstepsaux',23),t('Count',3) ],29),t(-,5),t('1',3),t(')',4) ],t('Title',3) ],'Wizardstepscount','Wizardstepsitem',[ t('Wizardstepsitem',23),t('Title',3) ],[ t('Wizardstepsitem',23),t('Code',3) ] ],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Wizardsteps','Currentstep','Wizardsteptitle','1' ] ]).
+ 
+lac_i(2,[ [ 'Wizardsteptitle','1' ] ]).
+ 
+ 
+lits_i(l('Step Description'),5,10).
+ 
+cls_i([ 2,0 ],[ 5,199 ]).
+ 
+pos_i('Wizardsteptitle',[ 1,2,0 ]).
+ 
+repeat_i(2,[ 1,2,[ '1','Wizardsteptitle' ],[ '1','Wizardsteptitle' ] ]).
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','WWPBaseObjects.WizardStepsUnderlineWC')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WebApplication',idDefault)).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('URLAccess','No')).
+rule_i(0,prop('WEB_COMP','Yes')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop('Folder',o(8,'WWPBaseObjects\Wizards'))).
+rule_i(0,prop('ObjDesc','Wizard Steps Underline WC')).
+rule_i(0,prop('ObjName','WizardStepsUnderlineWC')).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Wizardsteps','Currentstep' ],[])).
+rule_i(0,parmio([ [ 'Wizardsteps',in ],[ 'Currentstep',in ] ])).
+ 
+a_i(3,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(4,1,f,[ t('&Wizardsteptitle',23),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+ 
+v_i(f,i,3,[]).
+v_i(f,o,3,'Err').
+v_i(f,i,4,[]).
+v_i(f,o,4,[ t('&Wizardsteptitle',23),t('Enabled',3) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('GXV2',[ 'GXV2',int,8,0,'',0,'','',28 ]).
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'','',27 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',26 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',25 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,l('Security Functionality Keys'),'',24 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,l('Is Authorized'),'',23 ]).
+attri_i('Wizardsteptitle',[ 'WizardStepTitle',svchar,200,0,'',0,l('Wizard Step Title'),'',22 ]).
+attri_i('Wizardstepsitem',[ 'WizardStepsItem',o('WWPBaseObjects\WizardSteps.WizardStepsItem'),0,0,'',0,l('Wizard Steps Item'),'',21 ]).
+attri_i('Wizardstepscount',[ 'WizardStepsCount',int,4,0,'ZZZ9',0,l('Wizard Steps Count'),'',20 ]).
+attri_i('Wizardstepsaux',[ 'WizardStepsAux',o(objectcollection('WWPBaseObjects\WizardSteps.WizardStepsItem')),0,0,'',0,l('Wizard Steps Aux'),'',19 ]).
+attri_i('Wizardsteps',[ 'WizardSteps',o(objectcollection('WWPBaseObjects\WizardSteps.WizardStepsItem')),0,0,'',0,l('Wizard Steps'),'',18 ]).
+attri_i('Tablecontainerstepclass',[ 'TableContainerStepClass',svchar,40,0,'',0,l('Table Container Step Class'),'',17 ]).
+attri_i('Steprealnumber',[ 'StepRealNumber',int,4,0,'ZZZ9',0,l('Step Real Number'),'',16 ]).
+attri_i('Stepnumber',[ 'StepNumber',int,4,0,'ZZZ9',0,l('Step Number'),'',15 ]).
+attri_i('Startindex',[ 'StartIndex',int,4,0,'ZZZ9',0,l('Start Index'),'',14 ]).
+attri_i('Selectedstepnumber',[ 'SelectedStepNumber',int,4,0,'ZZZ9',0,l('Selected Step Number'),'',13 ]).
+attri_i('Secondisdummy',[ 'SecondIsDummy',boolean,4,0,'',0,l('Second Is Dummy'),'',12 ]).
+attri_i('Penultimateisdummy',[ 'PenultimateIsDummy',boolean,4,0,'',0,l('Penultimate Is Dummy'),'',11 ]).
+attri_i('Maxstepstoshowinxs',[ 'MaxStepsToShowInXS',int,4,0,'ZZZ9',0,l('Max Steps To Show In XS'),'',10 ]).
+attri_i('Maxstepstoshow',[ 'MaxStepsToShow',int,4,0,'ZZZ9',0,l('Max Steps To Show'),'',9 ]).
+attri_i('Lastisdummy',[ 'LastIsDummy',boolean,4,0,'',0,l('Last Is Dummy'),'',8 ]).
+attri_i('Firstisdummy',[ 'FirstIsDummy',boolean,4,0,'',0,l('First Is Dummy'),'',7 ]).
+attri_i('Currentstep',[ 'CurrentStep',svchar,40,0,'',0,l('Current Step'),'',6 ]).
+attri_i('Wizardstep',[ 'WizardStep',o('WWPBaseObjects\WizardSteps.WizardStepsItem'),0,0,'',0,l('Wizard Step'),'',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(88,[ 'SecGAMFunctionalityKey' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,82).
+b_group_i(2,3,lit,0,83,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(10,2,2,cmd,2,[ t('',107,10,0),t('Maxstepstoshow',23,2,0),t(=,10,2,0),t('8',3,2,0) ]).
+b_line_i(11,2,2,cmd,2,[ t('',107,11,0),t('Maxstepstoshowinxs',23,2,0),t(=,10,2,0),t('5',3,2,0) ]).
+b_line_i(13,2,2,cmd,2,[ t('',107,13,0),t('Selectedstepnumber',23,2,0),t(=,10,2,0),t('1',3,2,0) ]).
+b_line_i(14,2,2,cmd,2,[ t('',107,14,0),t('GXV1',23,2,0),t(=,10,2,0),t(1,3,2,0) ]).
+b_line_i([ 14,2 ],2,2,cmd,2,[ t('',114,14,0),t('GXV1',23,2,0),t(<=,10,2,0),t([ t('Wizardsteps',23,14,24),t('Count',3,14,0) ],29,14,0) ]).
+b_line_i([ 14,3 ],2,2,cmd,2,[ t('',107,14,0),t('Wizardstep',23,2,0),t(=,10,2,0),t([ t('Wizardsteps',23,2,0),t('item(',1,2,0) ],31,2,0),t('GXV1',23,2,0),t(')',4,2,0) ]).
+b_line_i(15,2,2,cmd,3,[ t('',109,15,0),t([ t('Wizardstep',23,15,9),t('Code',3,15,21) ],29,15,21),t(=,10,3,26),t('Currentstep',23,3,28) ]).
+b_line_i(16,2,2,cmd,3,[ t('',109,16,0),t([ t('Wizardstep',23,16,10),t('Description',3,16,22) ],29,16,22),t(<>,10,3,34),t('''''',3,16,37) ]).
+b_line_i(17,2,2,cmd,3,[ t('',107,17,0),t([ t('Wizardstepdescription',3,3,0),t('Caption',3,3,0) ],29,3,0),t(=,10,3,0),t([ t('Wizardstep',23,3,0),t('Description',3,3,0) ],29,3,0) ]).
+b_line_i(18,2,2,cmd,3,[ t('',110,18,0) ]).
+b_line_i(19,2,2,cmd,3,[ t('',107,19,0),t([ t('Wizardstepdescription',3,3,0),t('Visible',3,3,0) ],29,3,0),t(=,10,3,0),t('FALSE',41,3,0) ]).
+b_line_i(20,2,2,cmd,3,[ t('',111,20,0) ]).
+b_line_i(21,2,2,cmd,3,[ t('',140,21,0) ]).
+b_line_i(22,2,2,cmd,3,[ t('',110,22,0) ]).
+b_line_i(23,2,2,cmd,3,[ t('',107,23,0),t('Selectedstepnumber',23,3,0),t(=,10,3,0),t('Selectedstepnumber',23,3,0),t(+,5,3,0),t('1',3,3,0) ]).
+b_line_i(24,2,2,cmd,3,[ t('',111,24,0) ]).
+b_line_i([ 25,1 ],2,2,cmd,3,[ t('',107,25,0),t('GXV1',23,3,0),t(=,10,3,0),t('GXV1',23,3,0),t(+,5,3,0),t(1,3,3,0) ]).
+b_line_i([ 25,2 ],2,2,cmd,3,[ t('',115,25,0) ]).
+b_line_i(26,2,2,cmd,4,[ t('',107,26,0),t('Steprealnumber',23,4,0),t(=,10,4,0),t('1',3,4,0) ]).
+b_line_i(28,2,2,cmd,4,[ t('',107,28,0),t('Wizardstepsaux',23,4,0),t(=,10,4,0),t([ t('Wizardsteps',23,4,0),t('clone(',1,4,0) ],31,4,0),t(')',4,4,0) ]).
+b_line_i(29,2,2,cmd,4,[ t('',107,29,0),t('Firstisdummy',23,4,0),t(=,10,4,0),t('FALSE',41,4,0) ]).
+b_line_i(30,2,2,cmd,4,[ t('',107,30,0),t('Secondisdummy',23,4,0),t(=,10,4,0),t('FALSE',41,4,0) ]).
+b_line_i(31,2,2,cmd,4,[ t('',107,31,0),t('Penultimateisdummy',23,4,0),t(=,10,4,0),t('FALSE',41,4,0) ]).
+b_line_i(32,2,2,cmd,4,[ t('',107,32,0),t('Lastisdummy',23,4,0),t(=,10,4,0),t('FALSE',41,4,0) ]).
+b_line_i(33,2,2,cmd,4,[ t('',109,33,0),t([ t('Wizardstepsaux',23,33,8),t('Count',3,33,24) ],29,33,24),t(>,10,4,30),t('Maxstepstoshow',23,4,32) ]).
+b_line_i(34,2,2,cmd,4,[ t('',109,34,0),t('Selectedstepnumber',23,4,9),t(>,10,4,29),t([ t('Wizardstepsaux',23,34,31),t('Count',3,34,47) ],29,34,47) ]).
+b_line_i(35,2,2,cmd,4,[ t('',107,35,0),t('Selectedstepnumber',23,4,0),t(=,10,4,0),t('1',3,4,0) ]).
+b_line_i(36,2,2,cmd,4,[ t('',111,36,0) ]).
+b_line_i(37,2,2,cmd,4,[ t('',107,37,0),t('Startindex',23,4,0),t(=,10,4,0),t('1',3,4,0) ]).
+b_line_i(38,2,2,cmd,4,[ t('',109,38,0),t('Selectedstepnumber',23,4,9),t(+,5,4,29),t('3',3,4,31),t(-,5,4,33),t('Maxstepstoshow',23,4,35),t(/,6,4,51),t('2',3,4,53),t(>,10,4,55),t('0',3,4,57) ]).
+b_line_i(39,2,2,cmd,4,[ t('',107,39,0),t('Startindex',23,4,0),t(=,10,4,0),t('Selectedstepnumber',23,4,0),t(+,5,4,0),t('3',3,4,0),t(-,5,4,0),t('Maxstepstoshow',23,4,0),t(/,6,4,0),t('2',3,4,0) ]).
+b_line_i(40,2,2,cmd,4,[ t('',109,40,0),t('Startindex',23,4,10),t(+,5,4,22),t('(',0,4,24),t('Maxstepstoshow',23,4,25),t(-,5,4,41),t('2',3,4,43),t(')',4,4,44),t(>,10,4,46),t([ t('Wizardstepsaux',23,40,48),t('Count',3,40,64) ],29,40,64),t(+,5,4,70),t('1',3,4,72) ]).
+b_line_i(41,2,2,cmd,4,[ t('',107,41,0),t('Startindex',23,4,0),t(=,10,4,0),t([ t('Wizardstepsaux',23,4,0),t('Count',3,4,0) ],29,4,0),t(-,5,4,0),t('(',0,4,0),t('Maxstepstoshow',23,4,0),t(-,5,4,0),t('2',3,4,0),t(')',4,4,0),t(+,5,4,0),t('1',3,4,0) ]).
+b_line_i(42,2,2,cmd,4,[ t('',111,42,0) ]).
+b_line_i(43,2,2,cmd,4,[ t('',111,43,0) ]).
+b_line_i(44,2,2,cmd,4,[ t('',109,44,0),t('Startindex',23,4,9),t(>,10,4,21),t('3',3,4,23) ]).
+b_line_i(45,2,2,cmd,4,[ t('',107,45,0),t('Steprealnumber',23,4,0),t(=,10,4,0),t('Startindex',23,4,0) ]).
+b_line_i(46,2,2,cmd,4,[ t('',107,46,0),t('Firstisdummy',23,4,0),t(=,10,4,0),t('TRUE',40,4,0) ]).
+b_line_i(47,2,2,cmd,4,[ t('',107,47,0),t('Secondisdummy',23,4,0),t(=,10,4,0),t('TRUE',40,4,0) ]).
+b_line_i(48,2,2,cmd,4,[ t('',107,48,0),t([ t('Wizardstepsaux',23,4,0),[ t('item(',1,4,0),t('2',3,4,0),t(')',4,4,0) ],t('Title',3,4,0) ],29,4,0),t(=,10,4,0),t('''...''',3,4,0) ]).
+b_line_i(49,2,2,cmd,4,[ t('',114,49,0),t('Startindex',23,4,16),t(>,10,4,28),t('3',3,4,30) ]).
+b_line_i(50,2,2,cmd,4,[ t('',107,50,0),t([ t('Wizardstepsaux',23,50,8),t('remove(',1,50,24) ],31,50,8),t('3',3,4,32),t(')',4,4,33) ]).
+b_line_i(51,2,2,cmd,4,[ t('',107,51,0),t('Startindex',23,4,0),t(=,10,4,0),t('Startindex',23,4,0),t(-,5,4,0),t('1',3,4,0) ]).
+b_line_i(52,2,2,cmd,4,[ t('',107,52,0),t('Selectedstepnumber',23,4,0),t(=,10,4,0),t('Selectedstepnumber',23,4,0),t(-,5,4,0),t('1',3,4,0) ]).
+b_line_i(53,2,2,cmd,4,[ t('',115,53,0) ]).
+b_line_i(54,2,2,cmd,4,[ t('',111,54,0) ]).
+b_line_i(56,2,2,cmd,4,[ t('',109,56,0),t([ t('Wizardstepsaux',23,56,9),t('Count',3,56,25) ],29,56,25),t(>,10,4,31),t('Maxstepstoshow',23,4,33) ]).
+b_line_i(57,2,2,cmd,4,[ t('',107,57,0),t('Lastisdummy',23,4,0),t(=,10,4,0),t('TRUE',40,4,0) ]).
+b_line_i(58,2,2,cmd,4,[ t('',107,58,0),t('Penultimateisdummy',23,4,0),t(=,10,4,0),t('TRUE',40,4,0) ]).
+b_line_i(59,2,2,cmd,4,[ t('',107,59,0),t([ t('Wizardstepsaux',23,4,0),[ t('item(',1,4,0),t([ t('Wizardstepsaux',23,4,0),t('Count',3,4,0) ],29,4,0),t(-,5,4,0),t('1',3,4,0),t(')',4,4,0) ],t('Title',3,4,0) ],29,4,0),t(=,10,4,0),t('''''',3,4,0) ]).
+b_line_i(60,2,2,cmd,4,[ t('',114,60,0),t([ t('Wizardstepsaux',23,60,16),t('Count',3,60,32) ],29,60,32),t(>,10,4,38),t('Maxstepstoshow',23,4,40) ]).
+b_line_i(61,2,2,cmd,4,[ t('',107,61,0),t([ t('Wizardstepsaux',23,61,8),t('remove(',1,61,24) ],31,61,8),t([ t('Wizardstepsaux',23,61,32),t('Count',3,61,48) ],29,61,48),t(-,5,4,54),t('2',3,4,56),t(')',4,4,57) ]).
+b_line_i(62,2,2,cmd,4,[ t('',115,62,0) ]).
+b_line_i(63,2,2,cmd,4,[ t('',111,63,0) ]).
+b_line_i(64,2,2,cmd,4,[ t('',111,64,0) ]).
+b_line_i(66,2,2,cmd,4,[ t('',107,66,0),t('Wizardstepscount',23,4,0),t(=,10,4,0),t([ t('Wizardstepsaux',23,4,0),t('Count',3,4,0) ],29,4,0) ]).
+b_line_i(67,2,2,cmd,4,[ t('',109,67,0),t([ t('Wizardstepsaux',23,67,8),t('Count',3,67,24) ],29,67,24),t(>,10,4,30),t('Maxstepstoshowinxs',23,4,32) ]).
+b_line_i(68,2,2,cmd,4,[ t('',107,68,0),t('Wizardstepsitem',23,4,0),t(=,10,4,0),t([ 'WWPBaseObjects\WizardSteps.WizardStepsItem',[ t('(',0,68,28),t(')',4,68,29) ],n ],46,4,0) ]).
+b_line_i(69,2,2,cmd,4,[ t('',107,69,0),t([ t('Wizardstepsitem',23,4,0),t('Title',3,4,0) ],29,4,0),t(=,10,4,0),t('"DummiesXS_Test"',3,4,0) ]).
+b_line_i(70,2,2,cmd,4,[ t('',107,70,0),t([ t('Wizardstepsitem',23,4,0),t('Code',3,4,0) ],29,4,0),t(=,10,4,0),t('"FirstDummyXS"',3,4,0) ]).
+b_line_i(71,2,2,cmd,4,[ t('',107,71,0),t([ t('Wizardstepsaux',23,71,6),t('add(',1,71,22) ],31,71,6),t('Wizardstepsitem',23,4,27),t(',',7,4,43),t('2',3,4,45),t(')',4,4,46) ]).
+b_line_i(73,2,2,cmd,4,[ t('',107,73,0),t('Wizardstepsitem',23,4,0),t(=,10,4,0),t([ 'WWPBaseObjects\WizardSteps.WizardStepsItem',[ t('(',0,73,28),t(')',4,73,29) ],n ],46,4,0) ]).
+b_line_i(74,2,2,cmd,4,[ t('',107,74,0),t([ t('Wizardstepsitem',23,4,0),t('Title',3,4,0) ],29,4,0),t(=,10,4,0),t('"DummiesXS_Test"',3,4,0) ]).
+b_line_i(75,2,2,cmd,4,[ t('',107,75,0),t([ t('Wizardstepsitem',23,4,0),t('Code',3,4,0) ],29,4,0),t(=,10,4,0),t('"LastDummyXS"',3,4,0) ]).
+b_line_i(76,2,2,cmd,4,[ t('',107,76,0),t([ t('Wizardstepsaux',23,76,6),t('add(',1,76,22) ],31,76,6),t('Wizardstepsitem',23,4,27),t(',',7,4,43),t([ t('Wizardstepsaux',23,76,45),t('Count',3,76,61) ],29,76,61),t(-,5,4,67),t('1',3,4,69),t(')',4,4,70) ]).
+b_line_i(77,2,2,cmd,4,[ t('',111,77,0) ]).
+b_line_i(78,2,2,cmd,4,[ t('',107,78,0),t('Stepnumber',23,4,0),t(=,10,4,0),t('1',3,4,0) ]).
+b_line_i(80,2,2,cmd,4,[ t('',147,80,0) ]).
+b_line_i(82,2,2,cmd,4,[ t('',146,82,0),t([ t('Gridwizardsteps',3,82,7),t('Load',3,82,23) ],29,82,23) ]).
+b_line_i(84,2,3,cmd,4,[ t('',107,84,0),t('GXV2',23,4,0),t(=,10,4,0),t(1,3,4,0) ]).
+b_line_i([ 84,2 ],2,3,cmd,4,[ t('',114,84,0),t('GXV2',23,4,0),t(<=,10,4,0),t([ t('Wizardstepsaux',23,84,24),t('Count',3,84,0) ],29,84,0) ]).
+b_line_i([ 84,3 ],2,3,cmd,4,[ t('',107,84,0),t('Wizardstep',23,4,0),t(=,10,4,0),t([ t('Wizardstepsaux',23,4,0),t('item(',1,4,0) ],31,4,0),t('GXV2',23,4,0),t(')',4,4,0) ]).
+b_line_i(85,2,3,cmd,5,[ t('',107,85,0),t('Wizardsteptitle',23,5,0),t(=,10,5,0),t([ t('Wizardstep',23,5,0),t('Title',3,5,0) ],29,5,0) ]).
+b_line_i(93,2,3,cmd,5,[ t('',107,93,0),t([ t('Stepnumber',3,5,0),t('Caption',3,5,0) ],29,5,0),t(=,10,5,0),t('toformattedstring(',1,5,0),t('Steprealnumber',23,5,0),t(')',4,5,0) ]).
+b_line_i(94,2,3,cmd,5,[ t('',107,94,0),t([ t('Tblcontainerstep',3,5,0),t('Class',3,5,0) ],29,5,0),t(=,10,5,0),t('"TableContainerStepUnderline"',3,5,0) ]).
+b_line_i(95,2,3,cmd,5,[ t('',107,95,0),t([ t('Tablestepitem',3,5,0),t('Class',3,5,0) ],29,5,0),t(=,10,5,0),t('"TableStepUnderline"',3,5,0) ]).
+b_line_i(96,2,3,cmd,5,[ t('',107,96,0),t([ t('Tablestepitem',3,5,0),t('Visible',3,5,0) ],29,5,0),t(=,10,5,0),t('TRUE',40,5,0) ]).
+b_line_i(98,2,3,cmd,5,[ t('',152,98,0) ]).
+b_line_i(99,2,3,cmd,5,[ t('',153,99,0),t('Stepnumber',23,5,9),t(<,10,5,21),t('Selectedstepnumber',23,5,23) ]).
+b_line_i(100,2,3,cmd,5,[ t('',107,100,0),t([ t('Unnamedtablefsgridwizardsteps',3,5,0),t('Class',3,5,0) ],29,5,0),t(=,10,5,0),t('''Table CompletedStep''',3,5,0) ]).
+b_line_i(101,2,3,cmd,5,[ t('',153,101,0),t('Stepnumber',23,5,9),t(=,10,5,21),t('Selectedstepnumber',23,5,23) ]).
+b_line_i(102,2,3,cmd,5,[ t('',107,102,0),t([ t('Unnamedtablefsgridwizardsteps',3,5,0),t('Class',3,5,0) ],29,5,0),t(=,10,5,0),t('''Table CurrentStep''',3,5,0) ]).
+b_line_i(103,2,3,cmd,5,[ t('',164,103,0) ]).
+b_line_i(104,2,3,cmd,5,[ t('',107,104,0),t([ t('Unnamedtablefsgridwizardsteps',3,5,0),t('Class',3,5,0) ],29,5,0),t(=,10,5,0),t('''Table RemainingStep''',3,5,0) ]).
+b_line_i(105,2,3,cmd,5,[ t('',154,105,0) ]).
+b_line_i(107,2,3,cmd,5,[ t('',109,107,0),t('Selectedstepnumber',23,5,6),t(<>,10,5,26),t('Stepnumber',23,5,29),t('.AND.',9,5,41),t([ t('Wizardstep',23,107,47),t('Code',3,107,59) ],29,107,59),t(<>,10,5,64),t('"FirstDummyXS"',3,107,67),t('.AND.',9,5,83),t([ t('Wizardstep',23,107,89),t('Code',3,107,101) ],29,107,101),t(<>,10,5,106),t('"LastDummyXS"',3,107,109),t('.AND.',9,5,124),t('Stepnumber',23,5,130),t(>,10,5,142),t('1',3,5,144),t('.AND.',9,5,146),t('Stepnumber',23,5,152),t(<,10,5,164),t('Wizardstepscount',23,5,166) ]).
+b_line_i(108,2,3,cmd,5,[ t('',109,108,0),t('Selectedstepnumber',23,5,7),t(<=,10,5,27),t('3',3,5,30),t('.AND.',9,5,32),t('Stepnumber',23,5,38),t(>,10,5,50),t('3',3,5,52) ]).
+b_line_i(109,2,3,cmd,5,[ t('',107,109,0),t([ t('Tblcontainerstep',3,5,0),t('Class',3,5,0) ],29,5,0),t(=,10,5,0),t([ t('Tblcontainerstep',3,5,0),t('Class',3,5,0) ],29,5,0),t(+,5,5,0),t('" hidden-xs"',3,5,0) ]).
+b_line_i(110,2,3,cmd,5,[ t('',111,110,0) ]).
+b_line_i(111,2,3,cmd,5,[ t('',109,111,0),t('Selectedstepnumber',23,5,7),t(>,10,5,27),t('3',3,5,29),t('.AND.',9,5,31),t('Stepnumber',23,5,37),t(>,10,5,49),t('1',3,5,51),t('.AND.',9,5,53),t('Selectedstepnumber',23,5,59),t(<,10,5,79),t('Wizardstepscount',23,5,81),t(-,5,5,99),t('2',3,5,101) ]).
+b_line_i(112,2,3,cmd,5,[ t('',107,112,0),t([ t('Tblcontainerstep',3,5,0),t('Class',3,5,0) ],29,5,0),t(=,10,5,0),t([ t('Tblcontainerstep',3,5,0),t('Class',3,5,0) ],29,5,0),t(+,5,5,0),t('" hidden-xs"',3,5,0) ]).
+b_line_i(113,2,3,cmd,5,[ t('',111,113,0) ]).
+b_line_i(114,2,3,cmd,5,[ t('',109,114,0),t('Selectedstepnumber',23,5,7),t(>=,10,5,27),t('Wizardstepscount',23,5,30),t(-,5,5,48),t('2',3,5,50),t('.AND.',9,5,52),t('Stepnumber',23,5,58),t(<,10,5,70),t('Wizardstepscount',23,5,72),t(-,5,5,90),t('2',3,5,92) ]).
+b_line_i(115,2,3,cmd,5,[ t('',107,115,0),t([ t('Tblcontainerstep',3,5,0),t('Class',3,5,0) ],29,5,0),t(=,10,5,0),t([ t('Tblcontainerstep',3,5,0),t('Class',3,5,0) ],29,5,0),t(+,5,5,0),t('" hidden-xs"',3,5,0) ]).
+b_line_i(116,2,3,cmd,5,[ t('',111,116,0) ]).
+b_line_i(117,2,3,cmd,5,[ t('',111,117,0) ]).
+b_line_i(119,2,3,cmd,5,[ t('',107,119,0),t([ t('Tblcontainerstep',3,5,0),t('Visible',3,5,0) ],29,5,0),t(=,10,5,0),t('TRUE',40,5,0) ]).
+b_line_i(120,2,3,cmd,5,[ t('',109,120,0),t('.NOT.',8,5,9),t([ t([ t('Wizardstep',23,120,15),t('Code',3,120,27) ],29,120,27),t('contains(',1,5,32) ],31,120,32),t('"DummyXS"',3,120,42),t(')',4,5,52) ]).
+b_line_i(121,2,3,cmd,5,[ t('',152,121,0) ]).
+b_line_i(122,2,3,cmd,5,[ t('',153,122,0),t('Stepnumber',23,5,13),t(=,10,5,25),t('1',3,5,27),t('.AND.',9,5,29),t('Firstisdummy',23,5,35) ]).
+b_line_i(123,2,3,cmd,5,[ t('',107,123,0),t([ t('Stepnumber',3,5,0),t('Caption',3,5,0) ],29,5,0),t(=,10,5,0),t('trim(',1,5,0),t('str(',1,5,0),t('Stepnumber',23,5,0),t(',',7,5,0),t(4,3,5,0),t(',',7,5,0),t(0,3,5,0),t(')',4,5,0),t(')',4,5,0) ]).
+b_line_i(124,2,3,cmd,5,[ t('',153,124,0),t('Stepnumber',23,5,13),t(=,10,5,25),t('Wizardstepscount',23,5,27),t('.AND.',9,5,45),t('Lastisdummy',23,5,51) ]).
+b_line_i(125,2,3,cmd,5,[ t('',107,125,0),t([ t('Stepnumber',3,5,0),t('Caption',3,5,0) ],29,5,0),t(=,10,5,0),t('trim(',1,5,0),t('str(',1,5,0),t([ t('Wizardsteps',23,5,0),t('Count',3,5,0) ],29,5,0),t(',',7,5,0),t(9,3,5,0),t(',',7,5,0),t(0,3,5,0),t(')',4,5,0),t(')',4,5,0) ]).
+b_line_i(126,2,3,cmd,5,[ t('',153,126,0),t('(',0,5,13),t('Stepnumber',23,5,14),t(=,10,5,26),t('Wizardstepscount',23,5,28),t(-,5,5,46),t('1',3,5,48),t('.AND.',9,5,50),t('Penultimateisdummy',23,5,56),t(')',4,5,75) ]).
+b_line_i(127,2,3,cmd,5,[ t('',107,127,0),t([ t('Stepnumber',3,5,0),t('Caption',3,5,0) ],29,5,0),t(=,10,5,0),t('''...''',3,5,0) ]).
+b_line_i(128,2,3,cmd,5,[ t('',107,128,0),t([ t('Tablestepitem',3,5,0),t('Class',3,5,0) ],29,5,0),t(=,10,5,0),t([ t('Tablestepitem',3,5,0),t('Class',3,5,0) ],29,5,0),t(+,5,5,0),t('" TableStepUnderlineExtraBullet"',3,5,0) ]).
+b_line_i(129,2,3,cmd,5,[ t('',153,129,0),t('Stepnumber',23,5,13),t(=,10,5,25),t('2',3,5,27),t('.AND.',9,5,29),t('Firstisdummy',23,5,35) ]).
+b_line_i(130,2,3,cmd,5,[ t('',107,130,0),t([ t('Tablestepitem',3,5,0),t('Visible',3,5,0) ],29,5,0),t(=,10,5,0),t('FALSE',41,5,0) ]).
+b_line_i(131,2,3,cmd,5,[ t('',107,131,0),t([ t('Tblcontainerstep',3,5,0),t('Class',3,5,0) ],29,5,0),t(=,10,5,0),t([ t('Tblcontainerstep',3,5,0),t('Class',3,5,0) ],29,5,0),t(+,5,5,0),t('getmessagetext(',1,5,0),t('" TableContainerUnderlineExtraBullet"',3,5,0),t(')',4,5,0) ]).
+b_line_i(132,2,3,cmd,5,[ t('',164,132,0) ]).
+b_line_i(133,2,3,cmd,5,[ t('',107,133,0),t('Steprealnumber',23,5,0),t(=,10,5,0),t('Steprealnumber',23,5,0),t(+,5,5,0),t('1',3,5,0) ]).
+b_line_i(134,2,3,cmd,5,[ t('',154,134,0) ]).
+b_line_i(135,2,3,cmd,5,[ t('',107,135,0),t('Stepnumber',23,5,0),t(=,10,5,0),t('Stepnumber',23,5,0),t(+,5,5,0),t('1',3,5,0) ]).
+b_line_i(136,2,3,cmd,5,[ t('',110,136,0) ]).
+b_line_i(137,2,3,cmd,5,[ t('',107,137,0),t([ t('Stepnumber',3,5,0),t('Caption',3,5,0) ],29,5,0),t(=,10,5,0),t('"..."',3,5,0) ]).
+b_line_i(138,2,3,cmd,5,[ t('',107,138,0),t([ t('Tblcontainerstep',3,5,0),t('Class',3,5,0) ],29,5,0),t(=,10,5,0),t([ t('Tblcontainerstep',3,5,0),t('Class',3,5,0) ],29,5,0),t(+,5,5,0),t('getmessagetext(',1,5,0),t('" TableContainerUnderlineExtraBullet hidden-sm hidden-lg hidden-md"',3,5,0),t(')',4,5,0) ]).
+b_line_i(139,2,3,cmd,5,[ t('',109,139,0),t('(',0,5,10),t('Selectedstepnumber',23,5,11),t(<=,10,5,31),t('3',3,5,34),t('.AND.',9,5,36),t([ t('Wizardstep',23,139,42),t('Code',3,139,54) ],29,139,54),t(=,10,5,59),t('"FirstDummyXS"',3,139,61),t(')',4,5,76),t('.OR.',9,5,78),t('(',0,5,83),t('Selectedstepnumber',23,5,84),t(>=,10,5,104),t('Wizardstepscount',23,5,107),t(-,5,5,125),t('2',3,5,127),t('.AND.',9,5,129),t([ t('Wizardstep',23,139,135),t('Code',3,139,147) ],29,139,147),t(=,10,5,152),t('"LastDummyXS"',3,139,154),t(')',4,5,168) ]).
+b_line_i(140,2,3,cmd,5,[ t('',107,140,0),t([ t('Tblcontainerstep',3,5,0),t('Visible',3,5,0) ],29,5,0),t(=,10,5,0),t('FALSE',41,5,0) ]).
+b_line_i(141,2,3,cmd,5,[ t('',107,141,0),t([ t('Tablestepitem',3,5,0),t('Class',3,5,0) ],29,5,0),t(=,10,5,0),t('"TableStepUnderlineExtra"',3,5,0) ]).
+b_line_i(142,2,3,cmd,5,[ t('',111,142,0) ]).
+b_line_i(143,2,3,cmd,5,[ t('',109,143,0),t('(',0,5,10),t('Selectedstepnumber',23,5,11),t(>,10,5,31),t('3',3,5,33),t('.AND.',9,5,35),t([ t('Wizardstep',23,143,41),t('Code',3,143,53) ],29,143,53),t(=,10,5,58),t('"FirstDummyXS"',3,143,60),t(')',4,5,75) ]).
+b_line_i(144,2,3,cmd,5,[ t('',107,144,0),t([ t('Tablestepitem',3,5,0),t('Class',3,5,0) ],29,5,0),t(=,10,5,0),t('"TableStepExtraUnderlineChecked"',3,5,0) ]).
+b_line_i(145,2,3,cmd,5,[ t('',107,145,0),t([ t('Stepnumber',3,5,0),t('Visible',3,5,0) ],29,5,0),t(=,10,5,0),t('TRUE',40,5,0) ]).
+b_line_i(146,2,3,cmd,5,[ t('',111,146,0) ]).
+b_line_i(147,2,3,cmd,5,[ t('',111,147,0) ]).
+b_line_i(148,2,3,cmd,5,[ t('',107,148,0),t([ t('Gridwizardsteps',3,0,0),t('load(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i([ 149,1 ],2,3,cmd,5,[ t('',107,149,0),t('GXV2',23,5,0),t(=,10,5,0),t('GXV2',23,5,0),t(+,5,5,0),t(1,3,5,0) ]).
+b_line_i([ 149,2 ],2,3,cmd,5,[ t('',115,149,0) ]).
+b_line_i(151,2,3,cmd,7,[ t('',147,151,0) ]).
+ 
+sf_break_i(9,2).
+ 
+ 
+ 
+has_load_i(2).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,div(2)).
+ 
+html_sub_i(2,3,html_i(0,div(3))).
+html_sub_i(3,4,html_i(0,div(4))).
+html_sub_i(4,5,html_i(0,div(5))).
+html_sub_i(5,6,html_i(0,div(6))).
+html_sub_i(6,7,html_i(0,div(7))).
+html_sub_i(7,8,html_i(0,div(8))).
+html_sub_i(8,9,html_i(0,s(9))).
+html_sub_i(9,10,html_i(0,div(10))).
+html_sub_i(10,11,html_i(0,div(11))).
+html_sub_i(11,12,html_i(0,div(12))).
+html_sub_i(12,13,html_i(0,div(13))).
+html_sub_i(13,14,html_i(0,div(14))).
+html_sub_i(14,15,html_i(0,div(15))).
+html_sub_i(15,16,html_i(0,div(16))).
+html_sub_i(16,17,html_i(0,div(17))).
+html_sub_i(17,18,html_i(0,t('1',3))).
+html_sub_i(13,19,html_i(1,div(19))).
+html_sub_i(19,20,html_i(0,div(20))).
+html_sub_i(20,21,html_i(0,t('Wizardsteptitle',23))).
+html_sub_i(6,22,html_i(1,div(22))).
+html_sub_i(22,23,html_i(0,div(23))).
+html_sub_i(23,24,html_i(0,t(l('Step Description'),3))).
+ 
+html_tags_i(1,'Class','form-horizontal Form').
+html_tags_i(2,'data-gx-base-lib',bootstrapv3).
+html_tags_i(2,'data-abstract-form','').
+html_tags_i(13,'data-gx-flex','').
+html_tags_i(14,style,'flex-grow:1;').
+html_tags_i(18,'ControlType','').
+html_tags_i(19,style,'flex-grow:1;').
+html_tags_i(21,'data-gx-att','var:22').
+html_tags_i(24,'ControlType','').
+ 
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Class','Section',d,[ str ]).
+html_comp_i(2,'Id','',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Semanticcontent',div,d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Valign',top,d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Class','Table',v,[ str ]).
+html_comp_i(3,'Id','Layoutmaintable',v,[ str ]).
+html_comp_i(3,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Semanticcontent',div,d,[ str ]).
+html_comp_i(3,'Align',left,d,[ str ]).
+html_comp_i(3,'Valign',top,d,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Class',row,v,[ str ]).
+html_comp_i(4,'Id','',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Semanticcontent',div,d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Valign',top,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Class','col-xs-12',v,[ str ]).
+html_comp_i(5,'Id','',d,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Semanticcontent',div,d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Valign',top,d,[ str ]).
+html_comp_i(6,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(6,'Class','',v,[ str ]).
+html_comp_i(6,'Id','Tablemain',v,[ str ]).
+html_comp_i(6,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Semanticcontent',div,d,[ str ]).
+html_comp_i(6,'Align',left,d,[ str ]).
+html_comp_i(6,'Valign',top,d,[ str ]).
+html_comp_i(7,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(7,'Class',row,v,[ str ]).
+html_comp_i(7,'Id','',d,[ str ]).
+html_comp_i(7,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Semanticcontent',div,d,[ str ]).
+html_comp_i(7,'Align',left,d,[ str ]).
+html_comp_i(7,'Valign',top,d,[ str ]).
+html_comp_i(8,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(8,'Class','col-xs-12 WizardStepsUnderlineContainerCell',v,[ str ]).
+html_comp_i(8,'Id','',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Semanticcontent',div,d,[ str ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Valign',top,d,[ str ]).
+html_comp_i(9,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(9,'Controlname','Gridwizardsteps',v,[ str ]).
+html_comp_i(9,'Renderingmode','Responsive',v,[ str ]).
+html_comp_i(9,'Save_state',0,d,[ bool ]).
+html_comp_i(9,'Class','FreeStyleStepsUnderline',v,[ str ]).
+html_comp_i(9,'Iddataselector','',d,[ str ]).
+html_comp_i(9,'Controlwhere','',d,[ str ]).
+html_comp_i(9,'Controlunique','',d,[ str ]).
+html_comp_i(9,'Allowdrop',0,d,[ bool ]).
+html_comp_i(9,'Allowdrag',0,d,[ bool ]).
+html_comp_i(9,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(9,'Title','',d,[ str ]).
+html_comp_i(9,'Align',left,d,[ str ]).
+html_comp_i(9,'Backgroundgx','',d,[ str ]).
+html_comp_i(9,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(9,'Gxwidth',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Gxheight',measure(0,px),d,[ measure ]).
+html_comp_i(9,'Rules',none,d,[ str ]).
+html_comp_i(9,'Cellpadding','1',d,[ str ]).
+html_comp_i(9,'Cellspacing','2',d,[ str ]).
+html_comp_i(9,'Border','1',d,[ str ]).
+html_comp_i(9,'Sflrender','FlexGrid',v,[ str ]).
+html_comp_i(9,'Maxcols',0,d,[ num ]).
+html_comp_i(9,'Multi_columns_xs',0,v,[ num ]).
+html_comp_i(9,'Multi_columns_sm',0,v,[ num ]).
+html_comp_i(9,'Multi_columns_md',0,v,[ num ]).
+html_comp_i(9,'Multi_columns_lg',0,v,[ num ]).
+html_comp_i(9,'Prop_emptydatasettext','',d,[ str ]).
+html_comp_i(9,'Maxrows',0,v,[ num ]).
+html_comp_i(9,'Backcolorstyle',0,d,[ num ]).
+html_comp_i(9,'Linesbackcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(9,'Allowcollapsing',0,d,[ bool ]).
+html_comp_i(9,'Usercontroltype','FlexGrid',d,[ str ]).
+html_comp_i(9,'Constructorname','gx.grid.flexGrid',d,[ str ]).
+html_comp_i(9,'Showmethodname',show,d,[ str ]).
+html_comp_i(9,'Flexdirection',row,d,[ str ]).
+html_comp_i(9,'Flexwrap',nowrap,d,[ str ]).
+html_comp_i(9,'Justifycontent','flex-start',d,[ str ]).
+html_comp_i(9,'Alignitems',stretch,d,[ str ]).
+html_comp_i(9,'Aligncontent',stretch,d,[ str ]).
+html_comp_i(9,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(9,'Jssupportfiles',[],d,[ params ]).
+html_comp_i(9,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(9,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(10,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(10,'Class','Table',v,[ str ]).
+html_comp_i(10,'Id','Unnamedtablefsgridwizardsteps',v,[ str ]).
+html_comp_i(10,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Semanticcontent',div,d,[ str ]).
+html_comp_i(10,'Align',left,d,[ str ]).
+html_comp_i(10,'Valign',top,d,[ str ]).
+html_comp_i(11,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(11,'Class',row,v,[ str ]).
+html_comp_i(11,'Id','',d,[ str ]).
+html_comp_i(11,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Semanticcontent',div,d,[ str ]).
+html_comp_i(11,'Align',left,d,[ str ]).
+html_comp_i(11,'Valign',top,d,[ str ]).
+html_comp_i(12,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(12,'Class','col-xs-12',v,[ str ]).
+html_comp_i(12,'Id','',d,[ str ]).
+html_comp_i(12,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Semanticcontent',div,d,[ str ]).
+html_comp_i(12,'Align',left,d,[ str ]).
+html_comp_i(12,'Valign',top,d,[ str ]).
+html_comp_i(13,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(13,'Class','TableContainerStepUnderline',v,[ str ]).
+html_comp_i(13,'Id','Tblcontainerstep',v,[ str ]).
+html_comp_i(13,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Semanticcontent',div,d,[ str ]).
+html_comp_i(13,'Align',left,d,[ str ]).
+html_comp_i(13,'Valign',top,d,[ str ]).
+html_comp_i(14,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(14,'Class','',v,[ str ]).
+html_comp_i(14,'Id','',d,[ str ]).
+html_comp_i(14,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Semanticcontent',div,d,[ str ]).
+html_comp_i(14,'Align',left,d,[ str ]).
+html_comp_i(14,'Valign',top,d,[ str ]).
+html_comp_i(15,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(15,'Class','TableStepUnderline',v,[ str ]).
+html_comp_i(15,'Id','Tablestepitem',v,[ str ]).
+html_comp_i(15,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Semanticcontent',div,d,[ str ]).
+html_comp_i(15,'Align',left,d,[ str ]).
+html_comp_i(15,'Valign',top,d,[ str ]).
+html_comp_i(16,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(16,'Class',row,v,[ str ]).
+html_comp_i(16,'Id','',d,[ str ]).
+html_comp_i(16,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Semanticcontent',div,d,[ str ]).
+html_comp_i(16,'Align',left,d,[ str ]).
+html_comp_i(16,'Valign',top,d,[ str ]).
+html_comp_i(17,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(17,'Class','col-xs-12 StepNumberUnderlineCell',v,[ str ]).
+html_comp_i(17,'Id','',d,[ str ]).
+html_comp_i(17,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(17,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(17,'Semanticcontent',div,d,[ str ]).
+html_comp_i(17,'Align',left,d,[ str ]).
+html_comp_i(17,'Valign',top,d,[ str ]).
+html_comp_i(18,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(18,'Caption','1',d,[ str ]).
+html_comp_i(18,'Id','Stepnumber',v,[ str ]).
+html_comp_i(18,'Class','StepNumberUnderline',v,[ str ]).
+html_comp_i(18,'Event','',d,[ str ]).
+html_comp_i(18,'Returnonclick',0,d,[ bool ]).
+html_comp_i(18,'Gxformat',0,d,[ num ]).
+html_comp_i(18,'Title','',d,[ str ]).
+html_comp_i(18,'Fill',-1,d,[ bool ]).
+html_comp_i(18,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(18,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(18,'Font','',d,[ str ]).
+html_comp_i(19,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(19,'Class','AttributeStepBulletCell hidden-xs',v,[ str ]).
+html_comp_i(19,'Id','',d,[ str ]).
+html_comp_i(19,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Semanticcontent',div,d,[ str ]).
+html_comp_i(19,'Align',left,d,[ str ]).
+html_comp_i(19,'Valign',top,d,[ str ]).
+html_comp_i(20,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(20,'Class',' gx-attribute',v,[ str ]).
+html_comp_i(20,'Id','',d,[ str ]).
+html_comp_i(20,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Semanticcontent',div,d,[ str ]).
+html_comp_i(20,'Align',left,d,[ str ]).
+html_comp_i(20,'Valign',top,d,[ str ]).
+html_comp_i(21,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(21,'Colcount',80,d,[ num ]).
+html_comp_i(21,'Attid',-22,v,[ num ]).
+html_comp_i(21,'Class','AttributeStepUnderline',v,[ str ]).
+html_comp_i(21,'Controlname','&Wizardsteptitle',d,[ str ]).
+html_comp_i(21,'Returnonclick',0,v,[ bool ]).
+html_comp_i(21,'Eventgx','',d,[ str ]).
+html_comp_i(21,'Captionclass','gx-form-item AttributeStepUnderlineLabel',v,[ str ]).
+html_comp_i(21,'Captionstyle','width: 25%;',v,[ str ]).
+html_comp_i(21,'Captionposition','None',v,[ str ]).
+html_comp_i(21,'Captionvalue',l('Wizard Step Title'),d,[ str ]).
+html_comp_i(21,'Layoutclass','',v,[ str ]).
+html_comp_i(21,'Controltype',2,d,[ num ]).
+html_comp_i(21,'Inputtype',0,d,[ num ]).
+html_comp_i(21,'Editautocomplete',0,d,[ num ]).
+html_comp_i(21,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(21,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(21,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(21,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(21,'Readonly',-1,v,[ bool ]).
+html_comp_i(21,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(21,'Ispassword',0,d,[ bool ]).
+html_comp_i(21,'Autoresize',-1,d,[ bool ]).
+html_comp_i(21,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(21,'Gxheight',measure(3,row),d,[ measure ]).
+html_comp_i(21,'Ismultiline',-1,d,[ bool ]).
+html_comp_i(21,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(21,'Fill',-1,d,[ bool ]).
+html_comp_i(21,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(21,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(21,'Font',font('Verdana',12,[]),d,[ font ]).
+html_comp_i(21,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(21,'Gxformat',0,d,[ num ]).
+html_comp_i(21,'Title','',d,[ str ]).
+html_comp_i(21,'Invitemsg','',v,[ str ]).
+html_comp_i(22,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(22,'Class',row,v,[ str ]).
+html_comp_i(22,'Id','',d,[ str ]).
+html_comp_i(22,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Semanticcontent',div,d,[ str ]).
+html_comp_i(22,'Align',left,d,[ str ]).
+html_comp_i(22,'Valign',top,d,[ str ]).
+html_comp_i(23,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(23,'Class','col-xs-12 CellPaddingBottom',v,[ str ]).
+html_comp_i(23,'Id','',d,[ str ]).
+html_comp_i(23,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Semanticcontent',div,d,[ str ]).
+html_comp_i(23,'Align',left,d,[ str ]).
+html_comp_i(23,'Valign',top,d,[ str ]).
+html_comp_i(24,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(24,'Caption',l('Step Description'),d,[ str ]).
+html_comp_i(24,'Id','Wizardstepdescription',v,[ str ]).
+html_comp_i(24,'Class','WizardStepDescriptionUnderline',v,[ str ]).
+html_comp_i(24,'Event','',d,[ str ]).
+html_comp_i(24,'Returnonclick',0,d,[ bool ]).
+html_comp_i(24,'Gxformat',0,d,[ num ]).
+html_comp_i(24,'Title','',d,[ str ]).
+html_comp_i(24,'Fill',-1,d,[ bool ]).
+html_comp_i(24,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(24,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(24,'Font','',d,[ str ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(18,9,s(t('1',3),9),[ ctlname('Stepnumber') ]).
+lit_i(17,9,div(17),[ ctlname('') ]).
+lit_i(16,9,div(16),[ ctlname('') ]).
+lit_i(15,9,div(15),[ ctlname('Tablestepitem') ]).
+lit_i(14,9,div(14),[ ctlname('') ]).
+lit_i(21,9,s(t('Wizardsteptitle',23),9),[ ctlname('&Wizardsteptitle'),ctrltype(edit,21),pos(21),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(20,9,div(20),[ ctlname('') ]).
+lit_i(19,9,div(19),[ ctlname('') ]).
+lit_i(13,9,div(13),[ ctlname('Tblcontainerstep') ]).
+lit_i(12,9,div(12),[ ctlname('') ]).
+lit_i(11,9,div(11),[ ctlname('') ]).
+lit_i(10,9,div(10),[ ctlname('Unnamedtablefsgridwizardsteps') ]).
+lit_i(9,1,s(9),[ ctlname('Gridwizardsteps'),el([ t('Wizardsteptitle',23) ]),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(8,1,div(8),[ ctlname('') ]).
+lit_i(7,1,div(7),[ ctlname('') ]).
+lit_i(24,1,t(l('Step Description'),3),[ ctlname('Wizardstepdescription') ]).
+lit_i(23,1,div(23),[ ctlname('') ]).
+lit_i(22,1,div(22),[ ctlname('') ]).
+lit_i(6,1,div(6),[ ctlname('Tablemain') ]).
+lit_i(5,1,div(5),[ ctlname('') ]).
+lit_i(4,1,div(4),[ ctlname('') ]).
+lit_i(3,1,div(3),[ ctlname('Layoutmaintable') ]).
+lit_i(2,1,div(2),[ ctlname('') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+var_prop_i(2,'Securityfunctionalitykeys',idBasedOn,88,v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,84,0 ],name,'WWPBaseObjects\WizardSteps').
+struct_dt_i([ 26,84,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,84,0 ],'ObjName','WizardSteps').
+struct_dt_i([ 26,84,0 ],'ObjDesc','Wizard Steps').
+struct_dt_i([ 26,84,0 ],'ExternalName','WizardSteps').
+struct_dt_i([ 26,84,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,84,0 ],collection,'True').
+struct_dt_i([ 26,84,0 ],datatype,[ 26,84,142 ]).
+struct_dt_i([ 26,84,0 ],'CollectionItemName','WizardStepsItem').
+struct_dt_i([ 26,84,0 ],'XmlName','').
+struct_dt_i([ 26,84,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,84,0 ],'XmlNamespace','').
+struct_dt_i([ 26,84,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,84,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,84,0 ],'JsonName','').
+struct_dt_i([ 26,84,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,84,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,84,142 ],name,'WizardStepsItem').
+struct_dt_i([ 26,84,142 ],namespace,'Mujer_Morena.WizardSteps').
+struct_dt_i([ 26,84,0 ],fullname,'WWPBaseObjects\WizardSteps').
+struct_dt_i([ 26,84,142 ],fullname,'WWPBaseObjects\WizardSteps.WizardStepsItem').
+ 
+struct_dt_elem_i([ 26,84,142 ],1,name,'Code').
+struct_dt_elem_i([ 26,84,142 ],1,camelname,'Code').
+struct_dt_elem_i([ 26,84,142 ],1,length,40).
+struct_dt_elem_i([ 26,84,142 ],1,decimals,0).
+struct_dt_elem_i([ 26,84,142 ],1,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,84,142 ],1,pic,'').
+struct_dt_elem_i([ 26,84,142 ],1,collection,'False').
+struct_dt_elem_i([ 26,84,142 ],1,'ExternalName','Code').
+struct_dt_elem_i([ 26,84,142 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,84,142 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,84,142 ],1,'XmlName','').
+struct_dt_elem_i([ 26,84,142 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,142 ],1,soaptype,'').
+struct_dt_elem_i([ 26,84,142 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,142 ],1,'JsonName','').
+struct_dt_elem_i([ 26,84,142 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,84,142 ],2,name,'Title').
+struct_dt_elem_i([ 26,84,142 ],2,camelname,'Title').
+struct_dt_elem_i([ 26,84,142 ],2,length,40).
+struct_dt_elem_i([ 26,84,142 ],2,decimals,0).
+struct_dt_elem_i([ 26,84,142 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,84,142 ],2,pic,'').
+struct_dt_elem_i([ 26,84,142 ],2,collection,'False').
+struct_dt_elem_i([ 26,84,142 ],2,'ExternalName','Title').
+struct_dt_elem_i([ 26,84,142 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,84,142 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,84,142 ],2,'XmlName','').
+struct_dt_elem_i([ 26,84,142 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,142 ],2,soaptype,'').
+struct_dt_elem_i([ 26,84,142 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,142 ],2,'JsonName','').
+struct_dt_elem_i([ 26,84,142 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,84,142 ],3,name,'Description').
+struct_dt_elem_i([ 26,84,142 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,84,142 ],3,length,40).
+struct_dt_elem_i([ 26,84,142 ],3,decimals,0).
+struct_dt_elem_i([ 26,84,142 ],3,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,84,142 ],3,pic,'').
+struct_dt_elem_i([ 26,84,142 ],3,collection,'False').
+struct_dt_elem_i([ 26,84,142 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,84,142 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,84,142 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,84,142 ],3,'XmlName','').
+struct_dt_elem_i([ 26,84,142 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,142 ],3,soaptype,'').
+struct_dt_elem_i([ 26,84,142 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,142 ],3,'JsonName','').
+struct_dt_elem_i([ 26,84,142 ],3,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Start',2,80,[ [ 'Wizardsteps','Currentstep' ],[ 'Selectedstepnumber',[ t('Wizardstepdescription',3),t('Caption',3) ],[ t('Wizardstepdescription',3),t('Visible',3) ],'Steprealnumber','Wizardstepsaux','Firstisdummy','Penultimateisdummy','Lastisdummy','Wizardstepscount','Stepnumber' ] ]).
+sub_info_i(146,[ t('Gridwizardsteps',3,82,7),t('Load',3,82,23) ],82,151,[ [ 'Wizardstepsaux','Steprealnumber','Stepnumber','Selectedstepnumber','Wizardstepscount','Firstisdummy','Lastisdummy','Wizardsteps','Penultimateisdummy' ],[ 'Wizardsteptitle',[ t('Stepnumber',3),t('Caption',3) ],[ t('Tblcontainerstep',3),t('Class',3) ],[ t('Tablestepitem',3),t('Class',3) ],[ t('Tablestepitem',3),t('Visible',3) ],[ t('Unnamedtablefsgridwizardsteps',3),t('Class',3) ],[ t('Tblcontainerstep',3),t('Visible',3) ],'Steprealnumber','Stepnumber',[ t('Stepnumber',3),t('Visible',3) ] ] ]).
+ 
+ 
+pgm_callprotocol_i(web,92,'WWPBASEOBJECTS\WIZARDSTEPSUNDERLINEWC','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

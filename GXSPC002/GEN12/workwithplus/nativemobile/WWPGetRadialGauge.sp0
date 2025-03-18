@@ -1,0 +1,348 @@
+spec_i([ proc,210,l('Get Radial Gauge Copy1'),'WorkWithPlus\NativeMobile\WWPGetRadialGauge',78,spa,'17_0_11-163677' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','WorkWithPlus.NativeMobile.WWPGetRadialGauge')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('IntegratedSecurityPermissionPrefix','WWPGetRadialGauge')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('REST','-1')).
+rule_i(0,prop('ExposeUsingNativeSoapSupport','UMPV')).
+rule_i(0,prop('SOAP','-1')).
+rule_i(0,prop(idISPRCWEBSERVICE,'-1')).
+rule_i(0,prop(idENABLEMTOM,'0')).
+rule_i(0,prop('SOAP_NAMESPACE','Mujer_Morena')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'WorkWithPlus\NativeMobile\Gauges'))).
+rule_i(0,prop('ObjDesc','Get Radial Gauge Copy1')).
+rule_i(0,prop('ObjName','WWPGetRadialGauge')).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Value','Innertext','Progresscolor','Textcolor','Shadowcolor','Allowanimation','Html' ],[])).
+rule_i(0,parmio([ [ 'Value',in ],[ 'Innertext',in ],[ 'Progresscolor',in ],[ 'Textcolor',in ],[ 'Shadowcolor',in ],[ 'Allowanimation',in ],[ 'Html',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',19 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',18 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',17 ]).
+attri_i('Value',[ 'Value',int,3,0,'ZZ9',0,l('Value'),'',16 ]).
+attri_i('Textcolor',[ 'TextColor',svchar,40,0,'',0,l('Text Color'),'',15 ]).
+attri_i('Shadowcolor',[ 'ShadowColor',svchar,40,0,'',0,l('Shadow Color'),'',14 ]).
+attri_i('Propertyvalue',[ propertyValue,svchar,40,0,'',0,l('property Value'),'',13 ]).
+attri_i('Propertyname',[ propertyName,svchar,40,0,'',0,l('property Name'),'',12 ]).
+attri_i('Progresscolor',[ 'ProgressColor',char,20,0,'',0,l('Progress Color'),'',11 ]).
+attri_i('Innertext',[ 'InnerText',svchar,40,0,'',0,l('Inner Text'),'',10 ]).
+attri_i('Allowanimation',[ 'AllowAnimation',boolean,4,0,'',0,l('Allow Animation'),'',9 ]).
+attri_i('Html',[ 'HTML',vchar,2097152,0,'',0,l('HTML'),'',8 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(47,[ 'GeneXus\Html' ]).
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,48).
+b_group_i(1,2,lit,0,49,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[ t('',107,1,0),t('Html',23,0,0),t(=,10,0,0),t('''<meta name="viewport" content= "width=device-width, user-scalable=no"><style>body{background-color: #00000000;}.flex-wrapper{display: flex; flex-flow: row nowrap;}.single-chart{width: 100%; justify-content: space-around ;}.circular-chart{display: block; margin: 10px auto; max-width: 80%; max-height: 250px;}.circle-bg{fill: none; stroke: %shadowcolor%; stroke-width: 3.8;}.circle{fill: none; stroke-width: 2.8; stroke-linecap: round; %animation%}@keyframes progress{0%, 40% { opacity: 0;} 40% { stroke-dasharray: 0 100;}} .percentage{fill: %textcolor%; font-family: sans-serif; font-size: 0.5em; text-anchor: middle;}</style>''',3,0,0) ]).
+b_line_i(2,1,1,cmd,0,[]).
+b_line_i(3,1,1,cmd,0,[ t('',107,3,0),t('Html',23,0,0),t(=,10,0,0),t('Html',23,0,0),t(+,5,0,0),t('''<div class="flex-wrapper"> <div class="single-chart"><svg viewBox="0 0 36 36" class="circular-chart"><path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"  />''',3,0,0) ]).
+b_line_i(4,1,1,cmd,0,[ t('',107,4,0),t('Html',23,0,0),t(=,10,0,0),t('Html',23,0,0),t(+,5,0,0),t('''<path class="circle" stroke="%color%" stroke-dasharray="%value%, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/><text x="18" y="20.35" class="percentage">%text%</text></svg></div></div>''',3,0,0) ]).
+b_line_i(5,1,1,cmd,0,[]).
+b_line_i(6,1,1,cmd,0,[ t('',107,6,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"color"',3,0,0) ]).
+b_line_i(7,1,1,cmd,0,[ t('',107,7,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t('Progresscolor',23,0,0) ]).
+b_line_i(8,1,1,cmd,0,[ t('',109,8,0),t('null(',1,8,19),t('Progresscolor',23,0,4),t(')',4,0,28) ]).
+b_line_i(9,1,1,cmd,0,[ t('',107,9,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t('"#4CC790"',3,0,0) ]).
+b_line_i(10,1,1,cmd,0,[ t('',111,10,0) ]).
+b_line_i(11,1,1,cmd,0,[ t('',145,11,0),t('''REPLACETEMPLATE''',3,11,4) ]).
+b_line_i(12,1,1,cmd,0,[]).
+b_line_i(13,1,1,cmd,0,[ t('',107,13,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"value"',3,0,0) ]).
+b_line_i(14,1,1,cmd,0,[ t('',107,14,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t('str(',1,0,0),t('Value',23,0,0),t(',',7,0,0),t(3,3,0,0),t(',',7,0,0),t(0,3,0,0),t(')',4,0,0) ]).
+b_line_i(15,1,1,cmd,0,[ t('',109,15,0),t('Value',23,0,4),t(>,10,0,11),t('100',3,0,13) ]).
+b_line_i(16,1,1,cmd,0,[ t('',107,16,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t('"100"',3,0,0) ]).
+b_line_i(17,1,1,cmd,0,[ t('',111,17,0) ]).
+b_line_i(18,1,1,cmd,0,[ t('',145,18,0),t('''REPLACETEMPLATE''',3,18,4) ]).
+b_line_i(19,1,1,cmd,0,[]).
+b_line_i(20,1,1,cmd,0,[ t('',107,20,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"text"',3,0,0) ]).
+b_line_i(21,1,1,cmd,0,[ t('',107,21,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t('Innertext',23,0,0) ]).
+b_line_i(22,1,1,cmd,0,[ t('',109,22,0),t('len(',1,22,15),t('Innertext',23,0,4),t(')',4,0,23),t(=,10,0,25),t('0',3,0,27) ]).
+b_line_i(23,1,1,cmd,0,[ t('',107,23,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t('str(',1,0,0),t('Value',23,0,0),t(',',7,0,0),t(3,3,0,0),t(',',7,0,0),t(0,3,0,0),t(')',4,0,0),t(+,5,0,0),t('"%"',3,0,0) ]).
+b_line_i(24,1,1,cmd,0,[ t('',111,24,0) ]).
+b_line_i(25,1,1,cmd,0,[ t('',145,25,0),t('''REPLACETEMPLATE''',3,25,4) ]).
+b_line_i(26,1,1,cmd,0,[]).
+b_line_i(27,1,1,cmd,0,[ t('',107,27,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"animation"',3,0,0) ]).
+b_line_i(28,1,1,cmd,0,[ t('',107,28,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(29,1,1,cmd,0,[ t('',109,29,0),t('Allowanimation',23,0,4) ]).
+b_line_i(30,1,1,cmd,0,[ t('',107,30,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t('"animation: progress 2s ease-out forwards;"',3,0,0) ]).
+b_line_i(31,1,1,cmd,0,[ t('',111,31,0) ]).
+b_line_i(32,1,1,cmd,0,[ t('',145,32,0),t('''REPLACETEMPLATE''',3,32,4) ]).
+b_line_i(33,1,1,cmd,0,[]).
+b_line_i(34,1,1,cmd,0,[ t('',107,34,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"textcolor"',3,0,0) ]).
+b_line_i(35,1,1,cmd,0,[ t('',107,35,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t('Textcolor',23,0,0) ]).
+b_line_i(36,1,1,cmd,0,[ t('',109,36,0),t('null(',1,36,19),t('Progresscolor',23,0,4),t(')',4,0,28) ]).
+b_line_i(37,1,1,cmd,0,[ t('',107,37,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t('"#666"',3,0,0) ]).
+b_line_i(38,1,1,cmd,0,[ t('',111,38,0) ]).
+b_line_i(39,1,1,cmd,0,[ t('',145,39,0),t('''REPLACETEMPLATE''',3,39,4) ]).
+b_line_i(40,1,1,cmd,0,[]).
+b_line_i(41,1,1,cmd,0,[ t('',107,41,0),t('Propertyname',23,0,0),t(=,10,0,0),t('"shadowcolor"',3,0,0) ]).
+b_line_i(42,1,1,cmd,0,[ t('',107,42,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t('Shadowcolor',23,0,0) ]).
+b_line_i(43,1,1,cmd,0,[ t('',109,43,0),t('null(',1,43,19),t('Progresscolor',23,0,4),t(')',4,0,28) ]).
+b_line_i(44,1,1,cmd,0,[ t('',107,44,0),t('Propertyvalue',23,0,0),t(=,10,0,0),t('"#eee"',3,0,0) ]).
+b_line_i(45,1,1,cmd,0,[ t('',111,45,0) ]).
+b_line_i(46,1,1,cmd,0,[ t('',145,46,0),t('''REPLACETEMPLATE''',3,46,4) ]).
+b_line_i(47,1,1,cmd,0,[]).
+b_line_i(48,1,1,cmd,0,[ t('',143,48,0),t('''REPLACETEMPLATE''',3,48,5) ]).
+b_line_i(49,1,2,cmd,0,[ t('',107,49,0),t('Html',23,0,0),t(=,10,0,0),t('strreplace(',1,0,0),t('Html',23,0,0),t(',',7,0,0),t('"%"',3,0,0),t(+,5,0,0),t('trim(',1,0,0),t('Propertyname',23,0,0),t(')',4,0,0),t(+,5,0,0),t('"%"',3,0,0),t(',',7,0,0),t('trim(',1,0,0),t('Propertyvalue',23,0,0),t(')',4,0,0),t(')',4,0,0) ]).
+b_line_i(50,1,2,cmd,0,[ t('',144,50,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+var_prop_i(2,'Html',idBasedOn,47,v).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+security_permission_i(wwpgetradialgauge_Services_Execute,execute,service).
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,210,'WORKWITHPLUS\NATIVEMOBILE\WWPGETRADIALGAUGE','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

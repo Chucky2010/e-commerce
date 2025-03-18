@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "servicios_FullControl",
+    "Description": "Servicios FullControl",
+    "ProgramName": "servicios",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "servicios_Execute",
+    "Description": "Servicios",
+    "ProgramName": "servicios",
+    "IsGXAutomatic": true,
+    "Parent": "servicios_FullControl"
+  },
+  {
+    "Name": "servicios_Insert",
+    "Description": "Servicios Insert",
+    "ProgramName": "servicios",
+    "IsGXAutomatic": true,
+    "Parent": "servicios_FullControl"
+  },
+  {
+    "Name": "servicios_Delete",
+    "Description": "Servicios Delete",
+    "ProgramName": "servicios",
+    "IsGXAutomatic": true,
+    "Parent": "servicios_FullControl"
+  },
+  {
+    "Name": "servicios_Update",
+    "Description": "Servicios Update",
+    "ProgramName": "servicios",
+    "IsGXAutomatic": true,
+    "Parent": "servicios_FullControl"
+  }
+]

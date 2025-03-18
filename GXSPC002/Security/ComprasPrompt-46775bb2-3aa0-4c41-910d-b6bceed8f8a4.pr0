@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "comprasprompt_Execute",
+    "Description": "Selecciona Compras",
+    "ProgramName": "comprasprompt",
+    "IsGXAutomatic": true
+  }
+]

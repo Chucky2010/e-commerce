@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "tipopagoprompt_Execute",
+    "Description": "Selecciona Tipo Pago",
+    "ProgramName": "tipopagoprompt",
+    "IsGXAutomatic": true
+  }
+]

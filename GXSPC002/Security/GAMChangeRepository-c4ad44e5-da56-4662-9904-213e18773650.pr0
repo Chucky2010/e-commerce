@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamchangerepository_Execute",
+    "Description": "WWP_GAM_ChangeRepository",
+    "ProgramName": "gamchangerepository",
+    "IsGXAutomatic": true
+  }
+]

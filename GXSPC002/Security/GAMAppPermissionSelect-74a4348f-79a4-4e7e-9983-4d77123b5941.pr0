@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamapppermissionselect_Execute",
+    "Description": "WWP_GAM_SelectPermissionsApplication",
+    "ProgramName": "gamapppermissionselect",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,4 @@
+bc_dt_elem_i([ 0,38,0 ],'Usercustomizationsid',allownulls,no).
+bc_dt_elem_i([ 0,38,0 ],'Usercustomizationskey',allownulls,no).
+bc_dt_elem_i([ 0,38,0 ],'Usercustomizationsvalue',allownulls,no).
+ 

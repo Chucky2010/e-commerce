@@ -1,0 +1,124 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>252</ObjId>
+<ObjName>PrcCargaComprobante</ObjName>
+<ObjDesc>Prc Carga Comprobante</ObjDesc>
+<ObjPgmName>PrcCargaComprobante</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0060</MsgCode>
+<Message>
+<Token>The program may be called by another program and the Commit on Exit property is set to YES</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Pedidosid</VarId>
+<VarName>&amp;PedidosID</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Pedidoscomprobante</VarId>
+<VarName>&amp;PedidosComprobante</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Pedidoscomprobanteobs</VarId>
+<VarName>&amp;PedidosComprobanteObs</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations>
+<Optimization>
+<Type>Update</Type></Optimization></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>47</TableId>
+<TableName>Pedidos</TableName>
+<Description>Pedidos</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>PedidosID</AttriName>
+<Description>Pedidos ID</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IPEDIDOS</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>PedidosID</AttriName>
+<Description>Pedidos ID</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pedidosid</VarId>
+<VarName>&amp;PedidosID</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>PedidosID</AttriName>
+<Description>Pedidos ID</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pedidosid</VarId>
+<VarName>&amp;PedidosID</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>47</TableId>
+<TableName>Pedidos</TableName>
+<Description>Pedidos</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>PedidosID</AttriName>
+<Description>Pedidos ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>47</TableId>
+<TableName>Pedidos</TableName>
+<Description>Pedidos</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>296</AttriId>
+<AttriName>PedidosImagenComprobante</AttriName>
+<Description>Pedidos Imagen Comprobante</Description></Attribute>
+<Attribute>
+<AttriId>295</AttriId>
+<AttriName>PedidosComprobanteObs</AttriName>
+<Description>Pedidos Comprobante Obs</Description></Attribute>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>PedidosImagenComprobante.Uri  </AttriName>
+<Description></Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

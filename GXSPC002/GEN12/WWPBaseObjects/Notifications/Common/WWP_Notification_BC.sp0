@@ -1,0 +1,890 @@
+spec_i([ trn,35,l('Notification'),'WWPBaseObjects\Notifications\Common\WWP_Notification_BC',[],spa,'17_0_11-163677' ]).
+ 
+struct_i(37,0,[],[]).
+ 
+level_i(37,[ 37,[ [ 37,many ],[ 36,one ],[ 30,one ] ],[ 37 ],[],[],[],[ 37 ],'IWWP_NOTIFICATION',[ 37,[] ],[] ]).
+ 
+tw_i(37,[ [ 36,[ [ 37,35,35 ] ] ],[ 30,[ [ 37,32,32 ] ] ] ]).
+ 
+lwi_i(37,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(37,[ [ [ 37,37 ],[ 36,181 ],[ 37,40 ],[ 37,198 ],[ 37,199 ],[ 37,200 ],[ 37,201 ],[ 37,203 ],[ 30,138 ],[ 37,182 ],[ 37,35 ],[ 37,32 ] ] ]).
+ 
+las_i(37,[ [ 37,'GxBScreen',35,181,40,198,199,200,201,203,32,138,182 ] ]).
+ 
+lac_i(37,[ [ 37,35,40,198,199,200,201,203,32,182 ] ]).
+ 
+ 
+ 
+cls_i([ 25,80 ],[ 0,0 ]).
+ 
+ 
+ 
+default_i(e(40,4,3,[ t('servernow(',1),t(')',4) ])).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PKSupFKs',[])).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','WWPBaseObjects.Notifications.Common.WWP_Notification')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SEARCH_VIEWER','')).
+rule_i(0,prop('SEARCHABLE','UMPV')).
+rule_i(0,prop('MTIER_OPT','Yes')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('KEY_MOREKEYS','UMPV')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_LAST','UMPV')).
+rule_i(0,prop('KEY_FIRST','UMPV')).
+rule_i(0,prop('KEY_SELECT','UMPV')).
+rule_i(0,prop('KEY_DISPLAY','UMPV')).
+rule_i(0,prop('KEY_DELETE','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_UPDATE','UMPV')).
+rule_i(0,prop('KEY_MENU','UMPV')).
+rule_i(0,prop('KEY_RETRIEVE','UMPV')).
+rule_i(0,prop('KEY_NEXT','UMPV')).
+rule_i(0,prop('KEY_PREVIOUS','UMPV')).
+rule_i(0,prop('KEY_INSERT','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_PROMPT','UMPV')).
+rule_i(0,prop('KEY_EXIT','UMPV')).
+rule_i(0,prop('KEY_CHECK','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebFormDefaults','0')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('FIELD_TO_FIELD','UMPV')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('CFMTRN','No')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('IsDwhTrn','0')).
+rule_i(0,prop(idDynTrnUpdatePolicy,idDynTrnUpdatePolicy_UPDATABLE)).
+rule_i(0,prop(idIsDynTrn,'0')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'WWPBaseObjects.WorkWithPlusMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('WS_Delete','-1')).
+rule_i(0,prop('WS_Update','-1')).
+rule_i(0,prop('WS_Insert','-1')).
+rule_i(0,prop('WS_View','-1')).
+rule_i(0,prop(idISBCWEBSERVICE,'0')).
+rule_i(0,prop('ExternalNamespace','Mujer_Morena')).
+rule_i(0,prop('ExternalName','WWP_Notification')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('IntegratedSecurityPermissionPrefix','WWP_Notification')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop(idISBUSINESSCOMPONENT,'-1')).
+rule_i(0,prop('Folder',o(8,'WWPBaseObjects\Notifications\Common\Transactions'))).
+rule_i(0,prop('ObjDesc','Notification')).
+rule_i(0,prop('ObjName','WWP_Notification')).
+rule_i(0,rule([ a(22,[ 'Dlt',[ t('getmessagetext(',1),t('"GX_BtnDelete"',3),t(')',4) ],'' ]) ],[],[],[])).
+rule_i(0,maingen(12)).
+rule_i(37,rule([ a(1,msg([ t('format(',1),t('getmessagetext(',1),t('"GXSPC_OutOfRange"',3),t(')',4),t(',',7),t('getmessagetext(',1),t('"Notification Created Date"',3),t(')',4),t(')',4) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(40,2),t(')',4),t('.OR.',9),t(40,2),t(>=,10),t('ymdhmstot(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(',',7),t('00',3),t(',',7),t('00',3),t(',',7),t('00',3),t(')',4),t(')',4) ],[ insert,update ],[ 40 ])).
+rule_i(37,rule([ a(1,msg([ t('format(',1),t('getmessagetext(',1),t('"GXM_DoesNotMatchRegExp"',3),t(')',4),t(',',7),t('getmessagetext(',1),t('"Notification Link"',3),t(')',4),t(')',4) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t([ t(201,2),t('ismatch(',1) ],31),t('''^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$''',3),t(')',4),t(')',4) ],[ insert,update ],[ 201 ])).
+rule_i(37,rule([ a(18,[ [ 32 ] ]) ],[],[ insert,update,delete ],[ 32 ])).
+rule_i(37,rule([ a(19,[ [ 35 ],msg([ t('format(',1),t('getmessagetext(',1),t('"GXSPC_ForeignKeyNotFound"',3),t(')',4),t(',',7),t('getmessagetext(',1),t('"WWP_NotificationDefinition"',3),t(')',4),t(')',4) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 35 ])).
+rule_i(37,rule([ a(19,[ [ 32 ],msg([ t('format(',1),t('getmessagetext(',1),t('"GXSPC_ForeignKeyNotFound"',3),t(')',4),t(',',7),t('getmessagetext(',1),t('"WWP_UserExtended"',3),t(')',4),t(')',4) ],[ t('ForeignKeyNotFound',3) ]) ]) ],[],[ insert,update,delete ],[ 32 ])).
+ 
+a_i(1,37,b,0,[],[ [],[ a(1,msg([ t('format(',1),t('getmessagetext(',1),t('"GXSPC_OutOfRange"',3),t(')',4),t(',',7),t('getmessagetext(',1),t('"Notification Created Date"',3),t(')',4),t(')',4) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t('null(',1),t(40,2),t(')',4),t('.OR.',9),t(40,2),t(>=,10),t('ymdhmstot(',1),t('1753',3),t(',',7),t('01',3),t(',',7),t('01',3),t(',',7),t('00',3),t(',',7),t('00',3),t(',',7),t('00',3),t(')',4),t(')',4) ] ]).
+a_i(2,37,b,0,[],[ [],[ a(1,msg([ t('format(',1),t('getmessagetext(',1),t('"GXM_DoesNotMatchRegExp"',3),t(')',4),t(',',7),t('getmessagetext(',1),t('"Notification Link"',3),t(')',4),t(')',4) ],[ t('OutOfRange',3) ])) ],[ t('NOT',8),t('(',0),t([ t(201,2),t('ismatch(',1) ],31),t('''^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$''',3),t(')',4),t(')',4) ] ]).
+a_i(3,37,f,32,[ confirm ],[ [],[ t([ t(32,2),t('setnull(',1) ],32),t(')',4),t('IF',17),t('null(',1),t(32,2),t(')',4),t(';',18) ] ]).
+a_i(4,37,f,40,[],[ [ insert ],[ t('servernow(',1),t(')',4),t('IF',17),t(insert,1),t('AND',9),t('null1(',1),t(40,2),t(')',4),t('AND',9),t('GxBScreen',23),t(=,10),t(0,3),t(';',18) ] ]).
+a_i(5,37,t,37,[],[ [ [ [],37,37 ] ],'IWWP_NOTIFICATION',[] ]).
+a_i(6,37,r,36,[],[ [ [ 37,35,35 ] ],'IWWP_NOTIFICATIONDEFINITION',[] ]).
+a_i(7,37,r,30,[],[ [ [ 37,32,32 ] ],'IWWP_USEREXTENDED',[] ]).
+a_i(8,37,f,'GxBScreen',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(b,i,1,40).
+v_i(b,o,1,[]).
+v_i(b,i,2,201).
+v_i(b,o,2,[]).
+v_i(f,i,3,32).
+v_i(f,o,3,32).
+v_i(f,i,4,'GxBScreen').
+v_i(f,o,4,40).
+v_i(t,i,5,37).
+v_i(t,o,5,40).
+v_i(t,o,5,198).
+v_i(t,o,5,199).
+v_i(t,o,5,200).
+v_i(t,o,5,201).
+v_i(t,o,5,203).
+v_i(t,o,5,182).
+v_i(t,o,5,35).
+v_i(t,o,5,32).
+v_i(r,i,6,35).
+v_i(r,o,6,181).
+v_i(r,i,7,32).
+v_i(r,o,7,138).
+v_i(f,i,8,[]).
+v_i(f,o,8,'GxBScreen').
+ 
+act_info_i(4,[ [ 40 ] ]).
+ 
+ca_i(4,40).
+ca_i(3,32).
+ 
+tbl_to_delete_i(37,[ 39,[ [ 37,37,37 ] ],c,'IWWP_MAIL1',0,[ 42 ],'' ]).
+tbl_to_delete_i(37,[ 34,[ [ 37,37,37 ] ],c,'IWWP_WEBNOTIFICATION1',0,[ 38 ],'' ]).
+tbl_to_delete_i(37,[ 33,[ [ 37,37,37 ] ],c,'IWWP_SMS1',0,[ 36 ],'' ]).
+ 
+ 
+ 
+attri_i(42,[ 'WWPMailId',int,10,0,'ZZZZZZZZZ9',0,l('Mail Id'),'',0 ]).
+attri_i(38,[ 'WWPWebNotificationId',int,10,0,'ZZZZZZZZZ9',0,l('Web Notification Id'),'',0 ]).
+attri_i(36,[ 'WWPSMSId',int,10,0,'ZZZZZZZZZ9',0,l('SMS Id'),'',0 ]).
+attri_i(182,[ 'WWPNotificationMetadata',vchar,2097152,0,'',0,l('WWPNotification Metadata'),'',0 ]).
+attri_i(138,[ 'WWPUserExtendedFullName',svchar,100,0,'',0,l('User Full Name'),'',0 ]).
+attri_i(32,[ 'WWPUserExtendedId',char,40,0,'',0,l('User Id'),'',0 ]).
+attri_i(203,[ 'WWPNotificationIsRead',boolean,4,0,'',0,l('Notification Is Read'),'',0 ]).
+attri_i(201,[ 'WWPNotificationLink',svchar,1000,0,'',0,l('Notification Link'),'',0 ]).
+attri_i(200,[ 'WWPNotificationShortDescriptio',svchar,200,0,'',0,l('Notification Short Description'),'',0 ]).
+attri_i(199,[ 'WWPNotificationTitle',svchar,200,0,'',0,l('Notification Title'),'',0 ]).
+attri_i(198,[ 'WWPNotificationIcon',svchar,100,0,'',0,l('Notification Icon'),'',0 ]).
+attri_i(40,[ 'WWPNotificationCreated',dtime,10,12,'99/99/9999 99:99:99.999',0,l('Notification Created Date'),'',0 ]).
+attri_i(181,[ 'WWPNotificationDefinitionName',svchar,100,0,'',0,l('Notification Definition Internal Name'),'',0 ]).
+attri_i(35,[ 'WWPNotificationDefinitionId',int,10,0,'ZZZZZZZZZ9',0,l('Notification Definition Id'),'',0 ]).
+attri_i(37,[ 'WWPNotificationId',int,10,0,'ZZZZZZZZZ9',0,l('Notification Id'),'',0 ]).
+attri_i('GxBScreen',[ 'Gx_BScreen',int,1,0,'',0,'','',6 ]).
+attri_i('Gxremove',[ 'GxRemove',int,1,0,'9',0,'Gx Remove','',5 ]).
+attri_i('Mode',[ 'Gx_mode',char,3,0,'@!',1,'','',2 ]).
+ 
+table_i(39,[ 'WWP_Mail',[ 42,37 ],l('WWP_Mail'),'WWP_Mail' ]).
+table_i(34,[ 'WWP_WebNotification',[ 38,37 ],l('WWP_WebNotification'),'WWP_WebNotification' ]).
+table_i(33,[ 'WWP_SMS',[ 36,37 ],l('WWP_SMS'),'WWP_SMS' ]).
+table_i(30,[ 'WWP_UserExtended',[ 32,138 ],l('WWP_UserExtended'),'WWP_UserExtended' ]).
+table_i(36,[ 'WWP_NotificationDefinition',[ 35,181 ],l('WWP_NotificationDefinition'),'WWP_NotificationDefinition' ]).
+table_i(37,[ 'WWP_Notification',[ 37,35,40,198,199,200,201,203,32,182 ],l('WWP_Notification'),'WWP_Notification' ]).
+ 
+index_i(37,[ 'IWWP_NOTIFICATION',u,[ 37 ],'IWWP_Notification' ]).
+index_i(36,[ 'IWWP_NOTIFICATIONDEFINITION',u,[ 35 ],'IWWP_NotificationDefinition' ]).
+index_i(30,[ 'IWWP_USEREXTENDED',u,[ 32 ],'IWWP_UserExtended' ]).
+index_i(33,[ 'IWWP_SMS',u,[ 36 ],'IWWP_SMS' ]).
+index_i(33,[ 'IWWP_SMS1',d,[ 37 ],'IWWP_SMS1' ]).
+index_i(34,[ 'IWWP_WEBNOTIFICATION',u,[ 38 ],'IWWP_WebNotification' ]).
+index_i(34,[ 'IWWP_WEBNOTIFICATION1',d,[ 37 ],'IWWP_WebNotification1' ]).
+index_i(39,[ 'IWWP_MAIL',u,[ 42 ],'IWWP_Mail' ]).
+index_i(39,[ 'IWWP_MAIL1',d,[ 37 ],'IWWP_Mail1' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,40000,140,'WWPUserExtendedPhoto_GXI',[ svchar,2048,0,0 ]).
+ 
+upd_i(37,37,i,[ [ 40,198,199,200,201,203,182,35,32 ],[],'IWWP_NOTIFICATION',[ [ [],37,37 ] ] ]).
+upd_i(37,37,u,[ [ 40,198,199,200,201,203,182,35,32 ],[],'IWWP_NOTIFICATION',[] ]).
+upd_i(37,37,d,[ [],[],'IWWP_NOTIFICATION',[] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enumerated_i(2,155,245).
+enumerated_i(2,158,246).
+enumerated_i(2,176,247).
+enumerated_i(2,202,248).
+ 
+enum_value_i(2,245,'1','AnyRecord',l('Any record'),[ none ]).
+enum_value_i(2,245,'2','SpecificRecord',l('Specific record'),[ none ]).
+enum_value_i(2,246,'1','Pending',l('Pending'),[ none ]).
+enum_value_i(2,246,'2','Sent',l('Sent'),[ none ]).
+enum_value_i(2,246,'3','Error',l('Error'),[ none ]).
+enum_value_i(2,247,'1','Pending',l('Pending'),[ none ]).
+enum_value_i(2,247,'2','Sent',l('Sent'),[ none ]).
+enum_value_i(2,247,'3','Error',l('Error'),[ none ]).
+enum_value_i(2,248,'1','Pending',l('Pending'),[ none ]).
+enum_value_i(2,248,'2','Sent',l('Sent'),[ none ]).
+enum_value_i(2,248,'3','Error',l('Error'),[ none ]).
+ 
+enum_value_info_i(2,245,'WWPBaseObjects\Notifications\WWP_NotificationAppliesTo').
+enum_value_info_i(2,246,'WWPBaseObjects\SMS\WWP_StatusSMS').
+enum_value_info_i(2,247,'WWPBaseObjects\Notifications\Web\WWP_StatusWebNotification').
+enum_value_info_i(2,248,'WWPBaseObjects\Mail\WWP_StatusMail').
+ 
+enum_type_i(2,245,int,1,0).
+enum_type_i(2,246,int,4,0).
+enum_type_i(2,247,int,4,0).
+enum_type_i(2,248,int,4,0).
+ 
+dom_info_i(92,[ 'WWPBaseObjects\WWP_Id' ]).
+dom_info_i(239,[ 'WWPBaseObjects\WWP_Description' ]).
+dom_info_i(93,[ 'WWPBaseObjects\WWP_DateTimeMillis' ]).
+dom_info_i(32,[ 'GeneXus\Url' ]).
+dom_info_i(91,[ 'WWPBaseObjects\WWP_GAMGUID' ]).
+dom_info_i(245,[ 'WWPBaseObjects\Notifications\WWP_NotificationAppliesTo' ]).
+dom_info_i(48,[ 'GeneXus\Phone' ]).
+dom_info_i(45,[ 'GeneXus\Email' ]).
+dom_info_i(246,[ 'WWPBaseObjects\SMS\WWP_StatusSMS' ]).
+dom_info_i(247,[ 'WWPBaseObjects\Notifications\Web\WWP_StatusWebNotification' ]).
+dom_info_i(47,[ 'GeneXus\Html' ]).
+dom_info_i(248,[ 'WWPBaseObjects\Mail\WWP_StatusMail' ]).
+ 
+a_ctrl_i(201,c,[ '''^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$''' ]).
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,0).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,37,'HORIZONTAL_DESCRIPTION','Notification Id',d).
+att_prop_i(2,37,'ExternalName','WWPNotificationId',d).
+att_prop_i(2,37,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,37,'EmptyAsNull','Yes',d).
+att_prop_i(2,37,idBasedOn,92,v).
+att_prop_i(2,37,'AUTONUMBER','-1',d).
+att_prop_i(2,37,'AUTONUMBER_START','1',d).
+att_prop_i(2,37,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,37,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,37,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,37,'AttRegEx','',d).
+att_prop_i(2,37,'AttValidationFailedMsg','',d).
+att_prop_i(2,37,'DownloadOffline','0',d).
+att_prop_i(2,37,'VarServiceExtName','',d).
+att_prop_i(2,37,'FullName','WWPNotificationId',v).
+att_prop_i(2,35,'HORIZONTAL_DESCRIPTION','Notification Definition Id',d).
+att_prop_i(2,35,'ExternalName','WWPNotificationDefinitionId',d).
+att_prop_i(2,35,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,35,'EmptyAsNull','Yes',d).
+att_prop_i(2,35,idBasedOn,92,v).
+att_prop_i(2,35,'AUTONUMBER','-1',d).
+att_prop_i(2,35,'AUTONUMBER_START','1',d).
+att_prop_i(2,35,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,35,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,35,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,35,'AttRegEx','',d).
+att_prop_i(2,35,'AttValidationFailedMsg','',d).
+att_prop_i(2,35,'DownloadOffline','0',d).
+att_prop_i(2,35,'VarServiceExtName','',d).
+att_prop_i(2,35,'FullName','WWPNotificationDefinitionId',v).
+att_prop_i(2,181,'HORIZONTAL_DESCRIPTION','Notification Definition Internal Name',d).
+att_prop_i(2,181,'ExternalName','WWPNotificationDefinitionName',d).
+att_prop_i(2,181,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,181,'EmptyAsNull','Yes',d).
+att_prop_i(2,181,idBasedOn,239,v).
+att_prop_i(2,181,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,181,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,181,'AttRegEx','',d).
+att_prop_i(2,181,'AttValidationFailedMsg','',d).
+att_prop_i(2,181,'DownloadOffline','0',d).
+att_prop_i(2,181,'VarServiceExtName','',d).
+att_prop_i(2,181,'FullName','WWPNotificationDefinitionName',v).
+att_prop_i(2,40,'HORIZONTAL_DESCRIPTION','Notification Created Date',d).
+att_prop_i(2,40,'ExternalName','WWPNotificationCreated',d).
+att_prop_i(2,40,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,40,'EmptyAsNull','Yes',d).
+att_prop_i(2,40,idBasedOn,93,v).
+att_prop_i(2,40,idDATEPRECISION,idDATEPRECISION_MILLISECONDS,d).
+att_prop_i(2,40,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40,'AttRegEx','',d).
+att_prop_i(2,40,'AttValidationFailedMsg','',d).
+att_prop_i(2,40,idDATEFORMAT,idDATEFORMAT_LONG,d).
+att_prop_i(2,40,idHOURFORMAT,idHOURFORMAT_HOURMINSECMIL,d).
+att_prop_i(2,40,'DownloadOffline','0',d).
+att_prop_i(2,40,'VarServiceExtName','',d).
+att_prop_i(2,40,'FullName','WWPNotificationCreated',v).
+att_prop_i(2,198,'HORIZONTAL_DESCRIPTION','Notification Icon',d).
+att_prop_i(2,198,'ExternalName','WWPNotificationIcon',d).
+att_prop_i(2,198,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,198,'EmptyAsNull','Yes',d).
+att_prop_i(2,198,idBasedOn,'',d).
+att_prop_i(2,198,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,198,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,198,'AttRegEx','',d).
+att_prop_i(2,198,'AttValidationFailedMsg','',d).
+att_prop_i(2,198,'DownloadOffline','0',d).
+att_prop_i(2,198,'VarServiceExtName','',d).
+att_prop_i(2,198,'FullName','WWPNotificationIcon',v).
+att_prop_i(2,199,'HORIZONTAL_DESCRIPTION','Notification Title',d).
+att_prop_i(2,199,'ExternalName','WWPNotificationTitle',d).
+att_prop_i(2,199,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,199,'EmptyAsNull','Yes',v).
+att_prop_i(2,199,idBasedOn,'',d).
+att_prop_i(2,199,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,199,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,199,'AttRegEx','',d).
+att_prop_i(2,199,'AttValidationFailedMsg','',d).
+att_prop_i(2,199,'DownloadOffline','0',d).
+att_prop_i(2,199,'VarServiceExtName','',d).
+att_prop_i(2,199,'FullName','WWPNotificationTitle',v).
+att_prop_i(2,200,'HORIZONTAL_DESCRIPTION','Notification Short Description',d).
+att_prop_i(2,200,'ExternalName','WWPNotificationShortDescription',d).
+att_prop_i(2,200,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,200,'EmptyAsNull','Yes',v).
+att_prop_i(2,200,idBasedOn,'',d).
+att_prop_i(2,200,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,200,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,200,'AttRegEx','',d).
+att_prop_i(2,200,'AttValidationFailedMsg','',d).
+att_prop_i(2,200,'DownloadOffline','0',d).
+att_prop_i(2,200,'VarServiceExtName','',d).
+att_prop_i(2,200,'FullName','WWPNotificationShortDescription',v).
+att_prop_i(2,201,'HORIZONTAL_DESCRIPTION','Notification Link',d).
+att_prop_i(2,201,'ExternalName','WWPNotificationLink',d).
+att_prop_i(2,201,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,201,'EmptyAsNull','Yes',d).
+att_prop_i(2,201,idBasedOn,32,v).
+att_prop_i(2,201,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,201,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,201,'AttRegEx','^((?:[a-zA-Z]+:(//)?)?((?:(?:[a-zA-Z]([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*)(?:\.(?:([a-zA-Z0-9$\-_@&+!*"''(),]|%[0-9a-fA-F]{2})*))*)|(?:(\d{1,3}\.){3}\d{1,3}))(?::\d+)?(?:/([a-zA-Z0-9$\-_@.&+!*"''(),=;: ]|%[0-9a-fA-F]{2})+)*/?(?:[#?](?:[a-zA-Z0-9$\-_@.&+!*"''(),=;: /]|%[0-9a-fA-F]{2})*)?)?\s*$',d).
+att_prop_i(2,201,'AttValidationFailedMsg','GXM_DoesNotMatchRegExp',d).
+att_prop_i(2,201,'DownloadOffline','0',d).
+att_prop_i(2,201,'VarServiceExtName','',d).
+att_prop_i(2,201,'FullName','WWPNotificationLink',v).
+att_prop_i(2,203,'HORIZONTAL_DESCRIPTION','Notification Is Read',d).
+att_prop_i(2,203,'ExternalName','WWPNotificationIsRead',d).
+att_prop_i(2,203,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,203,'EmptyAsNull','Yes',d).
+att_prop_i(2,203,'ExternalStorage','-1',d).
+att_prop_i(2,203,idBasedOn,'',d).
+att_prop_i(2,203,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,203,'AttRegEx','',d).
+att_prop_i(2,203,'AttValidationFailedMsg','',d).
+att_prop_i(2,203,'DownloadOffline','0',d).
+att_prop_i(2,203,'VarServiceExtName','',d).
+att_prop_i(2,203,'FullName','WWPNotificationIsRead',v).
+att_prop_i(2,32,'HORIZONTAL_DESCRIPTION','User Id',d).
+att_prop_i(2,32,'ExternalName','WWPUserExtendedId',d).
+att_prop_i(2,32,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,32,'EmptyAsNull','Yes',d).
+att_prop_i(2,32,idBasedOn,91,v).
+att_prop_i(2,32,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,32,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,32,'AttRegEx','',d).
+att_prop_i(2,32,'AttValidationFailedMsg','',d).
+att_prop_i(2,32,'DownloadOffline','0',d).
+att_prop_i(2,32,'VarServiceExtName','',d).
+att_prop_i(2,32,'FullName','WWPUserExtendedId',v).
+att_prop_i(2,138,'HORIZONTAL_DESCRIPTION','User Full Name',d).
+att_prop_i(2,138,'ExternalName','WWPUserExtendedFullName',d).
+att_prop_i(2,138,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,138,'EmptyAsNull','Yes',d).
+att_prop_i(2,138,idBasedOn,239,v).
+att_prop_i(2,138,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,138,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,138,'AttRegEx','',d).
+att_prop_i(2,138,'AttValidationFailedMsg','',d).
+att_prop_i(2,138,'DownloadOffline','0',d).
+att_prop_i(2,138,'VarServiceExtName','',d).
+att_prop_i(2,138,'FullName','WWPUserExtendedFullName',v).
+att_prop_i(2,182,'HORIZONTAL_DESCRIPTION','WWPNotification Metadata',d).
+att_prop_i(2,182,'ExternalName','WWPNotificationMetadata',d).
+att_prop_i(2,182,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,182,'EmptyAsNull','Yes',d).
+att_prop_i(2,182,idBasedOn,'',d).
+att_prop_i(2,182,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,182,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,182,'AttRegEx','',d).
+att_prop_i(2,182,'AttValidationFailedMsg','',d).
+att_prop_i(2,182,'DownloadOffline','0',d).
+att_prop_i(2,182,'VarServiceExtName','',d).
+att_prop_i(2,182,'FullName','WWPNotificationMetadata',v).
+att_prop_i(2,36,'HORIZONTAL_DESCRIPTION','SMS Id',d).
+att_prop_i(2,36,'ExternalName','WWPSMSId',d).
+att_prop_i(2,36,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,36,'EmptyAsNull','Yes',d).
+att_prop_i(2,36,idBasedOn,92,v).
+att_prop_i(2,36,'AUTONUMBER','-1',d).
+att_prop_i(2,36,'AUTONUMBER_START','1',d).
+att_prop_i(2,36,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,36,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,36,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,36,'AttRegEx','',d).
+att_prop_i(2,36,'AttValidationFailedMsg','',d).
+att_prop_i(2,36,'DownloadOffline','0',d).
+att_prop_i(2,36,'VarServiceExtName','',d).
+att_prop_i(2,36,'FullName','WWPSMSId',v).
+att_prop_i(2,38,'HORIZONTAL_DESCRIPTION','Web Notification Id',d).
+att_prop_i(2,38,'ExternalName','WWPWebNotificationId',d).
+att_prop_i(2,38,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,38,'EmptyAsNull','Yes',d).
+att_prop_i(2,38,idBasedOn,92,v).
+att_prop_i(2,38,'AUTONUMBER','-1',d).
+att_prop_i(2,38,'AUTONUMBER_START','1',d).
+att_prop_i(2,38,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,38,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,38,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,38,'AttRegEx','',d).
+att_prop_i(2,38,'AttValidationFailedMsg','',d).
+att_prop_i(2,38,'DownloadOffline','0',d).
+att_prop_i(2,38,'VarServiceExtName','',d).
+att_prop_i(2,38,'FullName','WWPWebNotificationId',v).
+att_prop_i(2,42,'HORIZONTAL_DESCRIPTION','Mail Id',d).
+att_prop_i(2,42,'ExternalName','WWPMailId',d).
+att_prop_i(2,42,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,42,'EmptyAsNull','Yes',d).
+att_prop_i(2,42,idBasedOn,92,v).
+att_prop_i(2,42,'AUTONUMBER','-1',d).
+att_prop_i(2,42,'AUTONUMBER_START','1',d).
+att_prop_i(2,42,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,42,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,42,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,42,'AttRegEx','',d).
+att_prop_i(2,42,'AttValidationFailedMsg','',d).
+att_prop_i(2,42,'DownloadOffline','0',d).
+att_prop_i(2,42,'VarServiceExtName','',d).
+att_prop_i(2,42,'FullName','WWPMailId',v).
+ 
+tbl_prop_i(2,39,'AllDirSuper',[ [ 37,[ 37 ] ] ],v).
+tbl_prop_i(2,34,'AllDirSuper',[ [ 37,[ 37 ] ] ],v).
+tbl_prop_i(2,33,'AllDirSuper',[ [ 37,[ 37 ] ] ],v).
+tbl_prop_i(2,37,'AllDirSuper',[ [ 30,[ 32 ] ],[ 36,[ 35 ] ] ],v).
+tbl_prop_i(2,39,'DirSuperNull',[ [ 37,[ 37 ] ] ],v).
+tbl_prop_i(2,34,'DirSuperNull',[ [ 37,[ 37 ] ] ],v).
+tbl_prop_i(2,33,'DirSuperNull',[ [ 37,[ 37 ] ] ],v).
+tbl_prop_i(2,37,'DirSuperNull',[ [ 30,[ 32 ] ] ],v).
+tbl_prop_i(2,30,'DirSubor',[ [ 37,[ 32 ] ] ],v).
+tbl_prop_i(2,36,'DirSubor',[ [ 37,[ 35 ] ] ],v).
+tbl_prop_i(2,37,'DirSubor',[ [ 33,[ 37 ] ],[ 34,[ 37 ] ],[ 39,[ 37 ] ] ],v).
+tbl_prop_i(2,39,'DirSuper',[ [ 37,[ 37 ] ] ],v).
+tbl_prop_i(2,34,'DirSuper',[ [ 37,[ 37 ] ] ],v).
+tbl_prop_i(2,33,'DirSuper',[ [ 37,[ 37 ] ] ],v).
+tbl_prop_i(2,37,'DirSuper',[ [ 30,[ 32 ] ],[ 36,[ 35 ] ] ],v).
+ 
+tbl_att_prop_i(2,37,201,'AllowNulls',n).
+tbl_att_prop_i(2,37,37,'AllowNulls',n).
+tbl_att_prop_i(2,37,37,'AUTONUMBER',y).
+tbl_att_prop_i(2,37,35,'AllowNulls',n).
+tbl_att_prop_i(2,37,40,'AllowNulls',n).
+tbl_att_prop_i(2,37,198,'AllowNulls',n).
+tbl_att_prop_i(2,37,199,'AllowNulls',n).
+tbl_att_prop_i(2,37,200,'AllowNulls',n).
+tbl_att_prop_i(2,37,203,'AllowNulls',n).
+tbl_att_prop_i(2,36,35,'AllowNulls',n).
+tbl_att_prop_i(2,36,35,'AUTONUMBER',y).
+tbl_att_prop_i(2,36,181,'AllowNulls',n).
+tbl_att_prop_i(2,30,32,'AllowNulls',n).
+tbl_att_prop_i(2,30,138,'AllowNulls',n).
+tbl_att_prop_i(2,33,36,'AllowNulls',n).
+tbl_att_prop_i(2,33,36,'AUTONUMBER',y).
+tbl_att_prop_i(2,34,38,'AllowNulls',n).
+tbl_att_prop_i(2,34,38,'AUTONUMBER',y).
+tbl_att_prop_i(2,39,42,'AllowNulls',n).
+tbl_att_prop_i(2,39,42,'AUTONUMBER',y).
+ 
+ 
+i_tbl_best_trn(37,[ 35,1,'WWPBaseObjects\Notifications\Common\WWP_Notification','Notification',[] ]).
+i_tbl_best_trn(33,[ 31,1,'WWPBaseObjects\SMS\WWP_SMS','WWP_SMS',[] ]).
+i_tbl_best_trn(34,[ 32,1,'WWPBaseObjects\Notifications\Web\WWP_WebNotification','WWP_Web Notification',[] ]).
+i_tbl_best_trn(39,[ 37,1,'WWPBaseObjects\Mail\WWP_Mail','Mail',[] ]).
+i_tbl_best_trn(36,[ 34,1,'WWPBaseObjects\Notifications\Common\WWP_NotificationDefinition','Notification Definition',[] ]).
+i_tbl_best_trn(30,[ 28,1,'WWPBaseObjects\WWP_UserExtended','Extended User from GAMUser',[] ]).
+ 
+ 
+ 
+trn_level_i(37,[ [ 37,35,181,40,198,199,200,201,203,32,138,182 ],'WWPBaseObjects\Notifications\Common\WWP_Notification',l('Notification'),'WWPBaseObjects\Notifications\Common\WWP_Notification','',40 ]).
+ 
+struct_dt_i([ 0,35,0 ],name,'WWPBaseObjects\Notifications\Common\WWP_Notification').
+struct_dt_i([ 0,35,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 0,35,0 ],significantName,'WWPBaseObjects\Notifications\Common\WWP_Notification').
+struct_dt_i([ 0,35,0 ],'ObjName','WWP_Notification').
+struct_dt_i([ 0,35,0 ],'ObjDesc','Notification').
+struct_dt_i([ 0,35,0 ],'ExternalName','WWP_Notification').
+struct_dt_i([ 0,35,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 0,35,0 ],key,[ 37 ]).
+struct_dt_i([ 0,35,0 ],lvl,37).
+struct_dt_i([ 26,13,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,13,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,13,0 ],'ObjName','Messages').
+struct_dt_i([ 26,13,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,13,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,13,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,13,0 ],collection,'True').
+struct_dt_i([ 26,13,0 ],datatype,[ 26,13,30 ]).
+struct_dt_i([ 26,13,0 ],'CollectionItemName','Message').
+struct_dt_i([ 26,13,0 ],'XmlName','').
+struct_dt_i([ 26,13,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,13,0 ],'XmlNamespace','').
+struct_dt_i([ 26,13,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,13,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,13,0 ],'JsonName','').
+struct_dt_i([ 26,13,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,13,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,13,0 ],isexternal,'True').
+struct_dt_i([ 26,13,30 ],name,'Message').
+struct_dt_i([ 26,13,30 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 0,35,0 ],fullname,'WWPBaseObjects\Notifications\Common\WWP_Notification').
+struct_dt_i([ 26,13,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,13,30 ],fullname,'GeneXus\Common\Messages.Message').
+ 
+struct_dt_elem_i([ 0,35,0 ],1,name,'Wwpnotificationid').
+struct_dt_elem_i([ 0,35,0 ],1,camelname,'WWPNotificationId').
+struct_dt_elem_i([ 0,35,0 ],1,basedon,92).
+struct_dt_elem_i([ 0,35,0 ],1,length,10).
+struct_dt_elem_i([ 0,35,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],1,sign,0).
+struct_dt_elem_i([ 0,35,0 ],1,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 0,35,0 ],1,pic,'ZZZZZZZZZ9').
+struct_dt_elem_i([ 0,35,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],1,attributeid,'37').
+struct_dt_elem_i([ 0,35,0 ],1,'ExternalName','WWPNotificationId').
+struct_dt_elem_i([ 0,35,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,35,0 ],2,name,'Wwpnotificationdefinitionid').
+struct_dt_elem_i([ 0,35,0 ],2,camelname,'WWPNotificationDefinitionId').
+struct_dt_elem_i([ 0,35,0 ],2,basedon,92).
+struct_dt_elem_i([ 0,35,0 ],2,length,10).
+struct_dt_elem_i([ 0,35,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],2,sign,0).
+struct_dt_elem_i([ 0,35,0 ],2,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 0,35,0 ],2,pic,'ZZZZZZZZZ9').
+struct_dt_elem_i([ 0,35,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],2,attributeid,'35').
+struct_dt_elem_i([ 0,35,0 ],2,'ExternalName','WWPNotificationDefinitionId').
+struct_dt_elem_i([ 0,35,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,35,0 ],3,name,'Wwpnotificationdefinitionname').
+struct_dt_elem_i([ 0,35,0 ],3,camelname,'WWPNotificationDefinitionName').
+struct_dt_elem_i([ 0,35,0 ],3,basedon,239).
+struct_dt_elem_i([ 0,35,0 ],3,length,100).
+struct_dt_elem_i([ 0,35,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,35,0 ],3,pic,'').
+struct_dt_elem_i([ 0,35,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],3,attributeid,'181').
+struct_dt_elem_i([ 0,35,0 ],3,'ExternalName','WWPNotificationDefinitionName').
+struct_dt_elem_i([ 0,35,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,35,0 ],4,name,'Wwpnotificationcreated').
+struct_dt_elem_i([ 0,35,0 ],4,camelname,'WWPNotificationCreated').
+struct_dt_elem_i([ 0,35,0 ],4,basedon,93).
+struct_dt_elem_i([ 0,35,0 ],4,length,10).
+struct_dt_elem_i([ 0,35,0 ],4,decimals,12).
+struct_dt_elem_i([ 0,35,0 ],4,type,[ 12,10,12 ]).
+struct_dt_elem_i([ 0,35,0 ],4,pic,'99/99/9999 99:99:99.999').
+struct_dt_elem_i([ 0,35,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],4,attributeid,'40').
+struct_dt_elem_i([ 0,35,0 ],4,'ExternalName','WWPNotificationCreated').
+struct_dt_elem_i([ 0,35,0 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,35,0 ],5,name,'Wwpnotificationicon').
+struct_dt_elem_i([ 0,35,0 ],5,camelname,'WWPNotificationIcon').
+struct_dt_elem_i([ 0,35,0 ],5,length,100).
+struct_dt_elem_i([ 0,35,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,35,0 ],5,pic,'').
+struct_dt_elem_i([ 0,35,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],5,attributeid,'198').
+struct_dt_elem_i([ 0,35,0 ],5,'ExternalName','WWPNotificationIcon').
+struct_dt_elem_i([ 0,35,0 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,35,0 ],6,name,'Wwpnotificationtitle').
+struct_dt_elem_i([ 0,35,0 ],6,camelname,'WWPNotificationTitle').
+struct_dt_elem_i([ 0,35,0 ],6,length,200).
+struct_dt_elem_i([ 0,35,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],6,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,35,0 ],6,pic,'').
+struct_dt_elem_i([ 0,35,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],6,attributeid,'199').
+struct_dt_elem_i([ 0,35,0 ],6,'ExternalName','WWPNotificationTitle').
+struct_dt_elem_i([ 0,35,0 ],6,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,35,0 ],7,name,'Wwpnotificationshortdescription').
+struct_dt_elem_i([ 0,35,0 ],7,camelname,'WWPNotificationShortDescription').
+struct_dt_elem_i([ 0,35,0 ],7,length,200).
+struct_dt_elem_i([ 0,35,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],7,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 0,35,0 ],7,pic,'').
+struct_dt_elem_i([ 0,35,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],7,attributeid,'200').
+struct_dt_elem_i([ 0,35,0 ],7,'ExternalName','WWPNotificationShortDescription').
+struct_dt_elem_i([ 0,35,0 ],7,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,35,0 ],8,name,'Wwpnotificationlink').
+struct_dt_elem_i([ 0,35,0 ],8,camelname,'WWPNotificationLink').
+struct_dt_elem_i([ 0,35,0 ],8,basedon,32).
+struct_dt_elem_i([ 0,35,0 ],8,length,1000).
+struct_dt_elem_i([ 0,35,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],8,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 0,35,0 ],8,pic,'').
+struct_dt_elem_i([ 0,35,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],8,attributeid,'201').
+struct_dt_elem_i([ 0,35,0 ],8,'ExternalName','WWPNotificationLink').
+struct_dt_elem_i([ 0,35,0 ],8,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,35,0 ],9,name,'Wwpnotificationisread').
+struct_dt_elem_i([ 0,35,0 ],9,camelname,'WWPNotificationIsRead').
+struct_dt_elem_i([ 0,35,0 ],9,length,4).
+struct_dt_elem_i([ 0,35,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],9,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,35,0 ],9,pic,'').
+struct_dt_elem_i([ 0,35,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],9,attributeid,'203').
+struct_dt_elem_i([ 0,35,0 ],9,'ExternalName','WWPNotificationIsRead').
+struct_dt_elem_i([ 0,35,0 ],9,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,35,0 ],10,name,'Wwpuserextendedid').
+struct_dt_elem_i([ 0,35,0 ],10,camelname,'WWPUserExtendedId').
+struct_dt_elem_i([ 0,35,0 ],10,basedon,91).
+struct_dt_elem_i([ 0,35,0 ],10,length,40).
+struct_dt_elem_i([ 0,35,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],10,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 0,35,0 ],10,pic,'').
+struct_dt_elem_i([ 0,35,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],10,attributeid,'32').
+struct_dt_elem_i([ 0,35,0 ],10,'ExternalName','WWPUserExtendedId').
+struct_dt_elem_i([ 0,35,0 ],10,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,35,0 ],11,name,'Wwpuserextendedfullname').
+struct_dt_elem_i([ 0,35,0 ],11,camelname,'WWPUserExtendedFullName').
+struct_dt_elem_i([ 0,35,0 ],11,basedon,239).
+struct_dt_elem_i([ 0,35,0 ],11,length,100).
+struct_dt_elem_i([ 0,35,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],11,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,35,0 ],11,pic,'').
+struct_dt_elem_i([ 0,35,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],11,attributeid,'138').
+struct_dt_elem_i([ 0,35,0 ],11,'ExternalName','WWPUserExtendedFullName').
+struct_dt_elem_i([ 0,35,0 ],11,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,35,0 ],12,name,'Wwpnotificationmetadata').
+struct_dt_elem_i([ 0,35,0 ],12,camelname,'WWPNotificationMetadata').
+struct_dt_elem_i([ 0,35,0 ],12,length,2097152).
+struct_dt_elem_i([ 0,35,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,35,0 ],12,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,35,0 ],12,pic,'').
+struct_dt_elem_i([ 0,35,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,35,0 ],12,attributeid,'182').
+struct_dt_elem_i([ 0,35,0 ],12,'ExternalName','WWPNotificationMetadata').
+struct_dt_elem_i([ 0,35,0 ],12,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,13,30 ],1,name,'Id').
+struct_dt_elem_i([ 26,13,30 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,13,30 ],1,length,128).
+struct_dt_elem_i([ 26,13,30 ],1,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,13,30 ],1,pic,'').
+struct_dt_elem_i([ 26,13,30 ],1,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,13,30 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],1,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],1,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,13,30 ],2,name,'Type').
+struct_dt_elem_i([ 26,13,30 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,13,30 ],2,basedon,50).
+struct_dt_elem_i([ 26,13,30 ],2,length,2).
+struct_dt_elem_i([ 26,13,30 ],2,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],2,sign,0).
+struct_dt_elem_i([ 26,13,30 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,13,30 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,13,30 ],2,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,13,30 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],2,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],2,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,13,30 ],3,name,'Description').
+struct_dt_elem_i([ 26,13,30 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,13,30 ],3,length,256).
+struct_dt_elem_i([ 26,13,30 ],3,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,13,30 ],3,pic,'').
+struct_dt_elem_i([ 26,13,30 ],3,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,13,30 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],3,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],3,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 0,35,0 ],1,pic,'ZZZZ9').
+struct_dt_elem_i([ 0,35,0 ],2,pic,'ZZZZ9').
+struct_dt_elem_i([ 0,35,0 ],3,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+struct_dt_elem_i([ 0,35,0 ],4,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+struct_dt_elem_i([ 0,35,0 ],10,pic,'99/99/99').
+struct_dt_elem_i([ 0,35,0 ],11,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+struct_dt_elem_i([ 26,13,30 ],2,pic,'ZZZZZZZZZZ9').
+ 
+ 
+ 
+security_permission_i(wwp_notification_Execute,execute,'').
+security_permission_i(wwp_notification_Insert,insert,'').
+security_permission_i(wwp_notification_Delete,delete,'').
+security_permission_i(wwp_notification_Update,update,'').
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(trn,35,'WWPBASEOBJECTS\NOTIFICATIONS\COMMON\WWP_NOTIFICATION_BC','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

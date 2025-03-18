@@ -1,0 +1,361 @@
+ 
+spec_i([ sdt,[ 26,75,0 ],'WWPBaseObjects\CartCheckoutData','WWPBaseObjects\CartCheckoutData',0,spa,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 26,75,0 ],name,'WWPBaseObjects\CartCheckoutData').
+struct_dt_i([ 26,75,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,75,0 ],'ObjName','CartCheckoutData').
+struct_dt_i([ 26,75,0 ],'ObjDesc','Cart Checkout Data').
+struct_dt_i([ 26,75,0 ],'ExternalName','CartCheckoutData').
+struct_dt_i([ 26,75,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,75,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,75,127 ],name,'Address').
+struct_dt_i([ 26,75,127 ],namespace,'Mujer_Morena.CartCheckoutData').
+struct_dt_i([ 26,75,128 ],name,'Payment').
+struct_dt_i([ 26,75,128 ],namespace,'Mujer_Morena.CartCheckoutData').
+struct_dt_i([ 26,75,129 ],name,'PlaceOrder').
+struct_dt_i([ 26,75,129 ],namespace,'Mujer_Morena.CartCheckoutData').
+struct_dt_i([ 26,75,173 ],name,'Completed').
+struct_dt_i([ 26,75,173 ],namespace,'Mujer_Morena.CartCheckoutData').
+struct_dt_i([ 26,75,0 ],fullname,'WWPBaseObjects\CartCheckoutData').
+struct_dt_i([ 26,75,127 ],fullname,'WWPBaseObjects\CartCheckoutData.Address').
+struct_dt_i([ 26,75,128 ],fullname,'WWPBaseObjects\CartCheckoutData.Payment').
+struct_dt_i([ 26,75,129 ],fullname,'WWPBaseObjects\CartCheckoutData.PlaceOrder').
+struct_dt_i([ 26,75,173 ],fullname,'WWPBaseObjects\CartCheckoutData.Completed').
+struct_dt_i([ 26,75,0 ],modified,yes).
+struct_dt_i([ 26,75,127 ],modified,yes).
+struct_dt_i([ 26,75,128 ],modified,yes).
+struct_dt_i([ 26,75,129 ],modified,yes).
+struct_dt_i([ 26,75,173 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,75,0 ],1,name,'Address').
+struct_dt_elem_i([ 26,75,0 ],1,camelname,'Address').
+struct_dt_elem_i([ 26,75,0 ],1,type,[ [ 26,75,127 ],0,0 ]).
+struct_dt_elem_i([ 26,75,0 ],1,pic,'').
+struct_dt_elem_i([ 26,75,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,75,0 ],1,'ObjName','Address').
+struct_dt_elem_i([ 26,75,0 ],1,'ObjDesc','Address').
+struct_dt_elem_i([ 26,75,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,75,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,75,0 ],1,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,75,127 ],1,name,'Name').
+struct_dt_elem_i([ 26,75,127 ],1,camelname,'Name').
+struct_dt_elem_i([ 26,75,127 ],1,length,40).
+struct_dt_elem_i([ 26,75,127 ],1,decimals,0).
+struct_dt_elem_i([ 26,75,127 ],1,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,75,127 ],1,pic,'').
+struct_dt_elem_i([ 26,75,127 ],1,collection,'False').
+struct_dt_elem_i([ 26,75,127 ],1,'ExternalName','Name').
+struct_dt_elem_i([ 26,75,127 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,75,127 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,75,127 ],1,'XmlName','').
+struct_dt_elem_i([ 26,75,127 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,127 ],1,soaptype,'').
+struct_dt_elem_i([ 26,75,127 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,127 ],1,'JsonName','').
+struct_dt_elem_i([ 26,75,127 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,75,127 ],2,name,'Phone').
+struct_dt_elem_i([ 26,75,127 ],2,camelname,'Phone').
+struct_dt_elem_i([ 26,75,127 ],2,length,40).
+struct_dt_elem_i([ 26,75,127 ],2,decimals,0).
+struct_dt_elem_i([ 26,75,127 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,75,127 ],2,pic,'').
+struct_dt_elem_i([ 26,75,127 ],2,collection,'False').
+struct_dt_elem_i([ 26,75,127 ],2,'ExternalName','Phone').
+struct_dt_elem_i([ 26,75,127 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,75,127 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,75,127 ],2,'XmlName','').
+struct_dt_elem_i([ 26,75,127 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,127 ],2,soaptype,'').
+struct_dt_elem_i([ 26,75,127 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,127 ],2,'JsonName','').
+struct_dt_elem_i([ 26,75,127 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,75,127 ],3,name,'Country').
+struct_dt_elem_i([ 26,75,127 ],3,camelname,'Country').
+struct_dt_elem_i([ 26,75,127 ],3,length,40).
+struct_dt_elem_i([ 26,75,127 ],3,decimals,0).
+struct_dt_elem_i([ 26,75,127 ],3,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,75,127 ],3,pic,'').
+struct_dt_elem_i([ 26,75,127 ],3,collection,'False').
+struct_dt_elem_i([ 26,75,127 ],3,'ExternalName','Country').
+struct_dt_elem_i([ 26,75,127 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,75,127 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,75,127 ],3,'XmlName','').
+struct_dt_elem_i([ 26,75,127 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,127 ],3,soaptype,'').
+struct_dt_elem_i([ 26,75,127 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,127 ],3,'JsonName','').
+struct_dt_elem_i([ 26,75,127 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,75,127 ],4,name,'Department').
+struct_dt_elem_i([ 26,75,127 ],4,camelname,'Department').
+struct_dt_elem_i([ 26,75,127 ],4,length,40).
+struct_dt_elem_i([ 26,75,127 ],4,decimals,0).
+struct_dt_elem_i([ 26,75,127 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,75,127 ],4,pic,'').
+struct_dt_elem_i([ 26,75,127 ],4,collection,'False').
+struct_dt_elem_i([ 26,75,127 ],4,'ExternalName','Department').
+struct_dt_elem_i([ 26,75,127 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,75,127 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,75,127 ],4,'XmlName','').
+struct_dt_elem_i([ 26,75,127 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,127 ],4,soaptype,'').
+struct_dt_elem_i([ 26,75,127 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,127 ],4,'JsonName','').
+struct_dt_elem_i([ 26,75,127 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,75,127 ],5,name,'Address').
+struct_dt_elem_i([ 26,75,127 ],5,camelname,'Address').
+struct_dt_elem_i([ 26,75,127 ],5,length,200).
+struct_dt_elem_i([ 26,75,127 ],5,decimals,0).
+struct_dt_elem_i([ 26,75,127 ],5,type,[ 13,200,0 ]).
+struct_dt_elem_i([ 26,75,127 ],5,pic,'').
+struct_dt_elem_i([ 26,75,127 ],5,collection,'False').
+struct_dt_elem_i([ 26,75,127 ],5,'ExternalName','Address').
+struct_dt_elem_i([ 26,75,127 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,75,127 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,75,127 ],5,'XmlName','').
+struct_dt_elem_i([ 26,75,127 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,127 ],5,soaptype,'').
+struct_dt_elem_i([ 26,75,127 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,127 ],5,'JsonName','').
+struct_dt_elem_i([ 26,75,127 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,75,0 ],2,name,'Payment').
+struct_dt_elem_i([ 26,75,0 ],2,camelname,'Payment').
+struct_dt_elem_i([ 26,75,0 ],2,type,[ [ 26,75,128 ],0,0 ]).
+struct_dt_elem_i([ 26,75,0 ],2,pic,'').
+struct_dt_elem_i([ 26,75,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,75,0 ],2,'ObjName','Payment').
+struct_dt_elem_i([ 26,75,0 ],2,'ObjDesc','Payment').
+struct_dt_elem_i([ 26,75,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,75,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,75,0 ],2,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,75,128 ],1,name,'Paymentdata_description').
+struct_dt_elem_i([ 26,75,128 ],1,camelname,'PaymentData_Description').
+struct_dt_elem_i([ 26,75,128 ],1,length,40).
+struct_dt_elem_i([ 26,75,128 ],1,decimals,0).
+struct_dt_elem_i([ 26,75,128 ],1,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,75,128 ],1,pic,'').
+struct_dt_elem_i([ 26,75,128 ],1,collection,'False').
+struct_dt_elem_i([ 26,75,128 ],1,'ExternalName','PaymentData_Description').
+struct_dt_elem_i([ 26,75,128 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,75,128 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,75,128 ],1,'XmlName','').
+struct_dt_elem_i([ 26,75,128 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,128 ],1,soaptype,'').
+struct_dt_elem_i([ 26,75,128 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,128 ],1,'JsonName','').
+struct_dt_elem_i([ 26,75,128 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,75,128 ],2,name,'Paymentdata').
+struct_dt_elem_i([ 26,75,128 ],2,camelname,'PaymentData').
+struct_dt_elem_i([ 26,75,128 ],2,length,40).
+struct_dt_elem_i([ 26,75,128 ],2,decimals,0).
+struct_dt_elem_i([ 26,75,128 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,75,128 ],2,pic,'').
+struct_dt_elem_i([ 26,75,128 ],2,collection,'False').
+struct_dt_elem_i([ 26,75,128 ],2,'ExternalName','PaymentData').
+struct_dt_elem_i([ 26,75,128 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,75,128 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,75,128 ],2,'XmlName','').
+struct_dt_elem_i([ 26,75,128 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,128 ],2,soaptype,'').
+struct_dt_elem_i([ 26,75,128 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,128 ],2,'JsonName','').
+struct_dt_elem_i([ 26,75,128 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,75,128 ],3,name,'Paymentdata2_description').
+struct_dt_elem_i([ 26,75,128 ],3,camelname,'PaymentData2_Description').
+struct_dt_elem_i([ 26,75,128 ],3,length,40).
+struct_dt_elem_i([ 26,75,128 ],3,decimals,0).
+struct_dt_elem_i([ 26,75,128 ],3,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,75,128 ],3,pic,'').
+struct_dt_elem_i([ 26,75,128 ],3,collection,'False').
+struct_dt_elem_i([ 26,75,128 ],3,'ExternalName','PaymentData2_Description').
+struct_dt_elem_i([ 26,75,128 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,75,128 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,75,128 ],3,'XmlName','').
+struct_dt_elem_i([ 26,75,128 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,128 ],3,soaptype,'').
+struct_dt_elem_i([ 26,75,128 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,128 ],3,'JsonName','').
+struct_dt_elem_i([ 26,75,128 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,75,128 ],4,name,'Paymentdata2').
+struct_dt_elem_i([ 26,75,128 ],4,camelname,'PaymentData2').
+struct_dt_elem_i([ 26,75,128 ],4,length,4).
+struct_dt_elem_i([ 26,75,128 ],4,decimals,0).
+struct_dt_elem_i([ 26,75,128 ],4,sign,0).
+struct_dt_elem_i([ 26,75,128 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,75,128 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,75,128 ],4,collection,'False').
+struct_dt_elem_i([ 26,75,128 ],4,'ExternalName','PaymentData2').
+struct_dt_elem_i([ 26,75,128 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,75,128 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,75,128 ],4,'XmlName','').
+struct_dt_elem_i([ 26,75,128 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,128 ],4,soaptype,'').
+struct_dt_elem_i([ 26,75,128 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,128 ],4,'JsonName','').
+struct_dt_elem_i([ 26,75,128 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,75,128 ],5,name,'Paymentdata3').
+struct_dt_elem_i([ 26,75,128 ],5,camelname,'PaymentData3').
+struct_dt_elem_i([ 26,75,128 ],5,length,40).
+struct_dt_elem_i([ 26,75,128 ],5,decimals,0).
+struct_dt_elem_i([ 26,75,128 ],5,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 26,75,128 ],5,pic,'').
+struct_dt_elem_i([ 26,75,128 ],5,collection,'False').
+struct_dt_elem_i([ 26,75,128 ],5,'ExternalName','PaymentData3').
+struct_dt_elem_i([ 26,75,128 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,75,128 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,75,128 ],5,'XmlName','').
+struct_dt_elem_i([ 26,75,128 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,128 ],5,soaptype,'').
+struct_dt_elem_i([ 26,75,128 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,128 ],5,'JsonName','').
+struct_dt_elem_i([ 26,75,128 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,75,0 ],3,name,'Placeorder').
+struct_dt_elem_i([ 26,75,0 ],3,camelname,'PlaceOrder').
+struct_dt_elem_i([ 26,75,0 ],3,type,[ [ 26,75,129 ],0,0 ]).
+struct_dt_elem_i([ 26,75,0 ],3,pic,'').
+struct_dt_elem_i([ 26,75,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,75,0 ],3,'ObjName','PlaceOrder').
+struct_dt_elem_i([ 26,75,0 ],3,'ObjDesc','Place Order').
+struct_dt_elem_i([ 26,75,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,75,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,75,0 ],3,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,75,129 ],1,name,'Dvelop_ecommercecart').
+struct_dt_elem_i([ 26,75,129 ],1,camelname,'DVelop_ECommerceCart').
+struct_dt_elem_i([ 26,75,129 ],1,length,4).
+struct_dt_elem_i([ 26,75,129 ],1,decimals,0).
+struct_dt_elem_i([ 26,75,129 ],1,type,[ [ 26,58,0 ],4,0 ]).
+struct_dt_elem_i([ 26,75,129 ],1,pic,'').
+struct_dt_elem_i([ 26,75,129 ],1,collection,'False').
+struct_dt_elem_i([ 26,75,129 ],1,'ExternalName','DVelop_ECommerceCart').
+struct_dt_elem_i([ 26,75,129 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,75,129 ],1,'XmlName','').
+struct_dt_elem_i([ 26,75,129 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,129 ],1,soaptype,'').
+struct_dt_elem_i([ 26,75,129 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,129 ],1,'JsonName','').
+struct_dt_elem_i([ 26,75,129 ],1,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,75,0 ],4,name,'Completed').
+struct_dt_elem_i([ 26,75,0 ],4,camelname,'Completed').
+struct_dt_elem_i([ 26,75,0 ],4,type,[ [ 26,75,173 ],0,0 ]).
+struct_dt_elem_i([ 26,75,0 ],4,pic,'').
+struct_dt_elem_i([ 26,75,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,75,0 ],4,'ObjName','Completed').
+struct_dt_elem_i([ 26,75,0 ],4,'ObjDesc','Completed').
+struct_dt_elem_i([ 26,75,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,75,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,75,0 ],4,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,75,173 ],1,name,'Calificacion').
+struct_dt_elem_i([ 26,75,173 ],1,camelname,'Calificacion').
+struct_dt_elem_i([ 26,75,173 ],1,length,4).
+struct_dt_elem_i([ 26,75,173 ],1,decimals,0).
+struct_dt_elem_i([ 26,75,173 ],1,sign,0).
+struct_dt_elem_i([ 26,75,173 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,75,173 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,75,173 ],1,collection,'False').
+struct_dt_elem_i([ 26,75,173 ],1,'ExternalName','Calificacion').
+struct_dt_elem_i([ 26,75,173 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,75,173 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,75,173 ],1,'XmlName','').
+struct_dt_elem_i([ 26,75,173 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,173 ],1,soaptype,'').
+struct_dt_elem_i([ 26,75,173 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,173 ],1,'JsonName','').
+struct_dt_elem_i([ 26,75,173 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,75,173 ],2,name,'Comentario').
+struct_dt_elem_i([ 26,75,173 ],2,camelname,'Comentario').
+struct_dt_elem_i([ 26,75,173 ],2,length,256).
+struct_dt_elem_i([ 26,75,173 ],2,decimals,0).
+struct_dt_elem_i([ 26,75,173 ],2,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,75,173 ],2,pic,'').
+struct_dt_elem_i([ 26,75,173 ],2,collection,'False').
+struct_dt_elem_i([ 26,75,173 ],2,'ExternalName','Comentario').
+struct_dt_elem_i([ 26,75,173 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,75,173 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,75,173 ],2,'XmlName','').
+struct_dt_elem_i([ 26,75,173 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,173 ],2,soaptype,'').
+struct_dt_elem_i([ 26,75,173 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,173 ],2,'JsonName','').
+struct_dt_elem_i([ 26,75,173 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,75,0 ],5,name,'Auxiliardata').
+struct_dt_elem_i([ 26,75,0 ],5,camelname,'AuxiliarData').
+struct_dt_elem_i([ 26,75,0 ],5,length,4).
+struct_dt_elem_i([ 26,75,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,75,0 ],5,type,[ [ 26,76,0 ],4,0 ]).
+struct_dt_elem_i([ 26,75,0 ],5,pic,'').
+struct_dt_elem_i([ 26,75,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,75,0 ],5,'ExternalName','AuxiliarData').
+struct_dt_elem_i([ 26,75,0 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,75,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,75,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,75,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,75,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,75,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,75,0 ],5,'JsonInclude',idJsonNoProperty).
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXusSecurity','PACKAGE','genexus.security.api').
+module_info_i('GeneXusSecurity','PackageName','GeneXusSecurity.jar').
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').
+ 
+struct_dt_i([ 26,58,0 ],name,'WWPBaseObjects\DVelop_ECommerceCart').
+struct_dt_i([ 26,58,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,58,0 ],'ObjName','DVelop_ECommerceCart').
+struct_dt_i([ 26,58,0 ],'ObjDesc','DVelop_ECommerce Cart').
+struct_dt_i([ 26,58,0 ],'ExternalName','DVelop_ECommerceCart').
+struct_dt_i([ 26,58,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,58,0 ],collection,'True').
+struct_dt_i([ 26,58,0 ],datatype,[ 26,58,86 ]).
+struct_dt_i([ 26,58,0 ],'CollectionItemName','Item').
+struct_dt_i([ 26,58,0 ],'XmlName','').
+struct_dt_i([ 26,58,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,58,0 ],'XmlNamespace','').
+struct_dt_i([ 26,58,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,58,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,58,0 ],'JsonName','').
+struct_dt_i([ 26,58,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,58,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,58,0 ],fullname,'WWPBaseObjects\DVelop_ECommerceCart').
+struct_dt_i([ 26,58,0 ],modified,yes).
+ 
+struct_dt_i([ 26,58,86 ],name,'Item').
+struct_dt_i([ 26,58,86 ],namespace,'Mujer_Morena.DVelop_ECommerceCart').
+struct_dt_i([ 26,58,86 ],fullname,'WWPBaseObjects\DVelop_ECommerceCart.Item').
+struct_dt_i([ 26,58,86 ],modified,yes).
+ 
+struct_dt_i([ 26,76,0 ],name,'WWPBaseObjects\WizardAuxiliarData').
+struct_dt_i([ 26,76,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,76,0 ],'ObjName','WizardAuxiliarData').
+struct_dt_i([ 26,76,0 ],'ObjDesc','Wizard Auxiliar Data').
+struct_dt_i([ 26,76,0 ],'ExternalName','WizardAuxiliarData').
+struct_dt_i([ 26,76,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,76,0 ],collection,'True').
+struct_dt_i([ 26,76,0 ],datatype,[ 26,76,125 ]).
+struct_dt_i([ 26,76,0 ],'CollectionItemName','WizardAuxiliarDataItem').
+struct_dt_i([ 26,76,0 ],'XmlName','').
+struct_dt_i([ 26,76,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,76,0 ],'XmlNamespace','').
+struct_dt_i([ 26,76,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,76,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,76,0 ],'JsonName','').
+struct_dt_i([ 26,76,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,76,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,76,0 ],fullname,'WWPBaseObjects\WizardAuxiliarData').
+struct_dt_i([ 26,76,0 ],modified,yes).
+ 
+struct_dt_i([ 26,76,125 ],name,'WizardAuxiliarDataItem').
+struct_dt_i([ 26,76,125 ],namespace,'Mujer_Morena.WizardAuxiliarData').
+struct_dt_i([ 26,76,125 ],fullname,'WWPBaseObjects\WizardAuxiliarData.WizardAuxiliarDataItem').
+struct_dt_i([ 26,76,125 ],modified,yes).

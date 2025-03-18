@@ -1,0 +1,26 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>d82625fd-5892-40b0-99c9-5c8559c197fc</ObjClsGuid>
+<ObjCls>37</ObjCls>
+<ObjId>29</ObjId>
+<ObjName>VerPedidosSD</ObjName>
+<ObjDesc>Ver Pedidos SD</ObjDesc>
+<ObjPgmName>VerPedidosSD</ObjPgmName>
+<ObjClsName>SD Panel</ObjClsName>
+<Objects>
+<Object>
+<ObjName>VerPedidosSD_Level_Detail_Grid</ObjName>
+<ObjNavig>GXSPC002\GEN12\NVG\VerPedidosSD_Level_Detail_Grid.xml</ObjNavig>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid></Object>
+<Object>
+<ObjName>VerPedidosSD_Level_Detail</ObjName>
+<ObjNavig>GXSPC002\GEN12\NVG\VerPedidosSD_Level_Detail.xml</ObjNavig>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid></Object></Objects></Object>
+<Result>nogenreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator></ObjectSpec>

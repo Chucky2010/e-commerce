@@ -1,0 +1,128 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>9</ObjId>
+<ObjName>TipoPago</ObjName>
+<ObjDesc>Tipo Pago</ObjDesc>
+<ObjPgmName>TipoPago</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Tipopagoid</VarId>
+<VarName>&amp;TipoPagoId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>9</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>9</TableId>
+<TableName>TipoPago</TableName>
+<Description>Tipo Pago</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>9</TableId>
+<TableName>TipoPago</TableName>
+<Description>Tipo Pago</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>TipoPagoId</AttriName>
+<Description>Tipo Pago Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>9</TableId>
+<TableName>TipoPago</TableName>
+<Description>Tipo Pago</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>TipoPagoId</AttriName>
+<Description>Tipo Pago Id</Description></Attribute>
+<Attribute>
+<AttriId>71</AttriId>
+<AttriName>TipoPagoNombre</AttriName>
+<Description>Tipo Pago Nombre</Description></Attribute>
+<Attribute>
+<AttriId>297</AttriId>
+<AttriName>TipoPagoDato</AttriName>
+<Description>Tipo Pago Dato</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>9</TableId>
+<TableName>TipoPago</TableName>
+<Description>Tipo Pago</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>71</AttriId>
+<AttriName>TipoPagoNombre</AttriName>
+<Description>Tipo Pago Nombre</Description></Attribute>
+<Attribute>
+<AttriId>297</AttriId>
+<AttriName>TipoPagoDato</AttriName>
+<Description>Tipo Pago Dato</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>9</TableId>
+<TableName>TipoPago</TableName>
+<Description>Tipo Pago</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>47</TableId>
+<TableName>Pedidos</TableName>
+<Description>Pedidos</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>TipoPagoId</AttriName>
+<Description>Tipo Pago Id</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>16</TableId>
+<TableName>Ventas</TableName>
+<Description>Ventas</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>TipoPagoId</AttriName>
+<Description>Tipo Pago Id</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

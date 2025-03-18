@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "stockview_Execute",
+    "Description": "Stock View",
+    "ProgramName": "stockview",
+    "IsGXAutomatic": true
+  }
+]

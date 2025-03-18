@@ -1,0 +1,85 @@
+:root
+{
+	--colors_Primary : #d5303e;
+	--colors_Primary10 : #d5303e1a;
+	--colors_Primary30 : #d5303e4d;
+	--colors_Primary50 : #d5303e80;
+	--colors_Primary80 : #d5303ecc;
+	--colors_PrimaryTone : #c92432;
+	--colors_Secondary : #ffc2d0;
+	--colors_DarkSurface : #1e1e1e;
+	--colors_DarkSurface20 : #1e1e1e33;
+	--colors_DarkSurface50 : #1e1e1e80;
+	--colors_DarkSurface80 : #1e1e1ecc;
+	--colors_DarkSurfaceElevated : #383838;
+	--colors_DarkSurfaceElevated80 : #383838cc;
+	--colors_DarkSurfaceElevated90 : #383838e6;
+	--colors_LightSurface : #ffffff;
+	--colors_LightSurface20 : #ffffff33;
+	--colors_LightSurface50 : #ffffff80;
+	--colors_LightSurface80 : #ffffffcc;
+	--colors_LightSurface90 : #ffffffe6;
+	--colors_ImportantText : #ff2f2a;
+	--colors_ControlOnPrimary : #ffffff;
+	--colors_ControlOnPrimary80 : #ffffffcc;
+	--colors_ControlOnLightSurface : #666666;
+	--colors_ControlOnDarkSurface : #bbbbbb;
+	--colors_ControlEditBackgroundOnSurface : transparent;
+	--colors_ControlViewBackgroundOnSurface : transparent;
+	--colors_ControlBackgroundOnSurface : #e0e0e0;
+	--colors_ControlBackgroundOnSurface20 : #e0e0e033;
+	--colors_ControlBorderOnSurface : #e0e0e0;
+	--colors_ControlBorderOnSurface40 : #e0e0e066;
+	--colors_ControlOnSurface : #3a3a3a;
+	--colors_ControlSecondOnSurface : #666666;
+	--colors_ControlThirdOnSurface : #999999;
+	--colors_ControlThirdOnSurface40 : #99999966;
+	--colors_PrimaryBackground : #f5f5f5;
+	--colors_PrimarySurface : #ffffff;
+	--colors_PrimarySurface20 : #ffffff33;
+	--colors_PrimarySurface50 : #ffffff80;
+	--colors_PrimarySurface80 : #ffffffcc;
+	--colors_PrimarySurfaceBorder : #dddddd;
+	--colors_StatusBar : #999999;
+	--colors_ApplicationBar : #ffffff;
+	--colors_FontIconDefault : #3a3a3a;
+	--spacing_CardPadding : 12dip;
+	--spacing_CardRounding : 8dip;
+	--spacing_CardElevation : 4;
+	--spacing_AttributeLabelWidth : 160dip;
+	--spacing_AttributeShortLabelWidth : 60dip;
+	--spacing_AttributeEditHPadding : 12dip;
+	--spacing_AttributeViewHPadding : 12dip;
+	--spacing_TabsElevation : 1;
+	--spacing_ApplicationBarElevation : 4;
+	--fonts_primary-font-family : Montserrat;
+
+}
+
+[gx-data-color-scheme="Dark"]
+{
+	--colors_DarkSurface : #1e1e1e;
+	--colors_DarkSurface20 : #1e1e1e33;
+	--colors_DarkSurface50 : #1e1e1e80;
+	--colors_DarkSurface80 : #1e1e1ecc;
+	--colors_ControlBackgroundOnSurface : #ffffff;
+	--colors_ControlBackgroundOnSurface20 : #ffffff33;
+	--colors_ControlBorderOnSurface : #303030;
+	--colors_ControlBorderOnSurface40 : #30303066;
+	--colors_ControlOnSurface : #fefefe;
+	--colors_ControlSecondOnSurface : #999;
+	--colors_ControlThirdOnSurface : #bbbbbb;
+	--colors_ControlThirdOnSurface40 : #bbbbbb66;
+	--colors_PrimaryBackground : #121212;
+	--colors_PrimarySurface : #1e1e1e;
+	--colors_PrimarySurface20 : #1e1e1e33;
+	--colors_PrimarySurface50 : #1e1e1e80;
+	--colors_PrimarySurface80 : #1e1e1ecc;
+	--colors_PrimarySurfaceBorder : #121212;
+	--colors_StatusBar : #121212;
+	--colors_ApplicationBar : #1e1e1e;
+	--colors_FontIconDefault : #fefefe;
+	--spacing_TabsElevation : 0;
+	--spacing_ApplicationBarElevation : 0;
+
+}

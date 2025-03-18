@@ -1,0 +1,13 @@
+bc_dt_elem_i([ 0,28,0 ],'Wwpuserextendedid',allownulls,no).
+bc_dt_elem_i([ 0,28,0 ],'Wwpuserextendedphoto',allownulls,no).
+bc_dt_elem_i([ 0,28,0 ],'Wwpuserextendedname',allownulls,no).
+bc_dt_elem_i([ 0,28,0 ],'Wwpuserextendedfullname',allownulls,no).
+bc_dt_elem_i([ 0,28,0 ],'Wwpuserextendedphone',allownulls,no).
+bc_dt_elem_i([ 0,28,0 ],'Wwpuserextendedemail',allownulls,no).
+bc_dt_elem_i([ 0,28,0 ],'Wwpuserextendedemainotif',allownulls,no).
+bc_dt_elem_i([ 0,28,0 ],'Wwpuserextendedsmsnotif',allownulls,no).
+bc_dt_elem_i([ 0,28,0 ],'Wwpuserextendedmobilenotif',allownulls,no).
+bc_dt_elem_i([ 0,28,0 ],'Wwpuserextendeddesktopnotif',allownulls,no).
+bc_dt_elem_i([ 0,28,0 ],'Wwpuserextendeddeleted',allownulls,no).
+bc_dt_elem_i([ 0,28,0 ],'Wwpuserextendedphoto_gxi',allownulls,no).
+ 

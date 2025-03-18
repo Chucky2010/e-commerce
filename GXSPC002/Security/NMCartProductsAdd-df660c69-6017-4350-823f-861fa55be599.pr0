@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "nmcartproductsadd_Services_Execute",
+    "Description": "NMCart Products Add Services",
+    "ProgramName": "nmcartproductsadd",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "devices_FullControl",
+    "Description": "Devices FullControl",
+    "ProgramName": "devices",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "devices_Execute",
+    "Description": "Devices",
+    "ProgramName": "devices",
+    "IsGXAutomatic": true,
+    "Parent": "devices_FullControl"
+  },
+  {
+    "Name": "devices_Insert",
+    "Description": "Devices Insert",
+    "ProgramName": "devices",
+    "IsGXAutomatic": true,
+    "Parent": "devices_FullControl"
+  },
+  {
+    "Name": "devices_Delete",
+    "Description": "Devices Delete",
+    "ProgramName": "devices",
+    "IsGXAutomatic": true,
+    "Parent": "devices_FullControl"
+  },
+  {
+    "Name": "devices_Update",
+    "Description": "Devices Update",
+    "ProgramName": "devices",
+    "IsGXAutomatic": true,
+    "Parent": "devices_FullControl"
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "pais_FullControl",
+    "Description": "Pais FullControl",
+    "ProgramName": "pais",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "pais_Execute",
+    "Description": "Pais",
+    "ProgramName": "pais",
+    "IsGXAutomatic": true,
+    "Parent": "pais_FullControl"
+  },
+  {
+    "Name": "pais_Insert",
+    "Description": "Pais Insert",
+    "ProgramName": "pais",
+    "IsGXAutomatic": true,
+    "Parent": "pais_FullControl"
+  },
+  {
+    "Name": "pais_Delete",
+    "Description": "Pais Delete",
+    "ProgramName": "pais",
+    "IsGXAutomatic": true,
+    "Parent": "pais_FullControl"
+  },
+  {
+    "Name": "pais_Update",
+    "Description": "Pais Update",
+    "ProgramName": "pais",
+    "IsGXAutomatic": true,
+    "Parent": "pais_FullControl"
+  }
+]

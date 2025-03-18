@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "stockprompt_Execute",
+    "Description": "Selecciona Stock",
+    "ProgramName": "stockprompt",
+    "IsGXAutomatic": true
+  }
+]

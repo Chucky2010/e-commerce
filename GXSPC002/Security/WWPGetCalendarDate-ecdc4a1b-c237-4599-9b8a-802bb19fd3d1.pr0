@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpgetcalendardate_Services_Execute",
+    "Description": "Get Calendar Date Services",
+    "ProgramName": "workwithplus.nativemobile.wwpgetcalendardate",
+    "IsGXAutomatic": true
+  }
+]

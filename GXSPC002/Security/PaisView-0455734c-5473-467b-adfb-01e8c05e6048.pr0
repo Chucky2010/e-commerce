@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "paisview_Execute",
+    "Description": "Pais View",
+    "ProgramName": "paisview",
+    "IsGXAutomatic": true
+  }
+]

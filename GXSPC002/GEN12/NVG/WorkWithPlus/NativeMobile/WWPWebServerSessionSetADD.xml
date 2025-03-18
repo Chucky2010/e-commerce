@@ -1,0 +1,699 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>268</ObjId>
+<ObjName>WorkWithPlus.NativeMobile.WWPWebServerSessionSetADD</ObjName>
+<ObjDesc>WWPWeb Server Session Set ADD</ObjDesc>
+<ObjPgmName>WorkWithPlus.NativeMobile.WWPWebServerSessionSetADD</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0060</MsgCode>
+<Message>
+<Token>The program may be called by another program and the Commit on Exit property is set to YES</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Cartpayment</VarId>
+<VarName>&amp;CartPayment</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Cartuseraddress</VarId>
+<VarName>&amp;CartUserAddress</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Parameterkey</VarId>
+<VarName>&amp;ParameterKey</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Parametervalue</VarId>
+<VarName>&amp;ParameterValue</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>11</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>3</TableId>
+<TableName>Cliente</TableName>
+<Description>Cliente</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ICLIENTE</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>244</AttriId>
+<AttriName>ClienteUser</AttriName>
+<Description>Cliente User</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Username</VarId>
+<VarName>&amp;UserName</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>3</TableId>
+<TableName>Cliente</TableName>
+<Description>Cliente</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>244</AttriId>
+<AttriName>ClienteUser</AttriName>
+<Description>Cliente User</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>3</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>23</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>47</TableId>
+<TableName>Pedidos</TableName>
+<Description>Pedidos</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>PedidosID</AttriName>
+<Description>Pedidos ID</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>47</TableId>
+<TableName>Pedidos</TableName>
+<Description>Pedidos</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>PedidosID</AttriName>
+<Description>Pedidos ID</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>PedidosImagenComprobante.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>312</AttriId>
+<AttriName>PedidosUbicacion</AttriName>
+<Description>Pedidos Ubicacion</Description></Attribute>
+<Attribute>
+<AttriId>296</AttriId>
+<AttriName>PedidosImagenComprobante</AttriName>
+<Description>Pedidos Imagen Comprobante</Description></Attribute>
+<Attribute>
+<AttriId>295</AttriId>
+<AttriName>PedidosComprobanteObs</AttriName>
+<Description>Pedidos Comprobante Obs</Description></Attribute>
+<Attribute>
+<AttriId>283</AttriId>
+<AttriName>OpcionEnvioId</AttriName>
+<Description>Opcion Envio Id</Description></Attribute>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>TipoPagoId</AttriName>
+<Description>Tipo Pago Id</Description></Attribute>
+<Attribute>
+<AttriId>247</AttriId>
+<AttriName>PedidosEstado</AttriName>
+<Description>Pedidos Estado</Description></Attribute>
+<Attribute>
+<AttriId>246</AttriId>
+<AttriName>PedidosFecha</AttriName>
+<Description>Pedidos Fecha</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>PedidosID</AttriName>
+<Description>Pedidos ID</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>47</TableId>
+<TableName>Pedidos</TableName>
+<Description>Pedidos</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>PedidosID</AttriName>
+<Description>Pedidos ID</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Attribute>
+<AttriId>246</AttriId>
+<AttriName>PedidosFecha</AttriName>
+<Description>Pedidos Fecha</Description></Attribute>
+<Attribute>
+<AttriId>247</AttriId>
+<AttriName>PedidosEstado</AttriName>
+<Description>Pedidos Estado</Description></Attribute>
+<Attribute>
+<AttriId>9</AttriId>
+<AttriName>TipoPagoId</AttriName>
+<Description>Tipo Pago Id</Description></Attribute>
+<Attribute>
+<AttriId>283</AttriId>
+<AttriName>OpcionEnvioId</AttriName>
+<Description>Opcion Envio Id</Description></Attribute>
+<Attribute>
+<AttriId>295</AttriId>
+<AttriName>PedidosComprobanteObs</AttriName>
+<Description>Pedidos Comprobante Obs</Description></Attribute>
+<Attribute>
+<AttriId>296</AttriId>
+<AttriName>PedidosImagenComprobante</AttriName>
+<Description>Pedidos Imagen Comprobante</Description></Attribute>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>PedidosImagenComprobante.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>312</AttriId>
+<AttriName>PedidosUbicacion</AttriName>
+<Description>Pedidos Ubicacion</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>4</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>44</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>48</TableId>
+<TableName>PedidosDetalle</TableName>
+<Description>Detalle</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>PedidosID</AttriName>
+<Description>Pedidos ID</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>PedidosDetalleID</AttriName>
+<Description>Pedidos Detalle ID</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>48</TableId>
+<TableName>PedidosDetalle</TableName>
+<Description>Detalle</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>PedidosID</AttriName>
+<Description>Pedidos ID</Description></Attribute>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>PedidosDetalleID</AttriName>
+<Description>Pedidos Detalle ID</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>293</AttriId>
+<AttriName>PedidosDetalleTallaID</AttriName>
+<Description>Pedidos Detalle Talla ID</Description></Attribute>
+<Attribute>
+<AttriId>245</AttriId>
+<AttriName>PedidosDetalleCantidad</AttriName>
+<Description>Pedidos Detalle Cantidad</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>PedidosDetalleID</AttriName>
+<Description>Pedidos Detalle ID</Description></Attribute>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>PedidosID</AttriName>
+<Description>Pedidos ID</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>48</TableId>
+<TableName>PedidosDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>51</AttriId>
+<AttriName>PedidosID</AttriName>
+<Description>Pedidos ID</Description></Attribute>
+<Attribute>
+<AttriId>52</AttriId>
+<AttriName>PedidosDetalleID</AttriName>
+<Description>Pedidos Detalle ID</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Attribute>
+<AttriId>245</AttriId>
+<AttriName>PedidosDetalleCantidad</AttriName>
+<Description>Pedidos Detalle Cantidad</Description></Attribute>
+<Attribute>
+<AttriId>293</AttriId>
+<AttriName>PedidosDetalleTallaID</AttriName>
+<Description>Pedidos Detalle Talla ID</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>5</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>62</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>42</TableId>
+<TableName>Stock</TableName>
+<Description>Stock</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ISTOCK</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Articuloid</VarId>
+<VarName>&amp;ArticuloId</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>42</TableId>
+<TableName>Stock</TableName>
+<Description>Stock</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Attribute>
+<AttriId>233</AttriId>
+<AttriName>StockTotal</AttriName>
+<Description>Stock Total</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>42</TableId>
+<TableName>Stock</TableName>
+<Description>Stock</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>233</AttriId>
+<AttriName>StockTotal</AttriName>
+<Description>Stock Total</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels>
+<Level>
+<LevelNumber>6</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>67</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>43</TableId>
+<TableName>StockDetalle</TableName>
+<Description>Detalle</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>50</AttriId>
+<AttriName>StockDetalleID</AttriName>
+<Description>Stock Detalle ID</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ISTOCKDETALLE</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>@StockId</AttriName>
+<Description>Stock Id</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>@StockId</AttriName>
+<Description>Stock Id</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>289</AttriId>
+<AttriName>StockDetalleTallaID</AttriName>
+<Description>Stock Detalle Talla ID</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pedidosdetalletallaid</VarId>
+<VarName>&amp;PedidosDetalleTallaID</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>43</TableId>
+<TableName>StockDetalle</TableName>
+<Description>Detalle</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute>
+<Attribute>
+<AttriId>50</AttriId>
+<AttriName>StockDetalleID</AttriName>
+<Description>Stock Detalle ID</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>289</AttriId>
+<AttriName>StockDetalleTallaID</AttriName>
+<Description>Stock Detalle Talla ID</Description></Attribute>
+<Attribute>
+<AttriId>218</AttriId>
+<AttriName>StockCantidad</AttriName>
+<Description>Stock Cantidad</Description></Attribute>
+<Attribute>
+<AttriId>50</AttriId>
+<AttriName>StockDetalleID</AttriName>
+<Description>Stock Detalle ID</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>43</TableId>
+<TableName>StockDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>218</AttriId>
+<AttriName>StockCantidad</AttriName>
+<Description>Stock Cantidad</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></Level>
+<Level>
+<LevelNumber>7</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>88</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IARTICULO</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Articuloid</VarId>
+<VarName>&amp;ArticuloId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Articuloid</VarId>
+<VarName>&amp;ArticuloId</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>ArticuloStock</AttriName>
+<Description>Articulo Stock</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>ArticuloStock</AttriName>
+<Description>Articulo Stock</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels>
+<Level>
+<LevelNumber>8</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>93</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>57</TableId>
+<TableName>ArticuloTalla</TableName>
+<Description>Talla</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>285</AttriId>
+<AttriName>ArticuloTallaID</AttriName>
+<Description>Articulo Talla ID</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IARTICULOTALLA</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>@ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>@ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>286</AttriId>
+<AttriName>TallaID</AttriName>
+<Description>Talla ID</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Pedidosdetalletallaid</VarId>
+<VarName>&amp;PedidosDetalleTallaID</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>57</TableId>
+<TableName>ArticuloTalla</TableName>
+<Description>Talla</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Attribute>
+<AttriId>285</AttriId>
+<AttriName>ArticuloTallaID</AttriName>
+<Description>Articulo Talla ID</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>286</AttriId>
+<AttriName>TallaID</AttriName>
+<Description>Talla ID</Description></Attribute>
+<Attribute>
+<AttriId>290</AttriId>
+<AttriName>ArticuloTallaStock</AttriName>
+<Description>Articulo Talla Stock</Description></Attribute>
+<Attribute>
+<AttriId>285</AttriId>
+<AttriName>ArticuloTallaID</AttriName>
+<Description>Articulo Talla ID</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>57</TableId>
+<TableName>ArticuloTalla</TableName>
+<Description>Talla</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>290</AttriId>
+<AttriName>ArticuloTallaStock</AttriName>
+<Description>Articulo Talla Stock</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></Level></Levels></ObjectSpec>

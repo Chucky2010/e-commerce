@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "timbrado_FullControl",
+    "Description": "Timbrado FullControl",
+    "ProgramName": "timbrado",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "timbrado_Execute",
+    "Description": "Timbrado",
+    "ProgramName": "timbrado",
+    "IsGXAutomatic": true,
+    "Parent": "timbrado_FullControl"
+  },
+  {
+    "Name": "timbrado_Insert",
+    "Description": "Timbrado Insert",
+    "ProgramName": "timbrado",
+    "IsGXAutomatic": true,
+    "Parent": "timbrado_FullControl"
+  },
+  {
+    "Name": "timbrado_Delete",
+    "Description": "Timbrado Delete",
+    "ProgramName": "timbrado",
+    "IsGXAutomatic": true,
+    "Parent": "timbrado_FullControl"
+  },
+  {
+    "Name": "timbrado_Update",
+    "Description": "Timbrado Update",
+    "ProgramName": "timbrado",
+    "IsGXAutomatic": true,
+    "Parent": "timbrado_FullControl"
+  }
+]

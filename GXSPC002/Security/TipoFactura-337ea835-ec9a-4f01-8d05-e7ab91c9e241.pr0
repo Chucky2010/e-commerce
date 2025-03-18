@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "tipofactura_FullControl",
+    "Description": "Tipo Factura FullControl",
+    "ProgramName": "tipofactura",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "tipofactura_Execute",
+    "Description": "Tipo Factura",
+    "ProgramName": "tipofactura",
+    "IsGXAutomatic": true,
+    "Parent": "tipofactura_FullControl"
+  },
+  {
+    "Name": "tipofactura_Insert",
+    "Description": "Tipo Factura Insert",
+    "ProgramName": "tipofactura",
+    "IsGXAutomatic": true,
+    "Parent": "tipofactura_FullControl"
+  },
+  {
+    "Name": "tipofactura_Delete",
+    "Description": "Tipo Factura Delete",
+    "ProgramName": "tipofactura",
+    "IsGXAutomatic": true,
+    "Parent": "tipofactura_FullControl"
+  },
+  {
+    "Name": "tipofactura_Update",
+    "Description": "Tipo Factura Update",
+    "ProgramName": "tipofactura",
+    "IsGXAutomatic": true,
+    "Parent": "tipofactura_FullControl"
+  }
+]

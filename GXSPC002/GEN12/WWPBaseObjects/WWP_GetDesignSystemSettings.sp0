@@ -1,0 +1,368 @@
+spec_i([ proc,41,l('Get Design System Settings'),'WWPBaseObjects\WWP_GetDesignSystemSettings',78,spa,'17_0_11-163677' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','WWPBaseObjects.WWP_GetDesignSystemSettings')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'WWPBaseObjects\DesignSystem'))).
+rule_i(0,prop('ObjDesc','Get Design System Settings')).
+rule_i(0,prop('ObjName','WWP_GetDesignSystemSettings')).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Wwp_designsystemsettings' ],[])).
+rule_i(0,parmio([ [ 'Wwp_designsystemsettings',out ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',12 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',11 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',10 ]).
+attri_i('Wwp_designsystemsettingsjson',[ 'WWP_DesignSystemSettingsJSON',svchar,400,0,'',0,l('WWP_Design System Settings JSON'),'',9 ]).
+attri_i('Wwp_designsystemsettings',[ 'WWP_DesignSystemSettings',o('WWPBaseObjects\WWP_DesignSystemSettings'),0,0,'',0,l('WWP_Design System Settings'),'',8 ]).
+ 
+ 
+ 
+ 
+ 
+function_i(1,'Wwp_designsystemsettingsjson',yes,udp,o(1,'WWPBaseObjects\LoadUserKeyValue'),[],2,'Wwp_designsystemsettingsjson',[ [ t('"DesignSystemSettings"',3) ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[ t('',107,2,0),t('Wwp_designsystemsettingsjson',23,0,0),t(=,10,0,0),t('udp(',1,0,0),t('Wwp_designsystemsettingsjson',3,0,0),t(2,3,0,0),t('"DesignSystemSettings"',3,0,0),t(')',4,0,0) ]).
+b_line_i(3,1,1,cmd,0,[ t('',109,3,0),t('Wwp_designsystemsettingsjson',23,0,4),t(<>,10,0,34),t('""',3,3,37) ]).
+b_line_i(4,1,1,cmd,0,[ t('',107,4,0),t([ t('Wwp_designsystemsettings',23,4,2),t('fromjson(',1,4,28) ],31,4,2),t('Wwp_designsystemsettingsjson',23,0,38),t(')',4,0,67) ]).
+b_line_i(5,1,1,cmd,0,[ t('',110,5,0) ]).
+b_line_i(6,1,1,cmd,0,[ t('',107,6,0),t('Wwp_designsystemsettings',23,0,0),t(=,10,0,0),t([ 'WWPBaseObjects\WWP_DesignSystemSettings',[ t('(',0,6,33),t(')',4,6,34) ],n ],46,0,0) ]).
+b_line_i(7,1,1,cmd,0,[ t('',107,7,0),t([ t('Wwp_designsystemsettings',23,0,0),t('Basecolor',3,0,0) ],29,0,0),t(=,10,0,0),t('"Custom"',3,0,0) ]).
+b_line_i(8,1,1,cmd,0,[ t('',107,8,0),t([ t('Wwp_designsystemsettings',23,0,0),t('Backgroundstyle',3,0,0) ],29,0,0),t(=,10,0,0),t('"Light"',3,0,0) ]).
+b_line_i(9,1,1,cmd,0,[]).
+b_line_i(10,1,1,cmd,0,[]).
+b_line_i(11,1,1,cmd,0,[]).
+b_line_i(12,1,1,cmd,0,[ t('',104,12,0),t(o(1,'WWPBaseObjects\SaveUserKeyValue'),28,0,2),t('"DesignSystemSettings"',3,12,19),t(',',7,0,0),t([ t('Wwp_designsystemsettings',23,0,44),t('tojson(',1,0,70) ],31,12,70),t(')',4,0,78) ]).
+b_line_i(13,1,1,cmd,0,[ t('',111,13,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,74,0 ],name,'WWPBaseObjects\WWP_DesignSystemSettings').
+struct_dt_i([ 26,74,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,74,0 ],'ObjName','WWP_DesignSystemSettings').
+struct_dt_i([ 26,74,0 ],'ObjDesc','WWP_Design System Settings').
+struct_dt_i([ 26,74,0 ],'ExternalName','WWP_DesignSystemSettings').
+struct_dt_i([ 26,74,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,74,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,74,0 ],fullname,'WWPBaseObjects\WWP_DesignSystemSettings').
+ 
+struct_dt_elem_i([ 26,74,0 ],1,name,'Basecolor').
+struct_dt_elem_i([ 26,74,0 ],1,camelname,'BaseColor').
+struct_dt_elem_i([ 26,74,0 ],1,length,40).
+struct_dt_elem_i([ 26,74,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,74,0 ],1,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,74,0 ],1,pic,'').
+struct_dt_elem_i([ 26,74,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,74,0 ],1,'ExternalName','BaseColor').
+struct_dt_elem_i([ 26,74,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,74,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,74,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,74,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,74,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,74,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,74,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,74,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,74,0 ],2,name,'Backgroundstyle').
+struct_dt_elem_i([ 26,74,0 ],2,camelname,'BackgroundStyle').
+struct_dt_elem_i([ 26,74,0 ],2,length,40).
+struct_dt_elem_i([ 26,74,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,74,0 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,74,0 ],2,pic,'').
+struct_dt_elem_i([ 26,74,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,74,0 ],2,'ExternalName','BackgroundStyle').
+struct_dt_elem_i([ 26,74,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,74,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,74,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,74,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,74,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,74,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,74,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,74,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,74,0 ],3,name,'Fontsize').
+struct_dt_elem_i([ 26,74,0 ],3,camelname,'FontSize').
+struct_dt_elem_i([ 26,74,0 ],3,length,40).
+struct_dt_elem_i([ 26,74,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,74,0 ],3,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,74,0 ],3,pic,'').
+struct_dt_elem_i([ 26,74,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,74,0 ],3,'ExternalName','FontSize').
+struct_dt_elem_i([ 26,74,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,74,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,74,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,74,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,74,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,74,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,74,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,74,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,74,0 ],4,name,'Menucolor').
+struct_dt_elem_i([ 26,74,0 ],4,camelname,'MenuColor').
+struct_dt_elem_i([ 26,74,0 ],4,length,40).
+struct_dt_elem_i([ 26,74,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,74,0 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,74,0 ],4,pic,'').
+struct_dt_elem_i([ 26,74,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,74,0 ],4,'ExternalName','MenuColor').
+struct_dt_elem_i([ 26,74,0 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,74,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,74,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,74,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,74,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,74,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,74,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,74,0 ],4,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,43,'WWPBASEOBJECTS\SAVEUSERKEYVALUE',[ [ svchar,120,0,0 ],[ vchar,2097152,0,0 ] ],[ [ 'UserCustomizationsKey',in,[] ],[ 'UserCustomizationsValue',in,[] ] ]).
+pgm_parm_i(proc,42,'WWPBASEOBJECTS\LOADUSERKEYVALUE',[ [ svchar,120,0,0 ],[ vchar,2097152,0,0 ] ],[ [ 'UserCustomizationsKey',in,[] ],[ 'UserCustomizationsValue',out,[] ] ]).
+ 
+pgm_callprotocol_i(proc,41,'WWPBASEOBJECTS\WWP_GETDESIGNSYSTEMSETTINGS','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,43,'WWPBASEOBJECTS\SAVEUSERKEYVALUE','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,42,'WWPBASEOBJECTS\LOADUSERKEYVALUE','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

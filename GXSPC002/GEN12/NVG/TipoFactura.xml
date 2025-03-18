@@ -1,0 +1,101 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>40</ObjId>
+<ObjName>TipoFactura</ObjName>
+<ObjDesc>Tipo Factura</ObjDesc>
+<ObjPgmName>TipoFactura</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>45</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>45</TableId>
+<TableName>TipoFactura</TableName>
+<Description>Tipo Factura</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>45</TableId>
+<TableName>TipoFactura</TableName>
+<Description>Tipo Factura</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>TipoFacturaId</AttriName>
+<Description>Tipo Factura Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>45</TableId>
+<TableName>TipoFactura</TableName>
+<Description>Tipo Factura</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>TipoFacturaId</AttriName>
+<Description>Tipo Factura Id</Description></Attribute>
+<Attribute>
+<AttriId>228</AttriId>
+<AttriName>TipoFacturaNombre</AttriName>
+<Description>Tipo Factura Nombre</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>45</TableId>
+<TableName>TipoFactura</TableName>
+<Description>Tipo Factura</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>228</AttriId>
+<AttriName>TipoFacturaNombre</AttriName>
+<Description>Tipo Factura Nombre</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>45</TableId>
+<TableName>TipoFactura</TableName>
+<Description>Tipo Factura</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>28</TableId>
+<TableName>Factura</TableName>
+<Description>Factura</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>TipoFacturaId</AttriName>
+<Description>Tipo Factura Id</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts></Prompts>
+<Suggests></Suggests></ObjectSpec>

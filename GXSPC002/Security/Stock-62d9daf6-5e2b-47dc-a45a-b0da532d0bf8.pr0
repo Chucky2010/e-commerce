@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "stock_FullControl",
+    "Description": "Stock FullControl",
+    "ProgramName": "stock",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "stock_Execute",
+    "Description": "Stock",
+    "ProgramName": "stock",
+    "IsGXAutomatic": true,
+    "Parent": "stock_FullControl"
+  },
+  {
+    "Name": "stock_Insert",
+    "Description": "Stock Insert",
+    "ProgramName": "stock",
+    "IsGXAutomatic": true,
+    "Parent": "stock_FullControl"
+  },
+  {
+    "Name": "stock_Delete",
+    "Description": "Stock Delete",
+    "ProgramName": "stock",
+    "IsGXAutomatic": true,
+    "Parent": "stock_FullControl"
+  },
+  {
+    "Name": "stock_Update",
+    "Description": "Stock Update",
+    "ProgramName": "stock",
+    "IsGXAutomatic": true,
+    "Parent": "stock_FullControl"
+  }
+]

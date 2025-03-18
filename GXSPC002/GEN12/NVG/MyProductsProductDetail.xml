@@ -1,0 +1,72 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>d82625fd-5892-40b0-99c9-5c8559c197fc</ObjClsGuid>
+<ObjCls>37</ObjCls>
+<ObjId>16</ObjId>
+<ObjName>MyProductsProductDetail</ObjName>
+<ObjDesc>Detalles de producto</ObjDesc>
+<ObjPgmName>MyProductsProductDetail</ObjPgmName>
+<ObjClsName>SD Panel</ObjClsName>
+<Objects>
+<Object>
+<ObjName>MyProductsProductDetail_Level_Detail</ObjName>
+<ObjNavig>GXSPC002\GEN12\NVG\MyProductsProductDetail_Level_Detail.xml</ObjNavig>
+<ObjClsGuid>2a9e9aba-d2de-4801-ae7f-5e3819222daf</ObjClsGuid></Object></Objects></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<StandAloneRules>
+<Action>
+<ActionType>DynamicLoad</ActionType>
+<DynamicLoad>
+<ControlName>
+<Variable>
+<VarId>Talle</VarId>
+<VarName>&amp;Talle</VarName></Variable></ControlName>
+<CodeAttributes>
+<Attribute>
+<AttriId>286</AttriId>
+<AttriName>TallaID</AttriName>
+<Description>Talla ID</Description></Attribute></CodeAttributes>
+<DescriptionAttributes>
+<Attribute>
+<AttriId>288</AttriId>
+<AttriName>TallaNumero</AttriName>
+<Description>Talla Numero</Description></Attribute></DescriptionAttributes>
+<Navigation>
+<NavigationTree>
+<Table>
+<TableId>58</TableId>
+<TableName>Talla</TableName>
+<Description>Talla</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>286</AttriId>
+<AttriName>TallaID</AttriName>
+<Description>Talla ID</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>286</AttriId>
+<AttriName>TallaID</AttriName>
+<Description>Talla ID</Description></Attribute>
+<Attribute>
+<AttriId>288</AttriId>
+<AttriName>TallaNumero</AttriName>
+<Description>Talla Numero</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<NavigationConditions></NavigationConditions>
+<NavigationOrder>
+<Order>
+<Attribute>
+<AttriId>288</AttriId>
+<AttriName>TallaNumero</AttriName>
+<Description>Talla Numero</Description></Attribute></Order>
+<Condition></Condition></NavigationOrder></Navigation></DynamicLoad></Action></StandAloneRules>
+<Suggests></Suggests></ObjectSpec>

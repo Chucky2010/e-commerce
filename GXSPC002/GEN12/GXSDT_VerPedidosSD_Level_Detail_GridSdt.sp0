@@ -1,0 +1,51 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'VerPedidosSD_Level_Detail_GridSdt','VerPedidosSD_Level_Detail_GridSdt',0,spa,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'VerPedidosSD_Level_Detail_GridSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'VerPedidosSD_Level_Detail_GridSdt').
+struct_dt_i([ 26,1000000,1 ],name,'Item').
+struct_dt_i([ 26,1000000,1 ],camelnameex,'Item').
+struct_dt_i([ 26,1000000,0 ],collection,'True').
+struct_dt_i([ 26,1000000,0 ],datatype,[ 26,1000000,1 ]).
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'VerPedidosSD_Level_Detail_GridSdt').
+struct_dt_i([ 26,1000000,1 ],fullname,'VerPedidosSD_Level_Detail_GridSdt.Item').
+struct_dt_i([ 26,1000000,0 ],modified,yes).
+struct_dt_i([ 26,1000000,1 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,1000000,1 ],1,name,'Pedidosid').
+struct_dt_elem_i([ 26,1000000,1 ],1,camelname,'Pedidosid').
+struct_dt_elem_i([ 26,1000000,1 ],1,type,[ 4,11,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],1,length,11).
+struct_dt_elem_i([ 26,1000000,1 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],2,name,'Pedidosfecha').
+struct_dt_elem_i([ 26,1000000,1 ],2,camelname,'Pedidosfecha').
+struct_dt_elem_i([ 26,1000000,1 ],2,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 26,1000000,1 ],2,length,8).
+struct_dt_elem_i([ 26,1000000,1 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,1 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,1 ],3,name,'Pedidostotal').
+struct_dt_elem_i([ 26,1000000,1 ],3,camelname,'Pedidostotal').
+struct_dt_elem_i([ 26,1000000,1 ],3,type,[ 4,17,2 ]).
+struct_dt_elem_i([ 26,1000000,1 ],3,length,17).
+struct_dt_elem_i([ 26,1000000,1 ],3,decimals,2).
+struct_dt_elem_i([ 26,1000000,1 ],3,sign,0).
+struct_dt_elem_i([ 26,1000000,1 ],3,collection,'False').
+struct_dt_elem_i([ 26,1000000,1 ],3,islevel,'False').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\SD','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\SD','PackageName','GeneXus.jar').
+module_info_i('GeneXusSecurity','PACKAGE','genexus.security.api').
+module_info_i('GeneXusSecurity','PackageName','GeneXusSecurity.jar').
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').

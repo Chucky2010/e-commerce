@@ -1,0 +1,122 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>36</ObjId>
+<ObjName>WWPBaseObjects.Mail.WWP_MailTemplate_BC</ObjName>
+<ObjDesc>Mail Template</ObjDesc>
+<ObjPgmName>WWPBaseObjects.Mail.WWP_MailTemplate_BC</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>38</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>38</TableId>
+<TableName>WWP_MailTemplate</TableName>
+<Description>WWP_MailTemplate</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>38</TableId>
+<TableName>WWP_MailTemplate</TableName>
+<Description>WWP_MailTemplate</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>WWPMailTemplateName</AttriName>
+<Description>Mail Template Name</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>38</TableId>
+<TableName>WWP_MailTemplate</TableName>
+<Description>WWP_MailTemplate</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>41</AttriId>
+<AttriName>WWPMailTemplateName</AttriName>
+<Description>Mail Template Name</Description></Attribute>
+<Attribute>
+<AttriId>209</AttriId>
+<AttriName>WWPMailTemplateDescription</AttriName>
+<Description>Mail Template Description</Description></Attribute>
+<Attribute>
+<AttriId>210</AttriId>
+<AttriName>WWPMailTemplateSubject</AttriName>
+<Description>Mail Template Subject</Description></Attribute>
+<Attribute>
+<AttriId>195</AttriId>
+<AttriName>WWPMailTemplateBody</AttriName>
+<Description>Mail Template Body</Description></Attribute>
+<Attribute>
+<AttriId>196</AttriId>
+<AttriName>WWPMailTemplateSenderAddress</AttriName>
+<Description>Mail Template Sender Address</Description></Attribute>
+<Attribute>
+<AttriId>197</AttriId>
+<AttriName>WWPMailTemplateSenderName</AttriName>
+<Description>Mail Template Sender Name</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>38</TableId>
+<TableName>WWP_MailTemplate</TableName>
+<Description>WWP_MailTemplate</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>209</AttriId>
+<AttriName>WWPMailTemplateDescription</AttriName>
+<Description>Mail Template Description</Description></Attribute>
+<Attribute>
+<AttriId>210</AttriId>
+<AttriName>WWPMailTemplateSubject</AttriName>
+<Description>Mail Template Subject</Description></Attribute>
+<Attribute>
+<AttriId>195</AttriId>
+<AttriName>WWPMailTemplateBody</AttriName>
+<Description>Mail Template Body</Description></Attribute>
+<Attribute>
+<AttriId>196</AttriId>
+<AttriName>WWPMailTemplateSenderAddress</AttriName>
+<Description>Mail Template Sender Address</Description></Attribute>
+<Attribute>
+<AttriId>197</AttriId>
+<AttriName>WWPMailTemplateSenderName</AttriName>
+<Description>Mail Template Sender Name</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>38</TableId>
+<TableName>WWP_MailTemplate</TableName>
+<Description>WWP_MailTemplate</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

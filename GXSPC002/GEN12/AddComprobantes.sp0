@@ -1,0 +1,378 @@
+spec_i([ proc,273,l('Add Comprobantes'),'AddComprobantes',78,spa,'17_0_11-163677' ]).
+ 
+struct_i(2,1,[],[]).
+ 
+level_i(2,[ 47,[ [ 47,many ] ],[],[],[ [ [ 47 ],[ 51,40000,296,295 ] ] ],[ [ [ 47 ],[] ] ],[ 51 ],'IPEDIDOS',[ 47,[ [ [],'Pedidosid',51 ] ] ],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 47,51 ],[ 47,40000 ],[ 47,296 ],[ 47,295 ] ] ]).
+ 
+las_i(2,[ [ 51,40000,296,295 ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','AddComprobantes')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('IntegratedSecurityPermissionPrefix','VerDisponSD')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop('REST','-1')).
+rule_i(0,prop('SOAP','0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'-1')).
+rule_i(0,prop(idENABLEMTOM,'0')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'Mujer_MorenaSD'))).
+rule_i(0,prop('ObjDesc','Add Comprobantes')).
+rule_i(0,prop('ObjName','AddComprobantes')).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Pedidosid','Pedidosimagencomprobante','Pedidoscomprobanteobs' ],[])).
+rule_i(0,parmio([ [ 'Pedidosid',in ],[ 'Pedidosimagencomprobante',in ],[ 'Pedidoscomprobanteobs',in ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,47,[],[ [ [ [],'Pedidosid',51 ] ],'IPEDIDOS',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,'Pedidosid').
+v_i(t,o,2,51).
+v_i(t,o,2,40000).
+v_i(t,o,2,296).
+v_i(t,o,2,295).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',23 ]).
+attri_i(296,[ 'PedidosImagenComprobante',bits,4,0,'',0,l('Pedidos Imagen Comprobante'),'',0 ]).
+attri_i(295,[ 'PedidosComprobanteObs',svchar,512,0,'',0,l('Pedidos Comprobante Obs'),'',0 ]).
+attri_i(51,[ 'PedidosID',int,11,0,'ZZZZZZZZZZ9',0,l('Pedidos ID'),'',0 ]).
+attri_i('Pedidosimagencomprobante_GXI',[ 'Pedidosimagencomprobante_GXI',svchar,2048,0,'',0,'',[],22 ]).
+attri_i(40000,[ 'PedidosImagenComprobante_GXI',svchar,2048,0,'',0,'',[],0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',20 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',19 ]).
+attri_i('Pedidosimagencomprobante',[ 'PedidosImagenComprobante',bits,1024,0,'',0,l('Pedidos Imagen Comprobante'),'',17 ]).
+attri_i('Pedidosid',[ 'PedidosID',int,11,0,'ZZZZZZZZZZ9',0,l('Pedidos ID'),'',16 ]).
+attri_i('Pedidoscomprobanteobs',[ 'PedidosComprobanteObs',svchar,512,0,'',0,l('Pedidos Comprobante Obs'),'',18 ]).
+ 
+table_i(47,[ 'Pedidos',[ 51,295,296,40000 ],l('Pedidos'),'Pedidos' ]).
+ 
+index_i(47,[ 'IPEDIDOS',u,[ 51 ],'IPedidos' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,40000,296,'PedidosImagenComprobante_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,'Pedidosimagencomprobante_GXI','Pedidosimagencomprobante','Pedidosimagencomprobante_GXI',[ svchar,2048,0,0 ]).
+ 
+upd_i(2,47,u,[ [ 296,295,40000 ],[],'IPEDIDOS',[] ]).
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 51,23,'Pedidosid',= ] ],one ]).
+ 
+end_i(2,0,0,[ [ [ t(51,2),t(=,10),t('Pedidosid',23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(90,[ 'IDN11' ]).
+dom_info_i(202,[ 'Fecha' ]).
+dom_info_i(46,[ 'GeneXus\Geolocation' ]).
+ 
+ 
+break_i(2,nvg,1,[ 51 ],[ [ 51,295,296,40000 ],[ 51 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,3,3).
+b_group_i(2,1,lit,0,4,5).
+b_group_i(1,3,lit,0,9,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[]).
+b_line_i(3,2,1,cmd,4,[ t('',121,3,0),t('ORDER',39,3,10),t(51,2,3,16) ]).
+b_line_i(5,2,1,cmd,4,[ t('',107,5,0),t(296,2,4,0),t(=,10,4,0),t('Pedidosimagencomprobante',23,4,0) ]).
+b_line_i([ 5,1 ],2,1,cmd,4,[ t('',107,5,0),t(40000,2,4,0),t(=,10,4,0),t('Pedidosimagencomprobante_GXI',23,4,0) ]).
+b_line_i(6,2,1,cmd,5,[ t('',107,6,0),t(295,2,5,0),t(=,10,5,0),t('Pedidoscomprobanteobs',23,5,0) ]).
+b_line_i(7,2,1,cmd,5,[]).
+b_line_i(8,2,1,cmd,5,[ t('',128,8,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0060,[ 'The program may be called by another program and the Commit on Exit property is set to YES' ])).
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+calling_main_i(37,4).
+ 
+att_prop_i(2,51,'ExternalName','PedidosID',d).
+att_prop_i(2,51,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,51,'EmptyAsNull','Yes',d).
+att_prop_i(2,51,idBasedOn,90,v).
+att_prop_i(2,51,'AUTONUMBER','0',d).
+att_prop_i(2,51,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,51,'AttRegEx','',d).
+att_prop_i(2,51,'AttValidationFailedMsg','',d).
+att_prop_i(2,51,'DownloadOffline','0',d).
+att_prop_i(2,51,'VarServiceExtName','',d).
+att_prop_i(2,51,'FullName','PedidosID',v).
+att_prop_i(2,295,'ExternalName','PedidosComprobanteObs',d).
+att_prop_i(2,295,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,295,'EmptyAsNull','Yes',d).
+att_prop_i(2,295,idBasedOn,'',d).
+att_prop_i(2,295,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,295,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,295,'AttRegEx','',d).
+att_prop_i(2,295,'AttValidationFailedMsg','',d).
+att_prop_i(2,295,'DownloadOffline','0',d).
+att_prop_i(2,295,'VarServiceExtName','',d).
+att_prop_i(2,295,'FullName','PedidosComprobanteObs',v).
+att_prop_i(2,296,'ExternalName','PedidosImagenComprobante',d).
+att_prop_i(2,296,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,296,'EmptyAsNull','Yes',d).
+att_prop_i(2,296,'ExternalStorage','-1',d).
+att_prop_i(2,296,idBasedOn,'',d).
+att_prop_i(2,296,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,296,'AttRegEx','',d).
+att_prop_i(2,296,'AttValidationFailedMsg','',d).
+att_prop_i(2,296,'DownloadOffline','0',d).
+att_prop_i(2,296,'VarServiceExtName','',d).
+att_prop_i(2,296,'FullName','PedidosImagenComprobante',v).
+att_prop_i(2,40000,'ExternalName','',d).
+att_prop_i(2,40000,'ExternalNamespace','',d).
+att_prop_i(2,40000,'EmptyAsNull','Yes',d).
+att_prop_i(2,40000,idBasedOn,'',d).
+att_prop_i(2,40000,'AUTONUMBER','0',d).
+att_prop_i(2,40000,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40000,'AttRegEx','',d).
+att_prop_i(2,40000,'AttValidationFailedMsg','',d).
+att_prop_i(2,40000,'FullName','',v).
+ 
+ 
+tbl_att_prop_i(2,47,51,'AllowNulls',n).
+tbl_att_prop_i(2,47,295,'AllowNulls',n).
+tbl_att_prop_i(2,47,296,'AllowNulls',n).
+tbl_att_prop_i(2,47,40000,'AllowNulls',n).
+ 
+var_prop_i(2,'Pedidoscomprobanteobs',idBasedOn,'',v).
+var_prop_i(2,'Pedidosid',idBasedOn,'',v).
+var_prop_i(2,'Pedidosimagencomprobante',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+security_permission_i(verdisponsd_Services_Execute,execute,service).
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,273,'ADDCOMPROBANTES','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

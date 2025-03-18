@@ -1,0 +1,515 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>12</ObjId>
+<ObjName>Articulo</ObjName>
+<ObjDesc>Articulo</ObjDesc>
+<ObjPgmName>Articulo</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Articuloid</VarId>
+<VarName>&amp;ArticuloId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>14</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>19</TableId>
+<TableName>TipoArticulo</TableName>
+<Description>Tipo Articulo</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>TipoArticuloId</AttriName>
+<Description>Tipo Articulo Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>44</TableId>
+<TableName>Impuesto</TableName>
+<Description>Impuesto</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>ImpuestoId</AttriName>
+<Description>Impuesto Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Attribute>
+<AttriId>76</AttriId>
+<AttriName>ArticuloNombre</AttriName>
+<Description>Articulo Nombre</Description></Attribute>
+<Attribute>
+<AttriId>214</AttriId>
+<AttriName>ArticuloDescripcionCorta</AttriName>
+<Description>Articulo Descripcion Corta</Description></Attribute>
+<Attribute>
+<AttriId>215</AttriId>
+<AttriName>ArticuloDescripcionLarga</AttriName>
+<Description>Articulo Descripcion Larga</Description></Attribute>
+<Attribute>
+<AttriId>77</AttriId>
+<AttriName>ArticuloPrecioCompra</AttriName>
+<Description>Articulo Precio Compra</Description></Attribute>
+<Attribute>
+<AttriId>78</AttriId>
+<AttriName>ArticuloPrecioVenta</AttriName>
+<Description>Articulo Precio Venta</Description></Attribute>
+<Attribute>
+<AttriId>222</AttriId>
+<AttriName>ArticuloPrecioPromedio</AttriName>
+<Description>Articulo Precio Promedio</Description></Attribute>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>ArticuloStock</AttriName>
+<Description>Articulo Stock</Description></Attribute>
+<Attribute>
+<AttriId>231</AttriId>
+<AttriName>ArticuloImagen</AttriName>
+<Description>Articulo Imagen</Description></Attribute>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>ArticuloImagen.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>TipoArticuloId</AttriName>
+<Description>Tipo Articulo Id</Description></Attribute>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>ImpuestoId</AttriName>
+<Description>Impuesto Id</Description></Attribute>
+<Attribute>
+<AttriId>234</AttriId>
+<AttriName>ArticuloSerial</AttriName>
+<Description>Articulo Serial</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>76</AttriId>
+<AttriName>ArticuloNombre</AttriName>
+<Description>Articulo Nombre</Description></Attribute>
+<Attribute>
+<AttriId>214</AttriId>
+<AttriName>ArticuloDescripcionCorta</AttriName>
+<Description>Articulo Descripcion Corta</Description></Attribute>
+<Attribute>
+<AttriId>215</AttriId>
+<AttriName>ArticuloDescripcionLarga</AttriName>
+<Description>Articulo Descripcion Larga</Description></Attribute>
+<Attribute>
+<AttriId>77</AttriId>
+<AttriName>ArticuloPrecioCompra</AttriName>
+<Description>Articulo Precio Compra</Description></Attribute>
+<Attribute>
+<AttriId>78</AttriId>
+<AttriName>ArticuloPrecioVenta</AttriName>
+<Description>Articulo Precio Venta</Description></Attribute>
+<Attribute>
+<AttriId>222</AttriId>
+<AttriName>ArticuloPrecioPromedio</AttriName>
+<Description>Articulo Precio Promedio</Description></Attribute>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>ArticuloStock</AttriName>
+<Description>Articulo Stock</Description></Attribute>
+<Attribute>
+<AttriId>231</AttriId>
+<AttriName>ArticuloImagen</AttriName>
+<Description>Articulo Imagen</Description></Attribute>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>ArticuloImagen.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>TipoArticuloId</AttriName>
+<Description>Tipo Articulo Id</Description></Attribute>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>ImpuestoId</AttriName>
+<Description>Impuesto Id</Description></Attribute>
+<Attribute>
+<AttriId>234</AttriId>
+<AttriName>ArticuloSerial</AttriName>
+<Description>Articulo Serial</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>53</TableId>
+<TableName>DevolucionesDetalle</TableName>
+<Description>Detalle</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>50</TableId>
+<TableName>InventarioDetalle</TableName>
+<Description>Detalle</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>48</TableId>
+<TableName>PedidosDetalle</TableName>
+<Description>Detalle</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>42</TableId>
+<TableName>Stock</TableName>
+<Description>Stock</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>17</TableId>
+<TableName>VentasDetalle</TableName>
+<Description>Detalle</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>12</TableId>
+<TableName>ComprasDetalle</TableName>
+<Description>Detalle</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>57</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>57</TableId>
+<TableName>ArticuloTalla</TableName>
+<Description>Talla</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>57</TableId>
+<TableName>ArticuloTalla</TableName>
+<Description>Talla</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Attribute>
+<AttriId>285</AttriId>
+<AttriName>ArticuloTallaID</AttriName>
+<Description>Articulo Talla ID</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>58</TableId>
+<TableName>Talla</TableName>
+<Description>Talla</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>286</AttriId>
+<AttriName>TallaID</AttriName>
+<Description>Talla ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>57</TableId>
+<TableName>ArticuloTalla</TableName>
+<Description>Talla</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Attribute>
+<AttriId>285</AttriId>
+<AttriName>ArticuloTallaID</AttriName>
+<Description>Articulo Talla ID</Description></Attribute>
+<Attribute>
+<AttriId>290</AttriId>
+<AttriName>ArticuloTallaStock</AttriName>
+<Description>Articulo Talla Stock</Description></Attribute>
+<Attribute>
+<AttriId>286</AttriId>
+<AttriName>TallaID</AttriName>
+<Description>Talla ID</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>57</TableId>
+<TableName>ArticuloTalla</TableName>
+<Description>Talla</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>290</AttriId>
+<AttriName>ArticuloTallaStock</AttriName>
+<Description>Articulo Talla Stock</Description></Attribute>
+<Attribute>
+<AttriId>286</AttriId>
+<AttriName>TallaID</AttriName>
+<Description>Talla ID</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>57</TableId>
+<TableName>ArticuloTalla</TableName>
+<Description>Talla</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterLevelRules></AfterLevelRules></Level>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>15</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>15</TableId>
+<TableName>ArticuloGaleria</TableName>
+<Description>Galeria</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>15</TableId>
+<TableName>ArticuloGaleria</TableName>
+<Description>Galeria</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>ArticuloGaleriaId</AttriName>
+<Description>Articulo Galeria Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>15</TableId>
+<TableName>ArticuloGaleria</TableName>
+<Description>Galeria</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Attribute>
+<AttriId>48</AttriId>
+<AttriName>ArticuloGaleriaId</AttriName>
+<Description>Articulo Galeria Id</Description></Attribute>
+<Attribute>
+<AttriId>230</AttriId>
+<AttriName>ArticuloGaleriaImagen</AttriName>
+<Description>Articulo Galeria Imagen</Description></Attribute>
+<Attribute>
+<AttriId>40001</AttriId>
+<AttriName>ArticuloGaleriaImagen.Uri  </AttriName>
+<Description></Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>15</TableId>
+<TableName>ArticuloGaleria</TableName>
+<Description>Galeria</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>230</AttriId>
+<AttriName>ArticuloGaleriaImagen</AttriName>
+<Description>Articulo Galeria Imagen</Description></Attribute>
+<Attribute>
+<AttriId>40001</AttriId>
+<AttriName>ArticuloGaleriaImagen.Uri  </AttriName>
+<Description></Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>15</TableId>
+<TableName>ArticuloGaleria</TableName>
+<Description>Galeria</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>58</TableId>
+<TableName>Talla</TableName>
+<Description>Talla</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>237</ObjId>
+<ObjName>TallaPrompt</ObjName>
+<ObjPgmName>TallaPrompt</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>286</AttriId>
+<AttriName>TallaID</AttriName>
+<Description>Talla ID</Description></Attribute>
+<Attribute>
+<AttriId>287</AttriId>
+<AttriName>TallaNombre</AttriName>
+<Description>Talla Nombre</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>44</TableId>
+<TableName>Impuesto</TableName>
+<Description>Impuesto</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>35</ObjId>
+<ObjName>ImpuestoPrompt</ObjName>
+<ObjPgmName>ImpuestoPrompt</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>ImpuestoId</AttriName>
+<Description>Impuesto Id</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>19</TableId>
+<TableName>TipoArticulo</TableName>
+<Description>Tipo Articulo</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>34</ObjId>
+<ObjName>TipoArticuloPrompt</ObjName>
+<ObjPgmName>TipoArticuloPrompt</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>TipoArticuloId</AttriName>
+<Description>Tipo Articulo Id</Description></Attribute>
+<Attribute>
+<AttriId>103</AttriId>
+<AttriName>TipoArticuloNombre</AttriName>
+<Description>Tipo Articulo Nombre</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

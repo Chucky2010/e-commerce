@@ -1,0 +1,161 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>30</ObjId>
+<ObjName>WWPBaseObjects.Subscriptions.WWP_Subscription</ObjName>
+<ObjDesc>WWP_Subscription</ObjDesc>
+<ObjPgmName>WWPBaseObjects.Subscriptions.WWP_Subscription</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>32</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>32</TableId>
+<TableName>WWP_Subscription</TableName>
+<Description>WWP_Subscription</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>32</TableId>
+<TableName>WWP_Subscription</TableName>
+<Description>WWP_Subscription</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>34</AttriId>
+<AttriName>WWPSubscriptionId</AttriName>
+<Description>Subscription Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>36</TableId>
+<TableName>WWP_NotificationDefinition</TableName>
+<Description>WWP_NotificationDefinition</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>WWPNotificationDefinitionId</AttriName>
+<Description>Notification Definition Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>31</TableId>
+<TableName>WWP_Entity</TableName>
+<Description>WWP_Entity</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>33</AttriId>
+<AttriName>WWPEntityId</AttriName>
+<Description>Entity Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table>
+<Table>
+<TableId>30</TableId>
+<TableName>WWP_UserExtended</TableName>
+<Description>WWP_UserExtended</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>WWPUserExtendedId</AttriName>
+<Description>User Id</Description></Attribute></KeyAttributes>
+<JoinType>Outer</JoinType>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>32</TableId>
+<TableName>WWP_Subscription</TableName>
+<Description>WWP_Subscription</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>151</AttriId>
+<AttriName>WWPSubscriptionEntityRecordId</AttriName>
+<Description>Subscription Entity Record Id</Description></Attribute>
+<Attribute>
+<AttriId>153</AttriId>
+<AttriName>WWPSubscriptionEntityRecordDes</AttriName>
+<Description>Subscription Entity Record Description</Description></Attribute>
+<Attribute>
+<AttriId>149</AttriId>
+<AttriName>WWPSubscriptionRoleId</AttriName>
+<Description>Subscription Role Id</Description></Attribute>
+<Attribute>
+<AttriId>152</AttriId>
+<AttriName>WWPSubscriptionSubscribed</AttriName>
+<Description>Is Subscribed</Description></Attribute>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>WWPNotificationDefinitionId</AttriName>
+<Description>Notification Definition Id</Description></Attribute>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>WWPUserExtendedId</AttriName>
+<Description>User Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>32</TableId>
+<TableName>WWP_Subscription</TableName>
+<Description>WWP_Subscription</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>151</AttriId>
+<AttriName>WWPSubscriptionEntityRecordId</AttriName>
+<Description>Subscription Entity Record Id</Description></Attribute>
+<Attribute>
+<AttriId>153</AttriId>
+<AttriName>WWPSubscriptionEntityRecordDes</AttriName>
+<Description>Subscription Entity Record Description</Description></Attribute>
+<Attribute>
+<AttriId>149</AttriId>
+<AttriName>WWPSubscriptionRoleId</AttriName>
+<Description>Subscription Role Id</Description></Attribute>
+<Attribute>
+<AttriId>152</AttriId>
+<AttriName>WWPSubscriptionSubscribed</AttriName>
+<Description>Is Subscribed</Description></Attribute>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>WWPNotificationDefinitionId</AttriName>
+<Description>Notification Definition Id</Description></Attribute>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>WWPUserExtendedId</AttriName>
+<Description>User Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>32</TableId>
+<TableName>WWP_Subscription</TableName>
+<Description>WWP_Subscription</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts></Prompts>
+<Suggests></Suggests></ObjectSpec>

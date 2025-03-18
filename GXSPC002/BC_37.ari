@@ -1,0 +1,13 @@
+bc_dt_elem_i([ 0,37,0 ],'Wwpmailid',allownulls,no).
+bc_dt_elem_i([ 0,37,0 ],'Wwpmailsubject',allownulls,no).
+bc_dt_elem_i([ 0,37,0 ],'Wwpmailbody',allownulls,no).
+bc_dt_elem_i([ 0,37,0 ],'Wwpmailsenderaddress',allownulls,no).
+bc_dt_elem_i([ 0,37,0 ],'Wwpmailsendername',allownulls,no).
+bc_dt_elem_i([ 0,37,0 ],'Wwpmailstatus',allownulls,no).
+bc_dt_elem_i([ 0,37,0 ],'Wwpmailcreated',allownulls,no).
+bc_dt_elem_i([ 0,37,0 ],'Wwpmailscheduled',allownulls,no).
+bc_dt_elem_i([ 0,37,0 ],'Wwpnotificationcreated',readonly,yes).
+bc_dt_elem_i([ 0,37,0 ],'Wwpnotificationcreated',allownulls,no).
+bc_dt_elem_i([ 0,37,[ 42,43 ] ],'Wwpmailattachmentname',allownulls,no).
+bc_dt_elem_i([ 0,37,[ 42,43 ] ],'Wwpmailattachmentfile',allownulls,no).
+ 

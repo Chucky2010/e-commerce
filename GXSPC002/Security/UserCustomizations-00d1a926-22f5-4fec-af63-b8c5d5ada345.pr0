@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "usercustomizations_FullControl",
+    "Description": "User Custom FullControl",
+    "ProgramName": "wwpbaseobjects.usercustomizations",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "usercustomizations_Execute",
+    "Description": "User Custom",
+    "ProgramName": "wwpbaseobjects.usercustomizations",
+    "IsGXAutomatic": true,
+    "Parent": "usercustomizations_FullControl"
+  },
+  {
+    "Name": "usercustomizations_Insert",
+    "Description": "User Custom Insert",
+    "ProgramName": "wwpbaseobjects.usercustomizations",
+    "IsGXAutomatic": true,
+    "Parent": "usercustomizations_FullControl"
+  },
+  {
+    "Name": "usercustomizations_Delete",
+    "Description": "User Custom Delete",
+    "ProgramName": "wwpbaseobjects.usercustomizations",
+    "IsGXAutomatic": true,
+    "Parent": "usercustomizations_FullControl"
+  },
+  {
+    "Name": "usercustomizations_Update",
+    "Description": "User Custom Update",
+    "ProgramName": "wwpbaseobjects.usercustomizations",
+    "IsGXAutomatic": true,
+    "Parent": "usercustomizations_FullControl"
+  }
+]

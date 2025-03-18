@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "cajero_FullControl",
+    "Description": "Cajero FullControl",
+    "ProgramName": "cajero",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "cajero_Execute",
+    "Description": "Cajero",
+    "ProgramName": "cajero",
+    "IsGXAutomatic": true,
+    "Parent": "cajero_FullControl"
+  },
+  {
+    "Name": "cajero_Insert",
+    "Description": "Cajero Insert",
+    "ProgramName": "cajero",
+    "IsGXAutomatic": true,
+    "Parent": "cajero_FullControl"
+  },
+  {
+    "Name": "cajero_Delete",
+    "Description": "Cajero Delete",
+    "ProgramName": "cajero",
+    "IsGXAutomatic": true,
+    "Parent": "cajero_FullControl"
+  },
+  {
+    "Name": "cajero_Update",
+    "Description": "Cajero Update",
+    "ProgramName": "cajero",
+    "IsGXAutomatic": true,
+    "Parent": "cajero_FullControl"
+  }
+]

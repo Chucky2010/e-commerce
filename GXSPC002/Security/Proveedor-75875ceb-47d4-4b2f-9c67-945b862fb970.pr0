@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "proveedor_FullControl",
+    "Description": "Proveedor FullControl",
+    "ProgramName": "proveedor",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "proveedor_Execute",
+    "Description": "Proveedor",
+    "ProgramName": "proveedor",
+    "IsGXAutomatic": true,
+    "Parent": "proveedor_FullControl"
+  },
+  {
+    "Name": "proveedor_Insert",
+    "Description": "Proveedor Insert",
+    "ProgramName": "proveedor",
+    "IsGXAutomatic": true,
+    "Parent": "proveedor_FullControl"
+  },
+  {
+    "Name": "proveedor_Delete",
+    "Description": "Proveedor Delete",
+    "ProgramName": "proveedor",
+    "IsGXAutomatic": true,
+    "Parent": "proveedor_FullControl"
+  },
+  {
+    "Name": "proveedor_Update",
+    "Description": "Proveedor Update",
+    "ProgramName": "proveedor",
+    "IsGXAutomatic": true,
+    "Parent": "proveedor_FullControl"
+  }
+]

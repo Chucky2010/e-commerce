@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpgetunicodefromhex_Services_Execute",
+    "Description": "Get Unicode From Hex Services",
+    "ProgramName": "workwithplus.nativemobile.wwpgetunicodefromhex",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,68 @@
+ 
+spec_i([ sdt,[ 26,55,0 ],'LinkList','LinkList',0,spa,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 26,55,0 ],name,'LinkList').
+struct_dt_i([ 26,55,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,55,0 ],'ObjName','LinkList').
+struct_dt_i([ 26,55,0 ],'ObjDesc','Link List').
+struct_dt_i([ 26,55,0 ],'ExternalName','LinkList').
+struct_dt_i([ 26,55,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,55,0 ],collection,'True').
+struct_dt_i([ 26,55,0 ],datatype,[ 26,55,82 ]).
+struct_dt_i([ 26,55,0 ],'CollectionItemName','LinkItem').
+struct_dt_i([ 26,55,0 ],'XmlName','').
+struct_dt_i([ 26,55,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,55,0 ],'XmlNamespace','').
+struct_dt_i([ 26,55,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,55,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,55,0 ],'JsonName','').
+struct_dt_i([ 26,55,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,55,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,55,82 ],name,'LinkItem').
+struct_dt_i([ 26,55,82 ],namespace,'GeneXus.LinkList').
+struct_dt_i([ 26,55,0 ],fullname,'LinkList').
+struct_dt_i([ 26,55,82 ],fullname,'LinkList.LinkItem').
+struct_dt_i([ 26,55,0 ],modified,yes).
+struct_dt_i([ 26,55,82 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,55,82 ],1,name,'Caption').
+struct_dt_elem_i([ 26,55,82 ],1,camelname,'Caption').
+struct_dt_elem_i([ 26,55,82 ],1,length,255).
+struct_dt_elem_i([ 26,55,82 ],1,decimals,0).
+struct_dt_elem_i([ 26,55,82 ],1,type,[ 13,255,0 ]).
+struct_dt_elem_i([ 26,55,82 ],1,pic,'').
+struct_dt_elem_i([ 26,55,82 ],1,collection,'False').
+struct_dt_elem_i([ 26,55,82 ],1,'ExternalName','Caption').
+struct_dt_elem_i([ 26,55,82 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,55,82 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,55,82 ],1,'XmlName','').
+struct_dt_elem_i([ 26,55,82 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,55,82 ],1,soaptype,'').
+struct_dt_elem_i([ 26,55,82 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,55,82 ],1,'JsonName','').
+struct_dt_elem_i([ 26,55,82 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,55,82 ],2,name,'Url').
+struct_dt_elem_i([ 26,55,82 ],2,camelname,'URL').
+struct_dt_elem_i([ 26,55,82 ],2,basedon,32).
+struct_dt_elem_i([ 26,55,82 ],2,length,1000).
+struct_dt_elem_i([ 26,55,82 ],2,decimals,0).
+struct_dt_elem_i([ 26,55,82 ],2,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,55,82 ],2,pic,'').
+struct_dt_elem_i([ 26,55,82 ],2,collection,'False').
+struct_dt_elem_i([ 26,55,82 ],2,'ExternalName','URL').
+struct_dt_elem_i([ 26,55,82 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,55,82 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,55,82 ],2,'XmlName','').
+struct_dt_elem_i([ 26,55,82 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,55,82 ],2,soaptype,'').
+struct_dt_elem_i([ 26,55,82 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,55,82 ],2,'JsonName','').
+struct_dt_elem_i([ 26,55,82 ],2,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').

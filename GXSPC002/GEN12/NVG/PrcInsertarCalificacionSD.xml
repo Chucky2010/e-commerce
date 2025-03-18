@@ -1,0 +1,97 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>276</ObjId>
+<ObjName>PrcInsertarCalificacionSD</ObjName>
+<ObjDesc>Prc Insertar Calificacion SD</ObjDesc>
+<ObjPgmName>PrcInsertarCalificacionSD</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0060</MsgCode>
+<Message>
+<Token>The program may be called by another program and the Commit on Exit property is set to YES</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Calificacion</VarId>
+<VarName>&amp;Calificacion</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Comentario</VarId>
+<VarName>&amp;Comentario</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>5</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>59</TableId>
+<TableName>Calificacion</TableName>
+<Description>Calificacion</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>298</AttriId>
+<AttriName>CalificacionId</AttriName>
+<Description>Calificacion Id</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>59</TableId>
+<TableName>Calificacion</TableName>
+<Description>Calificacion</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>298</AttriId>
+<AttriName>CalificacionId</AttriName>
+<Description>Calificacion Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>59</TableId>
+<TableName>Calificacion</TableName>
+<Description>Calificacion</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>298</AttriId>
+<AttriName>CalificacionId</AttriName>
+<Description>Calificacion Id</Description></Attribute>
+<Attribute>
+<AttriId>299</AttriId>
+<AttriName>CalificacionNro</AttriName>
+<Description>Calificacion Nro</Description></Attribute>
+<Attribute>
+<AttriId>300</AttriId>
+<AttriName>CalificacionDesc</AttriName>
+<Description>Calificacion Desc</Description></Attribute>
+<Attribute>
+<AttriId>301</AttriId>
+<AttriName>CalificacionUsuario</AttriName>
+<Description>Calificacion Usuario</Description></Attribute>
+<Attribute>
+<AttriId>302</AttriId>
+<AttriName>CalificacionFechaHora</AttriName>
+<Description>Calificacion Fecha Hora</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

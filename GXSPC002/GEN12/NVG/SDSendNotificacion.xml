@@ -1,0 +1,122 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>238</ObjId>
+<ObjName>SDSendNotificacion</ObjName>
+<ObjDesc>SDSend Notificacion</ObjDesc>
+<ObjPgmName>SDSendNotificacion</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0038</MsgCode>
+<Message>
+<Token>There is no index for order </Token>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>DeviceId</AttriName>
+<Description>Device Id</Description></Attribute>
+<Token>; poor performance may be noticed</Token>
+<Token> in group starting at line </Token>
+<Token>13</Token>
+<Token></Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Main>Yes</Main>
+<CallProtocol>INTERNAL</CallProtocol>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>13</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>51</TableId>
+<TableName>Devices</TableName>
+<Description>Devices</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>DeviceId</AttriName>
+<Description>Device Id</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>51</TableId>
+<TableName>Devices</TableName>
+<Description>Devices</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>DeviceType</AttriName>
+<Description>Device Type</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>DeviceId</AttriName>
+<Description>Device Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<CALL>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>6</ObjId>
+<ObjName>GeneXus.Common.Notifications.SendNotification</ObjName>
+<ObjPgmName>GeneXus.Common.Notifications.SendNotification</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Expression>
+<Variable>
+<VarId>Thenotificationconfiguration</VarId>
+<VarName>&amp;TheNotificationConfiguration</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>269</AttriId>
+<AttriName>DeviceToken</AttriName>
+<Description>Device Token</Description></Attribute>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Thenotification</VarId>
+<VarName>&amp;TheNotification</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Thenotificationdelivery</VarId>
+<VarName>&amp;TheNotificationDelivery</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Outmessages</VarId>
+<VarName>&amp;OutMessages</VarName></Variable>
+<Token>,</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Issuccessful</VarId>
+<VarName>&amp;IsSuccessful</VarName></Variable></Expression>
+<IF></IF></CALL>
+<Levels></Levels></Level></Levels></ObjectSpec>

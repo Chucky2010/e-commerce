@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "prcinsertarcalificacionsd_Services_Execute",
+    "Description": "Prc Insertar Calificacion SD Services",
+    "ProgramName": "prcinsertarcalificacionsd",
+    "IsGXAutomatic": true
+  }
+]

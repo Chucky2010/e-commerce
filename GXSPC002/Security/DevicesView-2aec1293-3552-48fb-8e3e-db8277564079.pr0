@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "devicesview_Execute",
+    "Description": "Devices View",
+    "ProgramName": "devicesview",
+    "IsGXAutomatic": true
+  }
+]

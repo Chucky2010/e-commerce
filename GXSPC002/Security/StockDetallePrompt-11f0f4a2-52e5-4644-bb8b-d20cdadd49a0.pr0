@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "stockdetalleprompt_Execute",
+    "Description": "Selecciona Detalle",
+    "ProgramName": "stockdetalleprompt",
+    "IsGXAutomatic": true
+  }
+]

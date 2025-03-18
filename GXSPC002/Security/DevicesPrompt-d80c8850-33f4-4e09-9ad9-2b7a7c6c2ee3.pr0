@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "devicesprompt_Execute",
+    "Description": "Selecciona Devices",
+    "ProgramName": "devicesprompt",
+    "IsGXAutomatic": true
+  }
+]

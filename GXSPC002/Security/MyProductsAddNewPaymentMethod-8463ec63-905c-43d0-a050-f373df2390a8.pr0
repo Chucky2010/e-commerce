@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "myproductsaddnewpaymentmethod_Execute",
+    "Description": "New payment method",
+    "ProgramName": "myproductsaddnewpaymentmethod",
+    "IsGXAutomatic": true
+  }
+]

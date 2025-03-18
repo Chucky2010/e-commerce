@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamwwauthtypes_Execute",
+    "Description": "WWP_GAM_AuthenticationTypes",
+    "ProgramName": "gamwwauthtypes",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamapppermissionchildren_Execute",
+    "Description": "WWP_GAM_PermissionApplicationChildren",
+    "ProgramName": "gamapppermissionchildren",
+    "IsGXAutomatic": true
+  }
+]

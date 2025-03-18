@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dependencies type="name" name="VerPedidosSD_Level_Detail">
+  <Table name="Persona" />
+  <Table name="Cliente" />
+  <Table name="Articulo" />
+  <Table name="Pedidos" />
+  <Table name="PedidosDetalle" />
+</Dependencies>

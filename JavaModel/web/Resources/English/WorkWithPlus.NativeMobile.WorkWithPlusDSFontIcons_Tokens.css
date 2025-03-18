@@ -1,0 +1,17 @@
+:root
+{
+	--colors_FontIconDefault : #3a3a3a;
+	--fontSizes_icon-default : 20dip;
+	--fontSizes_icon-xsmall : 14dip;
+	--fontSizes_icon-small : 20dip;
+	--fontSizes_icon-regular : 26dip;
+	--fontSizes_icon-large : 38dip;
+	--fontSizes_icon-xlarge : 60dip;
+
+}
+
+[gx-data-color-scheme="Dark"]
+{
+	--colors_FontIconDefault : #fefefe;
+
+}

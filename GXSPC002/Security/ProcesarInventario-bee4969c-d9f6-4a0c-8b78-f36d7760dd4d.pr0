@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "procesarinventario_Execute",
+    "Description": "Procesar Inventario",
+    "ProgramName": "procesarinventario",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "motivodevolucionprompt_Execute",
+    "Description": "Selecciona Motivo Devolucion",
+    "ProgramName": "motivodevolucionprompt",
+    "IsGXAutomatic": true
+  }
+]

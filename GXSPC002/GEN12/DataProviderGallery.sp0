@@ -1,0 +1,342 @@
+spec_i([ mnproc,9,l('Data Provider Gallery'),'DataProviderGallery',0,spa,'17_0_11-163677' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','DataProviderGallery')).
+rule_i(0,prop('Folder',o(8,'Transacciones'))).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('OutputCollectionName','DataProviderGallery')).
+rule_i(0,prop('OutputCollection','0')).
+rule_i(0,prop('OutputSDT',o(26,'ImagesData'))).
+rule_i(0,prop(idINFER_SDT,idINFER_STRUCTURE_NO)).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop(idISWEBSERVICE,'0')).
+rule_i(0,prop('ObjDesc','Data Provider Gallery')).
+rule_i(0,prop('ObjName','DataProviderGallery')).
+rule_i(0,rule([ a(22,[ 'Rfr',[ t('getmessagetext(',1),t('"GX_BtnRefresh"',3),t(')',4) ],'5' ]) ],[],[],[])).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Gxm1rootcol' ],[])).
+rule_i(0,parmio([ [ 'Gxm1rootcol',out ] ])).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',7 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',6 ]).
+attri_i('Gxm1rootcol',[ 'Gxm1rootcol',o(objectcollection('ImagesData.ImagesDataItem')),0,0,'',0,'Gxm1rootcol','',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,94,0 ],name,'ImagesData').
+struct_dt_i([ 26,94,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,94,0 ],'ObjName','ImagesData').
+struct_dt_i([ 26,94,0 ],'ObjDesc','Images Data').
+struct_dt_i([ 26,94,0 ],'ExternalName','ImagesData').
+struct_dt_i([ 26,94,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,94,0 ],collection,'True').
+struct_dt_i([ 26,94,0 ],datatype,[ 26,94,153 ]).
+struct_dt_i([ 26,94,0 ],'CollectionItemName','ImagesDataItem').
+struct_dt_i([ 26,94,0 ],'XmlName','').
+struct_dt_i([ 26,94,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,94,0 ],'XmlNamespace','').
+struct_dt_i([ 26,94,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,94,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,94,0 ],'JsonName','').
+struct_dt_i([ 26,94,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,94,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,94,153 ],name,'ImagesDataItem').
+struct_dt_i([ 26,94,153 ],namespace,'Mujer_Morena.ImagesData').
+struct_dt_i([ 26,94,0 ],fullname,'ImagesData').
+struct_dt_i([ 26,94,153 ],fullname,'ImagesData.ImagesDataItem').
+struct_dt_i([ 26,94,0 ],camelname,'Imagesdata').
+struct_dt_i([ 26,94,153 ],camelname,'Imagesdataitem').
+ 
+struct_dt_elem_i([ 26,94,153 ],1,name,'Id').
+struct_dt_elem_i([ 26,94,153 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,94,153 ],1,length,500).
+struct_dt_elem_i([ 26,94,153 ],1,decimals,0).
+struct_dt_elem_i([ 26,94,153 ],1,type,[ 5,500,0 ]).
+struct_dt_elem_i([ 26,94,153 ],1,pic,'').
+struct_dt_elem_i([ 26,94,153 ],1,collection,'False').
+struct_dt_elem_i([ 26,94,153 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,94,153 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,94,153 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,94,153 ],1,'XmlName','').
+struct_dt_elem_i([ 26,94,153 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,94,153 ],1,soaptype,'').
+struct_dt_elem_i([ 26,94,153 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,94,153 ],1,'JsonName','').
+struct_dt_elem_i([ 26,94,153 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,94,153 ],2,name,'Image').
+struct_dt_elem_i([ 26,94,153 ],2,camelname,'Image').
+struct_dt_elem_i([ 26,94,153 ],2,length,500).
+struct_dt_elem_i([ 26,94,153 ],2,decimals,0).
+struct_dt_elem_i([ 26,94,153 ],2,type,[ 5,500,0 ]).
+struct_dt_elem_i([ 26,94,153 ],2,pic,'').
+struct_dt_elem_i([ 26,94,153 ],2,collection,'False').
+struct_dt_elem_i([ 26,94,153 ],2,'ExternalName','Image').
+struct_dt_elem_i([ 26,94,153 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,94,153 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,94,153 ],2,'XmlName','').
+struct_dt_elem_i([ 26,94,153 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,94,153 ],2,soaptype,'').
+struct_dt_elem_i([ 26,94,153 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,94,153 ],2,'JsonName','').
+struct_dt_elem_i([ 26,94,153 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,94,153 ],3,name,'Thumbnail').
+struct_dt_elem_i([ 26,94,153 ],3,camelname,'Thumbnail').
+struct_dt_elem_i([ 26,94,153 ],3,length,500).
+struct_dt_elem_i([ 26,94,153 ],3,decimals,0).
+struct_dt_elem_i([ 26,94,153 ],3,type,[ 5,500,0 ]).
+struct_dt_elem_i([ 26,94,153 ],3,pic,'').
+struct_dt_elem_i([ 26,94,153 ],3,collection,'False').
+struct_dt_elem_i([ 26,94,153 ],3,'ExternalName','Thumbnail').
+struct_dt_elem_i([ 26,94,153 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,94,153 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,94,153 ],3,'XmlName','').
+struct_dt_elem_i([ 26,94,153 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,94,153 ],3,soaptype,'').
+struct_dt_elem_i([ 26,94,153 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,94,153 ],3,'JsonName','').
+struct_dt_elem_i([ 26,94,153 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,94,153 ],4,name,'Caption').
+struct_dt_elem_i([ 26,94,153 ],4,camelname,'Caption').
+struct_dt_elem_i([ 26,94,153 ],4,length,100).
+struct_dt_elem_i([ 26,94,153 ],4,decimals,0).
+struct_dt_elem_i([ 26,94,153 ],4,type,[ 5,100,0 ]).
+struct_dt_elem_i([ 26,94,153 ],4,pic,'').
+struct_dt_elem_i([ 26,94,153 ],4,collection,'False').
+struct_dt_elem_i([ 26,94,153 ],4,'ExternalName','Caption').
+struct_dt_elem_i([ 26,94,153 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,94,153 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,94,153 ],4,'XmlName','').
+struct_dt_elem_i([ 26,94,153 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,94,153 ],4,soaptype,'').
+struct_dt_elem_i([ 26,94,153 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,94,153 ],4,'JsonName','').
+struct_dt_elem_i([ 26,94,153 ],4,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(mnproc,9,'DATAPROVIDERGALLERY','INTERNAL','').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

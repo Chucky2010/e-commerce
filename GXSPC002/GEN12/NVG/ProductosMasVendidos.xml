@@ -1,0 +1,189 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>256</ObjId>
+<ObjName>ProductosMasVendidos</ObjName>
+<ObjDesc>Productos Mas Vendidos</ObjDesc>
+<ObjPgmName>ProductosMasVendidos</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0038</MsgCode>
+<Message>
+<Token>There is no index for order </Token>
+<Attribute>
+<AttriId>91</AttriId>
+<AttriName>VentasFecha</AttriName>
+<Description>Ventas Fecha</Description></Attribute>
+<Token>; poor performance may be noticed</Token>
+<Token> in group starting at line </Token>
+<Token>1</Token>
+<Token></Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>File</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Fechadesde</VarId>
+<VarName>&amp;FechaDesde</VarName></Variable></Parameter>
+<Parameter>
+<IO>inout</IO>
+<Variable>
+<VarId>Fechahasta</VarId>
+<VarName>&amp;FechaHasta</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>16</TableId>
+<TableName>Ventas</TableName>
+<Description>Ventas</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>91</AttriId>
+<AttriName>VentasFecha</AttriName>
+<Description>Ventas Fecha</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>91</AttriId>
+<AttriName>VentasFecha</AttriName>
+<Description>Ventas Fecha</Description></Attribute>
+<Sp></Sp>
+<Token>&gt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Fechadesde</VarId>
+<VarName>&amp;FechaDesde</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>91</AttriId>
+<AttriName>VentasFecha</AttriName>
+<Description>Ventas Fecha</Description></Attribute>
+<Sp></Sp>
+<Token>&lt;=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Fechahasta</VarId>
+<VarName>&amp;FechaHasta</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>16</TableId>
+<TableName>Ventas</TableName>
+<Description>Ventas</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels>
+<Level>
+<LevelNumber>3</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>4</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>17</TableId>
+<TableName>VentasDetalle</TableName>
+<Description>Detalle</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>VentasDetalleId</AttriName>
+<Description>Ventas Detalle Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IVENTASDETALLE</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>@VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>@VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>17</TableId>
+<TableName>VentasDetalle</TableName>
+<Description>Detalle</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute>
+<Attribute>
+<AttriId>20</AttriId>
+<AttriName>VentasDetalleId</AttriName>
+<Description>Ventas Detalle Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></Level></Levels></ObjectSpec>

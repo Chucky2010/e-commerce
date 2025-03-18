@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "generarfacturasd_Services_Execute",
+    "Description": "Generar Factura SD Services",
+    "ProgramName": "generarfacturasd",
+    "IsGXAutomatic": true
+  }
+]

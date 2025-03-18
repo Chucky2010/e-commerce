@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "tipoarticulo_FullControl",
+    "Description": "Tipo Articulo FullControl",
+    "ProgramName": "tipoarticulo",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "tipoarticulo_Execute",
+    "Description": "Tipo Articulo",
+    "ProgramName": "tipoarticulo",
+    "IsGXAutomatic": true,
+    "Parent": "tipoarticulo_FullControl"
+  },
+  {
+    "Name": "tipoarticulo_Insert",
+    "Description": "Tipo Articulo Insert",
+    "ProgramName": "tipoarticulo",
+    "IsGXAutomatic": true,
+    "Parent": "tipoarticulo_FullControl"
+  },
+  {
+    "Name": "tipoarticulo_Delete",
+    "Description": "Tipo Articulo Delete",
+    "ProgramName": "tipoarticulo",
+    "IsGXAutomatic": true,
+    "Parent": "tipoarticulo_FullControl"
+  },
+  {
+    "Name": "tipoarticulo_Update",
+    "Description": "Tipo Articulo Update",
+    "ProgramName": "tipoarticulo",
+    "IsGXAutomatic": true,
+    "Parent": "tipoarticulo_FullControl"
+  }
+]

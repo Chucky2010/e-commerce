@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpdynamicfieldgetcharvalue_Services_Execute",
+    "Description": "Dynamic Field Get Char Value Services",
+    "ProgramName": "workwithplus.nativemobile.wwpdynamicfieldgetcharvalue",
+    "IsGXAutomatic": true
+  }
+]

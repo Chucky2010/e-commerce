@@ -1,0 +1,2086 @@
+spec_i([ web,211,l('Inventario Detalle WC'),'InventarioDetalleWC',0,spa,'17_0_11-163677' ]).
+ 
+struct_i(2,1,[ 'Ddo_titlesettingsicons' ],[]).
+ 
+level_i(2,[ 50,[ [ 50,many ],[ 14,one ] ],[],[],[ [ [ 50,14 ],[ 53,264,263,262,259,76,13,54,79,261,260 ] ] ],[ [ [ 50,14 ],[] ] ],[ 53,54 ],'IINVENTARIODETALLE',[ 50,[ [ [],'Inventarioid',53 ] ] ],[] ]).
+ 
+tw_i(2,[ [ 14,[ [ 50,13,13 ] ] ] ]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+cond_order_i(2,[ 53,54 ],[ t('Orderedby',23),t(=,10),t('1',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -53,-54 ],[ t('Orderedby',23),t(=,10),t('1',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 53,13 ],[ t('Orderedby',23),t(=,10),t('2',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -53,-13 ],[ t('Orderedby',23),t(=,10),t('2',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 53,76 ],[ t('Orderedby',23),t(=,10),t('3',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -53,-76 ],[ t('Orderedby',23),t(=,10),t('3',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 53,79 ],[ t('Orderedby',23),t(=,10),t('4',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -53,-79 ],[ t('Orderedby',23),t(=,10),t('4',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 53,259 ],[ t('Orderedby',23),t(=,10),t('5',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -53,-259 ],[ t('Orderedby',23),t(=,10),t('5',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 53,262 ],[ t('Orderedby',23),t(=,10),t('6',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -53,-262 ],[ t('Orderedby',23),t(=,10),t('6',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 53,263 ],[ t('Orderedby',23),t(=,10),t('7',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -53,-263 ],[ t('Orderedby',23),t(=,10),t('7',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 53,264 ],[ t('Orderedby',23),t(=,10),t('8',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -53,-264 ],[ t('Orderedby',23),t(=,10),t('8',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 53,261 ],[ t('Orderedby',23),t(=,10),t('9',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(2,[ -53,-261 ],[ t('Orderedby',23),t(=,10),t('9',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(2,[ 53,54 ],[]).
+ 
+level_option_i(2,server_paging,[ y,[] ]).
+ 
+ta_i(2,[ [ [ 50,53 ],[ 50,264 ],[ 50,263 ],[ 50,262 ],[ 50,259 ],[ 14,76 ],[ 50,13 ],[ 50,54 ],[ 14,79 ],[ 50,261 ] ] ]).
+ 
+las_i(2,[ [ 'Inventarioid','Gridcurrentpage','Ddo_titlesettingsicons',53,264,263,262,259,76,13,54,79,261,260 ] ]).
+ 
+lac_i(2,[ [ 'Gridcurrentpage','Ddo_titlesettingsicons' ] ]).
+ 
+ 
+ 
+cls_i([ 0,0 ],[ 2,180 ]).
+ 
+pos_i(54,[ 1,2,0 ]).
+pos_i(13,[ 1,2,12 ]).
+pos_i(76,[ 1,2,24 ]).
+pos_i(79,[ 1,2,105 ]).
+pos_i(259,[ 1,2,116 ]).
+pos_i(262,[ 1,2,127 ]).
+pos_i(263,[ 1,2,138 ]).
+pos_i(264,[ 1,2,149 ]).
+pos_i(261,[ 1,2,160 ]).
+pos_i(260,[ 1,2,171 ]).
+pos_i('Gridcurrentpage',[ 0,0,0 ]).
+pos_i('Ddo_titlesettingsicons',[ 0,0,0 ]).
+pos_i(53,[ 0,0,0 ]).
+ 
+repeat_i(2,[ 1,2,[ 54,13,76,79,259,262,263,264,261,260 ],[] ]).
+ 
+default_i(e('Pgmname',2,2,'"InventarioDetalleWC"')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','InventarioDetalleWC')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WebApplication',idDefault)).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityNone')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('URLAccess','No')).
+rule_i(0,prop('WEB_COMP','Yes')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop('ObjDesc','Inventario Detalle WC')).
+rule_i(0,prop('ObjName','InventarioDetalleWC')).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Inventarioid' ],[])).
+rule_i(0,parmio([ [ 'Inventarioid',in ] ])).
+ 
+a_i(1,2,f,260,[],[ [],[ t(79,2),t(-,5),t(261,2) ] ]).
+a_i(2,1,f,'Pgmname',[],[ [],[ t('"InventarioDetalleWC"',3) ] ]).
+a_i(3,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(4,2,t,50,[],[ [ [ [],'Inventarioid',53 ] ],'IINVENTARIODETALLE',[] ]).
+a_i(5,2,r,14,[],[ [ [ 50,13,13 ] ],'IARTICULO',[] ]).
+ 
+v_i(f,i,1,79).
+v_i(f,i,1,261).
+v_i(f,o,1,260).
+v_i(f,i,2,[]).
+v_i(f,o,2,'Pgmname').
+v_i(f,i,3,[]).
+v_i(f,o,3,'Err').
+v_i(t,i,4,'Inventarioid').
+v_i(t,o,4,53).
+v_i(t,o,4,264).
+v_i(t,o,4,263).
+v_i(t,o,4,262).
+v_i(t,o,4,259).
+v_i(t,o,4,13).
+v_i(t,o,4,54).
+v_i(t,o,4,261).
+v_i(r,i,5,13).
+v_i(r,o,5,76).
+v_i(r,o,5,79).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(53,[ 'InventarioID',int,11,0,'ZZZZZZZZZZ9',0,l('Inventario ID'),'',0 ]).
+attri_i(260,[ 'InventarioDetalleDiferencia',int,10,0,'ZZZZZZZZZ9',0,l('Inventario Detalle Diferencia'),'',0 ]).
+attri_i(261,[ 'InventarioDetalleStockOk',int,10,0,'ZZZZZZZZZ9',0,l('Inventario Detalle Stock Ok'),'',0 ]).
+attri_i(264,[ 'InventarioDetalleStock4',int,10,0,'ZZZZZZZZZ9',0,l('Inventario Detalle Stock4'),'',0 ]).
+attri_i(263,[ 'InventarioDetalleStock3',int,10,0,'ZZZZZZZZZ9',0,l('Inventario Detalle Stock3'),'',0 ]).
+attri_i(262,[ 'InventarioDetalleStock2',int,10,0,'ZZZZZZZZZ9',0,l('Inventario Detalle Stock2'),'',0 ]).
+attri_i(259,[ 'InventarioDetalleStock',int,10,0,'ZZZZZZZZZ9',0,l('Inventario Detalle Stock'),'',0 ]).
+attri_i(79,[ 'ArticuloStock',int,10,0,'ZZZZZZZZZ9',0,l('Articulo Stock'),'',0 ]).
+attri_i(76,[ 'ArticuloNombre',char,80,0,'',0,l('Articulo Nombre'),'',0 ]).
+attri_i(13,[ 'ArticuloId',int,11,0,'ZZZZZZZZZZ9',0,l('Articulo Id'),'',0 ]).
+attri_i(54,[ 'InventarioDetalleID',int,11,0,'ZZZZZZZZZZ9',0,l('Inventario Detalle ID'),'',0 ]).
+attri_i('Pgmname',[ 'Pgmname',char,129,0,'',1,l('Program name'),'',25 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',24 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',23 ]).
+attri_i('Gridappliedfilters',[ 'GridAppliedFilters',svchar,40,0,'',0,l('Grid Applied Filters'),'',22 ]).
+attri_i('Gridpagecount',[ 'GridPageCount',int,10,0,'ZZZZZZZZZ9',0,l('Grid Page Count'),'',21 ]).
+attri_i('Gridcurrentpage',[ 'GridCurrentPage',int,10,0,'ZZZZZZZZZ9',0,l('Grid Current Page'),'',20 ]).
+attri_i('Pagetogo',[ 'PageToGo',int,6,0,'ZZZZZ9',0,l('Page To Go'),'',19 ]).
+attri_i('Pagealreadyexecuted',[ 'PageAlreadyExecuted',boolean,4,0,'',0,l('Page Already Executed'),'',18 ]).
+attri_i('Ddo_titlesettingsicons',[ 'DDO_TitleSettingsIcons',o('WWPBaseObjects\DVB_SDTDropDownOptionsTitleSettingsIcons'),0,0,'',0,l('DDO_Title Settings Icons'),'',17 ]).
+attri_i('Session',[ 'Session',o(websession),4,0,'',0,l('Session'),'',16 ]).
+attri_i('Ordereddsc',[ 'OrderedDsc',boolean,4,0,'',0,l('Ordered Dsc'),'',15 ]).
+attri_i('Orderedby',[ 'OrderedBy',int,4,0,'ZZZ9',0,l('Ordered By'),'',14 ]).
+attri_i('Gridstatefiltervalue',[ 'GridStateFilterValue',o('WWPBaseObjects\WWPGridState.FilterValue'),0,0,'',0,l('Grid State Filter Value'),'',13 ]).
+attri_i('Gridstate',[ 'GridState',o('WWPBaseObjects\WWPGridState'),0,0,'',0,l('Grid State'),'',12 ]).
+attri_i('Trncontextatt',[ 'TrnContextAtt',o('WWPBaseObjects\WWPTransactionContext.Attribute'),0,0,'',0,l('Trn Context Att'),'',11 ]).
+attri_i('Trncontext',[ 'TrnContext',o('WWPBaseObjects\WWPTransactionContext'),0,0,'',0,l('Trn Context'),'',10 ]).
+attri_i('Httprequest',[ 'HTTPRequest',o(httprequest),4,0,'',0,l('HTTPRequest'),'',9 ]).
+attri_i('Inventarioid',[ 'InventarioID',int,11,0,'ZZZZZZZZZZ9',0,l('Inventario ID'),'',8 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,l('Security Functionality Keys'),'',7 ]).
+attri_i('Wwpcontext',[ 'WWPContext',o('WWPBaseObjects\WWPContext'),0,0,'',0,l('WWPContext'),'',6 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,l('Is Authorized'),'',5 ]).
+ 
+table_i(14,[ 'Articulo',[ 13,76,79 ],l('Articulo'),'Articulo' ]).
+table_i(50,[ 'InventarioDetalle',[ 53,54,13,259,262,263,264,261 ],l('Detalle'),'InventarioDetalle' ]).
+ 
+index_i(50,[ 'IINVENTARIODETALLE',u,[ 53,54 ],'IInventarioDetalle' ]).
+index_i(14,[ 'IARTICULO',u,[ 13 ],'IArticulo' ]).
+ 
+ 
+ 
+function_i(2,'Gridappliedfilters',yes,udp,o(1,'WWPBaseObjects\WWP_GetAppliedFiltersDescription'),[],34,'Gridappliedfilters',[ [ t('Pgmname',23) ] ]).
+function_i(2,'Ddo_titlesettingsicons',yes,udp,o(1,'WWPBaseObjects\GetWWPTitleSettingsIcons'),[],17,'Ddo_titlesettingsicons',[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+sql_no_eval_hor_i(2,260).
+ 
+add_att_i(bits,2,40000,231,'ArticuloImagen_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 53,23,'Inventarioid',= ] ],many ]).
+ 
+end_i(2,0,0,[ [ [ t(53,2),t(=,10),t('Inventarioid',23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+enum_value_i(2,242,'10','Rows',l('Rows'),[ none ]).
+ 
+enum_value_info_i(2,242,'Page').
+ 
+enum_type_i(2,242,int,4,0).
+ 
+dom_info_i(90,[ 'IDN11' ]).
+dom_info_i(192,[ 'Nombre' ]).
+dom_info_i(205,[ 'Stock' ]).
+dom_info_i(204,[ 'Monto' ]).
+dom_info_i(252,[ 'Serial' ]).
+dom_info_i(88,[ 'SecGAMFunctionalityKey' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [ 54,13,76,79,259,262,263,264,261,260,53 ],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,24).
+b_group_i(2,3,lit,0,25,40).
+b_group_i(2,4,lit,0,41,58).
+b_group_i(2,5,lit,0,59,69).
+b_group_i(2,6,lit,0,70,85).
+b_group_i(2,7,lit,0,86,95).
+b_group_i(2,8,lit,0,96,105).
+b_group_i(2,9,lit,0,106,127).
+b_group_i(2,10,lit,0,128,144).
+b_group_i(2,11,lit,0,145,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(6,2,2,cmd,2,[ t('',107,6,0),t([ t('Grid',3,2,0),t('Rows',3,2,0) ],29,2,0),t(=,10,2,0),t([ 242,'Rows' ],44,2,0) ]).
+b_line_i(7,2,2,cmd,2,[ t('',107,7,0),t([ t('Grid_empowerer',3,2,0),t('Gridinternalname',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Internalname',3,2,0) ],29,2,0) ]).
+b_line_i(8,2,2,cmd,2,[ t('',107,8,0),t([ t('Ddo_grid',3,2,0),t('Gridinternalname',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Internalname',3,2,0) ],29,2,0) ]).
+b_line_i(9,2,2,cmd,2,[ t('',107,9,0),t([ t(53,2,2,0),t('Visible',3,2,0) ],29,2,0),t(=,10,2,0),t('FALSE',41,2,0) ]).
+b_line_i(11,2,2,cmd,2,[ t('',145,11,0),t('''PREPARETRANSACTION''',3,11,5) ]).
+b_line_i(12,2,2,cmd,2,[ t('',145,12,0),t('''LOADGRIDSTATE''',3,12,5) ]).
+b_line_i(13,2,2,cmd,2,[ t('',109,13,0),t('Orderedby',23,2,5),t(<,10,2,16),t('1',3,2,18) ]).
+b_line_i(14,2,2,cmd,2,[ t('',107,14,0),t('Orderedby',23,2,0),t(=,10,2,0),t('1',3,2,0) ]).
+b_line_i(15,2,2,cmd,2,[ t('',145,15,0),t('''SETDDOSORTEDSTATUS''',3,15,6) ]).
+b_line_i(16,2,2,cmd,2,[ t('',111,16,0) ]).
+b_line_i(17,2,2,cmd,2,[ t('',107,17,0),t('Ddo_titlesettingsicons',23,2,0),t(=,10,2,0),t('udp(',1,2,0),t('Ddo_titlesettingsicons',3,2,0),t(17,3,2,0),t(')',4,2,0) ]).
+b_line_i(18,2,2,cmd,2,[ t('',107,18,0),t([ t('Gridpaginationbar',3,2,0),t('Rowsperpageselectedvalue',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Rows',3,2,0) ],29,2,0) ]).
+b_line_i(22,2,2,cmd,2,[ t('',147,22,0) ]).
+b_line_i(24,2,2,cmd,2,[ t('',146,24,0),t('Refresh',3,24,7) ]).
+b_line_i(28,2,3,cmd,2,[ t('',104,28,0),t(o(1,'WWPBaseObjects\LoadWWPContext'),28,2,2),t('Wwpcontext',23,2,23) ]).
+b_line_i(30,2,3,cmd,2,[ t('',145,30,0),t('''SAVEGRIDSTATE''',3,30,5) ]).
+b_line_i(32,2,3,cmd,2,[ t('',107,32,0),t('Gridcurrentpage',23,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Currentpage',3,2,0) ],29,2,0) ]).
+b_line_i(33,2,3,cmd,2,[ t('',107,33,0),t('Gridpagecount',23,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Pagecount',3,2,0) ],29,2,0) ]).
+b_line_i(34,2,3,cmd,2,[ t('',107,34,0),t('Gridappliedfilters',23,2,0),t(=,10,2,0),t('udp(',1,2,0),t('Gridappliedfilters',3,2,0),t(34,3,2,0),t('Pgmname',23,2,0),t(')',4,2,0) ]).
+b_line_i(38,2,3,cmd,2,[ t('',147,38,0) ]).
+b_line_i(40,2,3,cmd,2,[ t('',146,40,0),t([ t('Gridpaginationbar',3,40,7),t('Changepage',3,40,25) ],29,40,25) ]).
+b_line_i(44,2,4,cmd,2,[ t('',152,44,0) ]).
+b_line_i(45,2,4,cmd,2,[ t('',153,45,0),t([ t('Gridpaginationbar',3,45,8),t('Selectedpage',3,45,26) ],29,45,26),t(=,10,2,39),t('''Previous''',3,45,41) ]).
+b_line_i(46,2,4,cmd,2,[ t('',107,46,0),t([ t('Grid',3,46,4),t('previouspage(',1,46,9) ],31,46,9),t(')',4,2,23) ]).
+b_line_i(47,2,4,cmd,2,[ t('',153,47,0),t([ t('Gridpaginationbar',3,47,8),t('Selectedpage',3,47,26) ],29,47,26),t(=,10,2,39),t('''Next''',3,47,41) ]).
+b_line_i(48,2,4,cmd,2,[ t('',107,48,0),t([ t('Grid',3,48,4),t('nextpage(',1,48,9) ],31,48,9),t(')',4,2,19) ]).
+b_line_i(49,2,4,cmd,2,[ t('',164,49,0) ]).
+b_line_i(50,2,4,cmd,2,[ t('',107,50,0),t('Pagetogo',23,50,4),t(=,10,50,4),t('val(',1,50,4),t([ t('Gridpaginationbar',3,50,26),t('Selectedpage',3,50,44) ],29,50,44),t(')',4,2,56) ]).
+b_line_i(51,2,4,cmd,2,[ t('',107,51,0),t([ t('Grid',3,51,4),t('gotopage(',1,51,9) ],31,51,9),t('Pagetogo',23,2,19),t(')',4,2,28) ]).
+b_line_i(52,2,4,cmd,2,[ t('',154,52,0) ]).
+b_line_i(56,2,4,cmd,2,[ t('',147,56,0) ]).
+b_line_i(58,2,4,cmd,2,[ t('',146,58,0),t([ t('Gridpaginationbar',3,58,7),t('Changerowsperpage',3,58,25) ],29,58,25) ]).
+b_line_i(62,2,5,cmd,2,[ t('',107,62,0),t([ t('Grid',3,2,0),t('Rows',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Gridpaginationbar',3,2,0),t('Rowsperpageselectedvalue',3,2,0) ],29,2,0) ]).
+b_line_i(63,2,5,cmd,2,[ t('',107,63,0),t([ t('Grid',3,63,2),t('firstpage(',1,63,7) ],31,63,7),t(')',4,2,18) ]).
+b_line_i(67,2,5,cmd,2,[ t('',147,67,0) ]).
+b_line_i(69,2,5,cmd,2,[ t('',146,69,0),t([ t('Ddo_grid',3,69,7),t('Onoptionclicked',3,69,16) ],29,69,16) ]).
+b_line_i(73,2,6,cmd,2,[ t('',152,73,0) ]).
+b_line_i(74,2,6,cmd,2,[ t('',153,74,0),t([ t('Ddo_grid',3,74,8),t('Activeeventkey',3,74,17) ],29,74,17),t(=,10,2,32),t('''<#OrderASC#>''',3,74,34),t('.OR.',9,2,50),t([ t('Ddo_grid',3,74,55),t('Activeeventkey',3,74,64) ],29,74,64),t(=,10,2,79),t('''<#OrderDSC#>''',3,74,81) ]).
+b_line_i(75,2,6,cmd,2,[ t('',107,75,0),t('Orderedby',23,75,4),t(=,10,75,4),t('val(',1,75,4),t([ t('Ddo_grid',3,75,27),t('Selectedvalue_get',3,75,36) ],29,75,36),t(')',4,2,53) ]).
+b_line_i(76,2,6,cmd,2,[ t('',107,76,0),t('Ordereddsc',23,2,0),t(=,10,2,0),t('iif(',1,2,0),t([ t('Ddo_grid',3,2,0),t('Activeeventkey',3,2,0) ],29,2,0),t(=,10,2,0),t('''<#OrderDSC#>''',3,2,0),t(',',7,2,0),t('TRUE',40,2,0),t(',',7,2,0),t('FALSE',41,2,0),t(')',4,2,0) ]).
+b_line_i(77,2,6,cmd,2,[ t('',145,77,0),t('''SETDDOSORTEDSTATUS''',3,77,7) ]).
+b_line_i(78,2,6,cmd,2,[ t('',107,78,0),t([ t('Grid',3,78,4),t('firstpage(',1,78,9) ],31,78,9),t(')',4,2,20) ]).
+b_line_i(79,2,6,cmd,2,[ t('',154,79,0) ]).
+b_line_i(83,2,6,cmd,2,[ t('',147,83,0) ]).
+b_line_i(85,2,6,cmd,2,[ t('',146,85,0),t([ t('Grid',3,85,7),t('Load',3,85,12) ],29,85,12) ]).
+b_line_i(93,2,7,cmd,2,[ t('',107,93,0),t([ t('Grid',3,0,0),t('load(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(93,2,7,cmd,2,[ t('',147,93,0) ]).
+b_line_i(95,2,7,cmd,2,[ t('',143,95,0),t('''SETDDOSORTEDSTATUS''',3,95,5) ]).
+b_line_i(99,2,8,cmd,2,[ t('',107,99,0),t([ t('Ddo_grid',3,2,0),t('Sortedstatus',3,2,0) ],29,2,0),t(=,10,2,0),t('trim(',1,2,0),t('str(',1,2,0),t('Orderedby',23,2,0),t(',',7,2,0),t(4,3,2,0),t(',',7,2,0),t(0,3,2,0),t(')',4,2,0),t(')',4,2,0),t(+,5,2,0),t(''':''',3,2,0),t(+,5,2,0),t('iif(',1,2,0),t('Ordereddsc',23,2,0),t(',',7,2,0),t('''DSC''',3,2,0),t(',',7,2,0),t('''ASC''',3,2,0),t(')',4,2,0) ]).
+b_line_i(103,2,8,cmd,2,[ t('',144,103,0) ]).
+b_line_i(105,2,8,cmd,2,[ t('',143,105,0),t('''LOADGRIDSTATE''',3,105,5) ]).
+b_line_i(110,2,9,cmd,2,[ t('',109,110,0),t([ t('Session',23,2,5),t('get(',1,2,14) ],31,110,14),t('Pgmname',23,2,19),t(+,5,2,28),t('"GridState"',3,110,30),t(')',4,2,42),t(=,10,2,44),t('""',3,110,46) ]).
+b_line_i(111,2,9,cmd,2,[ t('',107,111,0),t([ t('Gridstate',23,111,3),t('fromxml(',1,111,14) ],31,111,3),t('udp(',1,111,37),t(o(1,'WWPBaseObjects\LoadGridState'),28,111,23),t(',',7,2,0),t('Pgmname',23,2,42),t(+,5,2,51),t('"GridState"',3,111,53),t(')',4,2,0),t(')',4,2,66) ]).
+b_line_i(112,2,9,cmd,2,[ t('',110,112,0) ]).
+b_line_i(113,2,9,cmd,2,[ t('',107,113,0),t([ t('Gridstate',23,113,3),t('fromxml(',1,113,14) ],31,113,3),t([ t('Session',23,2,23),t('get(',1,2,32) ],31,113,32),t('Pgmname',23,2,37),t(+,5,2,46),t('"GridState"',3,113,48),t(')',4,2,60),t(')',4,2,61) ]).
+b_line_i(114,2,9,cmd,2,[ t('',111,114,0) ]).
+b_line_i(116,2,9,cmd,2,[ t('',107,116,0),t('Orderedby',23,2,0),t(=,10,2,0),t([ t('Gridstate',23,2,0),t('Orderedby',3,2,0) ],29,2,0) ]).
+b_line_i(117,2,9,cmd,2,[ t('',107,117,0),t('Ordereddsc',23,2,0),t(=,10,2,0),t([ t('Gridstate',23,2,0),t('Ordereddsc',3,2,0) ],29,2,0) ]).
+b_line_i(118,2,9,cmd,2,[ t('',145,118,0),t('''SETDDOSORTEDSTATUS''',3,118,5) ]).
+b_line_i(119,2,9,cmd,2,[ t('',109,119,0),t('.NOT.',8,2,5),t('null(',1,119,39),t('trim(',1,2,31),t([ t('Gridstate',23,119,11),t('Pagesize',3,119,22) ],29,119,22),t(')',4,2,37),t(')',4,2,48) ]).
+b_line_i(120,2,9,cmd,2,[ t('',107,120,0),t([ t('Grid',3,2,0),t('Rows',3,2,0) ],29,2,0),t(=,10,2,0),t('val(',1,2,0),t([ t('Gridstate',23,2,0),t('Pagesize',3,2,0) ],29,2,0),t(')',4,2,0) ]).
+b_line_i(121,2,9,cmd,2,[ t('',111,121,0) ]).
+b_line_i(125,2,9,cmd,2,[ t('',144,125,0) ]).
+b_line_i(127,2,9,cmd,2,[ t('',143,127,0),t('''SAVEGRIDSTATE''',3,127,5) ]).
+b_line_i(131,2,10,cmd,2,[ t('',107,131,0),t([ t('Gridstate',23,131,2),t('fromxml(',1,131,13) ],31,131,2),t([ t('Session',23,2,22),t('get(',1,2,31) ],31,131,31),t('Pgmname',23,2,36),t(+,5,2,45),t('"GridState"',3,131,47),t(')',4,2,59),t(')',4,2,60) ]).
+b_line_i(134,2,10,cmd,2,[ t('',107,134,0),t([ t('Gridstate',23,2,0),t('Orderedby',3,2,0) ],29,2,0),t(=,10,2,0),t('Orderedby',23,2,0) ]).
+b_line_i(135,2,10,cmd,2,[ t('',107,135,0),t([ t('Gridstate',23,2,0),t('Ordereddsc',3,2,0) ],29,2,0),t(=,10,2,0),t('Ordereddsc',23,2,0) ]).
+b_line_i(137,2,10,cmd,2,[ t('',107,137,0),t([ t('Gridstate',23,2,0),t('Pagesize',3,2,0) ],29,2,0),t(=,10,2,0),t('str(',1,2,0),t([ t('Grid',3,2,0),t('Rows',3,2,0) ],29,2,0),t(')',4,2,0) ]).
+b_line_i(138,2,10,cmd,2,[ t('',104,138,0),t(o(1,'WWPBaseObjects\SaveGridState'),28,2,2),t('Pgmname',23,2,22),t(+,5,2,31),t('"GridState"',3,138,33),t(',',7,2,0),t([ t('Gridstate',23,2,48),t('toxml(',1,2,59) ],31,138,59),t(')',4,2,66) ]).
+b_line_i(142,2,10,cmd,2,[ t('',144,142,0) ]).
+b_line_i(144,2,10,cmd,2,[ t('',143,144,0),t('''PREPARETRANSACTION''',3,144,5) ]).
+b_line_i(148,2,11,cmd,2,[ t('',107,148,0),t('Trncontext',23,2,0),t(=,10,2,0),t([ 'WWPBaseObjects\WWPTransactionContext',[ t('(',0,148,19),t(')',4,148,20) ],n ],46,2,0) ]).
+b_line_i(149,2,11,cmd,2,[ t('',107,149,0),t([ t('Trncontext',23,2,0),t('Callerobject',3,2,0) ],29,2,0),t(=,10,2,0),t('Pgmname',23,2,0) ]).
+b_line_i(150,2,11,cmd,2,[ t('',107,150,0),t([ t('Trncontext',23,2,0),t('Callerondelete',3,2,0) ],29,2,0),t(=,10,2,0),t('TRUE',40,2,0) ]).
+b_line_i(151,2,11,cmd,2,[ t('',107,151,0),t([ t('Trncontext',23,2,0),t('Callerurl',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Httprequest',23,2,0),t('Scriptname',3,2,0) ],29,2,0),t(+,5,2,0),t('"?"',3,2,0),t(+,5,2,0),t([ t('Httprequest',23,2,0),t('Querystring',3,2,0) ],29,2,0) ]).
+b_line_i(152,2,11,cmd,2,[ t('',107,152,0),t([ t('Trncontext',23,2,0),t('Transactionname',3,2,0) ],29,2,0),t(=,10,2,0),t('"Inventario"',3,2,0) ]).
+b_line_i(154,2,11,cmd,2,[ t('',107,154,0),t('Trncontextatt',23,2,0),t(=,10,2,0),t([ 'WWPBaseObjects\WWPTransactionContext.Attribute',[ t('(',0,154,22),t(')',4,154,23) ],n ],46,2,0) ]).
+b_line_i(155,2,11,cmd,2,[ t('',107,155,0),t([ t('Trncontextatt',23,2,0),t('Attributename',3,2,0) ],29,2,0),t(=,10,2,0),t('"InventarioID"',3,2,0) ]).
+b_line_i(156,2,11,cmd,2,[ t('',107,156,0),t([ t('Trncontextatt',23,2,0),t('Attributevalue',3,2,0) ],29,2,0),t(=,10,2,0),t('str(',1,2,0),t('Inventarioid',23,2,0),t(',',7,2,0),t(11,3,2,0),t(',',7,2,0),t(0,3,2,0),t(')',4,2,0) ]).
+b_line_i(157,2,11,cmd,2,[ t('',107,157,0),t([ t('Trncontext',23,157,13),t('Attributes',3,157,25),t('add(',1,157,36) ],31,157,13),t('Trncontextatt',23,2,41),t(')',4,2,55) ]).
+b_line_i(159,2,11,cmd,2,[ t('',107,159,0),t([ t('Session',23,159,2),t('set(',1,159,11) ],31,159,2),t('"TrnContext"',3,159,16),t(',',7,2,29),t([ t('Trncontext',23,2,31),t('toxml(',1,2,43) ],31,159,43),t(')',4,2,50),t(')',4,2,51) ]).
+b_line_i(163,2,11,cmd,2,[ t('',144,163,0) ]).
+ 
+sf_break_i(15,2).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,div(2)).
+ 
+html_sub_i(2,3,html_i(0,div(3))).
+html_sub_i(3,4,html_i(0,div(4))).
+html_sub_i(4,5,html_i(0,div(5))).
+html_sub_i(5,6,html_i(0,div(6))).
+html_sub_i(6,7,html_i(0,div(7))).
+html_sub_i(7,8,html_i(0,div(8))).
+html_sub_i(8,9,html_i(0,comp(errview))).
+html_sub_i(6,10,html_i(1,div(10))).
+html_sub_i(10,11,html_i(0,div(11))).
+html_sub_i(11,12,html_i(0,div(12))).
+html_sub_i(12,13,html_i(0,div(13))).
+html_sub_i(13,14,html_i(0,div(14))).
+html_sub_i(14,15,html_i(0,s(15))).
+html_sub_i(12,26,html_i(1,div(26))).
+html_sub_i(26,27,html_i(0,div(27))).
+html_sub_i(27,28,html_i(0,usercontrol(28))).
+html_sub_i(3,29,html_i(1,div(29))).
+html_sub_i(29,30,html_i(0,div(30))).
+html_sub_i(30,31,html_i(0,div(31))).
+html_sub_i(31,32,html_i(0,usercontrol(32))).
+html_sub_i(31,33,html_i(1,t(53,2))).
+html_sub_i(31,34,html_i(2,usercontrol(34))).
+ 
+html_tags_i(1,'Class','form-horizontal Form').
+html_tags_i(2,'data-gx-base-lib',bootstrapv3).
+html_tags_i(2,'data-abstract-form','').
+ 
+html_comp_i(9,'Backcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Class','Section',d,[ str ]).
+html_comp_i(2,'Id','',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Semanticcontent',div,d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Valign',top,d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Class','Table',v,[ str ]).
+html_comp_i(3,'Id','Layoutmaintable',v,[ str ]).
+html_comp_i(3,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Semanticcontent',div,d,[ str ]).
+html_comp_i(3,'Align',left,d,[ str ]).
+html_comp_i(3,'Valign',top,d,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Class',row,v,[ str ]).
+html_comp_i(4,'Id','',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Semanticcontent',div,d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Valign',top,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Class','col-xs-12',v,[ str ]).
+html_comp_i(5,'Id','',d,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Semanticcontent',div,d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Valign',top,d,[ str ]).
+html_comp_i(6,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(6,'Class','',v,[ str ]).
+html_comp_i(6,'Id','Tablegridheader',v,[ str ]).
+html_comp_i(6,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Semanticcontent',div,d,[ str ]).
+html_comp_i(6,'Align',left,d,[ str ]).
+html_comp_i(6,'Valign',top,d,[ str ]).
+html_comp_i(7,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(7,'Class',row,v,[ str ]).
+html_comp_i(7,'Id','',d,[ str ]).
+html_comp_i(7,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Semanticcontent',div,d,[ str ]).
+html_comp_i(7,'Align',left,d,[ str ]).
+html_comp_i(7,'Valign',top,d,[ str ]).
+html_comp_i(8,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(8,'Class','col-xs-12',v,[ str ]).
+html_comp_i(8,'Id','',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Semanticcontent',div,d,[ str ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Valign',top,d,[ str ]).
+html_comp_i(9,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(9,'Controlname','Errorviewer',v,[ str ]).
+html_comp_i(9,'Class','ErrorViewer',v,[ str ]).
+html_comp_i(9,'Displaymode',1,d,[ num ]).
+html_comp_i(9,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(9,'Font',font('Microsoft Sans Serif',10,[]),d,[ font ]).
+html_comp_i(9,'Fill',-1,d,[ bool ]).
+html_comp_i(10,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(10,'Class',row,v,[ str ]).
+html_comp_i(10,'Id','',d,[ str ]).
+html_comp_i(10,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(10,'Semanticcontent',div,d,[ str ]).
+html_comp_i(10,'Align',left,d,[ str ]).
+html_comp_i(10,'Valign',top,d,[ str ]).
+html_comp_i(11,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(11,'Class','col-xs-12 SectionGrid GridNoBorderCell GridFixedColumnBorders HasGridEmpowerer',v,[ str ]).
+html_comp_i(11,'Id','',d,[ str ]).
+html_comp_i(11,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Semanticcontent',div,d,[ str ]).
+html_comp_i(11,'Align',left,d,[ str ]).
+html_comp_i(11,'Valign',top,d,[ str ]).
+html_comp_i(12,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(12,'Class','Table',v,[ str ]).
+html_comp_i(12,'Id','Gridtablewithpaginationbar',v,[ str ]).
+html_comp_i(12,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Semanticcontent',div,d,[ str ]).
+html_comp_i(12,'Align',left,d,[ str ]).
+html_comp_i(12,'Valign',top,d,[ str ]).
+html_comp_i(13,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(13,'Class',row,v,[ str ]).
+html_comp_i(13,'Id','',d,[ str ]).
+html_comp_i(13,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Semanticcontent',div,d,[ str ]).
+html_comp_i(13,'Align',left,d,[ str ]).
+html_comp_i(13,'Valign',top,d,[ str ]).
+html_comp_i(14,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(14,'Class','col-xs-12',v,[ str ]).
+html_comp_i(14,'Id','',d,[ str ]).
+html_comp_i(14,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Semanticcontent',div,d,[ str ]).
+html_comp_i(14,'Align',left,d,[ str ]).
+html_comp_i(14,'Valign',top,d,[ str ]).
+html_comp_i(15,'Isabstractlayoutcontrol',-1,v,[ bool ]).
+html_comp_i(15,'Controlname','Grid',v,[ str ]).
+html_comp_i(15,'Controlwhere','',d,[ str ]).
+html_comp_i(15,'Controlunique','',d,[ str ]).
+html_comp_i(15,'Save_state',0,d,[ bool ]).
+html_comp_i(15,'Iddataselector','',d,[ str ]).
+html_comp_i(15,'Sflrender','',d,[ str ]).
+html_comp_i(15,'Class','GridWithPaginationBar WorkWith',v,[ str ]).
+html_comp_i(15,'Prop_emptydatasettext','',d,[ str ]).
+html_comp_i(15,'Autoresize',-1,d,[ bool ]).
+html_comp_i(15,'Gxwidth',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Gxheight',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Maxcols',1,d,[ num ]).
+html_comp_i(15,'Maxrows',0,d,[ num ]).
+html_comp_i(15,'Header','',d,[ str ]).
+html_comp_i(15,'Title','',d,[ str ]).
+html_comp_i(15,'Linescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(15,'Linesfont',font('Courier New',9,[]),d,[ font ]).
+html_comp_i(15,'Titlecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(15,'Titlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(15,'Align',left,d,[ str ]).
+html_comp_i(15,'Cellpadding','1',d,[ str ]).
+html_comp_i(15,'Cellspacing','2',d,[ str ]).
+html_comp_i(15,'Sortable',0,v,[ bool ]).
+html_comp_i(15,'Allowdrop',0,d,[ bool ]).
+html_comp_i(15,'Allowdrag',0,d,[ bool ]).
+html_comp_i(15,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(15,'Allowcollapsing',0,d,[ bool ]).
+html_comp_i(15,'Allowselection',0,d,[ bool ]).
+html_comp_i(16,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(16,'Colcount',11,d,[ num ]).
+html_comp_i(16,'Colattid',54,v,[ num ]).
+html_comp_i(16,'Controlname','Inventariodetalleid',d,[ str ]).
+html_comp_i(16,'Class','AttributeRealWidth',v,[ str ]).
+html_comp_i(16,'Columnclass','WWColumn',v,[ str ]).
+html_comp_i(16,'Returnonclick',0,d,[ bool ]).
+html_comp_i(16,'Eventgx','',d,[ str ]).
+html_comp_i(16,'Controltype',2,d,[ num ]).
+html_comp_i(16,'Inputtype',0,d,[ num ]).
+html_comp_i(16,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(16,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(16,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(16,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(16,'Ispassword',0,d,[ bool ]).
+html_comp_i(16,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(16,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(16,'Collinesfont',font('Courier New',9,[]),d,[ font ]).
+html_comp_i(16,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(16,'Coltitle',l('Inventario Detalle ID'),d,[ str ]).
+html_comp_i(16,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(16,'Coltitlecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(16,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(16,'Gxformat',0,d,[ num ]).
+html_comp_i(16,'Colvisible',-1,d,[ bool ]).
+html_comp_i(16,'Title','',d,[ str ]).
+html_comp_i(16,'Invitemsg','',d,[ str ]).
+html_comp_i(17,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(17,'Colcount',11,d,[ num ]).
+html_comp_i(17,'Colattid',13,v,[ num ]).
+html_comp_i(17,'Controlname','Articuloid',d,[ str ]).
+html_comp_i(17,'Class','AttributeRealWidth',v,[ str ]).
+html_comp_i(17,'Columnclass','WWColumn hidden-xs',v,[ str ]).
+html_comp_i(17,'Returnonclick',0,d,[ bool ]).
+html_comp_i(17,'Eventgx','',d,[ str ]).
+html_comp_i(17,'Controltype',2,d,[ num ]).
+html_comp_i(17,'Inputtype',0,d,[ num ]).
+html_comp_i(17,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(17,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(17,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(17,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(17,'Ispassword',0,d,[ bool ]).
+html_comp_i(17,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(17,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(17,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(17,'Collinesfont',font('Courier New',9,[]),d,[ font ]).
+html_comp_i(17,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(17,'Coltitle',l('Articulo Id'),d,[ str ]).
+html_comp_i(17,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(17,'Coltitlecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(17,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(17,'Gxformat',0,d,[ num ]).
+html_comp_i(17,'Colvisible',-1,d,[ bool ]).
+html_comp_i(17,'Title','',d,[ str ]).
+html_comp_i(17,'Invitemsg','',d,[ str ]).
+html_comp_i(18,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(18,'Colcount',80,d,[ num ]).
+html_comp_i(18,'Colattid',76,v,[ num ]).
+html_comp_i(18,'Controlname','Articulonombre',d,[ str ]).
+html_comp_i(18,'Class','AttributeRealWidth',v,[ str ]).
+html_comp_i(18,'Columnclass','WWColumn hidden-xs',v,[ str ]).
+html_comp_i(18,'Returnonclick',0,d,[ bool ]).
+html_comp_i(18,'Eventgx','',d,[ str ]).
+html_comp_i(18,'Controltype',2,d,[ num ]).
+html_comp_i(18,'Inputtype',0,d,[ num ]).
+html_comp_i(18,'Editautocomplete',0,d,[ num ]).
+html_comp_i(18,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(18,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(18,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(18,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(18,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(18,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(18,'Ispassword',0,d,[ bool ]).
+html_comp_i(18,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(18,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(18,'Collinesfont',font('Courier New',9,[]),d,[ font ]).
+html_comp_i(18,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(18,'Coltitle',l('Articulo Nombre'),d,[ str ]).
+html_comp_i(18,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(18,'Coltitlecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(18,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(18,'Gxformat',0,d,[ num ]).
+html_comp_i(18,'Colvisible',-1,d,[ bool ]).
+html_comp_i(18,'Title','',d,[ str ]).
+html_comp_i(18,'Invitemsg','',d,[ str ]).
+html_comp_i(19,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(19,'Colcount',10,d,[ num ]).
+html_comp_i(19,'Colattid',79,v,[ num ]).
+html_comp_i(19,'Controlname','Articulostock',d,[ str ]).
+html_comp_i(19,'Class','AttributeRealWidth',v,[ str ]).
+html_comp_i(19,'Columnclass','WWColumn hidden-xs',v,[ str ]).
+html_comp_i(19,'Returnonclick',0,d,[ bool ]).
+html_comp_i(19,'Eventgx','',d,[ str ]).
+html_comp_i(19,'Controltype',2,d,[ num ]).
+html_comp_i(19,'Inputtype',0,d,[ num ]).
+html_comp_i(19,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(19,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(19,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(19,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(19,'Ispassword',0,d,[ bool ]).
+html_comp_i(19,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(19,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(19,'Collinesfont',font('Courier New',9,[]),d,[ font ]).
+html_comp_i(19,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(19,'Coltitle',l('Articulo Stock'),d,[ str ]).
+html_comp_i(19,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(19,'Coltitlecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(19,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(19,'Gxformat',0,d,[ num ]).
+html_comp_i(19,'Colvisible',-1,d,[ bool ]).
+html_comp_i(19,'Title','',d,[ str ]).
+html_comp_i(19,'Invitemsg','',d,[ str ]).
+html_comp_i(20,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(20,'Colcount',10,d,[ num ]).
+html_comp_i(20,'Colattid',259,v,[ num ]).
+html_comp_i(20,'Controlname','Inventariodetallestock',d,[ str ]).
+html_comp_i(20,'Class','AttributeRealWidth',v,[ str ]).
+html_comp_i(20,'Columnclass','WWColumn hidden-xs',v,[ str ]).
+html_comp_i(20,'Returnonclick',0,d,[ bool ]).
+html_comp_i(20,'Eventgx','',d,[ str ]).
+html_comp_i(20,'Controltype',2,d,[ num ]).
+html_comp_i(20,'Inputtype',0,d,[ num ]).
+html_comp_i(20,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(20,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(20,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(20,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(20,'Ispassword',0,d,[ bool ]).
+html_comp_i(20,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(20,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(20,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(20,'Collinesfont',font('Courier New',9,[]),d,[ font ]).
+html_comp_i(20,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(20,'Coltitle',l('Detalle Stock'),d,[ str ]).
+html_comp_i(20,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(20,'Coltitlecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(20,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(20,'Gxformat',0,d,[ num ]).
+html_comp_i(20,'Colvisible',-1,d,[ bool ]).
+html_comp_i(20,'Title','',d,[ str ]).
+html_comp_i(20,'Invitemsg','',d,[ str ]).
+html_comp_i(21,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(21,'Colcount',10,d,[ num ]).
+html_comp_i(21,'Colattid',262,v,[ num ]).
+html_comp_i(21,'Controlname','Inventariodetallestock2',d,[ str ]).
+html_comp_i(21,'Class','AttributeRealWidth',v,[ str ]).
+html_comp_i(21,'Columnclass','WWColumn hidden-xs',v,[ str ]).
+html_comp_i(21,'Returnonclick',0,d,[ bool ]).
+html_comp_i(21,'Eventgx','',d,[ str ]).
+html_comp_i(21,'Controltype',2,d,[ num ]).
+html_comp_i(21,'Inputtype',0,d,[ num ]).
+html_comp_i(21,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(21,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(21,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(21,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(21,'Ispassword',0,d,[ bool ]).
+html_comp_i(21,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(21,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(21,'Collinesfont',font('Courier New',9,[]),d,[ font ]).
+html_comp_i(21,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(21,'Coltitle',l('Detalle Stock2'),d,[ str ]).
+html_comp_i(21,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(21,'Coltitlecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(21,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(21,'Gxformat',0,d,[ num ]).
+html_comp_i(21,'Colvisible',-1,d,[ bool ]).
+html_comp_i(21,'Title','',d,[ str ]).
+html_comp_i(21,'Invitemsg','',d,[ str ]).
+html_comp_i(22,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(22,'Colcount',10,d,[ num ]).
+html_comp_i(22,'Colattid',263,v,[ num ]).
+html_comp_i(22,'Controlname','Inventariodetallestock3',d,[ str ]).
+html_comp_i(22,'Class','AttributeRealWidth',v,[ str ]).
+html_comp_i(22,'Columnclass','WWColumn hidden-xs',v,[ str ]).
+html_comp_i(22,'Returnonclick',0,d,[ bool ]).
+html_comp_i(22,'Eventgx','',d,[ str ]).
+html_comp_i(22,'Controltype',2,d,[ num ]).
+html_comp_i(22,'Inputtype',0,d,[ num ]).
+html_comp_i(22,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(22,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(22,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(22,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(22,'Ispassword',0,d,[ bool ]).
+html_comp_i(22,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(22,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(22,'Collinesfont',font('Courier New',9,[]),d,[ font ]).
+html_comp_i(22,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(22,'Coltitle',l('Detalle Stock3'),d,[ str ]).
+html_comp_i(22,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(22,'Coltitlecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(22,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(22,'Gxformat',0,d,[ num ]).
+html_comp_i(22,'Colvisible',-1,d,[ bool ]).
+html_comp_i(22,'Title','',d,[ str ]).
+html_comp_i(22,'Invitemsg','',d,[ str ]).
+html_comp_i(23,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(23,'Colcount',10,d,[ num ]).
+html_comp_i(23,'Colattid',264,v,[ num ]).
+html_comp_i(23,'Controlname','Inventariodetallestock4',d,[ str ]).
+html_comp_i(23,'Class','AttributeRealWidth',v,[ str ]).
+html_comp_i(23,'Columnclass','WWColumn hidden-xs',v,[ str ]).
+html_comp_i(23,'Returnonclick',0,d,[ bool ]).
+html_comp_i(23,'Eventgx','',d,[ str ]).
+html_comp_i(23,'Controltype',2,d,[ num ]).
+html_comp_i(23,'Inputtype',0,d,[ num ]).
+html_comp_i(23,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(23,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(23,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(23,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(23,'Ispassword',0,d,[ bool ]).
+html_comp_i(23,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(23,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(23,'Collinesfont',font('Courier New',9,[]),d,[ font ]).
+html_comp_i(23,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(23,'Coltitle',l('Detalle Stock4'),d,[ str ]).
+html_comp_i(23,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(23,'Coltitlecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(23,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(23,'Gxformat',0,d,[ num ]).
+html_comp_i(23,'Colvisible',-1,d,[ bool ]).
+html_comp_i(23,'Title','',d,[ str ]).
+html_comp_i(23,'Invitemsg','',d,[ str ]).
+html_comp_i(24,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(24,'Colcount',10,d,[ num ]).
+html_comp_i(24,'Colattid',261,v,[ num ]).
+html_comp_i(24,'Controlname','Inventariodetallestockok',d,[ str ]).
+html_comp_i(24,'Class','AttributeRealWidth',v,[ str ]).
+html_comp_i(24,'Columnclass','WWColumn hidden-xs',v,[ str ]).
+html_comp_i(24,'Returnonclick',0,d,[ bool ]).
+html_comp_i(24,'Eventgx','',d,[ str ]).
+html_comp_i(24,'Controltype',2,d,[ num ]).
+html_comp_i(24,'Inputtype',0,d,[ num ]).
+html_comp_i(24,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(24,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(24,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(24,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(24,'Ispassword',0,d,[ bool ]).
+html_comp_i(24,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(24,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(24,'Collinesfont',font('Courier New',9,[]),d,[ font ]).
+html_comp_i(24,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(24,'Coltitle',l('Stock Ok'),d,[ str ]).
+html_comp_i(24,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(24,'Coltitlecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(24,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(24,'Gxformat',0,d,[ num ]).
+html_comp_i(24,'Colvisible',-1,d,[ bool ]).
+html_comp_i(24,'Title','',d,[ str ]).
+html_comp_i(24,'Invitemsg','',d,[ str ]).
+html_comp_i(25,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(25,'Colcount',10,d,[ num ]).
+html_comp_i(25,'Colattid',260,v,[ num ]).
+html_comp_i(25,'Controlname','Inventariodetallediferencia',d,[ str ]).
+html_comp_i(25,'Class','AttributeRealWidth',v,[ str ]).
+html_comp_i(25,'Columnclass','WWColumn hidden-xs',v,[ str ]).
+html_comp_i(25,'Returnonclick',0,d,[ bool ]).
+html_comp_i(25,'Eventgx','',d,[ str ]).
+html_comp_i(25,'Controltype',2,d,[ num ]).
+html_comp_i(25,'Inputtype',0,d,[ num ]).
+html_comp_i(25,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(25,'Colreadonly',-1,d,[ bool ]).
+html_comp_i(25,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(25,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(25,'Ispassword',0,d,[ bool ]).
+html_comp_i(25,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(25,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(25,'Collinesfont',font('Courier New',9,[]),d,[ font ]).
+html_comp_i(25,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(25,'Coltitle',l('Detalle Diferencia'),d,[ str ]).
+html_comp_i(25,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(25,'Coltitlecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(25,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(25,'Gxformat',0,d,[ num ]).
+html_comp_i(25,'Colvisible',-1,d,[ bool ]).
+html_comp_i(25,'Title','',d,[ str ]).
+html_comp_i(25,'Invitemsg','',d,[ str ]).
+html_comp_i(26,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(26,'Class',row,v,[ str ]).
+html_comp_i(26,'Id','',d,[ str ]).
+html_comp_i(26,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Semanticcontent',div,d,[ str ]).
+html_comp_i(26,'Align',left,d,[ str ]).
+html_comp_i(26,'Valign',top,d,[ str ]).
+html_comp_i(27,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(27,'Class','col-xs-12',v,[ str ]).
+html_comp_i(27,'Id','',d,[ str ]).
+html_comp_i(27,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(27,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(27,'Semanticcontent',div,d,[ str ]).
+html_comp_i(27,'Align',left,d,[ str ]).
+html_comp_i(27,'Valign',top,d,[ str ]).
+html_comp_i(28,'Usercontroltype','DVelop.DVPaginationBar',d,[ str ]).
+html_comp_i(28,'Constructorname','DVelop_DVPaginationBar',d,[ str ]).
+html_comp_i(28,'Showmethodname',show,d,[ str ]).
+html_comp_i(28,'Controlname','GridPaginationBar',v,[ str ]).
+html_comp_i(28,'Class','PaginationBar',v,[ str ]).
+html_comp_i(28,'Showfirst',0,v,[ bool ]).
+html_comp_i(28,'Showprevious',-1,v,[ bool ]).
+html_comp_i(28,'Shownext',-1,v,[ bool ]).
+html_comp_i(28,'Showlast',0,v,[ bool ]).
+html_comp_i(28,'Pagestoshow',5,v,[ num ]).
+html_comp_i(28,'Pagingbuttonsposition','Right',v,[ str ]).
+html_comp_i(28,'Pagingcaptionposition','Left',v,[ str ]).
+html_comp_i(28,'Emptygridclass','PaginationBarEmptyGrid',v,[ str ]).
+html_comp_i(28,'Rowsperpageselector',-1,v,[ bool ]).
+html_comp_i(28,'Rowsperpageselectedvalue',10,d,[ num ]).
+html_comp_i(28,'Rowsperpageoptions','5:WWP_Rows5,10:WWP_Rows10,20:WWP_Rows20,50:WWP_Rows50',v,[ str ]).
+html_comp_i(28,'First','First',d,[ str ]).
+html_comp_i(28,'Previous','WWP_PagingPreviousCaption',v,[ str ]).
+html_comp_i(28,'Next','WWP_PagingNextCaption',v,[ str ]).
+html_comp_i(28,'Last','Last',d,[ str ]).
+html_comp_i(28,'Caption',l('WWP_PagingCaption'),v,[ str ]).
+html_comp_i(28,'Emptygridcaption','WWP_PagingEmptyGridCaption',v,[ str ]).
+html_comp_i(28,'Rowsperpagecaption','WWP_PagingRowsPerPage',v,[ str ]).
+html_comp_i(28,'Currentpage',[ t('Gridcurrentpage',23) ],v,[ params ]).
+html_comp_i(28,'Pagecount',[ t('Gridpagecount',23) ],v,[ params ]).
+html_comp_i(28,'Recordcount','',d,[ str ]).
+html_comp_i(28,'Page','',d,[ str ]).
+html_comp_i(28,'Appliedfilters',[ t('Gridappliedfilters',23) ],v,[ params ]).
+html_comp_i(28,'Setcurrentpage','SetCurrentPage',d,[ str ]).
+html_comp_i(28,'Getcurrentpage','GetCurrentPage',d,[ str ]).
+html_comp_i(28,'Setpagecount','SetPageCount',d,[ str ]).
+html_comp_i(28,'Getpagecount','GetPageCount',d,[ str ]).
+html_comp_i(28,'Setrecordcount','SetRecordCount',d,[ str ]).
+html_comp_i(28,'Getrecordcount','GetRecordCount',d,[ str ]).
+html_comp_i(28,'Setpage','SetPage',d,[ str ]).
+html_comp_i(28,'Getpage','GetPage',d,[ str ]).
+html_comp_i(28,'Setappliedfilters','SetAppliedFilters',d,[ str ]).
+html_comp_i(28,'Getappliedfilters','GetAppliedFilters',d,[ str ]).
+html_comp_i(28,'Visible',-1,d,[ bool ]).
+html_comp_i(28,'Csssupportfiles',[ [ t('''DVelop\DVPaginationBar\DVPaginationBar.css''',3) ] ],d,[ params ]).
+html_comp_i(28,'Jssupportfiles',[ [ t('''DVelop\Bootstrap\Shared\DVelopBootstrap.js''',3) ],[ t('''DVelop\Shared\WorkWithPlusCommon.js''',3) ],[ t('''DVelop\DVPaginationBar\DVPaginationBarRender.js''',3) ] ],d,[ params ]).
+html_comp_i(28,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(28,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(29,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(29,'Class',row,v,[ str ]).
+html_comp_i(29,'Id','',d,[ str ]).
+html_comp_i(29,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(29,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(29,'Semanticcontent',div,d,[ str ]).
+html_comp_i(29,'Align',left,d,[ str ]).
+html_comp_i(29,'Valign',top,d,[ str ]).
+html_comp_i(30,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(30,'Class','col-xs-12',v,[ str ]).
+html_comp_i(30,'Id','',d,[ str ]).
+html_comp_i(30,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(30,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(30,'Semanticcontent',div,d,[ str ]).
+html_comp_i(30,'Align',left,d,[ str ]).
+html_comp_i(30,'Valign',top,d,[ str ]).
+html_comp_i(31,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(31,'Class','Section',d,[ str ]).
+html_comp_i(31,'Id','Html_bottomauxiliarcontrols',v,[ str ]).
+html_comp_i(31,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(31,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(31,'Semanticcontent',div,d,[ str ]).
+html_comp_i(31,'Align',left,d,[ str ]).
+html_comp_i(31,'Valign',top,d,[ str ]).
+html_comp_i(32,'Usercontroltype','DVelop.GXBootstrap.DDOGridTitleSettingsM',d,[ str ]).
+html_comp_i(32,'Constructorname','DDOGridTitleSettingsM',d,[ str ]).
+html_comp_i(32,'Showmethodname',show,d,[ str ]).
+html_comp_i(32,'Controlname','DDO_Grid',v,[ str ]).
+html_comp_i(32,'Icontype','Image',d,[ str ]).
+html_comp_i(32,'Icon','',d,[ str ]).
+html_comp_i(32,'Caption','',v,[ str ]).
+html_comp_i(32,'Tooltip','',d,[ str ]).
+html_comp_i(32,'Cls','',d,[ str ]).
+html_comp_i(32,'Titlecontrolalign','',d,[ str ]).
+html_comp_i(32,'Visible','',d,[ str ]).
+html_comp_i(32,'Gridinternalname','',d,[ str ]).
+html_comp_i(32,'Columnids','0:InventarioDetalleID|1:ArticuloId|2:ArticuloNombre|3:ArticuloStock|4:InventarioDetalleStock|5:InventarioDetalleStock2|6:InventarioDetalleStock3|7:InventarioDetalleStock4|8:InventarioDetalleStockOk',v,[ str ]).
+html_comp_i(32,'Columnssortvalues','1|2|3|4|5|6|7|8|9',v,[ str ]).
+html_comp_i(32,'Includesortasc','T',v,[ str ]).
+html_comp_i(32,'Includesortdsc','',d,[ str ]).
+html_comp_i(32,'Allowgroup','',d,[ str ]).
+html_comp_i(32,'Fixable','',d,[ str ]).
+html_comp_i(32,'Includefilter','',d,[ str ]).
+html_comp_i(32,'Filtertype','',d,[ str ]).
+html_comp_i(32,'Filterisrange','',d,[ str ]).
+html_comp_i(32,'Includedatalist','',d,[ str ]).
+html_comp_i(32,'Datalisttype','',d,[ str ]).
+html_comp_i(32,'Allowmultipleselection','',d,[ str ]).
+html_comp_i(32,'Datalistfixedvalues','',d,[ str ]).
+html_comp_i(32,'Datalistproc','',d,[ str ]).
+html_comp_i(32,'Datalistprocparametersprefix','',d,[ str ]).
+html_comp_i(32,'Remoteservicesparameters','',d,[ str ]).
+html_comp_i(32,'Datalistupdateminimumcharacters',0,d,[ num ]).
+html_comp_i(32,'Fixedfilters','',d,[ str ]).
+html_comp_i(32,'Format','',d,[ str ]).
+html_comp_i(32,'Sortasc','',d,[ str ]).
+html_comp_i(32,'Sortdsc','',d,[ str ]).
+html_comp_i(32,'Allowgrouptext','',d,[ str ]).
+html_comp_i(32,'Loadingdata','',d,[ str ]).
+html_comp_i(32,'Cleanfilter','',d,[ str ]).
+html_comp_i(32,'Rangefilterfrom','',d,[ str ]).
+html_comp_i(32,'Rangefilterto','',d,[ str ]).
+html_comp_i(32,'Noresultsfound','',d,[ str ]).
+html_comp_i(32,'Searchbuttontext','',d,[ str ]).
+html_comp_i(32,'Dropdownoptionstitlesettingsicons',[ t('Ddo_titlesettingsicons',23) ],v,[ params ]).
+html_comp_i(32,'Setdropdownoptionstitlesettingsicons','SetDropDownOptionsTitleSettingsIcons',d,[ str ]).
+html_comp_i(32,'Getdropdownoptionstitlesettingsicons','GetDropDownOptionsTitleSettingsIcons',d,[ str ]).
+html_comp_i(32,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(32,'Jssupportfiles',[ [ t('''DVelop\Bootstrap\Shared\DVelopBootstrap.js''',3) ],[ t('''DVelop\Shared\WorkWithPlusCommon.js''',3) ],[ t('''DVelop\Bootstrap/DropDownOptions/BootstrapDropDownOptionsRender.js''',3) ] ],d,[ params ]).
+html_comp_i(32,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(32,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(33,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(33,'Colcount',11,d,[ num ]).
+html_comp_i(33,'Attid',53,v,[ num ]).
+html_comp_i(33,'Class','Attribute',d,[ str ]).
+html_comp_i(33,'Controlname','Inventarioid',d,[ str ]).
+html_comp_i(33,'Returnonclick',0,d,[ bool ]).
+html_comp_i(33,'Eventgx','',d,[ str ]).
+html_comp_i(33,'Captionclass','',d,[ str ]).
+html_comp_i(33,'Captionstyle','',d,[ str ]).
+html_comp_i(33,'Captionposition','',d,[ str ]).
+html_comp_i(33,'Captionvalue','',d,[ str ]).
+html_comp_i(33,'Layoutclass','',d,[ str ]).
+html_comp_i(33,'Controltype',2,v,[ num ]).
+html_comp_i(33,'Inputtype',0,v,[ num ]).
+html_comp_i(33,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(33,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(33,'Readonly',-1,d,[ bool ]).
+html_comp_i(33,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(33,'Ispassword',0,d,[ bool ]).
+html_comp_i(33,'Autoresize',-1,d,[ bool ]).
+html_comp_i(33,'Gxwidth',measure(11,chr),d,[ measure ]).
+html_comp_i(33,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(33,'Ismultiline',0,d,[ bool ]).
+html_comp_i(33,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(33,'Fill',-1,d,[ bool ]).
+html_comp_i(33,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(33,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(33,'Font',font('Verdana',12,[]),d,[ font ]).
+html_comp_i(33,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(33,'Gxformat',0,d,[ num ]).
+html_comp_i(33,'Title','',d,[ str ]).
+html_comp_i(33,'Invitemsg','',d,[ str ]).
+html_comp_i(34,'Usercontroltype','WWP.GridEmpowerer',d,[ str ]).
+html_comp_i(34,'Constructorname','WWP_GridEmpowerer',d,[ str ]).
+html_comp_i(34,'Showmethodname',show,d,[ str ]).
+html_comp_i(34,'Controlname','Grid_Empowerer',v,[ str ]).
+html_comp_i(34,'Hascategories',0,d,[ bool ]).
+html_comp_i(34,'Infinitescrolling','False',d,[ str ]).
+html_comp_i(34,'Hastitlesettings',-1,v,[ bool ]).
+html_comp_i(34,'Hascolumnsselector',0,d,[ bool ]).
+html_comp_i(34,'Hasrowgroups',0,d,[ bool ]).
+html_comp_i(34,'Fixedcolumns','',d,[ str ]).
+html_comp_i(34,'Popoversingrid','',d,[ str ]).
+html_comp_i(34,'Visible',-1,d,[ bool ]).
+html_comp_i(34,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(34,'Jssupportfiles',[ [ t('''DVelop\Shared\WorkWithPlusCommon.js''',3) ],[ t('''DVelop\GridEmpowerer\GridEmpowererRender.js''',3) ] ],d,[ params ]).
+html_comp_i(34,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(34,'Jssharedsupportfiles',[],d,[ params ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(9,1,comp(errview),[ ctlname('Errorviewer'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(8,1,div(8),[ ctlname('') ]).
+lit_i(7,1,div(7),[ ctlname('') ]).
+lit_i(16,1,s(t(54,2),15),[ ctlname(54),ctrltype(edit,16),pos(16),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(17,1,s(t(13,2),15),[ ctlname(13),ctrltype(edit,17),pos(17),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(18,1,s(t(76,2),15),[ ctlname(76),ctrltype(edit,18),pos(18),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(19,1,s(t(79,2),15),[ ctlname(79),ctrltype(edit,19),pos(19),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(20,1,s(t(259,2),15),[ ctlname(259),ctrltype(edit,20),pos(20),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(21,1,s(t(262,2),15),[ ctlname(262),ctrltype(edit,21),pos(21),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(22,1,s(t(263,2),15),[ ctlname(263),ctrltype(edit,22),pos(22),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(23,1,s(t(264,2),15),[ ctlname(264),ctrltype(edit,23),pos(23),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(24,1,s(t(261,2),15),[ ctlname(261),ctrltype(edit,24),pos(24),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(25,1,s(t(260,2),15),[ ctlname(260),ctrltype(edit,25),pos(25),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(15,1,s(15),[ ctlname('Grid'),el([ t(54,2),t(13,2),t(76,2),t(79,2),t(259,2),t(262,2),t(263,2),t(264,2),t(261,2),t(260,2) ]),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(14,1,div(14),[ ctlname('') ]).
+lit_i(13,1,div(13),[ ctlname('') ]).
+lit_i(28,1,usercontrol(28),[ ctlname('Gridpaginationbar'),ctrltype('dvelop.dvpaginationbar'),el([ t('Gridcurrentpage',23),t('Gridpagecount',23),t('Gridappliedfilters',23) ]),containers([]) ]).
+lit_i(27,1,div(27),[ ctlname('') ]).
+lit_i(26,1,div(26),[ ctlname('') ]).
+lit_i(12,1,div(12),[ ctlname('Gridtablewithpaginationbar') ]).
+lit_i(11,1,div(11),[ ctlname('') ]).
+lit_i(10,1,div(10),[ ctlname('') ]).
+lit_i(6,1,div(6),[ ctlname('Tablegridheader') ]).
+lit_i(5,1,div(5),[ ctlname('') ]).
+lit_i(4,1,div(4),[ ctlname('') ]).
+lit_i(32,1,usercontrol(32),[ ctlname('Ddo_grid'),ctrltype('dvelop.gxbootstrap.ddogridtitlesettingsm'),el([ t('Ddo_titlesettingsicons',23) ]),containers([]) ]).
+lit_i(33,1,t(53,2),[ ctlname(53),ctrltype(edit,33),pos(33),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(34,1,usercontrol(34),[ ctlname('Grid_empowerer'),ctrltype('wwp.gridempowerer'),el([]),containers([]) ]).
+lit_i(31,1,div(31),[ ctlname('Html_bottomauxiliarcontrols') ]).
+lit_i(30,1,div(30),[ ctlname('') ]).
+lit_i(29,1,div(29),[ ctlname('') ]).
+lit_i(3,1,div(3),[ ctlname('Layoutmaintable') ]).
+lit_i(2,1,div(2),[ ctlname('') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+att_prop_i(2,54,'ExternalName','InventarioDetalleID',d).
+att_prop_i(2,54,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,54,'EmptyAsNull','Yes',d).
+att_prop_i(2,54,idBasedOn,90,v).
+att_prop_i(2,54,'AUTONUMBER','0',d).
+att_prop_i(2,54,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,54,'AttRegEx','',d).
+att_prop_i(2,54,'AttValidationFailedMsg','',d).
+att_prop_i(2,54,'DownloadOffline','0',d).
+att_prop_i(2,54,'VarServiceExtName','',d).
+att_prop_i(2,54,'FullName','InventarioDetalleID',v).
+att_prop_i(2,13,'ExternalName','ArticuloId',d).
+att_prop_i(2,13,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,13,'EmptyAsNull','Yes',d).
+att_prop_i(2,13,idBasedOn,90,v).
+att_prop_i(2,13,'AUTONUMBER','0',d).
+att_prop_i(2,13,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,13,'AttRegEx','',d).
+att_prop_i(2,13,'AttValidationFailedMsg','',d).
+att_prop_i(2,13,'DownloadOffline','0',d).
+att_prop_i(2,13,'VarServiceExtName','',d).
+att_prop_i(2,13,'FullName','ArticuloId',v).
+att_prop_i(2,76,'ExternalName','ArticuloNombre',d).
+att_prop_i(2,76,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,76,'EmptyAsNull','Yes',d).
+att_prop_i(2,76,idBasedOn,192,v).
+att_prop_i(2,76,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,76,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,76,'AttRegEx','',d).
+att_prop_i(2,76,'AttValidationFailedMsg','',d).
+att_prop_i(2,76,'DownloadOffline','0',d).
+att_prop_i(2,76,'VarServiceExtName','',d).
+att_prop_i(2,76,'FullName','ArticuloNombre',v).
+att_prop_i(2,79,'ExternalName','ArticuloStock',d).
+att_prop_i(2,79,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,79,'EmptyAsNull','Yes',d).
+att_prop_i(2,79,idBasedOn,205,v).
+att_prop_i(2,79,'AUTONUMBER','0',d).
+att_prop_i(2,79,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,79,'AttRegEx','',d).
+att_prop_i(2,79,'AttValidationFailedMsg','',d).
+att_prop_i(2,79,'DownloadOffline','0',d).
+att_prop_i(2,79,'VarServiceExtName','',d).
+att_prop_i(2,79,'FullName','ArticuloStock',v).
+att_prop_i(2,259,'ExternalName','InventarioDetalleStock',d).
+att_prop_i(2,259,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,259,'EmptyAsNull','Yes',d).
+att_prop_i(2,259,idBasedOn,205,v).
+att_prop_i(2,259,'AUTONUMBER','0',d).
+att_prop_i(2,259,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,259,'AttRegEx','',d).
+att_prop_i(2,259,'AttValidationFailedMsg','',d).
+att_prop_i(2,259,'DownloadOffline','0',d).
+att_prop_i(2,259,'VarServiceExtName','',d).
+att_prop_i(2,259,'FullName','InventarioDetalleStock',v).
+att_prop_i(2,262,'ExternalName','InventarioDetalleStock2',d).
+att_prop_i(2,262,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,262,'EmptyAsNull','Yes',d).
+att_prop_i(2,262,idBasedOn,205,v).
+att_prop_i(2,262,'AUTONUMBER','0',d).
+att_prop_i(2,262,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,262,'AttRegEx','',d).
+att_prop_i(2,262,'AttValidationFailedMsg','',d).
+att_prop_i(2,262,'DownloadOffline','0',d).
+att_prop_i(2,262,'VarServiceExtName','',d).
+att_prop_i(2,262,'FullName','InventarioDetalleStock2',v).
+att_prop_i(2,263,'ExternalName','InventarioDetalleStock3',d).
+att_prop_i(2,263,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,263,'EmptyAsNull','Yes',d).
+att_prop_i(2,263,idBasedOn,205,v).
+att_prop_i(2,263,'AUTONUMBER','0',d).
+att_prop_i(2,263,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,263,'AttRegEx','',d).
+att_prop_i(2,263,'AttValidationFailedMsg','',d).
+att_prop_i(2,263,'DownloadOffline','0',d).
+att_prop_i(2,263,'VarServiceExtName','',d).
+att_prop_i(2,263,'FullName','InventarioDetalleStock3',v).
+att_prop_i(2,264,'ExternalName','InventarioDetalleStock4',d).
+att_prop_i(2,264,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,264,'EmptyAsNull','Yes',d).
+att_prop_i(2,264,idBasedOn,205,v).
+att_prop_i(2,264,'AUTONUMBER','0',d).
+att_prop_i(2,264,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,264,'AttRegEx','',d).
+att_prop_i(2,264,'AttValidationFailedMsg','',d).
+att_prop_i(2,264,'DownloadOffline','0',d).
+att_prop_i(2,264,'VarServiceExtName','',d).
+att_prop_i(2,264,'FullName','InventarioDetalleStock4',v).
+att_prop_i(2,261,'ExternalName','InventarioDetalleStockOk',d).
+att_prop_i(2,261,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,261,'EmptyAsNull','Yes',d).
+att_prop_i(2,261,idBasedOn,205,v).
+att_prop_i(2,261,'AUTONUMBER','0',d).
+att_prop_i(2,261,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,261,'AttRegEx','',d).
+att_prop_i(2,261,'AttValidationFailedMsg','',d).
+att_prop_i(2,261,'DownloadOffline','0',d).
+att_prop_i(2,261,'VarServiceExtName','',d).
+att_prop_i(2,261,'FullName','InventarioDetalleStockOk',v).
+att_prop_i(2,260,'ExternalName','InventarioDetalleDiferencia',d).
+att_prop_i(2,260,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,260,idBasedOn,205,v).
+att_prop_i(2,260,'DownloadOffline','0',d).
+att_prop_i(2,260,'VarServiceExtName','',d).
+att_prop_i(2,260,'FullName','InventarioDetalleDiferencia',v).
+att_prop_i(2,53,'ExternalName','InventarioID',d).
+att_prop_i(2,53,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,53,'EmptyAsNull','Yes',d).
+att_prop_i(2,53,idBasedOn,90,v).
+att_prop_i(2,53,'AUTONUMBER','0',d).
+att_prop_i(2,53,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,53,'AttRegEx','',d).
+att_prop_i(2,53,'AttValidationFailedMsg','',d).
+att_prop_i(2,53,'DownloadOffline','0',d).
+att_prop_i(2,53,'VarServiceExtName','',d).
+att_prop_i(2,53,'FullName','InventarioID',v).
+ 
+tbl_prop_i(2,50,'AllDirSuper',[ [ 14,[ 13 ] ] ],v).
+tbl_prop_i(2,14,'DirSubor',[ [ 50,[ 13 ] ] ],v).
+tbl_prop_i(2,50,'DirSuper',[ [ 14,[ 13 ] ] ],v).
+ 
+tbl_att_prop_i(2,50,53,'AllowNulls',n).
+tbl_att_prop_i(2,50,54,'AllowNulls',n).
+tbl_att_prop_i(2,50,13,'AllowNulls',n).
+tbl_att_prop_i(2,50,259,'AllowNulls',n).
+tbl_att_prop_i(2,50,262,'AllowNulls',n).
+tbl_att_prop_i(2,50,263,'AllowNulls',n).
+tbl_att_prop_i(2,50,264,'AllowNulls',n).
+tbl_att_prop_i(2,50,261,'AllowNulls',n).
+tbl_att_prop_i(2,14,13,'AllowNulls',n).
+tbl_att_prop_i(2,14,76,'AllowNulls',n).
+tbl_att_prop_i(2,14,79,'AllowNulls',n).
+ 
+var_prop_i(2,'Securityfunctionalitykeys',idBasedOn,88,v).
+var_prop_i(2,'Inventarioid',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,56,0 ],name,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,56,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,56,0 ],'ObjName','WWPContext').
+struct_dt_i([ 26,56,0 ],'ObjDesc','WWPContext').
+struct_dt_i([ 26,56,0 ],'ExternalName','WWPContext').
+struct_dt_i([ 26,56,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,56,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,57,0 ],name,'WWPBaseObjects\WWPTransactionContext').
+struct_dt_i([ 26,57,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,57,0 ],'ObjName','WWPTransactionContext').
+struct_dt_i([ 26,57,0 ],'ObjDesc','WWP Transaction Context').
+struct_dt_i([ 26,57,0 ],'ExternalName','WWPTransactionContext').
+struct_dt_i([ 26,57,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,57,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,57,85 ],name,'Attribute').
+struct_dt_i([ 26,57,85 ],namespace,'Mujer_Morena.WWPTransactionContext').
+struct_dt_i([ 26,59,0 ],name,'WWPBaseObjects\WWPGridState').
+struct_dt_i([ 26,59,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,59,0 ],'ObjName','WWPGridState').
+struct_dt_i([ 26,59,0 ],'ObjDesc','Grid State').
+struct_dt_i([ 26,59,0 ],'ExternalName','WWPGridState').
+struct_dt_i([ 26,59,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,59,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,59,111 ],name,'FilterValue').
+struct_dt_i([ 26,59,111 ],namespace,'Mujer_Morena.WWPGridState').
+struct_dt_i([ 26,59,112 ],name,'DynamicFilter').
+struct_dt_i([ 26,59,112 ],namespace,'Mujer_Morena.WWPGridState').
+struct_dt_i([ 26,82,0 ],name,'WWPBaseObjects\DVB_SDTDropDownOptionsTitleSettingsIcons').
+struct_dt_i([ 26,82,0 ],namespace,'').
+struct_dt_i([ 26,82,0 ],'ObjName','DVB_SDTDropDownOptionsTitleSettingsIcons').
+struct_dt_i([ 26,82,0 ],'ObjDesc','DVB_SDTDrop Down Options Title Settings Icons').
+struct_dt_i([ 26,82,0 ],'ExternalName','TitleSettingsIcons').
+struct_dt_i([ 26,82,0 ],'ExternalNamespace','').
+struct_dt_i([ 26,82,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,56,0 ],fullname,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,57,0 ],fullname,'WWPBaseObjects\WWPTransactionContext').
+struct_dt_i([ 26,57,85 ],fullname,'WWPBaseObjects\WWPTransactionContext.Attribute').
+struct_dt_i([ 26,59,0 ],fullname,'WWPBaseObjects\WWPGridState').
+struct_dt_i([ 26,59,111 ],fullname,'WWPBaseObjects\WWPGridState.FilterValue').
+struct_dt_i([ 26,59,112 ],fullname,'WWPBaseObjects\WWPGridState.DynamicFilter').
+struct_dt_i([ 26,82,0 ],fullname,'WWPBaseObjects\DVB_SDTDropDownOptionsTitleSettingsIcons').
+ 
+struct_dt_elem_i([ 26,56,0 ],1,name,'Userid').
+struct_dt_elem_i([ 26,56,0 ],1,camelname,'UserId').
+struct_dt_elem_i([ 26,56,0 ],1,length,4).
+struct_dt_elem_i([ 26,56,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,56,0 ],1,sign,0).
+struct_dt_elem_i([ 26,56,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,56,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,56,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,56,0 ],1,'ExternalName','UserId').
+struct_dt_elem_i([ 26,56,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,56,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,56,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,56,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,56,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,56,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,56,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,56,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,56,0 ],2,name,'Username').
+struct_dt_elem_i([ 26,56,0 ],2,camelname,'UserName').
+struct_dt_elem_i([ 26,56,0 ],2,length,100).
+struct_dt_elem_i([ 26,56,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,56,0 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,56,0 ],2,pic,'').
+struct_dt_elem_i([ 26,56,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,56,0 ],2,'ExternalName','UserName').
+struct_dt_elem_i([ 26,56,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,56,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,56,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,56,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,56,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,56,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,56,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,56,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,57,0 ],1,name,'Callerobject').
+struct_dt_elem_i([ 26,57,0 ],1,camelname,'CallerObject').
+struct_dt_elem_i([ 26,57,0 ],1,basedon,53).
+struct_dt_elem_i([ 26,57,0 ],1,length,256).
+struct_dt_elem_i([ 26,57,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,57,0 ],1,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,57,0 ],1,pic,'').
+struct_dt_elem_i([ 26,57,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,57,0 ],1,'ExternalName','CallerObject').
+struct_dt_elem_i([ 26,57,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,57,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,57,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,57,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,57,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,57,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,57,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,57,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,57,0 ],2,name,'Callerondelete').
+struct_dt_elem_i([ 26,57,0 ],2,camelname,'CallerOnDelete').
+struct_dt_elem_i([ 26,57,0 ],2,length,4).
+struct_dt_elem_i([ 26,57,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,57,0 ],2,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,57,0 ],2,pic,'').
+struct_dt_elem_i([ 26,57,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,57,0 ],2,'ExternalName','CallerOnDelete').
+struct_dt_elem_i([ 26,57,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,57,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,57,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,57,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,57,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,57,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,57,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,57,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,57,0 ],3,name,'Callerurl').
+struct_dt_elem_i([ 26,57,0 ],3,camelname,'CallerURL').
+struct_dt_elem_i([ 26,57,0 ],3,basedon,32).
+struct_dt_elem_i([ 26,57,0 ],3,length,1000).
+struct_dt_elem_i([ 26,57,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,57,0 ],3,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,57,0 ],3,pic,'').
+struct_dt_elem_i([ 26,57,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,57,0 ],3,'ExternalName','CallerURL').
+struct_dt_elem_i([ 26,57,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,57,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,57,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,57,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,57,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,57,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,57,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,57,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,57,0 ],4,name,'Transactionname').
+struct_dt_elem_i([ 26,57,0 ],4,camelname,'TransactionName').
+struct_dt_elem_i([ 26,57,0 ],4,basedon,53).
+struct_dt_elem_i([ 26,57,0 ],4,length,256).
+struct_dt_elem_i([ 26,57,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,57,0 ],4,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,57,0 ],4,pic,'').
+struct_dt_elem_i([ 26,57,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,57,0 ],4,'ExternalName','TransactionName').
+struct_dt_elem_i([ 26,57,0 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,57,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,57,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,57,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,57,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,57,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,57,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,57,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,57,0 ],5,name,'Attributes').
+struct_dt_elem_i([ 26,57,0 ],5,camelname,'Attributes').
+struct_dt_elem_i([ 26,57,0 ],5,type,[ [ 26,57,85 ],0,0 ]).
+struct_dt_elem_i([ 26,57,0 ],5,pic,'').
+struct_dt_elem_i([ 26,57,0 ],5,collection,'True').
+struct_dt_elem_i([ 26,57,0 ],5,'ObjName','Attributes').
+struct_dt_elem_i([ 26,57,0 ],5,'ObjDesc','Attributes').
+struct_dt_elem_i([ 26,57,0 ],5,'CollectionItemName','Attribute').
+struct_dt_elem_i([ 26,57,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,57,0 ],5,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,57,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,57,0 ],5,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,57,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,57,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,57,0 ],5,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,57,0 ],5,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,57,85 ],1,name,'Attributename').
+struct_dt_elem_i([ 26,57,85 ],1,camelname,'AttributeName').
+struct_dt_elem_i([ 26,57,85 ],1,length,128).
+struct_dt_elem_i([ 26,57,85 ],1,decimals,0).
+struct_dt_elem_i([ 26,57,85 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,57,85 ],1,pic,'').
+struct_dt_elem_i([ 26,57,85 ],1,collection,'False').
+struct_dt_elem_i([ 26,57,85 ],1,'ExternalName','AttributeName').
+struct_dt_elem_i([ 26,57,85 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,57,85 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,57,85 ],1,'XmlName','').
+struct_dt_elem_i([ 26,57,85 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,57,85 ],1,soaptype,'').
+struct_dt_elem_i([ 26,57,85 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,57,85 ],1,'JsonName','').
+struct_dt_elem_i([ 26,57,85 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,57,85 ],2,name,'Attributevalue').
+struct_dt_elem_i([ 26,57,85 ],2,camelname,'AttributeValue').
+struct_dt_elem_i([ 26,57,85 ],2,length,1000).
+struct_dt_elem_i([ 26,57,85 ],2,decimals,0).
+struct_dt_elem_i([ 26,57,85 ],2,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,57,85 ],2,pic,'').
+struct_dt_elem_i([ 26,57,85 ],2,collection,'False').
+struct_dt_elem_i([ 26,57,85 ],2,'ExternalName','AttributeValue').
+struct_dt_elem_i([ 26,57,85 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,57,85 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,57,85 ],2,'XmlName','').
+struct_dt_elem_i([ 26,57,85 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,57,85 ],2,soaptype,'').
+struct_dt_elem_i([ 26,57,85 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,57,85 ],2,'JsonName','').
+struct_dt_elem_i([ 26,57,85 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],1,name,'Currentpage').
+struct_dt_elem_i([ 26,59,0 ],1,camelname,'CurrentPage').
+struct_dt_elem_i([ 26,59,0 ],1,length,4).
+struct_dt_elem_i([ 26,59,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],1,sign,0).
+struct_dt_elem_i([ 26,59,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,59,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,59,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],1,'ExternalName','CurrentPage').
+struct_dt_elem_i([ 26,59,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],2,name,'Orderedby').
+struct_dt_elem_i([ 26,59,0 ],2,camelname,'OrderedBy').
+struct_dt_elem_i([ 26,59,0 ],2,length,4).
+struct_dt_elem_i([ 26,59,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],2,sign,0).
+struct_dt_elem_i([ 26,59,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,59,0 ],2,pic,'ZZZ9').
+struct_dt_elem_i([ 26,59,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],2,'ExternalName','OrderedBy').
+struct_dt_elem_i([ 26,59,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],3,name,'Ordereddsc').
+struct_dt_elem_i([ 26,59,0 ],3,camelname,'OrderedDsc').
+struct_dt_elem_i([ 26,59,0 ],3,length,4).
+struct_dt_elem_i([ 26,59,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],3,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,59,0 ],3,pic,'').
+struct_dt_elem_i([ 26,59,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],3,'ExternalName','OrderedDsc').
+struct_dt_elem_i([ 26,59,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],4,name,'Hidingsearch').
+struct_dt_elem_i([ 26,59,0 ],4,camelname,'HidingSearch').
+struct_dt_elem_i([ 26,59,0 ],4,length,1).
+struct_dt_elem_i([ 26,59,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],4,sign,0).
+struct_dt_elem_i([ 26,59,0 ],4,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 26,59,0 ],4,pic,'9').
+struct_dt_elem_i([ 26,59,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],4,'ExternalName','HidingSearch').
+struct_dt_elem_i([ 26,59,0 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],5,name,'Pagesize').
+struct_dt_elem_i([ 26,59,0 ],5,camelname,'PageSize').
+struct_dt_elem_i([ 26,59,0 ],5,length,10).
+struct_dt_elem_i([ 26,59,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],5,type,[ 13,10,0 ]).
+struct_dt_elem_i([ 26,59,0 ],5,pic,'').
+struct_dt_elem_i([ 26,59,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],5,'ExternalName','PageSize').
+struct_dt_elem_i([ 26,59,0 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],6,name,'Collapsedrecords').
+struct_dt_elem_i([ 26,59,0 ],6,camelname,'CollapsedRecords').
+struct_dt_elem_i([ 26,59,0 ],6,length,2097152).
+struct_dt_elem_i([ 26,59,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],6,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 26,59,0 ],6,pic,'').
+struct_dt_elem_i([ 26,59,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],6,'ExternalName','CollapsedRecords').
+struct_dt_elem_i([ 26,59,0 ],6,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],6,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,59,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],7,name,'Groupby').
+struct_dt_elem_i([ 26,59,0 ],7,camelname,'GroupBy').
+struct_dt_elem_i([ 26,59,0 ],7,length,40).
+struct_dt_elem_i([ 26,59,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],7,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,59,0 ],7,pic,'').
+struct_dt_elem_i([ 26,59,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],7,'ExternalName','GroupBy').
+struct_dt_elem_i([ 26,59,0 ],7,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],7,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,59,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],7,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],8,name,'Filtervalues').
+struct_dt_elem_i([ 26,59,0 ],8,camelname,'FilterValues').
+struct_dt_elem_i([ 26,59,0 ],8,type,[ [ 26,59,111 ],0,0 ]).
+struct_dt_elem_i([ 26,59,0 ],8,pic,'').
+struct_dt_elem_i([ 26,59,0 ],8,collection,'True').
+struct_dt_elem_i([ 26,59,0 ],8,'ObjName','FilterValues').
+struct_dt_elem_i([ 26,59,0 ],8,'ObjDesc','Filter Values').
+struct_dt_elem_i([ 26,59,0 ],8,'CollectionItemName','FilterValue').
+struct_dt_elem_i([ 26,59,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],8,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,59,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],8,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,59,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],8,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],8,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,59,0 ],8,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,59,111 ],1,name,'Name').
+struct_dt_elem_i([ 26,59,111 ],1,camelname,'Name').
+struct_dt_elem_i([ 26,59,111 ],1,length,128).
+struct_dt_elem_i([ 26,59,111 ],1,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,59,111 ],1,pic,'').
+struct_dt_elem_i([ 26,59,111 ],1,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],1,'ExternalName','Name').
+struct_dt_elem_i([ 26,59,111 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],1,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],1,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,111 ],1,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,111 ],2,name,'Dsc').
+struct_dt_elem_i([ 26,59,111 ],2,camelname,'Dsc').
+struct_dt_elem_i([ 26,59,111 ],2,length,40).
+struct_dt_elem_i([ 26,59,111 ],2,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,59,111 ],2,pic,'').
+struct_dt_elem_i([ 26,59,111 ],2,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],2,'ExternalName','Dsc').
+struct_dt_elem_i([ 26,59,111 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],2,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],2,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],2,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,59,111 ],2,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,111 ],3,name,'Value').
+struct_dt_elem_i([ 26,59,111 ],3,camelname,'Value').
+struct_dt_elem_i([ 26,59,111 ],3,length,100).
+struct_dt_elem_i([ 26,59,111 ],3,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,59,111 ],3,pic,'').
+struct_dt_elem_i([ 26,59,111 ],3,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],3,'ExternalName','Value').
+struct_dt_elem_i([ 26,59,111 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],3,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],3,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,111 ],3,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,111 ],4,name,'Operator').
+struct_dt_elem_i([ 26,59,111 ],4,camelname,'Operator').
+struct_dt_elem_i([ 26,59,111 ],4,length,4).
+struct_dt_elem_i([ 26,59,111 ],4,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],4,sign,0).
+struct_dt_elem_i([ 26,59,111 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,59,111 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,59,111 ],4,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],4,'ExternalName','Operator').
+struct_dt_elem_i([ 26,59,111 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],4,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],4,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,111 ],4,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,111 ],5,name,'Valueto').
+struct_dt_elem_i([ 26,59,111 ],5,camelname,'ValueTo').
+struct_dt_elem_i([ 26,59,111 ],5,length,100).
+struct_dt_elem_i([ 26,59,111 ],5,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,59,111 ],5,pic,'').
+struct_dt_elem_i([ 26,59,111 ],5,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],5,'ExternalName','ValueTo').
+struct_dt_elem_i([ 26,59,111 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],5,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],5,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,111 ],5,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],9,name,'Dynamicfilters').
+struct_dt_elem_i([ 26,59,0 ],9,camelname,'DynamicFilters').
+struct_dt_elem_i([ 26,59,0 ],9,type,[ [ 26,59,112 ],0,0 ]).
+struct_dt_elem_i([ 26,59,0 ],9,pic,'').
+struct_dt_elem_i([ 26,59,0 ],9,collection,'True').
+struct_dt_elem_i([ 26,59,0 ],9,'ObjName','DynamicFilters').
+struct_dt_elem_i([ 26,59,0 ],9,'ObjDesc','Dynamic Filters').
+struct_dt_elem_i([ 26,59,0 ],9,'CollectionItemName','DynamicFilter').
+struct_dt_elem_i([ 26,59,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],9,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,59,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],9,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,59,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],9,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],9,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,59,0 ],9,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,59,112 ],1,name,'Selected').
+struct_dt_elem_i([ 26,59,112 ],1,camelname,'Selected').
+struct_dt_elem_i([ 26,59,112 ],1,length,128).
+struct_dt_elem_i([ 26,59,112 ],1,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,59,112 ],1,pic,'').
+struct_dt_elem_i([ 26,59,112 ],1,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],1,'ExternalName','Selected').
+struct_dt_elem_i([ 26,59,112 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],1,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],1,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,112 ],1,'JsonName','').
+struct_dt_elem_i([ 26,59,112 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,112 ],2,name,'Dsc').
+struct_dt_elem_i([ 26,59,112 ],2,camelname,'Dsc').
+struct_dt_elem_i([ 26,59,112 ],2,length,40).
+struct_dt_elem_i([ 26,59,112 ],2,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,59,112 ],2,pic,'').
+struct_dt_elem_i([ 26,59,112 ],2,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],2,'ExternalName','Dsc').
+struct_dt_elem_i([ 26,59,112 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],2,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],2,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],2,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,59,112 ],2,'JsonName',d).
+struct_dt_elem_i([ 26,59,112 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,112 ],3,name,'Value').
+struct_dt_elem_i([ 26,59,112 ],3,camelname,'Value').
+struct_dt_elem_i([ 26,59,112 ],3,length,100).
+struct_dt_elem_i([ 26,59,112 ],3,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,59,112 ],3,pic,'').
+struct_dt_elem_i([ 26,59,112 ],3,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],3,'ExternalName','Value').
+struct_dt_elem_i([ 26,59,112 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],3,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],3,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,112 ],3,'JsonName','').
+struct_dt_elem_i([ 26,59,112 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,112 ],4,name,'Operator').
+struct_dt_elem_i([ 26,59,112 ],4,camelname,'Operator').
+struct_dt_elem_i([ 26,59,112 ],4,length,4).
+struct_dt_elem_i([ 26,59,112 ],4,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],4,sign,0).
+struct_dt_elem_i([ 26,59,112 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,59,112 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,59,112 ],4,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],4,'ExternalName','Operator').
+struct_dt_elem_i([ 26,59,112 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],4,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],4,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,112 ],4,'JsonName','').
+struct_dt_elem_i([ 26,59,112 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,112 ],5,name,'Valueto').
+struct_dt_elem_i([ 26,59,112 ],5,camelname,'ValueTo').
+struct_dt_elem_i([ 26,59,112 ],5,length,100).
+struct_dt_elem_i([ 26,59,112 ],5,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,59,112 ],5,pic,'').
+struct_dt_elem_i([ 26,59,112 ],5,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],5,'ExternalName','ValueTo').
+struct_dt_elem_i([ 26,59,112 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],5,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],5,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,112 ],5,'JsonName','').
+struct_dt_elem_i([ 26,59,112 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],1,name,'Default_fi').
+struct_dt_elem_i([ 26,82,0 ],1,camelname,'Default_fi').
+struct_dt_elem_i([ 26,82,0 ],1,length,40).
+struct_dt_elem_i([ 26,82,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],1,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],1,pic,'').
+struct_dt_elem_i([ 26,82,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],1,'ExternalName','Default_fi').
+struct_dt_elem_i([ 26,82,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],1,'JsonName',def).
+struct_dt_elem_i([ 26,82,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],2,name,'Filtered_fi').
+struct_dt_elem_i([ 26,82,0 ],2,camelname,'Filtered_fi').
+struct_dt_elem_i([ 26,82,0 ],2,length,40).
+struct_dt_elem_i([ 26,82,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],2,pic,'').
+struct_dt_elem_i([ 26,82,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],2,'ExternalName','Filtered_fi').
+struct_dt_elem_i([ 26,82,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],2,'JsonName',fil).
+struct_dt_elem_i([ 26,82,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],3,name,'Sortedasc_fi').
+struct_dt_elem_i([ 26,82,0 ],3,camelname,'SortedASC_fi').
+struct_dt_elem_i([ 26,82,0 ],3,length,40).
+struct_dt_elem_i([ 26,82,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],3,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],3,pic,'').
+struct_dt_elem_i([ 26,82,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],3,'ExternalName','SortedASC_fi').
+struct_dt_elem_i([ 26,82,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],3,'JsonName',asc).
+struct_dt_elem_i([ 26,82,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],4,name,'Sorteddsc_fi').
+struct_dt_elem_i([ 26,82,0 ],4,camelname,'SortedDSC_fi').
+struct_dt_elem_i([ 26,82,0 ],4,length,40).
+struct_dt_elem_i([ 26,82,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],4,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],4,pic,'').
+struct_dt_elem_i([ 26,82,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],4,'ExternalName','SortedDSC_fi').
+struct_dt_elem_i([ 26,82,0 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],4,'JsonName',dsc).
+struct_dt_elem_i([ 26,82,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],5,name,'Filteredsortedasc_fi').
+struct_dt_elem_i([ 26,82,0 ],5,camelname,'FilteredSortedASC_fi').
+struct_dt_elem_i([ 26,82,0 ],5,length,40).
+struct_dt_elem_i([ 26,82,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],5,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],5,pic,'').
+struct_dt_elem_i([ 26,82,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],5,'ExternalName','FilteredSortedASC_fi').
+struct_dt_elem_i([ 26,82,0 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],5,'JsonName',fasc).
+struct_dt_elem_i([ 26,82,0 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],6,name,'Filteredsorteddsc_fi').
+struct_dt_elem_i([ 26,82,0 ],6,camelname,'FilteredSortedDSC_fi').
+struct_dt_elem_i([ 26,82,0 ],6,length,40).
+struct_dt_elem_i([ 26,82,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],6,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],6,pic,'').
+struct_dt_elem_i([ 26,82,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],6,'ExternalName','FilteredSortedDSC_fi').
+struct_dt_elem_i([ 26,82,0 ],6,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],6,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],6,'JsonName',fdsc).
+struct_dt_elem_i([ 26,82,0 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],7,name,'Optionsortasc_fi').
+struct_dt_elem_i([ 26,82,0 ],7,camelname,'OptionSortASC_fi').
+struct_dt_elem_i([ 26,82,0 ],7,length,40).
+struct_dt_elem_i([ 26,82,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],7,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],7,pic,'').
+struct_dt_elem_i([ 26,82,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],7,'ExternalName','OptionSortASC_fi').
+struct_dt_elem_i([ 26,82,0 ],7,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],7,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],7,'JsonName',osasc).
+struct_dt_elem_i([ 26,82,0 ],7,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],8,name,'Optionsortdsc_fi').
+struct_dt_elem_i([ 26,82,0 ],8,camelname,'OptionSortDSC_fi').
+struct_dt_elem_i([ 26,82,0 ],8,length,40).
+struct_dt_elem_i([ 26,82,0 ],8,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],8,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],8,pic,'').
+struct_dt_elem_i([ 26,82,0 ],8,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],8,'ExternalName','OptionSortDSC_fi').
+struct_dt_elem_i([ 26,82,0 ],8,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],8,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],8,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],8,'JsonName',osdsc).
+struct_dt_elem_i([ 26,82,0 ],8,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],9,name,'Optionapplyfilter_fi').
+struct_dt_elem_i([ 26,82,0 ],9,camelname,'OptionApplyFilter_fi').
+struct_dt_elem_i([ 26,82,0 ],9,length,40).
+struct_dt_elem_i([ 26,82,0 ],9,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],9,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],9,pic,'').
+struct_dt_elem_i([ 26,82,0 ],9,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],9,'ExternalName','OptionApplyFilter_fi').
+struct_dt_elem_i([ 26,82,0 ],9,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],9,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],9,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],9,'JsonName',app).
+struct_dt_elem_i([ 26,82,0 ],9,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],10,name,'Optionfilteringdata_fi').
+struct_dt_elem_i([ 26,82,0 ],10,camelname,'OptionFilteringData_fi').
+struct_dt_elem_i([ 26,82,0 ],10,length,40).
+struct_dt_elem_i([ 26,82,0 ],10,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],10,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],10,pic,'').
+struct_dt_elem_i([ 26,82,0 ],10,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],10,'ExternalName','OptionFilteringData_fi').
+struct_dt_elem_i([ 26,82,0 ],10,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],10,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],10,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],10,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],10,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],10,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],10,'JsonName',fildata).
+struct_dt_elem_i([ 26,82,0 ],10,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],11,name,'Optioncleanfilters_fi').
+struct_dt_elem_i([ 26,82,0 ],11,camelname,'OptionCleanFilters_fi').
+struct_dt_elem_i([ 26,82,0 ],11,length,40).
+struct_dt_elem_i([ 26,82,0 ],11,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],11,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],11,pic,'').
+struct_dt_elem_i([ 26,82,0 ],11,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],11,'ExternalName','OptionCleanFilters_fi').
+struct_dt_elem_i([ 26,82,0 ],11,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],11,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],11,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],11,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],11,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],11,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],11,'JsonName',cle).
+struct_dt_elem_i([ 26,82,0 ],11,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],12,name,'Selectedoption_fi').
+struct_dt_elem_i([ 26,82,0 ],12,camelname,'SelectedOption_fi').
+struct_dt_elem_i([ 26,82,0 ],12,length,40).
+struct_dt_elem_i([ 26,82,0 ],12,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],12,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],12,pic,'').
+struct_dt_elem_i([ 26,82,0 ],12,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],12,'ExternalName','SelectedOption_fi').
+struct_dt_elem_i([ 26,82,0 ],12,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],12,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],12,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],12,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],12,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],12,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],12,'JsonName',selo).
+struct_dt_elem_i([ 26,82,0 ],12,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],13,name,'Multiseloption_fi').
+struct_dt_elem_i([ 26,82,0 ],13,camelname,'MultiselOption_fi').
+struct_dt_elem_i([ 26,82,0 ],13,length,40).
+struct_dt_elem_i([ 26,82,0 ],13,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],13,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],13,pic,'').
+struct_dt_elem_i([ 26,82,0 ],13,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],13,'ExternalName','MultiselOption_fi').
+struct_dt_elem_i([ 26,82,0 ],13,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],13,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],13,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],13,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],13,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],13,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],13,'JsonName',mul).
+struct_dt_elem_i([ 26,82,0 ],13,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],14,name,'Multiselseloption_fi').
+struct_dt_elem_i([ 26,82,0 ],14,camelname,'MultiselSelOption_fi').
+struct_dt_elem_i([ 26,82,0 ],14,length,40).
+struct_dt_elem_i([ 26,82,0 ],14,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],14,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],14,pic,'').
+struct_dt_elem_i([ 26,82,0 ],14,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],14,'ExternalName','MultiselSelOption_fi').
+struct_dt_elem_i([ 26,82,0 ],14,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],14,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],14,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],14,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],14,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],14,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],14,'JsonName',muls).
+struct_dt_elem_i([ 26,82,0 ],14,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],15,name,'Treeviewcollapse_fi').
+struct_dt_elem_i([ 26,82,0 ],15,camelname,'TreeviewCollapse_fi').
+struct_dt_elem_i([ 26,82,0 ],15,length,40).
+struct_dt_elem_i([ 26,82,0 ],15,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],15,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],15,pic,'').
+struct_dt_elem_i([ 26,82,0 ],15,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],15,'ExternalName','TreeviewCollapse_fi').
+struct_dt_elem_i([ 26,82,0 ],15,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],15,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],15,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],15,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],15,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],15,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],15,'JsonName',tcol).
+struct_dt_elem_i([ 26,82,0 ],15,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],16,name,'Treeviewexpand_fi').
+struct_dt_elem_i([ 26,82,0 ],16,camelname,'TreeviewExpand_fi').
+struct_dt_elem_i([ 26,82,0 ],16,length,40).
+struct_dt_elem_i([ 26,82,0 ],16,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],16,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],16,pic,'').
+struct_dt_elem_i([ 26,82,0 ],16,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],16,'ExternalName','TreeviewExpand_fi').
+struct_dt_elem_i([ 26,82,0 ],16,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],16,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],16,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],16,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],16,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],16,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],16,'JsonName',texp).
+struct_dt_elem_i([ 26,82,0 ],16,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],17,name,'Fixleft_fi').
+struct_dt_elem_i([ 26,82,0 ],17,camelname,'FixLeft_fi').
+struct_dt_elem_i([ 26,82,0 ],17,length,40).
+struct_dt_elem_i([ 26,82,0 ],17,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],17,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],17,pic,'').
+struct_dt_elem_i([ 26,82,0 ],17,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],17,'ExternalName','FixLeft_fi').
+struct_dt_elem_i([ 26,82,0 ],17,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],17,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],17,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],17,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],17,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],17,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],17,'JsonName',fixl).
+struct_dt_elem_i([ 26,82,0 ],17,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],18,name,'Fixright_fi').
+struct_dt_elem_i([ 26,82,0 ],18,camelname,'FixRight_fi').
+struct_dt_elem_i([ 26,82,0 ],18,length,40).
+struct_dt_elem_i([ 26,82,0 ],18,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],18,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],18,pic,'').
+struct_dt_elem_i([ 26,82,0 ],18,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],18,'ExternalName','FixRight_fi').
+struct_dt_elem_i([ 26,82,0 ],18,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],18,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],18,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],18,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],18,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],18,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],18,'JsonName',fixr).
+struct_dt_elem_i([ 26,82,0 ],18,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,82,0 ],19,name,'Optiongroup_fi').
+struct_dt_elem_i([ 26,82,0 ],19,camelname,'OptionGroup_fi').
+struct_dt_elem_i([ 26,82,0 ],19,length,40).
+struct_dt_elem_i([ 26,82,0 ],19,decimals,0).
+struct_dt_elem_i([ 26,82,0 ],19,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,82,0 ],19,pic,'').
+struct_dt_elem_i([ 26,82,0 ],19,collection,'False').
+struct_dt_elem_i([ 26,82,0 ],19,'ExternalName','OptionGroup_fi').
+struct_dt_elem_i([ 26,82,0 ],19,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,82,0 ],19,'XmlType','Element').
+struct_dt_elem_i([ 26,82,0 ],19,'XmlName','').
+struct_dt_elem_i([ 26,82,0 ],19,'XmlNamespace','').
+struct_dt_elem_i([ 26,82,0 ],19,soaptype,'').
+struct_dt_elem_i([ 26,82,0 ],19,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,82,0 ],19,'JsonName',og).
+struct_dt_elem_i([ 26,82,0 ],19,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,57,0 ],1,pic,'ZZZZZZZZZZ9').
+struct_dt_elem_i([ 26,57,0 ],4,pic,'ZZZZZZZZZZ9').
+ 
+ 
+ 
+ 
+ 
+sub_info_i(146,'Start',2,22,[ [ [ t('Grid',3),t('Internalname',3) ],'Orderedby','Pgmname',[ t('Httprequest',23),t('Querystring',3) ],[ t('Httprequest',23),t('Scriptname',3) ],'Inventarioid','Session','Ordereddsc' ],[ [ t('Grid',3),t('Rows',3) ],[ t('Grid_empowerer',3),t('Gridinternalname',3) ],[ t('Ddo_grid',3),t('Gridinternalname',3) ],[ t(53,2),t('Visible',3) ],'Orderedby','Ddo_titlesettingsicons',[ t('Gridpaginationbar',3),t('Rowsperpageselectedvalue',3) ],'Session','Ordereddsc',[ t('Ddo_grid',3),t('Sortedstatus',3) ] ] ]).
+sub_info_i(146,'Refresh',24,38,[ [ [ t('Grid',3),t('Currentpage',3) ],[ t('Grid',3),t('Pagecount',3) ],'Pgmname','Session','Orderedby','Ordereddsc',[ t('Grid',3),t('Rows',3) ] ],[ 'Gridcurrentpage','Gridpagecount','Gridappliedfilters' ] ]).
+sub_info_i(146,[ t('Gridpaginationbar',3,40,7),t('Changepage',3,40,25) ],40,56,[ [ ctrl('Grid','gotopage('),ctrl('Grid','nextpage('),ctrl('Grid','previouspage('),[ t('Gridpaginationbar',3),t('Selectedpage',3) ] ],[] ]).
+sub_info_i(146,[ t('Gridpaginationbar',3,58,7),t('Changerowsperpage',3,58,25) ],58,67,[ [ ctrl('Grid','firstpage('),[ t('Gridpaginationbar',3),t('Rowsperpageselectedvalue',3) ] ],[ [ t('Grid',3),t('Rows',3) ] ] ]).
+sub_info_i(146,[ t('Ddo_grid',3,69,7),t('Onoptionclicked',3,69,16) ],69,83,[ [ ctrl('Grid','firstpage('),[ t('Ddo_grid',3),t('Activeeventkey',3) ],[ t('Ddo_grid',3),t('Selectedvalue_get',3) ],'Orderedby','Ordereddsc' ],[ 'Orderedby','Ordereddsc',[ t('Ddo_grid',3),t('Sortedstatus',3) ] ] ]).
+sub_info_i(146,[ t('Grid',3,85,7),t('Load',3,85,12) ],85,93,[ [],[] ]).
+ 
+pgm_parm_i(proc,89,'WWPBASEOBJECTS\SAVEGRIDSTATE',[ [ svchar,120,0,0 ],[ svchar,1000,0,0 ] ],[ [ 'UserCustomKey',in,[] ],[ 'UserCustomValue',in,[] ] ]).
+pgm_parm_i(proc,18,'WWPBASEOBJECTS\LOADWWPCONTEXT',[ [ o('WWPBaseObjects\WWPContext'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+pgm_parm_i(proc,88,'WWPBASEOBJECTS\LOADGRIDSTATE',[ [ svchar,120,0,0 ],[ svchar,1000,0,0 ] ],[ [ 'UserCustomKey',in,[] ],[ 'UserCustomValue',out,[] ] ]).
+pgm_parm_i(proc,67,'WWPBASEOBJECTS\WWP_GETAPPLIEDFILTERSDESCRIPTION',[ [ svchar,40,0,0 ],[ svchar,40,0,0 ] ],[ [ 'ListObjectName',in,[] ],[ 'AppliedFiltersDescription',out,[] ] ]).
+pgm_parm_i(proc,82,'WWPBASEOBJECTS\GETWWPTITLESETTINGSICONS',[ [ o('WWPBaseObjects\DVB_SDTDropDownOptionsTitleSettingsIcons'),0,0,0 ] ],[ [ 'TitleSettingsIcons',out,[] ] ]).
+ 
+pgm_callprotocol_i(web,211,'INVENTARIODETALLEWC','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,89,'WWPBASEOBJECTS\SAVEGRIDSTATE','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,18,'WWPBASEOBJECTS\LOADWWPCONTEXT','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,88,'WWPBASEOBJECTS\LOADGRIDSTATE','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,67,'WWPBASEOBJECTS\WWP_GETAPPLIEDFILTERSDESCRIPTION','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,82,'WWPBASEOBJECTS\GETWWPTITLESETTINGSICONS','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,85 @@
+
+<SdtSpec>
+<mainid>[ 26,1000000,0 ]</mainid>
+<Level>
+<id>[ 26,1000000,0 ]</id>
+<name>MyProductsCartCheckout_Level_DetailSdt</name>
+<camelname>MyProductsCartCheckout_Level_DetailSdt</camelname>
+<camelnameex>MyProductsCartCheckout_Level_DetailSdt</camelnameex>
+<collection>False</collection>
+<wwsd_sdt>True</wwsd_sdt>
+<modified>yes</modified>
+<fullname>MyProductsCartCheckout_Level_DetailSdt</fullname>
+<members>
+<member>
+<name>Cartsubtotaltxt</name>
+<camelname>Cartsubtotaltxt</camelname>
+<type>[ 13,40,0 ]</type>
+<length>40</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Cartproductcollection</name>
+<camelname>Cartproductcollection</camelname>
+<type>[ [ 26,112,0 ],0,0 ]</type>
+<length>0</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>True</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Isauthorized_continue</name>
+<camelname>Isauthorized_continue</camelname>
+<type>[ 15,4,0 ]</type>
+<length>4</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member>
+<member>
+<name>Gxdynprop</name>
+<camelname>Gxdynprop</camelname>
+<type>[ 5,2,0 ]</type>
+<length>2</length>
+<decimals>0</decimals>
+<sign>0</sign>
+<collection>False</collection>
+<islevel>False</islevel></member></members></Level>
+<Services>
+<Dynload>
+<Control>
+<Variable>
+<VarId>Cartproductcollection__talla</VarId>
+<VarName>&amp;Cartproductcollection__talla</VarName></Variable></Control>
+<InputValues>
+<Attribute>
+<AttriId>286</AttriId>
+<AttriName>TallaID</AttriName>
+<Description>Talla ID</Description></Attribute></InputValues>
+<InputDescriptions>
+<Attribute>
+<AttriId>288</AttriId>
+<AttriName>TallaNumero</AttriName>
+<Description>Talla Numero</Description></Attribute></InputDescriptions>
+<Inputs></Inputs>
+<Outputs>
+<Variable>
+<VarId>Cartproductcollection__talla</VarId>
+<VarName>&amp;Cartproductcollection__talla</VarName></Variable></Outputs></Dynload></Services>
+<Prompts></Prompts>
+<TableAccess></TableAccess>
+<XRef>
+<Object>
+<Class>1</Class>
+<Id>22</Id>
+<Guid>0713b544-7230-4593-a3ab-af4618c39188</Guid></Object>
+<Object>
+<Class>1</Class>
+<Id>237</Id>
+<Guid>52598714-fa66-4e24-9e64-dbbce1b4fcd2</Guid></Object>
+<Object>
+<Class>1</Class>
+<Id>235</Id>
+<Guid>c797f440-a6e5-40da-a0c8-16b5ce3c9e08</Guid></Object></XRef></SdtSpec>

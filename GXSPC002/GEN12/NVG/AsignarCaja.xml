@@ -1,0 +1,184 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>187</ObjId>
+<ObjName>AsignarCaja</ObjName>
+<ObjDesc>Asignar Caja</ObjDesc>
+<ObjPgmName>AsignarCaja</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0047</MsgCode>
+<Message>
+<Token>Variable </Token>
+<Token>Asig</Token>
+<Token> not defined; </Token>
+<Token>N(1.0)</Token>
+<Token> assumed.</Token></Message></Warning>
+<Warning>
+<MsgCode>spc0038</MsgCode>
+<Message>
+<Token>There is no index for order </Token>
+<Attribute>
+<AttriId>111</AttriId>
+<AttriName>CajaNombreUsuario</AttriName>
+<Description>Caja Nombre</Description></Attribute>
+<Token>; poor performance may be noticed</Token>
+<Token> in group starting at line </Token>
+<Token>57</Token>
+<Token></Token>
+<Token>.</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Start</EventName></Event>
+<Event>
+<EventName>Enter</EventName>
+<Level>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>19</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>23</TableId>
+<TableName>Caja</TableName>
+<Description>Caja</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>CajaId</AttriName>
+<Description>Caja Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ICAJA</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>253</AttriId>
+<AttriName>CajaEstado</AttriName>
+<Description>Caja Estado</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>getmessagetext(</Token>
+<Sp></Sp>
+<Token>&quot;ASIGNADO&quot;</Token>
+<Token>)</Token>
+<Icon>client</Icon></Condition>
+<Condition>
+<Attribute>
+<AttriId>255</AttriId>
+<AttriName>CajaAsiganacion</AttriName>
+<Description>Caja Asiganacion</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Username</VarId>
+<VarName>&amp;UserName</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>23</TableId>
+<TableName>Caja</TableName>
+<Description>Caja</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>CajaId</AttriName>
+<Description>Caja Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></Level>
+<CALL>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>185</ObjId>
+<ObjName>PRCAsignarCaja</ObjName>
+<ObjPgmName>PRCAsignarCaja</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Expression>
+<Variable>
+<VarId>Cajaid</VarId>
+<VarName>&amp;CajaId</VarName></Variable></Expression>
+<IF></IF></CALL></Event>
+<Event>
+<EventName>Combo_cajaid.Onoptionclicked</EventName></Event>
+<Event>
+<EventName>'LOADCOMBOCAJAID'</EventName>
+<EventType>Subrutine</EventType>
+<Level>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>57</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>23</TableId>
+<TableName>Caja</TableName>
+<Description>Caja</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>111</AttriId>
+<AttriName>CajaNombreUsuario</AttriName>
+<Description>Caja Nombre</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>253</AttriId>
+<AttriName>CajaEstado</AttriName>
+<Description>Caja Estado</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Token>getmessagetext(</Token>
+<Sp></Sp>
+<Token>&quot;LIBRE&quot;</Token>
+<Token>)</Token>
+<Icon>client</Icon></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>23</TableId>
+<TableName>Caja</TableName>
+<Description>Caja</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>25</AttriId>
+<AttriName>CajaId</AttriName>
+<Description>Caja Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></Level></Event>
+<Event>
+<EventName>Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

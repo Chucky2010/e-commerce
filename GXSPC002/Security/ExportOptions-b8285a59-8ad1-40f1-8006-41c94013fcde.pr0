@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "exportoptions_Execute",
+    "Description": "WWP_ExportOptionsDescription",
+    "ProgramName": "wwpbaseobjects.exportoptions",
+    "IsGXAutomatic": true
+  }
+]

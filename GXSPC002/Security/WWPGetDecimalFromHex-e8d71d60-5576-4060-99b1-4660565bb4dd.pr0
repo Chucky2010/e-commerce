@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpgetdecimalfromhex_Services_Execute",
+    "Description": "Get Decimal From Hex Services",
+    "ProgramName": "workwithplus.nativemobile.wwpgetdecimalfromhex",
+    "IsGXAutomatic": true
+  }
+]

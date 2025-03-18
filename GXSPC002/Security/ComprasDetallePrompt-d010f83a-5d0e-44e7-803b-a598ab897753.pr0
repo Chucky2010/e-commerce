@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "comprasdetalleprompt_Execute",
+    "Description": "Selecciona Detalle",
+    "ProgramName": "comprasdetalleprompt",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "wwpmail_FullControl",
+    "Description": "Mail FullControl",
+    "ProgramName": "wwpbaseobjects.mail.wwp_mail",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "wwpmail_Execute",
+    "Description": "Mail",
+    "ProgramName": "wwpbaseobjects.mail.wwp_mail",
+    "IsGXAutomatic": true,
+    "Parent": "wwpmail_FullControl"
+  },
+  {
+    "Name": "wwpmail_Insert",
+    "Description": "Mail Insert",
+    "ProgramName": "wwpbaseobjects.mail.wwp_mail",
+    "IsGXAutomatic": true,
+    "Parent": "wwpmail_FullControl"
+  },
+  {
+    "Name": "wwpmail_Delete",
+    "Description": "Mail Delete",
+    "ProgramName": "wwpbaseobjects.mail.wwp_mail",
+    "IsGXAutomatic": true,
+    "Parent": "wwpmail_FullControl"
+  },
+  {
+    "Name": "wwpmail_Update",
+    "Description": "Mail Update",
+    "ProgramName": "wwpbaseobjects.mail.wwp_mail",
+    "IsGXAutomatic": true,
+    "Parent": "wwpmail_FullControl"
+  }
+]

@@ -1,0 +1,357 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>13</ObjId>
+<ObjName>NotificationsRegistrationHandler</ObjName>
+<ObjDesc>Notifications Registration Handler</ObjDesc>
+<ObjPgmName>NotificationsRegistrationHandler</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0060</MsgCode>
+<Message>
+<Token>The program may be called by another program and the Commit on Exit property is set to YES</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Main>Yes</Main>
+<CallProtocol>INTERNAL</CallProtocol>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Devicetype</VarId>
+<VarName>&amp;DeviceType</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Deviceid</VarId>
+<VarName>&amp;DeviceId</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Devicetoken</VarId>
+<VarName>&amp;DeviceToken</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Devicename</VarId>
+<VarName>&amp;DeviceName</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations>
+<Optimization>
+<Type>Update</Type></Optimization></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>11</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>51</TableId>
+<TableName>Devices</TableName>
+<Description>Devices</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>DeviceType</AttriName>
+<Description>Device Type</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>DeviceId</AttriName>
+<Description>Device Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IDEVICES</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>DeviceType</AttriName>
+<Description>Device Type</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Devicetype</VarId>
+<VarName>&amp;DeviceType</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>DeviceId</AttriName>
+<Description>Device Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Deviceid</VarId>
+<VarName>&amp;DeviceId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>DeviceType</AttriName>
+<Description>Device Type</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Devicetype</VarId>
+<VarName>&amp;DeviceType</VarName></Variable></Condition>
+<Condition>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>DeviceId</AttriName>
+<Description>Device Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Deviceid</VarId>
+<VarName>&amp;DeviceId</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>51</TableId>
+<TableName>Devices</TableName>
+<Description>Devices</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>DeviceType</AttriName>
+<Description>Device Type</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>DeviceId</AttriName>
+<Description>Device Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>51</TableId>
+<TableName>Devices</TableName>
+<Description>Devices</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>269</AttriId>
+<AttriName>DeviceToken</AttriName>
+<Description>Device Token</Description></Attribute>
+<Attribute>
+<AttriId>270</AttriId>
+<AttriName>DeviceName</AttriName>
+<Description>Device Name</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>3</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>22</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>51</TableId>
+<TableName>Devices</TableName>
+<Description>Devices</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>DeviceType</AttriName>
+<Description>Device Type</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>DeviceId</AttriName>
+<Description>Device Id</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>51</TableId>
+<TableName>Devices</TableName>
+<Description>Devices</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>DeviceType</AttriName>
+<Description>Device Type</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>DeviceId</AttriName>
+<Description>Device Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>51</TableId>
+<TableName>Devices</TableName>
+<Description>Devices</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>DeviceType</AttriName>
+<Description>Device Type</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>DeviceId</AttriName>
+<Description>Device Id</Description></Attribute>
+<Attribute>
+<AttriId>269</AttriId>
+<AttriName>DeviceToken</AttriName>
+<Description>Device Token</Description></Attribute>
+<Attribute>
+<AttriId>270</AttriId>
+<AttriName>DeviceName</AttriName>
+<Description>Device Name</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>4</LevelNumber>
+<Optimizations>
+<Optimization>
+<Type>Update</Type></Optimization></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>34</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>13</TableId>
+<TableName>Usuario</TableName>
+<Description>Usuario</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Usuario Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IUSUARIO</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>271</AttriId>
+<AttriName>UsuarioNom</AttriName>
+<Description>Usuario Nom</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Username</VarId>
+<VarName>&amp;UserName</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>13</TableId>
+<TableName>Usuario</TableName>
+<Description>Usuario</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Usuario Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>13</TableId>
+<TableName>Usuario</TableName>
+<Description>Usuario</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>DeviceType</AttriName>
+<Description>Device Type</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>DeviceId</AttriName>
+<Description>Device Id</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>5</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>41</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>13</TableId>
+<TableName>Usuario</TableName>
+<Description>Usuario</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Usuario Id</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>13</TableId>
+<TableName>Usuario</TableName>
+<Description>Usuario</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Usuario Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>13</TableId>
+<TableName>Usuario</TableName>
+<Description>Usuario</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>UsuarioId</AttriName>
+<Description>Usuario Id</Description></Attribute>
+<Attribute>
+<AttriId>271</AttriId>
+<AttriName>UsuarioNom</AttriName>
+<Description>Usuario Nom</Description></Attribute>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>PersonaId</AttriName>
+<Description>Persona Id</Description></Attribute>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>DeviceId</AttriName>
+<Description>Device Id</Description></Attribute>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>DeviceType</AttriName>
+<Description>Device Type</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

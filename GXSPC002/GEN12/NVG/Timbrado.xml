@@ -1,0 +1,184 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>26</ObjId>
+<ObjName>Timbrado</ObjName>
+<ObjDesc>Timbrado</ObjDesc>
+<ObjPgmName>Timbrado</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Timbradoid</VarId>
+<VarName>&amp;TimbradoId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>27</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>27</TableId>
+<TableName>Timbrado</TableName>
+<Description>Timbrado</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>27</TableId>
+<TableName>Timbrado</TableName>
+<Description>Timbrado</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>29</AttriId>
+<AttriName>TimbradoId</AttriName>
+<Description>Timbrado Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>27</TableId>
+<TableName>Timbrado</TableName>
+<Description>Timbrado</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>29</AttriId>
+<AttriName>TimbradoId</AttriName>
+<Description>Timbrado Id</Description></Attribute>
+<Attribute>
+<AttriId>125</AttriId>
+<AttriName>TimbradoNumero</AttriName>
+<Description>Timbrado Numero</Description></Attribute>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>TimbradoInicioVigencia</AttriName>
+<Description>Timbrado Inicio Vigencia</Description></Attribute>
+<Attribute>
+<AttriId>127</AttriId>
+<AttriName>TimbradoFinVigencia</AttriName>
+<Description>Timbrado Fin Vigencia</Description></Attribute>
+<Attribute>
+<AttriId>128</AttriId>
+<AttriName>TimbradoNroFactura</AttriName>
+<Description>Timbrado Nro Factura</Description></Attribute>
+<Attribute>
+<AttriId>304</AttriId>
+<AttriName>TimbradoNroFacturaInicial</AttriName>
+<Description>Timbrado Nro Factura Inicial</Description></Attribute>
+<Attribute>
+<AttriId>305</AttriId>
+<AttriName>TimbradoNroFacturaFinal</AttriName>
+<Description>Timbrado Nro Factura Final</Description></Attribute>
+<Attribute>
+<AttriId>306</AttriId>
+<AttriName>TimbradoNroFacturaSerie1</AttriName>
+<Description>Timbrado Nro Factura Serie1</Description></Attribute>
+<Attribute>
+<AttriId>307</AttriId>
+<AttriName>TimbradoNroFacturaSerie2</AttriName>
+<Description>Timbrado Nro Factura Serie2</Description></Attribute>
+<Attribute>
+<AttriId>308</AttriId>
+<AttriName>TimbradoEstado</AttriName>
+<Description>Timbrado Estado</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>27</TableId>
+<TableName>Timbrado</TableName>
+<Description>Timbrado</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>125</AttriId>
+<AttriName>TimbradoNumero</AttriName>
+<Description>Timbrado Numero</Description></Attribute>
+<Attribute>
+<AttriId>126</AttriId>
+<AttriName>TimbradoInicioVigencia</AttriName>
+<Description>Timbrado Inicio Vigencia</Description></Attribute>
+<Attribute>
+<AttriId>127</AttriId>
+<AttriName>TimbradoFinVigencia</AttriName>
+<Description>Timbrado Fin Vigencia</Description></Attribute>
+<Attribute>
+<AttriId>128</AttriId>
+<AttriName>TimbradoNroFactura</AttriName>
+<Description>Timbrado Nro Factura</Description></Attribute>
+<Attribute>
+<AttriId>304</AttriId>
+<AttriName>TimbradoNroFacturaInicial</AttriName>
+<Description>Timbrado Nro Factura Inicial</Description></Attribute>
+<Attribute>
+<AttriId>305</AttriId>
+<AttriName>TimbradoNroFacturaFinal</AttriName>
+<Description>Timbrado Nro Factura Final</Description></Attribute>
+<Attribute>
+<AttriId>306</AttriId>
+<AttriName>TimbradoNroFacturaSerie1</AttriName>
+<Description>Timbrado Nro Factura Serie1</Description></Attribute>
+<Attribute>
+<AttriId>307</AttriId>
+<AttriName>TimbradoNroFacturaSerie2</AttriName>
+<Description>Timbrado Nro Factura Serie2</Description></Attribute>
+<Attribute>
+<AttriId>308</AttriId>
+<AttriName>TimbradoEstado</AttriName>
+<Description>Timbrado Estado</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>27</TableId>
+<TableName>Timbrado</TableName>
+<Description>Timbrado</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>28</TableId>
+<TableName>Factura</TableName>
+<Description>Factura</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>29</AttriId>
+<AttriName>TimbradoId</AttriName>
+<Description>Timbrado Id</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>16</TableId>
+<TableName>Ventas</TableName>
+<Description>Ventas</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>29</AttriId>
+<AttriName>TimbradoId</AttriName>
+<Description>Timbrado Id</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

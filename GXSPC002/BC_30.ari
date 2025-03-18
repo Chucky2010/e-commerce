@@ -1,0 +1,12 @@
+bc_dt_elem_i([ 0,30,0 ],'Wwpsubscriptionid',allownulls,no).
+bc_dt_elem_i([ 0,30,0 ],'Wwpnotificationdefinitionid',allownulls,no).
+bc_dt_elem_i([ 0,30,0 ],'Wwpnotificationdefinitiondescription',readonly,yes).
+bc_dt_elem_i([ 0,30,0 ],'Wwpnotificationdefinitiondescription',allownulls,no).
+bc_dt_elem_i([ 0,30,0 ],'Wwpentityname',readonly,yes).
+bc_dt_elem_i([ 0,30,0 ],'Wwpentityname',allownulls,no).
+bc_dt_elem_i([ 0,30,0 ],'Wwpuserextendedfullname',readonly,yes).
+bc_dt_elem_i([ 0,30,0 ],'Wwpuserextendedfullname',allownulls,no).
+bc_dt_elem_i([ 0,30,0 ],'Wwpsubscriptionentityrecordid',allownulls,no).
+bc_dt_elem_i([ 0,30,0 ],'Wwpsubscriptionentityrecorddescription',allownulls,no).
+bc_dt_elem_i([ 0,30,0 ],'Wwpsubscriptionsubscribed',allownulls,no).
+ 

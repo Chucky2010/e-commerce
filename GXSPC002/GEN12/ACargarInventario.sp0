@@ -1,0 +1,540 @@
+spec_i([ proc,181,l('Cargar Inventario'),'CargarInventario',78,spa,'17_0_11-163677' ]).
+ 
+struct_i(2,1,[],[]).
+struct_i(3,2,[ 53 ],[]).
+ 
+level_i(2,[ 49,[ [ 49,many ] ],[],[],[ [ [ 49 ],[ 53,257,258 ] ] ],[ [ [ 49 ],[] ] ],[ 53 ],'IINVENTARIO',[ 49,[ [ [],'Inventarioid',53 ] ] ],[] ]).
+level_i(3,[ 50,[ [ 50,many ] ],[],[],[ [ [ 50 ],[ 53,13,259,262,263,264,54 ] ] ],[ [ [ 50 ],[] ] ],[ 53,54 ],'IINVENTARIODETALLE',[ 50,[ [ [],53,53 ] ] ],[] ]).
+ 
+tw_i(2,[]).
+tw_i(3,[]).
+ 
+lwi_i(2,[ [] ]).
+lwi_i(3,[ [ c([ t(13,2),t(=,10),t([ t('Exceldocument',23),[ t('cells(',1),t('Fila',23),t(',',7),t('1',3),t(')',4) ],t('Number',3) ],29) ],[ 13 ]) ] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 49,53 ],[ 49,257 ],[ 49,258 ] ] ]).
+ta_i(3,[ [ [ 50,53 ],[ 50,13 ],[ 50,259 ],[ 50,262 ],[ 50,263 ],[ 50,264 ],[ 50,54 ] ] ]).
+ 
+las_i(2,[ [ 53,257,258 ] ]).
+las_i(3,[ [ 53,13,259,262,263,264,54 ] ]).
+ 
+lac_i(2,[ [] ]).
+lac_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','CargarInventario')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('AppGenerator','1')).
+rule_i(0,prop('AppLocation','')).
+rule_i(0,prop('AppIcon','')).
+rule_i(0,prop('AppTitle','')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','INTERNAL')).
+rule_i(0,prop('IsMain','-1')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(8,'Transacciones'))).
+rule_i(0,prop('ObjDesc','Cargar Inventario')).
+rule_i(0,prop('ObjName','CargarInventario')).
+rule_i(0,maingen(12)).
+rule_i(0,prop('PGMTYPE',main)).
+rule_i(0,parm([ 'Direccion','Nombrearchivo' ],[])).
+rule_i(0,parmio([ [ 'Direccion',inout ],[ 'Nombrearchivo',inout ] ])).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,3,t,50,[],[ [ [ [],53,53 ] ],'IINVENTARIODETALLE',[] ]).
+a_i(3,2,t,49,[],[ [ [ [],'Inventarioid',53 ] ],'IINVENTARIO',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,53).
+v_i(t,o,2,13).
+v_i(t,o,2,259).
+v_i(t,o,2,262).
+v_i(t,o,2,263).
+v_i(t,o,2,264).
+v_i(t,o,2,54).
+v_i(t,i,3,'Inventarioid').
+v_i(t,o,3,53).
+v_i(t,o,3,257).
+v_i(t,o,3,258).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',22 ]).
+attri_i(13,[ 'ArticuloId',int,11,0,'ZZZZZZZZZZ9',0,l('Articulo Id'),'',0 ]).
+attri_i(257,[ 'InventarioFecha',date,8,0,'99/99/99',0,l('Inventario Fecha'),'',0 ]).
+attri_i(258,[ 'InventarioDetalle',svchar,80,0,'',0,l('Inventario Detalle'),'',0 ]).
+attri_i(53,[ 'InventarioID',int,11,0,'ZZZZZZZZZZ9',0,l('Inventario ID'),'',0 ]).
+attri_i(259,[ 'InventarioDetalleStock',int,10,0,'ZZZZZZZZZ9',0,l('Inventario Detalle Stock'),'',0 ]).
+attri_i(262,[ 'InventarioDetalleStock2',int,10,0,'ZZZZZZZZZ9',0,l('Inventario Detalle Stock2'),'',0 ]).
+attri_i(263,[ 'InventarioDetalleStock3',int,10,0,'ZZZZZZZZZ9',0,l('Inventario Detalle Stock3'),'',0 ]).
+attri_i(264,[ 'InventarioDetalleStock4',int,10,0,'ZZZZZZZZZ9',0,l('Inventario Detalle Stock4'),'',0 ]).
+attri_i(54,[ 'InventarioDetalleID',int,11,0,'ZZZZZZZZZZ9',0,l('Inventario Detalle ID'),'',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',19 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',18 ]).
+attri_i('Inventarionumeroproceso',[ 'InventarioNumeroProceso',int,4,0,'ZZZ9',0,l('Inventario Numero Proceso'),'',17 ]).
+attri_i('Inventariodetalleid',[ 'InventarioDetalleID',int,11,0,'ZZZZZZZZZZ9',0,l('Inventario Detalle ID'),'',16 ]).
+attri_i('Inventarioid',[ 'InventarioID',int,11,0,'ZZZZZZZZZZ9',0,l('Inventario ID'),'',15 ]).
+attri_i('Bandera',[ 'Bandera',int,4,0,'ZZZ9',0,l('Bandera'),'',14 ]).
+attri_i('Fila',[ fila,int,10,0,'ZZZZZZZZZ9',0,l(fila),'',13 ]).
+attri_i('Columnindex',[ 'ColumnIndex',int,10,0,'ZZZZZZZZZ9',0,l('Column Index'),'',12 ]).
+attri_i('Exceldocument',[ 'ExcelDocument',o(exceldoc),4,0,'',0,l('Excel Document'),'',11 ]).
+attri_i('Nombrearchivo',[ 'NombreArchivo',svchar,80,0,'',0,l('Nombre Archivo'),'',10 ]).
+attri_i('Direccion',[ 'Direccion',svchar,80,0,'',0,l('Direccion'),'',9 ]).
+attri_i('Filename',[ 'Filename',char,256,0,'',0,l('Filename'),'',8 ]).
+ 
+table_i(50,[ 'InventarioDetalle',[ 53,54,13,259,262,263,264 ],l('Detalle'),'InventarioDetalle' ]).
+table_i(49,[ 'Inventario',[ 53,257,258 ],l('Inventario'),'Inventario' ]).
+ 
+index_i(50,[ 'IINVENTARIODETALLE',u,[ 53,54 ],'IInventarioDetalle' ]).
+index_i(49,[ 'IINVENTARIO',u,[ 53 ],'IInventario' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,40000,231,'ArticuloImagen_GXI',[ svchar,2048,0,0 ]).
+ 
+upd_i(3,50,u,[ [ 259,262,263,264 ],[],'IINVENTARIODETALLE',[] ]).
+upd_i(2,49,u,[ [ 257,258 ],[],'IINVENTARIO',[] ]).
+ 
+ 
+ 
+start_i(2,0,0,[ [ [ 53,23,'Inventarioid',= ] ],one ]).
+start_i(3,0,0,[ [ [ 53,2,53,= ] ],many ]).
+ 
+end_i(2,0,0,[ [ [ t(53,2),t(=,10),t('Inventarioid',23) ] ] ]).
+end_i(3,0,0,[ [ [ t(53,2),t(=,10),t(53,23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(90,[ 'IDN11' ]).
+dom_info_i(205,[ 'Stock' ]).
+dom_info_i(206,[ 'Detalle' ]).
+dom_info_i(202,[ 'Fecha' ]).
+ 
+ 
+break_i(3,nvg,2,[ 54 ],[ [ 54,264,263,262,259 ],[ 13 ],[] ]).
+break_i(2,nvg,1,[ 53 ],[ [ 53,258,257 ],[ 53 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,nvg,2,27,27).
+b_group_i(2,1,lit,0,28,28).
+b_group_i(2,2,nvg,3,36,36).
+b_group_i(3,1,lit,0,37,37).
+b_group_i(2,3,lit,0,58,50).
+b_group_i(1,3,lit,0,60,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[ t('',107,2,0),t('Filename',23,0,0),t(=,10,0,0),t('trim(',1,0,0),t('Direccion',23,0,0),t(')',4,0,0),t(+,5,0,0),t('trim(',1,0,0),t('Nombrearchivo',23,0,0),t(')',4,0,0) ]).
+b_line_i(3,1,1,cmd,0,[ t('',141,3,0),t('Filename',23,0,5),t(')',4,0,14) ]).
+b_line_i(4,1,1,cmd,0,[ t('',107,4,0),t('Filename',23,0,0),t(=,10,0,0),t('trim(',1,0,0),t('Filename',23,0,0),t(')',4,0,0) ]).
+b_line_i(5,1,1,cmd,0,[]).
+b_line_i(6,1,1,cmd,0,[ t('',107,6,0),t([ t('Exceldocument',23,6,1),t('open(',1,6,16) ],31,6,16),t('Filename',23,0,22),t(')',4,0,31) ]).
+b_line_i(7,1,1,cmd,0,[ t('',107,7,0),t([ t('Exceldocument',23,7,1),t('selectsheet(',1,7,16) ],31,7,16),t('getmessagetext(',1,7,29),t('"Listado"',3,7,29),t(')',4,7,29),t(')',4,0,38) ]).
+b_line_i(8,1,1,cmd,0,[]).
+b_line_i(9,1,1,cmd,0,[ t('',109,9,0),t('(',0,0,5),t([ t('Exceldocument',23,9,6),t('Errcode',3,9,21) ],29,9,21),t(<>,10,0,29),t('0',3,0,32),t(')',4,0,33) ]).
+b_line_i(10,1,1,cmd,0,[ t('',107,10,0),t('Filename',23,0,0),t(=,10,0,0),t('""',3,0,0) ]).
+b_line_i(11,1,1,cmd,0,[ t('',141,11,0),t('getmessagetext(',1,11,7),t('"Error en abrir documento"',3,11,7),t(')',4,11,7),t(')',4,0,33) ]).
+b_line_i(12,1,1,cmd,0,[ t('',110,12,0) ]).
+b_line_i(13,1,1,cmd,0,[]).
+b_line_i(14,1,1,cmd,0,[ t('',107,14,0),t('Columnindex',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(15,1,1,cmd,0,[ t('',107,15,0),t('Fila',23,0,0),t(=,10,0,0),t('3',3,0,0) ]).
+b_line_i(16,1,1,cmd,0,[]).
+b_line_i(17,1,1,cmd,0,[ t('',107,17,0),t('Bandera',23,0,0),t(=,10,0,0),t('0',3,0,0) ]).
+b_line_i(18,1,1,cmd,0,[]).
+b_line_i(19,1,1,cmd,0,[]).
+b_line_i(20,1,1,cmd,0,[ t('',114,20,0),t('Bandera',23,0,12),t(=,10,0,21),t('0',3,0,23) ]).
+b_line_i(21,1,1,cmd,0,[]).
+b_line_i(22,1,1,cmd,0,[ t('',109,22,0),t([ t('Exceldocument',23,22,7),[ t('cells(',1,0,22),t('Fila',23,0,29),t(',',7,0,34),t('1',3,0,35),t(')',4,0,36) ],t('Number',3,22,38) ],29,22,38),t(>,10,0,45),t('0',3,0,47) ]).
+b_line_i(23,1,1,cmd,0,[]).
+b_line_i(24,1,1,cmd,0,[ t('',107,24,0),t('Inventarioid',23,0,0),t(=,10,0,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('1',3,0,0),t(',',7,0,0),t('7',3,0,0),t(')',4,0,0) ],t('Number',3,0,0) ],29,0,0) ]).
+b_line_i(25,1,1,cmd,0,[ t('',107,25,0),t('Inventarionumeroproceso',23,0,0),t(=,10,0,0),t([ t('Exceldocument',23,0,0),[ t('cells(',1,0,0),t('1',3,0,0),t(',',7,0,0),t('5',3,0,0),t(')',4,0,0) ],t('Number',3,0,0) ],29,0,0) ]).
+b_line_i(26,1,1,cmd,0,[]).
+b_line_i(27,2,1,cmd,28,[ t('',121,27,0),t('ORDER',39,27,14),t(53,2,27,20) ]).
+b_line_i(29,2,1,cmd,28,[]).
+b_line_i(30,2,1,cmd,28,[]).
+b_line_i(31,2,1,cmd,28,[ t('',107,31,0),t(257,2,28,0),t(=,10,28,0),t('serverdate(',1,28,0),t(')',4,28,0) ]).
+b_line_i(32,2,1,cmd,28,[ t('',107,32,0),t(258,2,28,0),t(=,10,28,0),t([ t('Exceldocument',23,28,0),[ t('cells(',1,28,0),t('1',3,28,0),t(',',7,28,0),t('3',3,28,0),t(')',4,28,0) ],t('Text',3,28,0) ],29,28,0) ]).
+b_line_i(33,2,1,cmd,28,[]).
+b_line_i(34,2,1,cmd,28,[]).
+b_line_i(35,2,1,cmd,28,[]).
+b_line_i(36,3,1,cmd,37,[ t('',121,36,0),t('ORDER',39,36,15),t(54,2,36,21) ]).
+b_line_i(38,3,1,cmd,37,[]).
+b_line_i(39,3,1,cmd,37,[]).
+b_line_i(40,3,1,cmd,37,[ t('',109,40,0),t('Inventarionumeroproceso',23,37,10),t(=,10,37,35),t('1',3,37,37) ]).
+b_line_i(41,3,1,cmd,37,[ t('',107,41,0),t(259,2,37,0),t(=,10,37,0),t([ t('Exceldocument',23,37,0),[ t('cells(',1,37,0),t('Fila',23,37,0),t(',',7,37,0),t('3',3,37,0),t(')',4,37,0) ],t('Number',3,37,0) ],29,37,0) ]).
+b_line_i(42,3,1,cmd,37,[ t('',111,42,0) ]).
+b_line_i(43,3,1,cmd,37,[]).
+b_line_i(44,3,1,cmd,37,[ t('',109,44,0),t('Inventarionumeroproceso',23,37,10),t(=,10,37,35),t('2',3,37,37) ]).
+b_line_i(45,3,1,cmd,37,[ t('',107,45,0),t(262,2,37,0),t(=,10,37,0),t([ t('Exceldocument',23,37,0),[ t('cells(',1,37,0),t('Fila',23,37,0),t(',',7,37,0),t('3',3,37,0),t(')',4,37,0) ],t('Number',3,37,0) ],29,37,0) ]).
+b_line_i(46,3,1,cmd,37,[ t('',111,46,0) ]).
+b_line_i(47,3,1,cmd,37,[]).
+b_line_i(48,3,1,cmd,37,[ t('',109,48,0),t('Inventarionumeroproceso',23,37,10),t(=,10,37,35),t('3',3,37,37) ]).
+b_line_i(49,3,1,cmd,37,[ t('',107,49,0),t(263,2,37,0),t(=,10,37,0),t([ t('Exceldocument',23,37,0),[ t('cells(',1,37,0),t('Fila',23,37,0),t(',',7,37,0),t('3',3,37,0),t(')',4,37,0) ],t('Number',3,37,0) ],29,37,0) ]).
+b_line_i(50,3,1,cmd,37,[ t('',111,50,0) ]).
+b_line_i(51,3,1,cmd,37,[]).
+b_line_i(52,3,1,cmd,37,[ t('',109,52,0),t('Inventarionumeroproceso',23,37,10),t(=,10,37,35),t('4',3,37,37) ]).
+b_line_i(53,3,1,cmd,37,[ t('',107,53,0),t(264,2,37,0),t(=,10,37,0),t([ t('Exceldocument',23,37,0),[ t('cells(',1,37,0),t('Fila',23,37,0),t(',',7,37,0),t('3',3,37,0),t(')',4,37,0) ],t('Number',3,37,0) ],29,37,0) ]).
+b_line_i(54,3,1,cmd,37,[ t('',111,54,0) ]).
+b_line_i(55,3,1,cmd,37,[]).
+b_line_i(56,3,1,cmd,37,[ t('',107,56,0),t('Fila',23,37,0),t(=,10,37,0),t('Fila',23,37,0),t(+,5,37,0),t('1',3,37,0) ]).
+b_line_i(57,3,1,cmd,37,[ t('',128,57,0) ]).
+b_line_i(58,2,3,cmd,50,[]).
+b_line_i(59,2,3,cmd,50,[ t('',128,59,0) ]).
+b_line_i(60,1,3,cmd,33,[]).
+b_line_i(61,1,3,cmd,33,[ t('',110,61,0) ]).
+b_line_i(62,1,3,cmd,33,[ t('',107,62,0),t('Bandera',23,33,0),t(=,10,33,0),t('1',3,33,0) ]).
+b_line_i(63,1,3,cmd,33,[]).
+b_line_i(64,1,3,cmd,33,[ t('',111,64,0) ]).
+b_line_i(65,1,3,cmd,33,[]).
+b_line_i(66,1,3,cmd,33,[]).
+b_line_i(67,1,3,cmd,33,[]).
+b_line_i(68,1,3,cmd,33,[ t('',115,68,0) ]).
+b_line_i(69,1,3,cmd,33,[]).
+b_line_i(70,1,3,cmd,33,[]).
+b_line_i(71,1,3,cmd,33,[]).
+b_line_i(72,1,3,cmd,33,[]).
+b_line_i(73,1,3,cmd,33,[ t('',111,73,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+warn_gen_i(msg([],spc0060,[ 'The program may be called by another program and the Commit on Exit property is set to YES' ])).
+ 
+ 
+ 
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+calling_main_i(1,181).
+ 
+att_prop_i(2,54,'ExternalName','InventarioDetalleID',d).
+att_prop_i(2,54,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,54,'EmptyAsNull','Yes',d).
+att_prop_i(2,54,idBasedOn,90,v).
+att_prop_i(2,54,'AUTONUMBER','0',d).
+att_prop_i(2,54,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,54,'AttRegEx','',d).
+att_prop_i(2,54,'AttValidationFailedMsg','',d).
+att_prop_i(2,54,'DownloadOffline','0',d).
+att_prop_i(2,54,'VarServiceExtName','',d).
+att_prop_i(2,54,'FullName','InventarioDetalleID',v).
+att_prop_i(2,264,'ExternalName','InventarioDetalleStock4',d).
+att_prop_i(2,264,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,264,'EmptyAsNull','Yes',d).
+att_prop_i(2,264,idBasedOn,205,v).
+att_prop_i(2,264,'AUTONUMBER','0',d).
+att_prop_i(2,264,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,264,'AttRegEx','',d).
+att_prop_i(2,264,'AttValidationFailedMsg','',d).
+att_prop_i(2,264,'DownloadOffline','0',d).
+att_prop_i(2,264,'VarServiceExtName','',d).
+att_prop_i(2,264,'FullName','InventarioDetalleStock4',v).
+att_prop_i(2,263,'ExternalName','InventarioDetalleStock3',d).
+att_prop_i(2,263,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,263,'EmptyAsNull','Yes',d).
+att_prop_i(2,263,idBasedOn,205,v).
+att_prop_i(2,263,'AUTONUMBER','0',d).
+att_prop_i(2,263,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,263,'AttRegEx','',d).
+att_prop_i(2,263,'AttValidationFailedMsg','',d).
+att_prop_i(2,263,'DownloadOffline','0',d).
+att_prop_i(2,263,'VarServiceExtName','',d).
+att_prop_i(2,263,'FullName','InventarioDetalleStock3',v).
+att_prop_i(2,262,'ExternalName','InventarioDetalleStock2',d).
+att_prop_i(2,262,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,262,'EmptyAsNull','Yes',d).
+att_prop_i(2,262,idBasedOn,205,v).
+att_prop_i(2,262,'AUTONUMBER','0',d).
+att_prop_i(2,262,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,262,'AttRegEx','',d).
+att_prop_i(2,262,'AttValidationFailedMsg','',d).
+att_prop_i(2,262,'DownloadOffline','0',d).
+att_prop_i(2,262,'VarServiceExtName','',d).
+att_prop_i(2,262,'FullName','InventarioDetalleStock2',v).
+att_prop_i(2,259,'ExternalName','InventarioDetalleStock',d).
+att_prop_i(2,259,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,259,'EmptyAsNull','Yes',d).
+att_prop_i(2,259,idBasedOn,205,v).
+att_prop_i(2,259,'AUTONUMBER','0',d).
+att_prop_i(2,259,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,259,'AttRegEx','',d).
+att_prop_i(2,259,'AttValidationFailedMsg','',d).
+att_prop_i(2,259,'DownloadOffline','0',d).
+att_prop_i(2,259,'VarServiceExtName','',d).
+att_prop_i(2,259,'FullName','InventarioDetalleStock',v).
+att_prop_i(2,53,'ExternalName','InventarioID',d).
+att_prop_i(2,53,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,53,'EmptyAsNull','Yes',d).
+att_prop_i(2,53,idBasedOn,90,v).
+att_prop_i(2,53,'AUTONUMBER','0',d).
+att_prop_i(2,53,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,53,'AttRegEx','',d).
+att_prop_i(2,53,'AttValidationFailedMsg','',d).
+att_prop_i(2,53,'DownloadOffline','0',d).
+att_prop_i(2,53,'VarServiceExtName','',d).
+att_prop_i(2,53,'FullName','InventarioID',v).
+att_prop_i(2,258,'ExternalName','InventarioDetalle',d).
+att_prop_i(2,258,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,258,'EmptyAsNull','Yes',d).
+att_prop_i(2,258,idBasedOn,206,v).
+att_prop_i(2,258,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,258,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,258,'AttRegEx','',d).
+att_prop_i(2,258,'AttValidationFailedMsg','',d).
+att_prop_i(2,258,'DownloadOffline','0',d).
+att_prop_i(2,258,'VarServiceExtName','',d).
+att_prop_i(2,258,'FullName','InventarioDetalle',v).
+att_prop_i(2,257,'ExternalName','InventarioFecha',d).
+att_prop_i(2,257,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,257,'EmptyAsNull','Yes',d).
+att_prop_i(2,257,idBasedOn,202,v).
+att_prop_i(2,257,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,257,'AttRegEx','',d).
+att_prop_i(2,257,'AttValidationFailedMsg','',d).
+att_prop_i(2,257,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,257,'DownloadOffline','0',d).
+att_prop_i(2,257,'VarServiceExtName','',d).
+att_prop_i(2,257,'FullName','InventarioFecha',v).
+att_prop_i(2,13,'ExternalName','ArticuloId',d).
+att_prop_i(2,13,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,13,'EmptyAsNull','Yes',d).
+att_prop_i(2,13,idBasedOn,90,v).
+att_prop_i(2,13,'AUTONUMBER','0',d).
+att_prop_i(2,13,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,13,'AttRegEx','',d).
+att_prop_i(2,13,'AttValidationFailedMsg','',d).
+att_prop_i(2,13,'DownloadOffline','0',d).
+att_prop_i(2,13,'VarServiceExtName','',d).
+att_prop_i(2,13,'FullName','ArticuloId',v).
+ 
+tbl_prop_i(2,50,'AllDirSuper',[ [ 49,[ 53 ] ] ],v).
+tbl_prop_i(2,49,'DirSubor',[ [ 50,[ 53 ] ] ],v).
+tbl_prop_i(2,50,'DirSuper',[ [ 49,[ 53 ] ] ],v).
+ 
+tbl_att_prop_i(2,50,53,'AllowNulls',n).
+tbl_att_prop_i(2,50,54,'AllowNulls',n).
+tbl_att_prop_i(2,50,13,'AllowNulls',n).
+tbl_att_prop_i(2,50,259,'AllowNulls',n).
+tbl_att_prop_i(2,50,262,'AllowNulls',n).
+tbl_att_prop_i(2,50,263,'AllowNulls',n).
+tbl_att_prop_i(2,50,264,'AllowNulls',n).
+tbl_att_prop_i(2,49,53,'AllowNulls',n).
+tbl_att_prop_i(2,49,257,'AllowNulls',n).
+tbl_att_prop_i(2,49,258,'AllowNulls',n).
+ 
+var_prop_i(2,'Inventarioid',idBasedOn,'',v).
+var_prop_i(2,'Inventariodetalleid',idBasedOn,'',v).
+var_prop_i(2,'Inventarionumeroproceso',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,181,'CARGARINVENTARIO','INTERNAL','Unsecure').
+ 
+ 
+pgm_main_info_i(proc,181,'CARGARINVENTARIO',[ 12,'ACARGARINVENTARIO','Cargar Inventario','','','','INTERNAL' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

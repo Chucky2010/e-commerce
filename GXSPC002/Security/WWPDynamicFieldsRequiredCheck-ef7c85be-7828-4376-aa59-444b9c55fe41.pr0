@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpdynamicfieldsrequiredcheck_Services_Execute",
+    "Description": "Dynamic Fields Required Check Services",
+    "ProgramName": "workwithplus.nativemobile.wwpdynamicfieldsrequiredcheck",
+    "IsGXAutomatic": true
+  }
+]

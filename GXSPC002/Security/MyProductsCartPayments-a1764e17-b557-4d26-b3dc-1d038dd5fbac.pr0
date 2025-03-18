@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "myproductscartpayments_Execute",
+    "Description": "My Products Cart Payments",
+    "ProgramName": "myproductscartpayments",
+    "IsGXAutomatic": true
+  }
+]

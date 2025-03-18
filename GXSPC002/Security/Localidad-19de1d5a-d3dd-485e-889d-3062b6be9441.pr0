@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "localidad_FullControl",
+    "Description": "Localidad FullControl",
+    "ProgramName": "localidad",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "localidad_Execute",
+    "Description": "Localidad",
+    "ProgramName": "localidad",
+    "IsGXAutomatic": true,
+    "Parent": "localidad_FullControl"
+  },
+  {
+    "Name": "localidad_Insert",
+    "Description": "Localidad Insert",
+    "ProgramName": "localidad",
+    "IsGXAutomatic": true,
+    "Parent": "localidad_FullControl"
+  },
+  {
+    "Name": "localidad_Delete",
+    "Description": "Localidad Delete",
+    "ProgramName": "localidad",
+    "IsGXAutomatic": true,
+    "Parent": "localidad_FullControl"
+  },
+  {
+    "Name": "localidad_Update",
+    "Description": "Localidad Update",
+    "ProgramName": "localidad",
+    "IsGXAutomatic": true,
+    "Parent": "localidad_FullControl"
+  }
+]

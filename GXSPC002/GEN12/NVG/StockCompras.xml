@@ -1,0 +1,623 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>25</ObjId>
+<ObjName>StockCompras</ObjName>
+<ObjDesc>Stock Compras</ObjDesc>
+<ObjPgmName>StockCompras</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings>
+<Warning>
+<MsgCode>spc0060</MsgCode>
+<Message>
+<Token>The program may be called by another program and the Commit on Exit property is set to YES</Token></Message></Warning></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Comprasid</VarId>
+<VarName>&amp;ComprasId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>1</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>11</TableId>
+<TableName>Compras</TableName>
+<Description>Compras</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ComprasId</AttriName>
+<Description>Compras Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ICOMPRAS</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ComprasId</AttriName>
+<Description>Compras Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Comprasid</VarId>
+<VarName>&amp;ComprasId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ComprasId</AttriName>
+<Description>Compras Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Comprasid</VarId>
+<VarName>&amp;ComprasId</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>11</TableId>
+<TableName>Compras</TableName>
+<Description>Compras</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ComprasId</AttriName>
+<Description>Compras Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels>
+<Level>
+<LevelNumber>3</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>5</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>12</TableId>
+<TableName>ComprasDetalle</TableName>
+<Description>Detalle</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ComprasId</AttriName>
+<Description>Compras Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>ComprasDetalleId</AttriName>
+<Description>Compras Detalle Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ICOMPRASDETALLE</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ComprasId</AttriName>
+<Description>Compras Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>@ComprasId</AttriName>
+<Description>Compras Id</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ComprasId</AttriName>
+<Description>Compras Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>@ComprasId</AttriName>
+<Description>Compras Id</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>12</TableId>
+<TableName>ComprasDetalle</TableName>
+<Description>Detalle</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>11</AttriId>
+<AttriName>ComprasId</AttriName>
+<Description>Compras Id</Description></Attribute>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>ComprasDetalleId</AttriName>
+<Description>Compras Detalle Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></Level>
+<Level>
+<LevelNumber>4</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>21</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>42</TableId>
+<TableName>Stock</TableName>
+<Description>Stock</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>ISTOCK</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Articuloid</VarId>
+<VarName>&amp;ArticuloId</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>42</TableId>
+<TableName>Stock</TableName>
+<Description>Stock</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>42</TableId>
+<TableName>Stock</TableName>
+<Description>Stock</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>233</AttriId>
+<AttriName>StockTotal</AttriName>
+<Description>Stock Total</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels>
+<Level>
+<LevelNumber>5</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>28</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>43</TableId>
+<TableName>StockDetalle</TableName>
+<Description>Detalle</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>50</AttriId>
+<AttriName>StockDetalleID</AttriName>
+<Description>Stock Detalle ID</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>43</TableId>
+<TableName>StockDetalle</TableName>
+<Description>Detalle</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute>
+<Attribute>
+<AttriId>50</AttriId>
+<AttriName>StockDetalleID</AttriName>
+<Description>Stock Detalle ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>43</TableId>
+<TableName>StockDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute>
+<Attribute>
+<AttriId>50</AttriId>
+<AttriName>StockDetalleID</AttriName>
+<Description>Stock Detalle ID</Description></Attribute>
+<Attribute>
+<AttriId>216</AttriId>
+<AttriName>StockIdCompra</AttriName>
+<Description>Stock Id Compra</Description></Attribute>
+<Attribute>
+<AttriId>217</AttriId>
+<AttriName>StockFecha</AttriName>
+<Description>Stock Fecha</Description></Attribute>
+<Attribute>
+<AttriId>218</AttriId>
+<AttriName>StockCantidad</AttriName>
+<Description>Stock Cantidad</Description></Attribute>
+<Attribute>
+<AttriId>219</AttriId>
+<AttriName>StockSaldo</AttriName>
+<Description>Stock Saldo</Description></Attribute>
+<Attribute>
+<AttriId>220</AttriId>
+<AttriName>StockPrecioCompra</AttriName>
+<Description>Stock Precio Compra</Description></Attribute>
+<Attribute>
+<AttriId>221</AttriId>
+<AttriName>StockPrecioVenta</AttriName>
+<Description>Stock Precio Venta</Description></Attribute>
+<Attribute>
+<AttriId>289</AttriId>
+<AttriName>StockDetalleTallaID</AttriName>
+<Description>Stock Detalle Talla ID</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></Level>
+<Level>
+<LevelNumber>6</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>43</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>42</TableId>
+<TableName>Stock</TableName>
+<Description>Stock</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>42</TableId>
+<TableName>Stock</TableName>
+<Description>Stock</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>42</TableId>
+<TableName>Stock</TableName>
+<Description>Stock</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Attribute>
+<AttriId>233</AttriId>
+<AttriName>StockTotal</AttriName>
+<Description>Stock Total</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>7</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>52</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>43</TableId>
+<TableName>StockDetalle</TableName>
+<Description>Detalle</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>50</AttriId>
+<AttriName>StockDetalleID</AttriName>
+<Description>Stock Detalle ID</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>43</TableId>
+<TableName>StockDetalle</TableName>
+<Description>Detalle</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute>
+<Attribute>
+<AttriId>50</AttriId>
+<AttriName>StockDetalleID</AttriName>
+<Description>Stock Detalle ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>43</TableId>
+<TableName>StockDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>46</AttriId>
+<AttriName>StockId</AttriName>
+<Description>Stock Id</Description></Attribute>
+<Attribute>
+<AttriId>50</AttriId>
+<AttriName>StockDetalleID</AttriName>
+<Description>Stock Detalle ID</Description></Attribute>
+<Attribute>
+<AttriId>216</AttriId>
+<AttriName>StockIdCompra</AttriName>
+<Description>Stock Id Compra</Description></Attribute>
+<Attribute>
+<AttriId>217</AttriId>
+<AttriName>StockFecha</AttriName>
+<Description>Stock Fecha</Description></Attribute>
+<Attribute>
+<AttriId>218</AttriId>
+<AttriName>StockCantidad</AttriName>
+<Description>Stock Cantidad</Description></Attribute>
+<Attribute>
+<AttriId>219</AttriId>
+<AttriName>StockSaldo</AttriName>
+<Description>Stock Saldo</Description></Attribute>
+<Attribute>
+<AttriId>220</AttriId>
+<AttriName>StockPrecioCompra</AttriName>
+<Description>Stock Precio Compra</Description></Attribute>
+<Attribute>
+<AttriId>221</AttriId>
+<AttriName>StockPrecioVenta</AttriName>
+<Description>Stock Precio Venta</Description></Attribute>
+<Attribute>
+<AttriId>289</AttriId>
+<AttriName>StockDetalleTallaID</AttriName>
+<Description>Stock Detalle Talla ID</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>8</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>68</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IARTICULO</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Articuloid</VarId>
+<VarName>&amp;ArticuloId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Articuloid</VarId>
+<VarName>&amp;ArticuloId</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>79</AttriId>
+<AttriName>ArticuloStock</AttriName>
+<Description>Articulo Stock</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels>
+<Level>
+<LevelNumber>9</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>72</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>57</TableId>
+<TableName>ArticuloTalla</TableName>
+<Description>Talla</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>285</AttriId>
+<AttriName>ArticuloTallaID</AttriName>
+<Description>Articulo Talla ID</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IARTICULOTALLA</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>@ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>@ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere>
+<Condition>
+<Attribute>
+<AttriId>286</AttriId>
+<AttriName>TallaID</AttriName>
+<Description>Talla ID</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Tallaid</VarId>
+<VarName>&amp;TallaID</VarName></Variable></Condition></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>57</TableId>
+<TableName>ArticuloTalla</TableName>
+<Description>Talla</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute>
+<Attribute>
+<AttriId>285</AttriId>
+<AttriName>ArticuloTallaID</AttriName>
+<Description>Articulo Talla ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>57</TableId>
+<TableName>ArticuloTalla</TableName>
+<Description>Talla</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>290</AttriId>
+<AttriName>ArticuloTallaStock</AttriName>
+<Description>Articulo Talla Stock</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></Level></Levels></ObjectSpec>

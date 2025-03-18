@@ -1,0 +1,32 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>43</ObjId>
+<ObjName>WWPBaseObjects.SaveUserKeyValue</ObjName>
+<ObjDesc>Save User Key Value</ObjDesc>
+<ObjPgmName>WWPBaseObjects.SaveUserKeyValue</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Usercustomizationskey</VarId>
+<VarName>&amp;UserCustomizationsKey</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Usercustomizationsvalue</VarId>
+<VarName>&amp;UserCustomizationsValue</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

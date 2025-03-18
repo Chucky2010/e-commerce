@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpdynamicfieldstojson_Services_Execute",
+    "Description": "Dynamic Fields To JSON Services",
+    "ProgramName": "workwithplus.nativemobile.wwpdynamicfieldstojson",
+    "IsGXAutomatic": true
+  }
+]

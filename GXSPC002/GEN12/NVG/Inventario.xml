@@ -1,0 +1,263 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>43</ObjId>
+<ObjName>Inventario</ObjName>
+<ObjDesc>Inventario</ObjDesc>
+<ObjPgmName>Inventario</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Inventarioid</VarId>
+<VarName>&amp;InventarioID</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>49</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>49</TableId>
+<TableName>Inventario</TableName>
+<Description>Inventario</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>49</TableId>
+<TableName>Inventario</TableName>
+<Description>Inventario</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>49</TableId>
+<TableName>Inventario</TableName>
+<Description>Inventario</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute>
+<Attribute>
+<AttriId>257</AttriId>
+<AttriName>InventarioFecha</AttriName>
+<Description>Inventario Fecha</Description></Attribute>
+<Attribute>
+<AttriId>258</AttriId>
+<AttriName>InventarioDetalle</AttriName>
+<Description>Inventario Detalle</Description></Attribute>
+<Attribute>
+<AttriId>265</AttriId>
+<AttriName>InventarioNumeroProceso</AttriName>
+<Description>Inventario Numero Proceso</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>49</TableId>
+<TableName>Inventario</TableName>
+<Description>Inventario</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>257</AttriId>
+<AttriName>InventarioFecha</AttriName>
+<Description>Inventario Fecha</Description></Attribute>
+<Attribute>
+<AttriId>258</AttriId>
+<AttriName>InventarioDetalle</AttriName>
+<Description>Inventario Detalle</Description></Attribute>
+<Attribute>
+<AttriId>265</AttriId>
+<AttriName>InventarioNumeroProceso</AttriName>
+<Description>Inventario Numero Proceso</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>49</TableId>
+<TableName>Inventario</TableName>
+<Description>Inventario</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>50</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>50</TableId>
+<TableName>InventarioDetalle</TableName>
+<Description>Detalle</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>50</TableId>
+<TableName>InventarioDetalle</TableName>
+<Description>Detalle</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute>
+<Attribute>
+<AttriId>54</AttriId>
+<AttriName>InventarioDetalleID</AttriName>
+<Description>Inventario Detalle ID</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>50</TableId>
+<TableName>InventarioDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute>
+<Attribute>
+<AttriId>54</AttriId>
+<AttriName>InventarioDetalleID</AttriName>
+<Description>Inventario Detalle ID</Description></Attribute>
+<Attribute>
+<AttriId>259</AttriId>
+<AttriName>InventarioDetalleStock</AttriName>
+<Description>Inventario Detalle Stock</Description></Attribute>
+<Attribute>
+<AttriId>262</AttriId>
+<AttriName>InventarioDetalleStock2</AttriName>
+<Description>Inventario Detalle Stock2</Description></Attribute>
+<Attribute>
+<AttriId>263</AttriId>
+<AttriName>InventarioDetalleStock3</AttriName>
+<Description>Inventario Detalle Stock3</Description></Attribute>
+<Attribute>
+<AttriId>264</AttriId>
+<AttriName>InventarioDetalleStock4</AttriName>
+<Description>Inventario Detalle Stock4</Description></Attribute>
+<Attribute>
+<AttriId>261</AttriId>
+<AttriName>InventarioDetalleStockOk</AttriName>
+<Description>Inventario Detalle Stock Ok</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>50</TableId>
+<TableName>InventarioDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>259</AttriId>
+<AttriName>InventarioDetalleStock</AttriName>
+<Description>Inventario Detalle Stock</Description></Attribute>
+<Attribute>
+<AttriId>262</AttriId>
+<AttriName>InventarioDetalleStock2</AttriName>
+<Description>Inventario Detalle Stock2</Description></Attribute>
+<Attribute>
+<AttriId>263</AttriId>
+<AttriName>InventarioDetalleStock3</AttriName>
+<Description>Inventario Detalle Stock3</Description></Attribute>
+<Attribute>
+<AttriId>264</AttriId>
+<AttriName>InventarioDetalleStock4</AttriName>
+<Description>Inventario Detalle Stock4</Description></Attribute>
+<Attribute>
+<AttriId>261</AttriId>
+<AttriName>InventarioDetalleStockOk</AttriName>
+<Description>Inventario Detalle Stock Ok</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>50</TableId>
+<TableName>InventarioDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>29</ObjId>
+<ObjName>ArticuloPrompt</ObjName>
+<ObjPgmName>ArticuloPrompt</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

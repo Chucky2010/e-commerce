@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "tallaprompt_Execute",
+    "Description": "Selecciona Talla",
+    "ProgramName": "tallaprompt",
+    "IsGXAutomatic": true
+  }
+]

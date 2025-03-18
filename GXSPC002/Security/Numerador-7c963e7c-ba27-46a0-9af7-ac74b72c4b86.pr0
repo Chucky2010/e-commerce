@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "numerador_FullControl",
+    "Description": "Numerador FullControl",
+    "ProgramName": "numerador",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "numerador_Execute",
+    "Description": "Numerador",
+    "ProgramName": "numerador",
+    "IsGXAutomatic": true,
+    "Parent": "numerador_FullControl"
+  },
+  {
+    "Name": "numerador_Insert",
+    "Description": "Numerador Insert",
+    "ProgramName": "numerador",
+    "IsGXAutomatic": true,
+    "Parent": "numerador_FullControl"
+  },
+  {
+    "Name": "numerador_Delete",
+    "Description": "Numerador Delete",
+    "ProgramName": "numerador",
+    "IsGXAutomatic": true,
+    "Parent": "numerador_FullControl"
+  },
+  {
+    "Name": "numerador_Update",
+    "Description": "Numerador Update",
+    "ProgramName": "numerador",
+    "IsGXAutomatic": true,
+    "Parent": "numerador_FullControl"
+  }
+]

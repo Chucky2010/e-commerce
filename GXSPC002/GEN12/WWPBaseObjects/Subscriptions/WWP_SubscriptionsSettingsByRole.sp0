@@ -1,0 +1,1960 @@
+spec_i([ web,125,l('Manage Role''s Subscriptions'),'WWPBaseObjects\Subscriptions\WWP_SubscriptionsSettingsByRole',0,spa,'17_0_11-163677' ]).
+ 
+struct_i(2,1,[],[]).
+struct_i(3,2,[],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+level_i(3,[ 31,[ [ 31,many ],[ 2000,one ],[ 2001,one ] ],[],[],[ [ [ 31,2000,2001 ],[ 150,33,40000,40001 ] ] ],[ [ [ 31,2000,2001 ],[] ] ],[ 33 ],'IWWP_ENTITY',[],[] ]).
+ 
+tw_i(2,[]).
+tw_i(3,[ [ 2000,[ [ 31,oe([ t(33,2) ]),33 ] ] ],[ 2001,[ [ 31,oe([ t(33,2) ]),33 ] ] ] ]).
+ 
+lwi_i(2,[ [] ]).
+lwi_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ta_i(3,[ [ [ 31,150 ],[ 31,33 ],[ 2000,se(40000,[ [ 2000,40000 ] ],[ t('coalesce(',1),t(40000,2),t(',',7),t('0',3),t(')',4) ]) ],[ 2001,se(40001,[ [ 2001,40001 ] ],[ t('coalesce(',1),t(40001,2),t(',',7),t('0',3),t(')',4) ]) ] ] ]).
+ 
+las_i(2,[ [ 'Wwpsubscriptionroleid','Notifshowonlysubscribedevents','Filterfulltext','Wwpentityname','Wwpentityid','Detailwebcomponent','Gridcurrentpage' ] ]).
+las_i(3,[ [ 'Wwpsubscriptionroleid','Notifshowonlysubscribedevents','Filterfulltext','Gridcurrentpage',150,33,40000,40001 ] ]).
+ 
+lac_i(2,[ [ 'Notifshowonlysubscribedevents','Filterfulltext','Wwpentityname','Wwpentityid','Detailwebcomponent','Gridcurrentpage' ] ]).
+lac_i(3,[ [ 'Notifshowonlysubscribedevents','Filterfulltext','Gridcurrentpage' ] ]).
+ 
+ 
+ 
+cls_i([ 0,0 ],[ 2,131 ]).
+ 
+pos_i('Notifshowonlysubscribedevents',[ 0,0,0 ]).
+pos_i('Filterfulltext',[ 0,0,0 ]).
+pos_i('Wwpentityname',[ 1,2,0 ]).
+pos_i('Wwpentityid',[ 1,2,101 ]).
+pos_i('Detailwebcomponent',[ 1,2,112 ]).
+pos_i('Gridcurrentpage',[ 0,0,0 ]).
+ 
+repeat_i(2,[ 1,2,[ 'Wwpentityname','Wwpentityid','Detailwebcomponent' ],[ 'Wwpentityname','Wwpentityid','Detailwebcomponent' ] ]).
+repeat_i(3,[ 1,2,[ 'Wwpentityname','Wwpentityid','Detailwebcomponent' ],[] ]).
+ 
+default_i(e('Pgmname',2,2,'"WWPBaseObjects.Subscriptions.WWP_SubscriptionsSettingsByRole"')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','WWPBaseObjects.Subscriptions.WWP_SubscriptionsSettingsByRole')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WebApplication',idDefault)).
+rule_i(0,prop('IntegratedSecurityPermissionPrefix','WWPSubscriptionsSettingsByRole')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'WWPBaseObjects.WorkWithPlusMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop('Folder',o(8,'WWPBaseObjects\Subscriptions\UserInterface'))).
+rule_i(0,prop('ObjDesc','Manage Role''s Subscriptions')).
+rule_i(0,prop('ObjName','WWP_SubscriptionsSettingsByRole')).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Wwpsubscriptionroleid' ],[])).
+rule_i(0,parmio([ [ 'Wwpsubscriptionroleid',in ] ])).
+ 
+a_i(3,1,f,'Pgmname',[],[ [],[ t('"WWPBaseObjects.Subscriptions.WWP_SubscriptionsSettingsByRole"',3) ] ]).
+a_i(4,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(5,3,t,31,[],[ [],'IWWP_ENTITY',[] ]).
+a_i(6,3,r,2000,[],[ [ [ 31,oe([ t(33,2) ]),33 ] ],'IWWP_ENTITY',[] ]).
+a_i(7,3,r,2001,[],[ [ [ 31,oe([ t(33,2) ]),33 ] ],'IWWP_ENTITY',[] ]).
+a_i(8,1,f,[ t('&Wwpentityname',23),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+a_i(9,1,f,[ t('&Wwpentityid',23),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+a_i(10,1,f,[ t('&Detailwebcomponent',23),t('Enabled',3) ],[],[ [],[ t(0,3),t(';',18) ] ]).
+ 
+v_i(f,i,3,[]).
+v_i(f,o,3,'Pgmname').
+v_i(f,i,4,[]).
+v_i(f,o,4,'Err').
+v_i(t,i,5,[]).
+v_i(t,o,5,150).
+v_i(t,o,5,33).
+v_i(r,i,6,33).
+v_i(r,o,6,40000).
+v_i(r,i,7,33).
+v_i(r,o,7,40001).
+v_i(f,i,8,[]).
+v_i(f,o,8,[ t('&Wwpentityname',23),t('Enabled',3) ]).
+v_i(f,i,9,[]).
+v_i(f,o,9,[ t('&Wwpentityid',23),t('Enabled',3) ]).
+v_i(f,i,10,[]).
+v_i(f,o,10,[ t('&Detailwebcomponent',23),t('Enabled',3) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(149,[ 'WWPSubscriptionRoleId',char,40,0,'',0,l('Subscription Role Id'),'',0 ]).
+attri_i(34,[ 'WWPSubscriptionId',int,10,0,'ZZZZZZZZZ9',0,l('Subscription Id'),'',0 ]).
+attri_i(155,[ 'WWPNotificationDefinitionAppli',int,1,0,'9',0,l('Notification Definition Applies To'),'',0 ]).
+attri_i(35,[ 'WWPNotificationDefinitionId',int,10,0,'ZZZZZZZZZ9',0,l('Notification Definition Id'),'',0 ]).
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'','',43 ]).
+attri_i(150,[ 'WWPEntityName',svchar,100,0,'',0,l('Entity Name'),'',0 ]).
+attri_i(33,[ 'WWPEntityId',int,10,0,'ZZZZZZZZZ9',0,l('Entity Id'),'',0 ]).
+attri_i(40001,[ 'GXC2',int,9,0,'',0,'',[],0 ]).
+attri_i(152,[ 'WWPSubscriptionSubscribed',boolean,4,0,'',0,l('Is Subscribed'),'',0 ]).
+attri_i(40000,[ 'GXC1',int,9,0,'',0,'',[],0 ]).
+attri_i(154,[ 'WWPNotificationDefinitionDescr',svchar,200,0,'',0,l('Notification Definition Description'),'',0 ]).
+attri_i('Pgmname',[ 'Pgmname',char,129,0,'',1,l('Program name'),'',41 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',40 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',39 ]).
+attri_i('Gridappliedfilters',[ 'GridAppliedFilters',svchar,40,0,'',0,l('Grid Applied Filters'),'',38 ]).
+attri_i('Subscriptionsforentitycount',[ 'SubscriptionsForEntityCount',int,4,0,'ZZZ9',0,l('Subscriptions For Entity Count'),'',37 ]).
+attri_i('Wwpsubscriptionroleid',[ 'WWPSubscriptionRoleId',char,40,0,'',0,l('WWPSubscription Role Id'),'',36 ]).
+attri_i('Wwpsubscriptionroleidcollection',[ 'WWPSubscriptionRoleIdCollection',o(objectcollection(char)),40,0,'',0,l('WWPSubscription Role Id'),'',35 ]).
+attri_i('Wwpuserextended',[ 'WWPUserExtended',o('WWPBaseObjects\WWP_UserExtended'),0,0,'',0,l('WWPUser Extended'),'',34 ]).
+attri_i('Wwpnotificationid',[ 'WWPNotificationId',int,10,0,'ZZZZZZZZZ9',0,l('WWPNotification Id'),'',33 ]).
+attri_i('Wwpsubscriptionid',[ 'WWPSubscriptionId',int,10,0,'ZZZZZZZZZ9',0,l('WWPSubscription Id'),'',32 ]).
+attri_i('Entityhasitemstoshow',[ 'EntityHasItemsToShow',boolean,4,0,'',0,l('Entity Has Items To Show'),'',31 ]).
+attri_i('Wwpentityname',[ 'WWPEntityName',svchar,100,0,'',0,l('WWPEntity Name'),'',30 ]).
+attri_i('Wwpentityid',[ 'WWPEntityId',int,10,0,'ZZZZZZZZZ9',0,l('WWPEntity Id'),'',29 ]).
+attri_i('Wwpdiscussionentityid',[ 'WWPDiscussionEntityId',int,10,0,'ZZZZZZZZZ9',0,l('WWPDiscussion Entity Id'),'',28 ]).
+attri_i('Wwpcontext',[ 'WWPContext',o('WWPBaseObjects\WWPContext'),0,0,'',0,l('WWPContext'),'',27 ]).
+attri_i('Userextendedid',[ 'UserExtendedId',char,40,0,'',0,l('User Extended Id'),'',26 ]).
+attri_i('Trncontextatt',[ 'TrnContextAtt',o('WWPBaseObjects\WWPTransactionContext.Attribute'),0,0,'',0,l('Trn Context Att'),'',25 ]).
+attri_i('Trncontext',[ 'TrnContext',o('WWPBaseObjects\WWPTransactionContext'),0,0,'',0,l('Trn Context'),'',24 ]).
+attri_i('Subscriptionforentityitemscount',[ 'SubscriptionForEntityItemsCount',int,4,0,'ZZZ9',0,l('Subscription For Entity Items Count'),'',23 ]).
+attri_i('Sms',[ 'Sms',boolean,4,0,'',0,l('Sms'),'',22 ]).
+attri_i('Session',[ 'Session',o(websession),4,0,'',0,l('Session'),'',21 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,l('Security Functionality Keys'),'',20 ]).
+attri_i('Sd',[ 'SD',boolean,4,0,'',0,l('SD'),'',19 ]).
+attri_i('Pagetogo',[ 'PageToGo',int,6,0,'ZZZZZ9',0,l('Page To Go'),'',18 ]).
+attri_i('Notifshowonlysubscribedevents',[ 'NotifShowOnlySubscribedEvents',boolean,4,0,'',0,l('Notif Show Only Subscribed Events'),'',17 ]).
+attri_i('Notificationsforentitycount',[ 'NotificationsForEntityCount',int,4,0,'ZZZ9',0,l('Notifications For Entity Count'),'',16 ]).
+attri_i('Mail',[ 'Mail',boolean,4,0,'',0,l('Mail'),'',15 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,l('Is Authorized'),'',14 ]).
+attri_i('Httprequest',[ 'HTTPRequest',o(httprequest),4,0,'',0,l('HTTPRequest'),'',13 ]).
+attri_i('Gridstatefiltervalue',[ 'GridStateFilterValue',o('WWPBaseObjects\WWPGridState.FilterValue'),0,0,'',0,l('Grid State Filter Value'),'',12 ]).
+attri_i('Gridstate',[ 'GridState',o('WWPBaseObjects\WWPGridState'),0,0,'',0,l('Grid State'),'',11 ]).
+attri_i('Gridrecordcount',[ 'GridRecordCount',int,4,0,'ZZZ9',0,l('Grid Record Count'),'',10 ]).
+attri_i('Gridpagecount',[ 'GridPageCount',int,10,0,'ZZZZZZZZZ9',0,l('Grid Page Count'),'',9 ]).
+attri_i('Gridcurrentpage',[ 'GridCurrentPage',int,10,0,'ZZZZZZZZZ9',0,l('Grid Current Page'),'',8 ]).
+attri_i('Filterfulltext',[ 'FilterFullText',svchar,100,0,'',0,l('Filter Full Text'),'',7 ]).
+attri_i('Detailwebcomponent',[ 'DetailWebComponent',char,20,0,'',0,l('Detail Web Component'),'',6 ]).
+attri_i('Desktop',[ 'Desktop',boolean,4,0,'',0,l('Desktop'),'',5 ]).
+ 
+table_i(32,[ 'WWP_Subscription',[ 34,35,149,152 ],l('WWP_Subscription'),'WWP_Subscription' ]).
+table_i(36,[ 'WWP_NotificationDefinition',[ 35,155,154,33 ],l('WWP_NotificationDefinition'),'WWP_NotificationDefinition' ]).
+table_i(2001,[ 'WWP_Entity',[ 40001,33 ],l('WWP_Entity'),'WWP_Entity' ]).
+table_i(2000,[ 'WWP_Entity',[ 40000,33 ],l('WWP_Entity'),'WWP_Entity' ]).
+table_i(31,[ 'WWP_Entity',[ 33,150 ],l('WWP_Entity'),'WWP_Entity' ]).
+ 
+index_i(36,[ 'IWWP_NOTIFICATIONDEFINITION',u,[ 35 ],'IWWP_NotificationDefinition' ]).
+index_i(32,[ 'IWWP_SUBSCRIPTION',u,[ 34 ],'IWWP_Subscription' ]).
+index_i(31,[ 'IWWP_ENTITY',u,[ 33 ],'IWWP_Entity' ]).
+index_i(2000,[ 'IWWP_ENTITY',u,[ 33 ],'IWWP_Entity' ]).
+index_i(2001,[ 'IWWP_ENTITY',u,[ 33 ],'IWWP_Entity' ]).
+ 
+lv_i(2,2000,31).
+lv_i(2,2001,31).
+ 
+ 
+function_i(2,'Gridappliedfilters',yes,udp,o(1,'WWPBaseObjects\WWP_GetAppliedFiltersDescription'),[],30,'Gridappliedfilters',[ [ t('Pgmname',23) ] ]).
+function_i(2,[ t('Form',3),t('Caption',3) ],yes,udp,o(1,'WWPBaseObjects\WWP_GetRoleName'),[],16,[ t('Form',3),t('Caption',3) ],[ [ t('Wwpsubscriptionroleid',23) ] ]).
+ 
+ 
+nav_view_i(2000,[ 40000 ],[ 33 ],[ 33 ],[ [ 2000,[ [ 31,oe([ t(33,2) ]),33 ] ] ] ],[ [ [ 36,[ 'count(',154 ] ],[ 36,33 ] ],n,[ [ 36,many ] ],[],[ c([ t(155,2),t(=,10),t([ 245,'AnyRecord' ],44) ],[ 155 ]) ],[ none ],[],[ 33 ],[] ]).
+nav_view_i(2001,[ 40001 ],[ 33 ],[ 33,'Wwpsubscriptionroleid' ],[ [ 2001,[ [ 31,oe([ t(33,2) ]),33 ] ] ] ],[ [ [ 32,[ 'count(',152 ] ],[ 36,33 ] ],n,[ [ 32,many ],[ 36,one ] ],[ [ 36,[ [ 32,35,35 ] ] ] ],[ c([ t(149,2),t(=,10),t('Wwpsubscriptionroleid',23) ],[ 149 ]) ],[ none ],[],[ 'Wwpsubscriptionroleid',33 ],[] ]).
+ 
+ 
+agg_def_i(40000,[ t('0',3) ]).
+agg_def_i(40001,[ t('0',3) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enumerated_i(2,155,245).
+ 
+enum_value_i(2,245,'1','AnyRecord',l('Any record'),[ none ]).
+enum_value_i(2,245,'2','SpecificRecord',l('Specific record'),[ none ]).
+ 
+enum_value_info_i(2,245,'WWPBaseObjects\Notifications\WWP_NotificationAppliesTo').
+ 
+enum_type_i(2,245,int,1,0).
+ 
+dom_info_i(92,[ 'WWPBaseObjects\WWP_Id' ]).
+dom_info_i(239,[ 'WWPBaseObjects\WWP_Description' ]).
+dom_info_i(245,[ 'WWPBaseObjects\Notifications\WWP_NotificationAppliesTo' ]).
+dom_info_i(32,[ 'GeneXus\Url' ]).
+dom_info_i(91,[ 'WWPBaseObjects\WWP_GAMGUID' ]).
+dom_info_i(223,[ 'WWPFullTextFilter' ]).
+dom_info_i(88,[ 'SecGAMFunctionalityKey' ]).
+ 
+ 
+break_i(3,nvg,2,[],[ [ 33,150 ],[],[] ]).
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,20).
+b_group_i(2,3,lit,0,21,36).
+b_group_i(2,4,lit,0,37,54).
+b_group_i(2,5,lit,0,55,65).
+b_group_i(2,6,lit,0,66,2).
+b_group_i(2,7,nvg,3,68,68).
+b_group_i(3,1,lit,0,69,77).
+b_group_i(2,8,lit,0,99,103).
+b_group_i(2,9,lit,0,104,113).
+b_group_i(2,10,lit,0,114,141).
+b_group_i(2,11,lit,0,142,160).
+b_group_i(2,12,lit,0,161,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(6,2,2,cmd,2,[ t('',107,6,0),t([ t('Cell_grid_dwc',3,2,0),t('Class',3,2,0) ],29,2,0),t(=,10,2,0),t('''Invisible WCD_''',3,2,0),t(+,5,2,0),t('upper(',1,2,0),t([ t('Grid',3,2,0),t('Internalname',3,2,0) ],29,2,0),t(')',4,2,0) ]).
+b_line_i(8,2,2,cmd,2,[ t('',107,8,0),t([ t('Grid',3,2,0),t('Rows',3,2,0) ],29,2,0),t(=,10,2,0),t('50',3,2,0) ]).
+b_line_i(9,2,2,cmd,2,[ t('',107,9,0),t([ t('Grid_empowerer',3,2,0),t('Gridinternalname',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Internalname',3,2,0) ],29,2,0) ]).
+b_line_i(10,2,2,cmd,2,[ t('',107,10,0),t([ t('Form',3,2,0),t('Caption',3,2,0) ],29,2,0),t(=,10,2,0),t('getmessagetext(',1,2,0),t('"Manage Role''s Subscriptions"',3,2,0),t(')',4,2,0) ]).
+b_line_i(11,2,2,cmd,2,[ t('',145,11,0),t('''LOADGRIDSTATE''',3,11,5) ]).
+b_line_i(12,2,2,cmd,2,[ t('',107,12,0),t([ t('Gridpaginationbar',3,2,0),t('Rowsperpageselectedvalue',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Rows',3,2,0) ],29,2,0) ]).
+b_line_i(16,2,2,cmd,2,[ t('',107,16,0),t([ t('Form',3,2,0),t('Caption',3,2,0) ],29,2,0),t(=,10,2,0),t('format(',1,2,0),t('getmessagetext(',1,2,0),t('"Subscriptions for Role: %1"',3,2,0),t(')',4,2,0),t(',',7,2,0),t('udp(',1,2,0),t([ t('Form',3),t('Caption',3) ],3,2,0),t(16,3,2,0),t('Wwpsubscriptionroleid',23,2,0),t(')',4,2,0),t(')',4,2,0) ]).
+b_line_i(18,2,2,cmd,2,[ t('',147,18,0) ]).
+b_line_i(20,2,2,cmd,2,[ t('',146,20,0),t('Refresh',3,20,7) ]).
+b_line_i(24,2,3,cmd,2,[ t('',104,24,0),t(o(1,'WWPBaseObjects\LoadWWPContext'),28,2,2),t('Wwpcontext',23,2,23) ]).
+b_line_i(26,2,3,cmd,2,[ t('',145,26,0),t('''SAVEGRIDSTATE''',3,26,5) ]).
+b_line_i(28,2,3,cmd,2,[ t('',107,28,0),t('Gridcurrentpage',23,2,0),t(=,10,2,0),t([ t('Grid',3,2,0),t('Currentpage',3,2,0) ],29,2,0) ]).
+b_line_i(30,2,3,cmd,2,[ t('',107,30,0),t('Gridappliedfilters',23,2,0),t(=,10,2,0),t('udp(',1,2,0),t('Gridappliedfilters',3,2,0),t(30,3,2,0),t('Pgmname',23,2,0),t(')',4,2,0) ]).
+b_line_i(34,2,3,cmd,2,[ t('',147,34,0) ]).
+b_line_i(36,2,3,cmd,2,[ t('',146,36,0),t([ t('Gridpaginationbar',3,36,7),t('Changepage',3,36,25) ],29,36,25) ]).
+b_line_i(40,2,4,cmd,2,[ t('',152,40,0) ]).
+b_line_i(41,2,4,cmd,2,[ t('',153,41,0),t([ t('Gridpaginationbar',3,41,8),t('Selectedpage',3,41,26) ],29,41,26),t(=,10,2,39),t('''Previous''',3,41,41) ]).
+b_line_i(42,2,4,cmd,2,[ t('',107,42,0),t([ t('Grid',3,42,4),t('previouspage(',1,42,9) ],31,42,9),t(')',4,2,23) ]).
+b_line_i(43,2,4,cmd,2,[ t('',153,43,0),t([ t('Gridpaginationbar',3,43,8),t('Selectedpage',3,43,26) ],29,43,26),t(=,10,2,39),t('''Next''',3,43,41) ]).
+b_line_i(44,2,4,cmd,2,[ t('',107,44,0),t([ t('Grid',3,44,4),t('nextpage(',1,44,9) ],31,44,9),t(')',4,2,19) ]).
+b_line_i(45,2,4,cmd,2,[ t('',164,45,0) ]).
+b_line_i(46,2,4,cmd,2,[ t('',107,46,0),t('Pagetogo',23,46,4),t(=,10,46,4),t('val(',1,46,4),t([ t('Gridpaginationbar',3,46,26),t('Selectedpage',3,46,44) ],29,46,44),t(')',4,2,56) ]).
+b_line_i(47,2,4,cmd,2,[ t('',107,47,0),t([ t('Grid',3,47,4),t('gotopage(',1,47,9) ],31,47,9),t('Pagetogo',23,2,19),t(')',4,2,28) ]).
+b_line_i(48,2,4,cmd,2,[ t('',154,48,0) ]).
+b_line_i(52,2,4,cmd,2,[ t('',147,52,0) ]).
+b_line_i(54,2,4,cmd,2,[ t('',146,54,0),t([ t('Gridpaginationbar',3,54,7),t('Changerowsperpage',3,54,25) ],29,54,25) ]).
+b_line_i(58,2,5,cmd,2,[ t('',107,58,0),t([ t('Grid',3,2,0),t('Rows',3,2,0) ],29,2,0),t(=,10,2,0),t([ t('Gridpaginationbar',3,2,0),t('Rowsperpageselectedvalue',3,2,0) ],29,2,0) ]).
+b_line_i(59,2,5,cmd,2,[ t('',107,59,0),t([ t('Grid',3,59,2),t('firstpage(',1,59,7) ],31,59,7),t(')',4,2,18) ]).
+b_line_i(63,2,5,cmd,2,[ t('',147,63,0) ]).
+b_line_i(65,2,5,cmd,2,[ t('',146,65,0),t([ t('Grid',3,65,7),t('Load',3,65,12) ],29,65,12) ]).
+b_line_i(67,2,6,cmd,2,[ t('',107,67,0),t('Gridrecordcount',23,2,0),t(=,10,2,0),t('0',3,2,0) ]).
+b_line_i(68,3,1,cmd,69,[ t('',121,68,0),t(table,3,68,11),t(31,3,68,11) ]).
+b_line_i(77,3,1,cmd,77,[ t('',107,77,0),t('Detailwebcomponent',23,77,0),t(=,10,77,0),t('''<i class="fas fa-angle-right ArrowIcon"></i>''',3,77,0) ]).
+b_line_i(81,3,1,cmd,77,[ t('',107,81,0),t('Wwpentityname',23,77,0),t(=,10,77,0),t(150,2,77,0) ]).
+b_line_i(82,3,1,cmd,77,[ t('',107,82,0),t('Wwpentityid',23,77,0),t(=,10,77,0),t(33,2,77,0) ]).
+b_line_i(83,3,1,cmd,77,[ t('',107,83,0),t('Entityhasitemstoshow',23,77,0),t(=,10,77,0),t('FALSE',41,77,0) ]).
+b_line_i(84,3,1,cmd,77,[ t('',107,84,0),t('Notificationsforentitycount',23,77,0),t(=,10,77,0),t(40000,2,77,0) ]).
+b_line_i(85,3,1,cmd,77,[ t('',109,85,0),t('Notificationsforentitycount',23,77,6),t(>,10,77,35),t('0',3,77,37),t('.AND.',9,77,39),t('.NOT.',8,77,45),t('Notifshowonlysubscribedevents',23,77,51) ]).
+b_line_i(86,3,1,cmd,77,[ t('',107,86,0),t('Entityhasitemstoshow',23,77,0),t(=,10,77,0),t('TRUE',40,77,0) ]).
+b_line_i(87,3,1,cmd,77,[ t('',110,87,0) ]).
+b_line_i(88,3,1,cmd,77,[ t('',107,88,0),t('Subscriptionsforentitycount',23,77,0),t(=,10,77,0),t(40001,2,77,0) ]).
+b_line_i(89,3,1,cmd,77,[ t('',109,89,0),t('Subscriptionsforentitycount',23,77,7),t(>,10,77,36),t('0',3,77,38) ]).
+b_line_i(90,3,1,cmd,77,[ t('',107,90,0),t('Entityhasitemstoshow',23,77,0),t(=,10,77,0),t('TRUE',40,77,0) ]).
+b_line_i(91,3,1,cmd,77,[ t('',111,91,0) ]).
+b_line_i(92,3,1,cmd,77,[ t('',111,92,0) ]).
+b_line_i(93,3,1,cmd,77,[ t('',109,93,0),t('Entityhasitemstoshow',23,77,6) ]).
+b_line_i(94,3,1,cmd,77,[ t('',107,94,0),t('Gridrecordcount',23,77,0),t(=,10,77,0),t('Gridrecordcount',23,77,0),t(+,5,77,0),t('1',3,77,0) ]).
+b_line_i(95,3,1,cmd,77,[ t('',107,95,0),t([ t('Grid',3,0,0),t('load(',1,0,0) ],31,0,0),t(')',4,0,0) ]).
+b_line_i(96,3,1,cmd,77,[ t('',111,96,0) ]).
+b_line_i(98,3,1,cmd,77,[ t('',128,98,0) ]).
+b_line_i(99,2,8,cmd,33,[ t('',107,99,0),t('Gridpagecount',23,33,0),t(=,10,33,0),t('Gridrecordcount',23,33,0),t(/,6,33,0),t([ t('Grid',3,33,0),t('Rows',3,33,0) ],29,33,0),t(+,5,33,0),t('iif(',1,33,0),t('mod(',1,33,0),t('Gridrecordcount',23,33,0),t(',',7,33,0),t([ t('Grid',3,33,0),t('Rows',3,33,0) ],29,33,0),t(')',4,33,0),t(>,10,33,0),t('0',3,33,0),t(',',7,33,0),t('1',3,33,0),t(',',7,33,0),t('0',3,33,0),t(')',4,33,0) ]).
+b_line_i(101,2,8,cmd,33,[ t('',147,101,0) ]).
+b_line_i(103,2,8,cmd,33,[ t('',146,103,0),t([ t('Detailwebcomponent',23,103,7),t('Click',3,103,27) ],29,103,27) ]).
+b_line_i(107,2,9,cmd,33,[ t('',107,107,0),t([ t('Grid_dwc',3,33,0),t('Object',3,33,0) ],29,33,0),t(=,10,33,0),t('create(',1,33,0),t(o(13,'WWPBaseObjects\Subscriptions\WWP_SubscriptionsSettingsByRoleWC'),28,33,0),t(',',7,33,0),t('Wwpentityid',23,33,0),t(',',7,33,0),t('Notifshowonlysubscribedevents',23,33,0),t(',',7,33,0),t('Wwpsubscriptionroleid',23,33,0),t(')',4,33,0) ]).
+b_line_i(111,2,9,cmd,33,[ t('',147,111,0) ]).
+b_line_i(113,2,9,cmd,33,[ t('',143,113,0),t('''LOADGRIDSTATE''',3,113,5) ]).
+b_line_i(118,2,10,cmd,33,[ t('',109,118,0),t([ t('Session',23,33,5),t('get(',1,33,14) ],31,118,14),t('Pgmname',23,33,19),t(+,5,33,28),t('"GridState"',3,118,30),t(')',4,33,42),t(=,10,33,44),t('""',3,118,46) ]).
+b_line_i(119,2,10,cmd,33,[ t('',107,119,0),t([ t('Gridstate',23,119,3),t('fromxml(',1,119,14) ],31,119,3),t('udp(',1,119,37),t(o(1,'WWPBaseObjects\LoadGridState'),28,119,23),t(',',7,33,0),t('Pgmname',23,33,42),t(+,5,33,51),t('"GridState"',3,119,53),t(')',4,33,0),t(')',4,33,66) ]).
+b_line_i(120,2,10,cmd,33,[ t('',110,120,0) ]).
+b_line_i(121,2,10,cmd,33,[ t('',107,121,0),t([ t('Gridstate',23,121,3),t('fromxml(',1,121,14) ],31,121,3),t([ t('Session',23,33,23),t('get(',1,33,32) ],31,121,32),t('Pgmname',23,33,37),t(+,5,33,46),t('"GridState"',3,121,48),t(')',4,33,60),t(')',4,33,61) ]).
+b_line_i(122,2,10,cmd,33,[ t('',111,122,0) ]).
+b_line_i(124,2,10,cmd,33,[ t('',107,124,0),t('GXV1',23,33,0),t(=,10,33,0),t(1,3,33,0) ]).
+b_line_i([ 124,2 ],2,10,cmd,33,[ t('',114,124,0),t('GXV1',23,33,0),t(<=,10,33,0),t([ t('Gridstate',23,124,31),t('Filtervalues',3,124,42),t('Count',3,124,0) ],29,124,0) ]).
+b_line_i([ 124,3 ],2,10,cmd,33,[ t('',107,124,0),t('Gridstatefiltervalue',23,33,0),t(=,10,33,0),t([ t([ t('Gridstate',23,33,0),t('Filtervalues',3,33,0) ],29,33,0),t('item(',1,33,0) ],31,33,0),t('GXV1',23,33,0),t(')',4,33,0) ]).
+b_line_i(125,2,10,cmd,34,[ t('',152,125,0) ]).
+b_line_i(126,2,10,cmd,34,[ t('',153,126,0),t([ t('Gridstatefiltervalue',23,126,9),t('Name',3,126,31) ],29,126,31),t(=,10,34,36),t('"NOTIFSHOWONLYSUBSCRIBEDEVENTS"',3,126,38) ]).
+b_line_i(127,2,10,cmd,34,[ t('',107,127,0),t('Notifshowonlysubscribedevents',23,127,5),t(=,10,127,5),t('boolval(',1,127,5),t([ t('Gridstatefiltervalue',23,127,48),t('Value',3,127,70) ],29,127,70),t(')',4,34,75) ]).
+b_line_i(128,2,10,cmd,34,[ t('',153,128,0),t([ t('Gridstatefiltervalue',23,128,9),t('Name',3,128,31) ],29,128,31),t(=,10,34,36),t('"FILTERFULLTEXT"',3,128,38) ]).
+b_line_i(129,2,10,cmd,34,[ t('',107,129,0),t('Filterfulltext',23,129,5),t(=,10,129,5),t([ t('Gridstatefiltervalue',23,129,33),t('Value',3,129,55) ],29,129,55) ]).
+b_line_i(130,2,10,cmd,34,[ t('',154,130,0) ]).
+b_line_i([ 131,1 ],2,10,cmd,34,[ t('',107,131,0),t('GXV1',23,34,0),t(=,10,34,0),t('GXV1',23,34,0),t(+,5,34,0),t(1,3,34,0) ]).
+b_line_i([ 131,2 ],2,10,cmd,34,[ t('',115,131,0) ]).
+b_line_i(132,2,10,cmd,35,[ t('',109,132,0),t('.NOT.',8,35,5),t('null(',1,132,39),t('trim(',1,35,31),t([ t('Gridstate',23,132,11),t('Pagesize',3,132,22) ],29,132,22),t(')',4,35,37),t(')',4,35,48) ]).
+b_line_i(133,2,10,cmd,35,[ t('',107,133,0),t([ t('Grid',3,35,0),t('Rows',3,35,0) ],29,35,0),t(=,10,35,0),t('val(',1,35,0),t([ t('Gridstate',23,35,0),t('Pagesize',3,35,0) ],29,35,0),t(')',4,35,0) ]).
+b_line_i(134,2,10,cmd,35,[ t('',111,134,0) ]).
+b_line_i(135,2,10,cmd,35,[ t('',107,135,0),t([ t('Grid',3,35,0),t('Currentpage',3,35,0) ],29,35,0),t(=,10,35,0),t([ t('Gridstate',23,35,0),t('Currentpage',3,35,0) ],29,35,0) ]).
+b_line_i(139,2,10,cmd,35,[ t('',144,139,0) ]).
+b_line_i(141,2,10,cmd,35,[ t('',143,141,0),t('''SAVEGRIDSTATE''',3,141,5) ]).
+b_line_i(145,2,11,cmd,35,[ t('',107,145,0),t([ t('Gridstate',23,145,2),t('fromxml(',1,145,13) ],31,145,2),t([ t('Session',23,35,22),t('get(',1,35,31) ],31,145,31),t('Pgmname',23,35,36),t(+,5,35,45),t('"GridState"',3,145,47),t(')',4,35,59),t(')',4,35,60) ]).
+b_line_i(148,2,11,cmd,35,[ t('',107,148,0),t([ t('Gridstate',23,148,12),t('Filtervalues',3,148,23),t('clear(',1,148,36) ],31,148,12),t(')',4,35,43) ]).
+b_line_i(149,2,11,cmd,35,[ t('',104,149,0),t(o(1,'WWPBaseObjects\WWP_GridStateAddFilterValue'),28,35,2),t('Gridstate',23,35,30),t(',',7,35,0),t('"NOTIFSHOWONLYSUBSCRIBEDEVENTS"',3,149,42),t(',',7,35,0),t('""',3,149,76),t(',',7,35,0),t('.NOT.',8,35,80),t('null(',1,149,117),t('Notifshowonlysubscribedevents',23,35,86),t(')',4,35,126),t(',',7,35,0),t('0',3,35,129),t(',',7,35,0),t('trim(',1,149,175),t('booltostr(',1,35,163),t('Notifshowonlysubscribedevents',23,35,132),t(')',4,35,173),t(')',4,35,181),t(',',7,35,0),t('''''',3,149,184) ]).
+b_line_i(150,2,11,cmd,35,[ t('',104,150,0),t(o(1,'WWPBaseObjects\WWP_GridStateAddFilterValue'),28,35,2),t('Gridstate',23,35,30),t(',',7,35,0),t('"FILTERFULLTEXT"',3,150,42),t(',',7,35,0),t('getmessagetext(',1,150,61),t('"WWP_FullTextFilterDescription"',3,150,61),t(')',4,150,61),t(',',7,35,0),t('.NOT.',8,35,94),t('null(',1,150,116),t('Filterfulltext',23,35,100),t(')',4,35,125),t(',',7,35,0),t('0',3,35,128),t(',',7,35,0),t('Filterfulltext',23,35,131),t(',',7,35,0),t('''''',3,150,148) ]).
+b_line_i(152,2,11,cmd,35,[ t('',107,152,0),t([ t('Gridstate',23,35,0),t('Pagesize',3,35,0) ],29,35,0),t(=,10,35,0),t('str(',1,35,0),t([ t('Grid',3,35,0),t('Rows',3,35,0) ],29,35,0),t(')',4,35,0) ]).
+b_line_i(153,2,11,cmd,35,[ t('',107,153,0),t([ t('Gridstate',23,35,0),t('Currentpage',3,35,0) ],29,35,0),t(=,10,35,0),t([ t('Grid',3,35,0),t('Currentpage',3,35,0) ],29,35,0) ]).
+b_line_i(154,2,11,cmd,35,[ t('',104,154,0),t(o(1,'WWPBaseObjects\SaveGridState'),28,35,2),t('Pgmname',23,35,22),t(+,5,35,31),t('"GridState"',3,154,33),t(',',7,35,0),t([ t('Gridstate',23,35,48),t('toxml(',1,35,59) ],31,154,59),t(')',4,35,66) ]).
+b_line_i(158,2,11,cmd,35,[ t('',144,158,0) ]).
+b_line_i(160,2,11,cmd,35,[ t('',146,160,0),t([ t('Notifshowonlysubscribedevents',23,160,7),t('Click',3,160,38) ],29,160,38) ]).
+b_line_i(162,2,12,cmd,35,[ t('',107,162,0),t([ t('Grid_dwc',3,162,2),t('refresh(',1,162,11) ],31,162,11),t(')',4,35,20) ]).
+b_line_i(164,2,12,cmd,35,[ t('',147,164,0) ]).
+ 
+sf_break_i(26,2).
+ 
+ 
+ 
+has_load_i(2).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,div(2)).
+ 
+html_sub_i(2,3,html_i(0,div(3))).
+html_sub_i(3,4,html_i(0,div(4))).
+html_sub_i(4,5,html_i(0,div(5))).
+html_sub_i(5,6,html_i(0,div(6))).
+html_sub_i(6,7,html_i(0,div(7))).
+html_sub_i(7,8,html_i(0,div(8))).
+html_sub_i(8,9,html_i(0,usercontrol(9))).
+html_sub_i(9,10,html_i(0,container(10))).
+html_sub_i(10,11,html_i(0,div(11))).
+html_sub_i(11,12,html_i(0,div(12))).
+html_sub_i(12,13,html_i(0,div(13))).
+html_sub_i(13,14,html_i(0,div(14))).
+html_sub_i(14,15,html_i(0,div(15))).
+html_sub_i(15,16,html_i(0,div(16))).
+html_sub_i(16,17,html_i(0,t('Notifshowonlysubscribedevents',23))).
+html_sub_i(14,18,html_i(1,div(18))).
+html_sub_i(18,19,html_i(0,div(19))).
+html_sub_i(19,20,html_i(0,t('Filterfulltext',23))).
+html_sub_i(11,21,html_i(1,div(21))).
+html_sub_i(21,22,html_i(0,div(22))).
+html_sub_i(22,23,html_i(0,div(23))).
+html_sub_i(23,24,html_i(0,div(24))).
+html_sub_i(24,25,html_i(0,div(25))).
+html_sub_i(25,26,html_i(0,s(26))).
+html_sub_i(23,30,html_i(1,div(30))).
+html_sub_i(30,31,html_i(0,div(31))).
+html_sub_i(31,32,html_i(0,usercontrol(32))).
+html_sub_i(23,33,html_i(2,div(33))).
+html_sub_i(33,34,html_i(0,div(34))).
+html_sub_i(34,35,html_i(0,comp(webcomp))).
+html_sub_i(3,36,html_i(1,div(36))).
+html_sub_i(36,37,html_i(0,div(37))).
+html_sub_i(37,38,html_i(0,div(38))).
+html_sub_i(38,39,html_i(0,usercontrol(39))).
+ 
+html_tags_i(1,'Class','form-horizontal Form').
+html_tags_i(2,'data-gx-base-lib',bootstrapv3).
+html_tags_i(2,'data-abstract-form','').
+html_tags_i(14,style,'flex-wrap:wrap;justify-content:space-between;').
+html_tags_i(14,'data-gx-flex','').
+html_tags_i(17,'data-gx-att','var:17').
+html_tags_i(20,'data-gx-att','var:7').
+html_tags_i(35,'Object','').
+ 
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Class','Section',d,[ str ]).
+html_comp_i(2,'Id','',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Semanticcontent',div,d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Valign',top,d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Class','Table',v,[ str ]).
+html_comp_i(3,'Id','Layoutmaintable',v,[ str ]).
+html_comp_i(3,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Semanticcontent',div,d,[ str ]).
+html_comp_i(3,'Align',left,d,[ str ]).
+html_comp_i(3,'Valign',top,d,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Class',row,v,[ str ]).
+html_comp_i(4,'Id','',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Semanticcontent',div,d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Valign',top,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Class','col-xs-12',v,[ str ]).
+html_comp_i(5,'Id','',d,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Semanticcontent',div,d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Valign',top,d,[ str ]).
+html_comp_i(6,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(6,'Class','TableMain',v,[ str ]).
+html_comp_i(6,'Id','Tablemain',v,[ str ]).
+html_comp_i(6,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Semanticcontent',div,d,[ str ]).
+html_comp_i(6,'Align',left,d,[ str ]).
+html_comp_i(6,'Valign',top,d,[ str ]).
+html_comp_i(7,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(7,'Class',row,v,[ str ]).
+html_comp_i(7,'Id','',d,[ str ]).
+html_comp_i(7,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(7,'Semanticcontent',div,d,[ str ]).
+html_comp_i(7,'Align',left,d,[ str ]).
+html_comp_i(7,'Valign',top,d,[ str ]).
+html_comp_i(8,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(8,'Class','col-xs-12 CellMarginTop',v,[ str ]).
+html_comp_i(8,'Id','',d,[ str ]).
+html_comp_i(8,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(8,'Semanticcontent',div,d,[ str ]).
+html_comp_i(8,'Align',left,d,[ str ]).
+html_comp_i(8,'Valign',top,d,[ str ]).
+html_comp_i(9,'Usercontroltype','DVelop.GXBootstrap.Panel_AL',d,[ str ]).
+html_comp_i(9,'Constructorname','BootstrapPanel',d,[ str ]).
+html_comp_i(9,'Showmethodname',show,d,[ str ]).
+html_comp_i(9,'Controlname','DVPanel_UnnamedTable1',v,[ str ]).
+html_comp_i(9,'Width','100%',v,[ str ]).
+html_comp_i(9,'Height','100',d,[ str ]).
+html_comp_i(9,'Autowidth',0,v,[ bool ]).
+html_comp_i(9,'Autoheight',-1,v,[ bool ]).
+html_comp_i(9,'Cls','PanelNoHeader',v,[ str ]).
+html_comp_i(9,'Showheader',-1,d,[ bool ]).
+html_comp_i(9,'Title','',v,[ str ]).
+html_comp_i(9,'Collapsible',-1,v,[ bool ]).
+html_comp_i(9,'Collapsed',0,v,[ bool ]).
+html_comp_i(9,'Showcollapseicon',0,v,[ bool ]).
+html_comp_i(9,'Iconposition','Right',v,[ str ]).
+html_comp_i(9,'Autoscroll',0,v,[ bool ]).
+html_comp_i(9,'Visible',-1,d,[ bool ]).
+html_comp_i(9,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(9,'Jssupportfiles',[ [ t('''DVelop\Bootstrap\Shared\DVelopBootstrap.js''',3) ],[ t('''DVelop\Shared\WorkWithPlusCommon.js''',3) ],[ t('''DVelop\Bootstrap/Panel/BootstrapPanelRender.js''',3) ] ],d,[ params ]).
+html_comp_i(9,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(9,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(10,'Containerid','UnnamedTable1',v,[ str ]).
+html_comp_i(11,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(11,'Class','',v,[ str ]).
+html_comp_i(11,'Id','Unnamedtable1',v,[ str ]).
+html_comp_i(11,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(11,'Semanticcontent',div,d,[ str ]).
+html_comp_i(11,'Align',left,d,[ str ]).
+html_comp_i(11,'Valign',top,d,[ str ]).
+html_comp_i(12,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(12,'Class',row,v,[ str ]).
+html_comp_i(12,'Id','',d,[ str ]).
+html_comp_i(12,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(12,'Semanticcontent',div,d,[ str ]).
+html_comp_i(12,'Align',left,d,[ str ]).
+html_comp_i(12,'Valign',top,d,[ str ]).
+html_comp_i(13,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(13,'Class','col-xs-12',v,[ str ]).
+html_comp_i(13,'Id','',d,[ str ]).
+html_comp_i(13,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(13,'Semanticcontent',div,d,[ str ]).
+html_comp_i(13,'Align',left,d,[ str ]).
+html_comp_i(13,'Valign',top,d,[ str ]).
+html_comp_i(14,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(14,'Class','Flex',v,[ str ]).
+html_comp_i(14,'Id','Tableheader',v,[ str ]).
+html_comp_i(14,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(14,'Semanticcontent',div,d,[ str ]).
+html_comp_i(14,'Align',left,d,[ str ]).
+html_comp_i(14,'Valign',top,d,[ str ]).
+html_comp_i(15,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(15,'Class','',v,[ str ]).
+html_comp_i(15,'Id','',d,[ str ]).
+html_comp_i(15,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(15,'Semanticcontent',div,d,[ str ]).
+html_comp_i(15,'Align',left,d,[ str ]).
+html_comp_i(15,'Valign',top,d,[ str ]).
+html_comp_i(16,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(16,'Class',' gx-attribute',v,[ str ]).
+html_comp_i(16,'Id','',d,[ str ]).
+html_comp_i(16,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(16,'Semanticcontent',div,d,[ str ]).
+html_comp_i(16,'Align',left,d,[ str ]).
+html_comp_i(16,'Valign',top,d,[ str ]).
+html_comp_i(17,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(17,'Colcount',4,d,[ num ]).
+html_comp_i(17,'Attid',-17,v,[ num ]).
+html_comp_i(17,'Class','AttributeCheckNoBorderCheckBox',v,[ str ]).
+html_comp_i(17,'Controlname','&Notifshowonlysubscribedevents',d,[ str ]).
+html_comp_i(17,'Returnonclick',0,v,[ bool ]).
+html_comp_i(17,'Captionclass','gx-form-item AttributeCheckNoBorderCheckBoxLabel',v,[ str ]).
+html_comp_i(17,'Captionstyle','width: 25%;',v,[ str ]).
+html_comp_i(17,'Captionposition','None',v,[ str ]).
+html_comp_i(17,'Captionvalue',l('Notif Show Only Subscribed Events'),d,[ str ]).
+html_comp_i(17,'Layoutclass','',v,[ str ]).
+html_comp_i(17,'Controltype',3,v,[ num ]).
+html_comp_i(17,'Controltitle','Show only role''s subscribed events',v,[ str ]).
+html_comp_i(17,'Controlcheckvalue',true,d,[ str ]).
+html_comp_i(17,'Controluncheckvalue',false,d,[ str ]).
+html_comp_i(17,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(17,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(17,'Readonly',0,v,[ bool ]).
+html_comp_i(17,'Autocomplete',0,d,[ bool ]).
+html_comp_i(17,'Autoresize',-1,d,[ bool ]).
+html_comp_i(17,'Gxwidth',measure(4,chr),d,[ measure ]).
+html_comp_i(17,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(17,'Ismultiline',0,d,[ bool ]).
+html_comp_i(17,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(17,'Fill',-1,d,[ bool ]).
+html_comp_i(17,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(17,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(17,'Font',font('Verdana',12,[]),d,[ font ]).
+html_comp_i(17,'Title','',d,[ str ]).
+html_comp_i(17,'Invitemsg',l('WWP_Search'),v,[ str ]).
+html_comp_i(18,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(18,'Class','',v,[ str ]).
+html_comp_i(18,'Id','',d,[ str ]).
+html_comp_i(18,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(18,'Semanticcontent',div,d,[ str ]).
+html_comp_i(18,'Align',left,d,[ str ]).
+html_comp_i(18,'Valign',top,d,[ str ]).
+html_comp_i(19,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(19,'Class',' gx-attribute',v,[ str ]).
+html_comp_i(19,'Id','',d,[ str ]).
+html_comp_i(19,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(19,'Semanticcontent',div,d,[ str ]).
+html_comp_i(19,'Align',left,d,[ str ]).
+html_comp_i(19,'Valign',top,d,[ str ]).
+html_comp_i(20,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(20,'Colcount',80,d,[ num ]).
+html_comp_i(20,'Attid',-7,v,[ num ]).
+html_comp_i(20,'Class','Attribute',v,[ str ]).
+html_comp_i(20,'Controlname','&Filterfulltext',d,[ str ]).
+html_comp_i(20,'Returnonclick',0,v,[ bool ]).
+html_comp_i(20,'Captionclass','gx-form-item AttributeLabel',v,[ str ]).
+html_comp_i(20,'Captionstyle','width: 25%;',v,[ str ]).
+html_comp_i(20,'Captionposition','None',v,[ str ]).
+html_comp_i(20,'Captionvalue',l('Filter Full Text'),d,[ str ]).
+html_comp_i(20,'Layoutclass','',v,[ str ]).
+html_comp_i(20,'Controltype',2,d,[ num ]).
+html_comp_i(20,'Inputtype',0,d,[ num ]).
+html_comp_i(20,'Editautocomplete',0,d,[ num ]).
+html_comp_i(20,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(20,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(20,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(20,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(20,'Readonly',0,v,[ bool ]).
+html_comp_i(20,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(20,'Ispassword',0,d,[ bool ]).
+html_comp_i(20,'Autoresize',-1,d,[ bool ]).
+html_comp_i(20,'Gxwidth',measure(80,chr),d,[ measure ]).
+html_comp_i(20,'Gxheight',measure(1,row),d,[ measure ]).
+html_comp_i(20,'Ismultiline',0,d,[ bool ]).
+html_comp_i(20,'Maxtextnumberlines',0,d,[ num ]).
+html_comp_i(20,'Fill',-1,d,[ bool ]).
+html_comp_i(20,'Backcolor',rgb(255,255,255),d,[ color ]).
+html_comp_i(20,'Forecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(20,'Font',font('Verdana',12,[]),d,[ font ]).
+html_comp_i(20,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(20,'Gxformat',0,d,[ num ]).
+html_comp_i(20,'Title','',d,[ str ]).
+html_comp_i(20,'Invitemsg',l('WWP_Search'),v,[ str ]).
+html_comp_i(21,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(21,'Class',row,v,[ str ]).
+html_comp_i(21,'Id','',d,[ str ]).
+html_comp_i(21,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(21,'Semanticcontent',div,d,[ str ]).
+html_comp_i(21,'Align',left,d,[ str ]).
+html_comp_i(21,'Valign',top,d,[ str ]).
+html_comp_i(22,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(22,'Class','col-xs-12 SectionGrid GridNoBorderCell GridNoTitleCell CellMarginTop HasGridEmpowerer',v,[ str ]).
+html_comp_i(22,'Id','',d,[ str ]).
+html_comp_i(22,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(22,'Semanticcontent',div,d,[ str ]).
+html_comp_i(22,'Align',left,d,[ str ]).
+html_comp_i(22,'Valign',top,d,[ str ]).
+html_comp_i(23,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(23,'Class','Table',v,[ str ]).
+html_comp_i(23,'Id','Gridtablewithpaginationbar',v,[ str ]).
+html_comp_i(23,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(23,'Semanticcontent',div,d,[ str ]).
+html_comp_i(23,'Align',left,d,[ str ]).
+html_comp_i(23,'Valign',top,d,[ str ]).
+html_comp_i(24,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(24,'Class',row,v,[ str ]).
+html_comp_i(24,'Id','',d,[ str ]).
+html_comp_i(24,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(24,'Semanticcontent',div,d,[ str ]).
+html_comp_i(24,'Align',left,d,[ str ]).
+html_comp_i(24,'Valign',top,d,[ str ]).
+html_comp_i(25,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(25,'Class','col-xs-12',v,[ str ]).
+html_comp_i(25,'Id','',d,[ str ]).
+html_comp_i(25,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(25,'Semanticcontent',div,d,[ str ]).
+html_comp_i(25,'Align',left,d,[ str ]).
+html_comp_i(25,'Valign',top,d,[ str ]).
+html_comp_i(26,'Isabstractlayoutcontrol',-1,v,[ bool ]).
+html_comp_i(26,'Controlname','Grid',v,[ str ]).
+html_comp_i(26,'Controlwhere','',d,[ str ]).
+html_comp_i(26,'Controlunique','',d,[ str ]).
+html_comp_i(26,'Save_state',0,d,[ bool ]).
+html_comp_i(26,'Iddataselector','',d,[ str ]).
+html_comp_i(26,'Sflrender','',d,[ str ]).
+html_comp_i(26,'Class','GridWithPaginationBar WorkWith',v,[ str ]).
+html_comp_i(26,'Prop_emptydatasettext','',d,[ str ]).
+html_comp_i(26,'Autoresize',-1,d,[ bool ]).
+html_comp_i(26,'Gxwidth',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Gxheight',measure(0,px),d,[ measure ]).
+html_comp_i(26,'Maxcols',1,d,[ num ]).
+html_comp_i(26,'Maxrows',0,d,[ num ]).
+html_comp_i(26,'Header','',d,[ str ]).
+html_comp_i(26,'Title','',d,[ str ]).
+html_comp_i(26,'Linescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(26,'Linesfont',font('Courier New',9,[]),d,[ font ]).
+html_comp_i(26,'Titlecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(26,'Titlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(26,'Align',left,d,[ str ]).
+html_comp_i(26,'Cellpadding','1',d,[ str ]).
+html_comp_i(26,'Cellspacing','2',d,[ str ]).
+html_comp_i(26,'Sortable',-1,d,[ bool ]).
+html_comp_i(26,'Allowdrop',0,d,[ bool ]).
+html_comp_i(26,'Allowdrag',0,d,[ bool ]).
+html_comp_i(26,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(26,'Allowcollapsing',0,d,[ bool ]).
+html_comp_i(26,'Allowselection',0,d,[ bool ]).
+html_comp_i(27,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(27,'Colcount',80,d,[ num ]).
+html_comp_i(27,'Colattid',-30,v,[ num ]).
+html_comp_i(27,'Controlname','&Wwpentityname',d,[ str ]).
+html_comp_i(27,'Class','AttributeRealWidth',v,[ str ]).
+html_comp_i(27,'Columnclass','WWColumn',v,[ str ]).
+html_comp_i(27,'Returnonclick',0,d,[ bool ]).
+html_comp_i(27,'Eventgx','',d,[ str ]).
+html_comp_i(27,'Controltype',2,d,[ num ]).
+html_comp_i(27,'Inputtype',0,d,[ num ]).
+html_comp_i(27,'Editautocomplete',0,d,[ num ]).
+html_comp_i(27,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(27,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(27,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(27,'Colreadonly',-1,v,[ bool ]).
+html_comp_i(27,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(27,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(27,'Ispassword',0,d,[ bool ]).
+html_comp_i(27,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(27,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(27,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(27,'Collinesfont',font('Courier New',9,[]),d,[ font ]).
+html_comp_i(27,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(27,'Coltitle',l('Entity'),d,[ str ]).
+html_comp_i(27,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(27,'Coltitlecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(27,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(27,'Gxformat',0,d,[ num ]).
+html_comp_i(27,'Colvisible',-1,d,[ bool ]).
+html_comp_i(27,'Title','',d,[ str ]).
+html_comp_i(27,'Invitemsg','',d,[ str ]).
+html_comp_i(28,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(28,'Colcount',10,d,[ num ]).
+html_comp_i(28,'Colattid',-29,v,[ num ]).
+html_comp_i(28,'Controlname','&Wwpentityid',d,[ str ]).
+html_comp_i(28,'Class','AttributeRealWidth',v,[ str ]).
+html_comp_i(28,'Columnclass','WWColumn',v,[ str ]).
+html_comp_i(28,'Returnonclick',0,d,[ bool ]).
+html_comp_i(28,'Eventgx','',d,[ str ]).
+html_comp_i(28,'Controltype',2,d,[ num ]).
+html_comp_i(28,'Inputtype',0,d,[ num ]).
+html_comp_i(28,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(28,'Colreadonly',-1,v,[ bool ]).
+html_comp_i(28,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(28,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(28,'Ispassword',0,d,[ bool ]).
+html_comp_i(28,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(28,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(28,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(28,'Collinesfont',font('Courier New',9,[]),d,[ font ]).
+html_comp_i(28,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(28,'Coltitle','',d,[ str ]).
+html_comp_i(28,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(28,'Coltitlecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(28,'Horizontalalignment',right,d,[ str ]).
+html_comp_i(28,'Gxformat',0,d,[ num ]).
+html_comp_i(28,'Colvisible',0,v,[ bool ]).
+html_comp_i(28,'Title','',d,[ str ]).
+html_comp_i(28,'Invitemsg','',d,[ str ]).
+html_comp_i(29,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(29,'Colcount',20,d,[ num ]).
+html_comp_i(29,'Colattid',-6,v,[ num ]).
+html_comp_i(29,'Controlname','&Detailwebcomponent',d,[ str ]).
+html_comp_i(29,'Class','Attribute',v,[ str ]).
+html_comp_i(29,'Columnclass','WWIconActionColumn WCD_ActionColumn',v,[ str ]).
+html_comp_i(29,'Returnonclick',0,d,[ bool ]).
+html_comp_i(29,'Eventgx','',d,[ str ]).
+html_comp_i(29,'Controltype',2,d,[ num ]).
+html_comp_i(29,'Inputtype',0,d,[ num ]).
+html_comp_i(29,'Editautocomplete',0,d,[ num ]).
+html_comp_i(29,'Autocorrection',-1,d,[ bool ]).
+html_comp_i(29,'Autocapitalization','FirstWord',d,[ str ]).
+html_comp_i(29,'Notifycontextchange',0,d,[ bool ]).
+html_comp_i(29,'Colreadonly',-1,v,[ bool ]).
+html_comp_i(29,'Autocomplete',-1,d,[ bool ]).
+html_comp_i(29,'Emptyasnull','Yes',d,[ str ]).
+html_comp_i(29,'Ispassword',0,d,[ bool ]).
+html_comp_i(29,'Colautoresize',-1,d,[ bool ]).
+html_comp_i(29,'Colwidth',measure(0,px),d,[ measure ]).
+html_comp_i(29,'Height',measure(17,px),d,[ measure ]).
+html_comp_i(29,'Collinesfont',font('Courier New',9,[]),d,[ font ]).
+html_comp_i(29,'Collinescolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(29,'Coltitle','',d,[ str ]).
+html_comp_i(29,'Coltitlefont',font('Microsoft Sans Serif',8,[ bold ]),d,[ font ]).
+html_comp_i(29,'Coltitlecolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(29,'Horizontalalignment',left,d,[ str ]).
+html_comp_i(29,'Gxformat',1,d,[ num ]).
+html_comp_i(29,'Colvisible',-1,d,[ bool ]).
+html_comp_i(29,'Title','',d,[ str ]).
+html_comp_i(29,'Invitemsg','',d,[ str ]).
+html_comp_i(30,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(30,'Class',row,v,[ str ]).
+html_comp_i(30,'Id','',d,[ str ]).
+html_comp_i(30,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(30,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(30,'Semanticcontent',div,d,[ str ]).
+html_comp_i(30,'Align',left,d,[ str ]).
+html_comp_i(30,'Valign',top,d,[ str ]).
+html_comp_i(31,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(31,'Class','col-xs-12',v,[ str ]).
+html_comp_i(31,'Id','',d,[ str ]).
+html_comp_i(31,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(31,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(31,'Semanticcontent',div,d,[ str ]).
+html_comp_i(31,'Align',left,d,[ str ]).
+html_comp_i(31,'Valign',top,d,[ str ]).
+html_comp_i(32,'Usercontroltype','DVelop.DVPaginationBar',d,[ str ]).
+html_comp_i(32,'Constructorname','DVelop_DVPaginationBar',d,[ str ]).
+html_comp_i(32,'Showmethodname',show,d,[ str ]).
+html_comp_i(32,'Controlname','GridPaginationBar',v,[ str ]).
+html_comp_i(32,'Class','PaginationBar',v,[ str ]).
+html_comp_i(32,'Showfirst',0,v,[ bool ]).
+html_comp_i(32,'Showprevious',-1,v,[ bool ]).
+html_comp_i(32,'Shownext',-1,v,[ bool ]).
+html_comp_i(32,'Showlast',0,v,[ bool ]).
+html_comp_i(32,'Pagestoshow',5,v,[ num ]).
+html_comp_i(32,'Pagingbuttonsposition','Right',v,[ str ]).
+html_comp_i(32,'Pagingcaptionposition','Left',v,[ str ]).
+html_comp_i(32,'Emptygridclass','PaginationBarEmptyGrid',v,[ str ]).
+html_comp_i(32,'Rowsperpageselector',-1,v,[ bool ]).
+html_comp_i(32,'Rowsperpageselectedvalue',10,d,[ num ]).
+html_comp_i(32,'Rowsperpageoptions','5:WWP_Rows5,10:WWP_Rows10,20:WWP_Rows20,50:WWP_Rows50',v,[ str ]).
+html_comp_i(32,'First','First',d,[ str ]).
+html_comp_i(32,'Previous','WWP_PagingPreviousCaption',v,[ str ]).
+html_comp_i(32,'Next','WWP_PagingNextCaption',v,[ str ]).
+html_comp_i(32,'Last','Last',d,[ str ]).
+html_comp_i(32,'Caption',l('WWP_PagingCaption'),v,[ str ]).
+html_comp_i(32,'Emptygridcaption','WWP_PagingEmptyGridCaption',v,[ str ]).
+html_comp_i(32,'Rowsperpagecaption','WWP_PagingRowsPerPage',v,[ str ]).
+html_comp_i(32,'Currentpage',[ t('Gridcurrentpage',23) ],v,[ params ]).
+html_comp_i(32,'Pagecount',[ t('Gridpagecount',23) ],v,[ params ]).
+html_comp_i(32,'Recordcount','',d,[ str ]).
+html_comp_i(32,'Page','',d,[ str ]).
+html_comp_i(32,'Appliedfilters',[ t('Gridappliedfilters',23) ],v,[ params ]).
+html_comp_i(32,'Setcurrentpage','SetCurrentPage',d,[ str ]).
+html_comp_i(32,'Getcurrentpage','GetCurrentPage',d,[ str ]).
+html_comp_i(32,'Setpagecount','SetPageCount',d,[ str ]).
+html_comp_i(32,'Getpagecount','GetPageCount',d,[ str ]).
+html_comp_i(32,'Setrecordcount','SetRecordCount',d,[ str ]).
+html_comp_i(32,'Getrecordcount','GetRecordCount',d,[ str ]).
+html_comp_i(32,'Setpage','SetPage',d,[ str ]).
+html_comp_i(32,'Getpage','GetPage',d,[ str ]).
+html_comp_i(32,'Setappliedfilters','SetAppliedFilters',d,[ str ]).
+html_comp_i(32,'Getappliedfilters','GetAppliedFilters',d,[ str ]).
+html_comp_i(32,'Visible',-1,d,[ bool ]).
+html_comp_i(32,'Csssupportfiles',[ [ t('''DVelop\DVPaginationBar\DVPaginationBar.css''',3) ] ],d,[ params ]).
+html_comp_i(32,'Jssupportfiles',[ [ t('''DVelop\Bootstrap\Shared\DVelopBootstrap.js''',3) ],[ t('''DVelop\Shared\WorkWithPlusCommon.js''',3) ],[ t('''DVelop\DVPaginationBar\DVPaginationBarRender.js''',3) ] ],d,[ params ]).
+html_comp_i(32,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(32,'Jssharedsupportfiles',[],d,[ params ]).
+html_comp_i(33,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(33,'Class',row,v,[ str ]).
+html_comp_i(33,'Id','',d,[ str ]).
+html_comp_i(33,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(33,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(33,'Semanticcontent',div,d,[ str ]).
+html_comp_i(33,'Align',left,d,[ str ]).
+html_comp_i(33,'Valign',top,d,[ str ]).
+html_comp_i(34,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(34,'Class','col-xs-12',v,[ str ]).
+html_comp_i(34,'Id','Cell_grid_dwc',v,[ str ]).
+html_comp_i(34,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(34,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(34,'Semanticcontent',div,d,[ str ]).
+html_comp_i(34,'Align',left,d,[ str ]).
+html_comp_i(34,'Valign',top,d,[ str ]).
+html_comp_i(35,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(35,'Controlname','Grid_dwc',v,[ str ]).
+html_comp_i(35,'Params',[],v,[ params ]).
+html_comp_i(36,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(36,'Class',row,v,[ str ]).
+html_comp_i(36,'Id','',d,[ str ]).
+html_comp_i(36,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(36,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(36,'Semanticcontent',div,d,[ str ]).
+html_comp_i(36,'Align',left,d,[ str ]).
+html_comp_i(36,'Valign',top,d,[ str ]).
+html_comp_i(37,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(37,'Class','col-xs-12',v,[ str ]).
+html_comp_i(37,'Id','',d,[ str ]).
+html_comp_i(37,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(37,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(37,'Semanticcontent',div,d,[ str ]).
+html_comp_i(37,'Align',left,d,[ str ]).
+html_comp_i(37,'Valign',top,d,[ str ]).
+html_comp_i(38,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(38,'Class','Section',d,[ str ]).
+html_comp_i(38,'Id','Html_bottomauxiliarcontrols',v,[ str ]).
+html_comp_i(38,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(38,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(38,'Semanticcontent',div,d,[ str ]).
+html_comp_i(38,'Align',left,d,[ str ]).
+html_comp_i(38,'Valign',top,d,[ str ]).
+html_comp_i(39,'Usercontroltype','WWP.GridEmpowerer',d,[ str ]).
+html_comp_i(39,'Constructorname','WWP_GridEmpowerer',d,[ str ]).
+html_comp_i(39,'Showmethodname',show,d,[ str ]).
+html_comp_i(39,'Controlname','Grid_Empowerer',v,[ str ]).
+html_comp_i(39,'Hascategories',0,d,[ bool ]).
+html_comp_i(39,'Infinitescrolling','False',d,[ str ]).
+html_comp_i(39,'Hastitlesettings',0,d,[ bool ]).
+html_comp_i(39,'Hascolumnsselector',0,d,[ bool ]).
+html_comp_i(39,'Hasrowgroups',0,d,[ bool ]).
+html_comp_i(39,'Fixedcolumns','',d,[ str ]).
+html_comp_i(39,'Popoversingrid','',d,[ str ]).
+html_comp_i(39,'Visible',-1,d,[ bool ]).
+html_comp_i(39,'Csssupportfiles',[],d,[ params ]).
+html_comp_i(39,'Jssupportfiles',[ [ t('''DVelop\Shared\WorkWithPlusCommon.js''',3) ],[ t('''DVelop\GridEmpowerer\GridEmpowererRender.js''',3) ] ],d,[ params ]).
+html_comp_i(39,'Csssharedsupportfiles',[],d,[ params ]).
+html_comp_i(39,'Jssharedsupportfiles',[],d,[ params ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(17,1,t('Notifshowonlysubscribedevents',23),[ ctlname('&Notifshowonlysubscribedevents'),ctrltype(checkbox,17),pos(17),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(16,1,div(16),[ ctlname('') ]).
+lit_i(15,1,div(15),[ ctlname('') ]).
+lit_i(20,1,t('Filterfulltext',23),[ ctlname('&Filterfulltext'),ctrltype(edit,20),pos(20),ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(19,1,div(19),[ ctlname('') ]).
+lit_i(18,1,div(18),[ ctlname('') ]).
+lit_i(14,1,div(14),[ ctlname('Tableheader') ]).
+lit_i(13,1,div(13),[ ctlname('') ]).
+lit_i(12,1,div(12),[ ctlname('') ]).
+lit_i(27,1,s(t('Wwpentityname',23),26),[ ctlname('&Wwpentityname'),ctrltype(edit,27),pos(27),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(28,1,s(t('Wwpentityid',23),26),[ ctlname('&Wwpentityid'),ctrltype(edit,28),pos(28),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(29,1,s(t('Detailwebcomponent',23),26),[ ctlname('&Detailwebcomponent'),ctrltype(edit,29),pos(29),readonly,ispwd(0),e2n(1),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(26,1,s(26),[ ctlname('Grid'),el([ t('Wwpentityname',23),t('Wwpentityid',23),t('Detailwebcomponent',23) ]),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(25,1,div(25),[ ctlname('') ]).
+lit_i(24,1,div(24),[ ctlname('') ]).
+lit_i(32,1,usercontrol(32),[ ctlname('Gridpaginationbar'),ctrltype('dvelop.dvpaginationbar'),el([ t('Gridcurrentpage',23),t('Gridpagecount',23),t('Gridappliedfilters',23) ]),containers([]) ]).
+lit_i(31,1,div(31),[ ctlname('') ]).
+lit_i(30,1,div(30),[ ctlname('') ]).
+lit_i(35,1,comp(webcomp),[ ctlname('Grid_dwc'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(34,1,div(34),[ ctlname('Cell_grid_dwc') ]).
+lit_i(33,1,div(33),[ ctlname('') ]).
+lit_i(23,1,div(23),[ ctlname('Gridtablewithpaginationbar') ]).
+lit_i(22,1,div(22),[ ctlname('') ]).
+lit_i(21,1,div(21),[ ctlname('') ]).
+lit_i(11,1,div(11),[ ctlname('Unnamedtable1') ]).
+lit_i(9,1,usercontrol(9),[ ctlname('Dvpanel_unnamedtable1'),ctrltype('dvelop.gxbootstrap.panel_al'),el([]),containers([ container(10) ]) ]).
+lit_i(8,1,div(8),[ ctlname('') ]).
+lit_i(7,1,div(7),[ ctlname('') ]).
+lit_i(6,1,div(6),[ ctlname('Tablemain') ]).
+lit_i(5,1,div(5),[ ctlname('') ]).
+lit_i(4,1,div(4),[ ctlname('') ]).
+lit_i(39,1,usercontrol(39),[ ctlname('Grid_empowerer'),ctrltype('wwp.gridempowerer'),el([]),containers([]) ]).
+lit_i(38,1,div(38),[ ctlname('Html_bottomauxiliarcontrols') ]).
+lit_i(37,1,div(37),[ ctlname('') ]).
+lit_i(36,1,div(36),[ ctlname('') ]).
+lit_i(3,1,div(3),[ ctlname('Layoutmaintable') ]).
+lit_i(2,1,div(2),[ ctlname('') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ctrl_info_i(1,17,[ [ true,false,l('Show only role''s subscribed events') ] ]).
+ 
+ 
+ 
+att_prop_i(2,154,'ExternalName','WWPNotificationDefinitionDescription',d).
+att_prop_i(2,154,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,154,'EmptyAsNull','Yes',v).
+att_prop_i(2,154,idBasedOn,'',d).
+att_prop_i(2,154,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,154,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,154,'AttRegEx','',d).
+att_prop_i(2,154,'AttValidationFailedMsg','',d).
+att_prop_i(2,154,'DownloadOffline','0',d).
+att_prop_i(2,154,'VarServiceExtName','',d).
+att_prop_i(2,154,'FullName','WWPNotificationDefinitionDescription',v).
+att_prop_i(2,152,'ExternalName','WWPSubscriptionSubscribed',d).
+att_prop_i(2,152,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,152,'EmptyAsNull','Yes',d).
+att_prop_i(2,152,'ExternalStorage','-1',d).
+att_prop_i(2,152,idBasedOn,'',d).
+att_prop_i(2,152,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,152,'AttRegEx','',d).
+att_prop_i(2,152,'AttValidationFailedMsg','',d).
+att_prop_i(2,152,'DownloadOffline','0',d).
+att_prop_i(2,152,'VarServiceExtName','',d).
+att_prop_i(2,152,'FullName','WWPSubscriptionSubscribed',v).
+att_prop_i(2,33,'ExternalName','WWPEntityId',d).
+att_prop_i(2,33,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,33,'EmptyAsNull','Yes',d).
+att_prop_i(2,33,idBasedOn,92,v).
+att_prop_i(2,33,'AUTONUMBER','-1',d).
+att_prop_i(2,33,'AUTONUMBER_START','1',d).
+att_prop_i(2,33,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,33,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,33,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,33,'AttRegEx','',d).
+att_prop_i(2,33,'AttValidationFailedMsg','',d).
+att_prop_i(2,33,'DownloadOffline','0',d).
+att_prop_i(2,33,'VarServiceExtName','',d).
+att_prop_i(2,33,'FullName','WWPEntityId',v).
+att_prop_i(2,150,'ExternalName','WWPEntityName',d).
+att_prop_i(2,150,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,150,'EmptyAsNull','Yes',d).
+att_prop_i(2,150,idBasedOn,239,v).
+att_prop_i(2,150,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,150,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,150,'AttRegEx','',d).
+att_prop_i(2,150,'AttValidationFailedMsg','',d).
+att_prop_i(2,150,'DownloadOffline','0',d).
+att_prop_i(2,150,'VarServiceExtName','',d).
+att_prop_i(2,150,'FullName','WWPEntityName',v).
+att_prop_i(2,35,'ExternalName','WWPNotificationDefinitionId',d).
+att_prop_i(2,35,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,35,'EmptyAsNull','Yes',d).
+att_prop_i(2,35,idBasedOn,92,v).
+att_prop_i(2,35,'AUTONUMBER','-1',d).
+att_prop_i(2,35,'AUTONUMBER_START','1',d).
+att_prop_i(2,35,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,35,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,35,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,35,'AttRegEx','',d).
+att_prop_i(2,35,'AttValidationFailedMsg','',d).
+att_prop_i(2,35,'DownloadOffline','0',d).
+att_prop_i(2,35,'VarServiceExtName','',d).
+att_prop_i(2,35,'FullName','WWPNotificationDefinitionId',v).
+att_prop_i(2,155,'ExternalName','WWPNotificationDefinitionAppliesTo',d).
+att_prop_i(2,155,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,155,'EmptyAsNull','Yes',d).
+att_prop_i(2,155,idBasedOn,245,v).
+att_prop_i(2,155,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,155,'AttRegEx','',d).
+att_prop_i(2,155,'AttValidationFailedMsg','GXSPC_OutOfRange',d).
+att_prop_i(2,155,'DownloadOffline','0',d).
+att_prop_i(2,155,'VarServiceExtName','',d).
+att_prop_i(2,155,'FullName','WWPNotificationDefinitionAppliesTo',v).
+att_prop_i(2,34,'ExternalName','WWPSubscriptionId',d).
+att_prop_i(2,34,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,34,'EmptyAsNull','Yes',d).
+att_prop_i(2,34,idBasedOn,92,v).
+att_prop_i(2,34,'AUTONUMBER','-1',d).
+att_prop_i(2,34,'AUTONUMBER_START','1',d).
+att_prop_i(2,34,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,34,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,34,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,34,'AttRegEx','',d).
+att_prop_i(2,34,'AttValidationFailedMsg','',d).
+att_prop_i(2,34,'DownloadOffline','0',d).
+att_prop_i(2,34,'VarServiceExtName','',d).
+att_prop_i(2,34,'FullName','WWPSubscriptionId',v).
+att_prop_i(2,149,'ExternalName','WWPSubscriptionRoleId',d).
+att_prop_i(2,149,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,149,'EmptyAsNull','Yes',d).
+att_prop_i(2,149,idBasedOn,91,v).
+att_prop_i(2,149,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,149,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,149,'AttRegEx','',d).
+att_prop_i(2,149,'AttValidationFailedMsg','',d).
+att_prop_i(2,149,'DownloadOffline','0',d).
+att_prop_i(2,149,'VarServiceExtName','',d).
+att_prop_i(2,149,'FullName','WWPSubscriptionRoleId',v).
+att_prop_i(2,40000,'ExternalName','WWPNotificationDefinitionDescription',d).
+att_prop_i(2,40000,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,40000,'EmptyAsNull','Yes',v).
+att_prop_i(2,40000,idBasedOn,'',d).
+att_prop_i(2,40000,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40000,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,40000,'AttRegEx','',d).
+att_prop_i(2,40000,'AttValidationFailedMsg','',d).
+att_prop_i(2,40000,'DownloadOffline','0',d).
+att_prop_i(2,40000,'VarServiceExtName','',d).
+att_prop_i(2,40000,'FullName','WWPNotificationDefinitionDescription',v).
+att_prop_i(2,40001,'ExternalName','WWPSubscriptionSubscribed',d).
+att_prop_i(2,40001,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,40001,'EmptyAsNull','Yes',d).
+att_prop_i(2,40001,'ExternalStorage','-1',d).
+att_prop_i(2,40001,idBasedOn,'',d).
+att_prop_i(2,40001,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40001,'AttRegEx','',d).
+att_prop_i(2,40001,'AttValidationFailedMsg','',d).
+att_prop_i(2,40001,'DownloadOffline','0',d).
+att_prop_i(2,40001,'VarServiceExtName','',d).
+att_prop_i(2,40001,'FullName','WWPSubscriptionSubscribed',v).
+ 
+tbl_prop_i(2,32,'AllDirSuper',[ [ 36,[ 35 ] ] ],v).
+tbl_prop_i(2,36,'AllDirSuper',[ [ 31,[ 33 ] ] ],v).
+tbl_prop_i(2,2001,'DirSubor',[ [ 36,[ 33 ] ] ],v).
+tbl_prop_i(2,2000,'DirSubor',[ [ 36,[ 33 ] ] ],v).
+tbl_prop_i(2,36,'DirSubor',[ [ 32,[ 35 ] ] ],v).
+tbl_prop_i(2,31,'DirSubor',[ [ 36,[ 33 ] ] ],v).
+tbl_prop_i(2,32,'DirSuper',[ [ 36,[ 35 ] ] ],v).
+tbl_prop_i(2,36,'DirSuper',[ [ 31,[ 33 ] ] ],v).
+ 
+tbl_att_prop_i(2,36,35,'AllowNulls',n).
+tbl_att_prop_i(2,36,35,'AUTONUMBER',y).
+tbl_att_prop_i(2,36,155,'AllowNulls',n).
+tbl_att_prop_i(2,36,154,'AllowNulls',n).
+tbl_att_prop_i(2,36,33,'AllowNulls',n).
+tbl_att_prop_i(2,32,34,'AllowNulls',n).
+tbl_att_prop_i(2,32,34,'AUTONUMBER',y).
+tbl_att_prop_i(2,32,35,'AllowNulls',n).
+tbl_att_prop_i(2,32,152,'AllowNulls',n).
+tbl_att_prop_i(2,31,33,'AllowNulls',n).
+tbl_att_prop_i(2,31,33,'AUTONUMBER',y).
+tbl_att_prop_i(2,31,150,'AllowNulls',n).
+tbl_att_prop_i(2,2000,33,'AllowNulls',n).
+tbl_att_prop_i(2,2000,33,'AUTONUMBER',y).
+tbl_att_prop_i(2,2001,33,'AllowNulls',n).
+tbl_att_prop_i(2,2001,33,'AUTONUMBER',y).
+ 
+var_prop_i(2,'Filterfulltext',idBasedOn,223,v).
+var_prop_i(2,'Securityfunctionalitykeys',idBasedOn,88,v).
+var_prop_i(2,'Userextendedid',idBasedOn,'',v).
+var_prop_i(2,'Wwpdiscussionentityid',idBasedOn,'',v).
+var_prop_i(2,'Wwpentityid',idBasedOn,'',v).
+var_prop_i(2,'Wwpentityname',idBasedOn,'',v).
+var_prop_i(2,'Wwpsubscriptionid',idBasedOn,'',v).
+var_prop_i(2,'Wwpnotificationid',idBasedOn,'',v).
+var_prop_i(2,'Wwpsubscriptionroleidcollection',idBasedOn,'',v).
+var_prop_i(2,'Wwpsubscriptionroleid',idBasedOn,'',v).
+ 
+ 
+ 
+a_alias_i([ 'count(',154 ],'GXC1').
+a_alias_i(se(40000,[ [ 2000,40000 ] ],[ t('coalesce(',1),t(40000,2),t(',',7),t('0',3),t(')',4) ]),'GXC1').
+a_alias_i([ 'count(',152 ],'GXC2').
+a_alias_i(se(40001,[ [ 2001,40001 ] ],[ t('coalesce(',1),t(40001,2),t(',',7),t('0',3),t(')',4) ]),'GXC2').
+ 
+ 
+struct_dt_i([ 26,59,0 ],name,'WWPBaseObjects\WWPGridState').
+struct_dt_i([ 26,59,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,59,0 ],'ObjName','WWPGridState').
+struct_dt_i([ 26,59,0 ],'ObjDesc','Grid State').
+struct_dt_i([ 26,59,0 ],'ExternalName','WWPGridState').
+struct_dt_i([ 26,59,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,59,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,59,111 ],name,'FilterValue').
+struct_dt_i([ 26,59,111 ],namespace,'Mujer_Morena.WWPGridState').
+struct_dt_i([ 26,59,112 ],name,'DynamicFilter').
+struct_dt_i([ 26,59,112 ],namespace,'Mujer_Morena.WWPGridState').
+struct_dt_i([ 26,57,0 ],name,'WWPBaseObjects\WWPTransactionContext').
+struct_dt_i([ 26,57,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,57,0 ],'ObjName','WWPTransactionContext').
+struct_dt_i([ 26,57,0 ],'ObjDesc','WWP Transaction Context').
+struct_dt_i([ 26,57,0 ],'ExternalName','WWPTransactionContext').
+struct_dt_i([ 26,57,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,57,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,57,85 ],name,'Attribute').
+struct_dt_i([ 26,57,85 ],namespace,'Mujer_Morena.WWPTransactionContext').
+struct_dt_i([ 26,56,0 ],name,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,56,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,56,0 ],'ObjName','WWPContext').
+struct_dt_i([ 26,56,0 ],'ObjDesc','WWPContext').
+struct_dt_i([ 26,56,0 ],'ExternalName','WWPContext').
+struct_dt_i([ 26,56,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,56,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 0,28,0 ],name,'WWPBaseObjects\WWP_UserExtended').
+struct_dt_i([ 0,28,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 0,28,0 ],significantName,'WWPBaseObjects\WWP_UserExtended').
+struct_dt_i([ 0,28,0 ],'ObjName','WWP_UserExtended').
+struct_dt_i([ 0,28,0 ],'ObjDesc','Extended User from GAMUser').
+struct_dt_i([ 0,28,0 ],'ExternalName','WWP_UserExtended').
+struct_dt_i([ 0,28,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 0,28,0 ],key,[ 32 ]).
+struct_dt_i([ 0,28,0 ],lvl,30).
+struct_dt_i([ 26,13,0 ],name,'GeneXus\Common\Messages').
+struct_dt_i([ 26,13,0 ],namespace,'GeneXus').
+struct_dt_i([ 26,13,0 ],'ObjName','Messages').
+struct_dt_i([ 26,13,0 ],'ObjDesc','Messages').
+struct_dt_i([ 26,13,0 ],'ExternalName','Messages').
+struct_dt_i([ 26,13,0 ],'ExternalNamespace','GeneXus').
+struct_dt_i([ 26,13,0 ],collection,'True').
+struct_dt_i([ 26,13,0 ],datatype,[ 26,13,30 ]).
+struct_dt_i([ 26,13,0 ],'CollectionItemName','Message').
+struct_dt_i([ 26,13,0 ],'XmlName','').
+struct_dt_i([ 26,13,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,13,0 ],'XmlNamespace','').
+struct_dt_i([ 26,13,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,13,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,13,0 ],'JsonName','').
+struct_dt_i([ 26,13,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,13,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,13,0 ],isexternal,'True').
+struct_dt_i([ 26,13,30 ],name,'Message').
+struct_dt_i([ 26,13,30 ],namespace,'GeneXus.Messages').
+struct_dt_i([ 26,59,0 ],fullname,'WWPBaseObjects\WWPGridState').
+struct_dt_i([ 26,59,111 ],fullname,'WWPBaseObjects\WWPGridState.FilterValue').
+struct_dt_i([ 26,59,112 ],fullname,'WWPBaseObjects\WWPGridState.DynamicFilter').
+struct_dt_i([ 26,57,0 ],fullname,'WWPBaseObjects\WWPTransactionContext').
+struct_dt_i([ 26,57,85 ],fullname,'WWPBaseObjects\WWPTransactionContext.Attribute').
+struct_dt_i([ 26,56,0 ],fullname,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 0,28,0 ],fullname,'WWPBaseObjects\WWP_UserExtended').
+struct_dt_i([ 26,13,0 ],fullname,'GeneXus\Common\Messages').
+struct_dt_i([ 26,13,30 ],fullname,'GeneXus\Common\Messages.Message').
+ 
+struct_dt_elem_i([ 26,59,0 ],1,name,'Currentpage').
+struct_dt_elem_i([ 26,59,0 ],1,camelname,'CurrentPage').
+struct_dt_elem_i([ 26,59,0 ],1,length,4).
+struct_dt_elem_i([ 26,59,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],1,sign,0).
+struct_dt_elem_i([ 26,59,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,59,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,59,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],1,'ExternalName','CurrentPage').
+struct_dt_elem_i([ 26,59,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],2,name,'Orderedby').
+struct_dt_elem_i([ 26,59,0 ],2,camelname,'OrderedBy').
+struct_dt_elem_i([ 26,59,0 ],2,length,4).
+struct_dt_elem_i([ 26,59,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],2,sign,0).
+struct_dt_elem_i([ 26,59,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,59,0 ],2,pic,'ZZZ9').
+struct_dt_elem_i([ 26,59,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],2,'ExternalName','OrderedBy').
+struct_dt_elem_i([ 26,59,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],3,name,'Ordereddsc').
+struct_dt_elem_i([ 26,59,0 ],3,camelname,'OrderedDsc').
+struct_dt_elem_i([ 26,59,0 ],3,length,4).
+struct_dt_elem_i([ 26,59,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],3,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,59,0 ],3,pic,'').
+struct_dt_elem_i([ 26,59,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],3,'ExternalName','OrderedDsc').
+struct_dt_elem_i([ 26,59,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],4,name,'Hidingsearch').
+struct_dt_elem_i([ 26,59,0 ],4,camelname,'HidingSearch').
+struct_dt_elem_i([ 26,59,0 ],4,length,1).
+struct_dt_elem_i([ 26,59,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],4,sign,0).
+struct_dt_elem_i([ 26,59,0 ],4,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 26,59,0 ],4,pic,'9').
+struct_dt_elem_i([ 26,59,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],4,'ExternalName','HidingSearch').
+struct_dt_elem_i([ 26,59,0 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],5,name,'Pagesize').
+struct_dt_elem_i([ 26,59,0 ],5,camelname,'PageSize').
+struct_dt_elem_i([ 26,59,0 ],5,length,10).
+struct_dt_elem_i([ 26,59,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],5,type,[ 13,10,0 ]).
+struct_dt_elem_i([ 26,59,0 ],5,pic,'').
+struct_dt_elem_i([ 26,59,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],5,'ExternalName','PageSize').
+struct_dt_elem_i([ 26,59,0 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],6,name,'Collapsedrecords').
+struct_dt_elem_i([ 26,59,0 ],6,camelname,'CollapsedRecords').
+struct_dt_elem_i([ 26,59,0 ],6,length,2097152).
+struct_dt_elem_i([ 26,59,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],6,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 26,59,0 ],6,pic,'').
+struct_dt_elem_i([ 26,59,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],6,'ExternalName','CollapsedRecords').
+struct_dt_elem_i([ 26,59,0 ],6,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],6,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,59,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],7,name,'Groupby').
+struct_dt_elem_i([ 26,59,0 ],7,camelname,'GroupBy').
+struct_dt_elem_i([ 26,59,0 ],7,length,40).
+struct_dt_elem_i([ 26,59,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],7,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,59,0 ],7,pic,'').
+struct_dt_elem_i([ 26,59,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],7,'ExternalName','GroupBy').
+struct_dt_elem_i([ 26,59,0 ],7,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],7,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,59,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],7,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],8,name,'Filtervalues').
+struct_dt_elem_i([ 26,59,0 ],8,camelname,'FilterValues').
+struct_dt_elem_i([ 26,59,0 ],8,type,[ [ 26,59,111 ],0,0 ]).
+struct_dt_elem_i([ 26,59,0 ],8,pic,'').
+struct_dt_elem_i([ 26,59,0 ],8,collection,'True').
+struct_dt_elem_i([ 26,59,0 ],8,'ObjName','FilterValues').
+struct_dt_elem_i([ 26,59,0 ],8,'ObjDesc','Filter Values').
+struct_dt_elem_i([ 26,59,0 ],8,'CollectionItemName','FilterValue').
+struct_dt_elem_i([ 26,59,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],8,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,59,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],8,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,59,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],8,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],8,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,59,0 ],8,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,59,111 ],1,name,'Name').
+struct_dt_elem_i([ 26,59,111 ],1,camelname,'Name').
+struct_dt_elem_i([ 26,59,111 ],1,length,128).
+struct_dt_elem_i([ 26,59,111 ],1,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,59,111 ],1,pic,'').
+struct_dt_elem_i([ 26,59,111 ],1,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],1,'ExternalName','Name').
+struct_dt_elem_i([ 26,59,111 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],1,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],1,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,111 ],1,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,111 ],2,name,'Dsc').
+struct_dt_elem_i([ 26,59,111 ],2,camelname,'Dsc').
+struct_dt_elem_i([ 26,59,111 ],2,length,40).
+struct_dt_elem_i([ 26,59,111 ],2,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,59,111 ],2,pic,'').
+struct_dt_elem_i([ 26,59,111 ],2,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],2,'ExternalName','Dsc').
+struct_dt_elem_i([ 26,59,111 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],2,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],2,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],2,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,59,111 ],2,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,111 ],3,name,'Value').
+struct_dt_elem_i([ 26,59,111 ],3,camelname,'Value').
+struct_dt_elem_i([ 26,59,111 ],3,length,100).
+struct_dt_elem_i([ 26,59,111 ],3,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,59,111 ],3,pic,'').
+struct_dt_elem_i([ 26,59,111 ],3,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],3,'ExternalName','Value').
+struct_dt_elem_i([ 26,59,111 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],3,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],3,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,111 ],3,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,111 ],4,name,'Operator').
+struct_dt_elem_i([ 26,59,111 ],4,camelname,'Operator').
+struct_dt_elem_i([ 26,59,111 ],4,length,4).
+struct_dt_elem_i([ 26,59,111 ],4,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],4,sign,0).
+struct_dt_elem_i([ 26,59,111 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,59,111 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,59,111 ],4,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],4,'ExternalName','Operator').
+struct_dt_elem_i([ 26,59,111 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],4,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],4,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,111 ],4,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,111 ],5,name,'Valueto').
+struct_dt_elem_i([ 26,59,111 ],5,camelname,'ValueTo').
+struct_dt_elem_i([ 26,59,111 ],5,length,100).
+struct_dt_elem_i([ 26,59,111 ],5,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,59,111 ],5,pic,'').
+struct_dt_elem_i([ 26,59,111 ],5,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],5,'ExternalName','ValueTo').
+struct_dt_elem_i([ 26,59,111 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],5,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],5,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,111 ],5,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],9,name,'Dynamicfilters').
+struct_dt_elem_i([ 26,59,0 ],9,camelname,'DynamicFilters').
+struct_dt_elem_i([ 26,59,0 ],9,type,[ [ 26,59,112 ],0,0 ]).
+struct_dt_elem_i([ 26,59,0 ],9,pic,'').
+struct_dt_elem_i([ 26,59,0 ],9,collection,'True').
+struct_dt_elem_i([ 26,59,0 ],9,'ObjName','DynamicFilters').
+struct_dt_elem_i([ 26,59,0 ],9,'ObjDesc','Dynamic Filters').
+struct_dt_elem_i([ 26,59,0 ],9,'CollectionItemName','DynamicFilter').
+struct_dt_elem_i([ 26,59,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],9,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,59,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],9,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,59,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],9,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],9,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,59,0 ],9,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,59,112 ],1,name,'Selected').
+struct_dt_elem_i([ 26,59,112 ],1,camelname,'Selected').
+struct_dt_elem_i([ 26,59,112 ],1,length,128).
+struct_dt_elem_i([ 26,59,112 ],1,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,59,112 ],1,pic,'').
+struct_dt_elem_i([ 26,59,112 ],1,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],1,'ExternalName','Selected').
+struct_dt_elem_i([ 26,59,112 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],1,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],1,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,112 ],1,'JsonName','').
+struct_dt_elem_i([ 26,59,112 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,112 ],2,name,'Dsc').
+struct_dt_elem_i([ 26,59,112 ],2,camelname,'Dsc').
+struct_dt_elem_i([ 26,59,112 ],2,length,40).
+struct_dt_elem_i([ 26,59,112 ],2,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,59,112 ],2,pic,'').
+struct_dt_elem_i([ 26,59,112 ],2,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],2,'ExternalName','Dsc').
+struct_dt_elem_i([ 26,59,112 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],2,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],2,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],2,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,59,112 ],2,'JsonName',d).
+struct_dt_elem_i([ 26,59,112 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,112 ],3,name,'Value').
+struct_dt_elem_i([ 26,59,112 ],3,camelname,'Value').
+struct_dt_elem_i([ 26,59,112 ],3,length,100).
+struct_dt_elem_i([ 26,59,112 ],3,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,59,112 ],3,pic,'').
+struct_dt_elem_i([ 26,59,112 ],3,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],3,'ExternalName','Value').
+struct_dt_elem_i([ 26,59,112 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],3,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],3,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,112 ],3,'JsonName','').
+struct_dt_elem_i([ 26,59,112 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,112 ],4,name,'Operator').
+struct_dt_elem_i([ 26,59,112 ],4,camelname,'Operator').
+struct_dt_elem_i([ 26,59,112 ],4,length,4).
+struct_dt_elem_i([ 26,59,112 ],4,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],4,sign,0).
+struct_dt_elem_i([ 26,59,112 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,59,112 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,59,112 ],4,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],4,'ExternalName','Operator').
+struct_dt_elem_i([ 26,59,112 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],4,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],4,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,112 ],4,'JsonName','').
+struct_dt_elem_i([ 26,59,112 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,112 ],5,name,'Valueto').
+struct_dt_elem_i([ 26,59,112 ],5,camelname,'ValueTo').
+struct_dt_elem_i([ 26,59,112 ],5,length,100).
+struct_dt_elem_i([ 26,59,112 ],5,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,59,112 ],5,pic,'').
+struct_dt_elem_i([ 26,59,112 ],5,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],5,'ExternalName','ValueTo').
+struct_dt_elem_i([ 26,59,112 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],5,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],5,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,112 ],5,'JsonName','').
+struct_dt_elem_i([ 26,59,112 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,57,0 ],1,name,'Callerobject').
+struct_dt_elem_i([ 26,57,0 ],1,camelname,'CallerObject').
+struct_dt_elem_i([ 26,57,0 ],1,basedon,53).
+struct_dt_elem_i([ 26,57,0 ],1,length,256).
+struct_dt_elem_i([ 26,57,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,57,0 ],1,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,57,0 ],1,pic,'').
+struct_dt_elem_i([ 26,57,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,57,0 ],1,'ExternalName','CallerObject').
+struct_dt_elem_i([ 26,57,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,57,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,57,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,57,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,57,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,57,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,57,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,57,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,57,0 ],2,name,'Callerondelete').
+struct_dt_elem_i([ 26,57,0 ],2,camelname,'CallerOnDelete').
+struct_dt_elem_i([ 26,57,0 ],2,length,4).
+struct_dt_elem_i([ 26,57,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,57,0 ],2,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,57,0 ],2,pic,'').
+struct_dt_elem_i([ 26,57,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,57,0 ],2,'ExternalName','CallerOnDelete').
+struct_dt_elem_i([ 26,57,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,57,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,57,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,57,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,57,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,57,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,57,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,57,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,57,0 ],3,name,'Callerurl').
+struct_dt_elem_i([ 26,57,0 ],3,camelname,'CallerURL').
+struct_dt_elem_i([ 26,57,0 ],3,basedon,32).
+struct_dt_elem_i([ 26,57,0 ],3,length,1000).
+struct_dt_elem_i([ 26,57,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,57,0 ],3,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,57,0 ],3,pic,'').
+struct_dt_elem_i([ 26,57,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,57,0 ],3,'ExternalName','CallerURL').
+struct_dt_elem_i([ 26,57,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,57,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,57,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,57,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,57,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,57,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,57,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,57,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,57,0 ],4,name,'Transactionname').
+struct_dt_elem_i([ 26,57,0 ],4,camelname,'TransactionName').
+struct_dt_elem_i([ 26,57,0 ],4,basedon,53).
+struct_dt_elem_i([ 26,57,0 ],4,length,256).
+struct_dt_elem_i([ 26,57,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,57,0 ],4,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,57,0 ],4,pic,'').
+struct_dt_elem_i([ 26,57,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,57,0 ],4,'ExternalName','TransactionName').
+struct_dt_elem_i([ 26,57,0 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,57,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,57,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,57,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,57,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,57,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,57,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,57,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,57,0 ],5,name,'Attributes').
+struct_dt_elem_i([ 26,57,0 ],5,camelname,'Attributes').
+struct_dt_elem_i([ 26,57,0 ],5,type,[ [ 26,57,85 ],0,0 ]).
+struct_dt_elem_i([ 26,57,0 ],5,pic,'').
+struct_dt_elem_i([ 26,57,0 ],5,collection,'True').
+struct_dt_elem_i([ 26,57,0 ],5,'ObjName','Attributes').
+struct_dt_elem_i([ 26,57,0 ],5,'ObjDesc','Attributes').
+struct_dt_elem_i([ 26,57,0 ],5,'CollectionItemName','Attribute').
+struct_dt_elem_i([ 26,57,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,57,0 ],5,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,57,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,57,0 ],5,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,57,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,57,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,57,0 ],5,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,57,0 ],5,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,57,85 ],1,name,'Attributename').
+struct_dt_elem_i([ 26,57,85 ],1,camelname,'AttributeName').
+struct_dt_elem_i([ 26,57,85 ],1,length,128).
+struct_dt_elem_i([ 26,57,85 ],1,decimals,0).
+struct_dt_elem_i([ 26,57,85 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,57,85 ],1,pic,'').
+struct_dt_elem_i([ 26,57,85 ],1,collection,'False').
+struct_dt_elem_i([ 26,57,85 ],1,'ExternalName','AttributeName').
+struct_dt_elem_i([ 26,57,85 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,57,85 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,57,85 ],1,'XmlName','').
+struct_dt_elem_i([ 26,57,85 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,57,85 ],1,soaptype,'').
+struct_dt_elem_i([ 26,57,85 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,57,85 ],1,'JsonName','').
+struct_dt_elem_i([ 26,57,85 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,57,85 ],2,name,'Attributevalue').
+struct_dt_elem_i([ 26,57,85 ],2,camelname,'AttributeValue').
+struct_dt_elem_i([ 26,57,85 ],2,length,1000).
+struct_dt_elem_i([ 26,57,85 ],2,decimals,0).
+struct_dt_elem_i([ 26,57,85 ],2,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,57,85 ],2,pic,'').
+struct_dt_elem_i([ 26,57,85 ],2,collection,'False').
+struct_dt_elem_i([ 26,57,85 ],2,'ExternalName','AttributeValue').
+struct_dt_elem_i([ 26,57,85 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,57,85 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,57,85 ],2,'XmlName','').
+struct_dt_elem_i([ 26,57,85 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,57,85 ],2,soaptype,'').
+struct_dt_elem_i([ 26,57,85 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,57,85 ],2,'JsonName','').
+struct_dt_elem_i([ 26,57,85 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,56,0 ],1,name,'Userid').
+struct_dt_elem_i([ 26,56,0 ],1,camelname,'UserId').
+struct_dt_elem_i([ 26,56,0 ],1,length,4).
+struct_dt_elem_i([ 26,56,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,56,0 ],1,sign,0).
+struct_dt_elem_i([ 26,56,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,56,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,56,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,56,0 ],1,'ExternalName','UserId').
+struct_dt_elem_i([ 26,56,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,56,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,56,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,56,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,56,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,56,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,56,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,56,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,56,0 ],2,name,'Username').
+struct_dt_elem_i([ 26,56,0 ],2,camelname,'UserName').
+struct_dt_elem_i([ 26,56,0 ],2,length,100).
+struct_dt_elem_i([ 26,56,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,56,0 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,56,0 ],2,pic,'').
+struct_dt_elem_i([ 26,56,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,56,0 ],2,'ExternalName','UserName').
+struct_dt_elem_i([ 26,56,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,56,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,56,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,56,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,56,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,56,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,56,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,56,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 0,28,0 ],1,name,'Wwpuserextendedid').
+struct_dt_elem_i([ 0,28,0 ],1,camelname,'WWPUserExtendedId').
+struct_dt_elem_i([ 0,28,0 ],1,basedon,91).
+struct_dt_elem_i([ 0,28,0 ],1,length,40).
+struct_dt_elem_i([ 0,28,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,28,0 ],1,type,[ 5,40,0 ]).
+struct_dt_elem_i([ 0,28,0 ],1,pic,'').
+struct_dt_elem_i([ 0,28,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,28,0 ],1,attributeid,'32').
+struct_dt_elem_i([ 0,28,0 ],1,'ExternalName','WWPUserExtendedId').
+struct_dt_elem_i([ 0,28,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,28,0 ],2,name,'Wwpuserextendedphoto').
+struct_dt_elem_i([ 0,28,0 ],2,camelname,'WWPUserExtendedPhoto').
+struct_dt_elem_i([ 0,28,0 ],2,length,4).
+struct_dt_elem_i([ 0,28,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,28,0 ],2,type,[ 7,4,0 ]).
+struct_dt_elem_i([ 0,28,0 ],2,pic,'').
+struct_dt_elem_i([ 0,28,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,28,0 ],2,attributeid,'140').
+struct_dt_elem_i([ 0,28,0 ],2,'ExternalName','WWPUserExtendedPhoto').
+struct_dt_elem_i([ 0,28,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,28,0 ],3,name,'Wwpuserextendedphoto_gxi').
+struct_dt_elem_i([ 0,28,0 ],3,camelname,'WWPUserExtendedPhoto_GXI').
+struct_dt_elem_i([ 0,28,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,28,0 ],3,isadd,'True').
+struct_dt_elem_i([ 0,28,0 ],3,length,2048).
+struct_dt_elem_i([ 0,28,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,28,0 ],3,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 0,28,0 ],4,name,'Wwpuserextendedname').
+struct_dt_elem_i([ 0,28,0 ],4,camelname,'WWPUserExtendedName').
+struct_dt_elem_i([ 0,28,0 ],4,basedon,239).
+struct_dt_elem_i([ 0,28,0 ],4,length,100).
+struct_dt_elem_i([ 0,28,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,28,0 ],4,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,28,0 ],4,pic,'').
+struct_dt_elem_i([ 0,28,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,28,0 ],4,attributeid,'146').
+struct_dt_elem_i([ 0,28,0 ],4,'ExternalName','WWPUserExtendedName').
+struct_dt_elem_i([ 0,28,0 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,28,0 ],5,name,'Wwpuserextendedfullname').
+struct_dt_elem_i([ 0,28,0 ],5,camelname,'WWPUserExtendedFullName').
+struct_dt_elem_i([ 0,28,0 ],5,basedon,239).
+struct_dt_elem_i([ 0,28,0 ],5,length,100).
+struct_dt_elem_i([ 0,28,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,28,0 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,28,0 ],5,pic,'').
+struct_dt_elem_i([ 0,28,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,28,0 ],5,attributeid,'138').
+struct_dt_elem_i([ 0,28,0 ],5,'ExternalName','WWPUserExtendedFullName').
+struct_dt_elem_i([ 0,28,0 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,28,0 ],6,name,'Wwpuserextendedphone').
+struct_dt_elem_i([ 0,28,0 ],6,camelname,'WWPUserExtendedPhone').
+struct_dt_elem_i([ 0,28,0 ],6,basedon,48).
+struct_dt_elem_i([ 0,28,0 ],6,length,20).
+struct_dt_elem_i([ 0,28,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,28,0 ],6,type,[ 5,20,0 ]).
+struct_dt_elem_i([ 0,28,0 ],6,pic,'').
+struct_dt_elem_i([ 0,28,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,28,0 ],6,attributeid,'145').
+struct_dt_elem_i([ 0,28,0 ],6,'ExternalName','WWPUserExtendedPhone').
+struct_dt_elem_i([ 0,28,0 ],6,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,28,0 ],7,name,'Wwpuserextendedemail').
+struct_dt_elem_i([ 0,28,0 ],7,camelname,'WWPUserExtendedEmail').
+struct_dt_elem_i([ 0,28,0 ],7,basedon,45).
+struct_dt_elem_i([ 0,28,0 ],7,length,100).
+struct_dt_elem_i([ 0,28,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,28,0 ],7,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 0,28,0 ],7,pic,'').
+struct_dt_elem_i([ 0,28,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,28,0 ],7,attributeid,'139').
+struct_dt_elem_i([ 0,28,0 ],7,'ExternalName','WWPUserExtendedEmail').
+struct_dt_elem_i([ 0,28,0 ],7,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,28,0 ],8,name,'Wwpuserextendedemainotif').
+struct_dt_elem_i([ 0,28,0 ],8,camelname,'WWPUserExtendedEmaiNotif').
+struct_dt_elem_i([ 0,28,0 ],8,length,100).
+struct_dt_elem_i([ 0,28,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,28,0 ],8,type,[ 15,100,0 ]).
+struct_dt_elem_i([ 0,28,0 ],8,pic,'').
+struct_dt_elem_i([ 0,28,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,28,0 ],8,attributeid,'141').
+struct_dt_elem_i([ 0,28,0 ],8,'ExternalName','WWPUserExtendedEmaiNotif').
+struct_dt_elem_i([ 0,28,0 ],8,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,28,0 ],9,name,'Wwpuserextendedsmsnotif').
+struct_dt_elem_i([ 0,28,0 ],9,camelname,'WWPUserExtendedSMSNotif').
+struct_dt_elem_i([ 0,28,0 ],9,length,4).
+struct_dt_elem_i([ 0,28,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,28,0 ],9,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,28,0 ],9,pic,'').
+struct_dt_elem_i([ 0,28,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,28,0 ],9,attributeid,'142').
+struct_dt_elem_i([ 0,28,0 ],9,'ExternalName','WWPUserExtendedSMSNotif').
+struct_dt_elem_i([ 0,28,0 ],9,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,28,0 ],10,name,'Wwpuserextendedmobilenotif').
+struct_dt_elem_i([ 0,28,0 ],10,camelname,'WWPUserExtendedMobileNotif').
+struct_dt_elem_i([ 0,28,0 ],10,length,4).
+struct_dt_elem_i([ 0,28,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,28,0 ],10,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,28,0 ],10,pic,'').
+struct_dt_elem_i([ 0,28,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,28,0 ],10,attributeid,'143').
+struct_dt_elem_i([ 0,28,0 ],10,'ExternalName','WWPUserExtendedMobileNotif').
+struct_dt_elem_i([ 0,28,0 ],10,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,28,0 ],11,name,'Wwpuserextendeddesktopnotif').
+struct_dt_elem_i([ 0,28,0 ],11,camelname,'WWPUserExtendedDesktopNotif').
+struct_dt_elem_i([ 0,28,0 ],11,length,4).
+struct_dt_elem_i([ 0,28,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,28,0 ],11,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,28,0 ],11,pic,'').
+struct_dt_elem_i([ 0,28,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,28,0 ],11,attributeid,'144').
+struct_dt_elem_i([ 0,28,0 ],11,'ExternalName','WWPUserExtendedDesktopNotif').
+struct_dt_elem_i([ 0,28,0 ],11,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,28,0 ],12,name,'Wwpuserextendeddeleted').
+struct_dt_elem_i([ 0,28,0 ],12,camelname,'WWPUserExtendedDeleted').
+struct_dt_elem_i([ 0,28,0 ],12,length,4).
+struct_dt_elem_i([ 0,28,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,28,0 ],12,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 0,28,0 ],12,pic,'').
+struct_dt_elem_i([ 0,28,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,28,0 ],12,attributeid,'147').
+struct_dt_elem_i([ 0,28,0 ],12,'ExternalName','WWPUserExtendedDeleted').
+struct_dt_elem_i([ 0,28,0 ],12,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,28,0 ],13,name,'Wwpuserextendeddeletedin').
+struct_dt_elem_i([ 0,28,0 ],13,camelname,'WWPUserExtendedDeletedIn').
+struct_dt_elem_i([ 0,28,0 ],13,length,8).
+struct_dt_elem_i([ 0,28,0 ],13,decimals,5).
+struct_dt_elem_i([ 0,28,0 ],13,type,[ 12,8,5 ]).
+struct_dt_elem_i([ 0,28,0 ],13,pic,'99/99/99 99:99').
+struct_dt_elem_i([ 0,28,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,28,0 ],13,attributeid,'148').
+struct_dt_elem_i([ 0,28,0 ],13,'ExternalName','WWPUserExtendedDeletedIn').
+struct_dt_elem_i([ 0,28,0 ],13,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,13,30 ],1,name,'Id').
+struct_dt_elem_i([ 26,13,30 ],1,camelname,'Id').
+struct_dt_elem_i([ 26,13,30 ],1,length,128).
+struct_dt_elem_i([ 26,13,30 ],1,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,13,30 ],1,pic,'').
+struct_dt_elem_i([ 26,13,30 ],1,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],1,'ExternalName','Id').
+struct_dt_elem_i([ 26,13,30 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],1,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],1,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,13,30 ],2,name,'Type').
+struct_dt_elem_i([ 26,13,30 ],2,camelname,'Type').
+struct_dt_elem_i([ 26,13,30 ],2,basedon,50).
+struct_dt_elem_i([ 26,13,30 ],2,length,2).
+struct_dt_elem_i([ 26,13,30 ],2,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],2,sign,0).
+struct_dt_elem_i([ 26,13,30 ],2,type,[ 4,2,0 ]).
+struct_dt_elem_i([ 26,13,30 ],2,pic,'Z9').
+struct_dt_elem_i([ 26,13,30 ],2,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],2,'ExternalName','Type').
+struct_dt_elem_i([ 26,13,30 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],2,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],2,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,13,30 ],3,name,'Description').
+struct_dt_elem_i([ 26,13,30 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,13,30 ],3,length,256).
+struct_dt_elem_i([ 26,13,30 ],3,decimals,0).
+struct_dt_elem_i([ 26,13,30 ],3,type,[ 13,256,0 ]).
+struct_dt_elem_i([ 26,13,30 ],3,pic,'').
+struct_dt_elem_i([ 26,13,30 ],3,collection,'False').
+struct_dt_elem_i([ 26,13,30 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,13,30 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlName','').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,13,30 ],3,soaptype,'').
+struct_dt_elem_i([ 26,13,30 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,13,30 ],3,'JsonName','').
+struct_dt_elem_i([ 26,13,30 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,57,0 ],1,pic,'ZZZZZZZZZZ9').
+struct_dt_elem_i([ 26,57,0 ],4,pic,'ZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,28,0 ],1,pic,'99/99/99').
+struct_dt_elem_i([ 0,28,0 ],4,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+struct_dt_elem_i([ 0,28,0 ],5,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+struct_dt_elem_i([ 0,28,0 ],6,pic,'ZZZZZZZZZZ9').
+struct_dt_elem_i([ 26,13,30 ],2,pic,'ZZZZZZZZZZ9').
+ 
+ 
+ 
+security_permission_i(wwpsubscriptionssettingsbyrole_Execute,execute,'').
+ 
+ 
+sub_info_i(146,'Start',2,18,[ [ [ t('Grid',3),t('Internalname',3) ],'Wwpsubscriptionroleid','Session','Pgmname' ],[ [ t('Cell_grid_dwc',3),t('Class',3) ],[ t('Grid',3),t('Rows',3) ],[ t('Grid_empowerer',3),t('Gridinternalname',3) ],[ t('Form',3),t('Caption',3) ],[ t('Gridpaginationbar',3),t('Rowsperpageselectedvalue',3) ],'Notifshowonlysubscribedevents','Filterfulltext',[ t('Grid',3),t('Currentpage',3) ] ] ]).
+sub_info_i(146,'Refresh',20,34,[ [ [ t('Grid',3),t('Currentpage',3) ],'Pgmname','Session','Notifshowonlysubscribedevents','Filterfulltext',[ t('Grid',3),t('Rows',3) ] ],[ 'Gridcurrentpage','Gridappliedfilters' ] ]).
+sub_info_i(146,[ t('Gridpaginationbar',3,36,7),t('Changepage',3,36,25) ],36,52,[ [ ctrl('Grid','gotopage('),ctrl('Grid','nextpage('),ctrl('Grid','previouspage('),[ t('Gridpaginationbar',3),t('Selectedpage',3) ] ],[] ]).
+sub_info_i(146,[ t('Gridpaginationbar',3,54,7),t('Changerowsperpage',3,54,25) ],54,63,[ [ ctrl('Grid','firstpage('),[ t('Gridpaginationbar',3),t('Rowsperpageselectedvalue',3) ] ],[ [ t('Grid',3),t('Rows',3) ] ] ]).
+sub_info_i(146,[ t('Grid',3,65,7),t('Load',3,65,12) ],65,101,[ [ 150,33,'Notifshowonlysubscribedevents','Wwpsubscriptionroleid',[ t('Grid',3),t('Rows',3) ] ],[ 'Detailwebcomponent','Wwpentityname','Wwpentityid',40000,40001,'Gridpagecount' ] ]).
+sub_info_i(146,[ t('Detailwebcomponent',23,103,7),t('Click',3,103,27) ],103,111,[ [ 'Wwpentityid','Notifshowonlysubscribedevents','Wwpsubscriptionroleid' ],[ [ t('Grid_dwc',3),t('Object',3) ] ] ]).
+sub_info_i(146,[ t('Notifshowonlysubscribedevents',23,160,7),t('Click',3,160,38) ],160,164,[ [],[] ]).
+ 
+pgm_parm_i(proc,89,'WWPBASEOBJECTS\SAVEGRIDSTATE',[ [ svchar,120,0,0 ],[ svchar,1000,0,0 ] ],[ [ 'UserCustomKey',in,[] ],[ 'UserCustomValue',in,[] ] ]).
+pgm_parm_i(proc,69,'WWPBASEOBJECTS\WWP_GRIDSTATEADDFILTERVALUE',[ [ o('WWPBaseObjects\WWPGridState'),0,0,0 ],[ svchar,100,0,0 ],[ svchar,40,0,0 ],[ boolean,4,0,0 ],[ int,4,0,0 ],[ svchar,200,0,0 ],[ svchar,200,0,0 ] ],[ [ 'GridState',inout,[] ],[ 'FilterName',in,[] ],[ 'FilterDsc',in,[] ],[ 'AddFitler',in,[] ],[ 'FilterOperator',in,[] ],[ 'FilterValue',in,[] ],[ 'FilterValueTo',in,[] ] ]).
+pgm_parm_i(proc,18,'WWPBASEOBJECTS\LOADWWPCONTEXT',[ [ o('WWPBaseObjects\WWPContext'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+pgm_parm_i(proc,88,'WWPBASEOBJECTS\LOADGRIDSTATE',[ [ svchar,120,0,0 ],[ svchar,1000,0,0 ] ],[ [ 'UserCustomKey',in,[] ],[ 'UserCustomValue',out,[] ] ]).
+pgm_parm_i(web,133,'WWPBASEOBJECTS\SUBSCRIPTIONS\WWP_SUBSCRIPTIONSSETTINGSBYROLEWC',[ [ int,10,0,0 ],[ boolean,4,0,0 ],[ char,40,0,0 ] ],[ [ 'WWPEntityId',in,[] ],[ 'NotifShowOnlySubscribedEvents',in,[] ],[ 'WWPSubscriptionRoleId',in,[] ] ]).
+pgm_parm_i(proc,67,'WWPBASEOBJECTS\WWP_GETAPPLIEDFILTERSDESCRIPTION',[ [ svchar,40,0,0 ],[ svchar,40,0,0 ] ],[ [ 'ListObjectName',in,[] ],[ 'AppliedFiltersDescription',out,[] ] ]).
+pgm_parm_i(proc,95,'WWPBASEOBJECTS\WWP_GETROLENAME',[ [ char,40,0,0 ],[ svchar,100,0,0 ] ],[ [ 'WWPSubscriptionRoleId',in,[] ],[ 'RoleName',out,[] ] ]).
+ 
+pgm_callprotocol_i(web,125,'WWPBASEOBJECTS\SUBSCRIPTIONS\WWP_SUBSCRIPTIONSSETTINGSBYROLE','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,89,'WWPBASEOBJECTS\SAVEGRIDSTATE','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,69,'WWPBASEOBJECTS\WWP_GRIDSTATEADDFILTERVALUE','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,18,'WWPBASEOBJECTS\LOADWWPCONTEXT','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,88,'WWPBASEOBJECTS\LOADGRIDSTATE','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,133,'WWPBASEOBJECTS\SUBSCRIPTIONS\WWP_SUBSCRIPTIONSSETTINGSBYROLEWC','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,67,'WWPBASEOBJECTS\WWP_GETAPPLIEDFILTERSDESCRIPTION','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,95,'WWPBASEOBJECTS\WWP_GETROLENAME','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "articuloprompt_Execute",
+    "Description": "Selecciona Articulo",
+    "ProgramName": "articuloprompt",
+    "IsGXAutomatic": true
+  }
+]

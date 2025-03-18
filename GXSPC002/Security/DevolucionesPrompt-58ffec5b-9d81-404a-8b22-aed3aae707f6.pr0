@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "devolucionesprompt_Execute",
+    "Description": "Selecciona Devoluciones",
+    "ProgramName": "devolucionesprompt",
+    "IsGXAutomatic": true
+  }
+]

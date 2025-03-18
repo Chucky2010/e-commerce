@@ -1,0 +1,192 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>112</ObjId>
+<ObjName>WWPBaseObjects.Notifications.Web.WWP_RegisterWebClient</ObjName>
+<ObjDesc>Register Web Client</ObjDesc>
+<ObjPgmName>WWPBaseObjects.Notifications.Web.WWP_RegisterWebClient</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Clientid</VarId>
+<VarName>&amp;ClientId</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Browserid</VarId>
+<VarName>&amp;BrowserId</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Browserversion</VarId>
+<VarName>&amp;BrowserVersion</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Userguid</VarId>
+<VarName>&amp;UserGUID</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>7</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>35</TableId>
+<TableName>WWP_WebClient</TableName>
+<Description>WWP_WebClient</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>WWPWebClientId</AttriName>
+<Description>Web Client Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IWWP_WEBCLIENT</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>WWPWebClientId</AttriName>
+<Description>Web Client Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Clientid</VarId>
+<VarName>&amp;ClientId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>WWPWebClientId</AttriName>
+<Description>Web Client Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Clientid</VarId>
+<VarName>&amp;ClientId</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>35</TableId>
+<TableName>WWP_WebClient</TableName>
+<Description>WWP_WebClient</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>WWPWebClientId</AttriName>
+<Description>Web Client Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>35</TableId>
+<TableName>WWP_WebClient</TableName>
+<Description>WWP_WebClient</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>171</AttriId>
+<AttriName>WWPWebClientBrowserId</AttriName>
+<Description>Web Client Browser Id</Description></Attribute>
+<Attribute>
+<AttriId>172</AttriId>
+<AttriName>WWPWebClientBrowserVersion</AttriName>
+<Description>Web Client Browser Version</Description></Attribute>
+<Attribute>
+<AttriId>174</AttriId>
+<AttriName>WWPWebClientLastRegistered</AttriName>
+<Description>Web Client Last Registered</Description></Attribute>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>WWPUserExtendedId</AttriName>
+<Description>User Id</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level>
+<Level>
+<LevelNumber>3</LevelNumber>
+<LevelType>New</LevelType>
+<LevelBeginRow>16</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>35</TableId>
+<TableName>WWP_WebClient</TableName>
+<Description>WWP_WebClient</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>WWPWebClientId</AttriName>
+<Description>Web Client Id</Description></Attribute></Order>
+<Condition></Condition>
+<LevelOptions></LevelOptions>
+<NavigationTree>
+<Table>
+<TableId>35</TableId>
+<TableName>WWP_WebClient</TableName>
+<Description>WWP_WebClient</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>WWPWebClientId</AttriName>
+<Description>Web Client Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>35</TableId>
+<TableName>WWP_WebClient</TableName>
+<Description>WWP_WebClient</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>WWPWebClientId</AttriName>
+<Description>Web Client Id</Description></Attribute>
+<Attribute>
+<AttriId>171</AttriId>
+<AttriName>WWPWebClientBrowserId</AttriName>
+<Description>Web Client Browser Id</Description></Attribute>
+<Attribute>
+<AttriId>172</AttriId>
+<AttriName>WWPWebClientBrowserVersion</AttriName>
+<Description>Web Client Browser Version</Description></Attribute>
+<Attribute>
+<AttriId>173</AttriId>
+<AttriName>WWPWebClientFirstRegistered</AttriName>
+<Description>Web Client First Registered</Description></Attribute>
+<Attribute>
+<AttriId>174</AttriId>
+<AttriName>WWPWebClientLastRegistered</AttriName>
+<Description>Web Client Last Registered</Description></Attribute>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>WWPUserExtendedId</AttriName>
+<Description>User Id</Description></Attribute></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

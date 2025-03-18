@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpgetlineargaugeconfigfrompercentage_Services_Execute",
+    "Description": "Get Linear Gauge Config From Percentage Services",
+    "ProgramName": "workwithplus.nativemobile.wwpgetlineargaugeconfigfrompercentage",
+    "IsGXAutomatic": true
+  }
+]

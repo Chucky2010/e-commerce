@@ -1,0 +1,124 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>49</ObjId>
+<ObjName>Calificacion</ObjName>
+<ObjDesc>Calificacion</ObjDesc>
+<ObjPgmName>Calificacion</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Calificacionid</VarId>
+<VarName>&amp;CalificacionId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>59</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>59</TableId>
+<TableName>Calificacion</TableName>
+<Description>Calificacion</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>59</TableId>
+<TableName>Calificacion</TableName>
+<Description>Calificacion</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>298</AttriId>
+<AttriName>CalificacionId</AttriName>
+<Description>Calificacion Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>59</TableId>
+<TableName>Calificacion</TableName>
+<Description>Calificacion</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>298</AttriId>
+<AttriName>CalificacionId</AttriName>
+<Description>Calificacion Id</Description></Attribute>
+<Attribute>
+<AttriId>299</AttriId>
+<AttriName>CalificacionNro</AttriName>
+<Description>Calificacion Nro</Description></Attribute>
+<Attribute>
+<AttriId>300</AttriId>
+<AttriName>CalificacionDesc</AttriName>
+<Description>Calificacion Desc</Description></Attribute>
+<Attribute>
+<AttriId>301</AttriId>
+<AttriName>CalificacionUsuario</AttriName>
+<Description>Calificacion Usuario</Description></Attribute>
+<Attribute>
+<AttriId>302</AttriId>
+<AttriName>CalificacionFechaHora</AttriName>
+<Description>Calificacion Fecha Hora</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>59</TableId>
+<TableName>Calificacion</TableName>
+<Description>Calificacion</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>299</AttriId>
+<AttriName>CalificacionNro</AttriName>
+<Description>Calificacion Nro</Description></Attribute>
+<Attribute>
+<AttriId>300</AttriId>
+<AttriName>CalificacionDesc</AttriName>
+<Description>Calificacion Desc</Description></Attribute>
+<Attribute>
+<AttriId>301</AttriId>
+<AttriName>CalificacionUsuario</AttriName>
+<Description>Calificacion Usuario</Description></Attribute>
+<Attribute>
+<AttriId>302</AttriId>
+<AttriName>CalificacionFechaHora</AttriName>
+<Description>Calificacion Fecha Hora</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>59</TableId>
+<TableName>Calificacion</TableName>
+<Description>Calificacion</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

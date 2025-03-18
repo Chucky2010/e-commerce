@@ -1,0 +1,7 @@
+bc_dt_elem_i([ 0,36,0 ],'Wwpmailtemplatename',allownulls,no).
+bc_dt_elem_i([ 0,36,0 ],'Wwpmailtemplatedescription',allownulls,no).
+bc_dt_elem_i([ 0,36,0 ],'Wwpmailtemplatesubject',allownulls,no).
+bc_dt_elem_i([ 0,36,0 ],'Wwpmailtemplatebody',allownulls,no).
+bc_dt_elem_i([ 0,36,0 ],'Wwpmailtemplatesenderaddress',allownulls,no).
+bc_dt_elem_i([ 0,36,0 ],'Wwpmailtemplatesendername',allownulls,no).
+ 

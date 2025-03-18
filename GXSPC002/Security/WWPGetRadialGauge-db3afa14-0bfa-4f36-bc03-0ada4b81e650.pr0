@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpgetradialgauge_Services_Execute",
+    "Description": "Get Radial Gauge Copy1 Services",
+    "ProgramName": "workwithplus.nativemobile.wwpgetradialgauge",
+    "IsGXAutomatic": true
+  }
+]

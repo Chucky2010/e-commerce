@@ -1,0 +1,513 @@
+spec_i([ web,14,l('Cart Checkout'),'WWPBaseObjects\CartCheckout',0,spa,'17_0_11-163677' ]).
+ 
+struct_i(2,1,[ 'Wizardsteps','Wizardstep',[ t('Wizardstep',23),t('Code',3) ],[ t('Wizardstep',23),t('Title',3) ],[ t('Wizardstep',23),t('Description',3) ],'Currentstepaux' ],[]).
+ 
+level_i(2,[ 0,[],[],[],[],[],[],[],[],[] ]).
+ 
+tw_i(2,[]).
+ 
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [] ]).
+ 
+las_i(2,[ [ 'Previousstep','Currentstep','Goingback' ] ]).
+ 
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+cls_i([ 25,80 ],[ 0,0 ]).
+ 
+ 
+ 
+default_i(e('Pgmname',2,2,'"WWPBaseObjects.CartCheckout"')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','WWPBaseObjects.CartCheckout')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('Hint_firstrows','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('REFRESH_TOUT_TRIG','ALL')).
+rule_i(0,prop('REFRESH_TOUT','')).
+rule_i(0,prop('KEY_ENTER','UMPV')).
+rule_i(0,prop('KEY_CANCEL','UMPV')).
+rule_i(0,prop('KEY_REFRESH','UMPV')).
+rule_i(0,prop('KEY_HELP','UMPV')).
+rule_i(0,prop('ASSIGNED_FNC_KEYS','UMPV')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('FIRST_WD_DATEPICKER','UMPV')).
+rule_i(0,prop('WNUM_DATEPICKER','UMPV')).
+rule_i(0,prop(idUSE_WEB_DATEPICKER,'UMPV')).
+rule_i(0,prop('WebUX','SMOOTH')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('WebApplication',idDefault)).
+rule_i(0,prop('IntegratedSecurityPermissionPrefix','CartCheckout')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('AUTO_REFRESH','VARS_CHANGE')).
+rule_i(0,prop('CACHE_EXPIRES','')).
+rule_i(0,prop('WEB_AUTO_FOCUS','UMPV')).
+rule_i(0,prop('OnSessionTimeout','Ignore')).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('SHOWMASTERPAGE_POPUP','0')).
+rule_i(0,prop('MasterPage',o(13,'WWPBaseObjects.WorkWithPlusMasterPage'))).
+rule_i(0,prop('WEB_COMP','No')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop('Folder',o(8,'WWPBaseObjects\ECommerceObjects'))).
+rule_i(0,prop('ObjDesc','Cart Checkout')).
+rule_i(0,prop('ObjName','CartCheckout')).
+rule_i(0,maingen(12)).
+rule_i(0,parm([ 'Previousstep','Currentstep','Goingback' ],[])).
+rule_i(0,parmio([ [ 'Previousstep',in ],[ 'Currentstep',in ],[ 'Goingback',in ] ])).
+ 
+a_i(1,1,f,'Pgmname',[],[ [],[ t('"WWPBaseObjects.CartCheckout"',3) ] ]).
+a_i(2,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Pgmname').
+v_i(f,i,2,[]).
+v_i(f,o,2,'Err').
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Pgmname',[ 'Pgmname',char,129,0,'',1,l('Program name'),'',18 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',17 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',16 ]).
+attri_i('Stepnumber',[ 'StepNumber',int,2,0,'Z9',0,l('Step Number'),'',15 ]).
+attri_i('Wizardstep',[ 'WizardStep',o('WWPBaseObjects\WizardSteps.WizardStepsItem'),0,0,'',0,l('Wizard Step'),'',14 ]).
+attri_i('Wizardsteps',[ 'WizardSteps',o(objectcollection('WWPBaseObjects\WizardSteps.WizardStepsItem')),0,0,'',0,l('Wizard Steps'),'',13 ]).
+attri_i('Currentstepaux',[ 'CurrentStepAux',svchar,40,0,'',0,l('Current Step Aux'),'',12 ]).
+attri_i('Currentstep',[ 'CurrentStep',svchar,40,0,'',0,l('Current Step'),'',11 ]).
+attri_i('Previousstep',[ 'PreviousStep',svchar,40,0,'',0,l('Previous Step'),'',10 ]).
+attri_i('Goingback',[ 'GoingBack',boolean,4,0,'',0,l('Going Back'),'',9 ]).
+attri_i('Websessionkey',[ 'WebSessionKey',svchar,40,0,'',0,l('Web Session Key'),'',8 ]).
+attri_i('Websession',[ 'WebSession',o(websession),4,0,'',0,l('Web Session'),'',7 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,l('Security Functionality Keys'),'',6 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,l('Is Authorized'),'',5 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(88,[ 'SecGAMFunctionalityKey' ]).
+dom_info_i(241,[ 'StepNumber' ]).
+ 
+ 
+break_i(2,nvg,1,[],[ [],[],[] ]).
+ 
+b_group_i(2,1,lit,0,1,2).
+b_group_i(2,2,lit,0,3,45).
+b_group_i(2,3,lit,0,46,0).
+ 
+b_line_i(2,2,1,cmd,2,[ t('',146,2,0),t('Start',3,2,7) ]).
+b_line_i(6,2,2,cmd,2,[ t('',107,6,0),t('Wizardsteps',23,2,0),t(=,10,2,0),t([ 'WWPBaseObjects\WizardSteps',[ t('(',0,6,20),t(')',4,6,21) ],n ],46,2,0) ]).
+b_line_i(8,2,2,cmd,2,[ t('',107,8,0),t('Wizardstep',23,2,0),t(=,10,2,0),t([ 'WWPBaseObjects\WizardSteps.WizardStepsItem',[ t('(',0,8,19),t(')',4,8,20) ],n ],46,2,0) ]).
+b_line_i(9,2,2,cmd,2,[ t('',107,9,0),t([ t('Wizardstep',23,2,0),t('Code',3,2,0) ],29,2,0),t(=,10,2,0),t('''Address''',3,2,0) ]).
+b_line_i(10,2,2,cmd,2,[ t('',107,10,0),t([ t('Wizardstep',23,2,0),t('Title',3,2,0) ],29,2,0),t(=,10,2,0),t('getmessagetext(',1,2,0),t('"Datos del Domicilio"',3,2,0),t(')',4,2,0) ]).
+b_line_i(11,2,2,cmd,2,[ t('',107,11,0),t([ t('Wizardstep',23,2,0),t('Description',3,2,0) ],29,2,0),t(=,10,2,0),t('getmessagetext(',1,2,0),t('"Datos del Domicilio"',3,2,0),t(')',4,2,0) ]).
+b_line_i(12,2,2,cmd,2,[ t('',107,12,0),t([ t('Wizardsteps',23,12,2),t('add(',1,12,15) ],31,12,2),t('Wizardstep',23,2,20),t(')',4,2,31) ]).
+b_line_i(14,2,2,cmd,2,[ t('',107,14,0),t('Wizardstep',23,2,0),t(=,10,2,0),t([ 'WWPBaseObjects\WizardSteps.WizardStepsItem',[ t('(',0,14,19),t(')',4,14,20) ],n ],46,2,0) ]).
+b_line_i(15,2,2,cmd,2,[ t('',107,15,0),t([ t('Wizardstep',23,2,0),t('Code',3,2,0) ],29,2,0),t(=,10,2,0),t('''Payment''',3,2,0) ]).
+b_line_i(16,2,2,cmd,2,[ t('',107,16,0),t([ t('Wizardstep',23,2,0),t('Title',3,2,0) ],29,2,0),t(=,10,2,0),t('getmessagetext(',1,2,0),t('"Informacion del Pago"',3,2,0),t(')',4,2,0) ]).
+b_line_i(17,2,2,cmd,2,[ t('',107,17,0),t([ t('Wizardstep',23,2,0),t('Description',3,2,0) ],29,2,0),t(=,10,2,0),t('getmessagetext(',1,2,0),t('"Informacion del Pago"',3,2,0),t(')',4,2,0) ]).
+b_line_i(18,2,2,cmd,2,[ t('',107,18,0),t([ t('Wizardsteps',23,18,2),t('add(',1,18,15) ],31,18,2),t('Wizardstep',23,2,20),t(')',4,2,31) ]).
+b_line_i(20,2,2,cmd,2,[ t('',107,20,0),t('Wizardstep',23,2,0),t(=,10,2,0),t([ 'WWPBaseObjects\WizardSteps.WizardStepsItem',[ t('(',0,20,19),t(')',4,20,20) ],n ],46,2,0) ]).
+b_line_i(21,2,2,cmd,2,[ t('',107,21,0),t([ t('Wizardstep',23,2,0),t('Code',3,2,0) ],29,2,0),t(=,10,2,0),t('''PlaceOrder''',3,2,0) ]).
+b_line_i(22,2,2,cmd,2,[ t('',107,22,0),t([ t('Wizardstep',23,2,0),t('Title',3,2,0) ],29,2,0),t(=,10,2,0),t('getmessagetext(',1,2,0),t('"Resumen"',3,2,0),t(')',4,2,0) ]).
+b_line_i(23,2,2,cmd,2,[ t('',107,23,0),t([ t('Wizardstep',23,2,0),t('Description',3,2,0) ],29,2,0),t(=,10,2,0),t('getmessagetext(',1,2,0),t('"Resumen"',3,2,0),t(')',4,2,0) ]).
+b_line_i(24,2,2,cmd,2,[ t('',107,24,0),t([ t('Wizardsteps',23,24,2),t('add(',1,24,15) ],31,24,2),t('Wizardstep',23,2,20),t(')',4,2,31) ]).
+b_line_i(26,2,2,cmd,2,[ t('',107,26,0),t('Wizardstep',23,2,0),t(=,10,2,0),t([ 'WWPBaseObjects\WizardSteps.WizardStepsItem',[ t('(',0,26,19),t(')',4,26,20) ],n ],46,2,0) ]).
+b_line_i(27,2,2,cmd,2,[ t('',107,27,0),t([ t('Wizardstep',23,2,0),t('Code',3,2,0) ],29,2,0),t(=,10,2,0),t('''Completed''',3,2,0) ]).
+b_line_i(28,2,2,cmd,2,[ t('',107,28,0),t([ t('Wizardstep',23,2,0),t('Title',3,2,0) ],29,2,0),t(=,10,2,0),t('getmessagetext(',1,2,0),t('"Terminado"',3,2,0),t(')',4,2,0) ]).
+b_line_i(29,2,2,cmd,2,[ t('',107,29,0),t([ t('Wizardstep',23,2,0),t('Description',3,2,0) ],29,2,0),t(=,10,2,0),t('getmessagetext(',1,2,0),t('"Terminado"',3,2,0),t(')',4,2,0) ]).
+b_line_i(30,2,2,cmd,2,[ t('',107,30,0),t([ t('Wizardsteps',23,30,2),t('add(',1,30,15) ],31,30,2),t('Wizardstep',23,2,20),t(')',4,2,31) ]).
+b_line_i(32,2,2,cmd,2,[ t('',109,32,0),t('null(',1,32,18),t('Currentstep',23,2,5),t(')',4,2,27) ]).
+b_line_i(33,2,2,cmd,2,[ t('',107,33,0),t('Currentstepaux',23,2,0),t(=,10,2,0),t('''Address''',3,2,0) ]).
+b_line_i(34,2,2,cmd,2,[ t('',107,34,0),t([ t('Websession',23,34,3),t('remove(',1,34,15) ],31,34,15),t('Pgmname',23,2,23),t(+,5,2,32),t('''_Data''',3,34,34),t(')',4,2,42) ]).
+b_line_i(35,2,2,cmd,2,[ t('',110,35,0) ]).
+b_line_i(36,2,2,cmd,2,[ t('',107,36,0),t('Currentstepaux',23,2,0),t(=,10,2,0),t('Currentstep',23,2,0) ]).
+b_line_i(37,2,2,cmd,2,[ t('',111,37,0) ]).
+b_line_i(38,2,2,cmd,2,[ t('',145,38,0),t('''LOADWIZARDSTEPWC''',3,38,5) ]).
+b_line_i(39,2,2,cmd,2,[ t('',107,39,0),t([ t('Steptitles',3,2,0),t('Object',3,2,0) ],29,2,0),t(=,10,2,0),t('create(',1,2,0),t(o(13,'WWPBaseObjects\WizardStepsBulletWC'),28,2,0),t(',',7,2,0),t('Wizardsteps',23,2,0),t(',',7,2,0),t('Currentstepaux',23,2,0),t(')',4,2,0) ]).
+b_line_i(43,2,2,cmd,2,[ t('',147,43,0) ]).
+b_line_i(45,2,2,cmd,2,[ t('',143,45,0),t('''LOADWIZARDSTEPWC''',3,45,5) ]).
+b_line_i(49,2,3,cmd,2,[ t('',152,49,0) ]).
+b_line_i(50,2,3,cmd,2,[ t('',153,50,0),t('Currentstepaux',23,2,8),t(=,10,2,24),t('''Address''',3,50,26) ]).
+b_line_i(51,2,3,cmd,2,[ t('',107,51,0),t([ t('Wizardstepwc',3,2,0),t('Object',3,2,0) ],29,2,0),t(=,10,2,0),t('create(',1,2,0),t(o(13,'WWPBaseObjects\CartCheckoutAddress'),28,2,0),t(',',7,2,0),t('Pgmname',23,2,0),t(+,5,2,0),t('''_Data''',3,2,0),t(',',7,2,0),t('Previousstep',23,2,0),t(',',7,2,0),t('Goingback',23,2,0),t(')',4,2,0) ]).
+b_line_i(52,2,3,cmd,2,[ t('',153,52,0),t('Currentstepaux',23,2,8),t(=,10,2,24),t('''Payment''',3,52,26) ]).
+b_line_i(53,2,3,cmd,2,[ t('',107,53,0),t([ t('Wizardstepwc',3,2,0),t('Object',3,2,0) ],29,2,0),t(=,10,2,0),t('create(',1,2,0),t(o(13,'WWPBaseObjects\CartCheckoutPayment'),28,2,0),t(',',7,2,0),t('Pgmname',23,2,0),t(+,5,2,0),t('''_Data''',3,2,0),t(',',7,2,0),t('Previousstep',23,2,0),t(',',7,2,0),t('Goingback',23,2,0),t(')',4,2,0) ]).
+b_line_i(54,2,3,cmd,2,[ t('',153,54,0),t('Currentstepaux',23,2,8),t(=,10,2,24),t('''PlaceOrder''',3,54,26) ]).
+b_line_i(55,2,3,cmd,2,[ t('',107,55,0),t([ t('Wizardstepwc',3,2,0),t('Object',3,2,0) ],29,2,0),t(=,10,2,0),t('create(',1,2,0),t(o(13,'WWPBaseObjects\CartCheckoutPlaceOrder'),28,2,0),t(',',7,2,0),t('Pgmname',23,2,0),t(+,5,2,0),t('''_Data''',3,2,0),t(',',7,2,0),t('Previousstep',23,2,0),t(',',7,2,0),t('Goingback',23,2,0),t(')',4,2,0) ]).
+b_line_i(56,2,3,cmd,2,[ t('',153,56,0),t('Currentstepaux',23,2,8),t(=,10,2,24),t('''Completed''',3,56,26) ]).
+b_line_i(57,2,3,cmd,2,[ t('',107,57,0),t([ t('Wizardstepwc',3,2,0),t('Object',3,2,0) ],29,2,0),t(=,10,2,0),t('create(',1,2,0),t(o(13,'WWPBaseObjects\CartCheckoutCompleted'),28,2,0),t(',',7,2,0),t('Pgmname',23,2,0),t(+,5,2,0),t('''_Data''',3,2,0),t(',',7,2,0),t('Previousstep',23,2,0),t(',',7,2,0),t('Goingback',23,2,0),t(')',4,2,0) ]).
+b_line_i(58,2,3,cmd,2,[ t('',154,58,0) ]).
+b_line_i(62,2,3,cmd,2,[ t('',144,62,0) ]).
+b_line_i(1000,2,3,cmd,0,[ t('',146,0,0),t('Load',3,0,0) ]).
+b_line_i(1001,2,3,cmd,0,[ t('',155,0,0) ]).
+b_line_i(1002,2,3,cmd,0,[ t('',147,0,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+html_i(2,div(2)).
+ 
+html_sub_i(2,3,html_i(0,div(3))).
+html_sub_i(3,4,html_i(0,div(4))).
+html_sub_i(4,5,html_i(0,div(5))).
+html_sub_i(5,6,html_i(0,table(6))).
+html_sub_i(6,7,html_i(0,row(7))).
+html_sub_i(7,8,html_i(0,cell(8))).
+html_sub_i(8,9,html_i(0,comp(webcomp))).
+html_sub_i(6,10,html_i(1,row(10))).
+html_sub_i(10,11,html_i(0,cell(11))).
+html_sub_i(11,12,html_i(0,comp(webcomp))).
+ 
+html_tags_i(1,'Class','form-horizontal Form').
+html_tags_i(2,'data-gx-base-lib',bootstrapv3).
+html_tags_i(2,'data-abstract-form','').
+html_tags_i(9,'Object','').
+html_tags_i(12,'Object','').
+ 
+html_comp_i(2,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(2,'Class','Section',d,[ str ]).
+html_comp_i(2,'Id','',d,[ str ]).
+html_comp_i(2,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(2,'Semanticcontent',div,d,[ str ]).
+html_comp_i(2,'Align',left,d,[ str ]).
+html_comp_i(2,'Valign',top,d,[ str ]).
+html_comp_i(3,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(3,'Class','Table',v,[ str ]).
+html_comp_i(3,'Id','Layoutmaintable',v,[ str ]).
+html_comp_i(3,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(3,'Semanticcontent',div,d,[ str ]).
+html_comp_i(3,'Align',left,d,[ str ]).
+html_comp_i(3,'Valign',top,d,[ str ]).
+html_comp_i(4,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(4,'Class',row,v,[ str ]).
+html_comp_i(4,'Id','',d,[ str ]).
+html_comp_i(4,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(4,'Semanticcontent',div,d,[ str ]).
+html_comp_i(4,'Align',left,d,[ str ]).
+html_comp_i(4,'Valign',top,d,[ str ]).
+html_comp_i(5,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(5,'Class','col-xs-12',v,[ str ]).
+html_comp_i(5,'Id','',d,[ str ]).
+html_comp_i(5,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(5,'Semanticcontent',div,d,[ str ]).
+html_comp_i(5,'Align',left,d,[ str ]).
+html_comp_i(5,'Valign',top,d,[ str ]).
+html_comp_i(6,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(6,'Id','Tablemain',v,[ str ]).
+html_comp_i(6,'Class','TableWizardMainWithShadow',v,[ str ]).
+html_comp_i(6,'Title','',d,[ str ]).
+html_comp_i(6,'Header','',d,[ str ]).
+html_comp_i(6,'Align',left,d,[ str ]).
+html_comp_i(6,'Backgroundgx','',d,[ str ]).
+html_comp_i(6,'Bgcolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(6,'Border','0',d,[ str ]).
+html_comp_i(6,'Bordercolor',rgb(0,0,0),d,[ color ]).
+html_comp_i(6,'Cellpadding','1',d,[ str ]).
+html_comp_i(6,'Cellspacing','2',d,[ str ]).
+html_comp_i(6,'Height',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Width',measure(0,px),d,[ measure ]).
+html_comp_i(6,'Rules',none,d,[ str ]).
+html_comp_i(8,'Align','Center',v,[ str ]).
+html_comp_i(8,'Class','WizardStepsCell',v,[ str ]).
+html_comp_i(9,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(9,'Controlname','Steptitles',v,[ str ]).
+html_comp_i(9,'Params',[],v,[ params ]).
+html_comp_i(11,'Class','WizardStepsPositionCell',v,[ str ]).
+html_comp_i(12,'Isabstractlayoutcontrol',0,d,[ bool ]).
+html_comp_i(12,'Controlname','Wizardstepwc',v,[ str ]).
+html_comp_i(12,'Params',[],v,[ params ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(9,1,comp(webcomp),[ ctlname('Steptitles'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(12,1,comp(webcomp),[ ctlname('Wizardstepwc'),width(0),rect(0,0,10,10),title('Nothing') ]).
+lit_i(6,1,table(6),[ ctlname('Tablemain') ]).
+lit_i(5,1,div(5),[ ctlname('') ]).
+lit_i(4,1,div(4),[ ctlname('') ]).
+lit_i(3,1,div(3),[ ctlname('Layoutmaintable') ]).
+lit_i(2,1,div(2),[ ctlname('') ]).
+lit_i(1,1,window,[ rect(0,0,1000,1000),ctlname('Form') ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+calling_main_i(13,80).
+ 
+ 
+ 
+ 
+var_prop_i(2,'Securityfunctionalitykeys',idBasedOn,88,v).
+var_prop_i(2,'Stepnumber',idBasedOn,241,v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,84,0 ],name,'WWPBaseObjects\WizardSteps').
+struct_dt_i([ 26,84,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,84,0 ],'ObjName','WizardSteps').
+struct_dt_i([ 26,84,0 ],'ObjDesc','Wizard Steps').
+struct_dt_i([ 26,84,0 ],'ExternalName','WizardSteps').
+struct_dt_i([ 26,84,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,84,0 ],collection,'True').
+struct_dt_i([ 26,84,0 ],datatype,[ 26,84,142 ]).
+struct_dt_i([ 26,84,0 ],'CollectionItemName','WizardStepsItem').
+struct_dt_i([ 26,84,0 ],'XmlName','').
+struct_dt_i([ 26,84,0 ],'XmlCollectionItemName','').
+struct_dt_i([ 26,84,0 ],'XmlNamespace','').
+struct_dt_i([ 26,84,0 ],'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,84,0 ],'XmlInclude',idXmlIncludeAlways).
+struct_dt_i([ 26,84,0 ],'JsonName','').
+struct_dt_i([ 26,84,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,84,0 ],'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_i([ 26,84,142 ],name,'WizardStepsItem').
+struct_dt_i([ 26,84,142 ],namespace,'Mujer_Morena.WizardSteps').
+struct_dt_i([ 26,84,0 ],fullname,'WWPBaseObjects\WizardSteps').
+struct_dt_i([ 26,84,142 ],fullname,'WWPBaseObjects\WizardSteps.WizardStepsItem').
+ 
+struct_dt_elem_i([ 26,84,142 ],1,name,'Code').
+struct_dt_elem_i([ 26,84,142 ],1,camelname,'Code').
+struct_dt_elem_i([ 26,84,142 ],1,length,40).
+struct_dt_elem_i([ 26,84,142 ],1,decimals,0).
+struct_dt_elem_i([ 26,84,142 ],1,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,84,142 ],1,pic,'').
+struct_dt_elem_i([ 26,84,142 ],1,collection,'False').
+struct_dt_elem_i([ 26,84,142 ],1,'ExternalName','Code').
+struct_dt_elem_i([ 26,84,142 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,84,142 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,84,142 ],1,'XmlName','').
+struct_dt_elem_i([ 26,84,142 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,142 ],1,soaptype,'').
+struct_dt_elem_i([ 26,84,142 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,142 ],1,'JsonName','').
+struct_dt_elem_i([ 26,84,142 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,84,142 ],2,name,'Title').
+struct_dt_elem_i([ 26,84,142 ],2,camelname,'Title').
+struct_dt_elem_i([ 26,84,142 ],2,length,40).
+struct_dt_elem_i([ 26,84,142 ],2,decimals,0).
+struct_dt_elem_i([ 26,84,142 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,84,142 ],2,pic,'').
+struct_dt_elem_i([ 26,84,142 ],2,collection,'False').
+struct_dt_elem_i([ 26,84,142 ],2,'ExternalName','Title').
+struct_dt_elem_i([ 26,84,142 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,84,142 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,84,142 ],2,'XmlName','').
+struct_dt_elem_i([ 26,84,142 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,142 ],2,soaptype,'').
+struct_dt_elem_i([ 26,84,142 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,142 ],2,'JsonName','').
+struct_dt_elem_i([ 26,84,142 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,84,142 ],3,name,'Description').
+struct_dt_elem_i([ 26,84,142 ],3,camelname,'Description').
+struct_dt_elem_i([ 26,84,142 ],3,length,40).
+struct_dt_elem_i([ 26,84,142 ],3,decimals,0).
+struct_dt_elem_i([ 26,84,142 ],3,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,84,142 ],3,pic,'').
+struct_dt_elem_i([ 26,84,142 ],3,collection,'False').
+struct_dt_elem_i([ 26,84,142 ],3,'ExternalName','Description').
+struct_dt_elem_i([ 26,84,142 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,84,142 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,84,142 ],3,'XmlName','').
+struct_dt_elem_i([ 26,84,142 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,84,142 ],3,soaptype,'').
+struct_dt_elem_i([ 26,84,142 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,84,142 ],3,'JsonName','').
+struct_dt_elem_i([ 26,84,142 ],3,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+security_permission_i(cartcheckout_Execute,execute,'').
+ 
+ 
+sub_info_i(146,'Start',2,43,[ [ 'Currentstep','Pgmname','Websession','Currentstepaux','Previousstep','Goingback' ],[ 'Currentstepaux',[ t('Steptitles',3),t('Object',3) ],[ t('Wizardstepwc',3),t('Object',3) ] ] ]).
+ 
+pgm_parm_i(web,79,'WWPBASEOBJECTS\CARTCHECKOUTCOMPLETED',[ [ svchar,40,0,0 ],[ svchar,40,0,0 ],[ boolean,4,0,0 ] ],[ [ 'WebSessionKey',in,[] ],[ 'PreviousStep',in,[] ],[ 'GoingBack',in,[] ] ]).
+pgm_parm_i(web,78,'WWPBASEOBJECTS\CARTCHECKOUTPLACEORDER',[ [ svchar,40,0,0 ],[ svchar,40,0,0 ],[ boolean,4,0,0 ] ],[ [ 'WebSessionKey',in,[] ],[ 'PreviousStep',in,[] ],[ 'GoingBack',in,[] ] ]).
+pgm_parm_i(web,77,'WWPBASEOBJECTS\CARTCHECKOUTPAYMENT',[ [ svchar,40,0,0 ],[ svchar,40,0,0 ],[ boolean,4,0,0 ] ],[ [ 'WebSessionKey',in,[] ],[ 'PreviousStep',in,[] ],[ 'GoingBack',in,[] ] ]).
+pgm_parm_i(web,76,'WWPBASEOBJECTS\CARTCHECKOUTADDRESS',[ [ svchar,40,0,0 ],[ svchar,40,0,0 ],[ boolean,4,0,0 ] ],[ [ 'WebSessionKey',in,[] ],[ 'PreviousStep',in,[] ],[ 'GoingBack',in,[] ] ]).
+pgm_parm_i(web,15,'WWPBASEOBJECTS\WIZARDSTEPSBULLETWC',[ [ o(objectcollection('WWPBaseObjects\WizardSteps.WizardStepsItem')),0,0,0 ],[ svchar,40,0,0 ] ],[ [ 'WizardSteps',in,[] ],[ 'CurrentStep',in,[] ] ]).
+ 
+pgm_callprotocol_i(web,14,'WWPBASEOBJECTS\CARTCHECKOUT','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,79,'WWPBASEOBJECTS\CARTCHECKOUTCOMPLETED','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,78,'WWPBASEOBJECTS\CARTCHECKOUTPLACEORDER','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,77,'WWPBASEOBJECTS\CARTCHECKOUTPAYMENT','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,76,'WWPBASEOBJECTS\CARTCHECKOUTADDRESS','INTERNAL','Unsecure').
+pgm_callprotocol_i(web,15,'WWPBASEOBJECTS\WIZARDSTEPSBULLETWC','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

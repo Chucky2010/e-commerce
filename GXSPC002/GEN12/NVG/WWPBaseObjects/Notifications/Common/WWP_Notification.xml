@@ -1,0 +1,204 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>35</ObjId>
+<ObjName>WWPBaseObjects.Notifications.Common.WWP_Notification</ObjName>
+<ObjDesc>Notification</ObjDesc>
+<ObjPgmName>WWPBaseObjects.Notifications.Common.WWP_Notification</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>37</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>37</TableId>
+<TableName>WWP_Notification</TableName>
+<Description>WWP_Notification</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>37</TableId>
+<TableName>WWP_Notification</TableName>
+<Description>WWP_Notification</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>WWPNotificationId</AttriName>
+<Description>Notification Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>36</TableId>
+<TableName>WWP_NotificationDefinition</TableName>
+<Description>WWP_NotificationDefinition</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>WWPNotificationDefinitionId</AttriName>
+<Description>Notification Definition Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>30</TableId>
+<TableName>WWP_UserExtended</TableName>
+<Description>WWP_UserExtended</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>WWPUserExtendedId</AttriName>
+<Description>User Id</Description></Attribute></KeyAttributes>
+<JoinType>Outer</JoinType>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>37</TableId>
+<TableName>WWP_Notification</TableName>
+<Description>WWP_Notification</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>WWPNotificationCreated</AttriName>
+<Description>Notification Created Date</Description></Attribute>
+<Attribute>
+<AttriId>198</AttriId>
+<AttriName>WWPNotificationIcon</AttriName>
+<Description>Notification Icon</Description></Attribute>
+<Attribute>
+<AttriId>199</AttriId>
+<AttriName>WWPNotificationTitle</AttriName>
+<Description>Notification Title</Description></Attribute>
+<Attribute>
+<AttriId>200</AttriId>
+<AttriName>WWPNotificationShortDescriptio</AttriName>
+<Description>Notification Short Description</Description></Attribute>
+<Attribute>
+<AttriId>201</AttriId>
+<AttriName>WWPNotificationLink</AttriName>
+<Description>Notification Link</Description></Attribute>
+<Attribute>
+<AttriId>203</AttriId>
+<AttriName>WWPNotificationIsRead</AttriName>
+<Description>Notification Is Read</Description></Attribute>
+<Attribute>
+<AttriId>182</AttriId>
+<AttriName>WWPNotificationMetadata</AttriName>
+<Description>WWPNotification Metadata</Description></Attribute>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>WWPNotificationDefinitionId</AttriName>
+<Description>Notification Definition Id</Description></Attribute>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>WWPUserExtendedId</AttriName>
+<Description>User Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>37</TableId>
+<TableName>WWP_Notification</TableName>
+<Description>WWP_Notification</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>40</AttriId>
+<AttriName>WWPNotificationCreated</AttriName>
+<Description>Notification Created Date</Description></Attribute>
+<Attribute>
+<AttriId>198</AttriId>
+<AttriName>WWPNotificationIcon</AttriName>
+<Description>Notification Icon</Description></Attribute>
+<Attribute>
+<AttriId>199</AttriId>
+<AttriName>WWPNotificationTitle</AttriName>
+<Description>Notification Title</Description></Attribute>
+<Attribute>
+<AttriId>200</AttriId>
+<AttriName>WWPNotificationShortDescriptio</AttriName>
+<Description>Notification Short Description</Description></Attribute>
+<Attribute>
+<AttriId>201</AttriId>
+<AttriName>WWPNotificationLink</AttriName>
+<Description>Notification Link</Description></Attribute>
+<Attribute>
+<AttriId>203</AttriId>
+<AttriName>WWPNotificationIsRead</AttriName>
+<Description>Notification Is Read</Description></Attribute>
+<Attribute>
+<AttriId>182</AttriId>
+<AttriName>WWPNotificationMetadata</AttriName>
+<Description>WWPNotification Metadata</Description></Attribute>
+<Attribute>
+<AttriId>35</AttriId>
+<AttriName>WWPNotificationDefinitionId</AttriName>
+<Description>Notification Definition Id</Description></Attribute>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>WWPUserExtendedId</AttriName>
+<Description>User Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>37</TableId>
+<TableName>WWP_Notification</TableName>
+<Description>WWP_Notification</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>39</TableId>
+<TableName>WWP_Mail</TableName>
+<Description>WWP_Mail</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>WWPNotificationId</AttriName>
+<Description>Notification Id</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>34</TableId>
+<TableName>WWP_WebNotification</TableName>
+<Description>WWP_WebNotification</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>WWPNotificationId</AttriName>
+<Description>Notification Id</Description></Attribute></KeyAttributes></Table>
+<Table>
+<TableId>33</TableId>
+<TableName>WWP_SMS</TableName>
+<Description>WWP_SMS</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>WWPNotificationId</AttriName>
+<Description>Notification Id</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts></Prompts>
+<Suggests></Suggests></ObjectSpec>

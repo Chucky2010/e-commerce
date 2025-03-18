@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "wwpmailtemplate_FullControl",
+    "Description": "Mail Template FullControl",
+    "ProgramName": "wwpbaseobjects.mail.wwp_mailtemplate",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "wwpmailtemplate_Execute",
+    "Description": "Mail Template",
+    "ProgramName": "wwpbaseobjects.mail.wwp_mailtemplate",
+    "IsGXAutomatic": true,
+    "Parent": "wwpmailtemplate_FullControl"
+  },
+  {
+    "Name": "wwpmailtemplate_Insert",
+    "Description": "Mail Template Insert",
+    "ProgramName": "wwpbaseobjects.mail.wwp_mailtemplate",
+    "IsGXAutomatic": true,
+    "Parent": "wwpmailtemplate_FullControl"
+  },
+  {
+    "Name": "wwpmailtemplate_Delete",
+    "Description": "Mail Template Delete",
+    "ProgramName": "wwpbaseobjects.mail.wwp_mailtemplate",
+    "IsGXAutomatic": true,
+    "Parent": "wwpmailtemplate_FullControl"
+  },
+  {
+    "Name": "wwpmailtemplate_Update",
+    "Description": "Mail Template Update",
+    "ProgramName": "wwpbaseobjects.mail.wwp_mailtemplate",
+    "IsGXAutomatic": true,
+    "Parent": "wwpmailtemplate_FullControl"
+  }
+]

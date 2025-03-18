@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "myproductscartaddress_Execute",
+    "Description": "Dirección de envio",
+    "ProgramName": "myproductscartaddress",
+    "IsGXAutomatic": true
+  }
+]

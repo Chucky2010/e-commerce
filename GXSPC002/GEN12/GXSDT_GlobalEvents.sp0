@@ -1,0 +1,290 @@
+ 
+spec_i([ sdt,[ 14,1,0 ],'GlobalEvents','GlobalEvents',0,spa,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 14,1,0 ],name,'GlobalEvents').
+struct_dt_i([ 14,1,0 ],'ObjName','GlobalEvents').
+struct_dt_i([ 14,1,0 ],'ObjDesc','External Object for defining and executing Events within Application').
+struct_dt_i([ 14,1,0 ],'ExoType','0').
+struct_dt_i([ 14,1,0 ],'ObjNamespace','').
+struct_dt_i([ 14,1,0 ],'ExoImporterVersion','').
+struct_dt_i([ 14,1,0 ],'ExoSourceURI','').
+struct_dt_i([ 14,1,0 ],'AssemblyName','').
+struct_dt_i([ 14,1,0 ],'ExoNameNETCORE','').
+struct_dt_i([ 14,1,0 ],'NetCoreAssemblyName','').
+struct_dt_i([ 14,1,0 ],'ExoConstructorParametersNETCORE','').
+struct_dt_i([ 14,1,0 ],'ExoNameJAVA','').
+struct_dt_i([ 14,1,0 ],'PackageName','').
+struct_dt_i([ 14,1,0 ],'ExoConstructorParametersJAVA','').
+struct_dt_i([ 14,1,0 ],'RequireName','').
+struct_dt_i([ 14,1,0 ],'ExoNameJS','GlobalEvents').
+struct_dt_i([ 14,1,0 ],'ExoReferencedFilesJS','').
+struct_dt_i([ 14,1,0 ],'Folder',o(8,'Common')).
+struct_dt_i([ 14,1,0 ],'FullyQualifiedName','GlobalEvents').
+struct_dt_i([ 14,1,0 ],'ObjectVisibility','Public').
+struct_dt_i([ 14,1,0 ],fullname,'GlobalEvents').
+struct_dt_i([ 14,1,0 ],modified,yes).
+ 
+ 
+struct_dt_method_i([ 14,1,0 ],1,name,cartchanged).
+struct_dt_method_i([ 14,1,0 ],1,camelname,'CartChanged').
+struct_dt_method_i([ 14,1,0 ],1,externalType,'').
+struct_dt_method_i([ 14,1,0 ],1,length,8).
+struct_dt_method_i([ 14,1,0 ],1,decimals,0).
+struct_dt_method_i([ 14,1,0 ],1,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,1,0 ],1,'IntName','CartChanged').
+struct_dt_method_i([ 14,1,0 ],1,'ExoItemDesc','').
+struct_dt_method_i([ 14,1,0 ],1,'ExoItemType','None').
+struct_dt_method_i([ 14,1,0 ],1,basedon,'').
+struct_dt_method_i([ 14,1,0 ],1,'XmlName','').
+struct_dt_method_i([ 14,1,0 ],1,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,1,0 ],1,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,1,0 ],1,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,1,0 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,1,0 ],1,'ExoNameJAVA','').
+struct_dt_method_i([ 14,1,0 ],1,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,1,0 ],1,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,1,0 ],1,'ExoNameJS','CartChanged').
+struct_dt_method_i([ 14,1,0 ],1,isevent,'True').
+struct_dt_method_i([ 14,1,0 ],2,name,master_refreshheader).
+struct_dt_method_i([ 14,1,0 ],2,camelname,'Master_RefreshHeader').
+struct_dt_method_i([ 14,1,0 ],2,externalType,'').
+struct_dt_method_i([ 14,1,0 ],2,length,8).
+struct_dt_method_i([ 14,1,0 ],2,decimals,0).
+struct_dt_method_i([ 14,1,0 ],2,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,1,0 ],2,'IntName','Master_RefreshHeader').
+struct_dt_method_i([ 14,1,0 ],2,'ExoItemDesc','').
+struct_dt_method_i([ 14,1,0 ],2,'ExoItemType','None').
+struct_dt_method_i([ 14,1,0 ],2,basedon,'').
+struct_dt_method_i([ 14,1,0 ],2,'XmlName','').
+struct_dt_method_i([ 14,1,0 ],2,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,1,0 ],2,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,1,0 ],2,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,1,0 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,1,0 ],2,'ExoNameJAVA','').
+struct_dt_method_i([ 14,1,0 ],2,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,1,0 ],2,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,1,0 ],2,'ExoNameJS','Master_RefreshHeader').
+struct_dt_method_i([ 14,1,0 ],2,isevent,'True').
+struct_dt_method_i([ 14,1,0 ],3,name,listview_refreshview).
+struct_dt_method_i([ 14,1,0 ],3,camelname,'ListView_RefreshView').
+struct_dt_method_i([ 14,1,0 ],3,externalType,'').
+struct_dt_method_i([ 14,1,0 ],3,length,8).
+struct_dt_method_i([ 14,1,0 ],3,decimals,0).
+struct_dt_method_i([ 14,1,0 ],3,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,1,0 ],3,'IntName','ListView_RefreshView').
+struct_dt_method_i([ 14,1,0 ],3,'ExoItemDesc','').
+struct_dt_method_i([ 14,1,0 ],3,'ExoItemType','None').
+struct_dt_method_i([ 14,1,0 ],3,basedon,'').
+struct_dt_method_i([ 14,1,0 ],3,'XmlName','').
+struct_dt_method_i([ 14,1,0 ],3,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,1,0 ],3,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,1,0 ],3,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,1,0 ],3,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,1,0 ],3,'ExoNameJAVA','').
+struct_dt_method_i([ 14,1,0 ],3,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,1,0 ],3,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,1,0 ],3,'ExoNameJS','ListView_RefreshView').
+struct_dt_method_i([ 14,1,0 ],3,isevent,'True').
+struct_dt_method_i([ 14,1,0 ],4,name,listview_updatelistfilters).
+struct_dt_method_i([ 14,1,0 ],4,camelname,'ListView_UpdateListFilters').
+struct_dt_method_i([ 14,1,0 ],4,externalType,'').
+struct_dt_method_i([ 14,1,0 ],4,length,8).
+struct_dt_method_i([ 14,1,0 ],4,decimals,0).
+struct_dt_method_i([ 14,1,0 ],4,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,1,0 ],4,'IntName','ListView_UpdateListFilters').
+struct_dt_method_i([ 14,1,0 ],4,'ExoItemDesc','').
+struct_dt_method_i([ 14,1,0 ],4,'ExoItemType','None').
+struct_dt_method_i([ 14,1,0 ],4,basedon,'').
+struct_dt_method_i([ 14,1,0 ],4,'XmlName','').
+struct_dt_method_i([ 14,1,0 ],4,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,1,0 ],4,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,1,0 ],4,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,1,0 ],4,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,1,0 ],4,'ExoNameJAVA','').
+struct_dt_method_i([ 14,1,0 ],4,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,1,0 ],4,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,1,0 ],4,'ExoNameJS','ListView_UpdateListFilters').
+struct_dt_method_i([ 14,1,0 ],4,isevent,'True').
+struct_dt_method_i([ 14,1,0 ],5,name,splitscreen_loaddetail).
+struct_dt_method_i([ 14,1,0 ],5,camelname,'SplitScreen_LoadDetail').
+struct_dt_method_i([ 14,1,0 ],5,externalType,'').
+struct_dt_method_i([ 14,1,0 ],5,length,8).
+struct_dt_method_i([ 14,1,0 ],5,decimals,0).
+struct_dt_method_i([ 14,1,0 ],5,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,1,0 ],5,'IntName','SplitScreen_LoadDetail').
+struct_dt_method_i([ 14,1,0 ],5,'ExoItemDesc','').
+struct_dt_method_i([ 14,1,0 ],5,'ExoItemType','None').
+struct_dt_method_i([ 14,1,0 ],5,basedon,'').
+struct_dt_method_i([ 14,1,0 ],5,'XmlName','').
+struct_dt_method_i([ 14,1,0 ],5,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,1,0 ],5,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,1,0 ],5,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,1,0 ],5,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,1,0 ],5,'ExoNameJAVA','').
+struct_dt_method_i([ 14,1,0 ],5,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,1,0 ],5,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,1,0 ],5,'ExoNameJS','SplitScreen_LoadDetail').
+struct_dt_method_i([ 14,1,0 ],5,isevent,'True').
+struct_dt_method_i([ 14,1,0 ],6,name,splitscreenwithtabs_updatetab).
+struct_dt_method_i([ 14,1,0 ],6,camelname,'SplitScreenWithTabs_UpdateTab').
+struct_dt_method_i([ 14,1,0 ],6,externalType,'').
+struct_dt_method_i([ 14,1,0 ],6,length,8).
+struct_dt_method_i([ 14,1,0 ],6,decimals,0).
+struct_dt_method_i([ 14,1,0 ],6,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,1,0 ],6,'IntName','SplitScreenWithTabs_UpdateTab').
+struct_dt_method_i([ 14,1,0 ],6,'ExoItemDesc','').
+struct_dt_method_i([ 14,1,0 ],6,'ExoItemType','None').
+struct_dt_method_i([ 14,1,0 ],6,basedon,'').
+struct_dt_method_i([ 14,1,0 ],6,'XmlName','').
+struct_dt_method_i([ 14,1,0 ],6,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,1,0 ],6,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,1,0 ],6,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,1,0 ],6,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,1,0 ],6,'ExoNameJAVA','').
+struct_dt_method_i([ 14,1,0 ],6,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,1,0 ],6,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,1,0 ],6,'ExoNameJS','SplitScreenWithTabs_UpdateTab').
+struct_dt_method_i([ 14,1,0 ],6,isevent,'True').
+struct_dt_method_i([ 14,1,0 ],7,name,mobilemenuchanged).
+struct_dt_method_i([ 14,1,0 ],7,camelname,'MobileMenuChanged').
+struct_dt_method_i([ 14,1,0 ],7,externalType,'').
+struct_dt_method_i([ 14,1,0 ],7,length,8).
+struct_dt_method_i([ 14,1,0 ],7,decimals,0).
+struct_dt_method_i([ 14,1,0 ],7,type,[ 257,8,0 ]).
+struct_dt_method_i([ 14,1,0 ],7,'IntName','MobileMenuChanged').
+struct_dt_method_i([ 14,1,0 ],7,'ExoItemDesc','').
+struct_dt_method_i([ 14,1,0 ],7,'ExoItemType','None').
+struct_dt_method_i([ 14,1,0 ],7,basedon,'').
+struct_dt_method_i([ 14,1,0 ],7,'XmlName','').
+struct_dt_method_i([ 14,1,0 ],7,'ExoMethodIsStatic','-1').
+struct_dt_method_i([ 14,1,0 ],7,'ExoExternalMember',idExoExternalMemberDefault).
+struct_dt_method_i([ 14,1,0 ],7,'ExoNameNETCORE','').
+struct_dt_method_i([ 14,1,0 ],7,'ExoItemExtTypeNETCORE','').
+struct_dt_method_i([ 14,1,0 ],7,'ExoNameJAVA','').
+struct_dt_method_i([ 14,1,0 ],7,'ExoItemExtTypeJAVA','').
+struct_dt_method_i([ 14,1,0 ],7,'ExoMethodThrows','NO').
+struct_dt_method_i([ 14,1,0 ],7,'ExoNameJS','MobileMenuChanged').
+struct_dt_method_i([ 14,1,0 ],7,isevent,'True').
+ 
+struct_dt_param_i([ 14,1,5 ],1,name,action).
+struct_dt_param_i([ 14,1,5 ],1,camelname,'Action').
+struct_dt_param_i([ 14,1,5 ],1,externalType,'').
+struct_dt_param_i([ 14,1,5 ],1,length,1).
+struct_dt_param_i([ 14,1,5 ],1,decimals,0).
+struct_dt_param_i([ 14,1,5 ],1,sign,0).
+struct_dt_param_i([ 14,1,5 ],1,type,[ 4,1,0 ]).
+struct_dt_param_i([ 14,1,5 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,1,5 ],1,'IntName','Action').
+struct_dt_param_i([ 14,1,5 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,1,5 ],1,'ExoItemType','Numeric').
+struct_dt_param_i([ 14,1,5 ],1,basedon,238).
+struct_dt_param_i([ 14,1,5 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,1,5 ],1,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,1,5 ],2,name,detailinfo).
+struct_dt_param_i([ 14,1,5 ],2,camelname,'DetailInfo').
+struct_dt_param_i([ 14,1,5 ],2,externalType,'').
+struct_dt_param_i([ 14,1,5 ],2,length,8).
+struct_dt_param_i([ 14,1,5 ],2,decimals,0).
+struct_dt_param_i([ 14,1,5 ],2,type,[ [ 26,85,0 ],8,0 ]).
+struct_dt_param_i([ 14,1,5 ],2,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,1,5 ],2,'IntName','DetailInfo').
+struct_dt_param_i([ 14,1,5 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,1,5 ],2,'ExoItemType','SplitScreenDetailInfo, WWPBaseObjects').
+struct_dt_param_i([ 14,1,5 ],2,basedon,'').
+struct_dt_param_i([ 14,1,5 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,1,5 ],2,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,1,5 ],3,name,refreshgrid).
+struct_dt_param_i([ 14,1,5 ],3,camelname,'RefreshGrid').
+struct_dt_param_i([ 14,1,5 ],3,externalType,'').
+struct_dt_param_i([ 14,1,5 ],3,length,8).
+struct_dt_param_i([ 14,1,5 ],3,decimals,0).
+struct_dt_param_i([ 14,1,5 ],3,type,[ 15,8,0 ]).
+struct_dt_param_i([ 14,1,5 ],3,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,1,5 ],3,'IntName','RefreshGrid').
+struct_dt_param_i([ 14,1,5 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,1,5 ],3,'ExoItemType','Boolean').
+struct_dt_param_i([ 14,1,5 ],3,basedon,'').
+struct_dt_param_i([ 14,1,5 ],3,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,1,5 ],3,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,1,5 ],4,name,detailtablename).
+struct_dt_param_i([ 14,1,5 ],4,camelname,'DetailTableName').
+struct_dt_param_i([ 14,1,5 ],4,externalType,'').
+struct_dt_param_i([ 14,1,5 ],4,length,40).
+struct_dt_param_i([ 14,1,5 ],4,decimals,0).
+struct_dt_param_i([ 14,1,5 ],4,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,1,5 ],4,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,1,5 ],4,'IntName','DetailTableName').
+struct_dt_param_i([ 14,1,5 ],4,'ExoItemDesc','').
+struct_dt_param_i([ 14,1,5 ],4,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,1,5 ],4,basedon,'').
+struct_dt_param_i([ 14,1,5 ],4,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,1,5 ],4,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,1,6 ],1,name,action).
+struct_dt_param_i([ 14,1,6 ],1,camelname,'Action').
+struct_dt_param_i([ 14,1,6 ],1,externalType,'').
+struct_dt_param_i([ 14,1,6 ],1,length,1).
+struct_dt_param_i([ 14,1,6 ],1,decimals,0).
+struct_dt_param_i([ 14,1,6 ],1,sign,0).
+struct_dt_param_i([ 14,1,6 ],1,type,[ 4,1,0 ]).
+struct_dt_param_i([ 14,1,6 ],1,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,1,6 ],1,'IntName','Action').
+struct_dt_param_i([ 14,1,6 ],1,'ExoItemDesc','').
+struct_dt_param_i([ 14,1,6 ],1,'ExoItemType','Numeric').
+struct_dt_param_i([ 14,1,6 ],1,basedon,238).
+struct_dt_param_i([ 14,1,6 ],1,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,1,6 ],1,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,1,6 ],2,name,detailinfo).
+struct_dt_param_i([ 14,1,6 ],2,camelname,'DetailInfo').
+struct_dt_param_i([ 14,1,6 ],2,externalType,'').
+struct_dt_param_i([ 14,1,6 ],2,length,8).
+struct_dt_param_i([ 14,1,6 ],2,decimals,0).
+struct_dt_param_i([ 14,1,6 ],2,type,[ [ 26,85,0 ],8,0 ]).
+struct_dt_param_i([ 14,1,6 ],2,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,1,6 ],2,'IntName','DetailInfo').
+struct_dt_param_i([ 14,1,6 ],2,'ExoItemDesc','').
+struct_dt_param_i([ 14,1,6 ],2,'ExoItemType','SplitScreenDetailInfo, WWPBaseObjects').
+struct_dt_param_i([ 14,1,6 ],2,basedon,'').
+struct_dt_param_i([ 14,1,6 ],2,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,1,6 ],2,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,1,6 ],3,name,refreshgrid).
+struct_dt_param_i([ 14,1,6 ],3,camelname,'RefreshGrid').
+struct_dt_param_i([ 14,1,6 ],3,externalType,'').
+struct_dt_param_i([ 14,1,6 ],3,length,8).
+struct_dt_param_i([ 14,1,6 ],3,decimals,0).
+struct_dt_param_i([ 14,1,6 ],3,type,[ 15,8,0 ]).
+struct_dt_param_i([ 14,1,6 ],3,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,1,6 ],3,'IntName','RefreshGrid').
+struct_dt_param_i([ 14,1,6 ],3,'ExoItemDesc','').
+struct_dt_param_i([ 14,1,6 ],3,'ExoItemType','Boolean').
+struct_dt_param_i([ 14,1,6 ],3,basedon,'').
+struct_dt_param_i([ 14,1,6 ],3,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,1,6 ],3,'ExoItemExtTypeJAVA','').
+struct_dt_param_i([ 14,1,6 ],4,name,detailtablename).
+struct_dt_param_i([ 14,1,6 ],4,camelname,'DetailTableName').
+struct_dt_param_i([ 14,1,6 ],4,externalType,'').
+struct_dt_param_i([ 14,1,6 ],4,length,40).
+struct_dt_param_i([ 14,1,6 ],4,decimals,0).
+struct_dt_param_i([ 14,1,6 ],4,type,[ 13,40,0 ]).
+struct_dt_param_i([ 14,1,6 ],4,'ExoParamAccessType',inout).
+struct_dt_param_i([ 14,1,6 ],4,'IntName','DetailTableName').
+struct_dt_param_i([ 14,1,6 ],4,'ExoItemDesc','').
+struct_dt_param_i([ 14,1,6 ],4,'ExoItemType','VarChar').
+struct_dt_param_i([ 14,1,6 ],4,basedon,'').
+struct_dt_param_i([ 14,1,6 ],4,'ExoItemExtTypeNETCORE','').
+struct_dt_param_i([ 14,1,6 ],4,'ExoItemExtTypeJAVA','').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\SD','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\SD','PackageName','GeneXus.jar').
+ 
+struct_dt_i([ 26,85,0 ],name,'WWPBaseObjects\SplitScreenDetailInfo').
+struct_dt_i([ 26,85,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,85,0 ],'ObjName','SplitScreenDetailInfo').
+struct_dt_i([ 26,85,0 ],'ObjDesc','Split Screen Detail Info').
+struct_dt_i([ 26,85,0 ],'ExternalName','SplitScreenDetailInfo').
+struct_dt_i([ 26,85,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,85,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,85,0 ],fullname,'WWPBaseObjects\SplitScreenDetailInfo').
+struct_dt_i([ 26,85,0 ],modified,yes).

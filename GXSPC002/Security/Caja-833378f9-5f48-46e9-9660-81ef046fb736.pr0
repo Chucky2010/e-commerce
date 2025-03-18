@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "caja_FullControl",
+    "Description": "Caja FullControl",
+    "ProgramName": "caja",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "caja_Execute",
+    "Description": "Caja",
+    "ProgramName": "caja",
+    "IsGXAutomatic": true,
+    "Parent": "caja_FullControl"
+  },
+  {
+    "Name": "caja_Insert",
+    "Description": "Caja Insert",
+    "ProgramName": "caja",
+    "IsGXAutomatic": true,
+    "Parent": "caja_FullControl"
+  },
+  {
+    "Name": "caja_Delete",
+    "Description": "Caja Delete",
+    "ProgramName": "caja",
+    "IsGXAutomatic": true,
+    "Parent": "caja_FullControl"
+  },
+  {
+    "Name": "caja_Update",
+    "Description": "Caja Update",
+    "ProgramName": "caja",
+    "IsGXAutomatic": true,
+    "Parent": "caja_FullControl"
+  }
+]

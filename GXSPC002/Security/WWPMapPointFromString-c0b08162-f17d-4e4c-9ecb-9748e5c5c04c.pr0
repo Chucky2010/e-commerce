@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpmappointfromstring_Services_Execute",
+    "Description": "WWPMap Point From String Services",
+    "ProgramName": "workwithplus.nativemobile.wwpmappointfromstring",
+    "IsGXAutomatic": true
+  }
+]

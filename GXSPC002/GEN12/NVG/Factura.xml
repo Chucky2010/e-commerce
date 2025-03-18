@@ -1,0 +1,254 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>27</ObjId>
+<ObjName>Factura</ObjName>
+<ObjDesc>Factura</ObjDesc>
+<ObjPgmName>Factura</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>28</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>28</TableId>
+<TableName>Factura</TableName>
+<Description>Factura</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>28</TableId>
+<TableName>Factura</TableName>
+<Description>Factura</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>30</AttriId>
+<AttriName>FacturaId</AttriName>
+<Description>Factura Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>26</TableId>
+<TableName>Empresa</TableName>
+<Description>Empresa</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>28</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>27</TableId>
+<TableName>Timbrado</TableName>
+<Description>Timbrado</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>29</AttriId>
+<AttriName>TimbradoId</AttriName>
+<Description>Timbrado Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>3</TableId>
+<TableName>Cliente</TableName>
+<Description>Cliente</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>24</TableId>
+<TableName>Cajero</TableName>
+<Description>Cajero</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>26</AttriId>
+<AttriName>CajeroId</AttriName>
+<Description>Cajero Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>45</TableId>
+<TableName>TipoFactura</TableName>
+<Description>Tipo Factura</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>TipoFacturaId</AttriName>
+<Description>Tipo Factura Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>28</TableId>
+<TableName>Factura</TableName>
+<Description>Factura</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>30</AttriId>
+<AttriName>FacturaId</AttriName>
+<Description>Factura Id</Description></Attribute>
+<Attribute>
+<AttriId>130</AttriId>
+<AttriName>FacturaEmision</AttriName>
+<Description>Factura Emision</Description></Attribute>
+<Attribute>
+<AttriId>28</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>29</AttriId>
+<AttriName>TimbradoId</AttriName>
+<Description>Timbrado Id</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Attribute>
+<AttriId>26</AttriId>
+<AttriName>CajeroId</AttriName>
+<Description>Cajero Id</Description></Attribute>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>TipoFacturaId</AttriName>
+<Description>Tipo Factura Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>28</TableId>
+<TableName>Factura</TableName>
+<Description>Factura</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>130</AttriId>
+<AttriName>FacturaEmision</AttriName>
+<Description>Factura Emision</Description></Attribute>
+<Attribute>
+<AttriId>28</AttriId>
+<AttriName>EmpresaId</AttriName>
+<Description>Empresa Id</Description></Attribute>
+<Attribute>
+<AttriId>29</AttriId>
+<AttriName>TimbradoId</AttriName>
+<Description>Timbrado Id</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>ClienteId</AttriName>
+<Description>Cliente Id</Description></Attribute>
+<Attribute>
+<AttriId>26</AttriId>
+<AttriName>CajeroId</AttriName>
+<Description>Cajero Id</Description></Attribute>
+<Attribute>
+<AttriId>31</AttriId>
+<AttriName>TipoFacturaId</AttriName>
+<Description>Tipo Factura Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>28</TableId>
+<TableName>Factura</TableName>
+<Description>Factura</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>29</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>29</TableId>
+<TableName>FacturaDetalle</TableName>
+<Description>Detalle</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>29</TableId>
+<TableName>FacturaDetalle</TableName>
+<Description>Detalle</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>30</AttriId>
+<AttriName>FacturaId</AttriName>
+<Description>Factura Id</Description></Attribute>
+<Attribute>
+<AttriId>47</AttriId>
+<AttriName>FacturaDetalleId</AttriName>
+<Description>Factura Detalle Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>29</TableId>
+<TableName>FacturaDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>30</AttriId>
+<AttriName>FacturaId</AttriName>
+<Description>Factura Id</Description></Attribute>
+<Attribute>
+<AttriId>47</AttriId>
+<AttriName>FacturaDetalleId</AttriName>
+<Description>Factura Detalle Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>29</TableId>
+<TableName>FacturaDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>29</TableId>
+<TableName>FacturaDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts></Prompts>
+<Suggests></Suggests></ObjectSpec>

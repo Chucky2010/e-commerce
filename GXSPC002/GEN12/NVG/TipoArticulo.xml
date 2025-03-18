@@ -1,0 +1,110 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>15</ObjId>
+<ObjName>TipoArticulo</ObjName>
+<ObjDesc>Tipo Articulo</ObjDesc>
+<ObjPgmName>TipoArticulo</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Tipoarticuloid</VarId>
+<VarName>&amp;TipoArticuloId</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>19</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>19</TableId>
+<TableName>TipoArticulo</TableName>
+<Description>Tipo Articulo</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>19</TableId>
+<TableName>TipoArticulo</TableName>
+<Description>Tipo Articulo</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>TipoArticuloId</AttriName>
+<Description>Tipo Articulo Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>19</TableId>
+<TableName>TipoArticulo</TableName>
+<Description>Tipo Articulo</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>TipoArticuloId</AttriName>
+<Description>Tipo Articulo Id</Description></Attribute>
+<Attribute>
+<AttriId>103</AttriId>
+<AttriName>TipoArticuloNombre</AttriName>
+<Description>Tipo Articulo Nombre</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>19</TableId>
+<TableName>TipoArticulo</TableName>
+<Description>Tipo Articulo</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>103</AttriId>
+<AttriName>TipoArticuloNombre</AttriName>
+<Description>Tipo Articulo Nombre</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>19</TableId>
+<TableName>TipoArticulo</TableName>
+<Description>Tipo Articulo</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>TipoArticuloId</AttriName>
+<Description>Tipo Articulo Id</Description></Attribute></KeyAttributes></Table></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+  <!-- Application theme -->
+  <style name="ApplicationTheme" parent="BaseApplicationTheme">
+  </style>
+
+  <style name="ApplicationThemeMujer_MorenaSDDSAnyPlatform" parent="BaseApplicationTheme">
+    <item name="actionBarCustomTheme">@style/ThemeOverlay.Genexus.ActionBarMujer_MorenaSDDSAnyPlatform</item>
+  </style>
+
+  <style name="ApplicationThemeWorkWithPlusDSNative" parent="BaseApplicationTheme">
+    <item name="colorPrimary">#ffffff</item>
+    <item name="colorPrimaryDark">#ffffff</item>
+    <item name="colorAccent">#d5303e</item>
+    <item name="colorControlNormal">#3a3a3a</item>
+    <item name="colorControlActivated">#ffc2d0</item>
+    <item name="colorControlHighlight">#999999</item>
+
+    <item name="actionBarCustomTheme">@style/ThemeOverlay.Genexus.ActionBarWorkWithPlusDSNative</item>
+  </style>
+
+  <style name="ApplicationThemeWorkWithPlusDSNative.Dark" parent="BaseApplicationTheme">
+    <item name="colorPrimary">#1e1e1e</item>
+    <item name="colorPrimaryDark">#1e1e1e</item>
+    <item name="colorAccent">#d5303e</item>
+    <item name="colorControlNormal">#fefefe</item>
+    <item name="colorControlActivated">#ffc2d0</item>
+    <item name="colorControlHighlight">#bbbbbb</item>
+
+    <item name="actionBarCustomTheme">@style/ThemeOverlay.Genexus.ActionBarWorkWithPlusDSNative.Dark</item>
+  </style>
+
+  <style name="ApplicationThemeWorkWithPlusDSFontIcons" parent="BaseApplicationTheme">
+    <item name="actionBarCustomTheme">@style/ThemeOverlay.Genexus.ActionBarWorkWithPlusDSFontIcons</item>
+  </style>
+
+  <style name="ApplicationThemeWorkWithPlusDSFontIcons.Dark" parent="BaseApplicationTheme">
+    <item name="actionBarCustomTheme">@style/ThemeOverlay.Genexus.ActionBarWorkWithPlusDSFontIcons.Dark</item>
+  </style>
+
+  <style name="ApplicationThemeWorkWithPlusPredefinedStyles" parent="BaseApplicationTheme">
+    <item name="actionBarCustomTheme">@style/ThemeOverlay.Genexus.ActionBarWorkWithPlusPredefinedStyles</item>
+  </style>
+
+  <style name="ThemeOverlay.Genexus.ActionBarMujer_MorenaSDDSAnyPlatform" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+    <item name="colorControlNormal">#3a3a3a</item>
+
+  </style>
+  <style name="ThemeOverlay.Genexus.ActionBarWorkWithPlusDSNative" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+    <item name="colorControlNormal">#3a3a3a</item>
+
+  </style>
+  <style name="ThemeOverlay.Genexus.ActionBarWorkWithPlusDSNative.Dark" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+    <item name="colorControlNormal">#fefefe</item>
+
+  </style>
+  <style name="ThemeOverlay.Genexus.ActionBarWorkWithPlusDSFontIcons" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+  </style>
+  <style name="ThemeOverlay.Genexus.ActionBarWorkWithPlusDSFontIcons.Dark" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+  </style>
+  <style name="ThemeOverlay.Genexus.ActionBarWorkWithPlusPredefinedStyles" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+  </style>
+
+</resources>

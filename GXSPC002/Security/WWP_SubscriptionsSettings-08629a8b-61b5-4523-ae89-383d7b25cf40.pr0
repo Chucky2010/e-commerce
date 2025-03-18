@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpsubscriptionssettings_Execute",
+    "Description": "Manage my Subscriptions",
+    "ProgramName": "wwpbaseobjects.subscriptions.wwp_subscriptionssettings",
+    "IsGXAutomatic": true
+  }
+]

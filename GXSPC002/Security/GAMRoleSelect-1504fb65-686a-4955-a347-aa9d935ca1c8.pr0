@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamroleselect_Execute",
+    "Description": "WWP_GAM_SelectRolesRole",
+    "ProgramName": "gamroleselect",
+    "IsGXAutomatic": true
+  }
+]

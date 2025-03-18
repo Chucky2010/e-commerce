@@ -1,0 +1,8 @@
+android {
+    defaultConfig {
+        resValue "string", "OneSignalAppId", "ae91eb4b-209b-4ec5-89f1-b307b2ac762a"
+    }
+}
+
+// from : https://github.com/OneSignal/OneSignal-Android-SDK/issues/754
+apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'

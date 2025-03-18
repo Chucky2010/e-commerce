@@ -1,0 +1,17 @@
+usercontrol_directory_i('wwp_iconbutton', ['UserControls']).
+usercontrol_i('wwp_iconbutton', ['WWP_IconButton','Wwp_iconbutton']).
+usercontrol_property_mapping_i('wwp_iconbutton', 'Enabled', 'Enabled', 'Enabled', [boolean,0,0,0], 0, any).
+usercontrol_property_mapping_i('wwp_iconbutton', 'UserControlType', 'Usercontroltype', 'Usercontroltype', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('wwp_iconbutton', 'ConstructorName', 'Constructorname', 'Constructorname', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('wwp_iconbutton', 'ShowMethodName', 'Showmethodname', 'Showmethodname', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('wwp_iconbutton', 'ControlName', 'Controlname', 'Controlname', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('wwp_iconbutton', 'BeforeIconClass', 'Beforeiconclass', 'Beforeiconclass', [char,1024,0,0], 0, any).
+usercontrol_property_mapping_i('wwp_iconbutton', 'AfterIconClass', 'Aftericonclass', 'Aftericonclass', [char,1024,0,0], 0, any).
+usercontrol_property_mapping_i('wwp_iconbutton', 'OnClickEvent', 'Onclickevent', 'Event', [event,0,0,0], 0, any).
+usercontrol_property_mapping_i('wwp_iconbutton', 'Caption', 'Caption', 'Caption', [char,1024,0,0], 0, any).
+usercontrol_property_mapping_i('wwp_iconbutton', 'Class', 'Class', 'Class', [char,1024,0,0], 0, any).
+usercontrol_property_mapping_i('wwp_iconbutton', 'Visible', 'Visible', 'Visible', [boolean,0,0,0], 0, any).
+usercontrol_property_mapping_i('wwp_iconbutton', 'CssSupportFiles', 'Csssupportfiles', 'Csssupportfiles', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('wwp_iconbutton', 'JsSupportFiles', 'Jssupportfiles', 'Jssupportfiles', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('wwp_iconbutton', 'CssSharedSupportFiles', 'Csssharedsupportfiles', 'Csssharedsupportfiles', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('wwp_iconbutton', 'JsSharedSupportFiles', 'Jssharedsupportfiles', 'Jssharedsupportfiles', [char,1024,0,0], 1, any).

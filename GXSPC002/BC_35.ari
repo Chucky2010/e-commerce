@@ -1,0 +1,13 @@
+bc_dt_elem_i([ 0,35,0 ],'Wwpnotificationid',allownulls,no).
+bc_dt_elem_i([ 0,35,0 ],'Wwpnotificationdefinitionid',allownulls,no).
+bc_dt_elem_i([ 0,35,0 ],'Wwpnotificationdefinitionname',readonly,yes).
+bc_dt_elem_i([ 0,35,0 ],'Wwpnotificationdefinitionname',allownulls,no).
+bc_dt_elem_i([ 0,35,0 ],'Wwpnotificationcreated',allownulls,no).
+bc_dt_elem_i([ 0,35,0 ],'Wwpnotificationicon',allownulls,no).
+bc_dt_elem_i([ 0,35,0 ],'Wwpnotificationtitle',allownulls,no).
+bc_dt_elem_i([ 0,35,0 ],'Wwpnotificationshortdescription',allownulls,no).
+bc_dt_elem_i([ 0,35,0 ],'Wwpnotificationlink',allownulls,no).
+bc_dt_elem_i([ 0,35,0 ],'Wwpnotificationisread',allownulls,no).
+bc_dt_elem_i([ 0,35,0 ],'Wwpuserextendedfullname',readonly,yes).
+bc_dt_elem_i([ 0,35,0 ],'Wwpuserextendedfullname',allownulls,no).
+ 

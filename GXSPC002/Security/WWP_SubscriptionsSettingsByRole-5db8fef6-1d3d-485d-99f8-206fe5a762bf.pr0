@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpsubscriptionssettingsbyrole_Execute",
+    "Description": "Manage Role's Subscriptions",
+    "ProgramName": "wwpbaseobjects.subscriptions.wwp_subscriptionssettingsbyrole",
+    "IsGXAutomatic": true
+  }
+]

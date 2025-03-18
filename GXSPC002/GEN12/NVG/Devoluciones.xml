@@ -1,0 +1,389 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>44</ObjId>
+<ObjName>Devoluciones</ObjName>
+<ObjDesc>Devoluciones</ObjDesc>
+<ObjPgmName>Devoluciones</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Mode</VarId>
+<VarName>&amp;Mode</VarName></Variable></Parameter>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Devolucionesid</VarId>
+<VarName>&amp;DevolucionesID</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>52</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>52</TableId>
+<TableName>Devoluciones</TableName>
+<Description>Devoluciones</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>52</TableId>
+<TableName>Devoluciones</TableName>
+<Description>Devoluciones</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>272</AttriId>
+<AttriName>DevolucionesID</AttriName>
+<Description>Devoluciones ID</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>16</TableId>
+<TableName>Ventas</TableName>
+<Description>Ventas</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>54</TableId>
+<TableName>MotivoDevolucion</TableName>
+<Description>Motivo Devolucion</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>273</AttriId>
+<AttriName>MotivoDevolucionID</AttriName>
+<Description>Motivo Devolucion ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table>
+<Table>
+<TableId>52</TableId>
+<TableName>DevolucionesTotal navigation</TableName>
+<Description>Devoluciones</Description>
+<RecordsToRead>one</RecordsToRead>
+<JoinType>Outer</JoinType>
+<Tables>
+<Table>
+<TableId>53</TableId>
+<TableName>DevolucionesDetalle</TableName>
+<Description>Detalle</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>272</AttriId>
+<AttriName>DevolucionesID</AttriName>
+<Description>Devoluciones ID</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads>
+<Action>
+<ActionType>DynamicLoad</ActionType>
+<DynamicLoad>
+<ControlName>
+<Attribute>
+<AttriId>303</AttriId>
+<AttriName>DevolucionesDetalleTallaID</AttriName>
+<Description>Devoluciones Detalle Talla ID</Description></Attribute></ControlName>
+<CodeAttributes>
+<Attribute>
+<AttriId>286</AttriId>
+<AttriName>TallaID</AttriName>
+<Description>Talla ID</Description></Attribute></CodeAttributes>
+<DescriptionAttributes>
+<Attribute>
+<AttriId>288</AttriId>
+<AttriName>TallaNumero</AttriName>
+<Description>Talla Numero</Description></Attribute></DescriptionAttributes>
+<Navigation>
+<NavigationTree>
+<Table>
+<TableId>58</TableId>
+<TableName>Talla</TableName>
+<Description>Talla</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>286</AttriId>
+<AttriName>TallaID</AttriName>
+<Description>Talla ID</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>286</AttriId>
+<AttriName>TallaID</AttriName>
+<Description>Talla ID</Description></Attribute>
+<Attribute>
+<AttriId>288</AttriId>
+<AttriName>TallaNumero</AttriName>
+<Description>Talla Numero</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<NavigationConditions></NavigationConditions>
+<NavigationOrder>
+<Order>
+<Attribute>
+<AttriId>288</AttriId>
+<AttriName>TallaNumero</AttriName>
+<Description>Talla Numero</Description></Attribute></Order>
+<Condition></Condition></NavigationOrder></Navigation></DynamicLoad></Action></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>52</TableId>
+<TableName>Devoluciones</TableName>
+<Description>Devoluciones</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>272</AttriId>
+<AttriName>DevolucionesID</AttriName>
+<Description>Devoluciones ID</Description></Attribute>
+<Attribute>
+<AttriId>275</AttriId>
+<AttriName>DevolucionesFecha</AttriName>
+<Description>Devoluciones Fecha</Description></Attribute>
+<Attribute>
+<AttriId>279</AttriId>
+<AttriName>DevolucionesObservacion</AttriName>
+<Description>Devoluciones Observacion</Description></Attribute>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute>
+<Attribute>
+<AttriId>273</AttriId>
+<AttriName>MotivoDevolucionID</AttriName>
+<Description>Motivo Devolucion ID</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>52</TableId>
+<TableName>Devoluciones</TableName>
+<Description>Devoluciones</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>275</AttriId>
+<AttriName>DevolucionesFecha</AttriName>
+<Description>Devoluciones Fecha</Description></Attribute>
+<Attribute>
+<AttriId>279</AttriId>
+<AttriName>DevolucionesObservacion</AttriName>
+<Description>Devoluciones Observacion</Description></Attribute>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute>
+<Attribute>
+<AttriId>273</AttriId>
+<AttriName>MotivoDevolucionID</AttriName>
+<Description>Motivo Devolucion ID</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>52</TableId>
+<TableName>Devoluciones</TableName>
+<Description>Devoluciones</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>53</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>53</TableId>
+<TableName>DevolucionesDetalle</TableName>
+<Description>Detalle</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>53</TableId>
+<TableName>DevolucionesDetalle</TableName>
+<Description>Detalle</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>272</AttriId>
+<AttriName>DevolucionesID</AttriName>
+<Description>Devoluciones ID</Description></Attribute>
+<Attribute>
+<AttriId>274</AttriId>
+<AttriName>DevolucionesDetalleID</AttriName>
+<Description>Devoluciones Detalle ID</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>53</TableId>
+<TableName>DevolucionesDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>272</AttriId>
+<AttriName>DevolucionesID</AttriName>
+<Description>Devoluciones ID</Description></Attribute>
+<Attribute>
+<AttriId>274</AttriId>
+<AttriName>DevolucionesDetalleID</AttriName>
+<Description>Devoluciones Detalle ID</Description></Attribute>
+<Attribute>
+<AttriId>303</AttriId>
+<AttriName>DevolucionesDetalleTallaID</AttriName>
+<Description>Devoluciones Detalle Talla ID</Description></Attribute>
+<Attribute>
+<AttriId>278</AttriId>
+<AttriName>DevolucionesDetalleCant</AttriName>
+<Description>Devoluciones Detalle Cant</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>53</TableId>
+<TableName>DevolucionesDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>303</AttriId>
+<AttriName>DevolucionesDetalleTallaID</AttriName>
+<Description>Devoluciones Detalle Talla ID</Description></Attribute>
+<Attribute>
+<AttriId>278</AttriId>
+<AttriName>DevolucionesDetalleCant</AttriName>
+<Description>Devoluciones Detalle Cant</Description></Attribute>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>53</TableId>
+<TableName>DevolucionesDetalle</TableName>
+<Description>Detalle</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>14</TableId>
+<TableName>Articulo</TableName>
+<Description>Articulo</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>29</ObjId>
+<ObjName>ArticuloPrompt</ObjName>
+<ObjPgmName>ArticuloPrompt</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>ArticuloId</AttriName>
+<Description>Articulo Id</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>54</TableId>
+<TableName>MotivoDevolucion</TableName>
+<Description>Motivo Devolucion</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>221</ObjId>
+<ObjName>MotivoDevolucionPrompt</ObjName>
+<ObjPgmName>MotivoDevolucionPrompt</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>273</AttriId>
+<AttriName>MotivoDevolucionID</AttriName>
+<Description>Motivo Devolucion ID</Description></Attribute>
+<Attribute>
+<AttriId>280</AttriId>
+<AttriName>MotivoDevolucionDescripcion</AttriName>
+<Description>Motivo Devolucion Descripcion</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>16</TableId>
+<TableName>Ventas</TableName>
+<Description>Ventas</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>182</ObjId>
+<ObjName>VentasPrompt</ObjName>
+<ObjPgmName>VentasPrompt</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>VentasId</AttriName>
+<Description>Ventas Id</Description></Attribute></OutputParameters>
+<PromptType>User</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

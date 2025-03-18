@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "departamento_FullControl",
+    "Description": "Departamento FullControl",
+    "ProgramName": "departamento",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "departamento_Execute",
+    "Description": "Departamento",
+    "ProgramName": "departamento",
+    "IsGXAutomatic": true,
+    "Parent": "departamento_FullControl"
+  },
+  {
+    "Name": "departamento_Insert",
+    "Description": "Departamento Insert",
+    "ProgramName": "departamento",
+    "IsGXAutomatic": true,
+    "Parent": "departamento_FullControl"
+  },
+  {
+    "Name": "departamento_Delete",
+    "Description": "Departamento Delete",
+    "ProgramName": "departamento",
+    "IsGXAutomatic": true,
+    "Parent": "departamento_FullControl"
+  },
+  {
+    "Name": "departamento_Update",
+    "Description": "Departamento Update",
+    "ProgramName": "departamento",
+    "IsGXAutomatic": true,
+    "Parent": "departamento_FullControl"
+  }
+]

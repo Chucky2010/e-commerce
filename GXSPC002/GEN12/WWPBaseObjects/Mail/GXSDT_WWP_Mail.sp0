@@ -1,0 +1,222 @@
+ 
+spec_i([ sdt,[ 0,37,0 ],'WWPBaseObjects\Mail\WWP_Mail','WWPBaseObjects\Mail\WWP_Mail',0,spa,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 0,37,0 ],name,'WWPBaseObjects\Mail\WWP_Mail').
+struct_dt_i([ 0,37,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 0,37,0 ],significantName,'WWPBaseObjects\Mail\WWP_Mail').
+struct_dt_i([ 0,37,0 ],'ObjName','WWP_Mail').
+struct_dt_i([ 0,37,0 ],'ObjDesc','Mail').
+struct_dt_i([ 0,37,0 ],'ExternalName','WWP_Mail').
+struct_dt_i([ 0,37,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 0,37,0 ],key,[ 42 ]).
+struct_dt_i([ 0,37,0 ],lvl,39).
+struct_dt_i([ 0,37,[ 42,43 ] ],name,'Attachments').
+struct_dt_i([ 0,37,[ 42,43 ] ],namespace,'Mujer_Morena.WWP_Mail').
+struct_dt_i([ 0,37,[ 42,43 ] ],lvl,40).
+struct_dt_i([ 0,37,0 ],fullname,'WWPBaseObjects\Mail\WWP_Mail').
+struct_dt_i([ 0,37,[ 42,43 ] ],fullname,'WWPBaseObjects\Mail\WWP_Mail.Attachments').
+ 
+struct_dt_elem_i([ 0,37,0 ],1,name,'Wwpmailid').
+struct_dt_elem_i([ 0,37,0 ],1,camelname,'WWPMailId').
+struct_dt_elem_i([ 0,37,0 ],1,basedon,92).
+struct_dt_elem_i([ 0,37,0 ],1,length,10).
+struct_dt_elem_i([ 0,37,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,37,0 ],1,sign,0).
+struct_dt_elem_i([ 0,37,0 ],1,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 0,37,0 ],1,pic,'ZZZZZZZZZ9').
+struct_dt_elem_i([ 0,37,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],1,attributeid,'42').
+struct_dt_elem_i([ 0,37,0 ],1,'ExternalName','WWPMailId').
+struct_dt_elem_i([ 0,37,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,37,0 ],2,name,'Wwpmailsubject').
+struct_dt_elem_i([ 0,37,0 ],2,camelname,'WWPMailSubject').
+struct_dt_elem_i([ 0,37,0 ],2,length,80).
+struct_dt_elem_i([ 0,37,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,37,0 ],2,type,[ 13,80,0 ]).
+struct_dt_elem_i([ 0,37,0 ],2,pic,'').
+struct_dt_elem_i([ 0,37,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],2,attributeid,'191').
+struct_dt_elem_i([ 0,37,0 ],2,'ExternalName','WWPMailSubject').
+struct_dt_elem_i([ 0,37,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,37,0 ],3,name,'Wwpmailbody').
+struct_dt_elem_i([ 0,37,0 ],3,camelname,'WWPMailBody').
+struct_dt_elem_i([ 0,37,0 ],3,basedon,47).
+struct_dt_elem_i([ 0,37,0 ],3,length,2097152).
+struct_dt_elem_i([ 0,37,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,37,0 ],3,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,37,0 ],3,pic,'').
+struct_dt_elem_i([ 0,37,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],3,attributeid,'183').
+struct_dt_elem_i([ 0,37,0 ],3,'ExternalName','WWPMailBody').
+struct_dt_elem_i([ 0,37,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,37,0 ],4,name,'Wwpmailto').
+struct_dt_elem_i([ 0,37,0 ],4,camelname,'WWPMailTo').
+struct_dt_elem_i([ 0,37,0 ],4,length,2097152).
+struct_dt_elem_i([ 0,37,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,37,0 ],4,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,37,0 ],4,pic,'').
+struct_dt_elem_i([ 0,37,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],4,attributeid,'192').
+struct_dt_elem_i([ 0,37,0 ],4,'ExternalName','WWPMailTo').
+struct_dt_elem_i([ 0,37,0 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,37,0 ],5,name,'Wwpmailcc').
+struct_dt_elem_i([ 0,37,0 ],5,camelname,'WWPMailCC').
+struct_dt_elem_i([ 0,37,0 ],5,length,2097152).
+struct_dt_elem_i([ 0,37,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,37,0 ],5,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,37,0 ],5,pic,'').
+struct_dt_elem_i([ 0,37,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],5,attributeid,'204').
+struct_dt_elem_i([ 0,37,0 ],5,'ExternalName','WWPMailCC').
+struct_dt_elem_i([ 0,37,0 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,37,0 ],6,name,'Wwpmailbcc').
+struct_dt_elem_i([ 0,37,0 ],6,camelname,'WWPMailBCC').
+struct_dt_elem_i([ 0,37,0 ],6,length,2097152).
+struct_dt_elem_i([ 0,37,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,37,0 ],6,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,37,0 ],6,pic,'').
+struct_dt_elem_i([ 0,37,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],6,attributeid,'205').
+struct_dt_elem_i([ 0,37,0 ],6,'ExternalName','WWPMailBCC').
+struct_dt_elem_i([ 0,37,0 ],6,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,37,0 ],7,name,'Wwpmailsenderaddress').
+struct_dt_elem_i([ 0,37,0 ],7,camelname,'WWPMailSenderAddress').
+struct_dt_elem_i([ 0,37,0 ],7,length,2097152).
+struct_dt_elem_i([ 0,37,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,37,0 ],7,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,37,0 ],7,pic,'').
+struct_dt_elem_i([ 0,37,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],7,attributeid,'193').
+struct_dt_elem_i([ 0,37,0 ],7,'ExternalName','WWPMailSenderAddress').
+struct_dt_elem_i([ 0,37,0 ],7,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,37,0 ],8,name,'Wwpmailsendername').
+struct_dt_elem_i([ 0,37,0 ],8,camelname,'WWPMailSenderName').
+struct_dt_elem_i([ 0,37,0 ],8,length,2097152).
+struct_dt_elem_i([ 0,37,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,37,0 ],8,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,37,0 ],8,pic,'').
+struct_dt_elem_i([ 0,37,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],8,attributeid,'194').
+struct_dt_elem_i([ 0,37,0 ],8,'ExternalName','WWPMailSenderName').
+struct_dt_elem_i([ 0,37,0 ],8,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,37,0 ],9,name,'Wwpmailstatus').
+struct_dt_elem_i([ 0,37,0 ],9,camelname,'WWPMailStatus').
+struct_dt_elem_i([ 0,37,0 ],9,basedon,248).
+struct_dt_elem_i([ 0,37,0 ],9,length,4).
+struct_dt_elem_i([ 0,37,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,37,0 ],9,sign,0).
+struct_dt_elem_i([ 0,37,0 ],9,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,37,0 ],9,pic,'ZZZ9').
+struct_dt_elem_i([ 0,37,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],9,attributeid,'202').
+struct_dt_elem_i([ 0,37,0 ],9,'ExternalName','WWPMailStatus').
+struct_dt_elem_i([ 0,37,0 ],9,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,37,0 ],10,name,'Wwpmailcreated').
+struct_dt_elem_i([ 0,37,0 ],10,camelname,'WWPMailCreated').
+struct_dt_elem_i([ 0,37,0 ],10,basedon,93).
+struct_dt_elem_i([ 0,37,0 ],10,length,10).
+struct_dt_elem_i([ 0,37,0 ],10,decimals,12).
+struct_dt_elem_i([ 0,37,0 ],10,type,[ 12,10,12 ]).
+struct_dt_elem_i([ 0,37,0 ],10,pic,'99/99/9999 99:99:99.999').
+struct_dt_elem_i([ 0,37,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],10,attributeid,'211').
+struct_dt_elem_i([ 0,37,0 ],10,'ExternalName','WWPMailCreated').
+struct_dt_elem_i([ 0,37,0 ],10,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,37,0 ],11,name,'Wwpmailscheduled').
+struct_dt_elem_i([ 0,37,0 ],11,camelname,'WWPMailScheduled').
+struct_dt_elem_i([ 0,37,0 ],11,basedon,93).
+struct_dt_elem_i([ 0,37,0 ],11,length,10).
+struct_dt_elem_i([ 0,37,0 ],11,decimals,12).
+struct_dt_elem_i([ 0,37,0 ],11,type,[ 12,10,12 ]).
+struct_dt_elem_i([ 0,37,0 ],11,pic,'99/99/9999 99:99:99.999').
+struct_dt_elem_i([ 0,37,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],11,attributeid,'212').
+struct_dt_elem_i([ 0,37,0 ],11,'ExternalName','WWPMailScheduled').
+struct_dt_elem_i([ 0,37,0 ],11,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,37,0 ],12,name,'Wwpmailprocessed').
+struct_dt_elem_i([ 0,37,0 ],12,camelname,'WWPMailProcessed').
+struct_dt_elem_i([ 0,37,0 ],12,basedon,93).
+struct_dt_elem_i([ 0,37,0 ],12,length,10).
+struct_dt_elem_i([ 0,37,0 ],12,decimals,12).
+struct_dt_elem_i([ 0,37,0 ],12,type,[ 12,10,12 ]).
+struct_dt_elem_i([ 0,37,0 ],12,pic,'99/99/9999 99:99:99.999').
+struct_dt_elem_i([ 0,37,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],12,attributeid,'207').
+struct_dt_elem_i([ 0,37,0 ],12,'ExternalName','WWPMailProcessed').
+struct_dt_elem_i([ 0,37,0 ],12,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,37,0 ],13,name,'Wwpmaildetail').
+struct_dt_elem_i([ 0,37,0 ],13,camelname,'WWPMailDetail').
+struct_dt_elem_i([ 0,37,0 ],13,length,2097152).
+struct_dt_elem_i([ 0,37,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,37,0 ],13,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,37,0 ],13,pic,'').
+struct_dt_elem_i([ 0,37,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],13,attributeid,'208').
+struct_dt_elem_i([ 0,37,0 ],13,'ExternalName','WWPMailDetail').
+struct_dt_elem_i([ 0,37,0 ],13,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,37,0 ],14,name,'Wwpnotificationid').
+struct_dt_elem_i([ 0,37,0 ],14,camelname,'WWPNotificationId').
+struct_dt_elem_i([ 0,37,0 ],14,basedon,92).
+struct_dt_elem_i([ 0,37,0 ],14,length,10).
+struct_dt_elem_i([ 0,37,0 ],14,decimals,0).
+struct_dt_elem_i([ 0,37,0 ],14,sign,0).
+struct_dt_elem_i([ 0,37,0 ],14,type,[ 4,10,0 ]).
+struct_dt_elem_i([ 0,37,0 ],14,pic,'ZZZZZZZZZ9').
+struct_dt_elem_i([ 0,37,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],14,attributeid,'37').
+struct_dt_elem_i([ 0,37,0 ],14,'ExternalName','WWPNotificationId').
+struct_dt_elem_i([ 0,37,0 ],14,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,37,0 ],15,name,'Wwpnotificationcreated').
+struct_dt_elem_i([ 0,37,0 ],15,camelname,'WWPNotificationCreated').
+struct_dt_elem_i([ 0,37,0 ],15,basedon,93).
+struct_dt_elem_i([ 0,37,0 ],15,length,10).
+struct_dt_elem_i([ 0,37,0 ],15,decimals,12).
+struct_dt_elem_i([ 0,37,0 ],15,type,[ 12,10,12 ]).
+struct_dt_elem_i([ 0,37,0 ],15,pic,'99/99/9999 99:99:99.999').
+struct_dt_elem_i([ 0,37,0 ],15,collection,'False').
+struct_dt_elem_i([ 0,37,0 ],15,attributeid,'40').
+struct_dt_elem_i([ 0,37,0 ],15,'ExternalName','WWPNotificationCreated').
+struct_dt_elem_i([ 0,37,0 ],15,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,37,0 ],16,name,'Attachments').
+struct_dt_elem_i([ 0,37,0 ],16,camelname,'Attachments').
+struct_dt_elem_i([ 0,37,0 ],16,type,[ [ 0,37,[ 42,43 ] ],0,0 ]).
+struct_dt_elem_i([ 0,37,0 ],16,pic,'').
+struct_dt_elem_i([ 0,37,0 ],16,collection,'True').
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],1,name,'Wwpmailattachmentname').
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],1,camelname,'WWPMailAttachmentName').
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],1,length,40).
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],1,decimals,0).
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],1,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],1,pic,'').
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],1,collection,'False').
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],1,attributeid,'43').
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],1,'ExternalName','WWPMailAttachmentName').
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],2,name,'Wwpmailattachmentfile').
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],2,camelname,'WWPMailAttachmentFile').
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],2,length,2097152).
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],2,decimals,0).
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],2,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],2,pic,'').
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],2,collection,'False').
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],2,attributeid,'206').
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],2,'ExternalName','WWPMailAttachmentFile').
+struct_dt_elem_i([ 0,37,[ 42,43 ] ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 0,37,0 ],1,pic,'ZZZZ9').
+struct_dt_elem_i([ 0,37,0 ],3,pic,'ZZZZZZZZZZ9').
+struct_dt_elem_i([ 0,37,0 ],9,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+struct_dt_elem_i([ 0,37,0 ],10,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+struct_dt_elem_i([ 0,37,0 ],11,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+struct_dt_elem_i([ 0,37,0 ],12,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+struct_dt_elem_i([ 0,37,0 ],14,pic,'ZZZZ9').
+struct_dt_elem_i([ 0,37,0 ],15,pic,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common','PackageName','GeneXus.jar').
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').

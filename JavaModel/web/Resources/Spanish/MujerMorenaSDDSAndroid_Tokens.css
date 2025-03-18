@@ -1,0 +1,20 @@
+:root
+{
+	--colors_Primary : #FF6F00;
+	--colors_Primary10 : #FF6F001a;
+	--colors_Primary30 : #FF6F004d;
+	--colors_Primary50 : #FF6F0080;
+	--colors_Primary80 : #FF6F00cc;
+	--colors_PrimaryTone : #FF8F00;
+	--colors_Secondary : #FFE082;
+	--colors_StatusBar : #FF6F00;
+	--colors_ApplicationBar : #FF6F00;
+	--fonts_primary-font-family : Montserrat;
+	--fontSizes_body-xlarge : 20dip;
+	--fontSizes_body-large : 16dip;
+	--fontSizes_body-regular : 14dip;
+	--fontSizes_body-small : 12dip;
+	--fontSizes_body-xsmall : 8dip;
+	--fontSizes_attribute-label : 12dip;
+
+}

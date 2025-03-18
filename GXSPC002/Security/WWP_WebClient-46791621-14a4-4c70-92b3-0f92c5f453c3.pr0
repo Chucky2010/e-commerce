@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "webclient_FullControl",
+    "Description": "WWP_Web Client FullControl",
+    "ProgramName": "wwpbaseobjects.notifications.web.wwp_webclient",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "webclient_Execute",
+    "Description": "WWP_Web Client",
+    "ProgramName": "wwpbaseobjects.notifications.web.wwp_webclient",
+    "IsGXAutomatic": true,
+    "Parent": "webclient_FullControl"
+  },
+  {
+    "Name": "webclient_Insert",
+    "Description": "WWP_Web Client Insert",
+    "ProgramName": "wwpbaseobjects.notifications.web.wwp_webclient",
+    "IsGXAutomatic": true,
+    "Parent": "webclient_FullControl"
+  },
+  {
+    "Name": "webclient_Delete",
+    "Description": "WWP_Web Client Delete",
+    "ProgramName": "wwpbaseobjects.notifications.web.wwp_webclient",
+    "IsGXAutomatic": true,
+    "Parent": "webclient_FullControl"
+  },
+  {
+    "Name": "webclient_Update",
+    "Description": "WWP_Web Client Update",
+    "ProgramName": "wwpbaseobjects.notifications.web.wwp_webclient",
+    "IsGXAutomatic": true,
+    "Parent": "webclient_FullControl"
+  }
+]

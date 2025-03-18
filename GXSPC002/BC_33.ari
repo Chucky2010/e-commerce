@@ -1,0 +1,6 @@
+bc_dt_elem_i([ 0,33,0 ],'Wwpwebclientid',allownulls,no).
+bc_dt_elem_i([ 0,33,0 ],'Wwpwebclientbrowserid',allownulls,no).
+bc_dt_elem_i([ 0,33,0 ],'Wwpwebclientbrowserversion',allownulls,no).
+bc_dt_elem_i([ 0,33,0 ],'Wwpwebclientfirstregistered',allownulls,no).
+bc_dt_elem_i([ 0,33,0 ],'Wwpwebclientlastregistered',allownulls,no).
+ 

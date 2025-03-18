@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpgetradialgaugewhite_Services_Execute",
+    "Description": "Get Radial Gauge White Services",
+    "ProgramName": "workwithplus.nativemobile.wwpgetradialgaugewhite",
+    "IsGXAutomatic": true
+  }
+]

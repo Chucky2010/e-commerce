@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "webnotification_FullControl",
+    "Description": "WWP_Web Notification FullControl",
+    "ProgramName": "wwpbaseobjects.notifications.web.wwp_webnotification",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "webnotification_Execute",
+    "Description": "WWP_Web Notification",
+    "ProgramName": "wwpbaseobjects.notifications.web.wwp_webnotification",
+    "IsGXAutomatic": true,
+    "Parent": "webnotification_FullControl"
+  },
+  {
+    "Name": "webnotification_Insert",
+    "Description": "WWP_Web Notification Insert",
+    "ProgramName": "wwpbaseobjects.notifications.web.wwp_webnotification",
+    "IsGXAutomatic": true,
+    "Parent": "webnotification_FullControl"
+  },
+  {
+    "Name": "webnotification_Delete",
+    "Description": "WWP_Web Notification Delete",
+    "ProgramName": "wwpbaseobjects.notifications.web.wwp_webnotification",
+    "IsGXAutomatic": true,
+    "Parent": "webnotification_FullControl"
+  },
+  {
+    "Name": "webnotification_Update",
+    "Description": "WWP_Web Notification Update",
+    "ProgramName": "wwpbaseobjects.notifications.web.wwp_webnotification",
+    "IsGXAutomatic": true,
+    "Parent": "webnotification_FullControl"
+  }
+]

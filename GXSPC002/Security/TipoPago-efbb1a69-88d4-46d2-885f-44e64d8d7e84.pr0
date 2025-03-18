@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "tipopago_FullControl",
+    "Description": "Tipo Pago FullControl",
+    "ProgramName": "tipopago",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "tipopago_Execute",
+    "Description": "Tipo Pago",
+    "ProgramName": "tipopago",
+    "IsGXAutomatic": true,
+    "Parent": "tipopago_FullControl"
+  },
+  {
+    "Name": "tipopago_Insert",
+    "Description": "Tipo Pago Insert",
+    "ProgramName": "tipopago",
+    "IsGXAutomatic": true,
+    "Parent": "tipopago_FullControl"
+  },
+  {
+    "Name": "tipopago_Delete",
+    "Description": "Tipo Pago Delete",
+    "ProgramName": "tipopago",
+    "IsGXAutomatic": true,
+    "Parent": "tipopago_FullControl"
+  },
+  {
+    "Name": "tipopago_Update",
+    "Description": "Tipo Pago Update",
+    "ProgramName": "tipopago",
+    "IsGXAutomatic": true,
+    "Parent": "tipopago_FullControl"
+  }
+]

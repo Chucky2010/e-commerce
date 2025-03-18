@@ -1,0 +1,134 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>33</ObjId>
+<ObjName>WWPBaseObjects.Notifications.Web.WWP_WebClient_BC</ObjName>
+<ObjDesc>WWP_Web Client</ObjDesc>
+<ObjPgmName>WWPBaseObjects.Notifications.Web.WWP_WebClient_BC</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>35</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>35</TableId>
+<TableName>WWP_WebClient</TableName>
+<Description>WWP_WebClient</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>35</TableId>
+<TableName>WWP_WebClient</TableName>
+<Description>WWP_WebClient</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>WWPWebClientId</AttriName>
+<Description>Web Client Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>30</TableId>
+<TableName>WWP_UserExtended</TableName>
+<Description>WWP_UserExtended</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>WWPUserExtendedId</AttriName>
+<Description>User Id</Description></Attribute></KeyAttributes>
+<JoinType>Outer</JoinType>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>35</TableId>
+<TableName>WWP_WebClient</TableName>
+<Description>WWP_WebClient</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>39</AttriId>
+<AttriName>WWPWebClientId</AttriName>
+<Description>Web Client Id</Description></Attribute>
+<Attribute>
+<AttriId>171</AttriId>
+<AttriName>WWPWebClientBrowserId</AttriName>
+<Description>Web Client Browser Id</Description></Attribute>
+<Attribute>
+<AttriId>172</AttriId>
+<AttriName>WWPWebClientBrowserVersion</AttriName>
+<Description>Web Client Browser Version</Description></Attribute>
+<Attribute>
+<AttriId>173</AttriId>
+<AttriName>WWPWebClientFirstRegistered</AttriName>
+<Description>Web Client First Registered</Description></Attribute>
+<Attribute>
+<AttriId>174</AttriId>
+<AttriName>WWPWebClientLastRegistered</AttriName>
+<Description>Web Client Last Registered</Description></Attribute>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>WWPUserExtendedId</AttriName>
+<Description>User Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>35</TableId>
+<TableName>WWP_WebClient</TableName>
+<Description>WWP_WebClient</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>171</AttriId>
+<AttriName>WWPWebClientBrowserId</AttriName>
+<Description>Web Client Browser Id</Description></Attribute>
+<Attribute>
+<AttriId>172</AttriId>
+<AttriName>WWPWebClientBrowserVersion</AttriName>
+<Description>Web Client Browser Version</Description></Attribute>
+<Attribute>
+<AttriId>173</AttriId>
+<AttriName>WWPWebClientFirstRegistered</AttriName>
+<Description>Web Client First Registered</Description></Attribute>
+<Attribute>
+<AttriId>174</AttriId>
+<AttriName>WWPWebClientLastRegistered</AttriName>
+<Description>Web Client Last Registered</Description></Attribute>
+<Attribute>
+<AttriId>32</AttriId>
+<AttriName>WWPUserExtendedId</AttriName>
+<Description>User Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>35</TableId>
+<TableName>WWP_WebClient</TableName>
+<Description>WWP_WebClient</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Suggests></Suggests></ObjectSpec>

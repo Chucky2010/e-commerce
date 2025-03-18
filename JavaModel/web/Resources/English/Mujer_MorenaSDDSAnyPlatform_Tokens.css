@@ -1,0 +1,27 @@
+:root
+{
+	--colors_Primary : #D5303E;
+	--colors_Primary10 : #D5303E1a;
+	--colors_Primary30 : #D5303E4d;
+	--colors_Primary50 : #D5303E80;
+	--colors_Primary80 : #D5303Ecc;
+	--colors_PrimaryTone : #C92432;
+	--colors_Secondary : #FFC2D0;
+	--colors_StatusBar : #D5303E;
+	--colors_ApplicationBar : #D5303E;
+	--colors_Primary : #414141;
+	--colors_Primary10 : #4141411a;
+	--colors_Primary30 : #4141414d;
+	--colors_Primary50 : #41414180;
+	--colors_Primary80 : #414141cc;
+	--colors_PrimaryTone : #353535;
+	--colors_Secondary : #D3D3D3;
+	--fonts_primary-font-family : Montserrat;
+	--fontSizes_body-xlarge : 20dip;
+	--fontSizes_body-large : 16dip;
+	--fontSizes_body-regular : 14dip;
+	--fontSizes_body-small : 12dip;
+	--fontSizes_body-xsmall : 8dip;
+	--fontSizes_attribute-label : 12dip;
+
+}

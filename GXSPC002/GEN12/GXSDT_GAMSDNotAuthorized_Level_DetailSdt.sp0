@@ -1,0 +1,38 @@
+ 
+spec_i([ sdt,[ 26,1000000,0 ],'GAMSDNotAuthorized_Level_DetailSdt','GAMSDNotAuthorized_Level_DetailSdt',0,spa,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 26,1000000,0 ],name,'GAMSDNotAuthorized_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'GAMSDNotAuthorized_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'GAMSDNotAuthorized_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,1000000,0 ],1,name,'User').
+struct_dt_elem_i([ 26,1000000,0 ],1,camelname,'User').
+struct_dt_elem_i([ 26,1000000,0 ],1,type,[ 13,100,60 ]).
+struct_dt_elem_i([ 26,1000000,0 ],1,length,100).
+struct_dt_elem_i([ 26,1000000,0 ],1,decimals,60).
+struct_dt_elem_i([ 26,1000000,0 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,name,'Password').
+struct_dt_elem_i([ 26,1000000,0 ],2,camelname,'Password').
+struct_dt_elem_i([ 26,1000000,0 ],2,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],2,length,50).
+struct_dt_elem_i([ 26,1000000,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,islevel,'False').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common\UI','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\Common\UI','PackageName','GeneXus.jar').
+module_info_i('GeneXus\SD','PACKAGE','com.genexuscore').
+module_info_i('GeneXus\SD','PackageName','GeneXus.jar').
+module_info_i('GeneXusSecurityCommon','PACKAGE','genexus.security.api').
+module_info_i('GeneXusSecurityCommon','PackageName','GeneXusSecurityCommon.jar').

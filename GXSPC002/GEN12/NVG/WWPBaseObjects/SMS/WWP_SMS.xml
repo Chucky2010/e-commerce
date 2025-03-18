@@ -1,0 +1,163 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>31</ObjId>
+<ObjName>WWPBaseObjects.SMS.WWP_SMS</ObjName>
+<ObjDesc>WWP_SMS</ObjDesc>
+<ObjPgmName>WWPBaseObjects.SMS.WWP_SMS</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>33</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>33</TableId>
+<TableName>WWP_SMS</TableName>
+<Description>WWP_SMS</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>33</TableId>
+<TableName>WWP_SMS</TableName>
+<Description>WWP_SMS</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>36</AttriId>
+<AttriName>WWPSMSId</AttriName>
+<Description>SMS Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>37</TableId>
+<TableName>WWP_Notification</TableName>
+<Description>WWP_Notification</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>WWPNotificationId</AttriName>
+<Description>Notification Id</Description></Attribute></KeyAttributes>
+<JoinType>Outer</JoinType>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>33</TableId>
+<TableName>WWP_SMS</TableName>
+<Description>WWP_SMS</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>161</AttriId>
+<AttriName>WWPSMSMessage</AttriName>
+<Description>SMS Message</Description></Attribute>
+<Attribute>
+<AttriId>162</AttriId>
+<AttriName>WWPSMSSenderNumber</AttriName>
+<Description>SMS Sender Number</Description></Attribute>
+<Attribute>
+<AttriId>163</AttriId>
+<AttriName>WWPSMSRecipientNumbers</AttriName>
+<Description>SMS Recipient Numbers</Description></Attribute>
+<Attribute>
+<AttriId>158</AttriId>
+<AttriName>WWPSMSStatus</AttriName>
+<Description>SMS Status</Description></Attribute>
+<Attribute>
+<AttriId>164</AttriId>
+<AttriName>WWPSMSCreated</AttriName>
+<Description>SMS Created</Description></Attribute>
+<Attribute>
+<AttriId>165</AttriId>
+<AttriName>WWPSMSScheduled</AttriName>
+<Description>SMS Scheduled</Description></Attribute>
+<Attribute>
+<AttriId>159</AttriId>
+<AttriName>WWPSMSProcessed</AttriName>
+<Description>SMS Processed</Description></Attribute>
+<Attribute>
+<AttriId>160</AttriId>
+<AttriName>WWPSMSDetail</AttriName>
+<Description>SMS Detail</Description></Attribute>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>WWPNotificationId</AttriName>
+<Description>Notification Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>33</TableId>
+<TableName>WWP_SMS</TableName>
+<Description>WWP_SMS</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>161</AttriId>
+<AttriName>WWPSMSMessage</AttriName>
+<Description>SMS Message</Description></Attribute>
+<Attribute>
+<AttriId>162</AttriId>
+<AttriName>WWPSMSSenderNumber</AttriName>
+<Description>SMS Sender Number</Description></Attribute>
+<Attribute>
+<AttriId>163</AttriId>
+<AttriName>WWPSMSRecipientNumbers</AttriName>
+<Description>SMS Recipient Numbers</Description></Attribute>
+<Attribute>
+<AttriId>158</AttriId>
+<AttriName>WWPSMSStatus</AttriName>
+<Description>SMS Status</Description></Attribute>
+<Attribute>
+<AttriId>164</AttriId>
+<AttriName>WWPSMSCreated</AttriName>
+<Description>SMS Created</Description></Attribute>
+<Attribute>
+<AttriId>165</AttriId>
+<AttriName>WWPSMSScheduled</AttriName>
+<Description>SMS Scheduled</Description></Attribute>
+<Attribute>
+<AttriId>159</AttriId>
+<AttriName>WWPSMSProcessed</AttriName>
+<Description>SMS Processed</Description></Attribute>
+<Attribute>
+<AttriId>160</AttriId>
+<AttriName>WWPSMSDetail</AttriName>
+<Description>SMS Detail</Description></Attribute>
+<Attribute>
+<AttriId>37</AttriId>
+<AttriName>WWPNotificationId</AttriName>
+<Description>Notification Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>33</TableId>
+<TableName>WWP_SMS</TableName>
+<Description>WWP_SMS</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts></Prompts>
+<Suggests></Suggests></ObjectSpec>

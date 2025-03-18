@@ -1,0 +1,32 @@
+:root
+{
+	--colors_Danger : #fb6e52;
+	--colors_Danger50 : #fb6e5280;
+	--colors_Warning : #f39c12;
+	--colors_Warning50 : #f39c1280;
+	--colors_Success : #00a65a;
+	--colors_Success50 : #00a65a80;
+	--colors_Info : #3c8dbc;
+	--colors_Info50 : #3c8dbc80;
+	--colors_Primary : #d5303e;
+	--colors_Primary50 : #d5303e80;
+	--colors_Secondary : #ffc2d0;
+	--colors_PrimaryBackground : #f5f5f5;
+	--colors_PrimarySurface : #ffffff;
+	--colors_PrimarySurfaceBorder : #dddddd;
+	--colors_DarkSurfaceElevated80 : #383838cc;
+	--colors_ControlOnPrimary : #ffffff;
+	--colors_ControlOnSurface : #3a3a3a;
+	--colors_ControlSecondOnSurface : #666666;
+	--colors_ControlThirdOnSurface : #999999;
+	--colors_ControlOnLightSurface : #666666;
+	--colors_ControlOnDarkSurface : #bbbbbb;
+	--fonts_primary-font-family : Montserrat;
+	--fontSizes_body-xlarge : 20dip;
+	--fontSizes_body-large : 16dip;
+	--fontSizes_body-regular : 14dip;
+	--fontSizes_body-small : 12dip;
+	--fontSizes_body-xsmall : 8dip;
+	--fontSizes_attribute-label : 12dip;
+
+}

@@ -1,0 +1,170 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>182</ObjId>
+<ObjName>InventarioFinal</ObjName>
+<ObjDesc>Inventario Final</ObjDesc>
+<ObjPgmName>InventarioFinal</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Inventarioid</VarId>
+<VarName>&amp;InventarioID</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Filename</VarId>
+<VarName>&amp;Filename</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Errormessage</VarId>
+<VarName>&amp;ErrorMessage</VarName></Variable></Parameter></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For First</LevelType>
+<LevelBeginRow>79</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>49</TableId>
+<TableName>Inventario</TableName>
+<Description>Inventario</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IINVENTARIO</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Inventarioid</VarId>
+<VarName>&amp;InventarioID</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Inventarioid</VarId>
+<VarName>&amp;InventarioID</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>49</TableId>
+<TableName>Inventario</TableName>
+<Description>Inventario</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels>
+<Level>
+<LevelNumber>3</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>93</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>50</TableId>
+<TableName>InventarioDetalle</TableName>
+<Description>Detalle</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>54</AttriId>
+<AttriName>InventarioDetalleID</AttriName>
+<Description>Inventario Detalle ID</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IINVENTARIODETALLE</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>@InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>@InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>50</TableId>
+<TableName>InventarioDetalle</TableName>
+<Description>Detalle</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>53</AttriId>
+<AttriName>InventarioID</AttriName>
+<Description>Inventario ID</Description></Attribute>
+<Attribute>
+<AttriId>54</AttriId>
+<AttriName>InventarioDetalleID</AttriName>
+<Description>Inventario Detalle ID</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></Level></Levels></ObjectSpec>

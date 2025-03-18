@@ -1,0 +1,499 @@
+spec_i([ mnproc,0,'VerDetallesPedidosSD_Level_Detail','VerDetallesPedidosSD_Level_Detail',0,spa,'17_0_11-163677' ]).
+ 
+struct_i(3,1,[],[]).
+struct_i(2,1,[],[]).
+ 
+level_i(3,[ 9,[ [ 9,many ] ],[],[],[ [ [ 9 ],[ 9,71 ] ] ],[ [ [ 9 ],[] ] ],[ 9 ],'ITIPOPAGO',[ 9,[ [ [],'Gxval_tipopagoid',9 ] ] ],[] ]).
+level_i(2,[ 47,[ [ 47,many ] ],[],[],[ [ [ 47 ],[ 51,246,9 ] ] ],[ [ [ 47 ],[] ] ],[ 51 ],'IPEDIDOS',[ 47,[ [ [],'Pedidosid',51 ] ] ],[] ]).
+ 
+tw_i(3,[]).
+tw_i(2,[]).
+ 
+lwi_i(3,[ [] ]).
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(3,[ [ [ 9,9 ],[ 9,71 ] ] ]).
+ta_i(2,[ [ [ 47,51 ],[ 47,246 ],[ 47,9 ] ] ]).
+ 
+las_i(3,[ [ 9,71 ] ]).
+las_i(2,[ [ 51,246,9 ] ]).
+ 
+lac_i(3,[ [] ]).
+lac_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('FullyQualifiedName','VerDetallesPedidosSD_Level_Detail')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('IntegratedSecurityBlurOnBackground','0')).
+rule_i(0,prop('IntegratedSecurityEnableBiometrics','0')).
+rule_i(0,prop('IntegratedSecurityPermissionPrefix','VerDetallesPedidosSD')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop('CacheCheckForNewData','CacheCheckForNewDataEveryTime')).
+rule_i(0,prop('CacheEnabled','-1')).
+rule_i(0,prop(autoRefreshTime,'0')).
+rule_i(0,prop(dataSelectorParameters,[])).
+rule_i(0,prop(dataSelector,'')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('DeepLinkName','')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(caption,'Ver Detalles Pedidos SD')).
+rule_i(0,prop('MasterPanel','')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('Folder',o(8,'MujerMorena'))).
+rule_i(0,prop('Description','Ver Detalles Pedidos SD')).
+rule_i(0,prop('Name','VerDetallesPedidosSD')).
+rule_i(0,rule([ a(22,[ 'Rfr',[ t('getmessagetext(',1),t('"GX_BtnRefresh"',3),t(')',4) ],'5' ]) ],[],[],[])).
+rule_i(0,maingen(12)).
+rule_i(0,prop('DPRV_WSPROTOCOL','REST')).
+rule_i(0,prop(idISWEBSERVICE,'-1')).
+rule_i(0,prop('ObjName','VerDetallesPedidosSD_Level_Detail')).
+rule_i(0,prop('IntegratedSecurityLevel','SecurityHigh')).
+rule_i(0,prop('SDPanel','True')).
+rule_i(0,parm([ 'Pedidosid','Gxid','GXM1VerDetallesPedidosSD_Level_DetailSdt' ],[])).
+rule_i(0,parmio([ [ 'Pedidosid',in ],[ 'Gxid',in ],[ 'GXM1VerDetallesPedidosSD_Level_DetailSdt',out ] ])).
+rule_i(0,prop('OutputSDT',o(26,'VerDetallesPedidosSD_Level_DetailSdt'))).
+ 
+a_i(1,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(2,2,t,47,[],[ [ [ [],'Pedidosid',51 ] ],'IPEDIDOS',[] ]).
+a_i(3,3,t,9,[],[ [ [ [],'Gxval_tipopagoid',9 ] ],'ITIPOPAGO',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Err').
+v_i(t,i,2,'Pedidosid').
+v_i(t,o,2,51).
+v_i(t,o,2,246).
+v_i(t,o,2,9).
+v_i(t,i,3,'Gxval_tipopagoid').
+v_i(t,o,3,9).
+v_i(t,o,3,71).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i(71,[ 'TipoPagoNombre',char,80,0,'',0,l('Tipo Pago Nombre'),'',0 ]).
+attri_i('Pedidosimagencomprobante_GXI',[ 'Pedidosimagencomprobante_GXI',svchar,2048,0,'',0,'',[],26 ]).
+attri_i(246,[ 'PedidosFecha',date,8,0,'99/99/99',0,l('Pedidos Fecha'),'',0 ]).
+attri_i(9,[ 'TipoPagoId',int,11,0,'ZZZZZZZZZZ9',0,l('Tipo Pago Id'),'',0 ]).
+attri_i(51,[ 'PedidosID',int,11,0,'ZZZZZZZZZZ9',0,l('Pedidos ID'),'',0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',24 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',23 ]).
+attri_i('GXM1VerDetallesPedidosSD_Level_DetailSdt',[ 'GXM1VerDetallesPedidosSD_Level_DetailSdt',o('VerDetallesPedidosSD_Level_DetailSdt'),0,0,'',0,'GXM1VerDetallesPedidosSD_Level_DetailSdt','',22 ]).
+attri_i('Gxdesc_tipopagoid',[ 'Gxdesc_tipopagoid',svchar,1000,0,'',0,'Gxdesc_tipopagoid','',21 ]).
+attri_i('Gxval_tipopagoid',[ 'Gxval_tipopagoid',int,11,0,'',1,'Gxval_tipopagoid','',20 ]).
+attri_i('Gxwebsession',[ 'Gxwebsession',o(websession),4,0,'',0,'Gxwebsession','',19 ]).
+attri_i('Gxids',[ 'Gxids',char,20,0,'',0,'Gxids','',18 ]).
+attri_i('Gxid',[ gxid,int,8,0,'',0,'Gxid','',17 ]).
+attri_i('Pedidoscomprobanteobs',[ 'PedidosComprobanteObs',svchar,512,0,'',0,l('Pedidos Comprobante Obs'),'',16 ]).
+attri_i('Pedidosimagencomprobante',[ 'PedidosImagenComprobante',bits,1024,0,'',0,l('Pedidos Imagen Comprobante'),'',15 ]).
+attri_i('Tipopagoid',[ 'TipoPagoId',int,11,0,'ZZZZZZZZZZ9',0,l('Tipo Pago Id'),'',14 ]).
+attri_i('Pedidosfecha',[ 'PedidosFecha',date,8,0,'99/99/99',0,l('Pedidos Fecha'),'',13 ]).
+attri_i('Pedidosdetallecantidad',[ 'PedidosDetalleCantidad',int,5,0,'ZZZZ9',0,l('Pedidos Detalle Cantidad'),'',12 ]).
+attri_i('Pedidosdetalletallaid',[ 'PedidosDetalleTallaID',int,11,0,'ZZZZZZZZZZ9',0,l('Pedidos Detalle Talla ID'),'',11 ]).
+attri_i('Articulonombre',[ 'ArticuloNombre',char,80,0,'',0,l('Articulo Nombre'),'',10 ]).
+attri_i('Articuloid',[ 'ArticuloId',int,11,0,'ZZZZZZZZZZ9',0,l('Articulo Id'),'',9 ]).
+attri_i('Pedidosid',[ 'PedidosID',int,11,0,'ZZZZZZZZZZ9',0,l('Pedidos ID'),'',8 ]).
+attri_i('Pedidosdetalleid',[ 'PedidosDetalleID',int,11,0,'ZZZZZZZZZZ9',0,l('Pedidos Detalle ID'),'',7 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,l('Security Functionality Keys'),'',6 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,l('Is Authorized'),'',5 ]).
+ 
+table_i(47,[ 'Pedidos',[ 51,246,9 ],l('Pedidos'),'Pedidos' ]).
+table_i(9,[ 'TipoPago',[ 9,71 ],l('Tipo Pago'),'TipoPago' ]).
+ 
+index_i(47,[ 'IPEDIDOS',u,[ 51 ],'IPedidos' ]).
+index_i(9,[ 'ITIPOPAGO',u,[ 9 ],'ITipoPago' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,'Pedidosimagencomprobante_GXI','Pedidosimagencomprobante','Pedidosimagencomprobante_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,40000,296,'PedidosImagenComprobante_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+start_i(3,0,0,[ [ [ 9,23,'Gxval_tipopagoid',= ] ],one ]).
+start_i(2,0,0,[ [ [ 51,23,'Pedidosid',= ] ],one ]).
+ 
+end_i(3,0,0,[ [ [ t(9,2),t(=,10),t('Gxval_tipopagoid',23) ] ] ]).
+end_i(2,0,0,[ [ [ t(51,2),t(=,10),t('Pedidosid',23) ] ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(90,[ 'IDN11' ]).
+dom_info_i(202,[ 'Fecha' ]).
+dom_info_i(192,[ 'Nombre' ]).
+dom_info_i(46,[ 'GeneXus\Geolocation' ]).
+dom_info_i(88,[ 'SecGAMFunctionalityKey' ]).
+ 
+ 
+break_i(2,nvg,1,[ 51 ],[ [ 51,9,246 ],[ 51 ],[] ]).
+break_i(3,nvg,1,[],[ [ 71 ],[ 9 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,1).
+b_group_i(1,2,nvg,2,3,3).
+b_group_i(2,1,lit,0,4,4).
+b_group_i(1,3,lit,0,8,30).
+b_group_i(1,4,lit,0,31,7).
+b_group_i(1,5,nvg,3,31,31).
+b_group_i(3,1,lit,0,32,33).
+b_group_i(1,6,lit,0,35,0).
+ 
+b_line_i(1,1,1,cmd,1,[ t('',107,1,0),t('Gxids',23,1,0),t(=,10,1,0),t('''gxid_''',3,1,0),t(+,5,1,0),t('str(',1,1,0),t('Gxid',23,1,0),t(',',7,1,0),t(8,3,1,0),t(',',7,1,0),t(0,3,1,0),t(')',4,1,0) ]).
+b_line_i(2,1,1,cmd,1,[ t('',109,2,0),t([ t('Gxwebsession',23,1,0),t('get(',1,1,0) ],31,2,0),t('Gxids',23,1,0),t(')',4,1,0),t(=,10,1,0),t('""',3,2,0) ]).
+b_line_i(3,2,1,cmd,4,[ t('',121,3,0),t('ORDER',39,3,0),t(51,2,3,0) ]).
+b_line_i(5,2,1,cmd,4,[ t('',107,5,0),t('Pedidosfecha',23,4,0),t(=,10,4,0),t(246,2,4,0) ]).
+b_line_i(6,2,1,cmd,4,[ t('',107,6,0),t('Tipopagoid',23,4,0),t(=,10,4,0),t(9,2,4,0) ]).
+b_line_i(7,2,1,cmd,4,[ t('',128,7,0) ]).
+b_line_i(8,1,3,cmd,6,[ t('',107,8,0),t([ t('Gxwebsession',23,8,1),t('set(',1,8,0) ],31,8,1),t('Gxids',23,6,0),t(+,5,6,0),t('''gxvar_Pedidosdetalleid''',3,8,0),t(',',7,6,0),t('str(',1,8,0),t('Pedidosdetalleid',23,6,0),t(',',7,6,0),t(11,3,6,0),t(',',7,6,0),t(0,3,6,0),t(')',4,6,0),t(')',4,6,0) ]).
+b_line_i(9,1,3,cmd,6,[ t('',107,9,0),t([ t('Gxwebsession',23,9,1),t('set(',1,9,0) ],31,9,1),t('Gxids',23,6,0),t(+,5,6,0),t('''gxvar_Articuloid''',3,9,0),t(',',7,6,0),t('str(',1,9,0),t('Articuloid',23,6,0),t(',',7,6,0),t(11,3,6,0),t(',',7,6,0),t(0,3,6,0),t(')',4,6,0),t(')',4,6,0) ]).
+b_line_i(10,1,3,cmd,6,[ t('',107,10,0),t([ t('Gxwebsession',23,10,1),t('set(',1,10,0) ],31,10,1),t('Gxids',23,6,0),t(+,5,6,0),t('''gxvar_Articulonombre''',3,10,0),t(',',7,6,0),t('Articulonombre',23,10,0),t(')',4,6,0) ]).
+b_line_i(11,1,3,cmd,6,[ t('',107,11,0),t([ t('Gxwebsession',23,11,1),t('set(',1,11,0) ],31,11,1),t('Gxids',23,6,0),t(+,5,6,0),t('''gxvar_Pedidosdetalletallaid''',3,11,0),t(',',7,6,0),t('str(',1,11,0),t('Pedidosdetalletallaid',23,6,0),t(',',7,6,0),t(11,3,6,0),t(',',7,6,0),t(0,3,6,0),t(')',4,6,0),t(')',4,6,0) ]).
+b_line_i(12,1,3,cmd,6,[ t('',107,12,0),t([ t('Gxwebsession',23,12,1),t('set(',1,12,0) ],31,12,1),t('Gxids',23,6,0),t(+,5,6,0),t('''gxvar_Pedidosdetallecantidad''',3,12,0),t(',',7,6,0),t('str(',1,12,0),t('Pedidosdetallecantidad',23,6,0),t(',',7,6,0),t(5,3,6,0),t(',',7,6,0),t(0,3,6,0),t(')',4,6,0),t(')',4,6,0) ]).
+b_line_i(13,1,3,cmd,6,[ t('',107,13,0),t([ t('Gxwebsession',23,13,1),t('set(',1,13,0) ],31,13,1),t('Gxids',23,6,0),t(+,5,6,0),t('''gxvar_Pedidosfecha''',3,13,0),t(',',7,6,0),t('dtoc(',1,13,0),t('Pedidosfecha',23,6,0),t(')',4,6,0),t(')',4,6,0) ]).
+b_line_i(14,1,3,cmd,6,[ t('',107,14,0),t([ t('Gxwebsession',23,14,1),t('set(',1,14,0) ],31,14,1),t('Gxids',23,6,0),t(+,5,6,0),t('''gxvar_Tipopagoid''',3,14,0),t(',',7,6,0),t('str(',1,14,0),t('Tipopagoid',23,6,0),t(',',7,6,0),t(11,3,6,0),t(',',7,6,0),t(0,3,6,0),t(')',4,6,0),t(')',4,6,0) ]).
+b_line_i(15,1,3,cmd,6,[ t('',107,15,0),t([ t('Gxwebsession',23,15,1),t('set(',1,15,0) ],31,15,1),t('Gxids',23,6,0),t(',',7,6,0),t('''true''',3,15,0),t(')',4,6,0) ]).
+b_line_i(16,1,3,cmd,6,[ t('',110,16,0) ]).
+b_line_i(17,1,3,cmd,6,[ t('',107,17,0),t('Pedidosfecha',23,17,1),t(=,10,17,1),t('ctod(',1,17,1),t([ t('Gxwebsession',23,6,0),t('get(',1,6,0) ],31,17,0),t('Gxids',23,6,0),t(+,5,6,0),t('''gxvar_Pedidosfecha''',3,17,0),t(')',4,6,0) ]).
+b_line_i(18,1,3,cmd,6,[ t('',107,18,0),t('Tipopagoid',23,18,1),t(=,10,18,1),t('val(',1,18,1),t([ t('Gxwebsession',23,6,0),t('get(',1,6,0) ],31,18,0),t('Gxids',23,6,0),t(+,5,6,0),t('''gxvar_Tipopagoid''',3,18,0),t(')',4,6,0) ]).
+b_line_i(19,1,3,cmd,6,[ t('',111,19,0) ]).
+b_line_i(21,1,3,cmd,6,[ t('',107,21,0),t([ t('GXM1VerDetallesPedidosSD_Level_DetailSdt',23,6,0),t('Pedidosid',3,6,0) ],29,6,0),t(=,10,6,0),t('Pedidosid',23,6,0) ]).
+b_line_i(22,1,3,cmd,6,[ t('',107,22,0),t([ t('GXM1VerDetallesPedidosSD_Level_DetailSdt',23,6,0),t('Pedidosfecha',3,6,0) ],29,6,0),t(=,10,6,0),t('Pedidosfecha',23,6,0) ]).
+b_line_i(23,1,3,cmd,6,[ t('',107,23,0),t([ t('GXM1VerDetallesPedidosSD_Level_DetailSdt',23,6,0),t('Tipopagoid',3,6,0) ],29,6,0),t(=,10,6,0),t('Tipopagoid',23,6,0) ]).
+b_line_i(24,1,3,cmd,6,[ t('',107,24,0),t([ t('GXM1VerDetallesPedidosSD_Level_DetailSdt',23,6,0),t('Pedidosimagencomprobante',3,6,0) ],29,6,0),t(=,10,6,0),t('Pedidosimagencomprobante',23,6,0) ]).
+b_line_i([ 24,1 ],1,3,cmd,6,[ t('',107,24,0),t([ t('GXM1VerDetallesPedidosSD_Level_DetailSdt',23,6,0),t('Pedidosimagencomprobante_gxi',3,6,0) ],29,6,0),t(=,10,6,0),t('Pedidosimagencomprobante_GXI',23,6,0) ]).
+b_line_i(25,1,3,cmd,7,[ t('',107,25,0),t([ t('GXM1VerDetallesPedidosSD_Level_DetailSdt',23,7,0),t('Pedidoscomprobanteobs',3,7,0) ],29,7,0),t(=,10,7,0),t('Pedidoscomprobanteobs',23,7,0) ]).
+b_line_i(26,1,3,cmd,7,[ t('',107,26,0),t('Gxval_tipopagoid',23,7,0),t(=,10,7,0),t('Tipopagoid',23,7,0) ]).
+b_line_i(27,1,3,cmd,7,[ t('',145,27,0),t('Gxdesc_Tipopagoid',3,27,0) ]).
+b_line_i(28,1,3,cmd,7,[ t('',107,28,0),t([ t('GXM1VerDetallesPedidosSD_Level_DetailSdt',23,7,0),t('Gxdesc_tipopagoid',3,7,0) ],29,7,0),t(=,10,7,0),t('Gxdesc_tipopagoid',23,7,0) ]).
+b_line_i(30,1,3,cmd,7,[ t('',143,30,0),t('Gxdesc_Tipopagoid',3,30,0) ]).
+b_line_i(31,3,1,cmd,32,[ t('',121,31,0) ]).
+b_line_i(33,3,1,cmd,33,[ t('',107,33,0),t('Gxdesc_tipopagoid',23,33,0),t(=,10,33,0),t(71,2,33,0) ]).
+b_line_i(34,3,1,cmd,33,[ t('',139,34,0) ]).
+b_line_i([ 34,1 ],3,1,cmd,33,[ t('',128,34,0) ]).
+b_line_i(35,1,6,cmd,11,[ t('',144,35,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+calling_main_i(37,4).
+ 
+att_prop_i(2,51,'ExternalName','PedidosID',d).
+att_prop_i(2,51,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,51,'EmptyAsNull','Yes',d).
+att_prop_i(2,51,idBasedOn,90,v).
+att_prop_i(2,51,'AUTONUMBER','0',d).
+att_prop_i(2,51,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,51,'AttRegEx','',d).
+att_prop_i(2,51,'AttValidationFailedMsg','',d).
+att_prop_i(2,51,'DownloadOffline','0',d).
+att_prop_i(2,51,'VarServiceExtName','',d).
+att_prop_i(2,51,'FullName','PedidosID',v).
+att_prop_i(2,9,'ExternalName','TipoPagoId',d).
+att_prop_i(2,9,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,9,'EmptyAsNull','Yes',d).
+att_prop_i(2,9,idBasedOn,90,v).
+att_prop_i(2,9,'AUTONUMBER','0',d).
+att_prop_i(2,9,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,9,'AttRegEx','',d).
+att_prop_i(2,9,'AttValidationFailedMsg','',d).
+att_prop_i(2,9,'DownloadOffline','0',d).
+att_prop_i(2,9,'VarServiceExtName','',d).
+att_prop_i(2,9,'FullName','TipoPagoId',v).
+att_prop_i(2,246,'ExternalName','PedidosFecha',d).
+att_prop_i(2,246,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,246,'EmptyAsNull','Yes',d).
+att_prop_i(2,246,idBasedOn,202,v).
+att_prop_i(2,246,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,246,'AttRegEx','',d).
+att_prop_i(2,246,'AttValidationFailedMsg','',d).
+att_prop_i(2,246,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,246,'DownloadOffline','0',d).
+att_prop_i(2,246,'VarServiceExtName','',d).
+att_prop_i(2,246,'FullName','PedidosFecha',v).
+att_prop_i(2,71,'ExternalName','TipoPagoNombre',d).
+att_prop_i(2,71,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,71,'EmptyAsNull','Yes',d).
+att_prop_i(2,71,idBasedOn,192,v).
+att_prop_i(2,71,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,71,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,71,'AttRegEx','',d).
+att_prop_i(2,71,'AttValidationFailedMsg','',d).
+att_prop_i(2,71,'DownloadOffline','0',d).
+att_prop_i(2,71,'VarServiceExtName','',d).
+att_prop_i(2,71,'FullName','TipoPagoNombre',v).
+ 
+tbl_prop_i(2,47,'AllDirSuper',[ [ 9,[ 9 ] ] ],v).
+tbl_prop_i(2,9,'DirSubor',[ [ 47,[ 9 ] ] ],v).
+tbl_prop_i(2,47,'DirSuper',[ [ 9,[ 9 ] ] ],v).
+ 
+tbl_att_prop_i(2,47,51,'AllowNulls',n).
+tbl_att_prop_i(2,47,246,'AllowNulls',n).
+tbl_att_prop_i(2,47,9,'AllowNulls',n).
+tbl_att_prop_i(2,9,9,'AllowNulls',n).
+tbl_att_prop_i(2,9,71,'AllowNulls',n).
+ 
+var_prop_i(2,'Securityfunctionalitykeys',idBasedOn,88,v).
+var_prop_i(2,'Pedidosdetalleid',idBasedOn,'',v).
+var_prop_i(2,'Pedidosid',idBasedOn,'',v).
+var_prop_i(2,'Articuloid',idBasedOn,'',v).
+var_prop_i(2,'Articulonombre',idBasedOn,'',v).
+var_prop_i(2,'Pedidosdetalletallaid',idBasedOn,'',v).
+var_prop_i(2,'Pedidosdetallecantidad',idBasedOn,'',v).
+var_prop_i(2,'Pedidosfecha',idBasedOn,'',v).
+var_prop_i(2,'Tipopagoid',idBasedOn,'',v).
+var_prop_i(2,'Pedidosimagencomprobante',idBasedOn,'',v).
+var_prop_i(2,'Pedidoscomprobanteobs',idBasedOn,'',v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,1000000,0 ],name,'VerDetallesPedidosSD_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelname,'VerDetallesPedidosSD_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],camelnameex,'VerDetallesPedidosSD_Level_DetailSdt').
+struct_dt_i([ 26,1000000,0 ],collection,'False').
+struct_dt_i([ 26,1000000,0 ],wwsd_sdt,'True').
+struct_dt_i([ 26,1000000,0 ],fullname,'VerDetallesPedidosSD_Level_DetailSdt').
+ 
+struct_dt_elem_i([ 26,1000000,0 ],1,name,'Pedidosid').
+struct_dt_elem_i([ 26,1000000,0 ],1,camelname,'Pedidosid').
+struct_dt_elem_i([ 26,1000000,0 ],1,type,[ 4,11,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],1,length,11).
+struct_dt_elem_i([ 26,1000000,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],1,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,name,'Pedidosfecha').
+struct_dt_elem_i([ 26,1000000,0 ],2,camelname,'Pedidosfecha').
+struct_dt_elem_i([ 26,1000000,0 ],2,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],2,length,8).
+struct_dt_elem_i([ 26,1000000,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],2,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,name,'Tipopagoid').
+struct_dt_elem_i([ 26,1000000,0 ],3,camelname,'Tipopagoid').
+struct_dt_elem_i([ 26,1000000,0 ],3,type,[ 4,11,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],3,length,11).
+struct_dt_elem_i([ 26,1000000,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],3,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],4,name,'Pedidosimagencomprobante').
+struct_dt_elem_i([ 26,1000000,0 ],4,camelname,'Pedidosimagencomprobante').
+struct_dt_elem_i([ 26,1000000,0 ],4,type,[ 7,1024,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],4,length,1024).
+struct_dt_elem_i([ 26,1000000,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],4,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],4,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],5,name,'Pedidosimagencomprobante_gxi').
+struct_dt_elem_i([ 26,1000000,0 ],5,camelname,'Pedidosimagencomprobante_GXI').
+struct_dt_elem_i([ 26,1000000,0 ],5,type,[ 13,2048,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],5,length,2048).
+struct_dt_elem_i([ 26,1000000,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],5,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],5,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],5,isadd,'True').
+struct_dt_elem_i([ 26,1000000,0 ],6,name,'Pedidoscomprobanteobs').
+struct_dt_elem_i([ 26,1000000,0 ],6,camelname,'Pedidoscomprobanteobs').
+struct_dt_elem_i([ 26,1000000,0 ],6,type,[ 13,512,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],6,length,512).
+struct_dt_elem_i([ 26,1000000,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],6,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],6,islevel,'False').
+struct_dt_elem_i([ 26,1000000,0 ],7,name,'Gxdesc_tipopagoid').
+struct_dt_elem_i([ 26,1000000,0 ],7,camelname,'Gxdesc_tipopagoid').
+struct_dt_elem_i([ 26,1000000,0 ],7,type,[ 13,1000,0 ]).
+struct_dt_elem_i([ 26,1000000,0 ],7,length,1000).
+struct_dt_elem_i([ 26,1000000,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,1000000,0 ],7,sign,0).
+struct_dt_elem_i([ 26,1000000,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,1000000,0 ],7,islevel,'False').
+ 
+ 
+ 
+security_permission_i(verdetallespedidossd_Execute,execute,service).
+ 
+ 
+sub_info_i(146,'VerDetallesPedidosSD_Level_Detail',0,0,[ [],[] ]).
+ 
+ 
+pgm_callprotocol_i(mnproc,0,'VERDETALLESPEDIDOSSD_LEVEL_DETAIL','INTERNAL','').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').
+ 
+ 
+service_i(input,[ [] ]).
+ 
+ 
+ 
+optimize_i(3,0,[ maxrows(1) ]).
+ 
+ 
+ 
+ 
+ 

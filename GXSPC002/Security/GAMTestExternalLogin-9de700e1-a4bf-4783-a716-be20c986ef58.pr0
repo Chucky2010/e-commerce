@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "gamtestexternallogin_Execute",
+    "Description": "WWP_GAM_TestExternalLogin",
+    "ProgramName": "gamtestexternallogin",
+    "IsGXAutomatic": true
+  }
+]

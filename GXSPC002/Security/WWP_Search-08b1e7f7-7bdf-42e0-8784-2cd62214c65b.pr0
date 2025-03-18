@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwp_search_Execute",
+    "Description": "Search results",
+    "ProgramName": "wwpbaseobjects.wwp_search",
+    "IsGXAutomatic": true
+  }
+]

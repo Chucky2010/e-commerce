@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "cargarcomprobante_Execute",
+    "Description": "Cargar Comprobante",
+    "ProgramName": "cargarcomprobante",
+    "IsGXAutomatic": true
+  }
+]

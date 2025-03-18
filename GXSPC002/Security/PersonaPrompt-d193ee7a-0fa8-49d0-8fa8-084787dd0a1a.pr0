@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "personaprompt_Execute",
+    "Description": "Selecciona Persona",
+    "ProgramName": "personaprompt",
+    "IsGXAutomatic": true
+  }
+]

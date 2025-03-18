@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "examplemenuoption_Execute",
+    "Description": "Menu Option Example",
+    "ProgramName": "workwithplus.nativemobile.examplemenuoption",
+    "IsGXAutomatic": true
+  }
+]

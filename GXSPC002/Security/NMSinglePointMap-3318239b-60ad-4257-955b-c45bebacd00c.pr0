@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "nmsinglepointmap_Execute",
+    "Description": "NMSingle Point Map",
+    "ProgramName": "workwithplus.nativemobile.nmsinglepointmap",
+    "IsGXAutomatic": true
+  }
+]

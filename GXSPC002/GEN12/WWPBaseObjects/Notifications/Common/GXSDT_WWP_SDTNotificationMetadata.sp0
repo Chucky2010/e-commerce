@@ -1,0 +1,70 @@
+ 
+spec_i([ sdt,[ 26,92,0 ],'WWPBaseObjects\Notifications\Common\WWP_SDTNotificationMetadata','WWPBaseObjects\Notifications\Common\WWP_SDTNotificationMetadata',0,spa,'17_0_11-163677' ]).
+ 
+struct_dt_i([ 26,92,0 ],name,'WWPBaseObjects\Notifications\Common\WWP_SDTNotificationMetadata').
+struct_dt_i([ 26,92,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,92,0 ],'ObjName','WWP_SDTNotificationMetadata').
+struct_dt_i([ 26,92,0 ],'ObjDesc','SDT Notification Metadata').
+struct_dt_i([ 26,92,0 ],'ExternalName','WWP_SDTNotificationMetadata').
+struct_dt_i([ 26,92,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,92,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,92,0 ],fullname,'WWPBaseObjects\Notifications\Common\WWP_SDTNotificationMetadata').
+struct_dt_i([ 26,92,0 ],modified,yes).
+ 
+struct_dt_elem_i([ 26,92,0 ],1,name,'Timeout').
+struct_dt_elem_i([ 26,92,0 ],1,camelname,'Timeout').
+struct_dt_elem_i([ 26,92,0 ],1,length,8).
+struct_dt_elem_i([ 26,92,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,92,0 ],1,sign,0).
+struct_dt_elem_i([ 26,92,0 ],1,type,[ 4,8,0 ]).
+struct_dt_elem_i([ 26,92,0 ],1,pic,'ZZZZZZZ9').
+struct_dt_elem_i([ 26,92,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,92,0 ],1,'ExternalName','Timeout').
+struct_dt_elem_i([ 26,92,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,92,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,92,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,92,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,92,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,92,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,92,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,92,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,92,0 ],2,name,'Sessionkey').
+struct_dt_elem_i([ 26,92,0 ],2,camelname,'SessionKey').
+struct_dt_elem_i([ 26,92,0 ],2,length,40).
+struct_dt_elem_i([ 26,92,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,92,0 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,92,0 ],2,pic,'').
+struct_dt_elem_i([ 26,92,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,92,0 ],2,'ExternalName','SessionKey').
+struct_dt_elem_i([ 26,92,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,92,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,92,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,92,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,92,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,92,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,92,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,92,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,92,0 ],3,name,'Sessionvalue').
+struct_dt_elem_i([ 26,92,0 ],3,camelname,'SessionValue').
+struct_dt_elem_i([ 26,92,0 ],3,length,100).
+struct_dt_elem_i([ 26,92,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,92,0 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,92,0 ],3,pic,'').
+struct_dt_elem_i([ 26,92,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,92,0 ],3,'ExternalName','SessionValue').
+struct_dt_elem_i([ 26,92,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,92,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,92,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,92,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,92,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,92,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,92,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,92,0 ],3,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').

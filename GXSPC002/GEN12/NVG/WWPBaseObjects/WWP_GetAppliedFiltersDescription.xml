@@ -1,0 +1,32 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_11-163677</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>67</ObjId>
+<ObjName>WWPBaseObjects.WWP_GetAppliedFiltersDescription</ObjName>
+<ObjDesc>WWP_Get Applied Filters Description</ObjDesc>
+<ObjPgmName>WWPBaseObjects.WWP_GetAppliedFiltersDescription</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>None</Device></OutputDevices>
+<Generator>
+<GenId>12</GenId>
+<GenName>Default (Java)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Listobjectname</VarId>
+<VarName>&amp;ListObjectName</VarName></Variable></Parameter>
+<Parameter>
+<IO>out</IO>
+<Variable>
+<VarId>Appliedfiltersdescription</VarId>
+<VarName>&amp;AppliedFiltersDescription</VarName></Variable></Parameter></Parameters>
+<Levels></Levels></ObjectSpec>

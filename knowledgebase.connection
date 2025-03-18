@@ -1,0 +1,10 @@
+﻿<ConnectionInformation>
+	<DBName>GX_KB_Mujer_Morena</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>OLIVER\SQLEXPRESS2022</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\Models\Mujer_Morena</Directory>
+	<DataFile>GX_KB_Mujer_Morena.mdf</DataFile>
+	<LogFile>GX_KB_Mujer_Morena_log.ldf</LogFile>
+	<HostName>OLIVER</HostName>
+</ConnectionInformation>

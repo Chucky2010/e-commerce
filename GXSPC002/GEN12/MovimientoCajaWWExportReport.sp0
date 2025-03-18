@@ -1,0 +1,1193 @@
+spec_i([ proc,173,l('Movimiento Caja WWExport Report'),'MovimientoCajaWWExportReport',78,spa,'17_0_11-163677' ]).
+ 
+struct_i(4,1,[],[]).
+ 
+level_i(4,[ 25,[ [ 25,many ],[ 24,one ],[ 23,one ] ],[],[],[ [ [ 25,24,23 ],[ 110,25,26,119,118,117,27,267,256,112,266,120,116 ] ] ],[ [ [ 25,24,23 ],[] ] ],[ 27 ],'IMOVIMIENTOCAJA',[],[] ]).
+ 
+tw_i(4,[ [ 24,[ [ 25,26,26 ] ] ],[ 23,[ [ 25,25,25 ] ] ] ]).
+ 
+lwi_i(4,[ [] ]).
+ 
+cond_constraint_i(4,[ [ t('(',0),t('str(',1),t(27,2),t(',',7),t(11,3),t(',',7),t(0,3),t(')',4),t('.LIKE.',10),t('''%''',3),t(+,5),t('Movimientocajawwds_1_filterfulltext',23),t(')',4),t('.OR.',9),t('(',0),t('str(',1),t(117,2),t(',',7),t(17,3),t(',',7),t(2,3),t(')',4),t('.LIKE.',10),t('''%''',3),t(+,5),t('Movimientocajawwds_1_filterfulltext',23),t(')',4),t('.OR.',9),t('(',0),t('str(',1),t(118,2),t(',',7),t(17,3),t(',',7),t(2,3),t(')',4),t('.LIKE.',10),t('''%''',3),t(+,5),t('Movimientocajawwds_1_filterfulltext',23),t(')',4),t('.OR.',9),t('(',0),t('str(',1),t(119,2),t(',',7),t(17,3),t(',',7),t(2,3),t(')',4),t('.LIKE.',10),t('''%''',3),t(+,5),t('Movimientocajawwds_1_filterfulltext',23),t(')',4),t('.OR.',9),t('(',0),t(266,2),t('.LIKE.',10),t('''%''',3),t(+,5),t('Movimientocajawwds_1_filterfulltext',23),t(')',4),t('.OR.',9),t('(',0),t('str(',1),t(26,2),t(',',7),t(11,3),t(',',7),t(0,3),t(')',4),t('.LIKE.',10),t('''%''',3),t(+,5),t('Movimientocajawwds_1_filterfulltext',23),t(')',4),t('.OR.',9),t('(',0),t(112,2),t('.LIKE.',10),t('''%''',3),t(+,5),t('Movimientocajawwds_1_filterfulltext',23),t(')',4),t('.OR.',9),t('(',0),t('str(',1),t(25,2),t(',',7),t(11,3),t(',',7),t(0,3),t(')',4),t('.LIKE.',10),t('''%''',3),t(+,5),t('Movimientocajawwds_1_filterfulltext',23),t(')',4),t('.OR.',9),t('(',0),t('str(',1),t(110,2),t(',',7),t(10,3),t(',',7),t(0,3),t(')',4),t('.LIKE.',10),t('''%''',3),t(+,5),t('Movimientocajawwds_1_filterfulltext',23),t(')',4),t('.OR.',9),t('(',0),t(256,2),t('.LIKE.',10),t('''%''',3),t(+,5),t('Movimientocajawwds_1_filterfulltext',23),t(')',4),t('.OR.',9),t('(',0),t(267,2),t('.LIKE.',10),t('''%''',3),t(+,5),t('Movimientocajawwds_1_filterfulltext',23),t(')',4) ],[ 27,117,118,119,266,26,112,25,110,256,267 ],[ t('.NOT.',8),t('null(',1),t('Movimientocajawwds_1_filterfulltext',23),t(')',4) ],[] ]).
+ 
+cond_order_i(4,[ 27 ],[ t('Orderedby',23),t(=,10),t('1',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(4,[ -27 ],[ t('Orderedby',23),t(=,10),t('1',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(4,[ 116 ],[ t('Orderedby',23),t(=,10),t('2',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(4,[ -116 ],[ t('Orderedby',23),t(=,10),t('2',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(4,[ 117 ],[ t('Orderedby',23),t(=,10),t('3',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(4,[ -117 ],[ t('Orderedby',23),t(=,10),t('3',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(4,[ 118 ],[ t('Orderedby',23),t(=,10),t('4',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(4,[ -118 ],[ t('Orderedby',23),t(=,10),t('4',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(4,[ 119 ],[ t('Orderedby',23),t(=,10),t('5',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(4,[ -119 ],[ t('Orderedby',23),t(=,10),t('5',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(4,[ 120 ],[ t('Orderedby',23),t(=,10),t('6',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(4,[ -120 ],[ t('Orderedby',23),t(=,10),t('6',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(4,[ 266 ],[ t('Orderedby',23),t(=,10),t('7',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(4,[ -266 ],[ t('Orderedby',23),t(=,10),t('7',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(4,[ 26 ],[ t('Orderedby',23),t(=,10),t('8',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(4,[ -26 ],[ t('Orderedby',23),t(=,10),t('8',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(4,[ 112 ],[ t('Orderedby',23),t(=,10),t('9',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(4,[ -112 ],[ t('Orderedby',23),t(=,10),t('9',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(4,[ 25 ],[ t('Orderedby',23),t(=,10),t('10',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(4,[ -25 ],[ t('Orderedby',23),t(=,10),t('10',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(4,[ 110 ],[ t('Orderedby',23),t(=,10),t('11',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(4,[ -110 ],[ t('Orderedby',23),t(=,10),t('11',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(4,[ 256 ],[ t('Orderedby',23),t(=,10),t('12',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(4,[ -256 ],[ t('Orderedby',23),t(=,10),t('12',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+cond_order_i(4,[ 267 ],[ t('Orderedby',23),t(=,10),t('13',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('FALSE',41) ]).
+cond_order_i(4,[ -267 ],[ t('Orderedby',23),t(=,10),t('13',3),t('.AND.',9),t('Ordereddsc',23),t(=,10),t('TRUE',40) ]).
+ 
+ 
+ta_i(4,[ [ [ 23,110 ],[ 25,25 ],[ 25,26 ],[ 25,119 ],[ 25,118 ],[ 25,117 ],[ 25,27 ],[ 25,267 ],[ 25,256 ],[ 24,112 ],[ 25,266 ],[ 25,120 ],[ 25,116 ] ] ]).
+ 
+las_i(4,[ [ 110,25,26,119,118,117,27,267,256,112,266,120,116 ] ]).
+ 
+lac_i(4,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+default_i(e('Today',2,2,'''today''')).
+ 
+rule_i(0,datastore(2,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(2,'LOCK_RETRY','10')).
+rule_i(0,datastore(2,'WAIT_RECORD','0')).
+rule_i(0,datastore(2,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(2,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(2,'COMMENT_ON','No')).
+rule_i(0,datastore(2,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(2,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(2,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(2,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(2,'CS_SCHEMA',gam)).
+rule_i(0,datastore(2,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(2,'JRN400','QSQJRN')).
+rule_i(0,datastore(2,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(2,'PGMLIB','')).
+rule_i(0,datastore(2,'DTALIB','')).
+rule_i(0,datastore(2,'RecycleRWMin','30')).
+rule_i(0,datastore(2,'RecycleRWType','1')).
+rule_i(0,datastore(2,'RecycleRW','-1')).
+rule_i(0,datastore(2,'POOL_STARTUP','No')).
+rule_i(0,datastore(2,'POOLSIZE_RW','10')).
+rule_i(0,datastore(2,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(2,'PoolRWEnabled','-1')).
+rule_i(0,datastore(2,'CS_RPCPGML','')).
+rule_i(0,datastore(2,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(2,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(2,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(2,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(2,'USER_ID',sa)).
+rule_i(0,datastore(2,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(2,'CS_CNTDLG','2')).
+rule_i(0,datastore(2,'CS_CONNECT','First')).
+rule_i(0,datastore(2,'DBMS_PORT','1433')).
+rule_i(0,datastore(2,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(2,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(2,'CS_FLEDSNAME','')).
+rule_i(0,datastore(2,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(2,'CS_DSNAME','')).
+rule_i(0,datastore(2,'DB_URL','')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(2,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(2,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(2,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(2,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(2,'MAIN_DS','-1')).
+rule_i(0,datastore(2,'REORG_GEN','8')).
+rule_i(0,datastore(2,'HelpKeyword','23')).
+rule_i(0,datastore(2,'DBMS',12)).
+rule_i(0,datastore(2,'NAME','GAM')).
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','')).
+rule_i(0,datastore(1,'USER_PASSWORD',sasql)).
+rule_i(0,datastore(1,'USER_ID',sa)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CNTDLG','2')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','1433')).
+rule_i(0,datastore(1,'CS_SERVER','OLIVER')).
+rule_i(0,datastore(1,'CS_DBNAME',db_MMorena)).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','com.microsoft.sqlserver.jdbc.SQLServerDriver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','JDBC')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','15')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','MovimientoCajaWWExportReport')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISBCEJB,'0')).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Unsecure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(102,'WorkWithPlusDS'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','HTTP')).
+rule_i(0,prop('IsMain','0')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('ObjDesc','Movimiento Caja WWExport Report')).
+rule_i(0,prop('ObjName','MovimientoCajaWWExportReport')).
+rule_i(0,maingen(12)).
+rule_i(0,output_file(t('MovimientoCajaWWExportReport',3),t('PDF',3))).
+rule_i(0,output('FIL')).
+ 
+a_i(3,1,f,'Line',[],[ [],[ t(0,3) ] ]).
+a_i(4,2,f,'Page',[],[ [],[ t('Page',23),t(+,5),t('1',3) ] ]).
+a_i(5,1,f,'Today',[],[ [],[ t('today(',1),t(')',4) ] ]).
+a_i(6,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(7,4,t,25,[],[ [],'IMOVIMIENTOCAJA',[] ]).
+a_i(8,4,r,24,[],[ [ [ 25,26,26 ] ],'ICAJERO',[] ]).
+a_i(9,4,r,23,[],[ [ [ 25,25,25 ] ],'ICAJA',[] ]).
+ 
+v_i(f,i,3,[]).
+v_i(f,o,3,'Line').
+v_i(f,i,4,'Page').
+v_i(f,o,4,'Page').
+v_i(f,i,5,[]).
+v_i(f,o,5,'Today').
+v_i(f,i,6,[]).
+v_i(f,o,6,'Err').
+v_i(t,i,7,[]).
+v_i(t,o,7,25).
+v_i(t,o,7,26).
+v_i(t,o,7,119).
+v_i(t,o,7,118).
+v_i(t,o,7,117).
+v_i(t,o,7,27).
+v_i(t,o,7,267).
+v_i(t,o,7,256).
+v_i(t,o,7,266).
+v_i(t,o,7,120).
+v_i(t,o,7,116).
+v_i(r,i,8,26).
+v_i(r,o,8,112).
+v_i(r,i,9,25).
+v_i(r,o,9,110).
+ 
+ 
+ca_i(4,'Page').
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',38 ]).
+attri_i('Line',[ 'Gx_line',int,6,0,'ZZZZZ9',0,l('Line number'),'',37 ]).
+attri_i('GXV1',[ 'GXV1',int,8,0,'',0,'','',36 ]).
+attri_i(267,[ 'MovimientoCajaEstado',char,20,0,'',0,l('Movimiento Caja Estado'),'',0 ]).
+attri_i(256,[ 'MovimientoCajaAsignacion',char,20,0,'',0,l('Movimiento Caja Asignacion'),'',0 ]).
+attri_i(110,[ 'CajaNumero',int,10,0,'ZZZZZZZZZ9',0,l('Caja Numero'),'',0 ]).
+attri_i(25,[ 'CajaId',int,11,0,'ZZZZZZZZZZ9',0,l('Caja Id'),'',0 ]).
+attri_i(112,[ 'CajeroNombre',char,80,0,'',0,l('Cajero Nombre'),'',0 ]).
+attri_i(26,[ 'CajeroId',int,11,0,'ZZZZZZZZZZ9',0,l('Cajero Id'),'',0 ]).
+attri_i(266,[ 'MovimientoCajaDocum',svchar,40,0,'',0,l('Movimiento Caja Numero Documento'),'',0 ]).
+attri_i(120,[ 'MovimientoCajaFecha',date,8,0,'99/99/99',0,l('Movimiento Caja Fecha'),'',0 ]).
+attri_i(119,[ 'MovimientoCajaSaldo',int,17,2,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99',0,l('Movimiento Caja Saldo'),'',0 ]).
+attri_i(118,[ 'MovimientoCajaEgreso',int,17,2,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99',0,l('Movimiento Caja Egreso'),'',0 ]).
+attri_i(117,[ 'MovimientoCajaIngreso',int,17,2,'ZZ,ZZZ,ZZZ,ZZZ,ZZ9.99',0,l('Movimiento Caja Ingreso'),'',0 ]).
+attri_i(116,[ 'MovimientoCajaHora',dtime,0,5,'99:99',0,l('Movimiento Caja Hora'),'',0 ]).
+attri_i(27,[ 'MovimientoCajaId',int,11,0,'ZZZZZZZZZZ9',0,l('Movimiento Caja Id'),'',0 ]).
+attri_i('Movimientocajawwds_1_filterfulltext',[ 'Movimientocajawwds_1_filterfulltext',svchar,100,0,'',0,l('Filterfulltext'),'',35 ]).
+attri_i('Today',[ 'Gx_date',date,8,0,'99/99/99',1,'','',33 ]).
+attri_i('Page',[ 'Gx_page',int,6,0,'ZZZZZ9',0,l('Page number'),'',32 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,l('Error text'),'',31 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,l('Error code'),'',30 ]).
+attri_i('Website',[ 'Website',svchar,100,0,'',0,l('Website'),'',29 ]).
+attri_i('Title',[ 'Title',svchar,200,0,'',0,l('Title'),'',28 ]).
+attri_i('Phone',[ 'Phone',svchar,100,0,'',0,l('Phone'),'',27 ]).
+attri_i('Pageinfo',[ 'PageInfo',svchar,100,0,'',0,l('Page Info'),'',26 ]).
+attri_i('Mail',[ 'Mail',svchar,100,0,'',0,l('Mail'),'',25 ]).
+attri_i('Filter',[ 'Filter',svchar,100,0,'',0,l('Filter'),'',24 ]).
+attri_i('Dateinfo',[ 'DateInfo',svchar,100,0,'',0,l('Date Info'),'',23 ]).
+attri_i('Attribute',[ 'Attribute',svchar,100,0,'',0,l('Attribute'),'',22 ]).
+attri_i('Appname',[ 'AppName',svchar,100,0,'',0,l('App Name'),'',21 ]).
+attri_i('Addressline3',[ 'AddressLine3',svchar,100,0,'',0,l('Address Line3'),'',20 ]).
+attri_i('Addressline2',[ 'AddressLine2',svchar,100,0,'',0,l('Address Line2'),'',19 ]).
+attri_i('Addressline1',[ 'AddressLine1',svchar,100,0,'',0,l('Address Line1'),'',18 ]).
+attri_i('Gridstatefiltervalue',[ 'GridStateFilterValue',o('WWPBaseObjects\WWPGridState.FilterValue'),0,0,'',0,l('Grid State Filter Value'),'',17 ]).
+attri_i('Gridstate',[ 'GridState',o('WWPBaseObjects\WWPGridState'),0,0,'',0,l('Grid State'),'',16 ]).
+attri_i('Gridstatexml',[ 'GridStateXML',vchar,2097152,0,'',0,l('Grid State XML'),'',15 ]).
+attri_i('Session',[ 'Session',o(websession),4,0,'',0,l('Session'),'',14 ]).
+attri_i('Filterfulltext',[ 'FilterFullText',svchar,100,0,'',0,l('Filter Full Text'),'',13 ]).
+attri_i('Ordereddsc',[ 'OrderedDsc',boolean,4,0,'',0,l('Ordered Dsc'),'',12 ]).
+attri_i('Orderedby',[ 'OrderedBy',int,4,0,'ZZZ9',0,l('Ordered By'),'',11 ]).
+attri_i('Securityfunctionalitykeys',[ 'SecurityFunctionalityKeys',o(objectcollection(svchar)),100,0,'',0,l('Security Functionality Keys'),'',10 ]).
+attri_i('Wwpcontext',[ 'WWPContext',o('WWPBaseObjects\WWPContext'),0,0,'',0,l('WWPContext'),'',9 ]).
+attri_i('Isauthorized',[ 'IsAuthorized',boolean,4,0,'',0,l('Is Authorized'),'',8 ]).
+ 
+table_i(24,[ 'Cajero',[ 26,112 ],l('Cajero'),'Cajero' ]).
+table_i(25,[ 'MovimientoCaja',[ 27,116,117,118,119,120,266,26,25,256,267 ],l('Movimiento Caja'),'MovimientoCaja' ]).
+table_i(23,[ 'Caja',[ 25,110 ],l('Caja'),'Caja' ]).
+ 
+index_i(25,[ 'IMOVIMIENTOCAJA',u,[ 27 ],'IMovimientoCaja' ]).
+index_i(25,[ 'IMOVIMIENTOCAJA2',d,[ 25 ],'IMovimientoCaja2' ]).
+index_i(25,[ 'IMOVIMIENTOCAJA1',d,[ 26 ],'IMovimientoCaja1' ]).
+index_i(24,[ 'ICAJERO',u,[ 26 ],'ICajero' ]).
+index_i(23,[ 'ICAJA',u,[ 25 ],'ICaja' ]).
+ 
+ 
+ 
+function_i(1,'Isauthorized',yes,udp,o(1,'WWPBaseObjects\SecGAMIsAuthByFunctionalityKey'),[],5,'Isauthorized',[ [ t('''movimientocajaww_Execute''',3) ] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(90,[ 'IDN11' ]).
+dom_info_i(34,[ 'GeneXus\Time' ]).
+dom_info_i(204,[ 'Monto' ]).
+dom_info_i(202,[ 'Fecha' ]).
+dom_info_i(192,[ 'Nombre' ]).
+dom_info_i(207,[ 'Numero' ]).
+dom_info_i(208,[ 'IDentificador' ]).
+dom_info_i(88,[ 'SecGAMFunctionalityKey' ]).
+dom_info_i(223,[ 'WWPFullTextFilter' ]).
+ 
+ 
+break_i(2,page,1,[],[ [],[],[] ]).
+break_i(3,foot,1,[],[ [],[],[] ]).
+break_i(4,nvg,1,[],[ [ 27,116,117,118,119,120,266,26,112,25,110,256,267 ],[ 266,112,256,267,27,117,118,119,26,25,110 ],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,0).
+b_group_i(1,2,page,2,0,0).
+b_group_i(2,1,lit,0,16,24).
+b_group_i(1,3,lit,0,32,17).
+b_group_i(1,4,foot,3,17,17).
+b_group_i(3,1,lit,0,33,35).
+b_group_i(1,5,lit,0,38,44).
+b_group_i(1,6,lit,0,53,56).
+b_group_i(1,7,lit,0,65,67).
+b_group_i(1,8,lit,0,77,27).
+b_group_i(1,9,nvg,4,71,71).
+b_group_i(4,1,lit,0,81,83).
+b_group_i(1,10,lit,0,115,110).
+b_group_i(1,11,lit,0,121,135).
+b_group_i(1,12,lit,0,146,145).
+b_group_i(1,13,lit,0,156,155).
+b_group_i(1,14,lit,0,166,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,cmd,0,[]).
+b_line_i(2,1,1,cmd,0,[]).
+b_line_i(3,1,1,cmd,0,[]).
+b_line_i(4,1,1,cmd,0,[]).
+b_line_i(5,1,1,cmd,0,[ t('',107,5,0),t('Isauthorized',23,0,0),t(=,10,0,0),t('udp(',1,0,0),t('Isauthorized',3,0,0),t(5,3,0,0),t('''movimientocajaww_Execute''',3,0,0),t(')',4,0,0) ]).
+b_line_i(6,1,1,cmd,0,[ t('',109,6,0),t('Isauthorized',23,0,4) ]).
+b_line_i(7,1,1,cmd,0,[]).
+b_line_i(8,1,1,cmd,0,[ t('',104,8,0),t(o(1,'WWPBaseObjects\LoadWWPContext'),28,0,2),t('Wwpcontext',23,0,23) ]).
+b_line_i(9,1,1,cmd,0,[]).
+b_line_i(10,1,1,cmd,0,[ t('',145,10,0),t('''LOADGRIDSTATE''',3,10,4) ]).
+b_line_i(11,1,1,cmd,0,[]).
+b_line_i(12,1,1,cmd,0,[ t('',107,12,0),t('Title',23,0,0),t(=,10,0,0),t('getmessagetext(',1,0,0),t('"Lista de Movimiento Caja"',3,0,0),t(')',4,0,0) ]).
+b_line_i(13,1,1,cmd,0,[]).
+b_line_i(14,1,1,cmd,0,[]).
+b_line_i(16,2,1,cmd,16,[ t('',107,16,0),t('Appname',23,16,0),t(=,10,16,0),t('getmessagetext(',1,16,0),t('"DVelop Software Solutions"',3,16,0),t(')',4,16,0) ]).
+b_line_i(17,2,1,cmd,16,[ t('',107,17,0),t('Phone',23,16,0),t(=,10,16,0),t('"+1 550 8923"',3,16,0) ]).
+b_line_i(18,2,1,cmd,16,[ t('',107,18,0),t('Mail',23,16,0),t(=,10,16,0),t('"info@mail.com"',3,16,0) ]).
+b_line_i(19,2,1,cmd,16,[ t('',107,19,0),t('Website',23,16,0),t(=,10,16,0),t('"http://www.web.com"',3,16,0) ]).
+b_line_i(20,2,1,cmd,16,[ t('',107,20,0),t('Addressline1',23,16,0),t(=,10,16,0),t('"French Boulevard 2859"',3,16,0) ]).
+b_line_i(21,2,1,cmd,16,[ t('',107,21,0),t('Addressline2',23,16,0),t(=,10,16,0),t('"Downtown"',3,16,0) ]).
+b_line_i(22,2,1,cmd,16,[ t('',107,22,0),t('Addressline3',23,16,0),t(=,10,16,0),t('"Paris, France"',3,16,0) ]).
+b_line_i(23,2,1,pb,16,[ t('Printtitle',29,16,9) ]).
+b_line_i([ 23,0 ],2,1,line,16,[ t(' ',3,0,0) ]).
+b_line_i([ 23,2 ],2,1,line,18,[ t('Appname',23,2,4),t('Phone',23,2,40),t('Addressline1',23,2,76) ]).
+b_line_i([ 23,3 ],2,1,line,19,[ t('Title',23,3,4),t('Mail',23,3,40),t('Addressline2',23,3,76) ]).
+b_line_i([ 23,4 ],2,1,line,20,[ t('Website',23,4,40),t('Addressline3',23,4,76) ]).
+b_line_i([ 23,7 ],2,1,line,23,[ t(' ',3,7,0) ]).
+b_line_i(24,2,1,cmd,24,[ t('',122,24,0) ]).
+b_line_i(26,3,1,cmd,33,[ t('',107,26,0),t('Pageinfo',23,33,0),t(=,10,33,0),t('getmessagetext(',1,33,0),t('"Page: "',3,33,0),t(')',4,33,0),t(+,5,33,0),t('trim(',1,33,0),t('str(',1,33,0),t('Page',23,33,0),t(',',7,33,0),t(6,3,33,0),t(',',7,33,0),t(0,3,33,0),t(')',4,33,0),t(')',4,33,0) ]).
+b_line_i(27,3,1,cmd,33,[ t('',107,27,0),t('Dateinfo',23,33,0),t(=,10,33,0),t('getmessagetext(',1,33,0),t('"Date: "',3,33,0),t(')',4,33,0),t(+,5,33,0),t('toformattedstring(',1,33,0),t('Today',23,33,0),t(')',4,33,0) ]).
+b_line_i(28,3,1,pb,33,[ t('Printfooter',29,33,9) ]).
+b_line_i([ 28,0 ],3,1,line,33,[ t(' ',3,0,0) ]).
+b_line_i([ 28,1 ],3,1,line,34,[ t('Pageinfo',23,1,4),t('Dateinfo',23,1,58) ]).
+b_line_i(29,3,1,cmd,35,[ t('',122,29,0) ]).
+b_line_i(30,1,5,cmd,23,[]).
+b_line_i(31,1,5,cmd,23,[ t('',145,31,0),t('''PRINTFILTERS''',3,31,5) ]).
+b_line_i(32,1,5,cmd,23,[]).
+b_line_i(33,1,5,cmd,23,[ t('',145,33,0),t('''PRINTCOLUMNTITLES''',3,33,5) ]).
+b_line_i(34,1,5,cmd,23,[]).
+b_line_i(35,1,5,cmd,23,[ t('',145,35,0),t('''PRINTDATA''',3,35,5) ]).
+b_line_i(36,1,5,cmd,23,[]).
+b_line_i(37,1,5,cmd,23,[ t('',145,37,0),t('''PRINTFOOTER''',3,37,5) ]).
+b_line_i(38,1,5,cmd,23,[]).
+b_line_i(39,1,5,cmd,23,[ t('',111,39,0) ]).
+b_line_i(40,1,5,cmd,23,[]).
+b_line_i(41,1,5,cmd,23,[]).
+b_line_i(42,1,5,cmd,23,[]).
+b_line_i(43,1,5,cmd,23,[]).
+b_line_i(44,1,5,cmd,23,[ t('',143,44,0),t('''PRINTFILTERS''',3,44,5) ]).
+b_line_i(45,1,6,cmd,23,[]).
+b_line_i(46,1,6,cmd,23,[]).
+b_line_i(47,1,6,cmd,23,[]).
+b_line_i(48,1,6,cmd,23,[ t('',109,48,0),t('.NOT.',8,23,5),t('null(',1,48,27),t('Filterfulltext',23,23,11),t(')',4,23,36) ]).
+b_line_i(49,1,6,pb,23,[ t('Printblockfilterfilterfulltext',29,23,9) ]).
+b_line_i([ 49,0 ],1,6,line,23,[ t(l('WWP_FullTextFilterDescription'),3,0,3),t('Filterfulltext',23,0,14) ]).
+b_line_i(50,1,6,cmd,24,[ t('',111,50,0) ]).
+b_line_i(51,1,6,cmd,24,[]).
+b_line_i(52,1,6,cmd,24,[]).
+b_line_i(53,1,6,cmd,24,[]).
+b_line_i(54,1,6,cmd,24,[ t('',144,54,0) ]).
+b_line_i(55,1,6,cmd,24,[]).
+b_line_i(56,1,6,cmd,24,[ t('',143,56,0),t('''PRINTCOLUMNTITLES''',3,56,5) ]).
+b_line_i(57,1,7,cmd,24,[]).
+b_line_i(58,1,7,cmd,24,[]).
+b_line_i(59,1,7,cmd,24,[]).
+b_line_i(60,1,7,pb,24,[ t('Printblockbeforegrid',29,24,8) ]).
+b_line_i([ 60,0 ],1,7,line,24,[ t(' ',3,0,0) ]).
+b_line_i(61,1,7,pb,25,[ t('Printblocklines_titles',29,25,8) ]).
+b_line_i([ 61,0 ],1,7,line,25,[ t(l('Caja Id'),3,0,4),t(l('Caja Hora'),3,0,12),t(l('Caja Ingreso'),3,0,20),t(l('Caja Egreso'),3,0,29),t(l('Caja Saldo'),3,0,37),t(l('Caja Fecha'),3,0,45),t(l('Informacion'),3,0,54),t(l('Id'),3,0,62),t(l('Nombre'),3,0,70),t(l('Id'),3,0,79),t(l('Numero'),3,0,87),t(l('Caja Asignacion'),3,0,95),t(l('Caja Estado'),3,0,104) ]).
+b_line_i([ 61,1 ],1,7,line,26,[ t(' ',3,1,0) ]).
+b_line_i(62,1,7,cmd,27,[]).
+b_line_i(63,1,7,cmd,27,[]).
+b_line_i(64,1,7,cmd,27,[]).
+b_line_i(65,1,7,cmd,27,[ t('',144,65,0) ]).
+b_line_i(66,1,7,cmd,27,[]).
+b_line_i(67,1,7,cmd,27,[ t('',143,67,0),t('''PRINTDATA''',3,67,5) ]).
+b_line_i(68,1,8,cmd,27,[]).
+b_line_i(69,1,8,cmd,27,[]).
+b_line_i(70,1,8,cmd,27,[]).
+b_line_i([ 70,1 ],1,8,cmd,81,[ t('',107,81,0),t('Movimientocajawwds_1_filterfulltext',23,0,0),t(=,10,0,0),t('Filterfulltext',23,0,28) ]).
+b_line_i(71,4,1,cmd,81,[ t('',121,71,0),t(table,3,71,11),t(25,3,71,11),t('ORDER',39,71,29),t(27,2,71,35),t(when,35,71,53),t('Orderedby',23,71,58),t(=,10,71,69),t('1',3,71,71),t('.AND.',9,71,73),t('Ordereddsc',23,71,79),t(=,10,71,91),t('FALSE',41,71,93),t('ORDER',39,71,102),t('(',0,71,108),t(27,2,71,109),t(')',4,71,125),t(when,35,71,128),t('Orderedby',23,71,133),t(=,10,71,144),t('1',3,71,146),t('.AND.',9,71,148),t('Ordereddsc',23,71,154),t(=,10,71,166),t('TRUE',40,71,168),t('ORDER',39,71,176),t(116,2,71,182),t(when,35,71,202),t('Orderedby',23,71,207),t(=,10,71,218),t('2',3,71,220),t('.AND.',9,71,222),t('Ordereddsc',23,71,228),t(=,10,71,240),t('FALSE',41,71,242),t('ORDER',39,71,251),t('(',0,71,257),t(116,2,71,258),t(')',4,71,276),t(when,35,71,279),t('Orderedby',23,71,284),t(=,10,71,295),t('2',3,71,297),t('.AND.',9,71,299),t('Ordereddsc',23,71,305),t(=,10,71,317),t('TRUE',40,71,319),t('ORDER',39,71,327),t(117,2,71,333),t(when,35,71,356),t('Orderedby',23,71,361),t(=,10,71,372),t('3',3,71,374),t('.AND.',9,71,376),t('Ordereddsc',23,71,382),t(=,10,71,394),t('FALSE',41,71,396),t('ORDER',39,71,405),t('(',0,71,411),t(117,2,71,412),t(')',4,71,433),t(when,35,71,436),t('Orderedby',23,71,441),t(=,10,71,452),t('3',3,71,454),t('.AND.',9,71,456),t('Ordereddsc',23,71,462),t(=,10,71,474),t('TRUE',40,71,476),t('ORDER',39,71,484),t(118,2,71,490),t(when,35,71,512),t('Orderedby',23,71,517),t(=,10,71,528),t('4',3,71,530),t('.AND.',9,71,532),t('Ordereddsc',23,71,538),t(=,10,71,550),t('FALSE',41,71,552),t('ORDER',39,71,561),t('(',0,71,567),t(118,2,71,568),t(')',4,71,588),t(when,35,71,591),t('Orderedby',23,71,596),t(=,10,71,607),t('4',3,71,609),t('.AND.',9,71,611),t('Ordereddsc',23,71,617),t(=,10,71,629),t('TRUE',40,71,631),t('ORDER',39,71,639),t(119,2,71,645),t(when,35,71,666),t('Orderedby',23,71,671),t(=,10,71,682),t('5',3,71,684),t('.AND.',9,71,686),t('Ordereddsc',23,71,692),t(=,10,71,704),t('FALSE',41,71,706),t('ORDER',39,71,715),t('(',0,71,721),t(119,2,71,722),t(')',4,71,741),t(when,35,71,744),t('Orderedby',23,71,749),t(=,10,71,760),t('5',3,71,762),t('.AND.',9,71,764),t('Ordereddsc',23,71,770),t(=,10,71,782),t('TRUE',40,71,784),t('ORDER',39,71,792),t(120,2,71,798),t(when,35,71,819),t('Orderedby',23,71,824),t(=,10,71,835),t('6',3,71,837),t('.AND.',9,71,839),t('Ordereddsc',23,71,845),t(=,10,71,857),t('FALSE',41,71,859),t('ORDER',39,71,868),t('(',0,71,874),t(120,2,71,875),t(')',4,71,894),t(when,35,71,897),t('Orderedby',23,71,902),t(=,10,71,913),t('6',3,71,915),t('.AND.',9,71,917),t('Ordereddsc',23,71,923),t(=,10,71,935),t('TRUE',40,71,937),t('ORDER',39,71,945),t(266,2,71,951),t(when,35,71,972),t('Orderedby',23,71,977),t(=,10,71,988),t('7',3,71,990),t('.AND.',9,71,992),t('Ordereddsc',23,71,998),t(=,10,71,1010),t('FALSE',41,71,1012),t('ORDER',39,71,1021),t('(',0,71,1027),t(266,2,71,1028),t(')',4,71,1047),t(when,35,71,1050),t('Orderedby',23,71,1055),t(=,10,71,1066),t('7',3,71,1068),t('.AND.',9,71,1070),t('Ordereddsc',23,71,1076),t(=,10,71,1088),t('TRUE',40,71,1090),t('ORDER',39,71,1098),t(26,2,71,1104),t(when,35,71,1114),t('Orderedby',23,71,1119),t(=,10,71,1130),t('8',3,71,1132),t('.AND.',9,71,1134),t('Ordereddsc',23,71,1140),t(=,10,71,1152),t('FALSE',41,71,1154),t('ORDER',39,71,1163),t('(',0,71,1169),t(26,2,71,1170),t(')',4,71,1178),t(when,35,71,1181),t('Orderedby',23,71,1186),t(=,10,71,1197),t('8',3,71,1199),t('.AND.',9,71,1201),t('Ordereddsc',23,71,1207),t(=,10,71,1219),t('TRUE',40,71,1221),t('ORDER',39,71,1229),t(112,2,71,1235),t(when,35,71,1249),t('Orderedby',23,71,1254),t(=,10,71,1265),t('9',3,71,1267),t('.AND.',9,71,1269),t('Ordereddsc',23,71,1275),t(=,10,71,1287),t('FALSE',41,71,1289),t('ORDER',39,71,1298),t('(',0,71,1304),t(112,2,71,1305),t(')',4,71,1317),t(when,35,71,1320),t('Orderedby',23,71,1325),t(=,10,71,1336),t('9',3,71,1338),t('.AND.',9,71,1340),t('Ordereddsc',23,71,1346),t(=,10,71,1358),t('TRUE',40,71,1360),t('ORDER',39,71,1368),t(25,2,71,1374),t(when,35,71,1382),t('Orderedby',23,71,1387),t(=,10,71,1398),t('10',3,71,1400),t('.AND.',9,71,1403),t('Ordereddsc',23,71,1409),t(=,10,71,1421),t('FALSE',41,71,1423),t('ORDER',39,71,1432),t('(',0,71,1438),t(25,2,71,1439),t(')',4,71,1445),t(when,35,71,1448),t('Orderedby',23,71,1453),t(=,10,71,1464),t('10',3,71,1466),t('.AND.',9,71,1469),t('Ordereddsc',23,71,1475),t(=,10,71,1487),t('TRUE',40,71,1489),t('ORDER',39,71,1497),t(110,2,71,1503),t(when,35,71,1515),t('Orderedby',23,71,1520),t(=,10,71,1531),t('11',3,71,1533),t('.AND.',9,71,1536),t('Ordereddsc',23,71,1542),t(=,10,71,1554),t('FALSE',41,71,1556),t('ORDER',39,71,1565),t('(',0,71,1571),t(110,2,71,1572),t(')',4,71,1582),t(when,35,71,1585),t('Orderedby',23,71,1590),t(=,10,71,1601),t('11',3,71,1603),t('.AND.',9,71,1606),t('Ordereddsc',23,71,1612),t(=,10,71,1624),t('TRUE',40,71,1626),t('ORDER',39,71,1634),t(256,2,71,1640),t(when,35,71,1666),t('Orderedby',23,71,1671),t(=,10,71,1682),t('12',3,71,1684),t('.AND.',9,71,1687),t('Ordereddsc',23,71,1693),t(=,10,71,1705),t('FALSE',41,71,1707),t('ORDER',39,71,1716),t('(',0,71,1722),t(256,2,71,1723),t(')',4,71,1747),t(when,35,71,1750),t('Orderedby',23,71,1755),t(=,10,71,1766),t('12',3,71,1768),t('.AND.',9,71,1771),t('Ordereddsc',23,71,1777),t(=,10,71,1789),t('TRUE',40,71,1791),t('ORDER',39,71,1799),t(267,2,71,1805),t(when,35,71,1827),t('Orderedby',23,71,1832),t(=,10,71,1843),t('13',3,71,1845),t('.AND.',9,71,1848),t('Ordereddsc',23,71,1854),t(=,10,71,1866),t('FALSE',41,71,1868),t('ORDER',39,71,1877),t('(',0,71,1883),t(267,2,71,1884),t(')',4,71,1904),t(when,35,71,1907),t('Orderedby',23,71,1912),t(=,10,71,1923),t('13',3,71,1925),t('.AND.',9,71,1928),t('Ordereddsc',23,71,1934),t(=,10,71,1946),t('TRUE',40,71,1948) ]).
+b_line_i(72,4,1,cmd,81,[]).
+b_line_i(73,4,1,cmd,81,[]).
+b_line_i(74,4,1,cmd,81,[]).
+b_line_i(75,4,1,cmd,81,[]).
+b_line_i(76,4,1,cmd,81,[]).
+b_line_i(77,4,1,cmd,81,[]).
+b_line_i(78,4,1,cmd,81,[]).
+b_line_i(79,4,1,cmd,81,[]).
+b_line_i(80,4,1,cmd,81,[]).
+b_line_i(81,4,1,cmd,81,[]).
+b_line_i(82,4,1,cmd,81,[]).
+b_line_i(83,4,1,cmd,81,[]).
+b_line_i(84,4,1,cmd,81,[]).
+b_line_i(85,4,1,cmd,81,[]).
+b_line_i(86,4,1,cmd,81,[]).
+b_line_i(87,4,1,cmd,81,[]).
+b_line_i(88,4,1,cmd,81,[]).
+b_line_i(89,4,1,cmd,81,[]).
+b_line_i(90,4,1,cmd,81,[]).
+b_line_i(91,4,1,cmd,81,[]).
+b_line_i(92,4,1,cmd,81,[]).
+b_line_i(93,4,1,cmd,81,[]).
+b_line_i(94,4,1,cmd,81,[]).
+b_line_i(95,4,1,cmd,81,[]).
+b_line_i(96,4,1,cmd,81,[]).
+b_line_i(97,4,1,cmd,81,[]).
+b_line_i(98,4,1,cmd,81,[]).
+b_line_i(100,4,1,cmd,81,[]).
+b_line_i(101,4,1,cmd,81,[ t('',145,101,0),t('''BEFOREPRINTLINE''',3,101,6) ]).
+b_line_i(102,4,1,pb,81,[ t('Printblocklines_data',29,81,9) ]).
+b_line_i([ 102,0 ],4,1,line,81,[ t(27,2,0,4),t(116,2,0,12),t(117,2,0,20),t(118,2,0,29),t(119,2,0,37),t(120,2,0,45),t(266,2,0,54),t(26,2,0,62),t(112,2,0,70),t(25,2,0,79),t(110,2,0,87),t(256,2,0,95),t(267,2,0,104) ]).
+b_line_i([ 102,1 ],4,1,line,82,[ t(' ',3,1,0) ]).
+b_line_i(103,4,1,cmd,83,[ t('',145,103,0),t('''AFTERPRINTLINE''',3,103,6) ]).
+b_line_i(104,4,1,cmd,83,[ t('',128,104,0) ]).
+b_line_i(105,1,10,cmd,62,[]).
+b_line_i(106,1,10,cmd,62,[]).
+b_line_i(107,1,10,cmd,62,[]).
+b_line_i(108,1,10,cmd,62,[ t('',144,108,0) ]).
+b_line_i(109,1,10,cmd,62,[]).
+b_line_i(110,1,10,cmd,62,[ t('',143,110,0),t('''LOADGRIDSTATE''',3,110,5) ]).
+b_line_i(111,1,11,cmd,62,[]).
+b_line_i(112,1,11,cmd,62,[]).
+b_line_i(113,1,11,cmd,62,[]).
+b_line_i(114,1,11,cmd,62,[]).
+b_line_i(115,1,11,cmd,62,[ t('',109,115,0),t([ t('Session',23,62,5),t('get(',1,62,14) ],31,115,14),t('"MovimientoCajaWWGridState"',3,115,19),t(')',4,62,47),t(=,10,62,49),t('""',3,115,51) ]).
+b_line_i(116,1,11,cmd,62,[ t('',107,116,0),t([ t('Gridstate',23,116,3),t('fromxml(',1,116,14) ],31,116,3),t('udp(',1,116,37),t(o(1,'WWPBaseObjects\LoadGridState'),28,116,23),t(',',7,62,0),t('"MovimientoCajaWWGridState"',3,116,42),t(')',4,62,0),t(')',4,62,71) ]).
+b_line_i(117,1,11,cmd,62,[ t('',110,117,0) ]).
+b_line_i(118,1,11,cmd,62,[ t('',107,118,0),t([ t('Gridstate',23,118,3),t('fromxml(',1,118,14) ],31,118,3),t([ t('Session',23,62,23),t('get(',1,62,32) ],31,118,32),t('"MovimientoCajaWWGridState"',3,118,37),t(')',4,62,65),t(')',4,62,66) ]).
+b_line_i(119,1,11,cmd,62,[ t('',111,119,0) ]).
+b_line_i(120,1,11,cmd,62,[]).
+b_line_i(121,1,11,cmd,62,[ t('',107,121,0),t('Orderedby',23,62,0),t(=,10,62,0),t([ t('Gridstate',23,62,0),t('Orderedby',3,62,0) ],29,62,0) ]).
+b_line_i(122,1,11,cmd,62,[ t('',107,122,0),t('Ordereddsc',23,62,0),t(=,10,62,0),t([ t('Gridstate',23,62,0),t('Ordereddsc',3,62,0) ],29,62,0) ]).
+b_line_i(123,1,11,cmd,62,[]).
+b_line_i(124,1,11,cmd,62,[ t('',107,124,0),t('GXV1',23,62,0),t(=,10,62,0),t(1,3,62,0) ]).
+b_line_i([ 124,2 ],1,11,cmd,62,[ t('',114,124,0),t('GXV1',23,62,0),t(<=,10,62,0),t([ t('Gridstate',23,124,31),t('Filtervalues',3,124,42),t('Count',3,124,0) ],29,124,0) ]).
+b_line_i([ 124,3 ],1,11,cmd,62,[ t('',107,124,0),t('Gridstatefiltervalue',23,62,0),t(=,10,62,0),t([ t([ t('Gridstate',23,62,0),t('Filtervalues',3,62,0) ],29,62,0),t('item(',1,62,0) ],31,62,0),t('GXV1',23,62,0),t(')',4,62,0) ]).
+b_line_i(125,1,11,cmd,63,[ t('',152,125,0) ]).
+b_line_i(126,1,11,cmd,63,[ t('',153,126,0),t([ t('Gridstatefiltervalue',23,126,9),t('Name',3,126,31) ],29,126,31),t(=,10,63,36),t('"FILTERFULLTEXT"',3,126,38) ]).
+b_line_i(127,1,11,cmd,63,[ t('',107,127,0),t('Filterfulltext',23,127,5),t(=,10,127,5),t([ t('Gridstatefiltervalue',23,127,33),t('Value',3,127,55) ],29,127,55) ]).
+b_line_i(128,1,11,cmd,63,[ t('',154,128,0) ]).
+b_line_i([ 129,1 ],1,11,cmd,63,[ t('',107,129,0),t('GXV1',23,63,0),t(=,10,63,0),t('GXV1',23,63,0),t(+,5,63,0),t(1,3,63,0) ]).
+b_line_i([ 129,2 ],1,11,cmd,63,[ t('',115,129,0) ]).
+b_line_i(130,1,11,cmd,64,[]).
+b_line_i(131,1,11,cmd,64,[]).
+b_line_i(132,1,11,cmd,64,[]).
+b_line_i(133,1,11,cmd,64,[ t('',144,133,0) ]).
+b_line_i(134,1,11,cmd,64,[]).
+b_line_i(135,1,11,cmd,64,[ t('',143,135,0),t('''BEFOREPRINTLINE''',3,135,5) ]).
+b_line_i(136,1,12,cmd,64,[]).
+b_line_i(137,1,12,cmd,64,[]).
+b_line_i(138,1,12,cmd,64,[]).
+b_line_i(139,1,12,cmd,64,[]).
+b_line_i(140,1,12,cmd,64,[]).
+b_line_i(141,1,12,cmd,64,[]).
+b_line_i(142,1,12,cmd,64,[]).
+b_line_i(143,1,12,cmd,64,[ t('',144,143,0) ]).
+b_line_i(144,1,12,cmd,64,[]).
+b_line_i(145,1,12,cmd,64,[ t('',143,145,0),t('''AFTERPRINTLINE''',3,145,5) ]).
+b_line_i(146,1,13,cmd,64,[]).
+b_line_i(147,1,13,cmd,64,[]).
+b_line_i(148,1,13,cmd,64,[]).
+b_line_i(149,1,13,cmd,64,[]).
+b_line_i(150,1,13,cmd,64,[]).
+b_line_i(151,1,13,cmd,64,[]).
+b_line_i(152,1,13,cmd,64,[]).
+b_line_i(153,1,13,cmd,64,[ t('',144,153,0) ]).
+b_line_i(154,1,13,cmd,64,[]).
+b_line_i(155,1,13,cmd,64,[ t('',143,155,0),t('''PRINTFOOTER''',3,155,5) ]).
+b_line_i(156,1,14,cmd,64,[]).
+b_line_i(157,1,14,cmd,64,[]).
+b_line_i(158,1,14,cmd,64,[]).
+b_line_i(159,1,14,cmd,64,[]).
+b_line_i(160,1,14,cmd,64,[]).
+b_line_i(161,1,14,cmd,64,[]).
+b_line_i(162,1,14,cmd,64,[]).
+b_line_i(163,1,14,cmd,64,[ t('',144,163,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,1,'',12240,15840,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(2,23,rect(2),[ rect(0,0,819,108),outstyle(single),fill,back(rgb(128,128,0)),fore(rgb(0,0,0)),border(1),ctlname('Unnamedtable2'),gxcolor([]),borderstyle(1,1,1,1),radius(0,0,0,0) ]).
+lit_i(3,23,t('Appname',23),[ font('Microsoft Sans Serif',8,[]),rect(30,30,283,45),outstyle(none),align(left),valign(top),fore(rgb(255,255,255)),border(1),format(0),ctlname('&appname'),ctrltype(edit,3),ispwd(0),gxcolor([]) ]).
+lit_i(4,23,t('Title',23),[ font('Microsoft Sans Serif',20,[]),rect(30,45,283,78),outstyle(none),align(left),valign(top),fore(rgb(255,255,255)),border(1),format(0),ctlname('&title'),ctrltype(edit,4),ispwd(0),gxcolor([]) ]).
+lit_i(5,23,t('Phone',23),[ font('Microsoft Sans Serif',8,[]),rect(283,30,536,46),outstyle(none),align(right),valign(top),fore(rgb(255,255,255)),border(1),format(0),ctlname('&phone'),ctrltype(edit,5),ispwd(0),gxcolor([]) ]).
+lit_i(6,23,t('Mail',23),[ font('Microsoft Sans Serif',8,[]),rect(283,46,536,62),outstyle(none),align(right),valign(top),fore(rgb(255,255,255)),border(1),format(0),ctlname('&mail'),ctrltype(edit,6),ispwd(0),gxcolor([]) ]).
+lit_i(7,23,t('Website',23),[ font('Microsoft Sans Serif',8,[]),rect(283,62,536,78),outstyle(none),align(right),valign(top),fore(rgb(255,255,255)),border(1),format(0),ctlname('&website'),ctrltype(edit,7),ispwd(0),gxcolor([]) ]).
+lit_i(8,23,t('Addressline1',23),[ font('Microsoft Sans Serif',8,[]),rect(536,30,789,46),outstyle(none),align(right),valign(top),fore(rgb(255,255,255)),border(1),format(0),ctlname('&addressline1'),ctrltype(edit,8),ispwd(0),gxcolor([]) ]).
+lit_i(9,23,t('Addressline2',23),[ font('Microsoft Sans Serif',8,[]),rect(536,46,789,62),outstyle(none),align(right),valign(top),fore(rgb(255,255,255)),border(1),format(0),ctlname('&addressline2'),ctrltype(edit,9),ispwd(0),gxcolor([]) ]).
+lit_i(10,23,t('Addressline3',23),[ font('Microsoft Sans Serif',8,[]),rect(536,62,789,78),outstyle(none),align(right),valign(top),fore(rgb(255,255,255)),border(1),format(0),ctlname('&addressline3'),ctrltype(edit,10),ispwd(0),gxcolor([]) ]).
+lit_i(1,23,window,[ title(l('Text')),rect(0,0,850,128),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Printtitle'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(43,28,rect(43),[ rect(0,5,819,40),outstyle(single),fill,back(rgb(128,128,0)),fore(rgb(0,0,0)),border(1),ctlname('Unnamedtable1'),gxcolor([]),borderstyle(1,1,1,1),radius(0,0,0,0) ]).
+lit_i(44,28,t('Pageinfo',23),[ font('Microsoft Sans Serif',8,[]),rect(30,15,409,30),outstyle(none),align(left),valign(top),fore(rgb(255,255,255)),border(1),format(0),ctlname('&pageinfo'),ctrltype(edit,44),ispwd(0),gxcolor([]) ]).
+lit_i(45,28,t('Dateinfo',23),[ font('Microsoft Sans Serif',8,[]),rect(409,15,789,30),outstyle(none),align(right),valign(top),fore(rgb(255,255,255)),border(1),format(0),ctlname('&dateinfo'),ctrltype(edit,45),ispwd(0),gxcolor([]) ]).
+lit_i(42,28,window,[ title(l('Text')),rect(0,0,850,40),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Printfooter'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(1,49,t(l('WWP_FullTextFilterDescription'),3),[ font('Microsoft Sans Serif',8,[]),rect(25,0,99,15),outstyle(none),align(left),valign(top),fore(rgb(169,169,169)),border(1),ctlname('Gxreportlabel1'),gxcolor([]) ]).
+lit_i(2,49,t('Filterfulltext',23),[ font('Microsoft Sans Serif',8,[]),rect(99,0,789,15),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('&filterfulltext'),ctrltype(edit,2),ispwd(0),gxcolor([]) ]).
+lit_i(3,49,window,[ title(l('Text')),rect(0,0,850,20),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Printblockfilterfilterfulltext'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(12,60,rect(12),[ rect(25,21,789,21),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(128,128,0)),border(2),ctlname('L1'),gxcolor([]),borderstyle(0) ]).
+lit_i(11,60,window,[ title(l('Text')),rect(0,0,850,22),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Printblockbeforegrid'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(14,61,t(l('Caja Id'),3),[ font('Microsoft Sans Serif',9,[]),rect(30,10,84,27),outstyle(none),align(right),valign(top),fore(rgb(128,128,0)),border(1),ctlname('Movimientocajaid_title'),gxcolor([]) ]).
+lit_i(15,61,t(l('Caja Hora'),3),[ font('Microsoft Sans Serif',9,[]),rect(88,10,142,27),outstyle(none),align(left),valign(top),fore(rgb(128,128,0)),border(1),ctlname('Movimientocajahora_title'),gxcolor([]) ]).
+lit_i(16,61,t(l('Caja Ingreso'),3),[ font('Microsoft Sans Serif',9,[]),rect(146,10,200,27),outstyle(none),align(right),valign(top),fore(rgb(128,128,0)),border(1),ctlname('Movimientocajaingreso_title'),gxcolor([]) ]).
+lit_i(17,61,t(l('Caja Egreso'),3),[ font('Microsoft Sans Serif',9,[]),rect(204,10,258,27),outstyle(none),align(right),valign(top),fore(rgb(128,128,0)),border(1),ctlname('Movimientocajaegreso_title'),gxcolor([]) ]).
+lit_i(18,61,t(l('Caja Saldo'),3),[ font('Microsoft Sans Serif',9,[]),rect(262,10,316,27),outstyle(none),align(right),valign(top),fore(rgb(128,128,0)),border(1),ctlname('Movimientocajasaldo_title'),gxcolor([]) ]).
+lit_i(19,61,t(l('Caja Fecha'),3),[ font('Microsoft Sans Serif',9,[]),rect(320,10,374,27),outstyle(none),align(left),valign(top),fore(rgb(128,128,0)),border(1),ctlname('Movimientocajafecha_title'),gxcolor([]) ]).
+lit_i(20,61,t(l('Informacion'),3),[ font('Microsoft Sans Serif',9,[]),rect(378,10,432,27),outstyle(none),align(left),valign(top),fore(rgb(128,128,0)),border(1),ctlname('Movimientocajadocum_title'),gxcolor([]) ]).
+lit_i(21,61,t(l('Id'),3),[ font('Microsoft Sans Serif',9,[]),rect(436,10,490,27),outstyle(none),align(right),valign(top),fore(rgb(128,128,0)),border(1),ctlname('Cajeroid_title'),gxcolor([]) ]).
+lit_i(22,61,t(l('Nombre'),3),[ font('Microsoft Sans Serif',9,[]),rect(494,10,549,27),outstyle(none),align(left),valign(top),fore(rgb(128,128,0)),border(1),ctlname('Cajeronombre_title'),gxcolor([]) ]).
+lit_i(23,61,t(l('Id'),3),[ font('Microsoft Sans Serif',9,[]),rect(553,10,608,27),outstyle(none),align(right),valign(top),fore(rgb(128,128,0)),border(1),ctlname('Cajaid_title'),gxcolor([]) ]).
+lit_i(24,61,t(l('Numero'),3),[ font('Microsoft Sans Serif',9,[]),rect(612,10,667,27),outstyle(none),align(right),valign(top),fore(rgb(128,128,0)),border(1),ctlname('Cajanumero_title'),gxcolor([]) ]).
+lit_i(25,61,t(l('Caja Asignacion'),3),[ font('Microsoft Sans Serif',9,[]),rect(671,10,727,27),outstyle(none),align(left),valign(top),fore(rgb(128,128,0)),border(1),ctlname('Movimientocajaasignacion_title'),gxcolor([]) ]).
+lit_i(26,61,t(l('Caja Estado'),3),[ font('Microsoft Sans Serif',9,[]),rect(731,10,787,27),outstyle(none),align(left),valign(top),fore(rgb(128,128,0)),border(1),ctlname('Movimientocajaestado_title'),gxcolor([]) ]).
+lit_i(13,61,window,[ title(l('Text')),rect(0,0,850,37),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Printblocklines_titles'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(28,102,t(27,2),[ font('Microsoft Sans Serif',8,[]),rect(30,10,84,25),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('27'),ctrltype(edit,28),ispwd(0),gxcolor([]) ]).
+lit_i(29,102,t(116,2),[ font('Microsoft Sans Serif',8,[]),rect(88,10,142,25),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('116'),ctrltype(edit,29),ispwd(0),gxcolor([]) ]).
+lit_i(30,102,t(117,2),[ font('Microsoft Sans Serif',8,[]),rect(146,10,200,25),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('117'),ctrltype(edit,30),ispwd(0),gxcolor([]) ]).
+lit_i(31,102,t(118,2),[ font('Microsoft Sans Serif',8,[]),rect(204,10,258,25),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('118'),ctrltype(edit,31),ispwd(0),gxcolor([]) ]).
+lit_i(32,102,t(119,2),[ font('Microsoft Sans Serif',8,[]),rect(262,10,316,25),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('119'),ctrltype(edit,32),ispwd(0),gxcolor([]) ]).
+lit_i(33,102,t(120,2),[ font('Microsoft Sans Serif',8,[]),rect(320,10,374,25),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('120'),ctrltype(edit,33),ispwd(0),gxcolor([]) ]).
+lit_i(34,102,t(266,2),[ font('Microsoft Sans Serif',8,[]),rect(378,10,432,25),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('266'),ctrltype(edit,34),ispwd(0),gxcolor([]) ]).
+lit_i(35,102,t(26,2),[ font('Microsoft Sans Serif',8,[]),rect(436,10,490,25),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('26'),ctrltype(edit,35),ispwd(0),gxcolor([]) ]).
+lit_i(36,102,t(112,2),[ font('Microsoft Sans Serif',8,[]),rect(494,10,549,25),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('112'),ctrltype(edit,36),ispwd(0),gxcolor([]) ]).
+lit_i(37,102,t(25,2),[ font('Microsoft Sans Serif',8,[]),rect(553,10,608,25),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('25'),ctrltype(edit,37),ispwd(0),gxcolor([]) ]).
+lit_i(38,102,t(110,2),[ font('Microsoft Sans Serif',8,[]),rect(612,10,667,25),outstyle(none),align(right),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('110'),ctrltype(edit,38),ispwd(0),gxcolor([]) ]).
+lit_i(39,102,t(256,2),[ font('Microsoft Sans Serif',8,[]),rect(671,10,727,25),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('256'),ctrltype(edit,39),ispwd(0),gxcolor([]) ]).
+lit_i(40,102,t(267,2),[ font('Microsoft Sans Serif',8,[]),rect(731,10,787,25),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('267'),ctrltype(edit,40),ispwd(0),gxcolor([]) ]).
+lit_i(41,102,rect(41),[ rect(28,35,789,35),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(220,220,220)),border(1),ctlname('Printblocklines_hlinedata'),gxcolor([]),borderstyle(0) ]).
+lit_i(27,102,window,[ title(l('Text')),rect(0,0,850,36),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Printblocklines_data'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ctrl_info_i(23,3,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(23,4,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(23,5,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(23,6,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(23,7,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(23,8,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(23,9,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(23,10,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(28,44,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(28,45,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ctrl_info_i(49,2,[ [ 0,0,sort,[],[],0,0,5,0,0 ] ]).
+ 
+ 
+ 
+att_prop_i(2,27,'ExternalName','MovimientoCajaId',d).
+att_prop_i(2,27,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,27,'EmptyAsNull','Yes',d).
+att_prop_i(2,27,idBasedOn,90,v).
+att_prop_i(2,27,'AUTONUMBER','0',d).
+att_prop_i(2,27,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,27,'AttRegEx','',d).
+att_prop_i(2,27,'AttValidationFailedMsg','',d).
+att_prop_i(2,27,'DownloadOffline','0',d).
+att_prop_i(2,27,'VarServiceExtName','',d).
+att_prop_i(2,27,'FullName','MovimientoCajaId',v).
+att_prop_i(2,116,'ExternalName','MovimientoCajaHora',d).
+att_prop_i(2,116,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,116,'EmptyAsNull','Yes',d).
+att_prop_i(2,116,idBasedOn,34,v).
+att_prop_i(2,116,idDATEPRECISION,idDATEPRECISION_SECONDS,d).
+att_prop_i(2,116,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,116,'AttRegEx','',d).
+att_prop_i(2,116,'AttValidationFailedMsg','',d).
+att_prop_i(2,116,idDATEFORMAT,idDATEFORMAT_NONE,d).
+att_prop_i(2,116,idHOURFORMAT,idHOURFORMAT_HOURMIN,d).
+att_prop_i(2,116,'DownloadOffline','0',d).
+att_prop_i(2,116,'VarServiceExtName','',d).
+att_prop_i(2,116,'FullName','MovimientoCajaHora',v).
+att_prop_i(2,117,'ExternalName','MovimientoCajaIngreso',d).
+att_prop_i(2,117,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,117,'EmptyAsNull','Yes',d).
+att_prop_i(2,117,idBasedOn,204,v).
+att_prop_i(2,117,'AUTONUMBER','0',d).
+att_prop_i(2,117,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,117,'AttRegEx','',d).
+att_prop_i(2,117,'AttValidationFailedMsg','',d).
+att_prop_i(2,117,'DownloadOffline','0',d).
+att_prop_i(2,117,'VarServiceExtName','',d).
+att_prop_i(2,117,'FullName','MovimientoCajaIngreso',v).
+att_prop_i(2,118,'ExternalName','MovimientoCajaEgreso',d).
+att_prop_i(2,118,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,118,'EmptyAsNull','Yes',d).
+att_prop_i(2,118,idBasedOn,204,v).
+att_prop_i(2,118,'AUTONUMBER','0',d).
+att_prop_i(2,118,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,118,'AttRegEx','',d).
+att_prop_i(2,118,'AttValidationFailedMsg','',d).
+att_prop_i(2,118,'DownloadOffline','0',d).
+att_prop_i(2,118,'VarServiceExtName','',d).
+att_prop_i(2,118,'FullName','MovimientoCajaEgreso',v).
+att_prop_i(2,119,'ExternalName','MovimientoCajaSaldo',d).
+att_prop_i(2,119,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,119,'EmptyAsNull','Yes',d).
+att_prop_i(2,119,idBasedOn,204,v).
+att_prop_i(2,119,'AUTONUMBER','0',d).
+att_prop_i(2,119,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,119,'AttRegEx','',d).
+att_prop_i(2,119,'AttValidationFailedMsg','',d).
+att_prop_i(2,119,'DownloadOffline','0',d).
+att_prop_i(2,119,'VarServiceExtName','',d).
+att_prop_i(2,119,'FullName','MovimientoCajaSaldo',v).
+att_prop_i(2,120,'ExternalName','MovimientoCajaFecha',d).
+att_prop_i(2,120,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,120,'EmptyAsNull','Yes',d).
+att_prop_i(2,120,idBasedOn,202,v).
+att_prop_i(2,120,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,120,'AttRegEx','',d).
+att_prop_i(2,120,'AttValidationFailedMsg','',d).
+att_prop_i(2,120,idDATEFORMAT,idDATEFORMAT_SHORT,d).
+att_prop_i(2,120,'DownloadOffline','0',d).
+att_prop_i(2,120,'VarServiceExtName','',d).
+att_prop_i(2,120,'FullName','MovimientoCajaFecha',v).
+att_prop_i(2,266,'ExternalName','MovimientoCajaDocum',d).
+att_prop_i(2,266,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,266,'EmptyAsNull','Yes',d).
+att_prop_i(2,266,idBasedOn,'',d).
+att_prop_i(2,266,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,266,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,266,'AttRegEx','',d).
+att_prop_i(2,266,'AttValidationFailedMsg','',d).
+att_prop_i(2,266,'DownloadOffline','0',d).
+att_prop_i(2,266,'VarServiceExtName','',d).
+att_prop_i(2,266,'FullName','MovimientoCajaDocum',v).
+att_prop_i(2,26,'ExternalName','CajeroId',d).
+att_prop_i(2,26,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,26,'EmptyAsNull','Yes',d).
+att_prop_i(2,26,idBasedOn,90,v).
+att_prop_i(2,26,'AUTONUMBER','0',d).
+att_prop_i(2,26,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,26,'AttRegEx','',d).
+att_prop_i(2,26,'AttValidationFailedMsg','',d).
+att_prop_i(2,26,'DownloadOffline','0',d).
+att_prop_i(2,26,'VarServiceExtName','',d).
+att_prop_i(2,26,'FullName','CajeroId',v).
+att_prop_i(2,112,'ExternalName','CajeroNombre',d).
+att_prop_i(2,112,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,112,'EmptyAsNull','Yes',d).
+att_prop_i(2,112,idBasedOn,192,v).
+att_prop_i(2,112,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,112,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,112,'AttRegEx','',d).
+att_prop_i(2,112,'AttValidationFailedMsg','',d).
+att_prop_i(2,112,'DownloadOffline','0',d).
+att_prop_i(2,112,'VarServiceExtName','',d).
+att_prop_i(2,112,'FullName','CajeroNombre',v).
+att_prop_i(2,25,'ExternalName','CajaId',d).
+att_prop_i(2,25,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,25,'EmptyAsNull','Yes',d).
+att_prop_i(2,25,idBasedOn,90,v).
+att_prop_i(2,25,'AUTONUMBER','0',d).
+att_prop_i(2,25,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,25,'AttRegEx','',d).
+att_prop_i(2,25,'AttValidationFailedMsg','',d).
+att_prop_i(2,25,'DownloadOffline','0',d).
+att_prop_i(2,25,'VarServiceExtName','',d).
+att_prop_i(2,25,'FullName','CajaId',v).
+att_prop_i(2,110,'ExternalName','CajaNumero',d).
+att_prop_i(2,110,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,110,'EmptyAsNull','Yes',d).
+att_prop_i(2,110,idBasedOn,207,v).
+att_prop_i(2,110,'AUTONUMBER','0',d).
+att_prop_i(2,110,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,110,'AttRegEx','',d).
+att_prop_i(2,110,'AttValidationFailedMsg','',d).
+att_prop_i(2,110,'DownloadOffline','0',d).
+att_prop_i(2,110,'VarServiceExtName','',d).
+att_prop_i(2,110,'FullName','CajaNumero',v).
+att_prop_i(2,256,'ExternalName','MovimientoCajaAsignacion',d).
+att_prop_i(2,256,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,256,'EmptyAsNull','Yes',d).
+att_prop_i(2,256,idBasedOn,'',d).
+att_prop_i(2,256,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,256,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,256,'AttRegEx','',d).
+att_prop_i(2,256,'AttValidationFailedMsg','',d).
+att_prop_i(2,256,'DownloadOffline','0',d).
+att_prop_i(2,256,'VarServiceExtName','',d).
+att_prop_i(2,256,'FullName','MovimientoCajaAsignacion',v).
+att_prop_i(2,267,'ExternalName','MovimientoCajaEstado',d).
+att_prop_i(2,267,'ExternalNamespace','Mujer_Morena',d).
+att_prop_i(2,267,'EmptyAsNull','Yes',d).
+att_prop_i(2,267,idBasedOn,'',d).
+att_prop_i(2,267,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,267,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,267,'AttRegEx','',d).
+att_prop_i(2,267,'AttValidationFailedMsg','',d).
+att_prop_i(2,267,'DownloadOffline','0',d).
+att_prop_i(2,267,'VarServiceExtName','',d).
+att_prop_i(2,267,'FullName','MovimientoCajaEstado',v).
+ 
+tbl_prop_i(2,25,'AllDirSuper',[ [ 23,[ 25 ] ],[ 24,[ 26 ] ] ],v).
+tbl_prop_i(2,23,'DirSubor',[ [ 25,[ 25 ] ] ],v).
+tbl_prop_i(2,24,'DirSubor',[ [ 25,[ 26 ] ] ],v).
+tbl_prop_i(2,25,'DirSuper',[ [ 23,[ 25 ] ],[ 24,[ 26 ] ] ],v).
+ 
+tbl_att_prop_i(2,25,27,'AllowNulls',n).
+tbl_att_prop_i(2,25,116,'AllowNulls',n).
+tbl_att_prop_i(2,25,117,'AllowNulls',n).
+tbl_att_prop_i(2,25,118,'AllowNulls',n).
+tbl_att_prop_i(2,25,119,'AllowNulls',n).
+tbl_att_prop_i(2,25,120,'AllowNulls',n).
+tbl_att_prop_i(2,25,266,'AllowNulls',n).
+tbl_att_prop_i(2,25,26,'AllowNulls',n).
+tbl_att_prop_i(2,25,25,'AllowNulls',n).
+tbl_att_prop_i(2,25,256,'AllowNulls',n).
+tbl_att_prop_i(2,25,267,'AllowNulls',n).
+tbl_att_prop_i(2,24,26,'AllowNulls',n).
+tbl_att_prop_i(2,24,112,'AllowNulls',n).
+tbl_att_prop_i(2,23,25,'AllowNulls',n).
+tbl_att_prop_i(2,23,110,'AllowNulls',n).
+ 
+var_prop_i(2,'Securityfunctionalitykeys',idBasedOn,88,v).
+var_prop_i(2,'Filterfulltext',idBasedOn,223,v).
+var_prop_i(2,'Filterfulltext',idBasedOn,223,v).
+ 
+ 
+ 
+ 
+ 
+struct_dt_i([ 26,56,0 ],name,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,56,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,56,0 ],'ObjName','WWPContext').
+struct_dt_i([ 26,56,0 ],'ObjDesc','WWPContext').
+struct_dt_i([ 26,56,0 ],'ExternalName','WWPContext').
+struct_dt_i([ 26,56,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,56,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,59,0 ],name,'WWPBaseObjects\WWPGridState').
+struct_dt_i([ 26,59,0 ],namespace,'Mujer_Morena').
+struct_dt_i([ 26,59,0 ],'ObjName','WWPGridState').
+struct_dt_i([ 26,59,0 ],'ObjDesc','Grid State').
+struct_dt_i([ 26,59,0 ],'ExternalName','WWPGridState').
+struct_dt_i([ 26,59,0 ],'ExternalNamespace','Mujer_Morena').
+struct_dt_i([ 26,59,0 ],'JsonInclude',idJsonNoProperty).
+struct_dt_i([ 26,59,111 ],name,'FilterValue').
+struct_dt_i([ 26,59,111 ],namespace,'Mujer_Morena.WWPGridState').
+struct_dt_i([ 26,59,112 ],name,'DynamicFilter').
+struct_dt_i([ 26,59,112 ],namespace,'Mujer_Morena.WWPGridState').
+struct_dt_i([ 26,56,0 ],fullname,'WWPBaseObjects\WWPContext').
+struct_dt_i([ 26,59,0 ],fullname,'WWPBaseObjects\WWPGridState').
+struct_dt_i([ 26,59,111 ],fullname,'WWPBaseObjects\WWPGridState.FilterValue').
+struct_dt_i([ 26,59,112 ],fullname,'WWPBaseObjects\WWPGridState.DynamicFilter').
+ 
+struct_dt_elem_i([ 26,56,0 ],1,name,'Userid').
+struct_dt_elem_i([ 26,56,0 ],1,camelname,'UserId').
+struct_dt_elem_i([ 26,56,0 ],1,length,4).
+struct_dt_elem_i([ 26,56,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,56,0 ],1,sign,0).
+struct_dt_elem_i([ 26,56,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,56,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,56,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,56,0 ],1,'ExternalName','UserId').
+struct_dt_elem_i([ 26,56,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,56,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,56,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,56,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,56,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,56,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,56,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,56,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,56,0 ],2,name,'Username').
+struct_dt_elem_i([ 26,56,0 ],2,camelname,'UserName').
+struct_dt_elem_i([ 26,56,0 ],2,length,100).
+struct_dt_elem_i([ 26,56,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,56,0 ],2,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,56,0 ],2,pic,'').
+struct_dt_elem_i([ 26,56,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,56,0 ],2,'ExternalName','UserName').
+struct_dt_elem_i([ 26,56,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,56,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,56,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,56,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,56,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,56,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,56,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,56,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],1,name,'Currentpage').
+struct_dt_elem_i([ 26,59,0 ],1,camelname,'CurrentPage').
+struct_dt_elem_i([ 26,59,0 ],1,length,4).
+struct_dt_elem_i([ 26,59,0 ],1,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],1,sign,0).
+struct_dt_elem_i([ 26,59,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,59,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 26,59,0 ],1,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],1,'ExternalName','CurrentPage').
+struct_dt_elem_i([ 26,59,0 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],1,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],1,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],1,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],2,name,'Orderedby').
+struct_dt_elem_i([ 26,59,0 ],2,camelname,'OrderedBy').
+struct_dt_elem_i([ 26,59,0 ],2,length,4).
+struct_dt_elem_i([ 26,59,0 ],2,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],2,sign,0).
+struct_dt_elem_i([ 26,59,0 ],2,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,59,0 ],2,pic,'ZZZ9').
+struct_dt_elem_i([ 26,59,0 ],2,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],2,'ExternalName','OrderedBy').
+struct_dt_elem_i([ 26,59,0 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],2,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],2,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],2,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],2,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],3,name,'Ordereddsc').
+struct_dt_elem_i([ 26,59,0 ],3,camelname,'OrderedDsc').
+struct_dt_elem_i([ 26,59,0 ],3,length,4).
+struct_dt_elem_i([ 26,59,0 ],3,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],3,type,[ 15,4,0 ]).
+struct_dt_elem_i([ 26,59,0 ],3,pic,'').
+struct_dt_elem_i([ 26,59,0 ],3,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],3,'ExternalName','OrderedDsc').
+struct_dt_elem_i([ 26,59,0 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],3,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],3,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],3,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],4,name,'Hidingsearch').
+struct_dt_elem_i([ 26,59,0 ],4,camelname,'HidingSearch').
+struct_dt_elem_i([ 26,59,0 ],4,length,1).
+struct_dt_elem_i([ 26,59,0 ],4,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],4,sign,0).
+struct_dt_elem_i([ 26,59,0 ],4,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 26,59,0 ],4,pic,'9').
+struct_dt_elem_i([ 26,59,0 ],4,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],4,'ExternalName','HidingSearch').
+struct_dt_elem_i([ 26,59,0 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],4,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],4,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],4,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],5,name,'Pagesize').
+struct_dt_elem_i([ 26,59,0 ],5,camelname,'PageSize').
+struct_dt_elem_i([ 26,59,0 ],5,length,10).
+struct_dt_elem_i([ 26,59,0 ],5,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],5,type,[ 13,10,0 ]).
+struct_dt_elem_i([ 26,59,0 ],5,pic,'').
+struct_dt_elem_i([ 26,59,0 ],5,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],5,'ExternalName','PageSize').
+struct_dt_elem_i([ 26,59,0 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],5,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],5,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],5,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],6,name,'Collapsedrecords').
+struct_dt_elem_i([ 26,59,0 ],6,camelname,'CollapsedRecords').
+struct_dt_elem_i([ 26,59,0 ],6,length,2097152).
+struct_dt_elem_i([ 26,59,0 ],6,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],6,type,[ 8,2097152,0 ]).
+struct_dt_elem_i([ 26,59,0 ],6,pic,'').
+struct_dt_elem_i([ 26,59,0 ],6,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],6,'ExternalName','CollapsedRecords').
+struct_dt_elem_i([ 26,59,0 ],6,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],6,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],6,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],6,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],6,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],6,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,59,0 ],6,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],6,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],7,name,'Groupby').
+struct_dt_elem_i([ 26,59,0 ],7,camelname,'GroupBy').
+struct_dt_elem_i([ 26,59,0 ],7,length,40).
+struct_dt_elem_i([ 26,59,0 ],7,decimals,0).
+struct_dt_elem_i([ 26,59,0 ],7,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,59,0 ],7,pic,'').
+struct_dt_elem_i([ 26,59,0 ],7,collection,'False').
+struct_dt_elem_i([ 26,59,0 ],7,'ExternalName','GroupBy').
+struct_dt_elem_i([ 26,59,0 ],7,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,0 ],7,'XmlType','Element').
+struct_dt_elem_i([ 26,59,0 ],7,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],7,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],7,soaptype,'').
+struct_dt_elem_i([ 26,59,0 ],7,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,59,0 ],7,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],7,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],8,name,'Filtervalues').
+struct_dt_elem_i([ 26,59,0 ],8,camelname,'FilterValues').
+struct_dt_elem_i([ 26,59,0 ],8,type,[ [ 26,59,111 ],0,0 ]).
+struct_dt_elem_i([ 26,59,0 ],8,pic,'').
+struct_dt_elem_i([ 26,59,0 ],8,collection,'True').
+struct_dt_elem_i([ 26,59,0 ],8,'ObjName','FilterValues').
+struct_dt_elem_i([ 26,59,0 ],8,'ObjDesc','Filter Values').
+struct_dt_elem_i([ 26,59,0 ],8,'CollectionItemName','FilterValue').
+struct_dt_elem_i([ 26,59,0 ],8,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],8,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,59,0 ],8,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],8,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,59,0 ],8,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],8,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],8,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,59,0 ],8,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,59,111 ],1,name,'Name').
+struct_dt_elem_i([ 26,59,111 ],1,camelname,'Name').
+struct_dt_elem_i([ 26,59,111 ],1,length,128).
+struct_dt_elem_i([ 26,59,111 ],1,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,59,111 ],1,pic,'').
+struct_dt_elem_i([ 26,59,111 ],1,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],1,'ExternalName','Name').
+struct_dt_elem_i([ 26,59,111 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],1,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],1,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,111 ],1,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,111 ],2,name,'Dsc').
+struct_dt_elem_i([ 26,59,111 ],2,camelname,'Dsc').
+struct_dt_elem_i([ 26,59,111 ],2,length,40).
+struct_dt_elem_i([ 26,59,111 ],2,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,59,111 ],2,pic,'').
+struct_dt_elem_i([ 26,59,111 ],2,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],2,'ExternalName','Dsc').
+struct_dt_elem_i([ 26,59,111 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],2,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],2,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],2,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,59,111 ],2,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,111 ],3,name,'Value').
+struct_dt_elem_i([ 26,59,111 ],3,camelname,'Value').
+struct_dt_elem_i([ 26,59,111 ],3,length,100).
+struct_dt_elem_i([ 26,59,111 ],3,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,59,111 ],3,pic,'').
+struct_dt_elem_i([ 26,59,111 ],3,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],3,'ExternalName','Value').
+struct_dt_elem_i([ 26,59,111 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],3,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],3,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,111 ],3,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,111 ],4,name,'Operator').
+struct_dt_elem_i([ 26,59,111 ],4,camelname,'Operator').
+struct_dt_elem_i([ 26,59,111 ],4,length,4).
+struct_dt_elem_i([ 26,59,111 ],4,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],4,sign,0).
+struct_dt_elem_i([ 26,59,111 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,59,111 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,59,111 ],4,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],4,'ExternalName','Operator').
+struct_dt_elem_i([ 26,59,111 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],4,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],4,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,111 ],4,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,111 ],5,name,'Valueto').
+struct_dt_elem_i([ 26,59,111 ],5,camelname,'ValueTo').
+struct_dt_elem_i([ 26,59,111 ],5,length,100).
+struct_dt_elem_i([ 26,59,111 ],5,decimals,0).
+struct_dt_elem_i([ 26,59,111 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,59,111 ],5,pic,'').
+struct_dt_elem_i([ 26,59,111 ],5,collection,'False').
+struct_dt_elem_i([ 26,59,111 ],5,'ExternalName','ValueTo').
+struct_dt_elem_i([ 26,59,111 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,111 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,59,111 ],5,'XmlName','').
+struct_dt_elem_i([ 26,59,111 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,111 ],5,soaptype,'').
+struct_dt_elem_i([ 26,59,111 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,111 ],5,'JsonName','').
+struct_dt_elem_i([ 26,59,111 ],5,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,0 ],9,name,'Dynamicfilters').
+struct_dt_elem_i([ 26,59,0 ],9,camelname,'DynamicFilters').
+struct_dt_elem_i([ 26,59,0 ],9,type,[ [ 26,59,112 ],0,0 ]).
+struct_dt_elem_i([ 26,59,0 ],9,pic,'').
+struct_dt_elem_i([ 26,59,0 ],9,collection,'True').
+struct_dt_elem_i([ 26,59,0 ],9,'ObjName','DynamicFilters').
+struct_dt_elem_i([ 26,59,0 ],9,'ObjDesc','Dynamic Filters').
+struct_dt_elem_i([ 26,59,0 ],9,'CollectionItemName','DynamicFilter').
+struct_dt_elem_i([ 26,59,0 ],9,'XmlName','').
+struct_dt_elem_i([ 26,59,0 ],9,'XmlCollectionItemName','').
+struct_dt_elem_i([ 26,59,0 ],9,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,0 ],9,'CollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,59,0 ],9,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,0 ],9,'JsonName','').
+struct_dt_elem_i([ 26,59,0 ],9,'JsonInclude',idJsonNoProperty).
+struct_dt_elem_i([ 26,59,0 ],9,'JsonCollectionSerialization',idXmlCollectionWrapped).
+struct_dt_elem_i([ 26,59,112 ],1,name,'Selected').
+struct_dt_elem_i([ 26,59,112 ],1,camelname,'Selected').
+struct_dt_elem_i([ 26,59,112 ],1,length,128).
+struct_dt_elem_i([ 26,59,112 ],1,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],1,type,[ 13,128,0 ]).
+struct_dt_elem_i([ 26,59,112 ],1,pic,'').
+struct_dt_elem_i([ 26,59,112 ],1,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],1,'ExternalName','Selected').
+struct_dt_elem_i([ 26,59,112 ],1,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],1,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],1,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],1,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],1,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],1,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,112 ],1,'JsonName','').
+struct_dt_elem_i([ 26,59,112 ],1,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,112 ],2,name,'Dsc').
+struct_dt_elem_i([ 26,59,112 ],2,camelname,'Dsc').
+struct_dt_elem_i([ 26,59,112 ],2,length,40).
+struct_dt_elem_i([ 26,59,112 ],2,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],2,type,[ 13,40,0 ]).
+struct_dt_elem_i([ 26,59,112 ],2,pic,'').
+struct_dt_elem_i([ 26,59,112 ],2,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],2,'ExternalName','Dsc').
+struct_dt_elem_i([ 26,59,112 ],2,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],2,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],2,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],2,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],2,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],2,'XmlInclude',idXmlIncludeNotNull).
+struct_dt_elem_i([ 26,59,112 ],2,'JsonName',d).
+struct_dt_elem_i([ 26,59,112 ],2,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,112 ],3,name,'Value').
+struct_dt_elem_i([ 26,59,112 ],3,camelname,'Value').
+struct_dt_elem_i([ 26,59,112 ],3,length,100).
+struct_dt_elem_i([ 26,59,112 ],3,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],3,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,59,112 ],3,pic,'').
+struct_dt_elem_i([ 26,59,112 ],3,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],3,'ExternalName','Value').
+struct_dt_elem_i([ 26,59,112 ],3,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],3,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],3,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],3,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],3,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],3,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,112 ],3,'JsonName','').
+struct_dt_elem_i([ 26,59,112 ],3,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,112 ],4,name,'Operator').
+struct_dt_elem_i([ 26,59,112 ],4,camelname,'Operator').
+struct_dt_elem_i([ 26,59,112 ],4,length,4).
+struct_dt_elem_i([ 26,59,112 ],4,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],4,sign,0).
+struct_dt_elem_i([ 26,59,112 ],4,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 26,59,112 ],4,pic,'ZZZ9').
+struct_dt_elem_i([ 26,59,112 ],4,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],4,'ExternalName','Operator').
+struct_dt_elem_i([ 26,59,112 ],4,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],4,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],4,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],4,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],4,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],4,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,112 ],4,'JsonName','').
+struct_dt_elem_i([ 26,59,112 ],4,'JsonInclude',idJsonEmpty).
+struct_dt_elem_i([ 26,59,112 ],5,name,'Valueto').
+struct_dt_elem_i([ 26,59,112 ],5,camelname,'ValueTo').
+struct_dt_elem_i([ 26,59,112 ],5,length,100).
+struct_dt_elem_i([ 26,59,112 ],5,decimals,0).
+struct_dt_elem_i([ 26,59,112 ],5,type,[ 13,100,0 ]).
+struct_dt_elem_i([ 26,59,112 ],5,pic,'').
+struct_dt_elem_i([ 26,59,112 ],5,collection,'False').
+struct_dt_elem_i([ 26,59,112 ],5,'ExternalName','ValueTo').
+struct_dt_elem_i([ 26,59,112 ],5,'ExternalNamespace','Mujer_Morena').
+struct_dt_elem_i([ 26,59,112 ],5,'XmlType','Element').
+struct_dt_elem_i([ 26,59,112 ],5,'XmlName','').
+struct_dt_elem_i([ 26,59,112 ],5,'XmlNamespace','').
+struct_dt_elem_i([ 26,59,112 ],5,soaptype,'').
+struct_dt_elem_i([ 26,59,112 ],5,'XmlInclude',idXmlIncludeAlways).
+struct_dt_elem_i([ 26,59,112 ],5,'JsonName','').
+struct_dt_elem_i([ 26,59,112 ],5,'JsonInclude',idJsonEmpty).
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_parm_i(proc,18,'WWPBASEOBJECTS\LOADWWPCONTEXT',[ [ o('WWPBaseObjects\WWPContext'),0,0,0 ] ],[ [ 'Context',out,[] ] ]).
+pgm_parm_i(proc,88,'WWPBASEOBJECTS\LOADGRIDSTATE',[ [ svchar,120,0,0 ],[ svchar,1000,0,0 ] ],[ [ 'UserCustomKey',in,[] ],[ 'UserCustomValue',out,[] ] ]).
+pgm_parm_i(proc,22,'WWPBASEOBJECTS\SECGAMISAUTHBYFUNCTIONALITYKEY',[ [ svchar,100,0,0 ],[ boolean,4,0,0 ] ],[ [ 'SecGAMFunctionalityKey',in,[] ],[ 'IsAuthorized',out,[] ] ]).
+ 
+pgm_callprotocol_i(proc,173,'MOVIMIENTOCAJAWWEXPORTREPORT','HTTP','Unsecure').
+pgm_callprotocol_i(proc,18,'WWPBASEOBJECTS\LOADWWPCONTEXT','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,88,'WWPBASEOBJECTS\LOADGRIDSTATE','INTERNAL','Unsecure').
+pgm_callprotocol_i(proc,22,'WWPBASEOBJECTS\SECGAMISAUTHBYFUNCTIONALITYKEY','INTERNAL','Unsecure').
+ 
+ 
+ 
+ 
+module_info_i('GeneXus','PACKAGE','com.genexuscore').
+module_info_i('GeneXus','PackageName','GeneXus.jar').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,126 @@
+{ 
+    "Resources" : [ { 
+        "IsDefault" : true,
+        "ResourceFile" : "Images_DEFAULT.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "CarmineIOS",
+        "ResourceFile" : "Images_Spanish_CarmineIOS.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "CarmineIOS",
+        "ResourceFile" : "Images_English_CarmineIOS.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "CarmineSD",
+        "ResourceFile" : "Images_Spanish_CarmineSD.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "CarmineSD",
+        "ResourceFile" : "Images_English_CarmineSD.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "CarmineAndroid",
+        "ResourceFile" : "Images_Spanish_CarmineAndroid.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "CarmineAndroid",
+        "ResourceFile" : "Images_English_CarmineAndroid.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "CarmineWeb",
+        "ResourceFile" : "Images_Spanish_CarmineWeb.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "CarmineWeb",
+        "ResourceFile" : "Images_English_CarmineWeb.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "WorkWithPlusDS",
+        "ResourceFile" : "Images_Spanish_WorkWithPlusDS.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "WorkWithPlusDS",
+        "ResourceFile" : "Images_English_WorkWithPlusDS.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "MujerMorenaSDDSAnyPlatform",
+        "ResourceFile" : "Images_Spanish_MujerMorenaSDDSAnyPlatform.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "MujerMorenaSDDSAnyPlatform",
+        "ResourceFile" : "Images_English_MujerMorenaSDDSAnyPlatform.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "MujerMorenaSDDSAndroid",
+        "ResourceFile" : "Images_Spanish_MujerMorenaSDDSAndroid.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "MujerMorenaSDDSAndroid",
+        "ResourceFile" : "Images_English_MujerMorenaSDDSAndroid.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "MujerMorenaSDDSApple",
+        "ResourceFile" : "Images_Spanish_MujerMorenaSDDSApple.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "MujerMorenaSDDSApple",
+        "ResourceFile" : "Images_English_MujerMorenaSDDSApple.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "WWPBaseObjects.WorkWithPlusBaseDS",
+        "ResourceFile" : "Images_Spanish_WWPBaseObjects_WorkWithPlusBaseDS.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "WWPBaseObjects.WorkWithPlusBaseDS",
+        "ResourceFile" : "Images_English_WWPBaseObjects_WorkWithPlusBaseDS.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "WorkWithPlus.NativeMobile.WorkWithPlusDSFontIcons",
+        "ResourceFile" : "Images_Spanish_WorkWithPlus_NativeMobile_WorkWithPlusDSFontIcons.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "WorkWithPlus.NativeMobile.WorkWithPlusDSFontIcons",
+        "ResourceFile" : "Images_English_WorkWithPlus_NativeMobile_WorkWithPlusDSFontIcons.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "WorkWithPlus.NativeMobile.WorkWithPlusPredefinedStyles",
+        "ResourceFile" : "Images_Spanish_WorkWithPlus_NativeMobile_WorkWithPlusPredefinedStyles.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "WorkWithPlus.NativeMobile.WorkWithPlusPredefinedStyles",
+        "ResourceFile" : "Images_English_WorkWithPlus_NativeMobile_WorkWithPlusPredefinedStyles.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "WorkWithPlus.NativeMobile.WorkWithPlusDSNative",
+        "ResourceFile" : "Images_Spanish_WorkWithPlus_NativeMobile_WorkWithPlusDSNative.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "WorkWithPlus.NativeMobile.WorkWithPlusDSNative",
+        "ResourceFile" : "Images_English_WorkWithPlus_NativeMobile_WorkWithPlusDSNative.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "Mujer_MorenaSDDSAnyPlatform",
+        "ResourceFile" : "Images_Spanish_Mujer_MorenaSDDSAnyPlatform.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "Mujer_MorenaSDDSAnyPlatform",
+        "ResourceFile" : "Images_English_Mujer_MorenaSDDSAnyPlatform.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "Mujer_MorenaSDDSAndroid",
+        "ResourceFile" : "Images_Spanish_Mujer_MorenaSDDSAndroid.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "Mujer_MorenaSDDSAndroid",
+        "ResourceFile" : "Images_English_Mujer_MorenaSDDSAndroid.json"
+    }, { 
+        "Language" : "Spanish",
+        "Theme" : "Mujer_MorenaSDDSApple",
+        "ResourceFile" : "Images_Spanish_Mujer_MorenaSDDSApple.json"
+    }, { 
+        "Language" : "English",
+        "Theme" : "Mujer_MorenaSDDSApple",
+        "ResourceFile" : "Images_English_Mujer_MorenaSDDSApple.json"
+    } ]
+}

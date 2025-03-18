@@ -1,0 +1,36 @@
+[
+  {
+    "Name": "promociones_FullControl",
+    "Description": "Promociones FullControl",
+    "ProgramName": "promociones",
+    "IsGXAutomatic": true
+  },
+  {
+    "Name": "promociones_Execute",
+    "Description": "Promociones",
+    "ProgramName": "promociones",
+    "IsGXAutomatic": true,
+    "Parent": "promociones_FullControl"
+  },
+  {
+    "Name": "promociones_Insert",
+    "Description": "Promociones Insert",
+    "ProgramName": "promociones",
+    "IsGXAutomatic": true,
+    "Parent": "promociones_FullControl"
+  },
+  {
+    "Name": "promociones_Delete",
+    "Description": "Promociones Delete",
+    "ProgramName": "promociones",
+    "IsGXAutomatic": true,
+    "Parent": "promociones_FullControl"
+  },
+  {
+    "Name": "promociones_Update",
+    "Description": "Promociones Update",
+    "ProgramName": "promociones",
+    "IsGXAutomatic": true,
+    "Parent": "promociones_FullControl"
+  }
+]

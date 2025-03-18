@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "wwpvisualizeallnotifications_Execute",
+    "Description": "Visualize all notifications",
+    "ProgramName": "wwpbaseobjects.notifications.common.wwp_visualizeallnotifications",
+    "IsGXAutomatic": true
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "inventarioview_Execute",
+    "Description": "Inventario View",
+    "ProgramName": "inventarioview",
+    "IsGXAutomatic": true
+  }
+]

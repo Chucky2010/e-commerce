@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "ciudadprompt_Execute",
+    "Description": "Selecciona Ciudad",
+    "ProgramName": "ciudadprompt",
+    "IsGXAutomatic": true
+  }
+]

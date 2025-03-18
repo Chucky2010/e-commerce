@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "movimientocajaprompt_Execute",
+    "Description": "Selecciona Movimiento Caja",
+    "ProgramName": "movimientocajaprompt",
+    "IsGXAutomatic": true
+  }
+]

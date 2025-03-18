@@ -1,0 +1,8 @@
+[
+  {
+    "Name": "proveedorprompt_Execute",
+    "Description": "Selecciona Proveedor",
+    "ProgramName": "proveedorprompt",
+    "IsGXAutomatic": true
+  }
+]
